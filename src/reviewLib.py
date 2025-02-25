@@ -25,7 +25,7 @@ class Review:
                     continue
     
             #read HTML template
-            with open(os.path.join("src","evaluation","html","template.html"), 'r') as f:
+            with open(os.path.join("src","html","template.html"), 'r') as f:
                 html = f.read()
             
             #replace reviewer and evaltitle
@@ -41,24 +41,24 @@ class Review:
 
 
             #replace BLOCKDATA in template
-            html=html.replace("BLOCKDATA", json.dumps(self.block))
+            html=html.replace("BLOCKDATA", self.block)
 
             #include all javascript
             js=[]
             #cycle over the compound blocks
-            compoundDir=os.path.join("src","evaluation","js","compoundBlocks")
+            compoundDir=os.path.join("src","js","compoundBlocks")
             for fname in os.listdir(compoundDir):
                 if os.path.isfile(os.path.join(compoundDir, fname)):
                     with open(os.path.join(compoundDir,fname)) as f:
                         js.append(f.read())
             #cycle over the simple blocks
-            simpleDir=os.path.join("src","evaluation","js","simpleBlocks")
+            simpleDir=os.path.join("src","js","simpleBlocks")
             for fname in os.listdir(simpleDir):
                 if os.path.isfile(os.path.join(simpleDir, fname)):
                     with open(os.path.join(simpleDir,fname)) as f:
                         js.append(f.read())            
             #add the main build script
-            with open(os.path.join("src","evaluation","js","build.js"), 'r') as f:
+            with open(os.path.join("src","js","build.js"), 'r') as f:
                 js.append(f.read())
             #insert the JS scripts
             html=html.replace("BUILDJS", '\n'.join(js))            
