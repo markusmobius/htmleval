@@ -1,4 +1,4 @@
-class MultiRow {
+class MultiRowSelect {
 
     constructor(root, block, parent, blockID) {
         this.blockID=blockID;
@@ -95,4 +95,4 @@ class MultiRow {
   
     
 //add class to lookup dictionary
-blockLookup["multi_row"]=MultiRow;
+blockLookup["multi_row_select"]=MultiRowSelect;

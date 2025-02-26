@@ -1,15 +1,9 @@
-class MultiRowOption:
+from src.json.simpleBlocks.multiRowOption import MultiRowOption
 
-    def __init__(self,label : str,value : str,color :str =None):
-        self.label=label
-        self.value=value
-        if color is not None:
-            self.color=color
-
-class MultiRow:
+class MultiRowSelect:
 
     def __init__(self,rowLabel: str,questionLabel: str, variableName: str, options : list[MultiRowOption]):
-        self.type="multi_row"
+        self.type="multi_row_select"
         self.content={
                 "rowLabel" : rowLabel,
                 "questionLabel" : questionLabel,

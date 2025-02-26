@@ -5,17 +5,22 @@ class SimpleText {
         this.parent=parent;
         //keep track of completion
         this.completed=[0,0];
+        var div=document.createElement("div");
+        root.appendChild(div);
+        if (block["content"]["scrollable"]===true){
+            div.className="scrollable-box";
+        }
         //write title (if exists)
         if (block["content"]["title"]!=undefined){
             var h=document.createElement("h"+block["content"]["title"]["size"]);
-            root.appendChild(h);
+            div.appendChild(h);
             h.innerHTML=block["content"]["title"]["text"];
         }
         //write body (if exists)
         if (block["content"]["body"]!=undefined){
             for(var i=0;i<block["content"]["body"]["text"].length;i++){
                 var p=document.createElement("p");
-                root.appendChild(p);
+                div.appendChild(p);
                 p.innerHTML=block["content"]["body"]["text"][i];    
             }
         }
