@@ -37,12 +37,19 @@ class MultiRowSelect {
             var select = document.createElement("select");
             td.appendChild(select);
             select.className = "form-control";
-            var id=block["content"]["rows"][i]["id"]+"|"+block["content"]["variableName"];
-            select.setAttribute("id",id);
+            var fullId=["",""];
+            for(var key in block["content"]["rows"][i]["id"]){
+                fullId[key]=block["content"]["rows"][i]["id"][key];
+            }
+            for(var key in block["content"]["id"]){
+                fullId[key]=block["content"]["id"][key];
+            }
+            fullId=JSON.stringify(fullId);
+            select.setAttribute("id",fullId);
             var option = document.createElement("option");
             option.innerHTML = "Select";
             select.appendChild(option);
-            var oldValue=data["variables"][id];
+            var oldValue=data["variables"][fullId];
             for(var k=0;k<block["content"]["options"].length;k++){
                 var option = document.createElement("option");
                 option.innerHTML = block["content"]["options"][k]["label"];

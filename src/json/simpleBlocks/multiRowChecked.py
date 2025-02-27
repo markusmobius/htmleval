@@ -2,16 +2,16 @@ from src.json.simpleBlocks.multiRowOption import MultiRowOption
 
 class MultiRowChecked:
 
-    def __init__(self,rowLabel: str, variableName: str, options : list[MultiRowOption]):
+    def __init__(self,rowLabel: str, id: dict, options : list[MultiRowOption]):
         self.type="multi_row_checked"
         self.content={
                 "rowLabel" : rowLabel,
-                "variableName" : variableName,
+                "id" : id,
                 "options" : options,
                 "rows": []
         }
 
-    def add_row(self,id: str, text: str):
+    def add_row(self,id: dict, text: str):
         self.content["rows"].append(
             {
                 "id" : id,

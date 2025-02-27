@@ -18,10 +18,26 @@ class SimpleText {
         }
         //write body (if exists)
         if (block["content"]["body"]!=undefined){
-            for(var i=0;i<block["content"]["body"]["text"].length;i++){
-                var p=document.createElement("p");
-                div.appendChild(p);
-                p.innerHTML=block["content"]["body"]["text"][i];    
+            if (block["content"]["body"]["is_table"]==true){
+                var tbl = document.createElement("table");
+                tbl.className = "table table-striped table-hover";
+                root.appendChild(tbl);
+                var tbody = document.createElement("tbody");
+                tbl.appendChild(tbody);
+                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                    var row = document.createElement("tr");
+                    tbody.appendChild(row);
+                    var td = document.createElement("td");
+                    row.appendChild(td);
+                    td.innerHTML=block["content"]["body"]["text"][i];
+                }
+            }
+            else{
+                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                    var p=document.createElement("p");
+                    div.appendChild(p);
+                    p.innerHTML=block["content"]["body"]["text"][i];    
+                }    
             }
         }
         this.completion();

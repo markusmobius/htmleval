@@ -34,7 +34,14 @@ class MultiRowChecked {
             row.appendChild(td);
             td.innerHTML=block["content"]["rows"][i]["text"];
             //now create the check boxes element
-            var fullId=block["content"]["rows"][i]["id"]+"|"+block["content"]["variableName"];
+            var fullId=["",""];
+            for(var key in block["content"]["rows"][i]["id"]){
+                fullId[key]=block["content"]["rows"][i]["id"][key];
+            }
+            for(var key in block["content"]["id"]){
+                fullId[key]=block["content"]["id"][key];
+            }
+            fullId=JSON.stringify(fullId);
             var oldValue=data["variables"][fullId];
             for(var k=0;k<block["content"]["options"].length;k++){
                 var td = document.createElement("td");
@@ -59,6 +66,10 @@ class MultiRowChecked {
                     input.checked = false;
                 }
                 input.addEventListener('change', (e) => {
+                    if (!e.target.checked){
+                        e.target.checked=true;
+                        return;
+                    }
                     if (data["variables"][e.target.getAttribute("fullid")]==undefined){
                         this.completed[0]++;
                     }
