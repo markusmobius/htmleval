@@ -17,7 +17,11 @@ class MultiRowChecked {
         tbl.appendChild(thead);
         var th = document.createElement("th");
         th.innerHTML = block["content"]["rowLabel"];
-        th.style.width="60%";
+        var width=100-block["content"]["options"].length*10;
+        if (width<50){
+            width=50;
+        }
+        th.style.width=width+"%";
         header_row.appendChild(th);
         for(var k=0;k<block["content"]["options"].length;k++){
             th = document.createElement("th");
@@ -50,6 +54,7 @@ class MultiRowChecked {
                 td.appendChild(input);    
                 input.setAttribute("type","checkbox");
                 input.setAttribute("fullid",fullId);
+                input.setAttribute("id",fullId+"|"+block["content"]["options"][k]["value"])
                 input.setAttribute("order",k+1);
                 input.setAttribute("varvalue",block["content"]["options"][k]["value"]);
                 if (block["content"]["options"][k]["color"]!=undefined){

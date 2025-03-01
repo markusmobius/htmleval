@@ -4,6 +4,7 @@ from src.json.reviewJsonLib import ReviewJSON
 from src.json.compoundBlocks.tabs import Tabs
 from src.json.compoundBlocks.column import Column
 from src.json.simpleBlocks.multiRowSelect import MultiRowSelect
+from src.json.simpleBlocks.multiRowSelect import MultiRowSelectQuestion
 from src.json.simpleBlocks.multiRowChecked import MultiRowChecked
 from src.json.simpleBlocks.multiRowOption import MultiRowOption
 from src.json.simpleBlocks.text import Text
@@ -35,9 +36,12 @@ options=[
     MultiRowOption(label="No",value ="no",color="danger"),
     MultiRowOption(label="Yes",value ="yes",color="success")
 ]
-multi=MultiRowSelect(rowLabel="Fragment",questionLabel="Correct?",id={1:"correct"},options=options)
-multi.add_row(id={0:"frag1"},text="Stocks, bonds and commodities are heading for their strongest simultaneous four-month rise on record, highlighting the breadth of the market recovery during the 2020 economic slowdown.")
-multi.add_row(id={0:"frag2"},text="Through Thursday, the")
+questions=[
+    MultiRowSelectQuestion("Correct?",id={1:"correct"},options=options)
+]
+multi=MultiRowSelect(rowLabels=["Fragment"],questions=questions)
+multi.add_row(id={0:"frag1"},text=["Stocks, bonds and commodities are heading for their strongest simultaneous four-month rise on record, highlighting the breadth of the market recovery during the 2020 economic slowdown."])
+multi.add_row(id={0:"frag2"},text=["Through Thursday, the"])
 root.add_tab(tabName="Tab 3",block=multi)
 
 #add the fourth tab
@@ -135,8 +139,30 @@ actionQuestions=MultiRowChecked("Question",id={0:"action1"},options=options)
 actionQuestions.add_row(id={1:"contained"},text="Is the action in described in an article?")
 actionQuestions.add_row(id={1:"controversial"},text="Is the action controversial?")
 actionQuestions.add_row(id={1:"correctactor"},text="Is the correct actor identified in the article?")
+argumentFavorDescription = Text(title="Arguments in Favor",titleSize=2)
+argumentFavorQuestions=MultiRowSelect(rowLabels=["Argument","Example Fragment"],questions=[
+      MultiRowSelectQuestion(label="Is argument present in text?",id={1:"id_present"},options=options),
+      MultiRowSelectQuestion(label="Is argument valid?",id={1:"is_valid"},options=options),
+])
+argumentFavorQuestions.add_row([
+    "Homeless adults should not be housed in SRO (Single Room Occupancy) hotels because they cannot provide the necessary services.",
+    "I will continue to be a passionate advocate against housing homeless adults in SRO hotels where they don’t get the services [they] need."
+],id={0:"tab1_argument_favor1"})
+argumentFavorQuestions.add_row([
+    "Homeless men at the Lucerne require housing in shelters equipped with full services to address their needs adequately.",
+    "This vulnerable population requires housing in proper shelters with full services."
+],id={0:"tab1_argument_favor2"})
+argumentAgainstDescription = Text(title="Arguments Against",titleSize=2)
+argumentAgainstQuestions=MultiRowSelect(rowLabels=["Argument","Example Fragment"],questions=[
+      MultiRowSelectQuestion(label="Is argument present in text?",id={1:"id_present"},options=options),
+      MultiRowSelectQuestion(label="Is argument valid?",id={1:"is_valid"},options=options),
+])
+argumentAgainstQuestions.add_row([
+    "The relocation efforts are opposed due to the disruption it could cause to the lives of the homeless men involved.",
+    "Vandals splattered the front of a prominent Manhattan lawyer’s home with graffiti blaring, “Randy Mastro you can’t displace us”"
+],id={0:"tab1_argument_against1"})		
 subCol=Column()
-subCol.add_column([actionDescription,actionQuestions])
+subCol.add_column([actionDescription,actionQuestions,argumentFavorDescription,argumentFavorQuestions,argumentAgainstDescription,argumentAgainstQuestions])
 subTabs.add_tab(tabName="0",block=subCol)
 #now add the action sub tab 2
 actionDescription=Text(title="Action and Actor",titleSize=2,body=[
@@ -151,9 +177,28 @@ actionQuestions=MultiRowChecked("Question",id={0:"action2"},options=options)
 actionQuestions.add_row(id={1:"contained"},text="Is the action in described in an article?")
 actionQuestions.add_row(id={1:"controversial"},text="Is the action controversial?")
 actionQuestions.add_row(id={1:"correctactor"},text="Is the correct actor identified in the article?")
+argumentFavorDescription = Text(title="Arguments in Favor",titleSize=2)
+argumentFavorQuestions=MultiRowSelect(rowLabels=["Argument","Example Fragment"],questions=[
+      MultiRowSelectQuestion(label="Is argument present in text?",id={1:"id_present"},options=options),
+      MultiRowSelectQuestion(label="Is argument valid?",id={1:"is_valid"},options=options),
+])
+argumentFavorQuestions.add_row([
+    "Initiating legal intervention to prevent the inappropriate use of unsuitable facilities for housing vulnerable populations.",
+    "Mayor Bill de Blasio announced in early September that he would stop using the Lucerne as a homeless shelter after Mastro threatened a lawsuit."
+],id={0:"tab2_argument_favor1"})
+argumentAgainstDescription = Text(title="Arguments Against",titleSize=2)
+argumentAgainstQuestions=MultiRowSelect(rowLabels=["Argument","Example Fragment"],questions=[
+      MultiRowSelectQuestion(label="Is argument present in text?",id={1:"id_present"},options=options),
+      MultiRowSelectQuestion(label="Is argument valid?",id={1:"is_valid"},options=options),
+])
+argumentAgainstQuestions.add_row([
+    "The lawsuit causes additional stress and uncertainty for the residents involved, potentially exacerbating their already challenging circumstances.",
+    "But the men remain in the converted facility after a Manhattan judge blocked their move, following legal challenges both by Lucerne residents and a group of Financial District neighbors."
+],id={0:"tab2_argument_against1"})		
 subCol=Column()
-subCol.add_column([actionDescription,actionQuestions])
+subCol.add_column([actionDescription,actionQuestions,argumentFavorDescription,argumentFavorQuestions,argumentAgainstDescription,argumentAgainstQuestions])
 subTabs.add_tab(tabName="1",block=subCol)
+
 
 #now we create the JSON
 json=demo.get_json()

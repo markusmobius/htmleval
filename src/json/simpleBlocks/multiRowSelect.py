@@ -1,22 +1,27 @@
 from src.json.simpleBlocks.multiRowOption import MultiRowOption
 
+class MultiRowSelectQuestion:
+
+    def __init__(self,label: str, id: dict, options : list[MultiRowOption]):
+        self.label=label
+        self.id=id
+        self.options=options
+
 class MultiRowSelect:
 
-    def __init__(self,rowLabel: str,questionLabel: str, id: dict, options : list[MultiRowOption]):
+    def __init__(self,rowLabels: list[str],questions: list[MultiRowSelectQuestion]):
         self.type="multi_row_select"
         self.content={
-                "rowLabel" : rowLabel,
-                "questionLabel": questionLabel,
-                "id" : id,
-                "options" : options,
+                "rowLabels" : rowLabels,
+                "questions": questions,
                 "rows": []
         }
 
-    def add_row(self,id: dict, text: str):
+    def add_row(self,text:list[str], id: dict):
         self.content["rows"].append(
             {
-                "id" : id,
-                "text" : text
+                "text" : text,
+                "id" : id
             }
         )
     
