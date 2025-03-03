@@ -3,6 +3,9 @@ from src.reviewLib import Review
 from src.json.reviewJsonLib import ReviewJSON
 from src.json.compoundBlocks.tabs import Tabs
 from src.json.compoundBlocks.column import Column
+from src.json.compoundBlocks.interactive import Interactive
+from src.json.compoundBlocks.interactive import InteractiveParagraph
+from src.json.compoundBlocks.interactive import InteractiveFragment
 from src.json.simpleBlocks.multiRowSelect import MultiRowSelect
 from src.json.simpleBlocks.multiRowSelect import MultiRowSelectQuestion
 from src.json.simpleBlocks.multiRowChecked import MultiRowChecked
@@ -21,6 +24,8 @@ col.add_column([
     Text(title= "This is the first text block",titleSize=3,body=["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."]),
     Text(title="This is the second text block",titleSize=3,body=["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."])
 ])
+
+
 #add the second tab
 col=Column()
 root.add_tab(tabName="Tab 2",block=col)
@@ -31,6 +36,8 @@ col.add_column([
     Text(title= "This is the first right text block",titleSize=3,body=["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."]),
     Text(title= "This is the second right text block",titleSize=3,body=["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."])
 ])
+
+
 #add the third tab
 options=[
     MultiRowOption(label="No",value ="no",color="danger"),
@@ -43,6 +50,7 @@ multi=MultiRowSelect(rowLabels=["Fragment"],questions=questions)
 multi.add_row(id={0:"frag1"},text=["Stocks, bonds and commodities are heading for their strongest simultaneous four-month rise on record, highlighting the breadth of the market recovery during the 2020 economic slowdown."])
 multi.add_row(id={0:"frag2"},text=["Through Thursday, the"])
 root.add_tab(tabName="Tab 3",block=multi)
+
 
 #add the fourth tab
 col=Column()
@@ -74,6 +82,7 @@ multi.add_row(id={0:"article1"},text="Is the summary good?")
 col.add_column([nestedCol, multi])
 root.add_tab(tabName="Tab 4",block=col)
 
+
 #add the fifth tab
 col=Column()
 #add a nested side-by-side Column
@@ -101,6 +110,7 @@ multi=MultiRowChecked(rowLabel="Question",id={1:"appropriate"},options=options)
 multi.add_row(id={0:"cluster1"},text="Is this cluster appropriate?")
 col.add_column([nestedCol, multi])
 root.add_tab(tabName="Tab 5",block=col)
+
 
 #add the sixth tab
 mainCol=Column()
@@ -199,6 +209,24 @@ subCol=Column()
 subCol.add_column([actionDescription,actionQuestions,argumentFavorDescription,argumentFavorQuestions,argumentAgainstDescription,argumentAgainstQuestions])
 subTabs.add_tab(tabName="1",block=subCol)
 
+
+#add the seventh tab
+interactive=Interactive()
+#add three paragraph
+for i in range(3):
+    p=InteractiveParagraph()
+    interactive.addParagraph(p)
+    #add three fragments per paragraph
+    for f in range(2):
+        fragmentTab=MultiRowChecked("Question",id={0:f"sentence{i}:{f}"},options=options)
+        fragmentTab.add_row(id={1:"like"},text="Do you like this sentence?")
+        fragmentTab.add_row(id={1:"grammar"},text="Does it have grammatical errors?")
+        fragmentTab.add_row(id={1:"spelling"},text="Are there misspellings?")
+        p.addFragment(InteractiveFragment(
+            text=f"This is paragraph {i} with sentence {f}.",
+            block=fragmentTab
+        ))
+root.add_tab(tabName="Tab 7",block=interactive)
 
 #now we create the JSON
 json=demo.get_json()
