@@ -172,3 +172,4 @@ cython_debug/
 
 #reviewer files
 __demo/reviewer*
+__demo2/reviewer*

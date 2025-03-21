@@ -1,23 +1,18 @@
 import os
 import json
 import uuid
+import requests
 
 class Review:
 
-    targetFolder=""
-    block=None
-    evalTitle=""
- 
-    def __init__(self,targetFolder,block,evalTitle):
-        self.block=block
-        self.targetFolder=targetFolder
-        self.evalTitle=evalTitle
- 
-    #provide list of reviewers
-    def create(self,reviewers,reviewerIds={}):
+    def __init__(self,serverURL):
+        self.serverURL=serverURL
+
+    #create new review
+    def create(self, targetFolder : str, evalTitle : str, blockJSON : str, reviewers : list[str], reviewerIds : dict = {}):
         for reviewer in reviewers: 
             htmlFileName=f"{reviewer}.html"
-            htmlFileName = os.path.join(self.targetFolder,htmlFileName)
+            htmlFileName = os.path.join(targetFolder,htmlFileName)
             if os.path.exists(htmlFileName):
                 print(f"ignoring {htmlFileName}: already exists. Would you like to overwrite?")
                 overwrite = input("y/n: ")
@@ -30,7 +25,7 @@ class Review:
             
             #replace reviewer and evaltitle
             html=html.replace("REVIEWERNAME",reviewer)
-            html=html.replace("EVALTITLE",self.evalTitle)
+            html=html.replace("EVALTITLE",evalTitle)
             if reviewer not in reviewerIds:
                 reviewerID = str(uuid.uuid4())
                 # Update the dictionary with the reviewer name and ID
@@ -41,7 +36,7 @@ class Review:
 
 
             #replace BLOCKDATA in template
-            html=html.replace("BLOCKDATA", self.block)
+            html=html.replace("BLOCKDATA", blockJSON)
 
             #include all javascript
             js=[]
@@ -62,14 +57,35 @@ class Review:
                 js.append(f.read())
             #insert the JS scripts
             html=html.replace("BUILDJS", '\n'.join(js))            
+            html=html.replace("SERVERURL",self.serverURL)
 
             #save the HTML file
             with open(htmlFileName, 'w') as f:
                 f.write(html)
 
         #now save reviewer IDs
-        reviewerFileName=os.path.join(self.targetFolder, "reviewer_ids.json")
+        reviewerFileName=os.path.join(targetFolder, "reviewer_ids.json")
         with open(reviewerFileName, 'w') as f:
            json.dump(reviewerIds, f, indent=4)
 
         print(f"Reviewer IDs saved to {reviewerFileName}")
+
+        def close(self, reviewerIds : dict):
+            for reviewer, reviewerID in reviewerIds:
+                print(f"Retrieving data for reviewer {reviewer}")
+                # Do a get request to pull down the data.
+                url = self.serverURL + reviewerID
+
+                # Send a GET request to the URL
+                response = requests.get(url)
+
+                # Check if the request was successful
+                if response.status_code == 200:
+                    # Parse the JSON data
+                    data = response.json()
+        
+                    # Save the JSON data to a file
+                    #with open(os.path.join("evaluations", dataFolder, key + "_closed.json"), "w") as file:
+                    #    json.dump(data, file, indent=4)        
+                else:
+                    print(f"Failed to download data. HTTP Status code: {response.status_code}")

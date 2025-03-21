@@ -17,7 +17,8 @@ from src.json.simpleBlocks.text import Text
 #root block are tabs
 root=Tabs()
 demo = ReviewJSON(root)
-#add the first tab
+
+#add the first tab (a pure text tab)
 col=Column()
 root.add_tab(tabName="Tab 1",block=col)
 col.add_column([
@@ -26,7 +27,7 @@ col.add_column([
 ])
 
 
-#add the second tab
+#add the second tab (a pure text tab with side by side columns)
 col=Column()
 root.add_tab(tabName="Tab 2",block=col)
 col.add_column([
@@ -236,5 +237,6 @@ with open(os.path.join("__demo","demo.json"), 'w') as f:
     f.write(json)
 
 #now we create the HTML files
-review=Review("__demo",json,"Demo")
-review.create(["reviewer1","reviewer2"])
+review=Review("https://www.kv.econlabs.org/")
+review.create(targetFolder="__demo",blockJSON=json,evalTitle="Demo",reviewers=["reviewer1","reviewer2"])
+

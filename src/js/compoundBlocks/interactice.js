@@ -50,9 +50,11 @@ class Interactive {
           span.addEventListener("click", (e) => {
             //unmark old span
             var priorSpan=this.spanAssignments[data["active"][this.blockID]];
-            priorSpan.classList.remove("bg-warning-subtle");
-            priorSpan.classList.add(priorSpan.getAttribute("color"));
-            this.tabAssignments[data["active"][this.blockID]].style.display="none";
+            if (priorSpan!=undefined){
+              priorSpan.classList.remove("bg-warning-subtle");
+              priorSpan.classList.add(priorSpan.getAttribute("color"));  
+              this.tabAssignments[data["active"][this.blockID]].style.display="none";
+            }
             //mark new span
             e.target.classList.remove("bg-success-subtle");
             e.target.classList.remove("bg-primary-subtle");
