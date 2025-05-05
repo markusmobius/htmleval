@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "htmleval" # *** IMPORTANT: Changed to your package name ***
+version = "0.1.0" # Start with an initial version
+description = "A Python package that facilitates the creation of HTML evaluations." # *** TODO: Update with accurate description ***
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Markus Mobius" }
+    # Add other authors if needed
+]
+
+# *** TODO: Add your actual dependencies here ***
+dependencies = [
+    # e.g., "beautifulsoup4",
+    # "requests"
+]
+
+classifiers = [
+    # Choose appropriate classifiers
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License", # Or your chosen license
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    # Add relevant topic classifiers
+    # "Topic :: Text Processing :: Markup :: HTML",
+]
+
+# *** TODO: Add relevant keywords ***
+keywords = ["html", "evaluation", "surveys", "audits"]
+
+[project.urls]
+"Homepage" = "https://github.com/markusmobius/htmleval" # *** Updated ***
+"Repository" = "https://github.com/markusmobius/htmleval" # *** Updated ***
+"Bug Tracker" = "https://github.com/markusmobius/htmleval/issues" # *** Updated ***
+# "Documentation" = "..." # Optional: Add link if you have separate docs
+
+# This tells setuptools to look for packages under the 'src' directory
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# Optional: Define development dependencies
+# [project.optional-dependencies]
+# dev = [
+#     "pytest",
+#     "ruff",
+# ]
