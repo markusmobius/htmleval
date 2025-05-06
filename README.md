@@ -1,4 +1,4 @@
-# HtmlEval Documentation
+# HTMLEval Documentation
 
 **HtmlEval** is a framework for constructing **evaluation surveys** with reusable, structured **blocks**.  
 It enables the creation of **simple and complex survey layouts**, allowing users to:
