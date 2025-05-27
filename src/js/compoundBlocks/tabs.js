@@ -45,7 +45,9 @@ class Tabs {
                 var oldStatus=[0,0];
                 for(var key in this.tabBlockAssignment){
                     if (this.tabBlockAssignment[key]==data["active"][this.blockID]){
-                        oldStatus=this.completed[key];
+                        if (this.completed[key] !== undefined) {
+                            oldStatus=this.completed[key];
+                        }
                     }
                 }
                 if (oldStatus[1]>0 && oldStatus[0]==oldStatus[1]){
