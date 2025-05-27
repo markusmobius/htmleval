@@ -1,6 +1,6 @@
 var saveSurvey = function() {
             //we assume that the data is stored in tabData
-            fetch("https://www.kv.econlabs.org//" + reviewerID, {
+            fetch("SERVERURL" + reviewerID, {
                 method: 'PUT',
                 headers: {
                     'Content-type': 'text'

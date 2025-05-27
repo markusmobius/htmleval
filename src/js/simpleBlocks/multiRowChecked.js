@@ -17,7 +17,11 @@ class MultiRowChecked {
         tbl.appendChild(thead);
         var th = document.createElement("th");
         th.innerHTML = block["content"]["rowLabel"];
-        th.style.width="60%";
+        var width=100-block["content"]["options"].length*10;
+        if (width<50){
+            width=50;
+        }
+        th.style.width=width+"%";
         header_row.appendChild(th);
         for(var k=0;k<block["content"]["options"].length;k++){
             th = document.createElement("th");
@@ -34,7 +38,14 @@ class MultiRowChecked {
             row.appendChild(td);
             td.innerHTML=block["content"]["rows"][i]["text"];
             //now create the check boxes element
-            var fullId=block["content"]["rows"][i]["id"]+"|"+block["content"]["variableName"];
+            var fullId=["",""];
+            for(var key in block["content"]["rows"][i]["id"]){
+                fullId[key]=block["content"]["rows"][i]["id"][key];
+            }
+            for(var key in block["content"]["id"]){
+                fullId[key]=block["content"]["id"][key];
+            }
+            fullId=JSON.stringify(fullId);
             var oldValue=data["variables"][fullId];
             for(var k=0;k<block["content"]["options"].length;k++){
                 var td = document.createElement("td");
@@ -43,6 +54,7 @@ class MultiRowChecked {
                 td.appendChild(input);    
                 input.setAttribute("type","checkbox");
                 input.setAttribute("fullid",fullId);
+                input.setAttribute("id",fullId+"|"+block["content"]["options"][k]["value"])
                 input.setAttribute("order",k+1);
                 input.setAttribute("varvalue",block["content"]["options"][k]["value"]);
                 if (block["content"]["options"][k]["color"]!=undefined){
@@ -59,6 +71,10 @@ class MultiRowChecked {
                     input.checked = false;
                 }
                 input.addEventListener('change', (e) => {
+                    if (!e.target.checked){
+                        e.target.checked=true;
+                        return;
+                    }
                     if (data["variables"][e.target.getAttribute("fullid")]==undefined){
                         this.completed[0]++;
                     }
