@@ -1,4 +1,4 @@
-from src.json.simpleBlocks.multiRowOption import MultiRowOption
+from htmleval.src.json.simpleBlocks.multiRowOption import MultiRowOption
 
 class MultiRowSelect:
 
