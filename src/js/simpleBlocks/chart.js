@@ -83,15 +83,27 @@ class SimpleHistogram extends Chart {
             rect.setAttribute("fill", val === 0 ? "#dddddd" : barColor);
             svg.appendChild(rect);
             
-            // // Draw value above bar
-            // const valueText = document.createElementNS("http://www.w3.org/2000/svg", "text");
-            // valueText.setAttribute("x", leftMargin + i * barWidth + barWidth / 2);
-            // valueText.setAttribute("y", height - barHeight - 35);
-            // valueText.setAttribute("text-anchor", "middle");
-            // valueText.setAttribute("font-size", "12");
-            // valueText.setAttribute("fill", "#333");
-            // valueText.textContent = val;
-            // svg.appendChild(valueText);
+            // Add tooltip using HTML title attribute which has better browser support
+            rect.setAttribute("data-value", val);
+            rect.addEventListener("mouseover", (e) => {
+                const tooltip = document.createElement("div");
+                tooltip.textContent = val;
+                tooltip.style.position = "absolute";
+                tooltip.style.backgroundColor = "rgba(0,0,0,0.7)";
+                tooltip.style.color = "white";
+                tooltip.style.padding = "5px";
+                tooltip.style.borderRadius = "3px";
+                tooltip.style.fontSize = "12px";
+                tooltip.style.left = `${e.pageX + 10}px`;
+                tooltip.style.top = `${e.pageY - 20}px`;
+                tooltip.style.zIndex = "1000";
+                tooltip.id = "chart-tooltip";
+                document.body.appendChild(tooltip);
+            });
+            rect.addEventListener("mouseout", () => {
+                const tooltip = document.getElementById("chart-tooltip");
+                if (tooltip) tooltip.remove();
+            });
 
             // Draw x-axis label
             if (labels[i]) {
@@ -99,7 +111,7 @@ class SimpleHistogram extends Chart {
                 text.setAttribute("x", leftMargin + i * barWidth + barWidth / 2);
                 text.setAttribute("y", height - 10);
                 text.setAttribute("text-anchor", "middle");
-                text.setAttribute("font-size", "9");
+                text.setAttribute("font-size", "8");
                 text.textContent = labels[i];
                 svg.appendChild(text);
             }
