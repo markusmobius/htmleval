@@ -27,9 +27,20 @@ class SimpleText {
                 for(var i=0;i<block["content"]["body"]["text"].length;i++){
                     var row = document.createElement("tr");
                     tbody.appendChild(row);
-                    var td = document.createElement("td");
-                    row.appendChild(td);
-                    td.innerHTML=block["content"]["body"]["text"][i];
+                    var rowData = block["content"]["body"]["text"][i];
+                    // If rowData is an array, create a cell for each item
+                    if (Array.isArray(rowData)) {
+                        for (var j = 0; j < rowData.length; j++) {
+                            var td = document.createElement("td");
+                            row.appendChild(td);
+                            td.innerHTML = rowData[j];
+                        }
+                    } else {
+                        // Fallback: treat as single column
+                        var td = document.createElement("td");
+                        row.appendChild(td);
+                        td.innerHTML = rowData;
+                    }
                 }
             }
             else{

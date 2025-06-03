@@ -1,116 +1,160 @@
 class MultiRowChecked {
 
     constructor(root, block, parent, blockID) {
-        this.blockID=blockID;
-        this.parent=parent;
-        //keep track of completion
-        this.completed=[0,0];
-        //construct table
+        this.blockID = blockID;
+        this.parent = parent;
+        this.completed = [0, 0];
+
+        // Use custom_colours flag if present, default to false
+        const custom_colours = block["content"]["custom_colours"] === true;
+
+        // Construct table
         var tbl = document.createElement("table");
         tbl.className = "table table-striped table-hover";
         tbl.setAttribute("border", 1);
         root.appendChild(tbl);
-        //add header
+
+        // Add header
         var thead = document.createElement("thead");
         var header_row = document.createElement("tr");
         thead.appendChild(header_row);
         tbl.appendChild(thead);
+
         var th = document.createElement("th");
         th.innerHTML = block["content"]["rowLabel"];
-        var width=100-block["content"]["options"].length*10;
-        if (width<50){
-            width=50;
-        }
-        th.style.width=width+"%";
+        let options_length = custom_colours
+            ? (block["content"]["rows"][0]?.options?.length || 0)
+            : block["content"]["options"].length;
+        var width = 100 - options_length * 10;
+        if (width < 50) width = 50;
+        th.style.width = width + "%";
         header_row.appendChild(th);
-        for(var k=0;k<block["content"]["options"].length;k++){
-            th = document.createElement("th");
-            th.innerHTML = block["content"]["options"][k]["label"];
-            header_row.appendChild(th);    
+
+        // Header columns
+        if (custom_colours) {
+            let firstOptions = block["content"]["rows"][0]?.options || [];
+            for (var k = 0; k < firstOptions.length; k++) {
+                th = document.createElement("th");
+                th.innerHTML = firstOptions[k]["label"];
+                header_row.appendChild(th);
+            }
+        } else {
+            for (var k = 0; k < block["content"]["options"].length; k++) {
+                th = document.createElement("th");
+                th.innerHTML = block["content"]["options"][k]["label"];
+                header_row.appendChild(th);
+            }
         }
-        //now add the rows    
+
+        // Add rows
         var tbody = document.createElement("tbody");
         tbl.appendChild(tbody);
         for (var i = 0; i < block["content"]["rows"].length; i++) {
             var row = document.createElement("tr");
             tbody.appendChild(row);
             var td = document.createElement("td");
+            if (custom_colours && block["content"]["rows"][i].highlight) {
+                td.className = "table-" + block["content"]["rows"][i].highlight;
+            }
             row.appendChild(td);
-            td.innerHTML=block["content"]["rows"][i]["text"];
-            //now create the check boxes element
-            var fullId=["",""];
-            for(var key in block["content"]["rows"][i]["id"]){
-                fullId[key]=block["content"]["rows"][i]["id"][key];
+            td.innerHTML = block["content"]["rows"][i]["text"];
+
+            // Build fullId
+            var fullId = ["", ""];
+            for (var key in block["content"]["rows"][i]["id"]) {
+                fullId[key] = block["content"]["rows"][i]["id"][key];
             }
-            for(var key in block["content"]["id"]){
-                fullId[key]=block["content"]["id"][key];
+            for (var key in block["content"]["id"]) {
+                fullId[key] = block["content"]["id"][key];
             }
-            fullId=JSON.stringify(fullId);
-            var oldValue=data["variables"][fullId];
-            for(var k=0;k<block["content"]["options"].length;k++){
+            fullId = JSON.stringify(fullId);
+            var oldValue = data["variables"][fullId];
+
+            // Use row-specific or table-level options
+            var options = custom_colours
+                ? block["content"]["rows"][i]["options"]
+                : block["content"]["options"];
+
+            // Store references to the created td cells and their corresponding option colors
+            let optionCells = [];
+            for (var k = 0; k < options.length; k++) {
                 var td = document.createElement("td");
                 row.appendChild(td);
                 var input = document.createElement("input");
-                td.appendChild(input);    
-                input.setAttribute("type","checkbox");
-                input.setAttribute("fullid",fullId);
-                input.setAttribute("id",fullId+"|"+block["content"]["options"][k]["value"])
-                input.setAttribute("order",k+1);
-                input.setAttribute("varvalue",block["content"]["options"][k]["value"]);
-                if (block["content"]["options"][k]["color"]!=undefined){
-                    input.setAttribute("color",block["content"]["options"][k]["color"]);
-                }    
-                if (oldValue==block["content"]["options"][k]["value"]){
+                td.appendChild(input);
+                input.setAttribute("type", "checkbox");
+                input.setAttribute("fullid", fullId);
+                input.setAttribute("id", fullId + "|" + options[k]["value"]);
+                input.setAttribute("order", k + 1);
+                input.setAttribute("varvalue", options[k]["value"]);
+                if (options[k]["color"] != undefined) {
+                    input.setAttribute("color", options[k]["color"]);
+                }
+                if (oldValue == options[k]["value"]) {
                     input.checked = true;
                     this.completed[0]++;
-                    if (block["content"]["options"][k]["color"]!=undefined){
-                        row.className="table-"+block["content"]["options"][k]["color"];
-                    }    
-                }
-                else{
+                } else {
                     input.checked = false;
                 }
+                optionCells.push({td, input, color: options[k]["color"]});
                 input.addEventListener('change', (e) => {
-                    if (!e.target.checked){
-                        e.target.checked=true;
+                    if (!e.target.checked) {
+                        e.target.checked = true;
                         return;
                     }
-                    if (data["variables"][e.target.getAttribute("fullid")]==undefined){
+                    if (data["variables"][e.target.getAttribute("fullid")] == undefined) {
                         this.completed[0]++;
                     }
-                    data["variables"][e.target.getAttribute("fullid")]=e.target.getAttribute("varvalue");
-                    var row=e.target.parentElement.parentElement;
-                    //uncheck everything
+                    data["variables"][e.target.getAttribute("fullid")] = e.target.getAttribute("varvalue");
+                    var row = e.target.parentElement.parentElement;
                     var children = row.childNodes;
                     var array = Array.prototype.slice.call(children);
-                    for(k=1;k<array.length;k++){
-                        var input=array[k].firstChild;
-                        if (input.checked && input.getAttribute("order")!=e.target.getAttribute("order")){
-                            input.checked=false;
+                    for (var m = 1; m < array.length; m++) {
+                        var input = array[m].firstChild;
+                        if (input.checked && input.getAttribute("order") != e.target.getAttribute("order")) {
+                            input.checked = false;
+                            if (custom_colours) array[m].className = "";
                         }
                     }
-                    var color=e.target.getAttribute("color");
-                    if (color!=undefined){
-                        row.className="table-"+color;
-                    }    
-                    else{
-                        row.className="";
+                    var color = e.target.getAttribute("color");
+                    if (custom_colours) {
+                        // Set color for ALL checkbox cells in this row
+                        for (var m = 1; m < array.length; m++) {
+                            if (color != undefined) {
+                                array[m].className = "table-" + color;
+                            } else {
+                                array[m].className = "";
+                            }
+                        }
+                    } else {
+                        // Set color for the whole row
+                        if (color != undefined) {
+                            row.className = "table-" + color;
+                        } else {
+                            row.className = "";
+                        }
                     }
                     this.completion();
-                    saveSurvey();    
+                    saveSurvey();
                 });
+            }
+            // After all checkboxes are created, apply highlight if any is checked (for custom_colours)
+            if (custom_colours) {
+                let checkedIdx = optionCells.findIndex(cell => cell.input.checked);
+                if (checkedIdx !== -1 && optionCells[checkedIdx].color) {
+                    for (let m = 0; m < optionCells.length; m++) {
+                        optionCells[m].td.className = "table-" + optionCells[checkedIdx].color;
+                    }
+                }
             }
             this.completed[1]++;
         }
         this.completion();
     }
-  
-    //completion method
+
     completion() {
-        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
     }
-  }
-  
-    
-//add class to lookup dictionary
-blockLookup["multi_row_checked"]=MultiRowChecked;
+}
+
+blockLookup["multi_row_checked"] = MultiRowChecked;
