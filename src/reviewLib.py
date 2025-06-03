@@ -73,22 +73,22 @@ class Review:
 
         print(f"Reviewer IDs saved to {reviewerFileName}")
 
-        def close(self, reviewerIds : dict):
-            for reviewer, reviewerID in reviewerIds:
-                print(f"Retrieving data for reviewer {reviewer}")
-                # Do a get request to pull down the data.
-                url = self.serverURL + reviewerID
+    def close_eval(self, reviewerIds : dict):
+        for reviewer, reviewerID in reviewerIds.items():
+            print(f"Retrieving data for reviewer {reviewer}")
+            # Do a get request to pull down the data.
+            url = self.serverURL + reviewerID
 
-                # Send a GET request to the URL
-                response = requests.get(url)
+            # Send a GET request to the URL
+            response = requests.get(url)
 
-                # Check if the request was successful
-                if response.status_code == 200:
-                    # Parse the JSON data
-                    data = response.json()
-        
-                    # Save the JSON data to a file
-                    #with open(os.path.join("evaluations", dataFolder, key + "_closed.json"), "w") as file:
-                    #    json.dump(data, file, indent=4)        
-                else:
-                    print(f"Failed to download data. HTTP Status code: {response.status_code}")
+            # Check if the request was successful
+            if response.status_code == 200:
+                # Parse the JSON data
+                data = response.json()
+    
+                # Save the JSON data to a file
+                with open(os.path.join(self.targetFolder, reviewer + "_closed.json"), "w") as file:
+                    json.dump(data, file, indent=4)        
+            else:
+                print(f"Failed to download data. HTTP Status code: {response.status_code}")
