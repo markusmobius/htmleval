@@ -96,12 +96,31 @@ class MultiRowChecked {
                 } else {
                     input.checked = false;
                 }
-                optionCells.push({td, input, color: options[k]["color"]});
+                 optionCells.push({td, input, color: options[k]["color"]});
                 input.addEventListener('change', (e) => {
                     if (!e.target.checked) {
-                        e.target.checked = true;
+                        // Allow unchecking - remove stored value and highlighting
+                        delete data["variables"][e.target.getAttribute("fullid")];
+                        var row = e.target.parentElement.parentElement;
+                        
+                        if (custom_colours) {
+                            // Remove color from all checkbox cells in this row
+                            var children = row.childNodes;
+                            var array = Array.prototype.slice.call(children);
+                            for (var m = 1; m < array.length; m++) {
+                                array[m].className = "";
+                            }
+                        } else {
+                            // Remove color from the whole row
+                            row.className = "";
+                        }
+                        
+                        this.completed[0]--;
+                        this.completion();
+                        saveSurvey();
                         return;
                     }
+                    
                     if (data["variables"][e.target.getAttribute("fullid")] == undefined) {
                         this.completed[0]++;
                     }
@@ -145,6 +164,12 @@ class MultiRowChecked {
                     for (let m = 0; m < optionCells.length; m++) {
                         optionCells[m].td.className = "table-" + optionCells[checkedIdx].color;
                     }
+                }
+            } else {
+                // Apply row coloring for standard mode during initialization
+                let checkedIdx = optionCells.findIndex(cell => cell.input.checked);
+                if (checkedIdx !== -1 && optionCells[checkedIdx].color) {
+                    row.className = "table-" + optionCells[checkedIdx].color;
                 }
             }
             this.completed[1]++;
