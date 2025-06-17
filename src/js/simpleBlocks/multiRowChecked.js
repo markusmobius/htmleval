@@ -68,7 +68,22 @@ class MultiRowChecked {
                 fullId[key] = block["content"]["id"][key];
             }
             fullId = JSON.stringify(fullId);
-            var oldValue = data["variables"][fullId];
+
+            // Check for default value in three places:
+            // 1. The block content (directly from Python)
+            // 2. The data.variables (from JS)
+            var oldValue = null;
+            
+            // Check if there's a default value set in the row data
+            if (block["content"]["rows"][i].hasOwnProperty("default_value")) {
+                oldValue = block["content"]["rows"][i]["default_value"];
+                // Also set it in data.variables for consistency
+                data.variables[fullId] = oldValue;
+            }
+            // Otherwise check the existing data variables
+            else if (data.variables[fullId]) {
+                oldValue = data.variables[fullId];
+            }
 
             // Use row-specific or table-level options
             var options = custom_colours
@@ -93,6 +108,16 @@ class MultiRowChecked {
                 if (oldValue == options[k]["value"]) {
                     input.checked = true;
                     this.completed[0]++;
+                    // Apply coloring immediately
+                    if (options[k]["color"]) {
+                        if (custom_colours) {
+                            // For custom colors mode, set color on this cell
+                            td.className = "table-" + options[k]["color"];
+                        } else {
+                            // For standard mode, set color on the whole row
+                            row.className = "table-" + options[k]["color"];
+                        }
+                    }
                 } else {
                     input.checked = false;
                 }

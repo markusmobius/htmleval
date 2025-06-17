@@ -58,7 +58,24 @@ class MultiRowSelect {
                 var option = document.createElement("option");
                 option.innerHTML = "Select";
                 select.appendChild(option);
-                var oldValue=data["variables"][fullId];
+
+                // Check for default values in three places:
+                // 1. In the row's default_values (directly from Python)
+                // 2. From data.variables (from JS)
+                var oldValue = null;
+                
+                // Check if there's a default value set in the row data for this question
+                if (block["content"]["rows"][i].hasOwnProperty("default_values") && 
+                    block["content"]["rows"][i]["default_values"][j] !== undefined) {
+                    oldValue = block["content"]["rows"][i]["default_values"][j];
+                    // Also set it in data.variables for consistency
+                    data.variables[fullId] = oldValue;
+                }
+                // Otherwise check the existing data variables
+                else if (data["variables"][fullId]) {
+                    oldValue = data["variables"][fullId];
+                }
+
                 for(var k=0;k<block["content"]["questions"][j]["options"].length;k++){
                     var option = document.createElement("option");
                     option.innerHTML = block["content"]["questions"][j]["options"][k]["label"];

@@ -13,7 +13,7 @@ class MultiRowChecked:
         if not custom_colours:
             self.content["options"] = options if options is not None else []
 
-    def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None):
+    def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None, default_value: str = None):
         row = {
             "id": id,
             "text": text
@@ -22,4 +22,6 @@ class MultiRowChecked:
             row["options"] = options
         if highlight is not None:
             row["highlight"] = highlight
+        if default_value is not None:
+            row["default_value"] = default_value
         self.content["rows"].append(row)

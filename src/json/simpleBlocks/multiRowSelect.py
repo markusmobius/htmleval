@@ -17,11 +17,12 @@ class MultiRowSelect:
                 "rows": []
         }
 
-    def add_row(self,text:list[str], id: dict):
-        self.content["rows"].append(
-            {
-                "text" : text,
-                "id" : id
-            }
-        )
+    def add_row(self,text:list[str], id: dict, default_values: dict = None):
+        row = {
+            "text" : text,
+            "id" : id
+        }
+        if default_values is not None:
+            row["default_values"] = default_values
+        self.content["rows"].append(row)
     
