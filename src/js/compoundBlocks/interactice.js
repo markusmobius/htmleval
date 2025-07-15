@@ -40,6 +40,12 @@ class Interactive {
           this.spanAssignments[blocks.length]=span;
           span.innerHTML=fragment["text"];
           span.setAttribute("blockid",blocks.length);
+          // Set color attribute from fragment data if it exists
+          if (fragment["color"]) {
+            span.setAttribute("color", fragment["color"]);
+            // Also immediately apply the color as a CSS class for initial visual indication
+            span.classList.add(fragment["color"]);
+          }
           para.appendChild(span);
           span.addEventListener("mouseover", (e) => {
             e.target.classList.add("text-danger-emphasis");
@@ -52,13 +58,27 @@ class Interactive {
             var priorSpan=this.spanAssignments[data["active"][this.blockID]];
             if (priorSpan!=undefined){
               priorSpan.classList.remove("bg-warning-subtle");
-              priorSpan.classList.add(priorSpan.getAttribute("color"));  
+              priorSpan.style.border = ""; // Remove any border
+              // Restore the original color if it exists, otherwise no background
+              var originalColor = priorSpan.getAttribute("color");
+              if (originalColor) {
+                priorSpan.classList.add(originalColor);
+              }
               this.tabAssignments[data["active"][this.blockID]].style.display="none";
             }
-            //mark new span
+            //mark new span - but preserve color if it exists
+            var originalColor = e.target.getAttribute("color");
             e.target.classList.remove("bg-success-subtle");
             e.target.classList.remove("bg-primary-subtle");
-            e.target.classList.add("bg-warning-subtle");
+            if (originalColor) {
+              // For colored fragments, don't remove their color, just add a border or different indicator
+              e.target.classList.remove(originalColor);
+              e.target.classList.add("bg-warning-subtle");
+              e.target.style.border = "3px solid #0d6efd"; // Blue border to show it's active
+            } else {
+              // For non-colored fragments, use the standard warning background
+              e.target.classList.add("bg-warning-subtle");
+            }
             //adjust context
             var blockID=e.target.getAttribute("blockid");
             this.tabAssignments[blockID].style.display="";
@@ -78,7 +98,11 @@ class Interactive {
           blocks.push(new blockLookup[fragment["block"]["type"]](tabDiv,fragment["block"],this,blocks.length));
           //if not active update the span bg attribute
           if (currentBlockId!=data["active"][this.blockID]){
-            span.classList.add(this.spanAssignments[currentBlockId].getAttribute("color"));            
+            // Apply the fragment's color if it has one, otherwise default behavior
+            var fragmentColor = this.spanAssignments[currentBlockId].getAttribute("color");
+            if (fragmentColor) {
+              span.classList.add(fragmentColor);
+            }
           }          
           else{
             span.classList.add("bg-warning-subtle");
