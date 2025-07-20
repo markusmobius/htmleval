@@ -1,11 +1,14 @@
 class InteractiveFragment:
     
-    def __init__(self, text: str, block, color=None):
+    def __init__(self, text: str, block, color=None, border=None):
         self.text=text
         self.block=block
         # Add color attribute support
         if color:
             self.color = color
+        # Add border attribute support
+        if border:
+            self.border = border
 
 class InteractiveParagraph:
     
