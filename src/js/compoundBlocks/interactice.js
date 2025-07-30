@@ -49,20 +49,15 @@ class Interactive {
           span.style.padding = "8px";
           span.style.borderRadius = "4px";
           
-          // Set color attribute from fragment data if it exists
-          if (fragment["color"]) {
-            span.setAttribute("color", fragment["color"]);
-            span.setAttribute("original-color", fragment["color"]); // Store original color
-            this.applyFragmentColor(span, fragment["color"]);
-          }
-          
           // Set border attribute from fragment data if it exists
           if (fragment["border"]) {
             span.setAttribute("border", fragment["border"]);
+            span.setAttribute("original-border", fragment["border"]); // Store original border
             span.style.border = fragment["border"];
-            // Ensure border doesn't override the bottom separator
-            span.style.borderBottom = fragment["border"].includes("border-bottom") ? fragment["border"] : span.style.borderBottom;
+            // Override the bottom separator with the main border
+            span.style.borderBottom = fragment["border"];
           }
+          
           para.appendChild(span);
           span.addEventListener("mouseover", (e) => {
             e.target.classList.add("text-danger-emphasis");
@@ -76,39 +71,19 @@ class Interactive {
             if (priorSpan!=undefined){
               priorSpan.classList.remove("bg-warning-subtle");
               // Restore original border if it exists
-              var originalBorder = priorSpan.getAttribute("border");
+              var originalBorder = priorSpan.getAttribute("original-border");
               if (originalBorder) {
                 priorSpan.style.border = originalBorder;
               } else {
-                priorSpan.style.border = ""; // Remove active border
+                priorSpan.style.border = ""; // Remove any border
                 priorSpan.style.borderBottom = "1px solid #e0e0e0"; // Restore fragment separator
-              }
-              // Restore the current color
-              var currentColor = priorSpan.getAttribute("color");
-              if (currentColor) {
-                this.applyFragmentColor(priorSpan, currentColor);
               }
               this.tabAssignments[data["active"][this.blockID]].style.display="none";
             }
-            //mark new span - but preserve color and border if they exist
-            var originalColor = e.target.getAttribute("original-color");
-            var currentColor = e.target.getAttribute("color");
-            var originalBorder = e.target.getAttribute("border");
-            
-            // Remove all possible background classes and inline styles
-            e.target.classList.remove("bg-success-subtle", "bg-primary-subtle");
-            e.target.style.backgroundColor = "";
-            
-            if (currentColor) {
-              // For colored fragments, remove current color class
-              e.target.classList.remove(currentColor);
-            }
-            // Always add warning background for active selection
+            //mark new span - add yellow background but preserve border
             e.target.classList.add("bg-warning-subtle");
             
-            // Add active selection border (blue border with higher specificity)
-            e.target.style.border = "3px solid #0d6efd";
-            
+
             //adjust context
             var blockID=e.target.getAttribute("blockid");
             this.tabAssignments[blockID].style.display="";
@@ -126,13 +101,9 @@ class Interactive {
           contextColumn.appendChild(tabDiv);
           var currentBlockId=blocks.length;
           blocks.push(new blockLookup[fragment["block"]["type"]](tabDiv,fragment["block"],this,blocks.length));
-          //if not active update the span bg attribute
+          //if not active, apply normal styling
           if (currentBlockId!=data["active"][this.blockID]){
-            // Apply the fragment's color if it has one, otherwise default behavior
-            var fragmentColor = this.spanAssignments[currentBlockId].getAttribute("color");
-            if (fragmentColor) {
-              this.applyFragmentColor(span, fragmentColor);
-            }
+            // Fragment gets its default styling from border attribute
           }          
           else{
             span.classList.add("bg-warning-subtle");
@@ -141,44 +112,27 @@ class Interactive {
       }
   }
 
-  // Helper function to apply fragment colors
-  applyFragmentColor(span, colorClass) {
-    // Clear any existing background styling
-    span.classList.remove("bg-success-subtle", "bg-primary-subtle", "bg-warning-subtle");
-    span.style.backgroundColor = "";
-    
-    // Apply the appropriate color
-    if (colorClass === "bg-light-purple") {
-      span.style.backgroundColor = "#f3e8ff";
-    } else {
-      span.classList.add(colorClass);
-    }
-  }
-
   //completion method
   completion(blockID,completed,total) {
     console.log(blockID+":"+completed+":"+total);
     this.completed[blockID]=[completed,total];
     var span = this.spanAssignments[blockID];
     
-    //update the span
+    //update the span - just change background, preserve border
     if (completed==total){
-      span.setAttribute("color","bg-success-subtle");
-      this.applyFragmentColor(span, "bg-success-subtle");
+      span.classList.remove("bg-primary-subtle", "bg-warning-subtle");
+      span.classList.add("bg-success-subtle");
     }
     else if (completed > 0){
-      span.setAttribute("color","bg-primary-subtle");
-      this.applyFragmentColor(span, "bg-primary-subtle");
+      span.classList.remove("bg-success-subtle", "bg-warning-subtle");
+      span.classList.add("bg-primary-subtle");
     }
     else {
-      // No completion - restore original color
-      var originalColor = span.getAttribute("original-color");
-      if (originalColor) {
-        span.setAttribute("color", originalColor);
-        this.applyFragmentColor(span, originalColor);
-      } else {
-        span.classList.remove("bg-success-subtle", "bg-primary-subtle", "bg-warning-subtle");
-        span.style.backgroundColor = "";
+      // No completion - remove completion styling
+      span.classList.remove("bg-success-subtle", "bg-primary-subtle");
+      // Keep warning if currently active
+      if (data["active"][this.blockID] == blockID) {
+        span.classList.add("bg-warning-subtle");
       }
     }
     
