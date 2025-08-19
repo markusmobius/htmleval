@@ -119,17 +119,50 @@ class Interactive {
     var span = this.spanAssignments[blockID];
     
     //update the span - just change background, preserve border
+    // Check if any answers for this specific block are "no"
+    // TODO make this more generic - this only works for yes/no questions
     if (completed==total){
-      span.classList.remove("bg-primary-subtle", "bg-warning-subtle");
-      span.classList.add("bg-success-subtle");
+      var hasNoAnswers = false;
+      // Get the specific block and check its data variables directly
+      if (blocks[blockID]) {
+        // Look for the table element in the tab that corresponds to this blockID
+        var tabDiv = this.tabAssignments[blockID];
+        if (tabDiv) {
+          // Find all checked inputs in this specific tab div (for MultiRowChecked)
+          var checkedInputs = tabDiv.querySelectorAll('input[type="checkbox"]:checked');
+          for (var i = 0; i < checkedInputs.length; i++) {
+            var input = checkedInputs[i];
+            var fullId = input.getAttribute("fullid");
+            var value = data["variables"][fullId];
+            var varValue = input.getAttribute("varvalue");
+            console.log("Input", i, "fullId:", fullId, "stored value:", value, "varvalue attr:", varValue);
+            if (value === "no") {
+              hasNoAnswers = true;
+              break;
+            }
+          }
+          // TODO add support for multirowselect
+        } else {
+          console.log("Could not find tabDiv for blockID:", blockID);
+        }
+      } else {
+        console.log("Could not find block for blockID:", blockID);
+      }
+            
+      span.classList.remove("bg-primary-subtle", "bg-warning-subtle", "bg-danger-subtle");
+      if (hasNoAnswers) {
+        span.classList.add("bg-danger-subtle");
+      } else {
+        span.classList.add("bg-success-subtle");
+      }
     }
     else if (completed > 0){
-      span.classList.remove("bg-success-subtle", "bg-warning-subtle");
+      span.classList.remove("bg-success-subtle", "bg-warning-subtle", "bg-danger-subtle");
       span.classList.add("bg-primary-subtle");
     }
     else {
       // No completion - remove completion styling
-      span.classList.remove("bg-success-subtle", "bg-primary-subtle");
+      span.classList.remove("bg-success-subtle", "bg-primary-subtle", "bg-danger-subtle");
       // Keep warning if currently active
       if (data["active"][this.blockID] == blockID) {
         span.classList.add("bg-warning-subtle");
