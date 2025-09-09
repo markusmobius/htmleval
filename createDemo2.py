@@ -186,9 +186,9 @@ for i, event in enumerate(example):
 json=demo.get_json()
 
 #save demo json
-with open(os.path.join("htmleval","__demo","demo2.json"), 'w') as f:
+with open(os.path.join("htmleval","__demo","demo2","demo2.json"), 'w') as f:
     f.write(json)
 
 #now we create the HTML files
-review=Review(targetFolder="htmleval/__demo",block=json,evalTitle="Demo2", serverURL="https://www.kv.econlabs.org/")
+review=Review(targetFolder="htmleval/__demo/demo2",block=json,evalTitle="Demo2", serverURL="https://www.kv.econlabs.org/")
 review.create(reviewers=["reviewer1","reviewer2"])

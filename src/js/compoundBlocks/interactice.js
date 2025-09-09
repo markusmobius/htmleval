@@ -60,15 +60,27 @@ class Interactive {
           
           para.appendChild(span);
           span.addEventListener("mouseover", (e) => {
-            e.target.classList.add("text-danger-emphasis");
+            e.currentTarget.classList.add("text-danger-emphasis");
           });
           span.addEventListener("mouseout", (e) => {
-            e.target.classList.remove("text-danger-emphasis");
+            e.currentTarget.classList.remove("text-danger-emphasis");
           });
           span.addEventListener("click", (e) => {
-            //unmark old span
-            var priorSpan=this.spanAssignments[data["active"][this.blockID]];
-            if (priorSpan!=undefined){
+            // Determine new and previous block IDs as numbers
+            var newBlockID = parseInt(e.currentTarget.getAttribute("blockid"), 10);
+            var priorBlockID = data["active"][this.blockID] !== undefined ? parseInt(data["active"][this.blockID], 10) : undefined;
+
+            // If clicking the same active block, ensure tab is visible and keep highlight
+            if (priorBlockID === newBlockID) {
+              if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+              e.currentTarget.classList.add("bg-warning-subtle");
+              saveSurvey();
+              return;
+            }
+
+            // Unmark old span if it exists
+            var priorSpan = this.spanAssignments[priorBlockID];
+            if (priorSpan != undefined){
               priorSpan.classList.remove("bg-warning-subtle");
               // Restore original border if it exists
               var originalBorder = priorSpan.getAttribute("original-border");
@@ -78,16 +90,21 @@ class Interactive {
                 priorSpan.style.border = ""; // Remove any border
                 priorSpan.style.borderBottom = "1px solid #e0e0e0"; // Restore fragment separator
               }
-              this.tabAssignments[data["active"][this.blockID]].style.display="none";
+              if (this.tabAssignments[priorBlockID]) this.tabAssignments[priorBlockID].style.display="none";
             }
-            //mark new span - add yellow background but preserve border
-            e.target.classList.add("bg-warning-subtle");
-            
 
-            //adjust context
-            var blockID=e.target.getAttribute("blockid");
-            this.tabAssignments[blockID].style.display="";
-            data["active"][this.blockID]=blockID;
+            //adjust context - set new active and show its tab
+            if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+            data["active"][this.blockID] = newBlockID;
+
+            //mark new span - add yellow background but preserve border
+            e.currentTarget.classList.add("bg-warning-subtle");
+
+            // Update the previous span to show its completion status now that it's not active
+            if (priorSpan!=undefined && this.completed[priorBlockID]) {
+              this.completion(priorBlockID, this.completed[priorBlockID][0], this.completed[priorBlockID][1]);
+            }
+
             saveSurvey();
           });
           var tabDiv=document.createElement("div");
@@ -149,16 +166,36 @@ class Interactive {
         console.log("Could not find block for blockID:", blockID);
       }
             
-      span.classList.remove("bg-primary-subtle", "bg-warning-subtle", "bg-danger-subtle");
-      if (hasNoAnswers) {
-        span.classList.add("bg-danger-subtle");
+      span.classList.remove("bg-primary-subtle", "bg-warning-subtle", "bg-danger-subtle", "bg-success-subtle");
+      
+      // Check if this block is currently active/selected - if so, don't change it
+      var isActive = data["active"][this.blockID] == blockID;
+      
+      if (!isActive) {
+        // Only apply completion colors if the block is NOT currently active
+        if (hasNoAnswers) {
+          span.classList.add("bg-danger-subtle");
+        } else {
+          span.classList.add("bg-success-subtle");
+        }
       } else {
-        span.classList.add("bg-success-subtle");
+        // If active, keep the yellow highlight
+        span.classList.add("bg-warning-subtle");
       }
     }
     else if (completed > 0){
+      // Check if this block is currently active/selected
+      var isActive = data["active"][this.blockID] == blockID;
+      
       span.classList.remove("bg-success-subtle", "bg-warning-subtle", "bg-danger-subtle");
-      span.classList.add("bg-primary-subtle");
+      
+      if (isActive) {
+        // If active, show yellow highlight
+        span.classList.add("bg-warning-subtle");
+      } else {
+        // If not active, show partial completion (blue)
+        span.classList.add("bg-primary-subtle");
+      }
     }
     else {
       // No completion - remove completion styling

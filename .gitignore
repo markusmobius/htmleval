@@ -171,5 +171,5 @@ cython_debug/
 .pypirc
 
 #reviewer files
-__demo/reviewer*
-__demo2/reviewer*
+__demo/demo1/reviewer*
+__demo/demo2/reviewer*

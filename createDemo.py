@@ -1,16 +1,23 @@
 import os
-from src.reviewLib import Review
-from src.json.reviewJsonLib import ReviewJSON
-from src.json.compoundBlocks.tabs import Tabs
-from src.json.compoundBlocks.column import Column
-from src.json.compoundBlocks.interactive import Interactive
-from src.json.compoundBlocks.interactive import InteractiveParagraph
-from src.json.compoundBlocks.interactive import InteractiveFragment
-from src.json.simpleBlocks.multiRowSelect import MultiRowSelect
-from src.json.simpleBlocks.multiRowSelect import MultiRowSelectQuestion
-from src.json.simpleBlocks.multiRowChecked import MultiRowChecked
-from src.json.simpleBlocks.multiRowOption import MultiRowOption
-from src.json.simpleBlocks.text import Text
+import sys
+
+# Add the root directory (parent of htmleval) to Python path so 'htmleval' module can be found
+script_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.dirname(script_dir)  # Go up one level from htmleval to the root
+sys.path.insert(0, root_dir)
+
+from htmleval.src.reviewLib import Review
+from htmleval.src.json.reviewJsonLib import ReviewJSON
+from htmleval.src.json.compoundBlocks.tabs import Tabs
+from htmleval.src.json.compoundBlocks.column import Column
+from htmleval.src.json.compoundBlocks.interactive import Interactive
+from htmleval.src.json.compoundBlocks.interactive import InteractiveParagraph
+from htmleval.src.json.compoundBlocks.interactive import InteractiveFragment
+from htmleval.src.json.simpleBlocks.multiRowSelect import MultiRowSelect
+from htmleval.src.json.simpleBlocks.multiRowSelect import MultiRowSelectQuestion
+from htmleval.src.json.simpleBlocks.multiRowChecked import MultiRowChecked
+from htmleval.src.json.simpleBlocks.multiRowOption import MultiRowOption
+from htmleval.src.json.simpleBlocks.text import Text
 
 
 #create the demo.json file from scratch
@@ -233,10 +240,10 @@ root.add_tab(tabName="Tab 7",block=interactive)
 json=demo.get_json()
 
 #save demo json
-with open(os.path.join("__demo","demo.json"), 'w') as f:
+with open(os.path.join("htmleval","__demo","demo1","demo.json"), 'w') as f:
     f.write(json)
 
 #now we create the HTML files
-review=Review("https://www.kv.econlabs.org/")
-review.create(targetFolder="__demo",blockJSON=json,evalTitle="Demo",reviewers=["reviewer1","reviewer2"])
+review=Review(targetFolder="htmleval/__demo/demo1",block=json,evalTitle="Demo", serverURL="https://www.kv.econlabs.org/")
+review.create(reviewers=["reviewer1","reviewer2"])
 
