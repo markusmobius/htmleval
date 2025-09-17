@@ -92,30 +92,29 @@ for merge_item in merge_log_data:
     if not anchor_cluster:
         continue
 
-    # Each tab will contain a single vertical column
+    # Each tab will contain a two-column layout
     page_column = Column()
+    root.add_tab(tabName=f"{anchor_id}", block=page_column)
 
-    # Add anchor cluster info at the top of the tab
+    # --- Left Column: Anchor Cluster ---
     page_column.add_column([
-        Text(title=f"Anchor Cluster: {anchor_id} (Size: {merge_item['anchor_size']})", titleSize=3, body=anchor_cluster['opinions'], is_table=True, scrollable=True)
+        Text(title=f"Anchor Cluster: {anchor_id} (Size: {merge_item['anchor_size']})", titleSize=4, body=anchor_cluster['opinions'], is_table=True, scrollable=True)
     ])
 
-    # Process each candidate for this anchor
+    # --- Right Column: Candidate Clusters in Sub-Tabs ---
+    candidate_tabs = Tabs()
     for candidate in merge_item['candidates']:
         candidate_id = candidate['candidate_cluster']
         candidate_cluster = clusters_data.get(candidate_id)
         if not candidate_cluster:
             continue
 
-        # Create a two-column layout for the candidate comparison
-        comparison_column = Column()
+        # --- Content for each sub-tab ---
         
-        # Left column: Candidate opinions
-        comparison_column.add_column([
-            Text(title=f"Candidate: {candidate_id}", titleSize=5, body=candidate_cluster['opinions'], is_table=True, scrollable=True)
-        ])
+        # Nested column for the sub-tab content
+        sub_tab_content_column = Column()
 
-        # Right column: Merge info and user input
+        # Left side of the nested column: Candidate details
         decision_info = [
             f"Automated Decision: {candidate.get('decision', 'N/A')}",
             f"Similarity: {candidate.get('similarity', 0):.2f}",
@@ -124,22 +123,26 @@ for merge_item in merge_log_data:
             decision_info.append(f"GPT Score: {candidate['gpt_score']}")
         if 'reason' in candidate:
             decision_info.append(f"Reason: {candidate['reason']}")
+        
+        sub_tab_content_column.add_column([
+            Text(title=f"Candidate: {candidate_id}", titleSize=5, body=candidate_cluster['opinions'], is_table=True, scrollable=True),
+            Text(title="Merge Details", titleSize=5, body=decision_info),
+        ])
 
+        # Right side of the nested column: Merge question
         user_question = MultiRowSelect(
             rowLabels=["Your Decision"],
             questions=[MultiRowSelectQuestion(label="Merge?", id={1: "merge_decision"}, options=merge_options)]
         )
         user_question.add_row(id={0: f"merge_{anchor_id}_with_{candidate_id}"}, text=["Should these clusters be merged?"])
 
-        comparison_column.add_column([
-            Text(title="Merge Details", titleSize=5, body=decision_info),
+        sub_tab_content_column.add_column([
             user_question
         ])
         
-        # Add the comparison block to the main page column
-        page_column.add_column([comparison_column])
-
-    root.add_tab(tabName=f"{anchor_id}", block=page_column)
+        candidate_tabs.add_tab(tabName=f"{candidate_id}", block=sub_tab_content_column)
+    
+    page_column.add_column([candidate_tabs])
 
 # --- Generate and Save Files ---
 

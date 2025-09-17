@@ -1,0 +1,2953 @@
+[
+  {
+    "anchor_cluster": 2,
+    "anchor_size": 22,
+    "candidates": [
+      {
+        "candidate_cluster": 69,
+        "similarity": 0.8055526747778914,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Quality of Service in Restaurants"
+      },
+      {
+        "candidate_cluster": 72,
+        "similarity": 0.7330857612170976,
+        "decision": "merged",
+        "gpt_score": 7.0,
+        "topic_umbrella": "Restaurant Experience and Service Quality"
+      },
+      {
+        "candidate_cluster": 46,
+        "similarity": 0.7318137414539136,
+        "decision": "merged",
+        "gpt_score": 7.0,
+        "topic_umbrella": "Restaurant Experience and Service"
+      },
+      {
+        "candidate_cluster": 87,
+        "similarity": 0.6877475328157507,
+        "decision": "rejected",
+        "reason": "Similarity 0.69 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 47,
+        "similarity": 0.6810453522997787,
+        "decision": "rejected",
+        "reason": "Similarity 0.68 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 6,
+    "anchor_size": 22,
+    "candidates": [
+      {
+        "candidate_cluster": 47,
+        "similarity": 0.826437436620316,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Food Quality and Dining Experience"
+      },
+      {
+        "candidate_cluster": 56,
+        "similarity": 0.7459486588064198,
+        "decision": "merged",
+        "gpt_score": 7.0,
+        "topic_umbrella": "Restaurant Reviews and Recommendations"
+      },
+      {
+        "candidate_cluster": 9,
+        "similarity": 0.7424185985889474,
+        "decision": "merged",
+        "gpt_score": 7.0,
+        "topic_umbrella": "Restaurant Recommendations and Food Quality"
+      },
+      {
+        "candidate_cluster": 73,
+        "similarity": 0.734107018019984,
+        "decision": "rejected",
+        "gpt_score": 5.0,
+        "topic_umbrella": "Restaurant Reviews and Experiences",
+        "reason": "Score 5.00 < min_coherence 6.5"
+      },
+      {
+        "candidate_cluster": 45,
+        "similarity": 0.7224453195230507,
+        "decision": "merged",
+        "gpt_score": 7.0,
+        "topic_umbrella": "Restaurant Food Quality and Experience"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 27,
+    "anchor_size": 13,
+    "candidates": [
+      {
+        "candidate_cluster": 25,
+        "similarity": 0.7701479609637574,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Restaurant Experience and Customer Loyalty"
+      },
+      {
+        "candidate_cluster": 70,
+        "similarity": 0.5909123619377153,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.5394381393628953,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 7,
+        "similarity": 0.5310861537034812,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.5068525086769394,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 28,
+    "anchor_size": 11,
+    "candidates": [
+      {
+        "candidate_cluster": 38,
+        "similarity": 0.672950168362082,
+        "decision": "rejected",
+        "reason": "Similarity 0.67 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 51,
+        "similarity": 0.5867413292167752,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 3,
+        "similarity": 0.583035368927244,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 53,
+        "similarity": 0.5601372948191939,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.555274243378117,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 1,
+    "anchor_size": 9,
+    "candidates": [
+      {
+        "candidate_cluster": 65,
+        "similarity": 0.7406533770372904,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Restaurant Food and Dishes"
+      },
+      {
+        "candidate_cluster": 37,
+        "similarity": 0.7387943261330374,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Restaurant Food and Dishes"
+      },
+      {
+        "candidate_cluster": 26,
+        "similarity": 0.7290922187865335,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Restaurant Food Reviews"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.6763444537065129,
+        "decision": "rejected",
+        "reason": "Similarity 0.68 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 4,
+        "similarity": 0.6721931843426245,
+        "decision": "rejected",
+        "reason": "Similarity 0.67 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 4,
+    "anchor_size": 9,
+    "candidates": [
+      {
+        "candidate_cluster": 29,
+        "similarity": 0.6776765218442592,
+        "decision": "rejected",
+        "reason": "Similarity 0.68 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 60,
+        "similarity": 0.6483800567478877,
+        "decision": "rejected",
+        "reason": "Similarity 0.65 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 10,
+        "similarity": 0.6244273602980219,
+        "decision": "rejected",
+        "reason": "Similarity 0.62 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 42,
+        "similarity": 0.6184815695351071,
+        "decision": "rejected",
+        "reason": "Similarity 0.62 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.5916826569760938,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 32,
+    "anchor_size": 8,
+    "candidates": [
+      {
+        "candidate_cluster": 61,
+        "similarity": 0.7289339652759812,
+        "decision": "merged",
+        "gpt_score": 10.0,
+        "topic_umbrella": "Restaurant Wait Times and Service Delays"
+      },
+      {
+        "candidate_cluster": 41,
+        "similarity": 0.689331067474886,
+        "decision": "rejected",
+        "reason": "Similarity 0.69 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.6828172507899741,
+        "decision": "rejected",
+        "reason": "Similarity 0.68 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 5,
+        "similarity": 0.6688718964142686,
+        "decision": "rejected",
+        "reason": "Similarity 0.67 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 87,
+        "similarity": 0.6649194730587437,
+        "decision": "rejected",
+        "reason": "Similarity 0.66 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 34,
+    "anchor_size": 8,
+    "candidates": [
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.5945679751199118,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 76,
+        "similarity": 0.591818000067764,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 87,
+        "similarity": 0.5797504899543922,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 5,
+        "similarity": 0.5572088420598243,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.5542485620408235,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 10,
+    "anchor_size": 7,
+    "candidates": [
+      {
+        "candidate_cluster": 50,
+        "similarity": 0.6436316673404762,
+        "decision": "rejected",
+        "reason": "Similarity 0.64 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.6389260134656072,
+        "decision": "rejected",
+        "reason": "Similarity 0.64 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.5877137466070328,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.568239459331559,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 64,
+        "similarity": 0.5550694916191419,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 52,
+    "anchor_size": 7,
+    "candidates": [
+      {
+        "candidate_cluster": 76,
+        "similarity": 0.6065785064952871,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 87,
+        "similarity": 0.5909225620028699,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 5,
+        "similarity": 0.5593337236925929,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.5565425633189669,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.551892320618492,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 66,
+    "anchor_size": 7,
+    "candidates": [
+      {
+        "candidate_cluster": 3,
+        "similarity": 0.6737483708660688,
+        "decision": "rejected",
+        "reason": "Similarity 0.67 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 5,
+        "similarity": 0.6369912187164688,
+        "decision": "rejected",
+        "reason": "Similarity 0.64 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 53,
+        "similarity": 0.6343555615098824,
+        "decision": "rejected",
+        "reason": "Similarity 0.63 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 73,
+        "similarity": 0.6330348650378149,
+        "decision": "rejected",
+        "reason": "Similarity 0.63 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.6189140440848804,
+        "decision": "rejected",
+        "reason": "Similarity 0.62 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 73,
+    "anchor_size": 7,
+    "candidates": [
+      {
+        "candidate_cluster": 3,
+        "similarity": 0.6815527912466259,
+        "decision": "rejected",
+        "reason": "Similarity 0.68 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 40,
+        "similarity": 0.6547446564711972,
+        "decision": "rejected",
+        "reason": "Similarity 0.65 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 54,
+        "similarity": 0.6106480592751444,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 38,
+        "similarity": 0.6087265619079811,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 83,
+        "similarity": 0.5976751799771876,
+        "decision": "rejected",
+        "reason": "Similarity 0.60 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 87,
+    "anchor_size": 7,
+    "candidates": [
+      {
+        "candidate_cluster": 5,
+        "similarity": 0.7410745436342325,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Customer Service in Restaurants"
+      },
+      {
+        "candidate_cluster": 41,
+        "similarity": 0.7171413229717556,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Customer Service in Restaurants"
+      },
+      {
+        "candidate_cluster": 13,
+        "similarity": 0.6971067079286286,
+        "decision": "rejected",
+        "reason": "Similarity 0.70 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 76,
+        "similarity": 0.6861893067126952,
+        "decision": "rejected",
+        "reason": "Similarity 0.69 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.6492357045645436,
+        "decision": "rejected",
+        "reason": "Similarity 0.65 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 13,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 85,
+        "similarity": 0.6866135057730758,
+        "decision": "rejected",
+        "reason": "Similarity 0.69 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.6593516314585172,
+        "decision": "rejected",
+        "reason": "Similarity 0.66 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 92,
+        "similarity": 0.6335078226378561,
+        "decision": "rejected",
+        "reason": "Similarity 0.63 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 76,
+        "similarity": 0.5908774698772625,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 55,
+        "similarity": 0.55550496321481,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 16,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 85,
+        "similarity": 0.49562704343009834,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 53,
+        "similarity": 0.4678741621599345,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 54,
+        "similarity": 0.4644462225873474,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 3,
+        "similarity": 0.44290230211450915,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 40,
+        "similarity": 0.43956758676862795,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 29,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 60,
+        "similarity": 0.5612494895439739,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.5489581819439198,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.5444835947314475,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.5414644536046375,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 42,
+        "similarity": 0.5366072340450634,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 30,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 76,
+        "similarity": 0.6178612036122029,
+        "decision": "rejected",
+        "reason": "Similarity 0.62 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 92,
+        "similarity": 0.5717673362560707,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 55,
+        "similarity": 0.5544705720694922,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.553547268444319,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 48,
+        "similarity": 0.5503469927292428,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 40,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.5934015385838016,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.5688450348491446,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 38,
+        "similarity": 0.552932392427836,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 12,
+        "similarity": 0.5352794020212457,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 53,
+        "similarity": 0.5330974810740282,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 44,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 31,
+        "similarity": 0.7529498913938559,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Pizza and Flatbread Quality"
+      },
+      {
+        "candidate_cluster": 59,
+        "similarity": 0.6745883910005963,
+        "decision": "rejected",
+        "reason": "Similarity 0.67 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 12,
+        "similarity": 0.5953927628132042,
+        "decision": "rejected",
+        "reason": "Similarity 0.60 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.5817514566887501,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 98,
+        "similarity": 0.5686653368924778,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 53,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.6146832015015098,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 38,
+        "similarity": 0.6134745647309234,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 54,
+        "similarity": 0.6075466369215923,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 51,
+        "similarity": 0.5895028963908612,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.5814976193403162,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 54,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 83,
+        "similarity": 0.6230791627470386,
+        "decision": "rejected",
+        "reason": "Similarity 0.62 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 38,
+        "similarity": 0.6061276795420284,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 3,
+        "similarity": 0.569358632518544,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.5253165191207394,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 74,
+        "similarity": 0.4913613275524946,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 76,
+    "anchor_size": 6,
+    "candidates": [
+      {
+        "candidate_cluster": 67,
+        "similarity": 0.7182149820122936,
+        "decision": "merged",
+        "gpt_score": 9.0,
+        "topic_umbrella": "Food Quality and Preparation Issues"
+      },
+      {
+        "candidate_cluster": 48,
+        "similarity": 0.6852652866024893,
+        "decision": "rejected",
+        "reason": "Similarity 0.69 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.6364308414469815,
+        "decision": "rejected",
+        "reason": "Similarity 0.64 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.6259717910943147,
+        "decision": "rejected",
+        "reason": "Similarity 0.63 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.6195826976961804,
+        "decision": "rejected",
+        "reason": "Similarity 0.62 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 8,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.553226939877248,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 15,
+        "similarity": 0.55131929337714,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.5296100014330406,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 42,
+        "similarity": 0.525459331119014,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.5225917706297116,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 12,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 59,
+        "similarity": 0.6048725144987288,
+        "decision": "rejected",
+        "reason": "Similarity 0.60 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.4879923920521616,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.42916913154497643,
+        "decision": "rejected",
+        "reason": "Similarity 0.43 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.4237635873910871,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 98,
+        "similarity": 0.4228888022206976,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 22,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 59,
+        "similarity": 0.4751411203083875,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 93,
+        "similarity": 0.4638014960787811,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.44946244156301474,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 97,
+        "similarity": 0.4432394313304396,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.44103282653747217,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 24,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 18,
+        "similarity": 0.5599662411086751,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 85,
+        "similarity": 0.46732605289194096,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 77,
+        "similarity": 0.448636836831092,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 43,
+        "similarity": 0.41185951956653,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 92,
+        "similarity": 0.40346219284172546,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 38,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 3,
+        "similarity": 0.6795798099476943,
+        "decision": "rejected",
+        "reason": "Similarity 0.68 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 74,
+        "similarity": 0.5486563016994186,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.5436599848234637,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 83,
+        "similarity": 0.4968361706970902,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.4498171708596245,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 59,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 93,
+        "similarity": 0.5421930180807536,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 60,
+        "similarity": 0.5350600590825905,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.5069372477091513,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 97,
+        "similarity": 0.4969528518243142,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 98,
+        "similarity": 0.48821172910068755,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 98,
+    "anchor_size": 5,
+    "candidates": [
+      {
+        "candidate_cluster": 97,
+        "similarity": 0.5985163250017707,
+        "decision": "rejected",
+        "reason": "Similarity 0.60 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.5810547217955041,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.5524494116140932,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 42,
+        "similarity": 0.5382294864828869,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 64,
+        "similarity": 0.5342734975317729,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 3,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 83,
+        "similarity": 0.5765975239427916,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.49764894148022637,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.4854041058908493,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 74,
+        "similarity": 0.47696217442358435,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 33,
+        "similarity": 0.42053467648814996,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 18,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 50,
+        "similarity": 0.5299397052953924,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 85,
+        "similarity": 0.47220159809256196,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.4689470273111255,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.4679302397070278,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 42,
+        "similarity": 0.46096332452406263,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 42,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 60,
+        "similarity": 0.5883200081144394,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.5556700755144578,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.5554410139472943,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 50,
+        "similarity": 0.5482066276779733,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 48,
+        "similarity": 0.5430274599615368,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 48,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.6076805908532843,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.5924523249883435,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.5816191715815987,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.5755531577263804,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.5710972766213198,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 49,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 79,
+        "similarity": 0.4939267957536356,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 50,
+        "similarity": 0.47468921973520795,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 60,
+        "similarity": 0.43841301482865114,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.4350728637059401,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 93,
+        "similarity": 0.4311306387589485,
+        "decision": "rejected",
+        "reason": "Similarity 0.43 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 50,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 79,
+        "similarity": 0.6371746652896905,
+        "decision": "rejected",
+        "reason": "Similarity 0.64 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.5772648127981219,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.5666076726386011,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.5456812029474314,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.5382016864224601,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 60,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 68,
+        "similarity": 0.5631443555139509,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 97,
+        "similarity": 0.5340123616412358,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 82,
+        "similarity": 0.4687262013373764,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.4450654047534605,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.44369807655712645,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 64,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.6145023520983882,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.575625646578128,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.545520869258145,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 15,
+        "similarity": 0.5369470017695186,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.5196697414578483,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 68,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 97,
+        "similarity": 0.6075303628520397,
+        "decision": "rejected",
+        "reason": "Similarity 0.61 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.5681140257365014,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 82,
+        "similarity": 0.5618042350370143,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.5541583600463975,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.5515336904343479,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 85,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 92,
+        "similarity": 0.5851277165277925,
+        "decision": "rejected",
+        "reason": "Similarity 0.59 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 70,
+        "similarity": 0.5418842965054675,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.5255104954068661,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 55,
+        "similarity": 0.47629067264856384,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.44268716224204085,
+        "decision": "rejected",
+        "reason": "Similarity 0.44 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 93,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.5744792765744737,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 97,
+        "similarity": 0.5012523203118715,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.49615800105448454,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 15,
+        "similarity": 0.48036879249045406,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.4653588783047301,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 97,
+    "anchor_size": 4,
+    "candidates": [
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.6037321144084647,
+        "decision": "rejected",
+        "reason": "Similarity 0.60 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 14,
+        "similarity": 0.5399602958581897,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 82,
+        "similarity": 0.5074006204964254,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.506849883982132,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 15,
+        "similarity": 0.49851381919407467,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 14,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.5568284397309975,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.535509162140293,
+        "decision": "rejected",
+        "reason": "Similarity 0.54 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.5216799510786452,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 15,
+        "similarity": 0.5139875422666282,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.5127941672599801,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 15,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 39,
+        "similarity": 0.5544179453412617,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.5345711854840154,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.5150037841016288,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 82,
+        "similarity": 0.509356249075754,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.5057358860109334,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 19,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.47767349862858066,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 62,
+        "similarity": 0.46349577058854463,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 23,
+        "similarity": 0.40835276023709144,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.3955595916532416,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.3933886346392169,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 23,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.5199235245333192,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.5196435288928306,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.5131548852042894,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.509794089250716,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.5094572477962359,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 33,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.5314450863944128,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 74,
+        "similarity": 0.448719518912167,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.44606380770321574,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.36894360899102485,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 51,
+        "similarity": 0.35906821683637125,
+        "decision": "rejected",
+        "reason": "Similarity 0.36 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 39,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.5325673052268868,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.529724195507066,
+        "decision": "rejected",
+        "reason": "Similarity 0.53 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.4810323346785947,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.46097291271934304,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.45537098571343565,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 51,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.5245941210593037,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 58,
+        "similarity": 0.5083315692661066,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.37536872234296004,
+        "decision": "rejected",
+        "reason": "Similarity 0.38 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 86,
+        "similarity": 0.33934304605824817,
+        "decision": "rejected",
+        "reason": "Similarity 0.34 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.3173168008914939,
+        "decision": "rejected",
+        "reason": "Similarity 0.32 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 55,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 92,
+        "similarity": 0.5761758422529284,
+        "decision": "rejected",
+        "reason": "Similarity 0.58 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 70,
+        "similarity": 0.574838163405625,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.4631327623434647,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.4575705833206348,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.4558770703456978,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 62,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.4754904020429486,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.4046835755991436,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.4037712411460511,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.4036922944437803,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.39983717103052124,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 70,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.5630452166520087,
+        "decision": "rejected",
+        "reason": "Similarity 0.56 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.5177371719634273,
+        "decision": "rejected",
+        "reason": "Similarity 0.52 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 92,
+        "similarity": 0.5142249927818083,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.4895865763157404,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.47236073820228186,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 74,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.48283316329146286,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.3704484259016261,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 75,
+        "similarity": 0.3671825859316181,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.3214472317372133,
+        "decision": "rejected",
+        "reason": "Similarity 0.32 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 83,
+        "similarity": 0.31943123071828666,
+        "decision": "rejected",
+        "reason": "Similarity 0.32 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 75,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.5132320667233844,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.4460750828172092,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.43213455733390005,
+        "decision": "rejected",
+        "reason": "Similarity 0.43 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 82,
+        "similarity": 0.43213066316598847,
+        "decision": "rejected",
+        "reason": "Similarity 0.43 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.4203648228354112,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 79,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.415498551444544,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.40851267814399017,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.39735979410150074,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.3722317856454685,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.36288625025446664,
+        "decision": "rejected",
+        "reason": "Similarity 0.36 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 82,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.509629829629507,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 89,
+        "similarity": 0.49153394496059905,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.4590205216554042,
+        "decision": "rejected",
+        "reason": "Similarity 0.46 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.4060701451591724,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.3990173398312028,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 83,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 11,
+        "similarity": 0.40366046830122454,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.3862931284078014,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.3682808405257161,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.3666672790560449,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.31625974201385254,
+        "decision": "rejected",
+        "reason": "Similarity 0.32 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 89,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.5696932459332206,
+        "decision": "rejected",
+        "reason": "Similarity 0.57 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.5531610167597925,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.4518517915626836,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.39307599220198913,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 90,
+        "similarity": 0.39005702284195687,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 90,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.548087310351291,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.4783946000001182,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.4156591601458386,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.3968167268164787,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.3803187539714239,
+        "decision": "rejected",
+        "reason": "Similarity 0.38 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 92,
+    "anchor_size": 3,
+    "candidates": [
+      {
+        "candidate_cluster": 0,
+        "similarity": 0.5149441972300515,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.4872522033598444,
+        "decision": "rejected",
+        "reason": "Similarity 0.49 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 88,
+        "similarity": 0.42862215623639993,
+        "decision": "rejected",
+        "reason": "Similarity 0.43 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.4226291123030508,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.3934126796836419,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 0,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.4798677837366962,
+        "decision": "rejected",
+        "reason": "Similarity 0.48 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 17,
+        "similarity": 0.46952207262149337,
+        "decision": "rejected",
+        "reason": "Similarity 0.47 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.42036254101809256,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.4140561109121149,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.3857980633637057,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 7,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.3370878598168438,
+        "decision": "rejected",
+        "reason": "Similarity 0.34 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.3242454577486356,
+        "decision": "rejected",
+        "reason": "Similarity 0.32 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.31998140118257545,
+        "decision": "rejected",
+        "reason": "Similarity 0.32 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 35,
+        "similarity": 0.2779179695458941,
+        "decision": "rejected",
+        "reason": "Similarity 0.28 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.2671804039772786,
+        "decision": "rejected",
+        "reason": "Similarity 0.27 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 11,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.4054177975782345,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.4014456038627257,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.37465780065132687,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.338609922842624,
+        "decision": "rejected",
+        "reason": "Similarity 0.34 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 86,
+        "similarity": 0.33201785654522536,
+        "decision": "rejected",
+        "reason": "Similarity 0.33 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 17,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.5126385805044917,
+        "decision": "rejected",
+        "reason": "Similarity 0.51 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.5047383103427957,
+        "decision": "rejected",
+        "reason": "Similarity 0.50 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 36,
+        "similarity": 0.42592824990056727,
+        "decision": "rejected",
+        "reason": "Similarity 0.43 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.3828911542146231,
+        "decision": "rejected",
+        "reason": "Similarity 0.38 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 88,
+        "similarity": 0.36981675488398363,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 35,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.44801284377163203,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.40518392743029563,
+        "decision": "rejected",
+        "reason": "Similarity 0.41 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.3779707002737879,
+        "decision": "rejected",
+        "reason": "Similarity 0.38 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.3731627514914473,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.3074841549983895,
+        "decision": "rejected",
+        "reason": "Similarity 0.31 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 36,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.4503884864274274,
+        "decision": "rejected",
+        "reason": "Similarity 0.45 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.4225462979817042,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.36794812805768595,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 86,
+        "similarity": 0.30035574204002646,
+        "decision": "rejected",
+        "reason": "Similarity 0.30 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.2827209821832296,
+        "decision": "rejected",
+        "reason": "Similarity 0.28 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 57,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 58,
+        "similarity": 0.26677091395089503,
+        "decision": "rejected",
+        "reason": "Similarity 0.27 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.25126438346805574,
+        "decision": "rejected",
+        "reason": "Similarity 0.25 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.2257637098087767,
+        "decision": "rejected",
+        "reason": "Similarity 0.23 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.21711509862864292,
+        "decision": "rejected",
+        "reason": "Similarity 0.22 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.20357821317506322,
+        "decision": "rejected",
+        "reason": "Similarity 0.20 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 58,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 63,
+        "similarity": 0.2939023193614322,
+        "decision": "rejected",
+        "reason": "Similarity 0.29 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 86,
+        "similarity": 0.28349152416928336,
+        "decision": "rejected",
+        "reason": "Similarity 0.28 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.2592473381574252,
+        "decision": "rejected",
+        "reason": "Similarity 0.26 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.22153087453406173,
+        "decision": "rejected",
+        "reason": "Similarity 0.22 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.20352810069935864,
+        "decision": "rejected",
+        "reason": "Similarity 0.20 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 63,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 78,
+        "similarity": 0.38030947592582254,
+        "decision": "rejected",
+        "reason": "Similarity 0.38 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.31272426410546406,
+        "decision": "rejected",
+        "reason": "Similarity 0.31 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.311575310819416,
+        "decision": "rejected",
+        "reason": "Similarity 0.31 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 88,
+        "similarity": 0.29869777599742897,
+        "decision": "rejected",
+        "reason": "Similarity 0.30 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.2419424572209688,
+        "decision": "rejected",
+        "reason": "Similarity 0.24 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 77,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 88,
+        "similarity": 0.2531918159119545,
+        "decision": "rejected",
+        "reason": "Similarity 0.25 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.2268040808270222,
+        "decision": "rejected",
+        "reason": "Similarity 0.23 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 43,
+        "similarity": 0.22046001433507076,
+        "decision": "rejected",
+        "reason": "Similarity 0.22 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.19002326334871383,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.15392176309639616,
+        "decision": "rejected",
+        "reason": "Similarity 0.15 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 78,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.39855863601153485,
+        "decision": "rejected",
+        "reason": "Similarity 0.40 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.3903773772760587,
+        "decision": "rejected",
+        "reason": "Similarity 0.39 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.36283354998990724,
+        "decision": "rejected",
+        "reason": "Similarity 0.36 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.3598590071587231,
+        "decision": "rejected",
+        "reason": "Similarity 0.36 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 80,
+        "similarity": 0.3296428362175377,
+        "decision": "rejected",
+        "reason": "Similarity 0.33 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 80,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.5487762546241112,
+        "decision": "rejected",
+        "reason": "Similarity 0.55 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 88,
+        "similarity": 0.37080069747455696,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 43,
+        "similarity": 0.35904798976931995,
+        "decision": "rejected",
+        "reason": "Similarity 0.36 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.27834123271689404,
+        "decision": "rejected",
+        "reason": "Similarity 0.28 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.27393289313807495,
+        "decision": "rejected",
+        "reason": "Similarity 0.27 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 86,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.265863230226918,
+        "decision": "rejected",
+        "reason": "Similarity 0.27 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.25924759554682997,
+        "decision": "rejected",
+        "reason": "Similarity 0.26 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.2511733360032784,
+        "decision": "rejected",
+        "reason": "Similarity 0.25 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.2417468196172656,
+        "decision": "rejected",
+        "reason": "Similarity 0.24 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 88,
+        "similarity": 0.20449026158705907,
+        "decision": "rejected",
+        "reason": "Similarity 0.20 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 88,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.36884372419589273,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 43,
+        "similarity": 0.27307361446172995,
+        "decision": "rejected",
+        "reason": "Similarity 0.27 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 94,
+        "similarity": 0.23974858323366052,
+        "decision": "rejected",
+        "reason": "Similarity 0.24 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.2350982470326928,
+        "decision": "rejected",
+        "reason": "Similarity 0.24 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.1932506844339009,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 94,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 95,
+        "similarity": 0.3539099171643285,
+        "decision": "rejected",
+        "reason": "Similarity 0.35 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.34330703979212396,
+        "decision": "rejected",
+        "reason": "Similarity 0.34 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.3389294196218389,
+        "decision": "rejected",
+        "reason": "Similarity 0.34 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 21,
+        "similarity": 0.3124250046138489,
+        "decision": "rejected",
+        "reason": "Similarity 0.31 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.29520065731307094,
+        "decision": "rejected",
+        "reason": "Similarity 0.30 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 95,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 21,
+        "similarity": 0.42214161149096424,
+        "decision": "rejected",
+        "reason": "Similarity 0.42 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.28184109023064435,
+        "decision": "rejected",
+        "reason": "Similarity 0.28 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.2764251742907673,
+        "decision": "rejected",
+        "reason": "Similarity 0.28 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.18982415658740082,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 99,
+        "similarity": 0.17946806515888233,
+        "decision": "rejected",
+        "reason": "Similarity 0.18 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 99,
+    "anchor_size": 2,
+    "candidates": [
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.2908965528350009,
+        "decision": "rejected",
+        "reason": "Similarity 0.29 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 43,
+        "similarity": 0.24509786263560504,
+        "decision": "rejected",
+        "reason": "Similarity 0.25 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 20,
+        "similarity": 0.2297400898609067,
+        "decision": "rejected",
+        "reason": "Similarity 0.23 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.20596255583645298,
+        "decision": "rejected",
+        "reason": "Similarity 0.21 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 71,
+        "similarity": 0.16220463673513605,
+        "decision": "rejected",
+        "reason": "Similarity 0.16 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 20,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 21,
+        "similarity": 0.21251827274759597,
+        "decision": "rejected",
+        "reason": "Similarity 0.21 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 43,
+        "similarity": 0.16171930198730605,
+        "decision": "rejected",
+        "reason": "Similarity 0.16 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.1600488565172956,
+        "decision": "rejected",
+        "reason": "Similarity 0.16 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 71,
+        "similarity": 0.14658369473858443,
+        "decision": "rejected",
+        "reason": "Similarity 0.15 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.1419701814258674,
+        "decision": "rejected",
+        "reason": "Similarity 0.14 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 21,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.18584693458057058,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.14822359659681617,
+        "decision": "rejected",
+        "reason": "Similarity 0.15 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 71,
+        "similarity": 0.14027614077077846,
+        "decision": "rejected",
+        "reason": "Similarity 0.14 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.11540873875112573,
+        "decision": "rejected",
+        "reason": "Similarity 0.12 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 81,
+        "similarity": 0.0805213508318377,
+        "decision": "rejected",
+        "reason": "Similarity 0.08 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 43,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.36686489423996127,
+        "decision": "rejected",
+        "reason": "Similarity 0.37 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.1857814144078363,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.17890631016340258,
+        "decision": "rejected",
+        "reason": "Similarity 0.18 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 71,
+        "similarity": 0.0885101414060162,
+        "decision": "rejected",
+        "reason": "Similarity 0.09 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 81,
+        "similarity": 0.048749431549651626,
+        "decision": "rejected",
+        "reason": "Similarity 0.05 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 71,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.2994565754941609,
+        "decision": "rejected",
+        "reason": "Similarity 0.30 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 81,
+        "similarity": 0.18757317491399958,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.1440349184220422,
+        "decision": "rejected",
+        "reason": "Similarity 0.14 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.0730957351405553,
+        "decision": "rejected",
+        "reason": "Similarity 0.07 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 81,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.1944386900067501,
+        "decision": "rejected",
+        "reason": "Similarity 0.19 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 84,
+        "similarity": 0.1672640023978783,
+        "decision": "rejected",
+        "reason": "Similarity 0.17 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.12724942816151466,
+        "decision": "rejected",
+        "reason": "Similarity 0.13 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 84,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 91,
+        "similarity": 0.16980688457650073,
+        "decision": "rejected",
+        "reason": "Similarity 0.17 < threshold 0.7"
+      },
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.14001660835791835,
+        "decision": "rejected",
+        "reason": "Similarity 0.14 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 91,
+    "anchor_size": 1,
+    "candidates": [
+      {
+        "candidate_cluster": 96,
+        "similarity": 0.21817266262357915,
+        "decision": "rejected",
+        "reason": "Similarity 0.22 < threshold 0.7"
+      }
+    ]
+  },
+  {
+    "anchor_cluster": 96,
+    "anchor_size": 1,
+    "candidates": []
+  }
+]

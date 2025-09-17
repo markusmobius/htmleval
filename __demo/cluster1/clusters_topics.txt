@@ -1,0 +1,1073 @@
+
+--- CLUSTER 0 ---
+Topic: restaurant service experience
+GPT Coherence Score: 6/10
+Distortion: 0.46
+Opinions:
+- The wait time for drinks was excessively long.
+- The restaurant was excessively loud, contributing to a negative experience.
+
+--- CLUSTER 1 ---
+Topic: seafood dishes and dining experiences
+GPT Coherence Score: 8/10
+Distortion: 4.63
+Opinions:
+- The crab cake Benedict was loved.
+- The stuffed tilapia with orange rice and potato salad was chosen but not consumed due to the daughter's illness.
+- The tempura shrimp, feta fries, scallops, and meat & cheese were all very well prepared.
+- The Puppy Drum entree was excellent and served with an almond sauce.
+- The Fried Seafood Supper was also good.
+- The fried calamari was very good.
+- Instructions on how to eat the crab were helpful.
+- The fried green tomatoes were delicious.
+- The grouper and coconut rice were enjoyed on Night 2.
+
+--- CLUSTER 2 ---
+Topic: customer service and service quality
+GPT Coherence Score: 9/10
+Distortion: 9.62
+Opinions:
+- The service was good and the staff was friendly.
+- The service was great and fast.
+- Abel, the owner, provided friendly service.
+- The service was impressive, with complimentary cookies offered due to a low quantity.
+- The service was very friendly.
+- Great service was provided.
+- The meal and service demonstrated a lot of care.
+- The service from Lynn was welcoming and personal.
+- The service was better than average.
+- Service was attentive but not overbearing.
+- The service is good.
+- The service was excellent.
+- The service was attentive and not rushed despite arriving close to closing time.
+- Customer service was amazing.
+- The service was polite.
+- The manager displayed good customer service by offering to bring the wrap regardless.
+- The service was great.
+- The waiter and staff provided very good service.
+- Fresh towels were provided daily and the rooms were kept clean.
+- Another server eventually provided excellent service.
+- Service is good at this restaurant.
+- The service is excellent.
+
+--- CLUSTER 3 ---
+Topic: restaurant atmosphere and ambiance
+GPT Coherence Score: 8/10
+Distortion: 1.54
+Opinions:
+- It appears to be a locals' hangout.
+- The restaurant has a homegrown feel.
+- The interior has a rustic appearance.
+- The restaurant is a hole in the wall.
+
+--- CLUSTER 4 ---
+Topic: Mexican food, specifically tacos and related dishes
+GPT Coherence Score: 9/10
+Distortion: 4.43
+Opinions:
+- The combo Fajitas and Apalancate dish were enjoyed.
+- The Mac n cheese had jalapeños and sun dried tomatoes.
+- The pork tacos were the best the user has ever had.
+- The tacos were deemed to be the real deal.
+- The price for two tacos was just over $4.00.
+- The chips and salsas were enjoyable.
+- The pastor and carnitas were better than the fish taco.
+- The brisket tacos were flavorful and stuffed full of juicy shredded brisket.
+- The pico de gallo, beans, and fried jalapenos enhanced the tacos.
+
+--- CLUSTER 5 ---
+Topic: customer service in a restaurant
+GPT Coherence Score: 8/10
+Distortion: 1.01
+Opinions:
+- The manager did not communicate with customers adequately.
+- Customers were required to order food to sit down, which was not appreciated.
+- The overall customer service was poor despite the restaurant being busy.
+
+--- CLUSTER 6 ---
+Topic: food quality and dining experiences
+GPT Coherence Score: 6/10
+Distortion: 11.64
+Opinions:
+- The food quality is similar to that of any other Subway.
+- The food is excellent.
+- The coffee at District is reliably excellent.
+- The food is fresh and excellent.
+- The food is well-prepared.
+- The shrimp and grits are excellent.
+- Cheeseburger Paradise offers good food options.
+- The food, service, and overall experience can vary significantly.
+- The food is good.
+- The baked eggs and oatmeal are consistently delicious.
+- The food is delicious and seasoned to perfection.
+- Dagwoods is a good spot for food and drinks.
+- The Greek food at this restaurant is exceptional.
+- The food selection is decent.
+- The crab is good and worth the price.
+- The food at Gianna's is still good.
+- The food is not boring.
+- The food is good.
+- The bar and grill food is decent.
+- Nam Kitchen is the best phõ place in Edmonton.
+- The food is amazing.
+- The kim chi is excellent.
+
+--- CLUSTER 7 ---
+Topic: coffee strength and effects
+GPT Coherence Score: 7/10
+Distortion: 0.57
+Opinions:
+- The coffee is extremely potent.
+- The reviewer plans to return after recovering from the coffee.
+
+--- CLUSTER 8 ---
+Topic: dining experience at Firebirds restaurant
+GPT Coherence Score: 8/10
+Distortion: 2.47
+Opinions:
+- The chicken and mushroom risotto were both excellent.
+- The Firebirds chicken pasta was exceptionally good.
+- The overall experience at Firebirds was positive.
+- I plan to return to Firebirds.
+- The chicken parmesan is made with house-made noodles.
+
+--- CLUSTER 9 ---
+Topic: restaurant quality and customer satisfaction
+GPT Coherence Score: 9/10
+Distortion: 1.31
+Opinions:
+- The restaurant has good reviews.
+- The restaurant seems to have many regular customers.
+- The restaurant has been a fan favorite for over 15 years.
+- The food at the restaurant has been excellent on previous visits.
+
+--- CLUSTER 10 ---
+Topic: various types of pastries and desserts
+GPT Coherence Score: 6/10
+Distortion: 3.31
+Opinions:
+- The donuts were loved.
+- The chocolate chip cookies were the best.
+- The beignets were great.
+- Beignets are served without powdered sugar, allowing customers to choose their own amount.
+- The beans were great.
+- The king cake French toast was super sweet but tasty.
+- The donuts were served hot and tasted great.
+
+--- CLUSTER 11 ---
+Topic: dining options and seating areas
+GPT Coherence Score: 8/10
+Distortion: 0.44
+Opinions:
+- The outdoor, indoor, and marketplace seating areas provide good dining options.
+- Outdoor seating with picnic benches was enjoyable.
+
+--- CLUSTER 12 ---
+Topic: build-your-own pizza restaurant options and pricing
+GPT Coherence Score: 9/10
+Distortion: 1.99
+Opinions:
+- The business offers a build-your-own pizza concept similar to Subway.
+- Pizza options include regular and gluten-free dough, various sauces, cheeses, meats, veggies, and seasonings.
+- The price for a custom pizza with unlimited toppings is $7.95.
+- The restaurant has recently changed to a five topping build your own option.
+- The unlimited toppings policy would have warranted a five star rating.
+
+--- CLUSTER 13 ---
+Topic: poor service experiences at a bar or restaurant
+GPT Coherence Score: 7/10
+Distortion: 2.88
+Opinions:
+- The owner was rude, loud, and sarcastic.
+- The acting manager was dismissive and assumed the guest wanted a discount.
+- The bartender was rude in his response to a drink preference.
+- There was a problem with the delivery from the Stick Sports Bar.
+- The server was rude when addressing the missing drink.
+- We had to flag down the server to get additional drinks.
+
+--- CLUSTER 14 ---
+Topic: desserts and salads
+GPT Coherence Score: 6/10
+Distortion: 1.10
+Opinions:
+- The Meyer lemon cheesecake was exceptionally good.
+- The cheesecake was not fantastic, but it was a nice ending.
+- The Caesar salads were good but not the best.
+
+--- CLUSTER 15 ---
+Topic: steak dishes and dining experience
+GPT Coherence Score: 8/10
+Distortion: 0.87
+Opinions:
+- The filet was well-cooked and tasty.
+- The ribeye was surprisingly good.
+- The French onion filet special was delicious and cooked to perfection.
+
+--- CLUSTER 16 ---
+Topic: staff friendliness and service quality
+GPT Coherence Score: 9/10
+Distortion: 1.72
+Opinions:
+- The owners are friendly and local.
+- The staff was friendly and knowledgeable.
+- The staff is friendly and knowledgeable.
+- The staff is personable and genuine.
+- The staff is cheerful and helpful.
+- The staff was friendly.
+
+--- CLUSTER 17 ---
+Topic: comparison of food quality in restaurants
+GPT Coherence Score: 4/10
+Distortion: 0.60
+Opinions:
+- The food was not comparable to Italian cuisine.
+- Other places in NOLA did not compare to BOIL.
+
+--- CLUSTER 18 ---
+Topic: restaurant service and cleanliness
+GPT Coherence Score: 3/10
+Distortion: 1.92
+Opinions:
+- The coffee cups are cheap and prone to cracking.
+- The sodas were not very strong, but the sweet tea was recommended.
+- The iced tea glass was dirty with a brown residue.
+- The salt and pepper shakers were sticky.
+
+--- CLUSTER 19 ---
+Topic: food and beverage pairings
+GPT Coherence Score: 5/10
+Distortion: 1.04
+Opinions:
+- The omakase shogun with sake pairing was filling and well-prepared.
+- The sake pairing was explained in an engaging manner.
+- Lynn provided helpful suggestions for wine pairings.
+
+--- CLUSTER 20 ---
+Topic: favorite dishes and food preferences
+GPT Coherence Score: 8/10
+Distortion: 0.00
+Opinions:
+- The Dill Pickle Soup is a favorite dish.
+
+--- CLUSTER 21 ---
+Topic: cocktails and beverages
+GPT Coherence Score: 8/10
+Distortion: 0.00
+Opinions:
+- The bartender can make a virgin version of the Lemon-Basil Mojito.
+
+--- CLUSTER 22 ---
+Topic: breakfast and dining options
+GPT Coherence Score: 7/10
+Distortion: 2.45
+Opinions:
+- Breakfast is always good.
+- It is a great breakfast spot.
+- Companion is a major distributor of bread for many St. Louis restaurants and universities.
+- Companion is an excellent choice for breakfast, brunch, or lunch.
+- It is also suitable for a lunch date.
+
+--- CLUSTER 23 ---
+Topic: seafood dishes and dining experience
+GPT Coherence Score: 7/10
+Distortion: 0.91
+Opinions:
+- The lobster bisque was just okay.
+- The lobster ravioli portion was small.
+- Only two medium-sized shrimp were provided.
+
+--- CLUSTER 24 ---
+Topic: cleanliness and maintenance of facilities
+GPT Coherence Score: 9/10
+Distortion: 2.10
+Opinions:
+- The cleanliness was lacking.
+- Ceiling tiles are dirty.
+- Bathroom facilities usually don't work properly.
+- The place was not the cleanest or fanciest.
+- The bathroom is not clean.
+
+--- CLUSTER 25 ---
+Topic: restaurant experience and customer loyalty
+GPT Coherence Score: 9/10
+Distortion: 4.63
+Opinions:
+- District is one of the reviewer's favorite establishments in the city.
+- The reviewer misses this restaurant.
+- Ordering from this restaurant is easy.
+- The reviewer is inclined to order from this restaurant frequently.
+- Excellent customer service would make the reviewer visit even if the restaurant were out of state.
+- The reviewer intends to become a lifetime customer.
+- The reviewer may not return due to numerous other dining options in the city.
+- The reviewer highly recommends this restaurant.
+- Chris Hardy, a representative from the restaurant, reached out to the reviewer regarding their initial feedback.
+- The reviewer eats there at least twice a week.
+
+--- CLUSTER 26 ---
+Topic: food and dining experiences
+GPT Coherence Score: 8/10
+Distortion: 2.48
+Opinions:
+- The food, including sliders and donuts, was tasty and satisfying.
+- The turkey wings with orange rice and broccoli were enjoyable.
+- The chicken and waffles with cayenne pepper butter and syrup were enjoyable.
+- The food, including wings and the appetizer sampler, was good but typical for a chicken joint.
+- The food, including chicken, TRI tip, Baja burger, bacon burger, and wings, was delicious.
+- The ranch chicken was juicy, crispy, and slightly salty.
+
+--- CLUSTER 27 ---
+Topic: intentions to return to a restaurant or location
+GPT Coherence Score: 7/10
+Distortion: 6.40
+Opinions:
+- The user plans to return.
+- The reviewer would definitely return if given the opportunity to visit New Orleans again.
+- The reviewer might consider returning after sanitary upgrades.
+- The reviewer plans to visit again.
+- It is worth the hike to visit.
+- The visit to Penn was aimed at exploring attendance options.
+- The reviewer enjoyed their first visit to the restaurant and would return in the future.
+- The reviewer plans to visit again.
+- The reviewer would definitely go back.
+- The reviewer intends to return to the restaurant.
+- The reviewer was initially hesitant to visit due to the mall's condition.
+- The reviewer was promptly greeted upon arrival.
+- The reviewer's experience led them to change their rating to four stars.
+
+--- CLUSTER 28 ---
+Topic: atmosphere of a restaurant or cafe
+GPT Coherence Score: 9/10
+Distortion: 4.70
+Opinions:
+- The atmosphere is appealing.
+- The atmosphere of District balances a coffee shop vibe with a neighborhood bar/restaurant feel.
+- The atmosphere is great for bringing friends.
+- The ambience was great.
+- The atmosphere was relaxing and laid back.
+- There is cool artwork everywhere.
+- The atmosphere is festively tacky.
+- The atmosphere of the restaurant is trendy and visually appealing.
+- The atmosphere was nice.
+- The atmosphere is intimate.
+- The atmosphere was enjoyable and relaxing.
+
+--- CLUSTER 29 ---
+Topic: margaritas and drink specials
+GPT Coherence Score: 7/10
+Distortion: 2.48
+Opinions:
+- The moonshine margaritas were fantastic and reasonably priced.
+- The 2 for 1 Patron Margaritas were a good deal.
+- The mango margarita contains hot sauce.
+- The margaritas were strong and the queso had a good spicy kick.
+- The bottomless mimosas were enjoyable.
+- The frozen margaritas were good.
+
+--- CLUSTER 30 ---
+Topic: menu availability and item shortages
+GPT Coherence Score: 7/10
+Distortion: 2.45
+Opinions:
+- The chicken fried steak was no longer available despite being on the menu.
+- The restaurant was out of a turkey sandwich, a common menu item.
+- The desired menu item was sold out.
+- The steak sandwich and salad order was canceled after being told it was on the way.
+- The Turkey BLT wrap was not available due to a menu change.
+- The restaurant has been out of dessert during recent visits.
+
+--- CLUSTER 31 ---
+Topic: pizza quality and preferences
+GPT Coherence Score: 8/10
+Distortion: 0.93
+Opinions:
+- The pizza was good for what it was.
+- Gia wanted cheese pizza.
+- The pizza was very good.
+
+--- CLUSTER 32 ---
+Topic: wait times and service speed at a restaurant
+GPT Coherence Score: 9/10
+Distortion: 2.97
+Opinions:
+- There was a wait of over 15 minutes for a table.
+- The wait for food exceeded 45 minutes.
+- The guest waited 15 minutes before their order was taken.
+- The food took nearly an hour to be served.
+- Customers who arrived after were served before them.
+- Salads took too long to arrive during the movie.
+- Service was slow, with a 25-minute wait to be greeted.
+- Our food took over an hour to arrive after being seated.
+
+--- CLUSTER 33 ---
+Topic: seating arrangements and reservations
+GPT Coherence Score: 8/10
+Distortion: 0.88
+Opinions:
+- Reserved seating is available.
+- There is inside seating available, but it is limited.
+- It is advisable to reserve a seat before visiting.
+
+--- CLUSTER 34 ---
+Topic: restaurant pricing and value
+GPT Coherence Score: 9/10
+Distortion: 3.79
+Opinions:
+- Extra charges were applied.
+- The restaurant's prices are considered overpriced.
+- The food was overpriced.
+- The restaurant was pricey.
+- Prices are high, which is expected at an airport.
+- The New York strip steaks were not good for the price of $45.
+- The meal was not worth the price.
+- Food prices are high.
+
+--- CLUSTER 35 ---
+Topic: desserts
+GPT Coherence Score: 6/10
+Distortion: 0.52
+Opinions:
+- The fried ice cream is a must-have dessert.
+- The banana creme brûlée was absolutely delicious.
+
+--- CLUSTER 36 ---
+Topic: customer experience at Taco Bus
+GPT Coherence Score: 7/10
+Distortion: 0.53
+Opinions:
+- The user will never return to Taco Bus.
+- The experience led to a decision not to return.
+
+--- CLUSTER 37 ---
+Topic: seafood dishes
+GPT Coherence Score: 6/10
+Distortion: 2.53
+Opinions:
+- The lobster roll was fantastic.
+- The lobster wrap was also excellent.
+- The pirogies are impressive.
+- The New England clam chowder was one of the best ever had.
+- The lobster ravioli was incredible.
+- The crawfish pasta was amazing.
+
+--- CLUSTER 38 ---
+Topic: restaurant decor and interior design
+GPT Coherence Score: 9/10
+Distortion: 1.08
+Opinions:
+- The decor of the restaurant is beautiful.
+- The decor of the place is attractive.
+- The restaurant has a colorful and fun interior.
+- The decor inside the restaurant is nice.
+- The restaurant's interior is beautiful.
+
+--- CLUSTER 39 ---
+Topic: french fries and their variations
+GPT Coherence Score: 8/10
+Distortion: 0.77
+Opinions:
+- The cheese fries were great.
+- The french fries were salty.
+- The fries were tasty and crispy.
+
+--- CLUSTER 40 ---
+Topic: menu offerings and variety
+GPT Coherence Score: 8/10
+Distortion: 2.84
+Opinions:
+- There is anticipation to try more items from the menu.
+- The menu at the establishment is innovative.
+- The menu is extensive.
+- The drink and ice cream menu is expansive.
+- The whiskey selection is excellent.
+- Mojo's has a gluten-free menu supplement available upon request.
+
+--- CLUSTER 41 ---
+Topic: server attentiveness and service quality
+GPT Coherence Score: 9/10
+Distortion: 2.07
+Opinions:
+- The waitress did not properly attend to the group of six.
+- The server was inattentive and slow.
+- The staff forgot the pizza order during the last visit.
+- The server was unavailable when needed.
+- The server showed more attention to another table than to our table.
+
+--- CLUSTER 42 ---
+Topic: sauce and meal flavors
+GPT Coherence Score: 7/10
+Distortion: 1.31
+Opinions:
+- The sauce accompanying the dish was good.
+- The sweet red sauce was not preferred.
+- The sauce was good.
+- The meal had a bit of spice that complemented the flavors.
+
+--- CLUSTER 43 ---
+Topic: kitchen design and functionality
+GPT Coherence Score: 7/10
+Distortion: 0.00
+Opinions:
+- The fixings area is too small for comfortable use.
+
+--- CLUSTER 44 ---
+Topic: pizza and flatbread quality
+GPT Coherence Score: 8/10
+Distortion: 2.58
+Opinions:
+- The flatbread was delicious and suitable for warm weather.
+- The correct pizza was eventually served and it was delicious.
+- The pizza had a well-done crust.
+- The crust had a nice flavor and was not too thick.
+- Pizzas are cooked in a wood-burning oven and come out well-prepared.
+- The gluten free crust is good.
+
+--- CLUSTER 45 ---
+Topic: restaurant pricing and meal options
+GPT Coherence Score: 6/10
+Distortion: 4.43
+Opinions:
+- The pricing is average.
+- The hoagies were very good and reasonably priced.
+- The prices are reasonable with a variety of meal options.
+- The entrees are reasonably priced and include soup and salad.
+- The restaurant offers a great 'you pick two' menu from 11-3.
+- All meals are served with fried Plantain and Rice and Beans.
+- The hotel offers a free breakfast buffet with customizable omelettes.
+- Breakfast, lunch, and dinner options were available all day.
+
+--- CLUSTER 46 ---
+Topic: service quality and staff friendliness
+GPT Coherence Score: 9/10
+Distortion: 0.85
+Opinions:
+- The seater and server were super friendly.
+- The servers are sweet and attentive.
+- Zach, the server, was attentive and personable.
+
+--- CLUSTER 47 ---
+Topic: food quality and taste
+GPT Coherence Score: 9/10
+Distortion: 4.23
+Opinions:
+- The food was hot and tasty.
+- The food was worth the price.
+- The food was good.
+- The food was good.
+- The potatoes au gratin were excellent.
+- The food was very good.
+- The corn and potatoes were delicious.
+- The food was good.
+- Food quality was excellent.
+- The food was enjoyable.
+- The food was decent.
+- The chowder was delicious.
+- The food was great.
+
+--- CLUSTER 48 ---
+Topic: food quality and dining experience
+GPT Coherence Score: 6/10
+Distortion: 1.50
+Opinions:
+- The sampler platter was just okay.
+- The burger was served raw in the middle.
+- The burger was impressive.
+- The cheeseburger was mediocre.
+
+--- CLUSTER 49 ---
+Topic: grocery selection and pan de dulce
+GPT Coherence Score: 6/10
+Distortion: 1.77
+Opinions:
+- The grocery selection includes a nice variety of pan de dulce.
+- The concha, mantecada, and oreja/palmiers cost $.99 each.
+- Pan de dulce is less sweet than American pastries, making it a good pairing with coffee.
+- The shop offers dry beans, dried ancho chiles, meat, and produce at good prices.
+
+--- CLUSTER 50 ---
+Topic: fried and baked pastries
+GPT Coherence Score: 6/10
+Distortion: 1.73
+Opinions:
+- The cruller was extremely greasy and reflected poor oil quality in frying.
+- The filling of the sfogliatella had a cheesecake-like taste and included candied orange zest pieces.
+- The cannoli shells were thicker and less crunchy than preferred.
+- The churros were well-prepared but the dulce de leche sauce was overly runny.
+
+--- CLUSTER 51 ---
+Topic: venue atmosphere and crowd density
+GPT Coherence Score: 8/10
+Distortion: 0.62
+Opinions:
+- The atmosphere was loud.
+- The venue was crowded.
+- The venue was a little crowded and loud.
+
+--- CLUSTER 52 ---
+Topic: overall experience evaluation
+GPT Coherence Score: 7/10
+Distortion: 2.73
+Opinions:
+- The experience was disappointing for all involved.
+- It provided an authentic experience.
+- The overall experience was just okay.
+- It felt like a tourist trap.
+- The overall experience was disappointing.
+- The experience was disappointing.
+- The overall experience was not compelling enough to return.
+
+--- CLUSTER 53 ---
+Topic: restaurant experience and seating
+GPT Coherence Score: 9/10
+Distortion: 2.39
+Opinions:
+- The restaurant was busy and crowded with large groups of diners.
+- The restaurant was packed but seating was immediate.
+- The restaurant is large, with booths and tables arranged on either side.
+- The outside seating area is packed with people.
+- The restaurant was busy and there was a wait for a table and food.
+- The staff greeted the family promptly and seated them.
+
+--- CLUSTER 54 ---
+Topic: restaurant location and accessibility
+GPT Coherence Score: 7/10
+Distortion: 2.92
+Opinions:
+- There is a desire for a location nearby.
+- There is free parking available behind the restaurant.
+- The restaurant is conveniently located near the hotel.
+- The restaurant is conveniently located.
+- There is a convenient skywalk from the hotel to the Convention Center.
+- The restaurant is very clean.
+
+--- CLUSTER 55 ---
+Topic: issues with a Groupon deal at a restaurant
+GPT Coherence Score: 7/10
+Distortion: 1.02
+Opinions:
+- The Groupon deal was not honored despite ordering a full dinner and appetizer.
+- The reviewer left without using the Groupon deal.
+- The franchise manager promised a free meal certificate, which was not received.
+
+--- CLUSTER 56 ---
+Topic: restaurant recommendations and dining experiences
+GPT Coherence Score: 6/10
+Distortion: 7.24
+Opinions:
+- It's a little off the beaten path, but worth the drive.
+- This place is recommended to coworkers.
+- The restaurant requires a reservation and does not accept walk-ins.
+- The restaurant is a great place for dinner and music.
+- The restaurant offers great Chinese food.
+- The restaurant is recommended.
+- The Fountain is an eclectic restaurant unique to St. Louis.
+- This place should be on everyone's bucket list.
+- The restaurant can get quite busy, especially in a touristy area.
+- The restaurant is a great local option.
+- The restaurant is ideal for a date night.
+- This is considered the best sushi place in town.
+- The restaurant is not suitable for dining but is great for takeout.
+
+--- CLUSTER 57 ---
+Topic: service quality and staff performance
+GPT Coherence Score: 9/10
+Distortion: 0.30
+Opinions:
+- Missy was an outstanding server.
+- Missy was friendly, knowledgeable, professional, and fun.
+
+--- CLUSTER 58 ---
+Topic: live music experience
+GPT Coherence Score: 7/10
+Distortion: 0.52
+Opinions:
+- The live music was amazing.
+- The music was at the correct volume.
+
+--- CLUSTER 59 ---
+Topic: pizza and sandwich quality
+GPT Coherence Score: 6/10
+Distortion: 2.05
+Opinions:
+- This is the best pizza the user has had since moving to St. Louis.
+- This place serves one of the best Cuban sandwiches.
+- The pizza is excellent.
+- This is one of the best fast food pizza places.
+- It is better than Pie Five.
+
+--- CLUSTER 60 ---
+Topic: food and flavors in Nashville
+GPT Coherence Score: 4/10
+Distortion: 1.81
+Opinions:
+- The Jerk Sauce is tangy, smoky, and has a great kick.
+- This is the reviewer's favorite classic Mexican food in Nashville.
+- The salsa is the best in Nashville and very flavorful.
+- Sabor has a different flavor profile compared to Baja.
+
+--- CLUSTER 61 ---
+Topic: restaurant service speed
+GPT Coherence Score: 9/10
+Distortion: 1.62
+Opinions:
+- Service is slow, even during off-peak hours.
+- The service at the restaurant is getting slower with each visit.
+- Diners should be prepared for long wait times and have patience.
+- The initial service was delayed due to a large party.
+
+--- CLUSTER 62 ---
+Topic: beer and beer tasting
+GPT Coherence Score: 9/10
+Distortion: 0.93
+Opinions:
+- The beer is fantastic.
+- The Pi Pale Ale is enjoyable.
+- The beer sampler was enjoyable.
+
+--- CLUSTER 63 ---
+Topic: quality and safety of shrimp dishes
+GPT Coherence Score: 8/10
+Distortion: 0.44
+Opinions:
+- The shrimp is cooked to perfection.
+- The shrimp was fresh and did not aggravate the shellfish allergy.
+
+--- CLUSTER 64 ---
+Topic: portion sizes and food quality
+GPT Coherence Score: 8/10
+Distortion: 1.42
+Opinions:
+- The portions were generous.
+- The cheese plate was generous.
+- The clams and pasta were huge and well-seasoned.
+- The portion size was larger than expected for a small snack.
+
+--- CLUSTER 65 ---
+Topic: restaurant menu items and recommendations
+GPT Coherence Score: 6/10
+Distortion: 2.15
+Opinions:
+- The fried Brussel Sprouts are highly recommended.
+- The kale salad is recommended to accompany the deep dish pizzas.
+- The comped roasted Brussels sprout appetizer was delicious.
+- The broadini fish and eggplant entree are particularly enjoyable.
+- The avocado spring rolls were enjoyed on Night 1.
+
+--- CLUSTER 66 ---
+Topic: restaurant atmosphere and condition
+GPT Coherence Score: 6/10
+Distortion: 3.64
+Opinions:
+- The environment of the restaurant is unwelcoming.
+- The restaurant is getting run down.
+- La Va creates a feeling of intrusion for customers.
+- The restaurant was unusually empty during the last visit.
+- The layout of the building is strange.
+- The restaurant could benefit from being cleaned.
+- There is uncertainty about returning to the restaurant.
+
+--- CLUSTER 67 ---
+Topic: food quality and preparation
+GPT Coherence Score: 6/10
+Distortion: 0.45
+Opinions:
+- The food was cooked in burnt grease.
+- The grits were poorly prepared.
+
+--- CLUSTER 68 ---
+Topic: food and menu items
+GPT Coherence Score: 7/10
+Distortion: 1.56
+Opinions:
+- The Fa La La La La and Cocktail Party sandwiches are standout options.
+- The Jerk Chicken, Jerk Beef Ribs, Oxtail, Jamaican Escovitch Red Snapper, Curried Chicken Patties, and Spicy Beef Patties are all amazing.
+- The Hot & Spicy Chicken Wings, Blue Cheese Stuffed Bacon Wrapped Dates, and Beef Tenderloin Medallions are all fantastic.
+- The Blue Cheese Stuffed Bacon Wrapped Dates are the favorite dish.
+
+--- CLUSTER 69 ---
+Topic: restaurant service and staff
+GPT Coherence Score: 9/10
+Distortion: 4.19
+Opinions:
+- The staff, including a friendly waitress named Shante, provided excellent service.
+- Lynn was attentive to the dietary restrictions and communicated with the kitchen.
+- The bartender is really friendly.
+- Service was provided by one bartender and one waitress.
+- The waitress was helpful and kind.
+- The hostess was efficient in retrieving the order.
+- The server was friendly and provided good menu recommendations.
+- The waitstaff is friendly, professional, and knowledgeable about gluten-free options.
+- The cashier was friendly and helpful.
+
+--- CLUSTER 70 ---
+Topic: restaurant service experience
+GPT Coherence Score: 9/10
+Distortion: 0.68
+Opinions:
+- The reviewer does not recommend the restaurant.
+- The reviewer has experienced minimal service on multiple occasions.
+- The reviewer would not recommend this restaurant based on their service experience.
+
+--- CLUSTER 71 ---
+Topic: dinosaurs and entertainment
+GPT Coherence Score: 3/10
+Distortion: 0.00
+Opinions:
+- Dinosaurs can be watched being made while waiting.
+
+--- CLUSTER 72 ---
+Topic: restaurant dining experience
+GPT Coherence Score: 6/10
+Distortion: 3.70
+Opinions:
+- The restaurant exceeded expectations.
+- The restaurant had a pleasant atmosphere with beautifully painted walls and served delicious rolls.
+- The dining experience was terrific.
+- The restaurant did not meet expectations.
+- The expectations for the restaurant were high.
+- The dining experience was enjoyable and relaxing after a bad airline experience.
+- The family had a wonderful experience at the restaurant.
+- The restaurant was clean, welcoming, and had happy staff.
+- The gourmet burger was well-received.
+
+--- CLUSTER 73 ---
+Topic: Mexican restaurant experience and menu quality
+GPT Coherence Score: 6/10
+Distortion: 3.05
+Opinions:
+- Don Pablo's offers a good experience despite being an American Mexican chain.
+- The restaurant offers the best Mexican food in Reno.
+- The restaurant offers a simple menu.
+- The restaurant had a limited and worn menu.
+- The establishment is typical of a highway restaurant.
+- The restaurant has an average Mexican menu.
+- The restaurant serves excellent chicken enchiladas, fajitas, and Gringo quesadillas with chicken.
+
+--- CLUSTER 74 ---
+Topic: furniture and comfort in a venue
+GPT Coherence Score: 5/10
+Distortion: 1.22
+Opinions:
+- There is a large bar in the center with Hawaiian-style chairs.
+- The reclining chairs are comfortable.
+- The rooms are comfortable and designed like suites.
+
+--- CLUSTER 75 ---
+Topic: food items, specifically sliders and burgers
+GPT Coherence Score: 8/10
+Distortion: 0.88
+Opinions:
+- The sliders were great.
+- The duck sliders were outstanding.
+- The slider option and most gourmet burgers are usually safe choices.
+
+--- CLUSTER 76 ---
+Topic: food quality and temperature
+GPT Coherence Score: 8/10
+Distortion: 2.47
+Opinions:
+- The food was cold and disappointing.
+- The cheesecake ordered was frozen solid.
+- The food was unseasoned.
+- The breakfast was served cold.
+- The fish taco was unsatisfactory.
+- Most of the food was unsatisfactory, with burnt hush puppies and hard taco tortillas.
+
+--- CLUSTER 77 ---
+Topic: cleaning and sanitation practices
+GPT Coherence Score: 6/10
+Distortion: 0.42
+Opinions:
+- Wiping a table with a rag is acceptable.
+- Wiping a chair with the same towel as the table is unsanitary.
+
+--- CLUSTER 78 ---
+Topic: appetizers and starters
+GPT Coherence Score: 7/10
+Distortion: 0.51
+Opinions:
+- The goat cheese and pesto appetizer was a highlight of the meal.
+- The fresh bread and marinara sauce were offered as a complimentary starter.
+
+--- CLUSTER 79 ---
+Topic: bakery experience and pastry freshness
+GPT Coherence Score: 8/10
+Distortion: 0.85
+Opinions:
+- The bakery visit occurred late in the day, which may have affected the freshness of the pastries.
+- There is a desire to return to the bakery earlier in the day to try the cannoli.
+- The pastries were a little dry, possibly due to freshness at the time of purchase.
+
+--- CLUSTER 80 ---
+Topic: Cuban Sandwich quality and taste
+GPT Coherence Score: 8/10
+Distortion: 0.43
+Opinions:
+- The Cuban Sandwich was not enjoyable.
+- Both individuals found the sandwich lacking.
+
+--- CLUSTER 81 ---
+Topic: refunds and order cancellations
+GPT Coherence Score: 8/10
+Distortion: 0.00
+Opinions:
+- A refund is being awaited for the canceled order.
+
+--- CLUSTER 82 ---
+Topic: barbecue and Korean cuisine
+GPT Coherence Score: 5/10
+Distortion: 1.09
+Opinions:
+- The ribs had little meat and were mostly bone.
+- The bulgogi is a favorite dish.
+- The spare ribs are a favorite dish.
+
+--- CLUSTER 83 ---
+Topic: location of a restaurant
+GPT Coherence Score: 8/10
+Distortion: 0.63
+Opinions:
+- The restaurant is located in a strip mall in the Antioch area.
+- The restaurant is located in West County Mall.
+- The restaurant is located inside a strip mall.
+
+--- CLUSTER 84 ---
+Topic: relocation and geographic change
+GPT Coherence Score: 3/10
+Distortion: 0.00
+Opinions:
+- The reviewer has left the Tampa area.
+
+--- CLUSTER 85 ---
+Topic: staff behavior and customer service
+GPT Coherence Score: 8/10
+Distortion: 1.53
+Opinions:
+- Staff appeared to be angry and unfriendly.
+- The staff did not respond to the reviewer when coffee was spilled.
+- Staff displayed unhelpful attitudes when inquiries were made.
+- The initial attempts to be seated were met with uncooperative behavior.
+
+--- CLUSTER 86 ---
+Topic: customer experience at Allegro
+GPT Coherence Score: 4/10
+Distortion: 0.61
+Opinions:
+- Allegro did not inform customers that they were closed for renovations.
+- Allegro was chosen for its on-campus vibe.
+
+--- CLUSTER 87 ---
+Topic: service quality in restaurants
+GPT Coherence Score: 6/10
+Distortion: 2.62
+Opinions:
+- The service was poor.
+- The service was extremely poor.
+- The service was poor.
+- The service was slow in providing water and menus.
+- The muscles were not very good.
+- The hostess/waitress provided poor service and had an attitude.
+- Good service is rare in Asian restaurants.
+
+--- CLUSTER 88 ---
+Topic: food safety and hygiene in the kitchen
+GPT Coherence Score: 6/10
+Distortion: 0.60
+Opinions:
+- Cook in the kitchen was not wearing a hat as required by law.
+- A hair was found in the food.
+
+--- CLUSTER 89 ---
+Topic: chicken dishes and Middle Eastern cuisine
+GPT Coherence Score: 5/10
+Distortion: 1.06
+Opinions:
+- The chicken dishes often have a boiled taste and are chewy.
+- The chicken shawarma was dry.
+- The hummus tasted like tahini.
+
+--- CLUSTER 90 ---
+Topic: spinach dishes and appetizers
+GPT Coherence Score: 8/10
+Distortion: 0.77
+Opinions:
+- The Gulf Seafood & Spinach Artichoke Dip was good.
+- The spinach crepes with a side salad were good.
+- The spinach and artichoke dip was fantastic.
+
+--- CLUSTER 91 ---
+Topic: restaurant reservations and service
+GPT Coherence Score: 8/10
+Distortion: 0.00
+Opinions:
+- Reservations are not effectively handled for large parties.
+
+--- CLUSTER 92 ---
+Topic: restaurant service quality
+GPT Coherence Score: 8/10
+Distortion: 0.90
+Opinions:
+- The hostess did not inform the guests about unavailable menu items.
+- No manager checked on the table during the visit.
+- The server did not check in on our table or apologize for the delays.
+
+--- CLUSTER 93 ---
+Topic: sandwiches and food quality
+GPT Coherence Score: 8/10
+Distortion: 1.59
+Opinions:
+- The sandwich was perfectly pressed.
+- The sandwich was delicious.
+- WAWA offers hot hoagies.
+- The tripleta sandwich is delicious.
+
+--- CLUSTER 94 ---
+Topic: restaurant ordering advice
+GPT Coherence Score: 7/10
+Distortion: 0.45
+Opinions:
+- The restaurant takes the guesswork out of what to order.
+- Locals might know what to order and what to avoid.
+
+--- CLUSTER 95 ---
+Topic: drink specials and happy hour promotions
+GPT Coherence Score: 7/10
+Distortion: 0.52
+Opinions:
+- There are drink specials available to try in the future.
+- The happy hour provides free cocktails.
+
+--- CLUSTER 96 ---
+Topic: dining experience in a specific area
+GPT Coherence Score: 8/10
+Distortion: 0.00
+Opinions:
+- Magazine St. is a nice area to walk around while waiting for a table.
+
+--- CLUSTER 97 ---
+Topic: salads and food quality
+GPT Coherence Score: 4/10
+Distortion: 1.79
+Opinions:
+- The salad is outstanding.
+- The Picnic Basket salad is a favorite and features baby spinach, chicken breast, bleu cheese, strawberries, candied pecans, red onion, and strawberry poppy vinaigrette.
+- The salad contained ice chunks and canned beets.
+- The Carne Asada plate is fantastic.
+
+--- CLUSTER 98 ---
+Topic: freshness and quality of food
+GPT Coherence Score: 8/10
+Distortion: 2.18
+Opinions:
+- The vegetables are fresh and crunchy.
+- The house chow mein was delivered hot and fresh.
+- The ingredients tasted fresh.
+- The quality and freshness of the food is exceptional.
+- There are no wilted basil leaves served.
+
+--- CLUSTER 99 ---
+Topic: food quality and presentation
+GPT Coherence Score: 6/10
+Distortion: 0.43
+Opinions:
+- Rostizado's food photos were more appealing than the actual meal.
+- The chicken in the Rosto-pollo was not impressive, despite being consumed.
