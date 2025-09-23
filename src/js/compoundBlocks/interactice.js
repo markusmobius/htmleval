@@ -149,16 +149,50 @@ class Interactive {
           var checkedInputs = tabDiv.querySelectorAll('input[type="checkbox"]:checked');
           for (var i = 0; i < checkedInputs.length; i++) {
             var input = checkedInputs[i];
-            var fullId = input.getAttribute("fullid");
-            var value = data["variables"][fullId];
+            var fullId = input.getAttribute("fullid") || input.getAttribute("name");
+            var value = fullId ? data["variables"][fullId] : null;
             var varValue = input.getAttribute("varvalue");
-            console.log("Input", i, "fullId:", fullId, "stored value:", value, "varvalue attr:", varValue);
-            if (value === "no") {
+            console.log("[completion] checkbox", i, "fullId:", fullId, "stored value:", value, "varvalue:", varValue);
+            if (value === "no" || varValue === "no" || input.value === "no") {
               hasNoAnswers = true;
               break;
             }
           }
-          // TODO add support for multirowselect
+
+          // Support MultiRowSelect: radio inputs or select elements
+          if (!hasNoAnswers) {
+            // Radios
+            var radioInputs = tabDiv.querySelectorAll('input[type="radio"]:checked');
+            console.log('[completion] found radios:', radioInputs.length);
+            for (var r = 0; r < radioInputs.length; r++) {
+              var rInput = radioInputs[r];
+              var rFullId = rInput.getAttribute("fullid") || rInput.getAttribute("name");
+              var rValue = rFullId ? data["variables"][rFullId] : null;
+              var rVarValue = rInput.getAttribute("varvalue");
+              console.log("[completion] radio", r, "fullId:", rFullId, "stored value:", rValue, "varvalue:", rVarValue, "input.value:", rInput.value);
+              if (rValue === "no" || rVarValue === "no" || rInput.value === "no") {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+
+          if (!hasNoAnswers) {
+            // Select elements (dropdowns)
+            var selects = tabDiv.querySelectorAll('select');
+            console.log('[completion] found selects:', selects.length);
+            for (var s = 0; s < selects.length; s++) {
+              var sel = selects[s];
+              var selFullId = sel.getAttribute('fullid') || sel.getAttribute('name');
+              var selValue = selFullId ? data['variables'][selFullId] : null;
+              var selSelected = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].value : null;
+              console.log('[completion] select', s, 'fullId:', selFullId, 'stored value:', selValue, 'selected:', selSelected);
+              if (selValue === 'no' || selSelected === 'no') {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
         } else {
           console.log("Could not find tabDiv for blockID:", blockID);
         }
