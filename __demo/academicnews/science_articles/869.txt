@@ -1,0 +1,42 @@
+Global warming since 1997 more than twice as fast as previously estimated, new study shows | Dana Nuccitelli
+A new study fills in the gaps missed by the Met Office, and finds the warming 'pause' is barely a speed bump 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Met Office and Hadley Center don't include Arctic temperatures, where global warming is happening fastest. Photograph: Jenny E Ross/Corbis
+
+A new paper published in The Quarterly Journal of the Royal Meteorological Society fills in the gaps in the UK Met Office HadCRUT4 surface temperature data set, and finds that the global surface warming since 1997 has happened more than twice as fast as the HadCRUT4 estimate. This short video abstract summarizes the study's approach and results.
+The study, authored by Kevin Cowtan from the University of York and Robert Way from the University of Ottawa (who both also contribute to the climate science website Skeptical Science), notes that the Met Office data set only covers about 84 percent of the Earth's surface. There are large gaps in its coverage, mainly in the Arctic, Antarctica, and Africa, where temperature monitoring stations are relatively scarce. These are shown in white in the Met Office figure below. Note the rapid warming trend (red) in the Arctic in the Cowtan & Way version, missing from the Met Office data set.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Met Office vs. Cowtan & Way (2013) surface temperature coverage and trends
+
+NASA's GISTEMP surface temperature record tries to address the coverage gap by extrapolating temperatures in unmeasured regions based on the nearest measurements. However, the NASA data fails to include corrections for a change in the way sea surface temperatures are measured - a challenging problem that has so far only been addressed by the Met Office.
+The Berkeley Earth Surface Temperature (BEST) project used a similar approach as NASA, but with a statistical method known as "kriging" to fill in the gaps by interpolating and extrapolating with existing measurements. However, BEST only applied this method to temperatures over land, not oceans.
+Dr. Cowtan is an interdisciplinary computational scientist who recognized some potential solutions to this temperature coverage gap problem.
+"Like many scientists, I'm an obsessive problem solver. Sometimes you see a problem and think 'That's mine, I can make a contribution here'"
+In their paper, Cowtan & Way apply a kriging approach to fill in the gaps between surface measurements, but they do so for both land and oceans. In a second approach, they also take advantage of the near-global coverage of satellite observations, combining the University of Alabama at Huntsville (UAH) satellite temperature measurements with the available surface data to fill in the gaps with a 'hybrid' temperature data set. They found that the kriging method works best to estimate temperatures over the oceans, while the hybrid method works best over land and most importantly sea ice, which accounts for much of the unobserved region.
+Both of their new surface temperature data sets show significantly more warming over the past 16 years than HadCRUT4. This is mainly due to HadCRUT4 missing accelerated Arctic warming, especially since 1997.
+Cowtan & Way investigate the claim of a global surface warming 'pause' over the past 16 years by examining the trends from 1997 through 2012. While HadCRUT4 only estimates the surface warming trend at 0.046°C per decade during that time, and NASA puts it at 0.080°C per decade, the new kriging and hybrid data sets estimate the trend during this time at 0.11 and 0.12°C per decade, respectively.
+These results indicate that the slowed warming of average global surface temperature is not as significant as previously believed. Surface warming has slowed somewhat, in large part due to more overall global warming being transferred to the oceans over the past decade. However, these sorts of temporary surface warming slowdowns (and speed-ups) occur on a regular basis due to short-term natural influences.
+The results of this study also have bearing on some recent research. For example, correcting for the recent cool bias indicates that global surface temperatures are not as far from the average of climate model projections as we previously thought, and certainly fall within the range of individual climate model temperature simulations. Recent studies that concluded the global climate is a bit less sensitive to the increased greenhouse effect than previously believed may also have somewhat underestimated the actual climate sensitivity.
+This is of course just one study, as Dr. Cowtan is quick to note.
+"No difficult scientific problem is ever solved in a single paper. I don't expect our paper to be the last word on this, but I hope we have advanced the discussion."
+The perceived recent slowdown of global surface temperatures remains an interesting scientific question. It appears to be due to some combination of internal factors (more global warming going into the oceans), external factors (relatively low solar activity and high volcanic activity), and an underestimate of the actual global surface warming. 
+How much each factor is contributing is being investigated by extensive scientific research, but the Cowtan & Way paper suggests the latter explanation is a significant contributor. The temporary slowing of global surface warming appears to be smaller than we currently believe.
+ Topics

@@ -1,0 +1,45 @@
+How to prevent buddies from pranking you and burglars from getting in
+‘Hey Alexa, how secure are voice-activated assistants like you?’
+Share
+ America has fallen in love with smart speakers like Amazon's Echo and the Google Home — but this cool technology has created new privacy and security vulnerabilities that could potentially expose personal details such as the family’s contact list or bank account information. 
+ About 20 million homes already have a voice-activated assistant, according to Consumer Intelligence Research Partners. The market is dominated by Amazon (73 percent) and Google (27 percent). The Consumer Technology Association projects sales of another 4.4 million units during the holiday season — up 22 percent from last year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Apple Introduces HomePod, Takes On Amazon, Google 1:22 
+ autoplay autoplay 
+ It’s easy to see why these devices are so popular. It’s fun to talk to a computer — just like they do on Star Trek. But Captain Kirk didn’t have to worry about hackers and pranksters. We do. 
+ In a just-released White Paper on voice-activated smart speakers, the digital security firm Symantec cautions that “the range of activities that can be carried out by these speakers means that a hacker, or even just a mischief-minded friend or neighbor, could cause havoc if they gained access.” 
+ Imagine what someone in the room could do with your digital assistant when you step away to go the bathroom. That mischief ranges from a prank — setting your system to play loud music in the middle of the night — to a serious privacy violation — asking about your doctors’ appointments. 
+ If the purchasing option is turned on, they could go shopping. Echo has this enabled by default. You can set a four-digit PIN (highly recommended) or disable the feature. 
+ Earlier this year, it was reported that a six-year old girl in Dallas made a $170 purchase when she asked Alexa for a dollhouse and cookies. To her parent’s great surprise, an expensive doll house and four pounds of sugar cookies showed up on their doorstep. 
+ It's always listening 
+ Even though the user needs to say a wake-up command, such as “Alexa” or “OK Google” to activate these digital assistants, they’re always listening. And accidental triggering is fairly common. 
+ Things said on the radio, television, or streaming video can set them off. In April, Burger King aired a TV commercial designed to wake Google Home, by having an actor in the ad say “OK Google, what is the Whopper burger?" 
+ In most cases, an accidental triggering is not a big deal. But remember: Once the digital assistant is awake, it records what is said and sends that recording (over an encrypted connection) to the backend servers, where it’s stored. 
+ You can listen to these recordings and delete them. Give it a try; you might be surprised what’s there. 
+ Candid Wueest, Symantec’s principal threat researcher, sees a potential danger from “always listening” that’s significantly more concerning. 
+ “Someone could hack into these devices remotely and then turn them into a listening device,” Wueest told NBC News. “Some of them even come with cameras, so they could see what you’re doing, and that’s scary.” 
+ Anyone can control your device 
+ Smart speakers are designed to be hubs that can control other Internet of Things (IoT) appliances in your home, such as the lights, thermostat, and door locks. This convenience creates new vulnerabilities. 
+ Symantec cautions against connecting security functions, such as door locks, to a smart speaker. Pam Dixon, executive director of the World Privacy Forum, agrees. 
+ “A burglar could shout ‘open the front door’ and ‘turn off the alarm system,’ if these devices are connected to your digital hub,” Dixon said. “That’s why I’m not persuaded that using a home assistant to lock and unlock your doors is good idea.” 
+ Dixon also cautions against allowing your digital assistant to store passwords, credit card data, and all of your contact information. 
+ “You cannot have your whole life on that home assistant,” she told NBC News. 
+ Any device connected to the internet is vulnerable to malware. So far, there hasn’t been a “mass infection” of smart speakers and Symantec says proper configuration and deciding how much information should be linked to the device will deal with most of the current threats. 
+ NBC News contacted Amazon and Google to get their responses to the Symantec report. 
+ Amazon said it takes customer safety and security seriously. “We have taken measures to make Echo secure,” Amazon said in an emailed statement. “These include disallowing third party application installation on the device, rigorous security reviews, secure software development requirements and encryption of communication between Echo, the Alexa App and Amazon servers.” 
+ Google said all devices with Google Assistant are designed with security and privacy in mind. “Furthermore, Google users can always protect their accounts with a Security Checkup, and can visit My Activity to delete past searches, browsing history, and other activity from their Google Accounts,” the company said in its email. 
+ How to protect yourself 
+ Here are some ways to make your digital assistant more secure: 
+Be careful about which accounts you connect. If you don’t need to use the calendar or address book don’t enable these features. Think twice before linking to a business account.
+Use strong passwords on your account and enable two-factor authentication (2FA) when available. Anyone with access to your account can listen in remotely, play back recordings, access personal information or change settings.
+Make sure your smart speaker is linked to your home or office Wi-Fi network. If you’re not careful, you could choose an open Wi-Fi hotspot.
+If the manufacturer offers voice recognition, as both Amazon and Google do, use it. Just remember, it’s not perfect and can be fooled.
+Mute the device when you go away on vacation, so someone outside the house can’t shout commands to it.
+ “The bottom line: These devices do not present more risk than a smartphone or laptop, but you should definitely take the time to configure it properly,” Wueest said. “Make sure you enable as little as possible, because that limits the risk.” 
+ Herb Weisbaum is The ConsumerMan. Follow him on Facebook and Twitter or visit The ConsumerMan website.

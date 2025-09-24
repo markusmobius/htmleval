@@ -1,0 +1,505 @@
+NCAAB Sagarin - NCAAB Basketball
+All Contents Copyright © 2015 Jeff Sagarintm. All rights reserved.
+
+Final COLLEGE BASKETBALL 2014-2015 through results of 2015 APRIL 6 MONDAY - NCAA Championship Game
+
+this output has one part: (1) teams listed by RATING top-to-bottom
+RATINGS, WON-LOSS records, and SCHEDULE strengths are based SOLELY
+on games between Division I teams -- i.e. the 351 teams in this
+listing.
+The SCHEDULE ratings represent what the rating would have to be for a
+hypothetical team to have a mathematical expectation of winning precisely 50%
+of their games against the schedule played by the team in question in the games
+that it has played so far. The schedule difficulty of each given game takes
+into account the rating of the opponent and the location of the game. This
+is the same concept that is used in computing the WIN50% conference ratings.
+To make predictions for upcoming games, simply compare the RATINGS of
+the teams in question and allow an ADDITIONAL 4 points for the home
+team. Thus, for example, a HOME team with a rating of 92 would be
+favored by 6 points over a VISITING team having a rating of 90.
+Or a VISITING team with a rating of 89 would be favored by 7 points
+over a HOME team having a rating of 78.
+NOTE: Use whatever home advantage is listed in the output below.
+ In the example just above, a home edge of 3 was shown for
+ illustrative purposes. The home edge will vary during the season.
+Several different home edges are shown, one for each of the several different type of ratings
+directly over their respective columns.
+The numbers to the right of a team's schedule strength are its rank of
+schedule - (in parentheses) - and its record versus teams in these
+rating's CURRENT top 25 and CURRENT top 50 respectively.
+Teams that appear to be tied to two decimal places in a given column are actually
+different when carried to more decimal places in the computer's internal arithmetic.
+------------------------------------------------------------------------------------------------------------------
+GOLDEN_MEAN is completely SCORE BASED but with a different algorithm than the PURE POINTS
+and thus should be a good match for the PURE POINTS in terms of predictive accuracy for upcoming games.
+------------------------------------------------------------------------------------------------------------------
+In ELO_SCORE, the score determines what fraction of a victory was attained but since the maximum
+fraction is ONE(1.00), no matter how big the score is, it prevents running up the score to be that advantageous;
+It is slightly less accurate in its predictions for upcoming games than is the PURE POINTS or GOLDEN_MEAN,
+in which the score is the only thing that matters. PURE POINTS is also known as PREDICTOR,
+BALLANTINE, RHEINGOLD, WHITE OWL and is a very good PREDICTOR of future games.
+------------------------------------------------------------------------------------------------------------------
+The overall RATING is a synthesis of the three different methods, with more total weight
+to the two completely SCORE-BASED methods and thus should be a good predictor in its own right.
+____________________________________________________________________________________________________________________________________
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 1 Kentucky = 99.19 38 1 79.51( 28) 6 1 | 18 1 | 97.99 1 | 99.44 1 | 100.02 2
+ 2 Duke = 97.89 35 4 81.79( 3) 11 2 | 17 4 | 97.95 2 | 96.34 2 | 101.21 1
+ 3 Wisconsin = 96.46 36 4 81.54( 4) 10 2 | 14 3 | 95.54 3 | 95.63 3 | 99.03 3
+ 4 Arizona = 94.94 34 4 78.92( 46) 5 1 | 13 1 | 94.69 4 | 94.78 4 | 95.00 4
+ 5 Virginia = 93.65 30 4 79.42( 31) 3 4 | 10 4 | 93.02 6 | 93.49 6 | 94.14 6
+ 6 Villanova = 93.62 33 3 78.98( 42) 6 1 | 13 2 | 94.33 5 | 93.74 5 | 92.65 8
+ 7 Gonzaga = 92.65 34 3 75.89( 82) 1 2 | 8 3 | 92.42 7 | 91.69 8 | 94.04 7
+ 8 Notre Dame = 91.05 32 6 79.29( 35) 8 3 | 12 5 | 90.21 10 | 89.72 10 | 94.76 5
+ 9 Utah = 90.82 25 9 79.51( 29) 2 4 | 7 8 | 91.62 8 | 92.20 7 | 88.88 14
+ 10 North Carolina = 90.38 26 12 82.82( 1) 4 10 | 11 11 | 90.61 9 | 90.66 9 | 89.56 12
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 11 Michigan State = 89.46 27 12 81.36( 5) 6 6 | 11 8 | 89.18 11 | 88.60 14 | 90.62 9
+ 12 Louisville = 89.03 27 9 80.69( 15) 4 7 | 8 9 | 88.22 15 | 88.88 13 | 89.71 11
+ 13 Kansas = 88.62 27 9 82.42( 2) 11 6 | 13 7 | 88.67 13 | 88.19 16 | 88.75 15
+ 14 Wichita State = 88.36 29 5 75.77( 86) 2 3 | 3 3 | 87.26 19 | 87.99 17 | 89.80 10
+ 15 Iowa State = 88.08 25 9 80.87( 8) 10 4 | 13 5 | 88.77 12 | 87.92 18 | 87.33 18
+ 16 Oklahoma = 88.01 24 11 81.28( 6) 7 7 | 12 7 | 87.36 18 | 88.91 12 | 87.36 17
+ 17 Ohio State = 87.78 24 11 78.85( 50) 0 8 | 4 10 | 88.54 14 | 89.37 11 | 85.63 23
+ 18 Baylor = 87.32 23 10 80.70( 14) 7 5 | 9 7 | 87.86 16 | 88.19 15 | 85.77 21
+ 19 Butler = 87.11 23 11 80.49( 18) 4 8 | 7 10 | 87.74 17 | 87.58 19 | 85.81 20
+ 20 Northern Iowa = 86.37 31 4 74.60( 104) 2 2 | 3 3 | 84.97 26 | 85.57 24 | 89.17 13
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 21 Iowa = 86.35 22 12 80.16( 21) 3 7 | 6 9 | 86.55 22 | 86.99 20 | 85.18 25
+ 22 Xavier-Ohio = 86.22 23 14 80.59( 17) 5 5 | 8 8 | 86.81 20 | 86.83 21 | 84.81 28
+ 23 West Virginia = 86.02 25 10 80.05( 23) 3 9 | 7 10 | 86.37 23 | 84.93 25 | 86.84 19
+ 24 Texas = 85.37 20 14 80.34( 19) 3 11 | 3 14 | 86.76 21 | 86.68 22 | 82.94 39
+ 25 Georgetown = 85.31 22 11 80.83( 10) 3 8 | 6 11 | 84.77 27 | 85.86 23 | 84.87 26
+ 26 NC State = 84.97 22 14 80.71( 13) 4 7 | 6 10 | 85.14 24 | 84.63 27 | 84.85 27
+ 27 Maryland = 84.91 28 7 79.09( 41) 4 5 | 8 6 | 83.83 32 | 83.71 35 | 87.95 16
+ 28 Arkansas = 84.71 27 9 77.63( 68) 0 4 | 5 6 | 83.67 35 | 84.64 26 | 85.54 24
+ 29 Providence = 84.40 22 12 80.63( 16) 5 6 | 7 9 | 84.77 28 | 83.93 33 | 84.28 32
+ 30 VCU(Va. Commonwealth) = 84.34 26 10 77.95( 64) 1 3 | 6 5 | 83.80 33 | 84.17 30 | 84.71 29
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 31 Stanford = 84.24 24 13 78.40( 57) 1 5 | 3 9 | 84.54 29 | 83.56 36 | 84.43 31
+ 32 SMU = 84.19 26 7 75.11( 98) 0 1 | 0 6 | 83.33 42 | 84.29 28 | 84.59 30
+ 33 San Diego State = 83.99 26 9 75.63( 91) 1 2 | 3 3 | 83.34 41 | 84.03 31 | 84.21 33
+ 34 Purdue = 83.75 21 13 79.26( 37) 2 5 | 6 8 | 85.09 25 | 83.79 34 | 82.34 44
+ 35 Miami-Florida = 83.55 25 13 78.52( 55) 1 6 | 4 8 | 83.51 37 | 83.18 40 | 83.67 36
+ 36 Oregon = 83.55 25 10 78.65( 54) 2 4 | 5 6 | 83.15 44 | 82.20 51 | 85.67 22
+ 37 Davidson = 83.40 23 8 75.38( 93) 0 3 | 2 5 | 84.36 30 | 82.70 45 | 83.06 38
+ 38 Indiana = 83.29 20 14 79.26( 36) 2 8 | 4 12 | 84.06 31 | 83.19 39 | 82.41 43
+ 39 UCLA = 83.25 22 14 79.41( 32) 1 8 | 5 9 | 83.30 43 | 82.37 49 | 84.00 34
+ 40 Georgia = 83.08 21 12 79.32( 33) 0 4 | 3 7 | 82.76 46 | 83.30 37 | 82.75 42
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 41 BYU = 82.82 23 10 75.75( 88) 1 3 | 2 5 | 83.39 40 | 84.02 32 | 80.85 55
+ 42 Dayton = 82.75 27 9 75.72( 89) 0 1 | 2 4 | 81.45 55 | 82.80 44 | 83.74 35
+ 43 Oklahoma State = 82.75 17 14 80.79( 12) 5 8 | 5 10 | 83.05 45 | 83.17 41 | 81.67 48
+ 44 Cincinnati = 82.68 23 11 75.76( 87) 0 2 | 5 3 | 83.47 38 | 82.41 47 | 81.96 45
+ 45 St. John's = 82.54 20 12 80.05( 22) 3 7 | 6 9 | 82.34 50 | 82.17 52 | 82.83 41
+ 46 Vanderbilt = 82.52 20 14 77.33( 71) 0 2 | 2 8 | 83.57 36 | 83.30 38 | 80.57 59
+ 47 Florida = 82.52 16 17 80.27( 20) 0 6 | 2 11 | 83.76 34 | 84.25 29 | 79.72 70
+ 48 Syracuse = 82.37 18 13 78.83( 51) 3 5 | 3 8 | 82.68 47 | 83.01 42 | 81.07 52
+ 49 Stephen F. Austin = 82.36 26 5 69.20( 296) 0 4 | 0 4 | 82.10 51 | 81.90 55 | 82.83 40
+ 50 LSU = 82.26 22 11 76.98( 75) 1 1 | 6 2 | 82.43 48 | 82.16 53 | 81.85 47
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 51 Boise State = 82.12 23 9 73.92( 122) 0 1 | 2 3 | 81.92 52 | 82.51 46 | 81.48 49
+ 52 Minnesota = 82.10 17 15 78.95( 45) 2 6 | 4 10 | 83.41 39 | 82.92 43 | 79.94 65
+ 53 Murray State = 82.03 27 6 71.42( 198) 0 1 | 0 1 | 81.34 56 | 81.47 57 | 83.12 37
+ 54 Mississippi = 81.85 21 13 78.23( 60) 0 2 | 6 9 | 81.52 54 | 82.35 50 | 81.23 50
+ 55 Illinois = 81.70 19 14 78.86( 49) 2 5 | 4 9 | 81.77 53 | 82.40 48 | 80.53 60
+ 56 TCU = 81.31 18 15 77.71( 66) 0 13 | 1 14 | 82.35 49 | 81.87 56 | 79.53 72
+ 57 Alabama = 81.16 18 15 78.97( 43) 0 5 | 1 13 | 80.89 58 | 81.96 54 | 80.17 61
+ 58 Illinois State = 81.04 21 13 75.89( 81) 1 5 | 1 6 | 80.64 59 | 81.05 61 | 81.04 53
+ 59 Texas A&M = 80.90 21 12 76.74( 76) 0 2 | 4 6 | 81.33 57 | 81.10 60 | 79.94 66
+ 60 Rhode Island = 80.80 22 10 74.81( 100) 0 1 | 0 7 | 80.09 64 | 81.17 59 | 80.69 58
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 61 Old Dominion = 80.64 27 8 72.54( 162) 0 0 | 2 1 | 80.45 61 | 80.11 65 | 81.13 51
+ 62 Temple = 80.55 26 11 74.88( 99) 1 2 | 2 7 | 79.61 70 | 80.03 67 | 81.87 46
+ 63 Buffalo = 80.45 23 10 74.20( 116) 0 3 | 0 3 | 80.28 62 | 80.65 63 | 80.01 64
+ 64 Colorado State = 80.29 26 7 73.12( 143) 0 0 | 1 2 | 80.08 65 | 79.74 70 | 80.81 57
+ 65 Arizona State = 80.08 18 16 78.25( 59) 1 3 | 3 7 | 79.13 77 | 80.74 62 | 79.89 67
+ 66 Michigan = 80.06 15 16 80.93( 7) 1 8 | 3 12 | 79.75 66 | 79.99 68 | 80.08 62
+ 67 Richmond = 80.03 21 14 75.83( 85) 0 1 | 3 6 | 79.74 67 | 80.46 64 | 79.45 73
+ 68 Valparaiso = 80.01 25 6 71.45( 197) 0 0 | 0 1 | 79.34 74 | 79.59 71 | 80.84 56
+ 69 Louisiana Tech = 79.94 26 9 72.15( 171) 0 0 | 0 2 | 79.39 73 | 79.26 74 | 81.02 54
+ 70 South Carolina = 79.93 16 16 78.96( 44) 1 3 | 4 9 | 79.68 68 | 81.21 58 | 78.45 85
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 71 Georgia State = 79.87 24 10 72.03( 175) 1 2 | 1 2 | 79.48 71 | 80.08 66 | 79.63 71
+ 72 George Washington = 79.87 22 13 75.70( 90) 1 1 | 2 5 | 79.43 72 | 79.95 69 | 79.81 68
+ 73 Seton Hall = 79.57 16 15 79.12( 40) 2 7 | 3 11 | 80.60 60 | 79.10 76 | 78.86 79
+ 74 Saint Mary's-Cal. = 79.30 20 10 74.58( 106) 0 2 | 1 5 | 80.16 63 | 79.40 73 | 78.07 90
+ 75 Green Bay = 79.07 22 9 72.85( 148) 0 1 | 1 1 | 78.36 85 | 79.04 77 | 79.45 74
+ 76 Harvard = 79.02 20 8 72.62( 159) 0 2 | 0 2 | 79.34 75 | 78.34 82 | 79.17 77
+ 77 Penn State = 79.00 18 16 78.02( 63) 1 6 | 1 11 | 79.65 69 | 78.84 78 | 78.24 87
+ 78 Kansas State = 78.94 15 17 80.83( 11) 5 8 | 7 10 | 79.29 76 | 78.56 79 | 78.71 82
+ 79 Pittsburgh = 78.89 18 15 78.42( 56) 2 4 | 4 9 | 78.54 83 | 79.17 75 | 78.52 83
+ 80 Connecticut = 78.78 20 15 75.86( 83) 0 3 | 5 7 | 78.44 84 | 79.40 72 | 78.01 91
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 81 Clemson = 78.73 16 15 78.28( 58) 0 6 | 4 8 | 78.73 80 | 78.42 81 | 78.72 81
+ 82 Tulsa = 78.33 23 10 74.48( 107) 0 2 | 0 6 | 77.35 99 | 77.99 86 | 79.39 75
+ 83 Yale = 78.22 20 10 73.34( 136) 0 0 | 0 3 | 78.19 86 | 77.89 90 | 78.30 86
+ 84 Tennessee = 78.20 16 16 79.23( 38) 1 2 | 5 10 | 78.13 87 | 77.96 87 | 78.19 88
+ 85 Creighton = 78.13 14 19 79.21( 39) 2 8 | 3 11 | 79.03 78 | 78.33 83 | 76.74 104
+ 86 Central Michigan = 78.03 20 9 72.10( 173) 0 0 | 0 0 | 77.92 89 | 78.14 84 | 77.63 94
+ 87 Marquette = 78.01 13 19 80.86( 9) 0 12 | 1 15 | 78.69 81 | 77.91 89 | 77.15 98
+ 88 Florida State = 77.98 17 16 77.89( 65) 0 6 | 2 10 | 78.76 79 | 77.23 99 | 77.81 93
+ 89 Wofford = 77.98 26 7 70.09( 256) 0 2 | 1 4 | 77.03 102 | 76.90 104 | 80.08 63
+ 90 Memphis = 77.91 18 14 74.29( 111) 0 3 | 1 8 | 78.09 88 | 78.52 80 | 76.68 105
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 91 Toledo = 77.61 20 13 73.47( 131) 0 1 | 0 3 | 77.65 92 | 77.79 91 | 76.99 101
+ 92 South Dakota State = 77.55 22 11 70.58( 233) 0 2 | 0 3 | 77.65 93 | 77.92 88 | 76.66 106
+ 93 UC Irvine = 77.47 19 13 73.34( 135) 0 2 | 0 3 | 78.67 82 | 77.26 98 | 76.28 113
+ 94 Evansville = 77.47 23 12 72.98( 145) 1 3 | 1 3 | 76.30 116 | 76.44 113 | 79.74 69
+ 95 Georgia Tech = 77.44 12 19 79.61( 26) 0 7 | 3 10 | 77.75 91 | 78.02 85 | 76.12 114
+ 96 Northwestern = 77.39 15 17 78.91( 47) 1 8 | 2 11 | 77.82 90 | 77.03 102 | 77.03 100
+ 97 California = 77.38 18 15 77.48( 70) 0 6 | 2 10 | 76.72 107 | 76.24 114 | 79.19 76
+ 98 Washington = 77.22 16 15 77.21( 72) 2 2 | 4 7 | 76.45 112 | 76.85 106 | 78.08 89
+ 99 UTEP = 77.21 22 11 72.35( 167) 1 1 | 1 1 | 76.33 115 | 77.37 93 | 77.50 96
+ 100 Colorado = 77.13 16 18 77.64( 67) 0 4 | 2 8 | 76.67 108 | 77.41 92 | 76.86 103
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 101 Oregon State = 77.06 16 14 76.99( 74) 1 2 | 2 7 | 76.16 119 | 76.79 107 | 77.94 92
+ 102 UNLV = 77.03 17 15 75.27( 95) 1 2 | 1 6 | 76.97 103 | 77.28 97 | 76.42 109
+ 103 Nebraska = 76.95 13 18 79.44( 30) 1 5 | 2 9 | 77.52 95 | 76.73 108 | 76.31 112
+ 104 NC Central = 76.93 22 8 66.00( 348) 0 1 | 0 4 | 77.37 97 | 76.51 112 | 76.64 107
+ 105 Boston College = 76.91 13 19 79.59( 27) 0 8 | 2 13 | 76.91 106 | 77.09 101 | 76.31 111
+ 106 Sam Houston State = 76.85 22 9 68.16( 323) 0 0 | 0 4 | 76.94 105 | 77.29 96 | 75.88 119
+ 107 La Salle = 76.81 17 16 75.86( 84) 0 2 | 2 6 | 77.12 101 | 76.87 105 | 76.09 115
+ 108 Iona = 76.81 26 9 71.09( 210) 0 0 | 0 1 | 75.54 128 | 76.96 103 | 77.54 95
+ 109 St. Bonaventure = 76.75 18 13 73.59( 129) 0 0 | 2 3 | 77.55 94 | 76.16 116 | 76.35 110
+ 110 UC Davis = 76.73 23 7 71.53( 192) 0 0 | 0 1 | 75.64 126 | 75.94 119 | 78.52 84
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 111 Wyoming = 76.69 23 10 72.77( 151) 0 1 | 1 4 | 75.07 131 | 75.96 117 | 79.00 78
+ 112 New Mexico State = 76.64 21 11 69.33( 291) 0 3 | 0 3 | 77.19 100 | 77.12 100 | 75.22 127
+ 113 Loyola-Chicago = 76.61 22 13 73.25( 140) 0 6 | 0 6 | 75.91 121 | 75.29 127 | 78.72 80
+ 114 UC Santa Barbara = 76.47 17 14 73.98( 121) 0 1 | 0 3 | 77.46 96 | 76.57 111 | 75.07 130
+ 115 Akron = 76.45 20 14 72.64( 157) 0 0 | 0 1 | 76.95 104 | 76.19 115 | 75.91 118
+ 116 Kent State = 76.36 22 12 72.75( 153) 0 1 | 0 1 | 75.83 124 | 75.88 121 | 77.11 99
+ 117 William & Mary = 76.33 18 13 72.26( 169) 0 1 | 0 2 | 77.37 98 | 76.65 110 | 74.65 138
+ 118 Massachusetts = 76.31 17 15 76.57( 78) 0 1 | 1 6 | 76.29 117 | 75.52 123 | 76.96 102
+ 119 Cleveland State = 76.19 17 15 72.84( 149) 0 2 | 0 3 | 75.71 125 | 77.31 95 | 74.96 131
+ 120 Northeastern = 76.17 23 12 71.79( 182) 0 1 | 0 1 | 76.51 110 | 75.76 122 | 75.97 116
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 121 Wake Forest = 76.04 13 19 79.30( 34) 0 7 | 2 11 | 76.45 113 | 75.90 120 | 75.44 124
+ 122 Bowling Green = 76.01 21 11 71.83( 179) 0 0 | 0 1 | 76.53 109 | 75.36 126 | 75.94 117
+ 123 Eastern Washington = 75.89 23 9 70.34( 244) 0 1 | 1 2 | 75.57 127 | 74.81 132 | 77.23 97
+ 124 San Diego = 75.76 14 16 75.42( 92) 0 3 | 1 6 | 76.39 114 | 76.68 109 | 73.74 152
+ 125 Louisiana-Lafayette = 75.52 19 14 71.11( 209) 0 0 | 0 0 | 75.84 122 | 75.50 124 | 74.86 134
+ 126 Hofstra = 75.39 20 14 69.47( 283) 0 0 | 0 1 | 76.51 111 | 77.32 94 | 71.82 178
+ 127 Albany-NY = 75.35 24 9 69.19( 297) 0 1 | 0 2 | 75.16 130 | 74.25 144 | 76.58 108
+ 128 Hawai'i = 75.33 20 13 71.75( 183) 0 1 | 0 2 | 76.03 120 | 74.96 131 | 74.73 136
+ 129 Pepperdine = 75.09 17 14 74.06( 119) 0 4 | 2 4 | 75.83 123 | 75.10 128 | 73.99 144
+ 130 Utah State = 75.04 17 13 72.96( 146) 0 0 | 0 2 | 74.25 140 | 75.44 125 | 74.95 132
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 131 DePaul = 74.96 12 20 78.91( 48) 1 7 | 3 10 | 76.23 118 | 74.51 137 | 73.93 147
+ 132 Vermont = 74.87 19 14 69.47( 284) 0 0 | 0 0 | 75.07 132 | 75.95 118 | 73.03 158
+ 133 Coastal Carolina = 74.75 20 10 68.47( 318) 0 1 | 0 2 | 74.74 136 | 74.41 141 | 74.79 135
+ 134 Western Kentucky = 74.72 18 12 72.59( 160) 0 1 | 0 1 | 74.02 141 | 74.06 146 | 75.87 120
+ 135 UAB = 74.72 19 16 73.66( 128) 1 2 | 1 6 | 73.62 150 | 74.43 140 | 75.78 121
+ 136 Stony Brook-NY = 74.71 21 12 70.53( 237) 0 0 | 0 3 | 75.31 129 | 74.46 138 | 74.08 143
+ 137 Belmont = 74.60 21 11 70.67( 231) 0 2 | 0 3 | 73.67 147 | 74.39 142 | 75.39 126
+ 138 Long Beach State = 74.58 14 17 77.03( 73) 1 3 | 1 9 | 74.02 142 | 74.63 135 | 74.68 137
+ 139 Auburn = 74.57 14 20 78.78( 52) 1 2 | 4 7 | 73.89 144 | 74.37 143 | 75.10 129
+ 140 New Mexico = 74.44 15 16 73.80( 125) 0 0 | 0 2 | 74.40 139 | 75.07 129 | 73.33 155
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 141 Georgia Southern = 74.43 19 9 69.76( 269) 0 0 | 0 0 | 73.63 149 | 73.92 148 | 75.49 122
+ 142 Eastern Michigan = 74.31 17 14 72.83( 150) 0 1 | 0 2 | 73.82 145 | 74.67 133 | 73.95 145
+ 143 Tennessee-Martin = 74.29 19 13 71.19( 204) 0 1 | 0 1 | 73.20 154 | 73.95 147 | 75.40 125
+ 144 Southern California = 74.19 12 20 77.49( 69) 0 3 | 0 10 | 75.04 133 | 73.44 151 | 73.93 146
+ 145 Canisius = 74.16 18 15 70.90( 218) 0 0 | 0 0 | 74.42 138 | 74.64 134 | 72.95 160
+ 146 Texas Tech = 74.13 13 19 78.75( 53) 1 12 | 2 14 | 73.98 143 | 73.77 149 | 74.36 139
+ 147 Portland = 74.10 15 16 74.34( 109) 0 2 | 0 5 | 74.99 134 | 74.45 139 | 72.44 169
+ 148 San Francisco = 74.08 13 18 74.39( 108) 0 3 | 0 5 | 74.92 135 | 75.00 130 | 71.80 179
+ 149 Charlotte = 74.07 14 18 73.71( 127) 0 1 | 0 4 | 74.61 137 | 74.63 136 | 72.51 167
+ 150 Eastern Kentucky = 73.90 19 12 69.64( 274) 0 1 | 1 2 | 73.08 155 | 74.23 145 | 73.90 149
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 151 North Dakota State = 73.88 21 10 70.28( 248) 0 3 | 0 3 | 72.95 157 | 73.04 155 | 75.47 123
+ 152 High Point = 73.57 20 10 70.32( 246) 0 1 | 0 1 | 72.60 163 | 72.76 158 | 75.17 128
+ 153 Mississippi State = 73.33 12 19 76.43( 79) 0 1 | 2 6 | 73.64 148 | 73.36 152 | 72.61 165
+ 154 North Florida(UNF) = 73.08 20 12 67.72( 335) 0 2 | 1 2 | 73.35 152 | 73.21 154 | 72.27 172
+ 155 Middle Tennessee = 73.04 18 17 73.19( 142) 0 0 | 0 2 | 72.69 161 | 72.84 157 | 73.24 157
+ 156 Western Michigan = 73.03 18 14 73.43( 133) 0 0 | 0 0 | 72.92 159 | 72.15 166 | 73.85 151
+ 157 Louisiana-Monroe = 73.01 20 14 71.47( 195) 0 0 | 0 1 | 72.39 164 | 72.29 163 | 74.14 141
+ 158 Morehead State = 72.94 15 17 71.15( 207) 0 1 | 0 2 | 73.71 146 | 73.60 150 | 70.99 199
+ 159 Washington State = 72.94 13 18 78.08( 61) 0 4 | 2 7 | 72.35 165 | 71.53 176 | 74.88 133
+ 160 Rider = 72.93 21 12 70.32( 245) 0 2 | 0 2 | 72.16 167 | 72.46 162 | 73.89 150
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 161 St. Francis-NY = 72.80 22 12 67.97( 332) 0 1 | 0 1 | 73.06 156 | 72.18 165 | 72.94 162
+ 162 NJIT(New Jersey Tech) = 72.80 17 12 70.54( 235) 0 1 | 0 2 | 72.80 160 | 71.60 174 | 73.91 148
+ 163 Montana = 72.73 18 13 70.53( 236) 0 0 | 0 1 | 72.35 166 | 72.48 161 | 73.02 159
+ 164 Northern Arizona = 72.68 22 15 70.34( 243) 0 1 | 0 1 | 72.07 171 | 71.57 175 | 74.29 140
+ 165 Chattanooga = 72.68 20 10 69.00( 300) 0 2 | 0 3 | 71.57 178 | 72.07 168 | 74.14 142
+ 166 Indiana State = 72.64 14 16 73.86( 123) 0 5 | 0 5 | 72.63 162 | 72.09 167 | 72.95 161
+ 167 Columbia = 72.56 12 15 71.59( 189) 0 1 | 0 1 | 73.55 151 | 73.30 153 | 70.27 211
+ 168 Cal Poly-SLO = 72.56 11 16 74.17( 117) 0 1 | 0 1 | 72.92 158 | 72.88 156 | 71.40 187
+ 169 Virginia Tech = 72.51 11 22 78.06( 62) 0 8 | 0 14 | 73.30 153 | 72.68 159 | 71.14 192
+ 170 Radford = 72.35 19 12 69.45( 287) 0 1 | 0 1 | 71.64 177 | 71.71 172 | 73.46 154
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 171 Princeton = 72.26 15 14 71.06( 211) 0 0 | 0 0 | 72.12 168 | 72.49 160 | 71.74 180
+ 172 Saint Joseph's-Pa. = 72.26 13 18 74.77( 102) 0 2 | 1 4 | 72.07 172 | 72.19 164 | 72.16 174
+ 173 Manhattan = 71.98 19 14 70.25( 252) 0 0 | 0 0 | 72.08 169 | 71.99 169 | 71.47 185
+ 174 Oakland-Mich. = 71.97 14 17 74.13( 118) 0 3 | 0 4 | 71.79 175 | 71.89 170 | 71.87 176
+ 175 Rutgers = 71.93 10 22 79.94( 24) 1 4 | 2 10 | 72.00 173 | 71.26 183 | 72.30 171
+ 176 Robert Morris = 71.80 20 15 69.85( 266) 0 3 | 0 3 | 71.44 179 | 70.85 193 | 72.93 164
+ 177 NC Wilmington = 71.53 17 14 71.57( 191) 0 1 | 0 2 | 71.23 185 | 71.44 179 | 71.54 184
+ 178 Fort Wayne(IPFW) = 71.51 13 15 71.15( 206) 0 0 | 0 1 | 72.07 170 | 71.11 188 | 71.07 193
+ 179 Missouri = 71.44 8 23 79.87( 25) 0 5 | 2 11 | 71.42 180 | 71.68 173 | 70.79 204
+ 180 Monmouth-NJ = 71.43 18 15 70.27( 249) 0 1 | 0 3 | 71.01 188 | 71.51 177 | 71.35 188
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 181 USC Upstate = 71.43 20 12 66.43( 345) 0 0 | 0 1 | 71.86 174 | 71.22 186 | 70.86 201
+ 182 Colgate = 71.40 15 17 70.69( 229) 0 1 | 0 2 | 71.74 176 | 71.24 185 | 70.88 200
+ 183 Oral Roberts = 71.31 17 15 72.15( 172) 0 1 | 0 1 | 70.59 195 | 70.22 205 | 72.94 163
+ 184 Detroit = 71.31 13 18 73.45( 132) 0 1 | 0 2 | 71.24 184 | 71.25 184 | 71.05 194
+ 185 Northern Illinois = 71.31 13 16 73.34( 137) 0 2 | 0 2 | 70.60 194 | 71.33 182 | 71.57 183
+ 186 Lafayette = 71.29 19 13 70.44( 238) 0 3 | 0 3 | 70.00 208 | 70.02 208 | 73.69 153
+ 187 James Madison = 71.28 19 14 70.93( 215) 0 2 | 0 2 | 71.31 181 | 70.68 196 | 71.61 182
+ 188 American U. = 71.28 17 16 71.37( 200) 0 0 | 0 0 | 70.16 204 | 71.09 189 | 72.20 173
+ 189 Florida Gulf Coast = 71.26 19 11 68.06( 326) 0 1 | 0 1 | 70.68 193 | 71.11 187 | 71.64 181
+ 190 Bucknell = 71.25 18 15 70.91( 216) 0 1 | 0 1 | 70.69 192 | 70.36 201 | 72.49 168
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 191 Santa Clara = 71.22 12 18 75.24( 96) 0 3 | 0 6 | 71.06 187 | 71.09 190 | 71.17 191
+ 192 Quinnipiac = 71.16 15 15 69.63( 276) 0 0 | 0 0 | 71.30 182 | 71.82 171 | 69.79 221
+ 193 Charleston Southern = 71.15 16 12 69.62( 277) 0 0 | 0 1 | 70.76 190 | 70.39 200 | 72.07 175
+ 194 Texas-Arlington = 71.12 15 15 70.85( 220) 0 2 | 0 2 | 71.24 183 | 70.82 194 | 71.00 198
+ 195 New Hampshire = 71.10 17 13 68.86( 308) 0 0 | 0 0 | 70.91 189 | 70.85 192 | 71.20 189
+ 196 Mercer = 71.07 17 16 69.49( 282) 0 0 | 0 1 | 71.22 186 | 71.39 180 | 70.12 215
+ 197 Sacramento State = 71.00 19 12 68.98( 302) 0 1 | 0 1 | 70.12 206 | 70.21 206 | 72.42 170
+ 198 Dartmouth = 70.86 14 15 71.52( 193) 0 0 | 0 0 | 69.85 210 | 71.38 181 | 70.81 203
+ 199 Lehigh = 70.86 15 14 70.42( 239) 0 1 | 0 1 | 70.22 202 | 70.78 195 | 71.19 190
+ 200 Winthrop = 70.85 16 13 68.03( 329) 0 0 | 0 1 | 70.19 203 | 71.46 178 | 70.35 209
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 201 Norfolk State = 70.84 18 14 68.46( 319) 0 2 | 0 4 | 70.74 191 | 70.45 199 | 71.03 197
+ 202 Gardner-Webb = 70.62 16 15 71.49( 194) 0 1 | 1 2 | 70.46 199 | 69.73 212 | 71.46 186
+ 203 Fresno State = 70.61 13 17 74.32( 110) 0 0 | 1 1 | 69.30 220 | 70.31 202 | 71.82 177
+ 204 Texas Southern = 70.60 22 13 67.82( 333) 1 3 | 1 6 | 69.32 219 | 69.05 223 | 73.25 156
+ 205 Air Force = 70.50 12 17 72.76( 152) 0 0 | 0 2 | 70.51 198 | 70.67 197 | 69.89 218
+ 206 Eastern Illinois = 70.42 16 15 72.18( 170) 0 0 | 0 1 | 69.41 217 | 69.11 221 | 72.58 166
+ 207 Saint Peter's = 70.35 16 18 70.05( 258) 0 0 | 0 0 | 70.24 201 | 71.06 191 | 69.16 227
+ 208 Texas-San Antonio(UTSA) = 70.12 12 16 71.23( 203) 0 0 | 0 0 | 69.48 215 | 70.24 203 | 70.20 212
+ 209 South Dakota = 70.11 15 16 70.89( 219) 0 0 | 0 1 | 70.56 197 | 69.28 218 | 70.31 210
+ 210 George Mason = 70.07 8 22 76.40( 80) 0 3 | 0 8 | 70.34 200 | 70.52 198 | 68.84 234
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 211 East Tennessee State(ETS= 69.99 14 14 70.26( 251) 0 0 | 0 1 | 69.98 209 | 69.63 213 | 70.06 216
+ 212 Tulane = 69.97 14 16 72.63( 158) 0 0 | 1 3 | 68.80 230 | 69.85 209 | 70.86 202
+ 213 Cornell = 69.90 12 17 71.89( 176) 0 0 | 0 1 | 69.43 216 | 70.23 204 | 69.54 222
+ 214 Duquesne = 69.88 11 19 74.23( 113) 0 0 | 1 4 | 69.64 211 | 69.52 216 | 70.16 214
+ 215 Rice = 69.79 10 19 72.57( 161) 0 1 | 0 1 | 70.16 205 | 70.11 207 | 68.62 240
+ 216 Denver = 69.76 12 18 70.95( 213) 0 1 | 0 2 | 70.56 196 | 69.55 215 | 68.83 235
+ 217 Milwaukee = 69.68 12 16 73.41( 134) 0 1 | 0 3 | 68.64 232 | 69.06 222 | 71.04 196
+ 218 Saint Francis-Pa. = 69.65 15 16 70.26( 250) 0 1 | 0 2 | 69.55 213 | 68.75 229 | 70.44 206
+ 219 Md.-Eastern Shore(UMES) = 69.63 18 15 68.95( 304) 0 1 | 0 2 | 68.49 235 | 69.01 224 | 71.05 195
+ 220 Texas A&M-CorpusChristi = 69.56 18 14 67.98( 331) 0 1 | 1 2 | 69.18 222 | 69.27 219 | 69.91 217
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 221 Houston = 69.53 13 19 71.75( 184) 0 0 | 0 4 | 69.51 214 | 69.74 211 | 68.88 232
+ 222 Miami-Ohio = 69.48 12 19 73.21( 141) 0 1 | 0 2 | 69.36 218 | 69.25 220 | 69.48 224
+ 223 Northwestern State = 69.46 15 13 69.57( 279) 0 1 | 0 5 | 69.29 221 | 68.50 234 | 70.39 207
+ 224 Mount St. Mary's = 69.45 15 15 69.64( 275) 0 2 | 0 2 | 69.64 212 | 68.15 238 | 70.44 205
+ 225 Southern Illinois = 69.40 11 21 72.93( 147) 0 5 | 0 5 | 70.02 207 | 69.58 214 | 68.14 247
+ 226 East Carolina = 69.40 12 19 73.31( 139) 0 1 | 1 4 | 69.03 225 | 69.29 217 | 69.50 223
+ 227 Fordham = 69.29 9 21 75.12( 97) 0 0 | 0 7 | 68.92 227 | 69.77 210 | 68.65 238
+ 228 UC Riverside = 69.14 12 17 72.41( 165) 0 1 | 0 3 | 69.04 224 | 68.67 232 | 69.45 225
+ 229 Boston U. = 69.03 12 17 70.75( 224) 0 1 | 0 2 | 69.01 226 | 68.75 230 | 69.00 229
+ 230 Incarnate Word = 69.00 14 11 68.51( 317) 0 0 | 0 2 | 68.03 241 | 68.46 235 | 70.18 213
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 231 North Texas = 68.94 12 17 72.50( 163) 0 0 | 0 3 | 68.84 229 | 67.95 244 | 69.82 220
+ 232 Bryant = 68.88 16 15 69.94( 261) 0 0 | 0 0 | 67.87 246 | 68.09 242 | 70.39 208
+ 233 Missouri State = 68.78 9 20 74.58( 105) 0 4 | 0 4 | 69.10 223 | 67.84 247 | 69.23 226
+ 234 Pacific = 68.74 9 19 74.78( 101) 0 2 | 0 4 | 68.89 228 | 68.72 231 | 68.21 245
+ 235 Western Carolina = 68.73 13 17 70.84( 222) 0 0 | 0 1 | 68.06 240 | 68.78 227 | 68.92 230
+ 236 Seattle = 68.65 16 16 68.06( 327) 0 0 | 0 0 | 68.09 238 | 68.60 233 | 68.87 233
+ 237 Texas State = 68.63 11 17 71.16( 205) 0 1 | 0 2 | 68.09 239 | 68.86 226 | 68.48 242
+ 238 Holy Cross = 68.62 13 16 70.75( 225) 0 0 | 0 1 | 67.74 249 | 67.92 245 | 69.88 219
+ 239 Ohio = 68.54 10 20 73.82( 124) 0 0 | 0 0 | 67.89 245 | 68.43 236 | 68.91 231
+ 240 Idaho = 68.54 11 17 70.02( 259) 0 0 | 0 0 | 68.59 233 | 68.91 225 | 67.61 252
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 241 Ark.-Little Rock(UALR) = 68.39 12 18 70.15( 255) 0 0 | 0 1 | 68.47 236 | 68.43 237 | 67.86 250
+ 242 SE Missouri State(SEMO) = 68.32 11 17 70.31( 247) 0 0 | 0 1 | 68.66 231 | 68.76 228 | 66.98 266
+ 243 Northern Colorado = 68.15 13 15 68.80( 310) 0 0 | 0 0 | 68.17 237 | 67.70 250 | 68.31 244
+ 244 NC Asheville = 68.11 12 16 69.83( 267) 0 0 | 0 0 | 67.93 244 | 68.14 239 | 67.86 249
+ 245 Army = 68.09 14 15 68.97( 303) 0 1 | 0 1 | 67.41 251 | 67.76 248 | 68.76 237
+ 246 Hampton = 67.93 17 18 67.58( 337) 0 2 | 0 3 | 67.30 253 | 67.54 252 | 68.64 239
+ 247 Sacred Heart = 67.93 14 17 68.75( 311) 0 1 | 0 1 | 67.93 243 | 67.15 257 | 68.47 243
+ 248 Loyola Marymount = 67.79 7 23 76.61( 77) 0 3 | 0 6 | 68.56 234 | 67.43 254 | 67.05 265
+ 249 Elon = 67.79 13 18 70.56( 234) 0 1 | 0 1 | 67.65 250 | 67.97 243 | 67.30 258
+ 250 Tennessee Tech = 67.65 10 18 70.71( 227) 0 0 | 0 0 | 67.75 248 | 68.11 241 | 66.56 277
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 251 Drexel = 67.63 11 18 71.87( 178) 0 0 | 0 1 | 67.76 247 | 67.26 256 | 67.58 254
+ 252 Portland State = 67.62 13 14 69.83( 268) 0 0 | 0 1 | 67.01 257 | 66.77 263 | 68.81 236
+ 253 Fla. International = 67.57 14 17 70.96( 212) 0 1 | 0 1 | 66.90 260 | 66.44 270 | 69.11 228
+ 254 Bradley = 67.47 8 24 74.28( 112) 0 5 | 0 5 | 68.00 242 | 67.87 246 | 65.98 282
+ 255 SIU-Edwardsville = 67.47 10 16 70.06( 257) 0 0 | 0 0 | 67.37 252 | 67.47 253 | 67.17 263
+ 256 Brown = 67.32 11 18 71.68( 186) 0 0 | 1 0 | 67.22 255 | 66.86 261 | 67.61 253
+ 257 Wright State = 67.22 9 20 72.72( 154) 0 1 | 0 1 | 66.17 271 | 67.70 249 | 67.23 259
+ 258 Omaha(Neb.-Omaha) = 67.09 11 17 69.67( 273) 0 0 | 0 0 | 66.84 262 | 67.35 255 | 66.59 273
+ 259 Weber State = 67.07 11 17 70.36( 241) 0 1 | 0 3 | 67.03 256 | 66.80 262 | 67.08 264
+ 260 Siena = 67.07 11 20 70.85( 221) 0 0 | 0 0 | 67.24 254 | 67.07 258 | 66.50 278
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 261 Saint Louis = 66.95 10 21 74.23( 114) 0 1 | 0 7 | 66.56 265 | 66.38 272 | 67.62 251
+ 262 Drake = 66.90 8 22 75.32( 94) 0 5 | 0 5 | 66.89 261 | 66.22 274 | 67.35 257
+ 263 Central Florida(UCF) = 66.87 11 18 72.43( 164) 0 0 | 0 5 | 66.33 269 | 66.05 276 | 67.95 248
+ 264 Alabama State = 66.79 17 10 62.06( 351) 0 1 | 0 2 | 66.02 274 | 66.61 267 | 67.36 256
+ 265 Ball State = 66.78 6 23 74.06( 120) 0 1 | 0 2 | 66.94 259 | 68.14 240 | 64.15 303
+ 266 Hartford = 66.72 13 16 69.18( 298) 0 1 | 0 1 | 66.94 258 | 65.83 281 | 67.19 261
+ 267 CS Bakersfield = 66.71 11 19 67.99( 330) 0 0 | 0 1 | 66.83 263 | 67.69 251 | 64.79 295
+ 268 South Florida = 66.49 8 23 74.65( 103) 0 0 | 0 4 | 66.05 272 | 66.72 265 | 66.25 280
+ 269 Marshall = 66.47 9 21 72.69( 155) 0 2 | 0 2 | 66.02 273 | 66.43 271 | 66.56 276
+ 270 Northern Kentucky = 66.41 11 17 69.55( 280) 0 2 | 0 2 | 65.33 288 | 67.02 259 | 66.25 279
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 271 Towson = 66.36 11 20 69.89( 263) 0 1 | 0 1 | 66.49 268 | 66.96 260 | 64.99 292
+ 272 Kansas City(UMKC) = 66.30 12 19 68.84( 309) 0 1 | 0 1 | 66.67 264 | 66.45 269 | 65.32 285
+ 273 Lamar = 66.30 11 15 69.45( 285) 0 1 | 0 5 | 65.57 281 | 65.57 286 | 67.45 255
+ 274 Navy = 66.30 12 19 69.95( 260) 0 2 | 0 3 | 65.54 282 | 65.82 282 | 67.19 260
+ 275 Grand Canyon = 66.29 15 15 66.78( 342) 0 1 | 0 2 | 65.23 289 | 66.47 268 | 66.67 271
+ 276 Youngstown State = 66.25 8 21 72.34( 168) 0 0 | 0 0 | 66.52 267 | 66.63 266 | 65.06 291
+ 277 Howard = 66.25 13 16 68.03( 328) 0 0 | 0 1 | 65.47 284 | 65.74 284 | 67.18 262
+ 278 IUPUI = 66.24 10 21 72.39( 166) 0 1 | 0 2 | 65.69 279 | 65.91 278 | 66.79 269
+ 279 Appalachian State = 66.21 12 17 71.30( 202) 0 0 | 0 0 | 65.21 291 | 64.90 293 | 68.16 246
+ 280 Long Island U.(LIU) = 66.15 12 18 69.36( 290) 0 0 | 0 1 | 66.19 270 | 65.39 288 | 66.63 272
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 281 CS Northridge = 66.12 7 24 73.59( 130) 0 2 | 0 5 | 66.54 266 | 66.74 264 | 64.37 301
+ 282 Delaware State = 66.10 16 18 69.39( 289) 0 0 | 0 2 | 64.57 297 | 64.69 296 | 68.53 241
+ 283 Delaware = 66.03 10 20 71.67( 187) 0 1 | 0 2 | 65.59 280 | 66.23 273 | 65.80 284
+ 284 Pennsylvania = 66.02 9 19 72.07( 174) 0 1 | 0 2 | 65.46 285 | 65.58 285 | 66.70 270
+ 285 Nevada = 65.91 7 22 73.74( 126) 0 0 | 0 2 | 65.85 277 | 66.11 275 | 65.31 286
+ 286 Southern U. = 65.76 15 17 67.03( 340) 0 2 | 0 2 | 65.04 292 | 65.05 289 | 66.86 267
+ 287 Florida Atlantic = 65.63 7 20 71.62( 188) 0 0 | 0 1 | 65.69 278 | 65.86 280 | 64.86 294
+ 288 Arkansas State = 65.58 10 18 70.59( 232) 0 0 | 0 1 | 65.43 286 | 64.52 297 | 66.57 274
+ 289 College of Charleston = 65.53 9 24 71.82( 180) 0 1 | 0 4 | 65.85 276 | 65.87 279 | 64.33 302
+ 290 Illinois-Chicago = 65.45 8 24 73.05( 144) 0 0 | 0 2 | 65.22 290 | 65.51 287 | 65.21 289
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 291 South Alabama = 65.33 10 21 71.38( 199) 0 0 | 0 1 | 64.66 296 | 64.79 294 | 66.19 281
+ 292 Troy = 65.18 8 19 69.73( 272) 0 0 | 0 1 | 65.34 287 | 65.79 283 | 63.75 306
+ 293 Samford = 65.18 12 19 68.31( 321) 0 0 | 0 1 | 65.51 283 | 64.99 290 | 64.68 298
+ 294 UMass Lowell = 64.93 11 17 70.81( 223) 0 1 | 0 1 | 64.07 299 | 63.81 304 | 66.57 275
+ 295 NC Greensboro = 64.93 8 22 69.43( 288) 0 1 | 0 2 | 64.91 294 | 65.98 277 | 62.96 310
+ 296 CS Fullerton = 64.89 7 22 72.67( 156) 0 0 | 0 1 | 64.56 298 | 64.98 291 | 64.70 297
+ 297 VMI = 64.77 9 19 69.93( 262) 0 1 | 0 2 | 64.79 295 | 64.75 295 | 64.39 300
+ 298 Furman = 64.60 9 22 70.22( 253) 0 1 | 0 1 | 65.86 275 | 63.75 305 | 63.88 305
+ 299 Prairie View A&M = 64.59 14 18 67.42( 339) 0 1 | 0 3 | 63.85 303 | 64.46 299 | 65.07 290
+ 300 Lipscomb = 64.55 11 17 69.50( 281) 0 1 | 0 2 | 63.29 306 | 64.03 302 | 65.88 283
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 301 Fairfield = 64.53 7 24 70.90( 217) 0 1 | 0 1 | 65.01 293 | 64.94 292 | 62.98 308
+ 302 McNeese State = 64.48 11 16 68.66( 314) 0 1 | 0 3 | 63.34 305 | 64.41 300 | 65.23 288
+ 303 Loyola-Maryland = 64.47 11 19 70.67( 230) 0 1 | 0 2 | 63.07 309 | 62.98 313 | 66.79 268
+ 304 Southern Miss = 64.13 7 20 73.32( 138) 0 0 | 0 1 | 64.05 300 | 62.83 314 | 65.26 287
+ 305 Wagner = 63.79 9 20 69.89( 264) 0 0 | 0 2 | 62.69 311 | 63.47 306 | 64.75 296
+ 306 Niagara = 63.78 8 22 71.46( 196) 0 0 | 0 2 | 62.89 310 | 64.48 298 | 63.30 307
+ 307 Campbell = 63.77 7 22 69.74( 271) 0 1 | 0 2 | 63.88 302 | 64.19 301 | 62.66 312
+ 308 Southern Utah = 63.55 9 19 69.29( 293) 0 0 | 0 0 | 63.27 307 | 63.10 309 | 63.97 304
+ 309 New Orleans = 63.44 8 18 68.31( 322) 0 0 | 0 2 | 64.00 301 | 63.36 307 | 62.53 314
+ 310 Jacksonville State = 63.26 10 19 70.18( 254) 0 1 | 0 1 | 62.21 313 | 62.25 318 | 64.88 293
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 311 Houston Baptist = 63.05 8 16 69.75( 270) 0 0 | 0 2 | 61.75 320 | 62.50 316 | 64.41 299
+ 312 North Dakota = 62.75 6 22 70.72( 226) 0 2 | 0 2 | 63.19 308 | 63.02 312 | 61.46 320
+ 313 SE Louisiana = 62.71 8 23 68.08( 325) 0 2 | 0 4 | 61.94 318 | 64.03 303 | 61.06 323
+ 314 Marist = 62.71 7 25 70.93( 214) 0 0 | 0 0 | 62.00 317 | 63.24 308 | 62.28 318
+ 315 Idaho State = 62.64 5 23 69.32( 292) 0 0 | 0 0 | 63.75 304 | 63.09 310 | 60.03 331
+ 316 Jackson State = 62.53 11 21 66.14( 346) 0 0 | 0 1 | 62.50 312 | 63.03 311 | 61.45 321
+ 317 Longwood = 62.51 9 23 69.62( 278) 0 1 | 0 1 | 62.18 314 | 62.38 317 | 62.59 313
+ 318 Austin Peay = 62.50 6 22 71.72( 185) 0 0 | 0 1 | 61.93 319 | 62.66 315 | 62.45 315
+ 319 Fairleigh Dickinson = 62.37 7 21 69.87( 265) 0 1 | 0 2 | 62.18 315 | 62.17 319 | 62.43 316
+ 320 The Citadel = 61.87 8 19 69.08( 299) 0 1 | 0 1 | 62.04 316 | 61.27 322 | 62.03 319
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 321 Utah Valley = 61.67 9 19 68.75( 312) 0 1 | 0 2 | 60.29 324 | 61.28 321 | 62.89 311
+ 322 Western Illinois = 61.48 6 20 71.37( 201) 0 0 | 0 0 | 60.60 323 | 60.41 324 | 62.98 309
+ 323 Montana State = 61.23 6 23 70.37( 240) 0 1 | 0 2 | 60.93 321 | 61.32 320 | 61.02 324
+ 324 Ark.-Pine Bluff = 60.67 12 20 66.91( 341) 0 1 | 0 2 | 59.70 326 | 59.36 328 | 62.41 317
+ 325 Binghamton-NY = 60.42 5 25 71.12( 208) 0 1 | 0 2 | 60.83 322 | 60.55 323 | 59.36 333
+ 326 Texas-Pan American = 60.39 7 21 69.24( 294) 0 1 | 0 1 | 59.75 325 | 59.98 325 | 61.07 322
+ 327 Presbyterian College = 59.68 6 22 70.35( 242) 0 1 | 0 1 | 59.48 327 | 59.05 333 | 60.22 330
+ 328 Nicholls State = 59.57 7 19 68.62( 315) 0 1 | 0 3 | 58.13 338 | 59.17 332 | 60.81 326
+ 329 Chicago State = 59.39 5 24 71.59( 190) 0 1 | 0 1 | 58.65 334 | 59.21 331 | 59.90 332
+ 330 Bethune-Cookman = 59.38 9 21 64.94( 350) 0 0 | 0 0 | 59.14 330 | 59.41 327 | 59.21 335
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 331 Morgan State = 59.30 7 24 69.22( 295) 0 1 | 0 1 | 59.33 328 | 59.33 329 | 58.83 337
+ 332 Coppin State = 59.22 7 23 70.69( 228) 0 1 | 0 2 | 58.53 336 | 58.36 336 | 60.36 329
+ 333 SC State = 59.12 9 22 68.08( 324) 0 1 | 0 1 | 57.86 340 | 58.08 338 | 60.78 327
+ 334 Tennessee State = 59.07 3 26 71.89( 177) 0 1 | 0 2 | 59.01 332 | 59.49 326 | 58.12 340
+ 335 Stetson = 58.83 6 22 68.32( 320) 0 0 | 0 1 | 58.78 333 | 58.56 334 | 58.81 338
+ 336 Kennesaw State = 58.76 8 22 69.00( 301) 0 1 | 0 2 | 57.85 341 | 57.08 344 | 60.68 328
+ 337 Abilene Christian = 58.73 7 21 68.67( 313) 0 0 | 0 1 | 57.28 344 | 57.14 343 | 60.90 325
+ 338 Alabama A&M = 58.62 8 20 66.05( 347) 0 0 | 0 1 | 59.10 331 | 58.03 339 | 58.42 339
+ 339 NC A&T = 58.61 7 23 67.50( 338) 0 1 | 0 1 | 59.33 329 | 58.53 335 | 57.42 342
+ 340 Liberty = 58.52 4 24 68.87( 307) 0 0 | 0 0 | 58.18 337 | 59.25 330 | 57.33 343
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 341 Central Connecticut St. = 58.07 5 26 68.89( 306) 0 0 | 0 1 | 58.04 339 | 57.93 340 | 57.90 341
+ 342 Savannah State = 58.06 7 22 68.94( 305) 0 1 | 0 4 | 57.80 342 | 56.73 345 | 59.27 334
+ 343 Jacksonville = 58.04 7 22 67.75( 334) 0 0 | 0 2 | 56.53 345 | 57.73 341 | 59.21 336
+ 344 UMBC = 57.97 4 26 69.45( 286) 0 1 | 0 1 | 58.57 335 | 58.23 337 | 56.36 344
+ 345 Maine = 57.08 3 27 71.82( 181) 0 1 | 0 1 | 57.70 343 | 57.18 342 | 55.71 345
+ 346 Alcorn State = 54.65 5 25 65.82( 349) 0 2 | 0 2 | 55.06 347 | 55.10 347 | 52.87 347
+ 347 San Jose State = 54.49 0 28 74.21( 115) 0 0 | 0 1 | 55.16 346 | 55.33 346 | 50.93 349
+ 348 Central Arkansas = 53.32 2 27 68.62( 316) 0 0 | 0 1 | 54.07 348 | 52.85 348 | 52.59 348
+ 349 MVSU(Miss. Valley St.) = 53.25 6 26 67.67( 336) 0 1 | 0 2 | 52.35 349 | 52.07 349 | 54.69 346
+ 350 Florida A&M = 50.16 2 27 66.71( 343) 0 0 | 0 0 | 50.76 350 | 49.14 350 | 50.21 350
+College Basketball 2014-2015 Div I games only through games of 2015 April 6 Monday - FINAL (Championship Game) 
+ RATING W L SCHEDL(RANK) VS top 25 | VS top 50 | GOLDEN_MEAN | PREDICTOR | ELO_SCORE 
+ HOME ADVANTAGE=[ 3.32] [ 3.21] [ 3.30] [ 3.46]
+ 351 Grambling State = 44.06 0 27 66.63( 344) 0 1 | 0 2 | 44.85 351 | 44.11 351 | 41.99 351
+____________________________________________________________________________________________________________________________________
+^ Jump to top

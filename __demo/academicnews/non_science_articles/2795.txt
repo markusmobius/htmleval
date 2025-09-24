@@ -1,0 +1,23 @@
+Do this now if you're a Yahoo user
+CLOSE
+
+ Tips on how not to fall for clicking a bogus link in an e-mail and losing your online identity, in this edition of #Tech 101 with Jefferson Graham. USA TODAY
+
+Corrections & Clarifications: An earlier version of this story gave the incorrect month of the 1 billion-user breach. 
+SAN FRANCISCO — Yahoo user? Be ready to refresh your account passwords. But beware: this is prime time for scammers to prey.
+The Internet company said late Wednesday as many as 1 billion user accounts may have been compromised in a breach that took place in August 2013.
+That comes on top of a breach involving as many as 500 million Yahoo users that the company reported in September of this year but which took place in 2014.
+Yahoo is reaching out to users, advising them to change passwords and upgrade their security.
+It's also sending possibly affected users email. Look carefully. Not all emails that look like they come from Yahoo are legit.
+Phishing emails from crooks masquerading as Yahoo may asks users to click on links. Yahoo's won't. They also won't contain attachments and never request users' personal information, the company says.
+"If an email you receive about these issues prompts you to click on a link, download an attachment, or asks you for information, the email was not sent by Yahoo and may be an attempt to steal your personal information. Avoid clicking on links or downloading attachments from such suspicious emails," the company said.
+Change passwords, security questions
+Yahoo is advising users to change their passwords and security questions and answers for any other accounts in which they used the same or similar information as with their Yahoo account.
+Users should also consider enabling two-step authentication on their Yahoo accounts, to provide an extra and very strong level of security. This form of verification sends a text message or call to the user's phone with a code as a second verification step. The code which must be typed in before the account can be opened.
+Instructions on how to enable two-step authentication in Yahoo are on its website.
+Review non-Yahoo accounts
+In addition, users need to think about passwords and security questions from other accounts on which they gave the same or similar information used for their Yahoo account and possibly change them as well.
+Once hackers have access to ID and password information for one system, they routinely try the same combination against multiple other platforms to see which ones work, an easily automated process.
+Careful of clicking
+Users should avoid clicking on links or downloading attachments from suspicious emails that claim to be updates from Yahoo or others about the breach. Yahoo is not sending such emails, it said.
+Hackers often use news of big breaches to conduct "phishing" campaigns, sending official-looking emails that make it seem as if Yahoo or other legitimate services are asking them to supply information or click through to a link to repair any damage — something legitimate services will not do.

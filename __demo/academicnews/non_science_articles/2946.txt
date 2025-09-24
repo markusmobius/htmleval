@@ -1,0 +1,35 @@
+An 'Essential' phone? Not so much
+CLOSE
+
+ Jefferson Graham previews the new state-of-the-art Essential phone from Andy Rubin, the creator of the Android mobile platform on #TalkingTech. 
+
+Naming the “Essential” smartphone just that comes off as something of a dare, an insinuation that this new Android handset somehow is more essential than the phones that we already carry.
+It isn’t.
+Don’t get me wrong, the Essential phone is a fine first device from a company named Essential Products. It is the brainchild of Andy Rubin, the guy behind the Android operating system who later joined Google when Android was acquired.
+Essential feels like a well-made premium handset from the moment you lift it out of its packaging. It’s a thin, 6.5-ounce, solid black, logo-free titanium and ceramic rectangle. Absent the logos and powered down, I was reminded, oddly enough, of the monolith from the sci-fi classic 2001: A Space Odyssey, though the Essential slab has subtly curved corners. (A white version is also coming.)
+But essential with a small “e?” Not so much.
+The device is not water resistant like recent iPhones or Samsung Galaxy devices, and doesn’t have such fancy biometric features as the ability to unlock the phone by gazing into the display. It does have a fingerprint sensor (on the back), but pretty much all top phones these days let you unlock them with your digits.
+One way Essential hopes to push the innovation envelope is via a special new cord-free “future-proof” magnetic connector, so it was a bummer that the company didn’t supply the first accessory to work with this connector — a 360-degree camera billed as the world’s smallest — in time for this review.
+
+To keep the phone fresh, Rubin promises to deliver new wireless accessories every few months, along with guaranteed Android OS updates for two years, and monthly security updates for three. Out of the gate it runs Android Nougat.
+I shot several pictures with the dual rear 13MP cameras, which includes a camera sensor designed especially for black and white images. Many of the pictures I took were of excellent quality including some of the black and whites, but I wasn't blown away in general. Moreover, there was a momentary lag between the time I tapped the shutter and the time in which the photos surfaced on the device.
+During my other tests over several days, I encountered a few minor, but annoying snags, including a microphone that briefly failed to pick up my voice while I tried setting up the Google Assistant.
+Another? Essential curiously hides a tiny tag with some of the phone’s identifying characteristics inside the tray where I had to insert a SIM card. That meant I had to futz around before I could properly insert the SIM.
+
+Sprint, as the exclusive U.S. retail carrier, began taking pre-orders Thursday, and for a limited time will sell the phone at a discounted price of $14.58 per month over a period of 18 months, with no money down required. Full retail availability is still a few weeks out.
+The phone is also available from Best Buy. And you can order an unlocked version from Essential itself for $749, a price that includes the 360-camera. It, too, is a limited time offer, after which the combined price climbs to $898. I tested the phone with a T-Mobile SIM.
+The device has an edge-to-edge 5.71-inch QHD (2560 x 1312) display, and comes with a generous 128GB of storage and 4GB of RAM. Screens with narrow bezels or borders are emerging as the new norm, at least in the premium class.
+Other robust specs include a Qualcomm Snapdragon 835 processor, and a fast charging battery that you juice up through a USB-C adapter, all good.
+
+What’s not good is something Essential borrowed from Apple’s playbook on the iPhone 7, notably the elimination of a standard 3.55mm headphone jack. An adapter comes in the box so that you can plug your own 3.55mm headphones into the USB-C port. Of course, you can employ wireless Bluetooth headphones as well.
+Stripping a phone of its logo is one of Rubin’s conceits, a push to make the phone an expression of you, without, as the company puts it, “no forced loyalty.” There’s not a lot of extraneous software loaded either.
+One issue was caused by yours truly, but it proved informative just the same. I took an inadvertent spill and dropped the phone onto a hard pavement. I managed to scuff up one corner and crack the screen like the Liberty Bell (though the phone continued to function).
+To be fair, Essential never claimed the phone was invulnerable. But so much for any false hope that the premium materials on the device, including Corning’s Gorilla Glass 5 cover glass, would protect the handset from your own clumsiness. The folks at Essential sent me a replacement phone.
+The Essential phone comes along just as Samsung is readying its new Galaxy Note phone, and Apple, presumably, its next iPhone. The smartphone competition from these companies and others will be formidable as always. Whether Rubin’s Android pedigree or the promising but still unproven magnetic connector for accessories will be enough of a draw for prospective customers remains to be seen. While the Essential phone is an impressive newcomer, it is by no means an essential buy.
+Email: ebaig@usatoday.com; Follow USA TODAY Personal Tech Columnist @edbaig on Twitter
+The bottom line
+www.essential.com; $749 promotional price with accessory 360 camera
+Pro. Solidly made premium phone with robust specs and edge-to-edge display
+Con. Lacks standard headphone jack, not as feature rich (thus “essential”) as some other phones
+CONNECTTWEETLINKEDINEMAILMORE
+Read or Share this story: https://usat.ly/2wgpvpA

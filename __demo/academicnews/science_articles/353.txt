@@ -1,0 +1,12 @@
+Here's Why You Should Leave The City During A Zombie Apocalypse
+3.3k 
+27
+Thanks to Cornell University researchers, we can now simulate the spread of a zombie disease outbreak.
+And thanks to their new zombie apocalypse simulator, we can confirm what we already knew: Stay out of cities if you don't want to get infected.
+The researchers will present their study, "The Statistical Mechanics of Zombies," later this week, and reportedly prove that the best place to escape should zombies take over is the northern Rockies.
+[It] draws data from the 2010 U.S. Census and depends on the SIR model, an epidemiological model sometimes used to predict the spread of real-life infectious diseases like measles and rubella. In the SIR model, individuals are either susceptible (S), infected (I) or recovered or immune (R) from a disease. But with zombies, of course, there's a bit of a twist: Once a zombie, always a zombie. There are no R's here.
+The Centers for Disease Control and Prevention told HuffPost Weird News that there are no known viruses "that would reanimate the dead or present zombie-like symptoms." If there were, however, things would get bad really fast.
+We tried the simulation, which lets you configure bite-to-kill ratio (that is, how often zombies are biting versus how often humans are killing zombies) and how fast the disease spreads internally. We dropped one zombie on the East Coast, and another near Chicago, and within three hours, we had a national crisis on our hands:
+
+The lesson here is to head for the Rockies. Researchers found it would take months for zombies to get there as the spread of any infectious disease would likely slow when it left densely-populated areas.
+If you're still not sure where to go, here are 25 other cities you should avoid when the dead walk.

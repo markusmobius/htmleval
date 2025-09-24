@@ -1,0 +1,22 @@
+This sweat band measures your blood sugar
+Share
+ Researchers who are trying to find a way to make wearable health technology real say they’ve taken a big step with a device that generates enough sweat to be useful. 
+ They’ve built a prototype that generates a few drops of perspiration — enough to measure blood sugar and to monitor other bodily functions. 
+
+Researchers at Stanford University say they've taken a big step to wearable health tech with a wristband device that can measure blood sugar and other important measures of health in a few drops of sweat. Sam Emaminejad / Stanford University
+
+ It’s not ready for the market yet, but shows it is possible for people to wear lightweight devices that can deliver on the promise of pain-free diagnosis. 
+ “You don’t stick people with anything. You can just wrap it on people’s hands and have them engage in their daily activities and you can continuously monitor them,” said Sam Emaminejad, who helped work on the device while at Stanford University. 
+ Many groups are working to develop wearable health tech, from the glucose-sensing contact lens that Google currently has put on hold, to a so-called artificial pancreas that is really a series of linked devices that monitor blood sugar and deliver insulin as needed for diabetes patients. 
+ What a wearable health device needs is enough bodily fluids to measure something, such as blood sugar, sodium or hormones. The time-honored method is a needle, and anywhere from a drop to a few vials of blood. 
+ Non-invasive alternatives would have to use sweat. 
+ There are several problems with that, number one being whether you can measure blood sugar or look for, say hormones, in sweat. Second is getting enough sweat to measure in the first place. 
+ The Stanford team thinks they have done that. 
+ They’ve put together sweat-stimulating compounds into a small device that delivers a low current. It can measure glucose, sodium and other compounds in the sweat and wirelessly relay that information. 
+ “This platform extracts sweat (at a high secretion rate) on demand or periodically and performs sweat analysis in situ (in place),” they wrote in their report, published in the Proceedings of the National Academy of Sciences. 
+ It was not painful and could be worn strapped to the arm. “It could be like a watch,” Emaminejad, who’s now at UCLA, told NBC News. 
+ For proof of principle, the team measured blood sugar and minerals associated with flareups of cystic fibrosis in their volunteers. Such a device might be useful for monitoring a patient’s response to drugs, they said. 
+ “One way I think this technology can be incorporated into our daily lives is to be incorporated into a smartwatch,” Emaminejad said. The compounds that stimulate sweating and that measure the desired compounds would need regular refreshing. 
+ “We need a clever solution. Do we need a disposable cartridge that we can insert easily?” he asked. 
+ And researchers will have to work on better ways to correlate measurements of blood sugar, lactase, potassium and other compounds taken from sweat to what doctors know they mean when measured in blood. 
+ That’s one of the hiccups that held up work on the blood sugar-sensing contact lens — a lack of data on whether measurements in tears were as accurate as measurements taken from blood.

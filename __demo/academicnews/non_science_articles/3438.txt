@@ -1,0 +1,21 @@
+How Shohei Ohtani is disrupting the fantasy baseball world
+By January 16, 2018 11:07 am  Follow @bycharlescurtis  
+ 341 shares 
+ share 
+ tweet 
+ pin 
+ sms 
+ send 
+ email 
+ By: | January 16, 2018 11:07 am  Follow @bycharlescurtis  
+Everyone in the fantasy baseball community knew dual threat pitcher/hitter Shohei Ohtani would present a conundrum the moment he toed the rubber and stepped to the plate with the Los Angeles Angels in 2018.
+There was no way for many fantasy platforms to count a player as both a pitcher and a hitter. It seemed like it would have to be one or the other, perhaps splitting Ohtani into Ohtani the Positional Player and Ohtani the Pitcher (a solution Yahoo came up with late last year).
+CBS Fantasy Baseball, however, found a way to make it work: When the site opens for the 2018 season later this month, Ohtani will count as one player that can be toggled between pitcher and hitter, although that means if you start him at one position, you won’t be able to accrue stats from the other roster spot (if he’s your pitcher one night, you won’t earn anything hitting-wise and vice versa). CBS’s platform also allows commissioners to go in and adjust stats after the fact, so if there’s a league that wants Ohtani to gather both hitting and pitching stats in games he does double duty, that’s possible.
+
+AP Photo/Jae C. Hong
+It seems like an easy answer to a tough question, but according to Brian Huss, a Senior Director, Product Development at CBS, weeks of hard work and coding went into adjusting their system to allow Ohtani to fit the way many users preferred.
+“It forced us to look at everything from the way you can move a player from position to position on your roster page to how you can set up a player page that can show hitting and pitching stats at the same time, and how live scoring works,” Huss told For The Win on Monday. “We really had to go in and rework some chunks of our code, which had some ancillary benefit in that we got to clean up and refactor some things that we would have liked to have done anyway.”
+“It was a good thing for our platform in the end,” he added.
+Huss reported that “it took some conversation and some convincing” with the engineers tasked with making serious changes. He also said once they got into it, they knew it wold be the right thing for users. Huss saw whiteboards in offices filled with solutions on how to adjust the code to fit in Ohtani.
+It will also help to prepare for others who could follow in Ohtani’s two-way footsteps (like Tampa Bay Rays prospect Brendan McKay). Imagining a future of hitter/pitchers is thrilling both from a fantasy and real-world baseball perspective.
+“To have Ohtani come over, as a fan it’s so fun,” Huss said. “As product owner, it was a challenge, but a really exciting one.”

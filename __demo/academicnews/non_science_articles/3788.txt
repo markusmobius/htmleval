@@ -1,0 +1,31 @@
+'Hoarding vulnerabilities' – Keeping flaws secret
+Get the news
+ Tuesday’s announcement by WikiLeaks claims the CIA discovered or acquired security weaknesses in tech products and exploited them into hacking and surveillance tools. The agency kept its discoveries secret, a practice WikiLeaks calls “hoarding vulnerabilities.” 
+Note: USA TODAY has not yet been able to confirm the document’s authenticity or evidence of government use of these programs. The CIA did not immediately return a call for comment 
+ Examples of devices and programs the agency allegedly targeted: 
+
+Smart TVs
+
+Program: “Weeping Angel” 
+Background: Developed in conjunction with MI5, the British FBI equivalent of a domestic counterintelligence and security agency. Weeping Angel is a reference from “Dr. Who,” a popular British TV Sci-fi series. 
+What could happen: TV appears to be switched off in “fake off” mode, but records conversations and sends them via Internet to hacker’s server. 
+
+Smartphones
+
+What could happen: From infected phones, via Internet, hackers can gather: 
+Phone’s geolocation
+Audio and text communication
+Camera recordings
+Microphone recordings
+
+Vehicle control systems
+What could happen: Hacker can remotely take control of vehicle with self-driving capability. 
+
+Computer programs
+What could happen: Infected computer systems can: 
+Track CDs/DVDs used
+Infect transferable USB devices
+Hide data in photos or other images
+Maintain malware programs
+Source:  WikiLeaks 
+© 2016 USA TODAY NETWORK

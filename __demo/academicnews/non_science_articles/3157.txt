@@ -1,0 +1,33 @@
+I'm using a touchscreen MacBook Air. Here's how
+Corrections & Clarifications: An earlier headline on this story referenced the wrong MacBook model. 
+NEW YORK—I used a touchscreen MacBook Air to write this column.
+No, you didn’t misread the previous sentence. Nor did you overlook a new product announcement from Apple, which despite all the company has done to popularize multi-touch on the iPhone and iPad, has long resisted the urge to put touch screens on its Macintosh computers.
+Rather, I’ve been testing the AirBar sensor from Sweden's Neonode. It's a thin and light $99, brushed-aluminum strip that converted my 13.3-inch non-touch MacBook Air display into a touch-screen computer. That meant I could pinch, zoom, swipe and tap directly on the laptop display, as if I were using a tablet, smartphone or any number of Windows PCs and Chromebooks.
+It worked OK, but still felt a little awkward. It's probably best for Mac users who find themselves frustrated that their Mac screens won't respond like their phones. 
+Setting it up
+AirBar comes with two small magnetic dots that you stick just below the computer’s screen. These secure the AirBar strip magnetically against the bottom edge of the display. The bar is sized to match the dimensions of the computer, with tiny markers on either side to help you align it properly below the screen. Sticking out of the right edge of the strip is a short wire with a USB connector that plugs into the port on the computer's side.
+You can easily remove the AirBar from the MacBook Air while leaving the magnetic dots in place, and you’ll have to do so if you want to fold the lid of the laptop back into its closed position. There’s a pouch for carrying AirBar when you’re not using it; I stashed it in my backpack.
+During the initial setup, I had to install software and update the firmware on the AirBar. From then on you just connect it and are good to go.
+When it works
+AirBar makes it possible to “touch” the screen by projecting an invisible light field on the surface of your display.
+I was able to take advantage of common multi-touch gestures: I pinched and spread my fingers, for example, to zoom in and out of photos and webpages. And pressed two fingers against the display to scroll inside my calendar or in the Safari browser. I also used two digits to rotate an image. And I dragged a map around with a single finger.
+My favorite use of touch was being able to rapidly pore through a bunch photos with my finger.
+I was also able to tap the screen with a stylus, regular pencil and other pointy objects, and use touch, however imprecisely, while wearing a glove.
+
+When it doesn't
+Unfortunately, the fact that AirBar works with such gestures on the Mac doesn’t necessarily translate into an ideal experience. I sometimes detected a slight delay between when I gestured and when there was a response. On a few occasions the screen went a bit kaflooey.
+What’s more, Apple didn’t design the MacOS with a multi-touch display in mind, preferring you to tap, pinch and perform other gestures directly onto the computer’s trackpad. As a veteran user of the MacBook Air, gesturing on the trackpad is second nature. Changing well-worn habits on the other hand is difficult.
+About the closest Apple has come to designing a touch-screen Mac is through the context-sensitive Touch Bar controls feature that debuted last year on some higher-end MacBook Pro models. There’s a bit of a learning curve there, and the Touch Bar really isn’t the same thing as a full-fledged multi-touch display.
+Apple’s thinking is that having you reach up or out to touch the display on a Mac just doesn’t feel right and natural. I’m inclined to agree, especially when I strained to tap the upper, side or bottom reaches of the display while using AirBar. I struggled, for example, to tap the icon for the Mac’s Notification Center, and didn’t always hit my target when I tried tapping the tiny onscreen buttons to close or maximize a window.
+Windows competition
+That said, I generally do just fine with the touch displays on several Windows 10 PCs, as well as Google Chromebooks, with the Windows operating system better designed to take advantage of touch than the Mac. And sometimes after I’ve used a touch-capable Chromebook or Windows PC and then come back to the Mac, I reach out to make contact with a screen that is oblivious to my touch.
+Neonode also makes $79 versions of AirBar for non-touch Windows PCs with 13.3-, 14 and 15.6-inch display sizes. Other Mac sizes are said to be coming soon.
+Maybe at some point Apple will relent and produce its own touch-screen Mac. But it's a touchy topic. In the meantime, though far from perfect, Neonode’s AirBar provides the next best thing.
+Email: ebaig@usatoday.com; Follow USA TODAY Personal Tech Columnist @edbaig on Twitter
+The bottom line
+AirBar for MacBook Air from Neonode
+$99, air.bar
+Pro. Light sensor strip blends in and supplies multi-touch to Apple's MacBook Air Easy setup.
+Con. Multi-touch on the Air is not always smooth, responsive and natural. 
+CONNECTTWEET 40 LINKEDINEMAILMORE
+Read or Share this story: https://usat.ly/2uEcoNQ

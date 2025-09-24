@@ -1,0 +1,170 @@
+NASCAR Schedule - NASCAR
+DATE
+RACE
+CITY
+STATE
+LAPS
+DISTANCE
+WINNER
+ Feb 16 2018 
+ NEXTERA ENERGY RESOURCES 250 
+ Daytona Beach 
+ Florida 
+ 100 
+ 2.5 mi 
+ -- 
+ Feb 24 2018 
+ Active Pest Control 200 
+ Hampton 
+ Georgia 
+ 130 
+ 1.54 mi 
+ -- 
+ Mar 2 2018 
+ NASCAR Camping World Truck Series at Las Vegas 
+ Las Vegas 
+ Nevada 
+ 146 
+ 1.5 mi 
+ -- 
+ Mar 24 2018 
+ Alpha Energy Solutions 250 
+ Martinsville 
+ Virginia 
+ 250 
+ 0.526 mi 
+ -- 
+ May 4 2018 
+ NASCAR Camping World Truck Series Race at Dover 
+ Dover 
+ Delaware 
+ 200 
+ 1.0 mi 
+ -- 
+ May 11 2018 
+ NASCAR Camping World Truck Series Race at Kansas 
+ Kansas City 
+ Kansas 
+ 167 
+ 1.5 mi 
+ -- 
+ May 18 2018 
+ North Carolina Education Lottery 200 
+ Concord 
+ North Carolina 
+ 134 
+ 1.5 mi 
+ -- 
+ Jun 8 2018 
+ Rattlesnake 400 
+ Fort Worth 
+ Texas 
+ 167 
+ 1.5 mi 
+ -- 
+ Jun 16 2018 
+ Iowa 200 
+ Newton 
+ Iowa 
+ 200 
+ 0.845 mi 
+ -- 
+ Jun 23 2018 
+ NASCAR Camping World Truck Series Race at Gateway 
+ Madison 
+ Illinois 
+ 160 
+ 1.25 mi 
+ -- 
+ Jun 29 2018 
+ NASCAR Camping World Truck Series Race at Chicagoland 
+ Joliet 
+ Illinois 
+ 150 
+ 1.5 mi 
+ -- 
+ Jul 12 2018 
+ NASCAR Camping World Truck Series Race at Kentucky 
+ Sparta 
+ Kentucky 
+ 150 
+ 1.5 mi 
+ -- 
+ Jul 18 2018 
+ Eldora Dirt Derby 
+ New Weston 
+ Ohio 
+ 150 
+ 0.5 mi 
+ -- 
+ Jul 28 2018 
+ Overton's 150 
+ Long Pond 
+ Pennsylvania 
+ 60 
+ 2.5 mi 
+ -- 
+ Aug 11 2018 
+ NASCAR Camping World Truck Series Race at Michigan 
+ Brooklyn 
+ Michigan 
+ 100 
+ 2.0 mi 
+ -- 
+ Aug 15 2018 
+ UNOH 200 
+ Bristol 
+ Tennessee 
+ 203 
+ 0.533 mi 
+ -- 
+ Aug 26 2018 
+ Chevrolet Silverado 250 
+ Bowmanville 
+ CAN 
+ 66 
+ 2.459 mi 
+ -- 
+ Sep 14 2018 
+ NASCAR Camping World Truck Series Race at Las Vegas 
+ Las Vegas 
+ Nevada 
+ 146 
+ 1.5 mi 
+ -- 
+ Oct 13 2018 
+ Fred's 250 Powered by Coca-Cola 
+ Talladega 
+ Alabama 
+ 94 
+ 2.66 mi 
+ -- 
+ Oct 27 2018 
+ Texas Roadhouse 200 presented by Alpha Energy Solutions 
+ Martinsville 
+ Virginia 
+ 200 
+ 0.526 mi 
+ -- 
+ Nov 2 2018 
+ Longhorn 350 
+ Fort Worth 
+ Texas 
+ 147 
+ 1.5 mi 
+ -- 
+ Nov 9 2018 
+ Lucas Oil 150 
+ Avondale 
+ USA 
+ 150 
+ 1.0 mi 
+ -- 
+ Nov 16 2018 
+ Ford EcoBoost 200 
+ Homestead 
+ Florida 
+ 134 
+ 1.5 mi 
+ -- 
+^ Jump to top

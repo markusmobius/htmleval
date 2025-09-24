@@ -1,0 +1,17 @@
+Google parent Alphabet unveils cybersecurity unit Chronicle
+CLOSE
+
+ USA Today columnist Kim Komando guides you on how to test your computer's security. 
+
+CONNECTTWEETLINKEDIN 1 COMMENTEMAILMORE
+SAN FRANCISCO — Google parent company Alphabet has unveiled a new subsidiary, Chronicle, whose goal is to help businesses identify and stop cyber attacks before they do damage.
+Alphabet says the new company in the Alphabet line-up is responding to the raft of "jaw-dropping" security breaches that dominate the headlines. Chronicle was incubated inside Alphabet's experimental lab X, known as the "moonshot factory" for its pursuit of big challenges such as driverless cars. 
+"Organizations deploy dozens of security tools to protect themselves, and their security teams are highly skilled and extremely dedicated, but they can’t keep up with the growing number, sophistication and ambition of attacks," Astro Teller, X’s "Captain of Moonshots," said in a blog post. "Solving this problem isn’t simply a question of time and trusting that we’ll catch up eventually. We have to start fresh and look at the problem from new angles."
+Alphabet is jumping into a crowded marketplace filled with companies plying their wares to businesses under siege from cyber attacks. 
+Chronicle was formed in 2016 when Stephen Gillett, former chief operating officer of security software company Symantec and then an executive in residence at Google Ventures, met Mike Wiacek and Shapor Naghibzadeh, longtime engineers on Google’s security team. Together they began building tools with the goal of giving businesses the intelligence they need to stay ahead of constantly changing cybersecurity threats. They were introduced to Bernardo Quintero, who had built malware intelligence service VirusTotal.
+Gillett is CEO of Chronicle which, according to a blog post, is a hybrid: a cybersecurity intelligence and analytics service to help enterprises manage their security data and, VirusTotal, which Google bought in 2012.
+The name Chronicle refers to creating a record that "helps people make sense of something that's happened, how it happened, and why it happened."
+"Chronicle’s vision is to help businesses organize and understand their security information so that they can weave that data into a coherent story, to understand their security risks and take timely action to protect themselves," the company said.
+Google has its own security researchers who have played a significant role in uncovering threats. The Intel bug that made its chips vulnerable to hacking was discovered by Jann Horn of Google's Project Zero and some of the clues that pointed to a link between a hacking group connected to North Korea and the WannaCry ransomware attacks that crippled computer systems worldwide were found by Google researcher Neel Mehta.
+CONNECTTWEETLINKEDIN 1 COMMENTEMAILMORE
+Read or Share this story: https://usat.ly/2DGiTUB

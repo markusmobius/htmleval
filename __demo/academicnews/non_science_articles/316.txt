@@ -1,0 +1,3 @@
+CNNMoney
+Most stock quote data provided by BATS. Market indices are shown in real time, except for the DJIA, which is delayed by two minutes. All times are ET. Disclaimer. Morningstar: © Morningstar, Inc. All Rights Reserved. Factset: FactSet Research Systems Inc. . All rights reserved.  All rights reserved.   All content of the Dow Jones branded indices © S&P Dow Jones Indices LLC and/or its affiliates. 
+© Cable News Network. A Time Warner Company. All Rights Reserved.  Terms under which this service is provided to you.  Privacy Policy. .

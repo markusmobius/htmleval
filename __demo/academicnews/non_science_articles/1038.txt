@@ -1,0 +1,21 @@
+Reeeeeally Needs To Stop Using An Unsecured Android Phone
+Kevin Lamarque / Reuters
+
+As you may recall, over the past year or so, former Secretary of State and Democratic presidential nominee Hillary Clinton had a problem ― one that at the time I deemed impossible to solve. You see, she’d opted at some point to use a private email server instead of the State Department email domain. This raised a host of concerns, including the question of whether her private setup was properly secured. 
+Obviously, it led to many other things as well. An endless amount of criticism dogged Clinton throughout the campaign, trailed by an equally endless number of defenses of her behavior. If I’m being charitable, I think she tended to those concerns very poorly, but your mileage may vary.
+At any rate, I think we can all agree that Clinton would have been a lot better off if she’d just used her State Department email account. There wouldn’t have been an opportunity for FBI Director James Comey to offer up an M. Night Shyamalan twist late in the campaign, nor would there have been those torrents of media coverage on the matter ― which even I found to be vastly disproportionate, given the actual known facts.
+And yet, with all of that intense media coverage providing a really great opportunity to learn from someone’s mistakes, this little tidbit in Maggie Haberman’s Jan. 25 New York Times story is, truly, extraordinary (emphasis mine):
+Mr. Trump’s wife, Melania, went back to New York on Sunday night with their 10-year-old son, Barron, and so Mr. Trump has the television — and his old, unsecured Android phone, to the protests of some of his aides — to keep him company. That was the case after 9 p.m. on Tuesday, when Mr. Trump appeared to be reacting to Bill O’Reilly’s show on Fox News, which was airing a feature on crime in Chicago.
+Yeah, so, Trump needs to listen to those protesting aides, and stop using that phone.
+Believe it or not, my aim here isn’t to ridicule Trump’s hypocrisy ― plenty of people are already doing that. I’m trying to be the shepherd, man. Whether you think Donald Trump is about to do a lot of terrible things or a lot of great things, there are not “two sides” to the president using an unsecured mobile phone. No good can come of it. It will make him, depending on your point of view, either a less effective president or a worse president. So this is an easy call: Fix this.
+Senior Trump administration staffers including Kellyanne Conway, Jared Kushner, Sean Spicer and Steve Bannon have active accounts on a Republican National Committee email system, Newsweek has learned.
+The system (rnchq.org) is the same one the George W. Bush administration was accused of using to evade transparency rules after claiming to have “lost” 22 million emails.
+It’s not clear whether these staffers are still using these email accounts. But if so, they should probably stop.
+The potential consequences of poor infosec are, by now, very deeply ingrained in the discourse. We know where this sort of slapdash attention to data security, this cavalier disregard for best practices, can lead. It exposes you to hacking, breaches of national security, political disgrace, congressional hearings, law enforcement investigations and the threat of indictment. Along the way, it creates countless opportunities for your political enemies ― or, perhaps, your military ones, if you happen to be a head of state ― to learn your vulnerabilities and exploit them.
+After everything we’ve learned from Hillary Clinton’s experience, I can’t begin to fathom why anyone would allow themselves to court danger or scandal this way. It frankly seems insane! Fortunately, this is very easily fixed, and Trump should fix it ― if no other reason than to increase his odds of having an effective presidency.
+Oh, by the way, the same could be said about fully divesting from his business holdings.
+
+The Huffington Post
+
+~~~~~
+Jason Linkins edits “Eat The Press” for The Huffington Post and co-hosts the HuffPost Politics podcast “So, That Happened.” Subscribe here, and listen to the latest episode below.

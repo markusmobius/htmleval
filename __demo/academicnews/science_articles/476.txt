@@ -1,0 +1,21 @@
+How facial recognition systems will reshape your daily life
+New systems are expected to transform shopping, banking, travel, and more.
+by Kate Baggaley / Sep.14.2017 / 6:13 PM ET
+
+
+
+
+Face recognitionConeyl Jay / Getty Images/Science Photo Library
+Get the Mach newsletter.
+Facial recognition technology is coming of age. The new iPhone can be unlocked simply by looking at it, and accessing your smartphone is just one of many ways that facial recognition will change our daily lives. Soon we’ll be using our faces to pay for groceries, catch trains, pass through airport security, and more.
+In China, you can already use your face to gain access to office buildings and authorize ATM withdrawals. In Europe, high-end hotels and retailers use it to identify celebrity customers to make sure they get special treatment. Australian airports are installing a system that lets airline passengers glide through security without passports – and facial recognition systems are beginning to appear in U.S. airports too.
+“Everybody’s face is slightly different, so it’s almost like a 3D fingerprint,” says Lyndon Smith, professor of computer simulation and machine vision at the University of the West of England. “Even identical twins, you can differentiate between them when you’re applying this kind of technique.”
+Smith is developing a system that he believes could replace train tickets. Like the new iPhone, it uses infrared scanning to recognize patterns in facial features and then compares them against a database of known facial patterns. Smith thinks the system would work well in stores and banks as well as train stations. “Wherever you go in the world…you could, rather than carrying a card around with a PIN and all this complexity, just simply use your face,” he says.
+Is AI the Fix for the Distracted Driving Menace?
+Experts say facial recognition systems can be extremely reliable. Apple claims its new iPhone has no trouble telling a real face from a photo—and can even recognize individuals if they grow a beard or don eyeglasses. And researchers in the U.K. and India have developed a system that they say can peer through disguises —including fake beards and scarves that obscure part of the face. It uses 14 key landmarks around the eyes, nose, and lips; if some features are hidden, it uses others to make the identification.
+The system is intended to “take a lot of criminals off of the streets,” says Amarjot Singh, a graduate student in engineering the University of Cambridge and one of the researchers. “Essentially you’ve developed an X-ray to look into people’s identity, and that I think is very exciting.”
+Excitement aside, Singh is among those who worry that the rise of facial recognition technology raises privacy concerns. Some worry governments could abuse the systems to assert inappropriate control over their citizens and stifle protests. Others worry that facial recognition systems will reveal information that individuals might wish to keep private. Last week, Stanford University researchers sparked a controversy when they published research suggesting that facial recognition can predict an individual’s sexual orientation.
+The bottom line? Facial recognition technology is already out there, although how to use it without putting people at risk or invading their privacy remains a hot debate topic.
+“Our intention is certainly not to have some kind of Big Brother thing going on; we wouldn’t want this system to be used by anybody who didn’t want to use it,” Smith says. “We’re not trying to monitor people—we’re trying to help people in their everyday lives.”
+FOLLOW NBC MACH ON TWITTER, FACEBOOK, AND INSTAGRAM.
+Get the Mach newsletter.

@@ -1,0 +1,709 @@
+Kansas City Chiefs Roster - NFL Football
+special-teams TEAM LEADERS
+KICKING
+C. Santos
+100.00 FG%
+PUNTING
+D. Colquitt
+45.17 AVG YDS
+KICK RETURNING
+A. Hunt
+611 YDS
+View All Player Statistics
+OFFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Kaleb Johnson 
+ G 
+ 25 
+ 76 
+ 300 
+ 1993-02-22 
+ Rutgers 
+ active 
+ -- 
+ Brandon Shippen 
+ WR 
+ 24 
+ 71 
+ 196 
+ 1994-05-17 
+ Temple 
+ active 
+ -- 
+ Daniel Braverman 
+ WR 
+ 25 
+ 70 
+ 185 
+ 1993-09-28 
+ Western Michigan 
+ active 
+ -- 
+ Jace Amaro 
+ TE 
+ 26 
+ 77 
+ 265 
+ 1992-06-26 
+ Texas Tech 
+ active 
+ 10 
+ Tyreek Hill 
+ WR 
+ 24 
+ 70 
+ 185 
+ 1994-03-01 
+ West Alabama 
+ active 
+ 11 
+ Alex Smith 
+ QB 
+ 34 
+ 76 
+ 217 
+ 1984-05-07 
+ Utah 
+ active 
+ 12 
+ Albert Wilson 
+ WR 
+ 26 
+ 69 
+ 200 
+ 1992-07-12 
+ Georgia State 
+ active 
+ 13 
+ De'Anthony Thomas 
+ WR 
+ 25 
+ 68 
+ 176 
+ 1993-01-05 
+ Oregon 
+ active 
+ 14 
+ Demarcus Robinson 
+ WR 
+ 24 
+ 73 
+ 203 
+ 1994-09-21 
+ Florida 
+ active 
+ 15 
+ Patrick Mahomes 
+ QB 
+ 23 
+ 75 
+ 230 
+ 1995-09-17 
+ Texas Tech 
+ active 
+ 17 
+ Chris Conley 
+ WR 
+ 26 
+ 75 
+ 205 
+ 1992-10-25 
+ Georgia 
+ active 
+ 19 
+ Marcus Kemp 
+ WR 
+ 23 
+ 76 
+ 185 
+ 1995-08-14 
+ Hawaii 
+ active 
+ 26 
+ C.J. Spiller 
+ RB 
+ 31 
+ 71 
+ 200 
+ 1987-08-05 
+ Clemson 
+ active 
+ 27 
+ Kareem Hunt 
+ RB 
+ 23 
+ 71 
+ 208 
+ 1995-08-06 
+ Toledo 
+ active 
+ 31 
+ Akeem Hunt 
+ RB 
+ 25 
+ 70 
+ 185 
+ 1993-02-22 
+ Purdue 
+ active 
+ 32 
+ Spencer Ware 
+ RB 
+ 27 
+ 70 
+ 229 
+ 1991-11-23 
+ LSU 
+ active 
+ 35 
+ Charcandrick West 
+ RB 
+ 27 
+ 70 
+ 205 
+ 1991-06-02 
+ Abilene Christian 
+ active 
+ 4 
+ Gehrig Dieter 
+ WR 
+ 25 
+ 75 
+ 207 
+ 1993-02-24 
+ Alabama 
+ active 
+ 42 
+ Anthony Sherman 
+ RB 
+ 30 
+ 70 
+ 242 
+ 1988-12-11 
+ Connecticut 
+ active 
+ 43 
+ George Atkinson III 
+ RB 
+ 26 
+ 73 
+ 218 
+ 1992-11-29 
+ Notre Dame 
+ active 
+ 61 
+ Mitch Morse 
+ OL 
+ 26 
+ 78 
+ 305 
+ 1992-04-21 
+ Missouri 
+ active 
+ 65 
+ Jordan Devey 
+ OL 
+ 30 
+ 78 
+ 320 
+ 1988-01-11 
+ Memphis 
+ active 
+ 70 
+ Bryan Witzmann 
+ OL 
+ 28 
+ 79 
+ 320 
+ 1990-06-16 
+ South Dakota State 
+ active 
+ 71 
+ Mitchell Schwartz 
+ OL 
+ 29 
+ 77 
+ 320 
+ 1989-06-08 
+ California 
+ active 
+ 72 
+ Eric Fisher 
+ OL 
+ 27 
+ 79 
+ 315 
+ 1991-01-05 
+ Central Michigan 
+ active 
+ 73 
+ Zach Fulton 
+ OL 
+ 27 
+ 77 
+ 316 
+ 1991-09-23 
+ Tennessee 
+ active 
+ 75 
+ Cameron Erving 
+ OL 
+ 26 
+ 77 
+ 313 
+ 1992-08-23 
+ Florida State 
+ active 
+ 76 
+ Laurent Duvernay-Tardif 
+ OL 
+ 27 
+ 77 
+ 321 
+ 1991-02-11 
+ McGill (Canada) 
+ active 
+ 79 
+ Parker Ehinger 
+ OL 
+ 26 
+ 78 
+ 310 
+ 1992-12-30 
+ Cincinnati 
+ active 
+ 80 
+ Jehu Chesson 
+ WR 
+ 25 
+ 75 
+ 203 
+ 1993-12-29 
+ Michigan 
+ active 
+ 82 
+ Orson Charles 
+ TE 
+ 27 
+ 75 
+ 247 
+ 1991-01-27 
+ Georgia 
+ active 
+ 84 
+ Demetrius Harris 
+ TE 
+ 27 
+ 79 
+ 230 
+ 1991-07-29 
+ UW-Milwaukee 
+ active 
+ 87 
+ Travis Kelce 
+ TE 
+ 29 
+ 77 
+ 260 
+ 1989-10-05 
+ Cincinnati 
+ active 
+ 88 
+ Anthony Firkser 
+ TE 
+ 23 
+ 74 
+ 241 
+ 1995-02-19 
+ Harvard 
+ active 
+ 9 
+ Tyler Bray 
+ QB 
+ 27 
+ 78 
+ 215 
+ 1991-12-27 
+ Tennessee 
+ active 
+DEFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Sheldon Price 
+ DB 
+ 27 
+ 74 
+ 194 
+ 1991-03-26 
+ UCLA 
+ active 
+ -- 
+ Makinton Dorleant 
+ DB 
+ 26 
+ 71 
+ 182 
+ 1992-10-06 
+ Northern Iowa 
+ active 
+ -- 
+ Tyrone Holmes 
+ LB 
+ 25 
+ 74 
+ 253 
+ 1993-09-10 
+ Montana 
+ active 
+ -- 
+ Prince Charles Iworah 
+ CB 
+ 25 
+ 71 
+ 193 
+ 1993-03-11 
+ Western Kentucky 
+ active 
+ 20 
+ Steven Nelson 
+ DB 
+ 25 
+ 71 
+ 194 
+ 1993-01-22 
+ Oregon State 
+ active 
+ 21 
+ Eric Murray 
+ DB 
+ 24 
+ 71 
+ 199 
+ 1994-01-07 
+ Minnesota 
+ active 
+ 22 
+ Marcus Peters 
+ DB 
+ 25 
+ 72 
+ 197 
+ 1993-01-09 
+ Washington 
+ active 
+ 23 
+ Phillip Gaines 
+ DB 
+ 27 
+ 72 
+ 193 
+ 1991-04-04 
+ Rice 
+ active 
+ 24 
+ Darrelle Revis 
+ DB 
+ 33 
+ 71 
+ 198 
+ 1985-07-14 
+ Pittsburgh 
+ active 
+ 24 
+ Will Redmond 
+ CB 
+ 25 
+ 72 
+ 186 
+ 1993-12-28 
+ Mississippi State 
+ active 
+ 25 
+ Kenneth Acker 
+ DB 
+ 26 
+ 72 
+ 195 
+ 1992-02-06 
+ Southern Methodist 
+ active 
+ 29 
+ Eric Berry 
+ DB 
+ 30 
+ 72 
+ 212 
+ 1988-12-29 
+ Tennessee 
+ active 
+ 30 
+ Steven Terrell 
+ DB 
+ 28 
+ 70 
+ 197 
+ 1990-09-21 
+ Texas A&M 
+ active 
+ 34 
+ Leon McQuay III 
+ DB 
+ 24 
+ 74 
+ 185 
+ 1994-11-21 
+ USC 
+ active 
+ 38 
+ Ron Parker 
+ DB 
+ 31 
+ 72 
+ 206 
+ 1987-08-17 
+ Newberry 
+ active 
+ 39 
+ Terrance Mitchell 
+ DB 
+ 26 
+ 71 
+ 190 
+ 1992-05-17 
+ Oregon 
+ active 
+ 40 
+ Keith Reaser 
+ DB 
+ 27 
+ 72 
+ 190 
+ 1991-07-31 
+ Florida Atlantic 
+ active 
+ 45 
+ Ukeme Eligwe 
+ LB 
+ 24 
+ 74 
+ 239 
+ 1994-04-27 
+ Georgia Southern 
+ active 
+ 48 
+ Terrance Smith 
+ LB 
+ 25 
+ 74 
+ 235 
+ 1993-05-03 
+ Florida State 
+ active 
+ 49 
+ Daniel Sorensen 
+ DB 
+ 28 
+ 74 
+ 208 
+ 1990-03-05 
+ Brigham Young 
+ active 
+ 50 
+ Justin Houston 
+ LB 
+ 29 
+ 75 
+ 258 
+ 1989-01-12 
+ Georgia 
+ active 
+ 51 
+ Frank Zombo 
+ LB 
+ 31 
+ 75 
+ 254 
+ 1987-03-05 
+ Central Michigan 
+ active 
+ 52 
+ Dadi Nicolas 
+ LB 
+ 26 
+ 75 
+ 235 
+ 1992-09-29 
+ Virginia Tech 
+ active 
+ 53 
+ Ramik Wilson 
+ LB 
+ 26 
+ 74 
+ 237 
+ 1992-08-19 
+ Georgia 
+ active 
+ 55 
+ Dee Ford 
+ LB 
+ 27 
+ 74 
+ 252 
+ 1991-03-19 
+ Auburn 
+ active 
+ 56 
+ Derrick Johnson 
+ LB 
+ 36 
+ 75 
+ 242 
+ 1982-11-22 
+ Texas 
+ active 
+ 57 
+ Kevin Pierre-Louis 
+ LB 
+ 27 
+ 72 
+ 230 
+ 1991-10-07 
+ Boston College 
+ active 
+ 59 
+ Reggie Ragland 
+ LB 
+ 25 
+ 74 
+ 252 
+ 1993-09-24 
+ Alabama 
+ active 
+ 6 
+ Ashton Lampkin 
+ DB 
+ 24 
+ 72 
+ 189 
+ 1994-01-10 
+ Oklahoma State 
+ active 
+ 74 
+ Justin Hamilton 
+ DL 
+ 25 
+ 74 
+ 315 
+ 1993-07-27 
+ Louisiana-Lafayette 
+ active 
+ 90 
+ Stefan Charles 
+ DL 
+ 30 
+ 77 
+ 302 
+ 1988-06-09 
+ Regina (Canada) 
+ active 
+ 91 
+ Tamba Hali 
+ LB 
+ 35 
+ 75 
+ 275 
+ 1983-11-03 
+ Penn State 
+ active 
+ 92 
+ Tanoh Kpassagnon 
+ LB 
+ 24 
+ 79 
+ 280 
+ 1994-06-14 
+ Villanova 
+ active 
+ 94 
+ Jarvis Jenkins 
+ DL 
+ 30 
+ 76 
+ 300 
+ 1988-04-24 
+ Clemson 
+ active 
+ 95 
+ Chris Jones 
+ DL 
+ 24 
+ 78 
+ 308 
+ 1994-07-03 
+ Mississippi State 
+ active 
+ 96 
+ Bennie Logan 
+ DL 
+ 29 
+ 74 
+ 315 
+ 1989-12-28 
+ LSU 
+ active 
+ 97 
+ Allen Bailey 
+ DL 
+ 29 
+ 75 
+ 288 
+ 1989-03-25 
+ Miami (Fla.) 
+ active 
+ 99 
+ Rakeem Nunez-Roches 
+ DL 
+ 25 
+ 74 
+ 307 
+ 1993-07-03 
+ Southern Mississippi 
+ active 
+SPECIAL TEAMS
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 2 
+ Dustin Colquitt 
+ P 
+ 36 
+ 75 
+ 210 
+ 1982-05-06 
+ Tennessee 
+ active 
+^ Jump to top

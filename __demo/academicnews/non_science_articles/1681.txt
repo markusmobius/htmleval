@@ -1,0 +1,16 @@
+How Much Warmer Was Your City in 2017?
+Last year was the second hottest year on record. In a database of more than 3,800 cities compiled by AccuWeather, about 88 percent recorded annual mean temperatures higher than normal. Enter your city below to see how much warmer or cooler it was. 
+Temperature
+Average: normal
+Precipitation
+Total: 
+ Cumulative monthly precipitation, in inches, compared with normal. Precipitation totals are rainfall plus the liquid equivalent of any frozen precipitation. 
+Temperature Key
+Bars represent range between the daily high and low.
+Precipitation Key
+Cumulative monthly precipitation, in inches, compared with normal. Precipitation totals are rainfall plus the liquid equivalent of any frozen precipitation.
+Note: Temperature and precipitation data are from AccuWeather. The normal temperature range is determined using the averages of the highs and lows for each day from 1981 to 2010. 
+ Data for some cities is incomplete. For cases in which the actual or historical temperatures were unavailable, the bar is not shown for that day. The data presented here is as it was recorded on Jan. 5, 2018.
+Additional work by Gregor Aisch.
+More on NYTimes.com
+Advertisement

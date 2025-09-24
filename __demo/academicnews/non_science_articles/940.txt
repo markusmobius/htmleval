@@ -1,0 +1,5 @@
+HELL FREEZES! Microsoft & Google Collaborate On Angular 2 Framework
+Techackr/Flickr
+
+From Microsoft:
+"As a result of an ongoing collaboration between the TypeScript and Google Angular teams, they revealed at ng-conf in Salt Lake City on Thursday that Angular 2 – the next version of the popular Angular JavaScript library for building websites and Web apps – is being built on TypeScript."

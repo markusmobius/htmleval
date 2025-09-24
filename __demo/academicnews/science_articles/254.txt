@@ -1,0 +1,16 @@
+What The Zombie Apocalypse Can Teach Us About How Diseases Spread
+Jay P. Morgan via Getty Images
+
+The zombie apocalypse is coming, and epidemiologists, for one, are concerned. 
+When World War Z breaks out and the undead begin their global takeover, we'll all be running for the hills. And according to a group of scientists from Cornell University, who are studying the mechanics of a potential zombie takeover, this might be exactly the right idea. 
+In modeling a fictional zombie outbreak, the researchers actually had a more serious, real-world purpose in mind --investigating the way real disease outbreaks spread. 
+"The techniques we used to study the zombie model are some of the same techniques used to study real diseases," Cornell physics graduate student Alex Alemi, who worked on the paper, told The Huffington Post. "We hope the paper might serve as a nice introduction to these techniques for people."
+The authors explain that a zombie outbreak in the U.S. might look similar to a large-scale outbreak of a virus such as Ebola. In the zombie simulation, there are four different states -- human, infected, zombie or dead zombie -- which interact and combine with one another in a similar manner to chemical reactions.
+"If there is a zombie outbreak, it is usually assumed to affect all areas at the same time, and some months after the outbreak you're left with small pockets of survivors," explained Alemi. "But in our attempt to model zombies somewhat realistically, it doesn't seem like this is how it would actually go down."
+So how would the zombie takeover go down? The researchers predict that densely-populated cities would be the first to fall, and they'd likely fall quickly. But it could take quite some time for the zombies to penetrate more remote, rural areas, like the Rocky Mountains. 
+
+ This "heat map" depicting day 28 of the outbreak shows, in light areas, which areas might be hit hardest and fastest by a zombie outbreak. 
+"The best place to be is as far away from as a many people as possible, since then you will be unlikely to be near not only the places an outbreak would be likely to begin, but also far away from large swarms of potential zombies," Alemi told HuffPost. "Of course, in our model we assumed that the humans were not moving around, and if everyone flocked to the Rocky Mountains, it would be safe anymore, but currently there are not only few people that live there, but few large cities near by."
+Their conclusion? If there are enough zombies, we're probably all doomed. 
+"Zombies -- just like ordinary disease -- show a transition," said Alemi. "If the virulency of the disease is below a certain point, the humans win, otherwise the zombies win."
+But don't panic just yet. The Centers for Disease Control and Prevention (CDC) is prepared for situations like this. Check out their zombie preparedness guide for tips on surviving the night of the living dead with your braaaaains intact. Or at least some of them.

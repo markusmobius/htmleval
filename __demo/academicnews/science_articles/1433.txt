@@ -1,0 +1,31 @@
+Here’s what citizens who vote for authoritarians have in common
+What do individuals who vote for strongmen have in common? Do Trump’s supporters in the United States share core psychological traits with supporters of populist and authoritarian leaders in other countries? We look into that in our new article, forthcoming in Research & Politics. Two measures proved important: authoritarianism and levels of education. But exactly how they matter surprised us.
+Latin American elections hold clues to understanding who supports authoritarian leaders.
+It’s hard to answer this question examining only U.S. elections, because few U.S. candidates have announced overtly authoritarian views. Instead, we looked to Latin America, where many presidents have shown disregard for democratic limits on executive power. Those have included Chávez and Ecuador’s Rafael Correa, who curtailed freedom of the press, and El Salvador’s Antonio Saca, whose “Súper Mano Dura” (super hard-line) policy called for incarcerating citizens with suspicious tattoos.
+Latin America is also interesting to study because, in contrast to the United States, authoritarian candidates have appeared on both the political left and right. (You can find more information on how we identified authoritarian candidates here.)
+Do “authoritarian” personalities support authoritarian leaders? Only sometimes. 
+We investigated to see whether the psychological disposition called “authoritarianism” predicted voting for authoritarian leaders. When political psychologists talk about authoritarianism, they are referring to a basic disposition in which citizens value submission to group norms and authority figures, and are aggressive toward nonconformists. The psychological conception of “authoritarianism” doesn’t necessarily imply a value judgment.
+We often measure citizens’ levels of authoritarianism using survey questions that ask what traits they think are most important for children in general: on the one hand, things like creativity and autonomy, or on the other hand, respect for adults and discipline. In the United States, how people score on these questions is strongly correlated with many political attitudes — not only support for Trump and Trump’s issue positions in the current election, but also with attitudes toward terrorism and with Republican 
+Party identification more generally.
+In the 2012 AmericasBarometer surveys administered across North and South America, we used three questions on parenting attitudes to develop a score for citizens’ authoritarian dispositions, running from zero (highly non-authoritarian) to 1 (highly authoritarian).
+ Republican presidential nominee Donald Trump has suggested jailing his Democratic opponent Hillary Clinton. Here are some countries where the threat of prison is a political reality. (Bastien Inzaurralde/The Washington Post) 
+So how do citizens’ authoritarian dispositions affect their probability of voting for authoritarian leaders? 
+The answer depends on what kind of authoritarian leader you’re talking about, as you can see in the figure below.
+
+ Authoritarian Psychological Dispositions and Support for Authoritarian Leaders
+Data: AmericasBarometer 2012; Figure: Amy Erica Smith and Mollie Cohen 
+People with authoritarian psychological dispositions are more likely to support right-wing authoritarian candidates — such as Guatemala’s Otto Pérez Molina or Peru’s Keiko Fujimori. Individuals’ probability of voting for a right-wing authoritarian candidate rises by about 10 percentage points as their level of authoritarianism moves from lowest to the highest. Interestingly, authoritarianism is also correlated with support for right-leaning candidates who are not authoritarian in some countries, including Uruguay and Costa Rica.
+But here’s the surprise: Having an authoritarian psychological disposition is not correlated with support for leftist authoritarians — for instance, Chávez, Latin America’s most famous authoritarian leader in the 2000s.
+Research from Eastern Europe shows that citizens with authoritarian personalities eventually supported left-wing authoritarian regimes in the Soviet Bloc. That’s because those regimes had come to represent the status quo.
+That’s not so in most Latin American countries today. Citizens with authoritarian dispositions usually favor the right wing — whether the candidates are authoritarians or not. Left-wing authoritarian candidates appeal to citizens who are both high and low in authoritarian dispositions.
+And wealth decreases the likelihood of voting for authoritarian leaders — but only the left-wing kind.
+So what does predict support for authoritarian leaders on either side of the aisle? Levels of education. 
+As you can see in the figure below, levels of education make a big difference in support for both leftist and rightist authoritarian candidates. The more education you have, the less likely you are to vote for an authoritarian — even if you have an authoritarian predisposition.
+That difference is widest for left-wing authoritarian candidates, as you can see. Citizens with no formal schooling are about 20 percentage points more likely to vote for a left-wing authoritarian candidate than those who’ve gone to college and beyond. The education gap in support for right-wing authoritarians is less pronounced — the difference is closer to six percentage points — but it’s still statistically significant.
+
+ Education and Support for Authoritarian Leaders
+Data: AmericasBarometer 2012; Figure: Amy Erica Smith and Mollie Cohen 
+Why does support for authoritarian leaders drop as education increases? We can only speculate. Maybe schools teach democratic norms, and spending more time in the classroom leads voters to internalize those norms. Maybe education is just correlated with some other advantage that leads people to support the ideals of liberal democracy.
+Apparently the “schools of democracy” are, in fact, schools.
+Amy Erica Smith is assistant professor of political science at Iowa State University, and currently a visiting fellow at the Kellogg Institute for International Studies at the University of Notre Dame. 
+Mollie Cohen is a research fellow at the Latin American Public Opinion Project at Vanderbilt University.

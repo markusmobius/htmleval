@@ -1,0 +1,69 @@
+Why willpower is overrated
+Relying on willpower is a recipe for failure.
+
+People with a lot of self-control — people who, when they happen upon a delicious food they don’t think they should eat, seemingly grin and bear the temptation until it passes — have it easy. 
+But why? For a long time, the thinking was that these people are good at inhibiting their impulses. That they have a lot of willpower and they know how to use it. 
+People who are bad at resisting temptation, meanwhile, supposedly have insufficient or underexploited willpower, a view with deep cultural and moral roots. (Think Adam and Eve and the original sin.) It’s also deeply embedded in the pop psychology of reaching goals and self-improvement. “People are happiest and healthiest when there is an optimal fit between self and environment, and this fit can be substantially improved by altering the self to fit the world,” argued an influential 2004 paper that proposed a questionnaire to rate people on self-control. 
+But this idea, that people have self-control because they’re good at willpower, is looking more and more like a myth. It turns out that self-control, and all the benefits from it, may not be related to inhibiting impulses at all. And once we cast aside the idea of willpower, we can better understand what actually works to accomplish goals, and hit those New Year’s resolutions. 
+The idea of willpower has withered as the scientific tests for it have gotten better 
+There are two main ways to measure a person’s level of self-control. 
+One is with the self-control scale first published in 2004. This asks participants to agree or disagree with statements like “I am good at resisting temptation” and “I don’t keep secrets very well.” (See the whole questionnaire here.) 
+It’s a pretty simple measure, and it does a remarkable job at predicting success in life. 
+“Those self-report scales are really meaningful; they predict ‘the good life,’” Michael Inzlicht, a University of Toronto psychologist who studies self-control, says. People who score highly on this scale have better relationships, are better at abstaining from binge eating and alcohol, do better in school, and are generally happier. (A 2012 meta-analysis with more than 32,648 participants found compelling evidence that these links are solid.)
+A second way to measure self-control is to actually test it, behaviorally, in a situation. In a classic (and increasingly challenged) self-control study, psychologist Roy Baumeister had participants resist the smell of just-baked cookies. 
+Today, it’s much more common for psychologists to use brain teasers that create internal, cognitive conflicts that participants have to use willpower to overcome. 
+For many years, Inzlicht explains, psychologists assumed that the self-control measured by the questionnaire measured the same thing (or something overlapping) as the behavioral tests of willpower. 
+Inzlicht and his collaborators wanted to answer a simple question with rigorous methods: Do these two measurements of self-control relate to each other? That is, are people who say they are good at self-control in the broad sense (and have the positive life outcomes to prove it) actually good at summoning willpower in the moment? 
+They ran a series of studies with more than 2,400 participants, who took the questionnaire and then completed a task designed to test their powers of inhibition.
+One of these tests is called the Stroop task, and it is very hard. In it, participants are given words of colors, but the font of those words is a totally different color. Here’s an example. It hurts my brain just looking at it. 
+
+An example of the frustrating color-word jumble of the Stroop task. Looking at this makes my head hurt. 
+ Wikipedia
+ 
+Participants have to indicate which color they see and ignore what the word actually says. “When the meaning of the word conflicts with the color of the word, you have a conflict,” Inzlicht says. And, the thinking goes, you have to use self-control to power your brain through this conflict and come to the right answer. 
+Other trials used what’s called the Flanker task, which poses a similar brain twister. Participants see a row of arrows and have to indicate which direction the central arrow points. This becomes very hard when the central arrow points in the opposite direction of all the others. You have to use effortful restraint to avoid the temptation of assuming all the arrows point in the same direction.
+Again, you’d assume people who say they are good at self-control excel at these tasks that demand a lot of restraint, right? 
+That wasn’t the case. The results showed “there’s either a very small, almost trivially sized, relationship between these two types of measures or there’s no relationship at all,” says Blair Saunders, a University of Dundee psychologist and the lead author of the study. “I think that’s the strongest conclusion you can make.” 
+So think about that. In these rigorous tests, people who say they’re great at self-control aren’t much better at controlling themselves than the rest of us. 
+There are a few possible reasons why. 
+1) Perhaps the self-control we employ when struggling through the Stroop task is not the same as when we’re resisting the urge to eat a plate of delicious cookies. 
+If this is the case, psychologists need to go back to the drawing board and redefine “self-control” in more careful terms. It’s often been assumed that the self-control questionnaire and these cognitive tasks measure the same or similar thing. It could be that “self-control” as we think of it is much too broad a concept, and needs to be broken down into simpler parts. 
+2) The self-report scale is picking up on something else besides willpower to inhibit thoughts and feelings — things like habits, personal preferences, or the result of people living in a less tempting environment. 
+3) It could also be due to something researchers call the “reliability paradox.” Basically, on a hard test like the Stroop, there isn’t a huge range of scores. That lack of variation can make it difficult to use the test to access individual differences. 
+So which one is it? “I‘d say it is a scientific puzzle that needs to be sorted out and that could lead to new research and some interesting insights,” Sanjay Srivastava, a University of Oregon personality psychologist who wasn’t involved in the research, says in an email. 
+Other studies find willpower doesn’t work 
+
+Shutterstock
+
+Inzlicht’s Stroop task paper has yet to be published in an academic journal. So it’s preliminary (the authors published it early online in the hope of soliciting feedback and spurring discussion). But in the meantime, know that the case against willpower as a means of achieving goals is growing in the published literature. 
+Take a 2011 study published in the Journal of Personality and Social Psychology, which tracked 205 people for one week in Germany. The study participants were given BlackBerrys that would go off at random, asking them questions about the desires, temptations, and self-control they were experiencing in the moment.
+The paper stumbled on a paradox: The people who were the best at self-control — the ones who most readily agreed to survey statements like “I am good at resisting temptations” — reported fewer temptations throughout the study period. To put it more simply: The people who said they excelled at self-control were hardly using it at all. 
+More recently, Inzlicht and his collaborator Marina Milyavskaya (also a co-author on the latest paper) confirmed and expanded on this idea. In their study, they monitored 159 students at McGill University in Canada in a similar manner for a week.
+If resisting temptation is a virtue, then more resistance should lead to greater achievement, right? That’s not what the results, published in the journal Social Psychological and Personality Science, found.
+The students who exerted more self-control were not more successful in accomplishing their goals. It was the students who experienced fewer temptations overall who were more successful when the researchers checked back in at the end of the semester. What’s more, the people who exercised more effortful self-control also reported feeling more depleted. So not only were they not meeting their goals, they were also exhausted from trying.
+What we can learn from people who are good at self-control
+So who are these people who are rarely tested by temptations? They’re doing something right. Recent research suggests a few lessons we can draw from them. 
+1) People who are better at self-control actually enjoy the activities some of us resist — like eating healthy, studying, or exercising.
+So engaging in these activities isn’t a chore for them. It’s fun. 
+“‘Want to’ goals are more likely to be obtained than ‘have to’ goals,” Milyavskaya said in an interview last year. “Want-to goals lead to experiences of fewer temptations. It’s easier to pursue those goals. It feels more effortless.”
+If you’re running because you “have to” get in shape but find running to be a miserable activity, you’re probably not going to keep it up. An activity you like is more likely to be repeated than an activity you hate. 
+2) People who are good at self-control have learned better habits. 
+In 2015, psychologists Brian Galla and Angela Duckworth published a paper in the Journal of Personality and Social Psychology, finding across six studies and more than 2,000 participants that people who are good at self-control also tend to have good habits — like exercising regularly, eating healthy, sleeping well, and studying.
+“People who are good at self-control … seem to be structuring their lives in a way to avoid having to make a self-control decision in the first place,” Galla tells me. And structuring your life is a skill. People who do the same activity, like running or meditating, at the same time each day have an easier time accomplishing their goals, he says — not because of their willpower, but because the routine makes it easier. 
+A trick to wake up more quickly in the morning is to set the alarm on the other side of the room. That’s not in-the-moment willpower at play; it’s planning.
+This theory harks back to one of the classic studies on self-control: Walter Mischel’s “marshmallow test,” conducted in the 1960s and ’70s. In these tests, kids were told they could either eat one marshmallow sitting in front of them immediately or eat two later. The ability to resist the immediate gratification was found to correlate with all sorts of positive life outcomes, like SAT scores and BMIs. But the kids who were best at the test weren’t necessarily intrinsically better at resisting temptation. They might have been employing a critical strategy. 
+“Mischel has consistently found that the crucial factor in delaying gratification is the ability to change your perception of the object or action you want to resist,” the New Yorker reported in 2014. That means kids who avoided eating the first marshmallow would find ways not to look at the candy, or imagine it as something else. 
+“The really good dieter wouldn’t buy a cupcake,” Kentaro Fujita, a psychologist at Ohio State University, said in 2016. “They wouldn’t have passed in front of a bakery; when they saw the cupcake, they would have figured out a way to say yuck instead of yum; they might have an automatic reaction of moving away instead of moving close.” 
+3) Some people just experience fewer temptations.
+Our dispositions are determined in part by our genetics. Some people are hungrier than others. Some people love gambling and shopping. People high in conscientiousness — a personality trait largely set by genetics — tend to be healthier and more vigilant students. When it comes to self-control, they won the genetic lottery. 
+4) It’s easier to have self-control when you’re wealthy.
+When Mischel’s marshmallow test is repeated on poorer kids, there’s a clear trend: They perform worse, and appear less able to resist the treat in front of them. 
+But there’s a good reason for this. As University of Oregon neuroscientist Elliot Berkman argues, people who grow up in poverty are more likely to focus on immediate rewards than long-term rewards, because when you’re poor, the future is less certain. 
+Why the myth of willpower is so troubling 
+As anyone who has struggled with a diet knows, willpower won’t work in the long run. And failures of inhibition are too often confused for a moral failing. We blame willpower failings for weight gain, even though it’s genetics and our calorie-laden environments conspiring against out waistlines. We blame addicts for not restraining their urges, even though their addiction has a biological hold on their brain. 
+And overall, psychologists are shying away from the concept, as years of work suggesting that willpower is a finite, essential resource has come under intense scrutiny. 
+In a specific situation, sure, you can muster willpower to save yourself from falling back into a bad habit. But relying on willpower alone to accomplish goals “is almost like relying on emergency brake when you are driving your car,” Saunders says. “You should focus on things that drive you toward your goals rather than stopping things that are in your way.” What’s more, the human “emergency brake” that is willpower is bound to fail in some instances, causing you to crash. 
+And it’s time we all took these lessons to heart. Focusing on failures of willpower leads to shame, both public and private, and holds back our curiosity from finding and enacting solutions that actually work. 
+Was this article helpful?
+ yes no 
+Awesome, share it:

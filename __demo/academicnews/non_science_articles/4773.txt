@@ -1,0 +1,44 @@
+BAC Stock Price & News - Bank of America Corp.
+P/E Ratio (TTM)
+ 
+Earnings Per Share (TTM)
+
+Market Capitalization
+Reflects the total market value of a company. Market Cap is calculated by multiplying the number of shares outstanding by the stock's price. For companies with multiple common share classes, market capitalization includes both classes.
+Shares Outstanding
+
+Public Float
+The number of shares in the hands of public investors and available to trade. To calculate, start with total shares outstanding and subtract the number of restricted shares. Restricted stock typically is that issued to company insiders with limits on when it may be traded.
+Dividend Yield
+A company's dividend expressed as a percentage of its current stock price.
+Key Stock Data
+ P/E Ratio (TTM)
+ 20.65 (01/24/18) 
+ EPS (TTM)
+ $1.55 
+ Market Cap
+ $328.37 B 
+ Shares Outstanding
+ 10.43 B 
+ Public Float
+ 9.70 B 
+ Yield
+ 1.50% (01/24/18) 
+ Latest Dividend
+ $0.12 (12/29/17) 
+ Ex-Dividend Date
+ 11/30/17 
+Shares Sold Short
+The total number of shares of a security that have been sold short and not yet repurchased.
+Change from Last
+Percentage change in short interest from the previous report to the most recent report. Exchanges report short interest twice a month.
+Percent of Float
+Total short positions relative to the number of shares available to trade.
+Short Interest 
+(12/29/17)
+ Shares Sold Short
+ 140.15 M 
+ Change from Last
+ -7.27% 
+ Percent of Float
+ 1.44%

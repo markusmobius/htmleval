@@ -1,0 +1,53 @@
+The Shkreli Syndrome: Youthful Trouble, Tech Success, Then a Fall
+Credit Taylor Callery
+
+Rare is the gifted teenager who is not bored in high school. Yet few have signaled their boredom as extravagantly as Martin Shkreli, the pharmaceutical company founder who was sent to jail on Wednesday to await sentencing for a fraud conviction.
+Mr. Shkreli was a chronic class-skipper who, friends have said, preferred to spend his time on chess and playing guitar in a band. His highly selective Manhattan school asked him to stop attending.
+Entrepreneurs, it turns out, do not just move fast and break things, as Facebook’s longtime credo put it. They are also more likely than others to cross the line.
+According to research by the economists Ross Levine and Yona Rubinstein, people who become entrepreneurs are not only apt to have had high self-esteem while growing up (and to have been white, male and financially secure). They are also more likely than others to have been intelligent people who engaged in illicit activities in their teenage years and early 20s.
+And those indiscretions have not been limited to using drugs or skipping school, but have included antisocial acts like taking property by force or stealing goods worth less than $50.
+In light of the recent troubles of Mr. Shkreli and other scandal-ridden entrepreneurs like Travis Kalanick, the former Uber chief executive, and Parker Conrad, a founder and ousted chief executive of the multibillion-dollar human resources software firm Zenefits, the question is whether youthful rule-breaking might have foreshadowed not only their rise, but also their fall.
+
+Martin Shkreli leaving federal court in Brooklyn last month as a jury deliberated in his fraud case. Credit Louis Lanzano for The New York Times
+
+It is perhaps not surprising that longtime rebels like Mr. Kalanick — who has boasted of being among the first peer-to-peer file-sharing “pirates” when he was in his early 20s — would be inclined toward entrepreneurship. It is a calling that, in the often repeated narrative of the economist Joseph Schumpeter, rewards those who upend the established order.
+“As the brain matures, I think the energy in terms of breaking rules is focused toward ‘I can do that better’ as opposed to ‘I’m going to take a pair of sneakers,’ ” said Professor Levine, who published a peer-reviewed paper on the topic with Professor Rubinstein in a top journal this year. Both men are experts on entrepreneurship, and Professor Rubinstein also studies human capital.
+The problem is that the psychological forces that drive teenagers to break rules may not be so easily channeled later on.
+Laurence Steinberg, a Temple University professor and an expert on the psychological development of adolescents, cited a phenomenon known as “moral disengagement,” in which people rationalize behavior at odds with their own principles. A teenager who steals a pair of sneakers, for example, may tell himself that the manufacturer was overcharging consumers.
+Studies have shown that such moral disengagement frequently enables wrongdoing, and that it can survive into adulthood. According to Professor Steinberg, entrepreneurs who are prone to moral disengagement may continue to break actual rules, not just metaphorical ones.
+“You think the regulations are uncalled-for,” he said. “Even though you might be breaking them, you’re really not doing a bad thing, because they were bad regulations.”
+Such behavior is often encouraged in Silicon Valley. For years, many technology investors applauded Uber’s practice of operating without the approval of local regulators, and then exploiting the company’s popularity among riders to bring about changes to the rules.
+
+Travis Kalanick, the former chief executive of Uber, at an event marking the company’s fifth anniversary in 2015. Credit Robert Galbraith/Reuters
+
+Or consider the early days of the financial technology and payments company Square, which used a credit card account one of its founders set up for one business to handle payments for other businesses that lacked such accounts.
+The practice sometimes ran afoul of credit card company rules, but Square pressed ahead, demonstrating that small businesses would pay for a service that made it cheap and easy to accept credit card payments. “If you don’t do it, you can’t test whether people even like the concept,” said Greg Kidd, who was an adviser to the company. Mr. Kidd noted that Square soon raised $10 million from enthusiastic investors.
+While such rule-breaking may be legitimate in certain circumstances — the major credit card companies eventually altered the restrictions on the use of business credit card accounts, allowing Square to get off the ground — the financial rewards for operating this way can reinforce a tendency toward shiftiness.
+There are two factors that make it even more tempting to fudge ethical questions: the relative lack of oversight at start-ups, and the enormous risk of failure.
+“Entrepreneurial businesses are often in crises, due to high levels of environmental uncertainty, the large number of actual or potential competitors, and the significant amounts of financial capital needed to compete,” said a 2015 article in The Journal of Business Ethics. “Moral disengagement can cognitively pave the way and increase the likelihood that these dilemmas will be resolved unethically.”
+In effect, entrepreneurship takes people who, as a group, are prone to breaking actual rules and putting them in a setting that constantly encourages them to do so.
+Mr. Shkreli, who is to be sentenced in January for defrauding investors in two hedge funds he managed — and had his bail revoked on Wednesday after offering a bounty for a strand of Hillary Clinton’s hair — has played down his wrongdoing.
+
+Parker Conrad, founder and ousted chief executive of the multibillion-dollar human resources software firm Zenefits. Credit Jim Wilson/The New York Times
+
+“He did it, and it worked, and they got paid,” one of his lawyers said in court, arguing that Mr. Shkreli made his hedge fund investors whole partly by using stock from his pharmaceutical company. Professor Steinberg called it a clear example of moral disengagement. (The lawyer, Benjamin Brafman, said that Mr. Shkreli never intended to defraud anyone.)
+Mr. Conrad, who was ousted as chief executive of Zenefits last year after it was disclosed that he had created a tool to help insurance brokers evade state training requirements, was not averse to rule-breaking as a younger man. He was asked to leave Harvard for a year after rarely showing up to class and earning terrible grades. He eventually returned and graduated.
+(An investigation commissioned by the Zenefits board concluded that the requirements the tool helped brokers evade were not substantive.)
+Mr. Conrad’s flaws as a manager may have been evident at Zenefits, whose motto was “Ready, Fire, Aim,” long before his downfall. Not least by Mr. Conrad himself, who confessed in a 2014 interview that his sluggish approach to hiring senior executives meant “balls are getting dropped.” Investors lined up to give the company money anyway.
+Of course, youthful wrongdoing is hardly destiny when it comes to adult rule-breaking, as Professor Levine, the economist, pointed out. While he was at Harvard, the Facebook founder Mark Zuckerberg was summoned before an administrative board over allegations that he had hacked into university websites. But he appears to have matured over time, even retiring the “move fast and break things” motto in 2014.
+These days, many venture capitalists spend as much time assessing what kind of troublemaker an entrepreneur may be as they do assessing a business’s revolutionary potential.
+“We do want them to be rule-breakers,” said David Golden, who helps run the venture capital arm of Revolution, the investment firm of the AOL co-founder Steve Case. “We don’t want them to be felons.”
+
+Mark Zuckerberg, founder of Facebook, meeting with software developers and entrepreneurs in Nigeria last year. He once defined the company’s ethos as “move fast and break things,” but later retired the slogan. Credit Andrew Esiebo for The New York Times
+
+Mr. Golden admitted, however, that such judgments can be flawed. He cited a software company that Revolution agreed to finance in 2014, only to discover that the founder had misrepresented certain companies as customers. (The firm did not go through with the investment, he said.)
+To eliminate subjectivity, some people have tried to quantify an optimal willingness to break rules. Before he started his venture capital fund, Switch Ventures, Paul Arnold collected data on roughly 12,000 start-ups with the goal of identifying the profiles of entrepreneurs that were most strongly associated with success.
+Mr. Arnold’s most striking finding involved start-ups where at least one founder had worked at the consulting firm McKinsey & Company.
+He studied nearly 1,000 such companies and discovered that start-up founders who left McKinsey after about three to four years tended to be extremely successful, but that those who stayed a lot longer were close to average. He concluded that the first group had the platonically ideal capacity for rule-breaking: They were sufficiently fluent in rule-following to hold a job at McKinsey but “didn’t like the strictures and kind of resisted it.”
+But even Mr. Arnold, whose intuition on these questions was honed not just by statistics but by life experience — he was a two-time high-school dropout who was often in trouble for things like smoking marijuana before eventually finding his way to law school — admitted that he might have missed the warning signs with Mr. Kalanick.
+While he was chief executive of Uber, the company developed a tool to evade regulators, had dozens of employees allege sexual harassment or discrimination, and was accused by a rival of stealing intellectual property.
+“The Uber story is that the initial rule-breaking was innovation,” Mr. Arnold said. “But it was a slippery slope. They broke the next one and the next one, and were doing less and less ethical things.”
+“I don’t know,” he confessed. “It’s a tricky topic.”
+Lauren Herstik contributed reporting, and Doris Burke contributed research.
+Follow Noam Scheiber on Twitter: @noamscheiber
+A version of this article appears in print on September 15, 2017, on Page B1 of the New York edition with the headline: Young Rebels Who Rise, Then Fall.

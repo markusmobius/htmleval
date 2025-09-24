@@ -1,0 +1,105 @@
+We know where the next big earthquakes will happen — but not when
+A massive quake off Alaska’s coast triggered a tsunami warning. Here are eight things to know about these seismic events.
+ By 
+ 
+ 
+ 
+The epicenter of a magnitude 7.9 earthquake off the coast of Alaska on January 23, 2017
+
+A magnitude 7.9 earthquake struck 170 miles southeast off the coast of Kodiak, Alaska, around 4:30 am Tuesday, triggering tsunami warnings and advisories all the way down the West Coast to the US–Mexico border. 
+ Tue Jan 23 09:38:01 UTC 2018 event picture pic.twitter.com/AHbKZ8xPuJ
+— NWS Tsunami Alerts (@NWS_NTWC) January 23, 2018 
+The US Tsunami Warning System, run by the National Weather Service, later canceled the warnings, but Alaska residents were startled, and rightfully so. Many fled the coasts and sheltered at evacuation centers inland. 
+ Great news! Downgraded from evacuation to advisory! Here's the room @TofinoEmergency : #Tofino #Tsunami pic.twitter.com/1HczItaQed
+— Catherine Lempke (@Cat_Lempke) January 23, 2018 
+Alaska is the most seismically active region in the US. It’s known for strong earthquakes, including the 1964 Great Alaska Earthquake, a magnitude 9.2 monster that killed 131 people, mostly in the ensuing tsunami. It still stands as the second-largest earthquake ever recorded, behind the magnitude 9.5 earthquake that struck Chile in 1960. 
+Since 1900, Alaska has experienced an average of one magnitude 8 or greater earthquake every 13 years and one magnitude 7 to 8 earthquake every two years, according to the Alaska Seismic Hazards Safety Commission. 
+The Tuesday quake happened because two parcels of the earth’s crust moved past each other horizontally across a fault line, a phenomenon known as strike-slip faulting. 
+ The M 7.9 occurred as the result of strike slip faulting. At it's location, the Pacific plate is converging with the North America plate.
+Over the preceding century, 11 other M7+ earthquakes have occurred within 600 km of today's earthquake.https://t.co/JzzWd0ID2k
+— USGS (@USGS) January 23, 2018 
+Fortunately, because this quake occurred far offshore, it didn’t cause any harm to people or property. But other recent earthquakes were a reminder of how quickly they can turn deadly. The September quakes in Mexico led to at least 369 deaths, and a magnitude 7.3 quake killed more than 400 people near the Iran-Iraq border in November.
+In light of the recent tremors, and the looming possibility of a big one in the United States, here’s a refresher on earthquakes, along with some of the latest science on measuring and predicting them. 
+1) What causes earthquakes
+An earthquake occurs when massive blocks of the earth’s crust suddenly move past each other. These blocks, called tectonic plates, lie on top of the earth’s mantle, a layer that behaves like a very slow-moving liquid over millions of years. 
+That means tectonic plates jostle each other over time. They can also slide on top of each other, a phenomenon called subduction.
+The places on the planet where one plate meets another are the most prone to earthquakes. The specific surfaces where parcels of earth slip past each other are called faults.
+As plates move, pressure builds up across their boundaries, while friction holds them in place. When the former overwhelms the latter, the earth shakes as the pent-up energy dissipates. 
+Scientists understand these kinds of earthquakes — which include those stemming from the San Andreas Fault in California — well.
+However, earthquakes can also occur within tectonic plates, as pressure along their edges cause deformations in the middle. These risks are harder to detect and measure.
+“Our understanding of these within-plate earthquakes is not as good,” said Stanford University geophysics professor Greg Beroza. “These two earthquakes that happened in Mexico are the latter,” he added, noting that an earthquake within a tectonic plate has fewer telltale signs than those that occur at fault lines. 
+2) The Richter scale isn’t the only measurement game in town anymore
+The Richter scale, developed by Charles Richter in 1935 to measure quakes in Southern California, is falling out of fashion. 
+It uses a logarithmic scale, rather than a linear scale, to account for the fact that there is such a huge difference between the tiniest tremors and tower-toppling temblors. On a logarithmic scale, a magnitude 7 earthquake is 10 times more intense than a magnitude 6 and 100 times more intense than a magnitude 5. 
+The Richter scale is actually measuring the peak amplitude of seismic waves, making it an indirect estimate of the earthquake itself. So if an earthquake is like a rock dropped in a pond, the Richter scale is measuring the height of the largest wave, not the size of the rock nor the extent of the ripples. 
+And in the case of an earthquake, the ripples aren’t traveling through a homogenous medium like water, but through solid rock that comes in different shapes, sizes, densities, and arrangements. Solid rock also supports multiple kinds of waves. (Some geologic structures can dampen big earthquakes while others can amplify lesser tremors.) 
+While Richter’s scale, calibrated to Southern California, was useful to compare earthquakes at the time, it provides an incomplete picture of risks and loses accuracy for stronger events.
+It also misses some of the nuances of other earthquake-prone regions in the world, and it isn’t all that useful for people trying to build structures to withstand them. 
+“We can’t use that in our design calculations,” said Steven McCabe, leader of the earthquake engineering group at the National Institute of Standards and Technology. “We deal in displacements.”
+Displacement, or how much the ground actually moves, is one alternative way to describe earthquakes.
+Another is the moment magnitude scale. It accounts for multiple types of seismic waves, drawing on more precise instruments and better computing to provide a reliable measuring stick to compare seismic events.
+When you hear about an earthquake’s magnitude in the news — for instance, Iran and Iraq’s recent 7.3 magnitude quake — moment magnitude is usually the scale being used.
+But this is still a proxy for the size of the earthquake. And with only indirect measurements, it can take up to a year to decipher the scale of an event, like the 2004 Indian Ocean earthquake, said Marine Denolle, an earthquake researcher at Harvard University. 
+“We prefer to use peak ground acceleration,” she said. This is a metric that measures how the speed and direction of the ground changes and has proven the most useful for engineers.
+So, yes, earthquake scales have gotten a lot more complicated and specific over time. But that’s also helped scientists and engineers take much more precise measurements — which makes a big difference in planning for them. 
+3) We can’t really anticipate them all that well
+Predicting earthquakes is a touchy issue for scientists, in part because it has long been a game of con artists and pseudoscientists who claim to be able to forecast earthquakes. (Their declarations have, of course, withered under scrutiny.)
+Scientists do have a good sense of where earthquakes could happen. Using historical records and geologic measurements, they can highlight potential seismic hot spots and the kinds of tremors they face. (You can check out the US Geological Survey’s interactive map of fault lines and NOAA’s interactive map of seismic events.)
+As for when quakes will hit, that’s still murky. 
+“Lots of seismologists have worked on that problem for many decades. We’re not predicting earthquakes in the short term,” said Beroza. “That requires us to know all kinds of information we don’t have.”
+It’s difficult to figure out when an earthquake will occur, since the forces that cause them happen slowly over a vast area but are disbursed rapidly over a narrow region. What’s amazing is that forces built up across continents over millions of years can hammer cities in minutes.
+Forecasting earthquakes would require high-resolution measurements deep underground over the course of decades, if not longer, coupled with sophisticated simulations. And even then, it’s unlikely to yield an hour’s worth of lead time. So there are ultimately too many variables at play and too few tools to analyze them in a meaningful way. 
+Some research shows that foreshocks can precede a larger earthquake, but it’s difficult to distinguish them from the hundreds of smaller earthquakes that occur on a regular basis. 
+On shorter time scales, texts and tweets can actually race ahead of seismic waves. In the 2011 Tohoku earthquake in Japan, for example, warnings from near the epicenter reached Tokyo 232 miles away, buying residents about a minute of warning time.
+Many countries are now setting up warning systems to harness modern electronic communications to detect tremors and transmit alerts ahead of shaking ground, buying a few precious minutes to seek shelter. 
+Meanwhile, after a large earthquake, aftershocks often rock the afflicted region. “If we just had a big one, we know there will be smaller ones soon,” Denolle said.
+When it comes to prediction, researchers understandably want to make sure they don’t overpromise and underdeliver, especially when thousands of lives and billions of dollars in damages are at stake. But even this caution has had consequences.
+In 2012, six Italian scientists were sentenced to six years in prison for accurately saying the risks of a large earthquake in the town of L’Aquila were low after a small cluster of earthquakes struck the region in 2009. 
+Six days after the scientists convened to assess the risk, a large quake struck and killed 309 people. 
+Those convictions were later overturned and the ordeal has become a case study for how scientists convey uncertainty and risk to the public.
+4) Sorry, your pets can’t predict earthquakes either
+Reports of animals acting strange ahead of earthquakes date back to ancient Greece. But a useful pattern remains elusive. 
+Feathered and furry forecasters emerge every time there’s an earthquake and there’s a cute animal to photograph, but this phenomenon is largely confirmation bias. Animals do weird things (by our standards) all the time and we don’t attach any significance to them until an earthquake happens. 
+“On any given day, there will be hundreds of pets doing things they’ve never done before and have never done afterward,” Beroza said. Bottom line: Don’t wait for weird animal behavior to signal that an earthquake is coming. 
+5) Some earthquakes are definitely man-made
+The gargantuan expansion of hydraulic fracturing across the United States has left an earthquake epidemic in its wake. It’s not the actual fracturing of shale rock that leads to tremors, but the injection of millions of gallons of wastewater underground. 
+Scientists say the injected water makes it easier for rocks to slide past each other. “When you inject fluid, you lubricate faults,” Denolle said. 
+
+US Geological Survey map of natural and induced earthquake risk in 2017.
+
+The US Geological Survey calls these “induced earthquakes” and reported that in Oklahoma, the number of earthquakes surged to 2,500 in 2014, 4,000 in 2015, and 2,500 in 2016.
+“The decline in 2016 may be due in part to injection restrictions implemented by the state officials,” the USGS wrote in a release. “Of the earthquakes last year, 21 were greater than magnitude 4.0 and three were greater than magnitude 5.0.”
+This is up from an average of two earthquakes per year of magnitude 2.7 or greater between 1980 and 2000. (“Natural” earthquakes, on the other hand, are not becoming more frequent, according to Beroza.)
+Humans are causing earthquakes another way, too: Rapidly drawing water from underground reservoirs has also been shown to cause quakes in cities like Jakarta, Denolle said.
+6) Climate change could have a tiny effect on earthquakes
+In general, scientists haven’t measured any effect on earthquakes from climate change. But they’re not ruling out the possibility. 
+As average temperatures rise, massive ice sheets are melting, shifting billions of tons of water from exposed land into the ocean and allowing land masses to rebound. That global rebalancing could have seismic consequences, but signals haven’t emerged yet. 
+“What might occur is enough ice melts that could unload the crust,” Beroza said, but added there is no evidence for this, nor for which parts of the world will reveal a signal. Denolle agreed that this could be a mechanism, but if there is any impact from climate change on earthquakes, she says she suspects it will be very small. 
+7) We’ve gotten better reducing earthquake risks and saving lives
+About 90 percent of the world’s earthquakes occur in the Ring of Fire, the region around the Pacific Ocean running through places like the Philippines, Japan, Alaska, California, Mexico, and Chile. The ring is also home to three-quarters of all active volcanoes.
+Mexico is an especially interesting case study. The country sits on top of three tectonic plates, making it seismically active. In 1985, an earthquake struck the capital, killing more than 10,000. 
+Denolle noted that the geology of the region makes it so that tremors from nearby areas are channeled toward Mexico City, making any seismic activity a threat. 
+The Mexican capital is built on the site of the ancient Aztec city of Tenochtitlan, an island in the middle of a lake. The dry lakebed that is now the foundation of the modern metropolis amplifies shaking from earthquakes.
+The 1985 earthquake originated closer to the surface, and the seismic waves it produced had a relatively long time between peaks and valleys. This low-frequency vibration sends skyscrapers swaying, according to Denolle. “The recent earthquakes were deeper, so they had a higher frequency,” she said. 
+The biggest factor in preventing deaths from earthquakes is building codes. Designing buildings to move with the earth while remaining standing can save thousands of lives, but putting them into practice can be expensive and frequently becomes a political issue. 
+“Ultimately, that information has got to get implemented, and you can pretty much get that implemented in new construction,” McCabe said. “The trickier problem is existing buildings and older stock.” 
+Earthquake-prone countries know this well: Japan has been aggressive about updating its building codes regularly to withstand earthquakes. The revised standards have in part fueled Japan’s construction boom despite its declining population. 
+Mexico has also raised standards for new construction. Laws enacted after the 1985 earthquake required builders to account for the soft lakebed soil in the capital and tolerate some degree of movement. 
+Meanwhile, Iran has gone through several versions of its national building standards for earthquake resilience. And Alaska has been developing earthquake damage mitigation strategies and response plans for years. 
+But codes are not always enforced, and the new rules only apply to new buildings. The school that collapsed in September in Mexico City apparently was an older building that was not earthquake-resistant. And because the more recent earthquakes in Mexico shook the ground in a different way, even some of the buildings that survived the 1985 earthquake collapsed after tremors this year. 
+In countries like Iran, there is a wide gulf between how buildings are constructed in cities versus the countryside. More than a quarter of the country’s population lives in rural areas, where homes are built using traditional materials like mud bricks and stone rather than reinforced concrete and steel. This is a big part of why casualties are so high when earthquakes strike remote parts of the country.
+
+Housing stock distribution in Iran by building material
+
+The biggest risks fall to countries that don’t have a major earthquake in living memory and therefore haven’t prepared for them, or don’t have the resources to do so. A lack of a unified building code led to many of the more than 150,000 deaths in Haiti stemming from the 2010 magnitude 7.0 earthquake.
+8) The big one really is coming to the United States (someday)
+The really big one you keep hearing about is real.
+The New Yorker won a Pulitzer Prize in 2015 for its reporting on the potential for massive earthquake that would rock the Pacific Northwest — “the worst natural disaster in the history of North America,” which would impact 7 million people and span a region covering 140,000 square miles.
+The potential quake could reach a magnitude between 8.7 and 9.2, bigger than the largest expected earthquake from the San Andreas Fault, which scientist expect to top out at magnitude 8.2. 
+Large earthquakes are also in store for Japan, New Zealand, and other parts of the Ring of Fire. We don’t know when these earthquakes will rock us; we just have a rough estimate of the average time between them, which changes from region to region.
+“In the business, we’ve been talking about that [Pacific Northwest] scenario for decades,” Beroza said. “I wouldn’t say we’re overdue, but it could happen at any time.”
+“It is a threat,” echoed Denolle. “We forget about this threat because we have not had an earthquake there for a while.” “A while” means more than 300 years.
+So while California has long been steeling itself for big earthquakes with building codes and disaster planning, the Pacific Northwest may be caught off guard, though the author of the New Yorker piece, Kathryn Schulz, helpfully provided a guide to prepare.
+Was this article helpful?
+ yes no 
+Awesome, share it:

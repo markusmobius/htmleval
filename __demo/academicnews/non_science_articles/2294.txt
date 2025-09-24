@@ -1,0 +1,12 @@
+Accused of Slowing Old iPhones, Apple Offers Battery Discounts
+Apple addressed criticism that it throttles the performance of iPhones with aging batteries to prevent device shutdowns with an apology that includes reducing the price of battery replacements by $50. The issue affects mainly the iPhone 6 series and iPhone SE. Credit Vincent Yu/Associated Press
+
+Facing a barrage of criticism after acknowledging the existence of a feature that can reduce the processing power of old iPhones, Apple said Thursday that it would reduce the price of battery replacements to regain customers’ trust.
+The company’s mea culpa came just eight days after Apple said it had released a feature about a year ago meant to help prevent older devices — such as iPhone 6 models and iPhone SE — from unexpectedly shutting down.
+The reduction of processing power, Apple said, was necessary because older batteries could otherwise periodically overload.
+But some users saw Apple’s revelation as vindication of their longstanding belief that the company had been purposely slowing down old iPhones to get them to buy new ones.
+Apple also said it would soon issue a software update with new features that would allow users to more clearly see the health of their iPhone’s battery.
+“We know that some of you feel Apple has let you down,” the company said. “We apologize.”
+In Thursday’s statement, Apple took pains to clarify what it had apparently been trying to convey last week: that rechargeable batteries become less effective as they age; that an aged battery under the duress of a heavy workload can cause a device to shut down unexpectedly; and that the company had released a software update about a year ago “that improves power management during peak workloads to avoid unexpected shutdowns.”
+“With the update, iOS dynamically manages the maximum performance of some system components when needed to prevent a shutdown,” the statement said. “While these changes may go unnoticed, in some cases users may experience longer launch times for apps and other reductions in performance.”
+A version of this article appears in print on December 29, 2017, on Page B3 of the New York edition with the headline: Apple’s Battery Mea Culpa. Order Reprints| Today's Paper|Subscribe

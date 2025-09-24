@@ -1,0 +1,24 @@
+TSS Stock Price & News - Total System Services Inc.
+Money Flow Uptick/Downtick Ratio
+  Net money flow is the value of uptick trades minus the value of downtick trades. Our calculations are based on comprehensive, delayed quotes.
+Stock Money Flow
+ Uptick/Downtick Trade Ratio
+ 0 2 0.98 
+ 
+ 
+ 
+ Net Money Flow ($)
+ -601,462 
+ Money flow gives a snapshot of relative buying and selling pressure in a stock. A ratio above one suggests greater buying pressure, below one suggests greater selling.
+ 
+ Advertisement 
+Notes & Data Providers
+Real-time U.S. stock quotes reflect trades reported through Nasdaq only.
+International stock quotes are delayed as per exchange requirements. 
+Quote data, except U.S. stocks, provided by SIX Financial Information.
+Data is provided "as is" for informational purposes only and is not intended for trading purposes.  Data may be intentionally delayed pursuant to supplier requirements.
+ All rights reserved.  
+Bond quotes are updated in real-time. Source: Tullett Prebon.
+Currency quotes are updated in real-time. Source: Tullet Prebon.
+Fundamental company data and analyst estimates provided by FactSet. Copyright FactSet Research Systems Inc. All rights reserved.
+ Advertisement

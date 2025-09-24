@@ -1,0 +1,505 @@
+NBA Schedule - NBA Basketball
+WEDNESDAY, JANUARY 24TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ NOP (25-21)
+@
+
+ CHA (19-26)
+7:00PM ET
+fsn
+ CHA -2.0 -- 224.0 
+ -- 
+
+ UTA (19-28)
+@
+
+ DET (22-23)
+7:00PM ET
+fsn, ATTSN
+ DET -1.0 -- 199.5 
+ -- 
+
+ PHO (17-30)
+@
+
+ IND (25-22)
+7:00PM ET
+fsn
+ IND -4.0 -- 216.5 
+ -- 
+
+ CHI (18-29)
+@
+
+ PHI (22-21)
+7:00PM ET
+NBCSN, WGN
+ PHI -6.0 -- 219.5 
+ -- 
+
+ TOR (31-14)
+@
+
+ ATL (14-32)
+7:30PM ET
+fsn, SNET
+ TOR -3.0 -- 214.5 
+ -- 
+
+ HOU (33-12)
+@
+
+ DAL (16-31)
+8:00PM ET
+espn, fsn
+ HOU -6.5 -- 217.0 
+ -- 
+
+ SAN (31-18)
+@
+
+ MEM (17-29)
+8:00PM ET
+fsn
+ SAN -1.0 -- 193.5 
+ -- 
+
+ MIN (31-18)
+@
+
+ POR (25-22)
+10:00PM ET
+NBCSN, fsn
+ POR -2.0 -- 212.5 
+ -- 
+
+ BOS (34-14)
+@
+
+ LAC (23-23)
+10:30PM ET
+NBCSN, fsn
+ LAC -1.5 -- 217.5 
+ -- 
+THURSDAY, JANUARY 25TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ SAC (14-33)
+@
+
+ MIA (27-20)
+7:30PM ET
+fsn, NBCSCA
+ -- 
+ -- 
+
+ WAS (26-21)
+@
+
+ OKC (27-20)
+8:00PM ET
+tnt
+ -- 
+ -- 
+
+ NY (21-27)
+@
+
+ DEN (24-23)
+9:00PM ET
+tnt, NBCS - BA, TSN
+ -- 
+ -- 
+
+ MIN (31-18)
+@
+
+ GSW (38-10)
+10:30PM ET
+tnt, NBCS - BA, TSN
+ -- 
+ -- 
+FRIDAY, JANUARY 26TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ ATL (14-32)
+@
+
+ CHA (19-26)
+7:00PM ET
+fsn
+ -- 
+ -- 
+
+ IND (25-22)
+@
+
+ CLE (27-19)
+7:30PM ET
+fsn
+ -- 
+ -- 
+
+ UTA (19-28)
+@
+
+ TOR (31-14)
+7:30PM ET
+ATTSN, SNET
+ -- 
+ -- 
+
+ LAL (18-29)
+@
+
+ CHI (18-29)
+8:00PM ET
+SPECSN, NBC Sports Chicago
+ -- 
+ -- 
+
+ LAC (23-23)
+@
+
+ MEM (17-29)
+8:00PM ET
+fsn
+ -- 
+ -- 
+
+ BRK (18-30)
+@
+
+ MIL (24-22)
+8:00PM ET
+fsn, YES
+ -- 
+ -- 
+
+ HOU (33-12)
+@
+
+ NOP (25-21)
+8:00PM ET
+espn, ATTSN
+ -- 
+ -- 
+
+ POR (25-22)
+@
+
+ DAL (16-31)
+8:30PM ET
+NBCSN, fsn
+ -- 
+ -- 
+
+ PHI (22-21)
+@
+
+ SAN (31-18)
+8:30PM ET
+NBCSN, Kens
+ -- 
+ -- 
+
+ NY (21-27)
+@
+
+ PHO (17-30)
+9:00PM ET
+fsn, MSG
+ -- 
+ -- 
+SATURDAY, JANUARY 27TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ OKC (27-20)
+@
+
+ DET (22-23)
+5:00PM ET
+None
+ -- 
+ -- 
+
+ ORL (14-33)
+@
+
+ IND (25-22)
+7:00PM ET
+None
+ -- 
+ -- 
+
+ WAS (26-21)
+@
+
+ ATL (14-32)
+7:30PM ET
+None
+ -- 
+ -- 
+
+ CHA (19-26)
+@
+
+ MIA (27-20)
+7:30PM ET
+None
+ -- 
+ -- 
+
+ BOS (34-14)
+@
+
+ GSW (38-10)
+8:30PM ET
+None
+ -- 
+ -- 
+
+ BRK (18-30)
+@
+
+ MIN (31-18)
+9:00PM ET
+None
+ -- 
+ -- 
+
+ DAL (16-31)
+@
+
+ DEN (24-23)
+9:00PM ET
+None
+ -- 
+ -- 
+SUNDAY, JANUARY 28TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ MIL (24-22)
+@
+
+ CHI (18-29)
+3:30PM ET
+None
+ -- 
+ -- 
+
+ PHO (17-30)
+@
+
+ HOU (33-12)
+3:30PM ET
+None
+ -- 
+ -- 
+
+ LAC (23-23)
+@
+
+ NOP (25-21)
+4:00PM ET
+None
+ -- 
+ -- 
+
+ DET (22-23)
+@
+
+ CLE (27-19)
+6:00PM ET
+None
+ -- 
+ -- 
+
+ LAL (18-29)
+@
+
+ TOR (31-14)
+6:00PM ET
+None
+ -- 
+ -- 
+
+ PHI (22-21)
+@
+
+ OKC (27-20)
+6:00PM ET
+None
+ -- 
+ -- 
+
+ SAC (14-33)
+@
+
+ SAN (31-18)
+7:00PM ET
+None
+ -- 
+ -- 
+MONDAY, JANUARY 29TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ CHA (19-26)
+@
+
+ IND (25-22)
+7:00PM ET
+None
+ -- 
+ -- 
+
+ MIN (31-18)
+@
+
+ ATL (14-32)
+7:30PM ET
+None
+ -- 
+ -- 
+
+ PHO (17-30)
+@
+
+ MEM (17-29)
+8:00PM ET
+None
+ -- 
+ -- 
+
+ PHI (22-21)
+@
+
+ MIL (24-22)
+8:00PM ET
+None
+ -- 
+ -- 
+
+ MIA (27-20)
+@
+
+ DAL (16-31)
+8:30PM ET
+None
+ -- 
+ -- 
+
+ BOS (34-14)
+@
+
+ DEN (24-23)
+9:00PM ET
+None
+ -- 
+ -- 
+TUESDAY, JANUARY 30TH
+TIME
+TV
+ODDS
+COVERAGE
+
+ OKC (27-20)
+@
+
+ WAS (26-21)
+7:00PM ET
+None
+ -- 
+ -- 
+
+ BRK (18-30)
+@
+
+ NY (21-27)
+7:30PM ET
+None
+ -- 
+ -- 
+
+ MIN (31-18)
+@
+
+ TOR (31-14)
+7:30PM ET
+None
+ -- 
+ -- 
+
+ CLE (27-19)
+@
+
+ DET (22-23)
+8:00PM ET
+None
+ -- 
+ -- 
+
+ ORL (14-33)
+@
+
+ HOU (33-12)
+8:00PM ET
+None
+ -- 
+ -- 
+
+ SAC (14-33)
+@
+
+ NOP (25-21)
+8:00PM ET
+None
+ -- 
+ -- 
+
+ DEN (24-23)
+@
+
+ SAN (31-18)
+8:30PM ET
+None
+ -- 
+ -- 
+
+ GSW (38-10)
+@
+
+ UTA (19-28)
+9:00PM ET
+None
+ -- 
+ -- 
+
+ POR (25-22)
+@
+
+ LAC (23-23)
+10:30PM ET
+None
+ -- 
+ -- 
+^ Jump to top

@@ -1,0 +1,29 @@
+No alien megastructure around mysterious 'Tabby's star', analysis shows
+Stand down space cadets: there is (sadly) no alien megastructure around star KIC 8462852, also known as Tabby’s star
+Dr Stuart Clark writes Across the Universe for the Guardian, and is the author of The Search for Earth's Twin (Quercus).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Astronomers are now certain it is not an alien megastructure orbiting star KIC 8462852. Instead, it is a giant cloud of dust. Illustration: Nasa/JPL-Caltech
+
+As if a divisive Star Wars film wasn’t bad news enough this Christmas, now an analysis by more than 200 astronomers has been published that shows the mysterious dimming of star KIC 8462852 is not being produced by an alien megastructure.
+The evidence points most strongly to a giant cloud of dust occasionally obscuring the star. The cloud was most possibly produced by the collision of two comets or the break-up of a single one. Another option is that the star itself is undergoing some sort of internal convulsion that astronomers have never seen before.
+KIC 8462852 is approximately 1,500 light years away from the Earth and hit the headlines in October 2015 when data from Nasa’s Kepler space telescope showed that it was dimming by unexplainably large amounts. The star’s light dropped by 20% first and then 15% making it unique. Even a large planet passing in front of the star would have blocked only about 1% of the light. 
+For an object to block 15-20%, it would have to be approaching half the diameter of the star itself. With this realisation, a few astronomers began whispering that such a signal would be the kind expected from a gigantic extraterrestrial construction orbiting in front of the star – and the idea of the alien megastructure was born.
+Tabetha Boyajian, then at Yale University and now at Louisiana State University, led the investigations into the mysterious signals. It was after her that the star was nicknamed Tabby’s star. She said at the time that a constant monitoring programme was needed to watch the star for more dips.
+Today’s new analysis is the result of that programme. It was funded by a Kickstarter campaign that attracted support from more than 1,700 people and raised more than $100,000. In partnership with the Las Cumbres Observatory, a privately-funded organisation that operates 21 telescopes at eight sites around the world, the astronomers monitored the star from March 2016 to December 2017.
+In that time they recorded four more dips, though none were as dramatic as the originals, reaching only a percent or two. These were named by the Kickstarter supporters as Elsie and Celeste, Skara Brae and Angkor. Significantly for the analysis, the dimming events were captured at multiple wavelengths.
+If an alien megastructure had been causing the drop in light, being a solid object, it would block all wavelengths in the same way, at the same time. That’s not what the team saw. Instead, different wavelengths of light dropped by different amounts. This is exactly what you would expect from starlight passing through a tenuous dust cloud.
+It happens because dust grains scatter light depending on its wavelength. Blue light, which has short wavelengths, is scattered more easily than red, which has longer wavelengths. This is why our sky is blue; that colour has been scattered out of the sun’s direct light by the molecules in the air.
+In the case of Tabby’s star, the new observations show that it dims more at blue wavelengths than red. Thus, its light is passing through a dust cloud, not being blocked by an alien megastructure in orbit around the star (#sadface).
+The new analysis of KIC 8462852 showing these results is to be published in The Astrophysical Journal Letters. It reinforces the conclusions reached by Huan Meng, University of Arizona, Tucson, and collaborators in October 2017. They monitored the star at multiple wavelengths using Nasa’s Spitzer and Swift missions, and the Belgian AstroLAB IRIS observatory. These results were published in The Astrophysical Journal.
+While it is not aliens this time, the story serves as a valuable reminder that unexpected signals of this kind are definitely the ones to look out for. Something unexplainable in some unexpected observation rather than a deliberate radio message to us is probably the way we are going to spot the presence of extraterrestrials – if they’re out there in the first place, of course.

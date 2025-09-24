@@ -1,0 +1,44 @@
+Why 'bird-brained' may not be such an insult after all
+Birds show remarkable levels of intelligence, something that may have given them the edge following the K-T extinction event
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A New Caledonian crow using a one tool to retrieve another, a brilliant example of the intelligence of birds. Photograph: Alex Taylor/PA
+
+Even though I am better with dead birds than with living ones, I do enjoy watching them. Their behaviour is fascinating, and as Jennifer Ackerman points out in her book, birds are a lot more intelligent than we often give them credit for. But what do we know about the evolution of bird intelligence? How did the bird brain evolve, and when did it take on its “birdiness”?
+The fossil record isn’t particularly well-suited for the preservation of soft tissue such as brains – and behaviour doesn’t fossilise at all. However, some inferences regarding behaviour can be made based on anatomy, something the fossil record is rife with. When we look at the anatomical evidence of bird behaviour in the fossil record (Naish, 2014), it becomes clear that certain types of behaviour we see in modern birds – such as colonial nesting, parental care and plumage display – evolved a long time ago, and are likely dinosaurian in origin. 
+The avian brain itself is a modified version of the basic archosaur brain (archosaurs are the group of reptiles that gave rise to crocodiles and dinosaurs). The archosaur brain, as seen in living crocodiles, is a relatively simple, tube-like structure consisting of the hindbrain, mid-brain and forebrain along a central axis. The bird brain has undergone significant enlargement of the forebrain and has folded along its main axis, resulting in a distinctive shape. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Digital endocasts of the brain of a crocodile (blue) and a herring gull (purple) in side view (left images) and top view (right images). The Wulst area (W) is distinctly visible in birds in top view. Crocodile endocast from Jirak D. & Janacek J., 2017; herring gull endocast from Smith N.A. & Clarke J.A., 2012. Illustration: Plos one 
+
+Unfortunately, no fossilised bird brain has yet been found, but the shape and size of the inner brain cavity in fossilised skulls provides some information about brain shape and maximal brain dimensions. It should be noted here that the brain cavity is never an exact representation of the brain itself, as a significant portion of the endocranial space can be taken up by blood vessels, other soft tissues and fluid. The first scientist to look at the inner brain cavity of a fossil bird, the extinct Moa Dinornis, in search of “an instructive representation of the brain of that species” was Richard Owen (him again) in 1871. Now, more than a century later, advanced 3D imaging techniques provide the perfect tool for researchers interested in the evolution of the avian brain, allowing for detailed study of often very delicate specimens. 
+The ratio between brain size and body size (the Encephalisation Quotient, or EQ) has long been considered an approximation for the level of intelligence of a species. Birds have a relatively high EQ, which means that their brains are relatively large compared to their body size. The EQ index in birds ranges from 6-11 times higher than in other groups, and is comparable to those seen in mammals (Balanoff et al., 2013). This large brain must have evolved from a small and simple crocodile-like brain, but when this happened and how quickly these changes took place remains far from clear.
+The only Mesozoic species for which we can calculate both brain size and body size (requiring both an intact skull and decently preserved limb bones) is Archaeopteryx lithographica. Using 3D CT scanning, researchers estimate that its endocranial volume was intermediate between those of theropod dinosaurs and modern birds (Balanoff et al., 2013). This indicates that if Archaeopteryx could fly, which many think is possible, it did not need a particularly large brain to do so. Furthermore, similarly-sized brains and bird-like EQ values appear to have been present in non-avian theropod dinosaurs as well, further blurring the line of what a bird brain really is. 
+The overall expansion of the avian brain centered particularly on certain regions, such as the cerebellum and forebrain (telencephalon), regions that are thought to be important to flight. These areas can be discerned, and thus measured, in digital brain scans of modern birds, but in digital endocasts of fossil specimens, the interior borders of these regions are to be guessed. However, one particular area that can be seen in digital endocasts is the Wulst, an expansion on the telencephalon. 
+The oldest known definite occurrence of the Wulst is in the skulls of two marine birds from the Eocene London Clay formation, which dates from 55m years ago (Milner and Walsh, 2009). The digital endocasts of these two species show an expanded telencephalon with a Wulst area that is faintly visible. This suggests that the expansion of the telencephalon was already completed shortly after the Mesozoic, and that the development of the Wulst formed a new phase in avian brain development. 
+It appears that the increase in telencephalon volume needed for flight had ceased after the evolution of powered flight in the bird lineage. However, the telencephala of the two birds from the Eocene of England are relatively larger than of those known for older birds (Milner and Walsh, 2009). Furthermore, telencephalic volume continued to increase during the Cenozoic as the Wulst continued to developed. This indicates that the continued increase in brain size in birds in was driven by factors other than the requirements for powered flight. Milner and Walsh suggest that greater brain complexity is the factor behind the observed increase in telencephalic volume, and the continued development of the telencephalon, and particularly the Wulst area, may be associated with increased cognitive capabilities. 
+Interestingly, in living birds, the size of the forebrain is correlated with the ability to adapt to new environments (Lefebvre et al., 2004). If this holds true for fossil birds as well, this would indicate that the ancestor of modern birds were able to survive the K-T extinction event, and radiate shortly after that, because they were capable of adapting to the post-Cretaceous dawn. Not bad for a bird brain.
+References
+Balanoff, A.M., et al., 2013. Evolutionary origins of the avian brain. Nature 501:93-96. 
+Lefebvre, L., et al., 2004. Brains, innovations and evolution in birds and primates. Brain, Behavior and Evolution 63:233-246
+Milner, A.C. & Walsh, S.A., 2009. Avian brain evolution: new data from Palaeogene birds (Lower Eocene) from England. Journal of Zoology 155:198-219
+Naish, D., 2014. The fossil record of bird behavior. Journal of Zoology
+ Topics

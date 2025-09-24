@@ -1,0 +1,240 @@
+NASCAR Schedule - NASCAR
+DATE
+RACE
+CITY
+STATE
+LAPS
+DISTANCE
+WINNER
+ Feb 17 2018 
+POWERSHARES QQQ 300
+ Daytona Beach 
+ Florida 
+ 124 
+ 2.5 mi 
+ -- 
+ Feb 24 2018 
+Rinnai 250
+ Hampton 
+ Georgia 
+ 163 
+ 1.54 mi 
+ -- 
+ Mar 3 2018 
+Boyd Gaming 300
+ Las Vegas 
+ Nevada 
+ 200 
+ 1.5 mi 
+ -- 
+ Mar 10 2018 
+DC Solar 200
+ Avondale 
+ USA 
+ 200 
+ 1.0 mi 
+ -- 
+ Mar 17 2018 
+NASCAR XFINITY Series Race at Auto Club
+ Fontana 
+ California 
+ 150 
+ 2.0 mi 
+ -- 
+ Apr 7 2018 
+My Bariatric Solutions 300
+ Fort Worth 
+ Texas 
+ 200 
+ 1.5 mi 
+ -- 
+ Apr 14 2018 
+Fitzgerald Glider Kits 300
+ Bristol 
+ Tennessee 
+ 300 
+ 0.533 mi 
+ -- 
+ Apr 20 2018 
+ToyotaCare 250
+ Richmond 
+ Virginia 
+ 254 
+ 0.75 mi 
+ -- 
+ Apr 28 2018 
+Sparks Energy 300
+ Talladega 
+ Alabama 
+ 113 
+ 2.66 mi 
+ -- 
+ May 5 2018 
+OneMain Financial 200
+ Dover 
+ Delaware 
+ 200 
+ 1.0 mi 
+ -- 
+ May 26 2018 
+NASCAR XFINITY Series Race at Charlotte
+ Concord 
+ North Carolina 
+ 200 
+ 1.5 mi 
+ -- 
+ Jun 2 2018 
+Pocono Green 250
+ Long Pond 
+ Pennsylvania 
+ 100 
+ 2.5 mi 
+ -- 
+ Jun 9 2018 
+LTi Printing 250
+ Brooklyn 
+ Michigan 
+ 125 
+ 2.0 mi 
+ -- 
+ Jun 17 2018 
+American Ethanol 250
+ Newton 
+ Iowa 
+ 250 
+ 0.875 mi 
+ -- 
+ Jun 30 2018 
+NASCAR XFINITY Series Race at Chicagoland
+ Joliet 
+ Illinois 
+ 200 
+ 1.5 mi 
+ -- 
+ Jul 6 2018 
+Coca-Cola Firecracker 250
+ Daytona Beach 
+ Florida 
+ 104 
+ 2.5 mi 
+ -- 
+ Jul 13 2018 
+Alsco 300
+ Sparta 
+ Kentucky 
+ 200 
+ 1.5 mi 
+ -- 
+ Jul 21 2018 
+Lakes Region 200
+ Loudon 
+ New Hampshire 
+ 200 
+ 1.058 mi 
+ -- 
+ Jul 28 2018 
+U.S. Cellular 250
+ Newton 
+ Iowa 
+ 254 
+ 0.875 mi 
+ -- 
+ Aug 4 2018 
+Zippo 200
+ Watkins Glen 
+ New York 
+ 82 
+ 2.45 mi 
+ -- 
+ Aug 11 2018 
+Mid-Ohio Challenge
+ Lexington 
+ Ohio 
+ 75 
+ 2.4 mi 
+ -- 
+ Aug 17 2018 
+Food City 300
+ Bristol 
+ Tennessee 
+ 300 
+ 0.533 mi 
+ -- 
+ Aug 25 2018 
+NASCAR XFINITY Series Race at Road America
+ Elkhart Lake 
+ Wisconsin 
+ 45 
+ 4.048 mi 
+ -- 
+ Sep 1 2018 
+Sport Clips Haircuts VFW 200
+ Darlington 
+ South Carolina 
+ 148 
+ 1.366 mi 
+ -- 
+ Sep 8 2018 
+Lilly Diabetes 250
+ Indianapolis 
+ Indiana 
+ 100 
+ 2.5 mi 
+ -- 
+ Sep 15 2018 
+NASCAR XFINITY Series Race at Las Vegas
+ Las Vegas 
+ Nevada 
+ 200 
+ 1.5 mi 
+ -- 
+ Sep 21 2018 
+NASCAR XFINITY Series Race at Richmond
+ Richmond 
+ Virginia 
+ 250 
+ 0.75 mi 
+ -- 
+ Sep 29 2018 
+NASCAR XFINITY Series Race at Charlotte
+ Concord 
+ North Carolina 
+ 200 
+ 1.5 mi 
+ -- 
+ Oct 6 2018 
+NASCAR XFINITY Series Race at Dover
+ Dover 
+ Delaware 
+ 200 
+ 1.0 mi 
+ -- 
+ Oct 20 2018 
+ Kansas Lottery 300 
+ Kansas City 
+ Kansas 
+ 200 
+ 1.5 mi 
+ -- 
+ Nov 3 2018 
+O'Reilly Auto Parts 300
+ Fort Worth 
+ Texas 
+ 200 
+ 1.5 mi 
+ -- 
+ Nov 10 2018 
+Ticket Galaxy 200
+ Avondale 
+ USA 
+ 200 
+ 1.0 mi 
+ -- 
+ Nov 17 2018 
+ Ford EcoBoost 300 
+ Homestead 
+ Florida 
+ 200 
+ 1.5 mi 
+ -- 
+^ Jump to top

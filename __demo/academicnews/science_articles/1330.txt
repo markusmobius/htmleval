@@ -1,0 +1,106 @@
+Health-care spending
+Card 1 of 15
+ What is health-care spending?
+ Because American health-care spending is fragmented between individuals, employers and the government people can mean a lot of different things when they talk about health-care spending.
+ In general, though, health-care spending refers to the official government measurement of National Health Expenditures. The vast majority of health-care spending goes towards personal health care — things like trips to the doctor and prescription drugs. A much smaller portion is spent on health-care research and government public-health activities, like programs to encourage people to eat healthier or get vaccinated against certain diseases.
+ Health-care spending has sharply outpaced economic growth in recent decades. In 1970, the United States spent 7.2 percent of GDP on health care. By 2010, that had risen to 17.9 percent. That means almost one out of every five dollars in the US economy goes towards health-care spending.
+ More dollars spent on health care means fewer dollars going to other things. State governments spend less on education when health-care costs go up. Rising spending on Medicaid and Medicare requires the federal government to either cut programs, raise taxes or increase the deficit. Higher insurance premiums force employers to hire fewer workers and give fewer raises For individuals, rising healthcare costs have wiped out a full decade of wage increases.
+ Compounding the problem is the fact that there's little consensus on whether the increased costs of health care are leading to proportionate gains in actual health.
+Card 2 of 15
+ How much money do we spend on health care?
+ In 2012 — the most recent year we have data for — the United States spent $2.8 trillion on health care. That works out to 17.2 percent of the economy. About three decades ago, we put less than 10 percent of the economy towards health care spending. You can see the increase charted below.
+ 
+
+ 
+ To think about it a slightly different way: more than one in every six dollars in the United States is spent on health care. That's a lot of dollars.
+Card 3 of 15
+ How does American health-care spending compare to other countries?
+ The United States has higher per-person health-care spending than all other industrialized nations. The most recent international data from the OECD estimates that the United States puts 17.7 percent of its economy towards health care (slightly higher than CMS's estimate of 17.2 percent). The OECD average is 9.3 percent.
+ 
+
+ 
+ Much of the difference between health care spending abroad and in the United States has to do with prices. Americans don't actually go to the doctor a lot more than people in other countries. But when we do, our medical care costs more. Specific services, like MRIs and knee replacements, have significantly higher price tags when delivered in the United States than elsewhere.
+Card 4 of 15
+ Who pays for health care in the United States?
+ There are three main funding sources for health care in the United States: the government, private health insurers and individuals.
+ 
+
+ 
+ Between Medicaid, Medicare and the other health care programs it runs, the federal government covers just about half of all medical spending. Private health insurance plans accounted for $917 billion in health care spending in 2012, about a third of all medical dollars spent that year.
+Card 5 of 15
+ Where do our health care dollars go?
+ Mostly to hospitals and doctors with smaller chunks spent on nursing homes, rehabilitative care and prescription drugs. 
+ 
+
+ 
+ Hospitals and doctors, perhaps unsurprisingly, are the biggest recipients of health care spending. The United States spent $882 billion on hospitals and $752 billion on doctors in 2012. Taken together, that accounts for 60 percent of all health-care spending.
+ It's worth noting that there are other, smaller pieces of health spending not represented in personal health care services. The United States, for example, invested $48 billion in health-care research in 2012 and spent $33.6 billion on administrative overhead for public health-care programs, like Medicare and Medicaid.
+Card 6 of 15
+ How much of health-care spending is wasteful?
+ A lot: about one-third of all health-care spending — $785 billion — goes to things that aren't making us any healthier, according to a massive Institute of Medicine study published in 2012.
+ Most of the waste comes from the way the United States delivers medical care, with a fragmented system that delivers a lot of care that isn't needed. The IOM estimates that we spend about $210 billion on unnecessary care, with doctors delivering care that isn't recommended by medical guidelines. Unnecessary care can be harmful to patients, too, especially when it involves surgical procedures that didn't need to happen.
+ Administrative costs are another huge driver of wasteful spending in the United States. Every doctor typically takes in payments from numerous health insurers, and need to employ lots of billing staff to handle the deluge of paperwork. The average doctor in the United States spends $82,975 dealing with insurers each year.
+ Last but not least, the American health-care system tends to have much higher prices than other countries. Most developed countries have some form of government rate-setting in health care, where bureaucrats set a specific price for any given medical treatment. The United States doesn't have that — and also has thousands of health insurance plans, each negotiating their own price with doctors and hospitals. This helps explain why an appendectomy costs $8,156, on average, here — and $4,498 in the Netherlands.
+Card 7 of 15
+ Are Medicare and Medicaid more expensive than private insurance?
+ Medicare, which covers seniors over 65, and Medicaid, a program for low-income Americans, are the two biggest health insurers in the country. Taken together, they cover 105.6 million people, about one in every three Americans.
+ Medicaid and Medicare do tend to have higher costs per person than private health insurance — which is partially due to the fact they cover people with more health-care needs, particularly the elderly in Medicare and the blind and disabled in Medicaid. Medicaid spent an average of$5,563 on each enrollee in 2010. Medicare spent an average of $10,365 per beneficiary whereas private insurance costs, on average, $4,547 per person.
+ Total costs aren't the only way to measure what counts as expensive. Another metric is how quickly the programs are growing — and on that front, Medicaid and Medicare look less expensive. Government forecasters expect their per person costs to grow slower than the rest of the economy over the next decade.
+ 
+
+ 
+ Part of the reason Medicare and Medicaid are expected to grow slower has to do with the fact they tend to pay doctors and hospitals lower rates. Private insurers, for example, tend to pay doctors 25 percent more than Medicare does. Part of this has to do with Medicare and Medicaid being really large health insurers, which means they can typically demand lower prices from health-care providers.
+Card 8 of 15
+ What does it mean to bend the health-care cost curve?
+ Bending the health-care cost curve is a phrase that comes up a lot in health care. It's shorthand for figuring out ways to slow the long-term growth of medical costs. In graph-form, it means turning the red line into the blue or yellow line.
+ 
+
+Bending the cost-curve would save both households and governments a ton of money over the long-term. That's great news if it can be done without compromising the quality of care.
+ As to how to bend the health-care cost curve, that's the $2.8 trillion question. There are lots of ideas about what types of policies could slow health cost growth in the long term. Some health economist think that we might actually have bent the health-care cost curve, citing four years of slower-than-normal growth — although this point is fiercely debated. There's general agreement across political lines that it would be a good idea to bend the cost curve but how to get there is a whole lot murkier territory.
+Card 9 of 15
+ How much does health-care spending drive up the deficit?
+ A lot: health care spending has been — and will likely continue to be — the fastest growing part of the federal budget. 
+
+ 
+ Both Medicare and Medicaid are expected to get a lot bigger over the next decade, enrolling millions more people than the 105 million they cover right now. In Medicare this is largely driven the cost growth is largely driven by the fact that our population is getting older, with thousands of baby boomers aging onto the program every day.
+ The health care law expanded the Medicaid program to cover millions more people than it used to, and that will also drive up the federal government's spending on health care programs.
+Card 10 of 15
+ What drives up health-care spending?
+ A handful of studies here, here, and here have attempted to pinpoint the reason why health-care costs typically grow a lot faster than the rest of the economy. They point to a few factors but generally see new medical technologies as the chief reason health spending has grown quickly in the second half of the 20th century.
+ "The general consensus among health economists is that growth in real spending on health care was principally the result of the emergence of new medical technologies and services and their adoption and diffusion by the US Health Care system," then-Congressional Budget Office director Peter Orszag testified before Congress in 2008.
+ Whether this is a good thing depends a bit on the type of technology and how its used. Some of the medical advancements allow doctors to treat patients better than ever before. Others don't outperform older methods — but do contribute to rising health-care costs.
+ New technologies tend to contribute to the growth of overall health-care prices. Drug and device-makers often charge higher prices for new treatments, even if their outcomes aren't that much (or any) better than old treatments. Some cancer drugs, for example, cost upwards of $300,000 — and, in research, extended patients' lives by an average of 42 days.
+ Unlike many other countries, the United States does not regulate health-care prices, leaving doctors and hospitals to decide whether they will buy these more expensive treatments. Usually they do — although there has been some push back recently to especially expensive drugs.
+Card 11 of 15
+ Is health-care spending growing?
+ Yes — but, for the past four years, health-care spending has grown at a slower-than-normal rate.
+ For decades, health-care costs have grown faster than the rest of the economy. In the 1990s, for example, health-care costs grew by an average of 11 percent each year — a time period when the rest of the economy averaged 7.6 percent annual growth. That meant health care ate up a greater and greater share of total American spending.
+ 
+
+ 
+ But since 2009, health-care spending has grown at the same rate — or in 2012, slower-than the rest of the economy. In 2012, health care actually shrank, just slightly, as a percent of gross domestic product, falling from 17.3 percent in 2011 to 17.2 percent in 2012. 
+ 
+
+ 
+ There is some especially recent data that does show health-care costs growing faster. The Bureau of Economic Analysis' data shows that health-care spending grew by 5.6 percent in the last quarter of 2013, which would be significantly faster than the rest of the economy. This is just one data point though, and it's still too early to tell whether it portends an about-face on the health spending slowdown.
+Card 12 of 15
+ Why do health economists think spending growth slow down?
+ Health economists often refer to this as the $2.8 trillion question: it's really hard to know right now why medical spending is slowing, and how long it will continue.
+ There are two schools of thought among researchers here. One suggests that the slowdown is temporary and a side effect of the recent recession. This theory relies on data showing that all previous recessions were followed by a period of slower-than-average health cost growth. If spending rebounds as the recession fades — as has been the case during prior downturns — the current slowdown would not have much of an impact on future health costs. Harvard University's Amitabh Chandra has written one of the most-thorough versions of this argument.
+ The other argument is that the health spending slowdown is structural and will likely lead to slower cost growth in the future. Supporters of this theory suggest that the slowdown is steeper, and has lasted longer, than what the recession can explain. They often point to significant changes in the health care industry — the growth in out-of-pocket spending, for example, or Obamacare's programs to drive down spending — as potential drivers of structural change. Harvard University's David Cutler is a strong proponent of this view.
+ Of course, it is very possible for it to be some of both.
+Card 13 of 15
+ Does Obamacare affect health-care spending?
+ The drafters of the Affordable Care Act certainly hope so — which is why they included dozens of Obamacare programs that try to move the health-care system from one that pays for volume, to one that pays for value.
+ Right now, most of the American health-care system operates in a fee-for-service model; a hip surgeon gets paid a set fee for each hip surgery, regardless of whether his patients have complications down the line or come out of the procedure as good as new.
+ Obamacare aims to tether doctors' payments from Medicare to patient outcomes, rewarding doctors who make people healthier with more money. 
+ Accountable Care Organizations, one big Obamacare program, has big groups of doctors band together and agree to take a lump sum payment for the care they provide to Medicare patients. If they can provide care at a lower price than the lump sum — and, again, hit certain quality metrics — they pocket the difference as profit.
+ There's also one big reform in the health care law meant to drive down the private health insurance spending. The Cadillac Tax levies a 40 percent tax on the more expensive health plans that employers provide to workers. These plans tend to offer the most generous coverage. They typically require little (if no) contribution on the part of the worker when they go to the doctor, and might not have a deductible either.
+ When people don't have to pay for their doctor visits, they tend to go to the doctor a lot. The idea of the Cadillac Tax is to discourage these plans with really low-cost sharing, in favor of those that attach a price to every doctor trip — likely reducing overall health care usage as a result.
+Card 14 of 15
+ You didn't answer my question!
+ This is very much a work in progress. It will continue to be updated as events unfold, new research gets published, and fresh questions emerge.
+ So if you have additional questions or comments or quibbles or complaints, send a note to Sarah Kliff: sarah@vox.com.
+Card 15 of 15
+ Where can I learn more?
+ Health Affairs publishes an annual article on national health spending that gives a great overview of where health care dollars come from-and where they get spent. Peter Orszag's 2008 testimony before the Senate Budget Committee is one of the more comprehensive, and easily understandable, explanations about why health care costs go up. Kaiser Family Foundation's report analyzing why health care cost growth is slowing is certainly worth a read and probably the easiest of these three resources to navigate and understand.

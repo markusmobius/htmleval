@@ -1,0 +1,49 @@
+After a Cyberattack, Germany Fears Election Disruption
+The Deutsche Telekom headquarters in Bonn, Germany. A recent disruption of its services set off alarm about the vulnerability of Germany’s computer networks Credit Oliver Berg/European Pressphoto Agency
+
+BERLIN — After hackers infiltrated the German Parliament’s computer network in May 2015, it took nearly a year before the country’s intelligence agency concluded that the attack was most likely the work of their Russian counterparts.
+Last week, when 900,000 Germans lost access to internet and telephone services, it took a matter of hours before politicians began pointing fingers at Moscow.
+Berlin is now concerned that Germany will become the next focus of Moscow’s campaign to destabilize Western democracies as national elections approach next year.
+Those fears intensified after the Obama administration accused the Russian government of attacking Democratic Party emails during the American presidential campaign.
+The increasing dissemination of false news, disinformation and propaganda during the American campaign and before Italy’s referendum last weekend has added a related layer of worry about the potential to corrupt public debate and democratic processes.
+Hans-Georg Maassen, the head of Germany’s domestic intelligence agency, warned in an interview on Thursday of “growing evidence for attempts to influence the federal election next year.”
+His agency has seen an increase in “aggressive cyberespionage” targeting German politicians, he said.
+If the advent of the personal computer helped undermine a closed Soviet system that could not compete in an information age, then exploiting the vulnerabilities of the internet and social media may be Russia’s revenge.
+Intelligence and other officials can now point to a growing string of campaigns of disinformation, hacked computer networks and leaked emails fitting a pattern that traces a murky route back to Moscow.
+The aim, they say, is to undercut liberal opponents of Moscow, destabilize political systems and undermine democratic processes across the European Union and in NATO member countries, while supporting anti-European forces.
+“Based on the prevailing Russian strategy of hybrid influence and destabilization, which we have observed over time and for which we have facts, the government, officials and some political parties have become sensitized to this form of conflict,” said Wilfried Jilge, an expert on Ukraine and Eastern Europe with the German Council on Foreign Relations.
+“Such suspicions are the result of observation and experience over the past year and a half,” Mr. Jilge said.
+Many of the efforts seem intended to tilt elections in a direction preferred by Moscow or to undercut certain leaders.
+That was presumably the motivation for hacking the Democratic National Committee and leaking emails that embarrassed Hillary Clinton, who long had an antagonistic relationship with the Russian president, Vladimir V. Putin.
+On the other hand, her challenger, the eventual winner, Donald J. Trump, was effusive in his praise for the Russian leader.
+False news, also linked to Russia, was widely disseminated in Italy by opponents of the push by Prime Minister Matteo Renzi for constitutional changes. Many of those opponents are much closer to Moscow than to Mr. Renzi, who lost and has now resigned.
+Germans have not been immune to such disinformation, either.
+In January, a news article that said a 13-year-old Russian-German girl had been kidnapped and raped by migrants in Germany spread quickly on Russian-language news channels.
+Outrage over a supposed cover-up of the abuse drew members of Germany’s Russian-speaking minority into the streets across the country, shocking German politicians.
+German police officials later proved that the events never took place. But the damage was already done, and the false report fed opposition to Chancellor Angela Merkel’s decision to open the doors to nearly a million refugees.
+As for Moscow’s motivations in Germany, Eberhard Schneider, a professor of political science at the University of Siegen, has observed Russia’s propaganda tactics since the days of the Cold War.
+
+Chancellor Angela Merkel of Germany was one of the strongest supporters of the sanctions against Russia for the war in eastern Ukraine, and the Kremlin has a strong incentive to undermine her. Credit Pool photo by Hannibal Hanschke
+
+Ms. Merkel, he noted, was one of the strongest supporters of the sanctions against Russia for its annexation of Crimea and the war in eastern Ukraine. Mr. Putin has a strong incentive to undermine her.
+“Germany is the most important power in the European Union,” he said. “If you can harm Germany and prevent that Merkel has a good outcome in the next election, that is in his interest.”
+The disruption at Deutsche Telekom, which began on Nov. 27, set off a fresh round of alarm over potential Russian meddling and the vulnerability of Germany’s computer networks, which could be disrupted or hacked during an election.
+A day after the breach, Bruno Kahl, head of the Germany’s foreign intelligence service, raised the prospect of evidence linking Russia to interference in the United States election campaign and warned that Germany could be next.
+“It is known that cyberattacks take place which have no other purpose than to provoke political uncertainty,” he told the newspaper Süddeutsche Zeitung.
+“These attempts to interfere focus on Europe, and on Germany especially,” Mr. Kahl said. “A kind of pressure is being exercised on public discourse and democracy here, which is unacceptable.”
+Investigations into the incident later blamed links to “criminal organizations,” though neither Deutsche Telekom nor the government disclosed any concrete link to Moscow.
+Observers like Mr. Jilge of the Council on Foreign Relations say that caution is prudent in assigning blame, but that suspicion of Moscow is warranted given the accumulating pattern.
+“The fact that hackers appeared to have carried out this attack does not automatically mean that they are linked to Russia,” he said of the Deutsche Telekom attack.
+“But if we look at the target and the timing, and know that such influence and disinformation is part of the Russian approach, then it is not surprising that some would seek to address this issue,” he said.
+Asked about the Deutsche Telekom disruption, Ms. Merkel said she did not know who was responsible, but she also mentioned Russia.
+“I will simply say, such cyberattacks, or hybrid conflicts as they are known in Russian doctrine, are now part of daily life and we must learn to cope with them. We must inform people a lot on this point,” the chancellor told reporters last week.
+“We cannot allow ourselves to be unsettled by this,” Ms. Merkel said. “We must simply know that this exists and learn to live with it.”
+Both Deutsche Telekom and the government’s Office of Information Security said a strain of the Mirai malware, which seeks to embed itself in devices connected to the internet, appeared to have caused the disruption.
+Mirai was the same malware used in an attack in the United States in October that brought down websites for Twitter, Netflix, Spotify, Airbnb, SoundCloud and The New York Times, among others.
+In Germany, the malware apparently succeeded only in knocking out the routers and disrupting internet connections.
+“According to our analysis, the objective of the attack is to install malware on the routers to add them to a botnet — meaning they could be used as the remote-controlled infrastructure for future attacks,” Deutsche Telekom later said in a statement.
+The company pledged to focus on improving its network security to render it better able to resist any form of attack.
+The speed with which officials began to suspect Russia was a stark contrast to 2015, when hackers used a phishing tactic, using a fake email, to penetrate computers in Germany’s lower house of Parliament.
+Only this past May did Mr. Maassen’s domestic intelligence agency confirm suspicions that Russian intelligence was behind the attack. Finally, in October, it issued a broad warning.
+“German parties or politicians,” it cautioned, “could fall into the focus of Russian cyberespionage campaigns and operations.”
+A version of this article appears in print on December 9, 2016, on Page A6 of the New York edition with the headline: After Cyberattacks, Germany Fears Russia May Disrupt Vote.

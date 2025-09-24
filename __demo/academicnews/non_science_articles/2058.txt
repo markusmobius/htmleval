@@ -1,0 +1,24 @@
+Joint U.S.-New York Inquiry Into Credit-Default Swaps
+In an unusual partnership, New York State and federal prosecutors are investigating trading in credit-default swaps, the insurancelike securities that have come under close scrutiny for their role in the financial crisis.
+Prosecutors are looking at whether traders manipulated the largely unregulated market for credit-default swaps to drive down the price of financial shares over the last year, people briefed on the investigation said.
+In the swaps market, investors buy and sell insurance protection against defaults on bonds. The cost of the protection, also known as a spread, rises when investors grow more concerned about the viability of companies.
+Since the spring, spreads surged on swaps tied to debt issued by Lehman Brothers, Morgan Stanley, Goldman Sachs and other financial firms. Those companies’ shares also tumbled, in part, analysts say, because the cost of protecting their debt was rising.
+Collaborations between the New York attorney general, Andrew M. Cuomo, and the United States attorney in Manhattan, Michael J. Garcia, are not frequent, legal experts say. That suggests the two men believe the case is too big and significant to pursue independently.
+
+Michael J. Garcia
+
+Representatives for both men confirmed their effort on Friday. The Securities and Exchange Commission is also looking into credit-default swaps.
+Mr. Cuomo and Mr. Garcia are investigating whether investors drove up the price of swaps in transactions that were reported to data providers but never actually completed, according to people briefed on the investigation. If so, that would have helped anybody who sold short financial shares. In a short-sale, investors sell stocks they do not own in the hopes of buying them back later at a lower price.
+To identify whether there was any manipulation, Mr. Cuomo’s office has issued subpoenas seeking data from various parts of the industry, including stock exchanges, investment firms and three companies involved in processing trades in swaps and stocks, according to people briefed on the inquiry.
+Those firms are: the Depository Trust Clearing Corporation, which serves as the clearing agent for most financial transactions including swaps and stocks; Markit, which provides swaps data to Wall Street banks and investors; and Bloomberg, the financial data company whose electronic system is used by traders to track markets and communicate with one another.
+The inquiry is in preliminary stages, and people familiar with the investigation say it may not lead to a prosecution.
+
+Andrew M. Cuomo
+
+One investor, who asked for anonymity to avoid drawing attention to his firm, said the swaps market was becoming a convenient scapegoat for regulators. He added that evidence of traders’ manipulating share prices was largely circumstantial.
+Concerns about the market have prompted the Federal Reserve Bank of New York to push investment firms to move trading in credit-default swaps to a regulated exchange by year’s end.
+Joseph A. Grundfest, a former commissioner at the Securities and Exchange Commission and now a professor at Stanford Law School, said a partnership between Mr. Cuomo and Mr. Garcia made sense given the complexity of the swaps market. This is “an international market and it might well be easier for the United States attorney to get information from some foreign sources than have a local prosecutor pursue the information,” he said.
+In the past, the state attorney general and the United States attorney’s office have often competed with each other on major white-collar crime cases, like the investigation of Frank Quattrone, the former Credit Suisse banker who was acquitted last year of federal obstruction of justice charges. Tensions between the offices ran high when Eliot Spitzer, the former New York governor, was attorney general.
+While the United States attorney’s office brings criminal cases, the attorney general’s office typically pursues civil cases, though it can pursue criminal charges. “The efforts of the U.S. attorney’s office, whose primary role will be to determine whether any federal laws have been violated, will serve to complement the broader mandate of the attorney general’s office,” Yusill Scribner, a spokeswoman for Mr. Garcia, said in a statement.
+Several senior lawyers in Mr. Cuomo’s office, including his deputy counselor and special assistant, Benjamin M. Lawsky, previously worked in the United States attorney’s office. “The probe will bring together top prosecutors from both offices while simultaneously avoiding multiple competing investigations,” Alex Detrick, a spokesman for Mr. Cuomo, said in a statement.
+A version of this article appears in print on , on Page B4 of the New York edition with the headline: Joint U.S.-New York Inquiry Into Credit-Default Swaps.

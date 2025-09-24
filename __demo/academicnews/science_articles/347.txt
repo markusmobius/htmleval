@@ -1,0 +1,41 @@
+In Space, This Is The Age Of Reusability
+In space, this is the age of reusability
+
+Big plans are being made in space. 
+We could be seeing the start of an economic boom in space. But so far, none of these ideas have made it far from the drawing board. What’s holding them back? 
+Reusing rockets
+First and foremost, it’s hard to make profit in space. Moving “stuff” (cargo, equipment and people) from Earth into space is an expensive process. This is because we haven’t learnt how to recycle rockets yet. 
+Every time a new payload needs to be sent into space, a new ELV has to be built, costing millions of dollars. Imagine how much an Uber would cost if the driver had to buy a new car for every trip!
+It might seem that the obvious solution is to reuse rockets. The idea of Reusable Launch Vehicles (RLVs) isn’t new, but reusing rockets has proven tricky in the past. 
+The first real attempt at making an RLV was NASA’s Space Shuttle program. 
+The Space Shuttle fleet was meant to lower the cost of space transportation by being partially reusable. But rather than lowering costs, the program increased them. The complexity and risk of the Space Shuttle fleet made maintaining and operating them expensive. And when the 30-year program ended in 2011, it may have seemed like the argument for RLVs ended with it.
+
+Space Shuttle Atlantis undergoing maintenance at Kennedy Space Center in 2003.
+
+Recovering and recycling
+But proponents of RLVs were undeterred. 
+A few months after the final Space Shuttle flight, SpaceX, a start-up company founded by tech billionaire Elon Musk announced a plan to make its Falcon 9 rocket reusable. SpaceX began working on ways to recover and reuse the Falcon 9’s booster stage, the largest, most expensive part of the rocket. 
+Two years later, the company began trying to recover used boosters by having them make controlled descents into the ocean after completing their missions. After some spectacular failures, SpaceX successfully recovered a booster for the first time in late 2015.
+Over the next 15 months, SpaceX recovered more and more boosters, building up a stockpile of secondhand rockets. But it still hasn’t reused any of them. 
+That changed in March 2017, when one of the recovered boosters was refurbished and used to launch a communications satellite. It wasn’t the first time a rocket had been reused – that honour will always belong to the Space Shuttle program. But unlike the Space Shuttle, the reused Falcon 9 was cheaper. 
+For the first time in history, recycling rockets makes good business sense.
+
+Launch cost of medium-lift rockets.
+
+Even without being reused, the Falcon 9 was already much cheaper than similar medium-sized rockets, as shown in the chart above. And it will only get cheaper with more reuse flights. 
+How is SpaceX’s competition reacting to these developments? 
+US rocket industry heavyweight United Launch Alliance (ULA), a joint venture between Boeing and Lockheed Martin, has published a plan for reusing rockets. But even after the succesful SpaceX reuse flight in March, ULA CEO Tory Bruno remains sceptical about RLVs. 
+European rocket company Arianespace seems to be ignoring RLVs altogether.
+The quest
+Even if the traditional players in the rocket industry continue to ignore RLVs, SpaceX will not remain alone in its quest for reusability. 
+Other billionaires aren’t letting Musk have the industry to himself. Jeff Bezos, the world’s second-richest man, owns Blue Origin, a rival rocket company. The company is finishing testing New Shepherd, a small suborbital rocket, and plans to start sending passengers into space in 2018. 
+Blue Origin is also working on New Glenn, a much larger reusable rocket that will be able to compete with SpaceX directly. 
+Richard Branson, founder of the Virgin Group, also wants to send tourists on suborbital flights. Branson has founded Virgin Galactic, which will fly passengers on SpaceShipTwo, a reusable spaceplane. Hundreds of people have paid US$250,000 deposits for Virgin Galactic flights, which are slated to start in 2018.
+At the same time, other groups from all over the world are setting out to prove that you don’t need to be a billionaire to play the RLV game. In the UK, Reaction Engines are designing the Skylon reusable spaceplane with with its innovative SABRE hybrid engine. 
+The Japan Aerospace Exploration Agency (JAXA) is researching a reusable sounding rocket. And the Indian Space Research Organization is testing a reusable Space Shuttle-like spaceplane. 
+In Australia, the University of Queensland is developing SPARTAN, a small RLV that uses cutting-edge scramjet engines.
+Time will tell which of these efforts are successful but it’s clear that momentum for RLVs is building. RLVs bring with them the promise of low-cost space transportation, which could open up new worlds of opportunity in space.
+
+The age of reusability has begun.
+Matthew Richardson, Doctoral Candidate in Aeronautical and Astronautical Engineering, University of Tokyo and Michael Smart, Professor of Hypersonic Aerodynamics, The University of Queensland
+This article was originally published on The Conversation. Read the original article.

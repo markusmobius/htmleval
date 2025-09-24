@@ -1,0 +1,26 @@
+Intel's CES keynote:  CEO vows quick fix to security flaw before unleashing the drones
+CLOSE
+
+ Jefferson Graham runs down highlights from the CES 2018 Innovation Award winners on Talking Tech, from Las Vegas 
+
+LAS VEGAS — Before unleashing a futuristic spectacle during his CES keynote here Monday night, Intel CEO Brian Krzanich addressed the recent security flaws in processors made by it and other chip makers.
+Krzanich said that more than 90% of Intel's chips deployed in consumer devices in the last five years will be updated to combat the intrusion flaw within a week and the remaining will be updated by the end of January. 
+Last week, Intel and other chip makers acknowledged that potentially-exploitable flaws had been found in its chips that could let hackers access the most private areas of a user's computer or device. There have been no reports of breached consumer data from the weakness.
+"The collaboration (in the industry) as been truly remarkable," he said. "The primary focus has been to keep customers' data safe. We're working tirelessly to stay that way."
+Then, Krzanich began offering Intel's vision of a future in which data delivers hyper-real experiences.
+The frequent CES trade show keynoter traded quips with former NFL quarterback-now broadcaster Tony Romo, talked about its upcoming Winter Olympics game VR plans and even had his own avatar explore Intel's expansive virtual CES show floor booth.
+"We see a future where technology makes the world a better place," Krzanich said. "I'm not saying it's going to be easy or simple, but we must be diligent and thoughtful."
+Intel with its True VR technology is already bringing virtual reality to NFL broadcasts. With 30 cameras capturing the action, the VR tech simultaneously stitches together a 3D replication of the event that can be explored in replays and by VR viewers. "It can zoom in as if you are like a camera on the helmet on that player," Romo said.
+Next month, Intel's VR technology will assist NBC Sports in producing more than 50 hours of live VR action at the Winter Olympics in South Korea on various VR headsets on the NBC Sports VR app. The experience makes you feel, Krzanich said, "as if you are truly there in person."
+With a different take on VR, Krzanich showed how it collaborated with Sansar, an online world platform from the creators of Second Life, to build a virtual version of Intel's CES booth. Those not at the trade show can visit it online and interact with booth workers.
+Krzanich left the stage donning a VR headset and popped up in the virtual world on a giant screen that stretched the length of the keynote stage. Another real-world figure whose avatar joined Krzanich's in the virtual world was Gary Shapiro, president and CEO of the Consumer Technology Association, which conducts the CES show. "This is a great way to extend CES to more people," Shapiro said.
+During his #CES18 keynote @intel CEO @bkrunner met @CTATech prez @GaryShapiro in Intel ‘s virtual @CES booth. pic.twitter.com/kzEs5rf4v0
+— Mike Snider (@MikeSnider) January 9, 2018
+Krzanich also revealed advances in a Loihi neuromorphic research chip, which is designed to learn the way a human's brain does. And he showed off a flying mini-helicopter called a Volocopter.
+The theatrics began fifteen minutes before Krzanich first emerged for the 90-minute presentation, when a foursome of digital music players took the stage. A drummer with no drum kit played air drums. A pair of two-story-tall artificial intelligence avatars— brought to life on giant video screens — played guitars, accompanied on piano by musical director and pianist Kevin Doucette.
+Then, dancer Sophie Santella commanded the stage, joined by four robotic Cylon-looking characters who performed trampoline-styled jumps and bounces. Following her, more dancers moved along a giant piano keyboard projected on the floor, while some drones flew through a 3D keyboard performing the song, "Chopsticks." With data, virtual musicians "don’t even need us anymore," Doucette said.
+The Intel #ces2018 keynote is the most visually rich performance I think I have ever attended. Definitely moved the posts on this one. pic.twitter.com/ATit13AP7U
+— Patrick Moorhead (@PatrickMoorhead) January 9, 2018
+Krzanich also addressed a promise he made two years ago while a CES keynoter: hiking the diversity of its workforce. He said Intel expects by the end of this year to meet its goal of full representation — meaning that Intel's U.S. workforce would match the supply of skilled talent that could fill its current jobs — ahead of its pledge made at CES 2015 to do so by 2020.
+Intel wants to have "a culture that positively impacts society," he said.
+To end the show, Krzanich oversaw a drone light armada and waved them all down.

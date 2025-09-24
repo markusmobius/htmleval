@@ -1,0 +1,47 @@
+Octopus-inspired ‘skin’ may bring 3D camouflage to robots
+Soft bots able to change color and texture could have key military and research applications.
+by Dan Robitzski, Live Science / Oct.16.2017 / 4:35 PM ET
+
+
+
+
+Camouflaged Mediterranean octopusDario Sabljak / Shutterstock
+Get the Mach newsletter.
+In a flash, an octopus can make like ragged-edged seaweed or coral by changing the color and texture of its skin, thus becoming nearly invisible in its environment. And in the future, robots may be able to pull off this seemingly magical camouflage trick as well.
+Researchers have created a synthetic form of cephalopod skin that can transform from a flat, 2D surface to a three-dimensional one with bumps and pits, they report today (Oct. 12) in the journal Science. This technology could one day be used in soft robots, which are typically covered in a stretchy silicone "skin," the researchers said.
+"Camouflaged robots may hide and be protected from animal attacks and may better approach animals for studying them in their natural habitats," Cecilia Laschi, a professor of biorobotics at the BioRobotics Institute of the Sant'Anna School of Advanced Studies, in Pisa, Italy, wrote in an accompanying article in the current issue of Science. "Of course, camouflage may also support military applications, where reducing a robot's visibility provides it with advantages in accessing dangerous areas," wrote Laschi, who wasn't involved in the current study. [Biomimicry: 7 Clever Technologies Inspired by Nature]
+Get the Mach newsletter.
+
+
+
+The giant Australian cuttlefish (Sepia apama) expresses its papillae for camouflage purposes. Roger Hanlon
+
+Bumpy skin
+The researchers, led by James Pikul of the University of Pennsylvania and Robert Shepherd of Cornell University, took inspiration from the 3D bumps, or papillae, that octopus and cuttlefish can inflate using muscle units in one-fifth of a second for camouflaging. [8 Crazy Facts About Octopuses]
+The complement of papillae in a soft robot would be the air pockets, or "balloons," beneath the silicone skin. Often, these pockets get inflated at different times in different spots to generate locomotion in a robot. In the new research, this robotic inflation was taken a step further.
+"Based on these things they [cephalopods] can do and what our technology can't do, how do we bridge the gap to have technological solutions to their pretty amazing capabilities?" was the central question posed by Shepherd.
+"In this case, inflating a balloon is a pretty feasible solution," he added.
+By embedding small fiber-mesh spheres into the silicone, the scientists could control and shape the texture of the inflated surface, just as an octopus might retexture its skin.
+
+
+
+The researchers created a silicone-mesh composite that they then inflated with air to mimic the papillae that cephalopods inflate to texture their skin for camouflage. J.H. Pikul et al. / Science (2017)
+
+Pikul, then a postdoctoral student at Cornell University, came up with the idea of texturing these air pockets via patterns of the fiber-mesh rings. He was drawn to the idea of inflating silicone because of how quick and reversible the inflation could be, Pikul explained to Live Science. From there, it was just a matter of figuring out the mathematical models to make it work.
+Proof of concept
+The current prototype for the textured skins looks fairly rudimentary: By dividing up the silicone bubbles with concentric circles of fiber-mesh frames, the researchers figured out how to control the shape of the silicone as it inflated. They managed to inflate the bubbles into some new shapes by reinforcing the mesh, according to the paper. For instance, they created structures that mimicked rounded stones in a river as well as a succulent plant (Graptoveria amethorum) with leaves arranged in a spiral pattern.
+
+
+
+The researchers tested out their silicone camouflage technique by creating a prototype that transformed from a flat surface into a 3D one that mimicked a succulent plant. J.H. Pikul et al. / Science (2017)
+
+But sophistication wasn't their primary goal, Shepherd noted.
+"We don't want this to be a technology that only a few people in the world can use; we want it to be fairly easy to do," Shepherd told Live Science. He wanted the texturing technology, which built on the team's earlier findings on how to make color-changing silicone skins, to be accessible to industry, academia and hobbyists alike. Therefore, the team deliberately used limiting technologies like laser cutters to manufacture the wire rings because that's what people outside a Cornell University lab could use.
+Itai Cohen, a physics professor at Cornell, who also worked on the research, noted another accessible aspect of the technology. On an excursion into the field, Cohen envisions stacking sheets of deflated silicone — programmed to inflate into a camouflaging texture — into the back of one's truck. "Now, you can inflate it so it doesn't have to be in that permanent shape, which is really difficult to transport," Cohen told Live Science.
+New 'Superconductive' Skin Allows Robots to Have Sense of Touch
+As the technology advances, one might even be able to scan an environment and then program the corresponding silicone sheet right then and there to mimic it, Cohen speculated.
+Both Pikul and Shepherd plan to pursue this technology in their own respective labs. Shepherd explained that since developing the technology, he's started to replace the inflation with electric currents that could cause the same texturing — no tether and pressurized air system required. And Pikul hopes to apply the lessons learned from manipulating the surfaces of materials to things where surface area plays a significant role, like batteries or coolants, he said.
+"We're still very much in the exploratory phase of soft robotics," Shepherd said. Because most machines are made up of hard metals and plastics, the conventions and best uses of soft robots have yet to be fully fleshed out. "We're just at the beginning, and we have great results," he said, but the key is, "in the future, making it easier for other people to use the technology and making sure these systems are reliable."
+The study was funded by the U.S. Army Research Laboratory's Army Research Office.
+Original article on Live Science.
+FOLLOW NBC NEWS MACH ON TWITTER, FACEBOOK, AND INSTAGRAM.

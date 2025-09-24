@@ -1,0 +1,11 @@
+CLH8 Futures - Crude Oil Mar 2018
+Notes & Data Providers
+Real-time U.S. stock quotes reflect trades reported through Nasdaq only.
+International stock quotes are delayed as per exchange requirements. 
+Quote data, except U.S. stocks, provided by SIX Financial Information.
+Data is provided "as is" for informational purposes only and is not intended for trading purposes.  Data may be intentionally delayed pursuant to supplier requirements.
+ All rights reserved.  
+Bond quotes are updated in real-time. Source: Tullett Prebon.
+Currency quotes are updated in real-time. Source: Tullet Prebon.
+Fundamental company data and analyst estimates provided by FactSet. Copyright FactSet Research Systems Inc. All rights reserved.
+ Advertisement

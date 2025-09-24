@@ -1,0 +1,27 @@
+Flows of 'water' on Mars may actually be sand
+Researchers studied flows at 10 sites
+ (CNN)
+Since the discovery of dark streaks on the slopes of Mars in 2011, astronomers have been excited about potential evidence of water beneath the surface of the red planet. 
+If there are subsurface water flows on Mars, they could allow life -- even on a microbial level -- to exist as well.
+But further study of these recurring slope lineae, known as RSL, is revealing something else. 
+Those dark streaks may be the result of granular flows like sand and dust, according to a study published Monday in the journal Nature Geoscience. The study is the product of a research team made up of representatives from the US Geological Survey, the Planetary Science Institute, the University of Arizona and Durham University in England. 
+The study is based on observations made with the High Resolution Imaging Science Experiment camera on the Mars Reconnaissance Orbiter. 
+Read More
+The RSL have been perplexing scientists since their discovery. Thousands recur during the warmest season on Mars each year, growing longer and darker until they fade in winter. They're found on steep, rocky slopes on the darkest areas of Mars: the equator, the northern plains, the southern mid-latitudes. 
+
+Their seasonal appearance looked like seeping water. But how would water form only at the tops of such steep slopes -- steeper than 27 degrees? Scientists were puzzled. 
+Mars also isn't a friendly environment for water. The surface is constantly exposed to a harshly cold, thin atmosphere.
+Researchers studied 151 RSL at 10 sites and found all ended at similar points, no matter the length of the slope. If liquid had been involved, there would be longer streaks of liquid on longer slopes. But a closer study of the streaks revealed that they behave just like dry grains of sand on active dunes, all settling at the same "angle of repose." 
+"We've shown that RSL are likely granular flows, which changes our assessment of what they mean for flowing liquid water on Mars and points to formation processes with little or no liquid," wrote Colin Dundas, lead study author and US Geological Survey scientist, in an email.
+
+"The RSL don't flow onto shallower slopes, and the lengths of these are so closely correlated with the dynamic angle of repose, it can't be a coincidence," HiRISE Principal Investigator Alfred McEwen of the University of Arizona, Tucson, a co-author of the new report, said in a statement.
+But it doesn't mean Mars is without water completely. 
+"There's still plenty of other evidence for H2O on Mars," Dundas said. "There is a lot of ice in the subsurface and at the poles, and deliquescent salts can draw water out of the atmosphere and form liquid under some conditions. The rovers have made several discoveries pointing to a range of environments with liquid water in the past, and there are hydrated minerals bound in the rocks. But there may be little liquid at the surface today."
+Though this answers some questions about the RSL, others remain. 
+For instance, one of the reasons scientists believed that water was involved in the RSL was because of the presence of hydrated salts, which include bonded water molecules. 
+
+But salt can pull water vapor from the atmosphere to become hydrated, according to the study. Seasonal changes in the presence of this water vapor and hydration process could even trigger the RSL, the researchers said. And other properties changing on the surface could account for the darkening that occurs.
+That still doesn't answer why the streaks appear on some slopes but not others. 
+Earth is the only analog we have for Mars, but Mars obviously behaves differently, the researchers said. 
+"Full understanding of RSL is likely to depend upon on-site investigation of these features," Mars Reconnaissance Orbiter Project Scientist Rich Zurek of NASA's Jet Propulsion Laboratory said in a statement. 
+"While the new report suggests that RSL are not wet enough to favor microbial life, it is likely that on-site investigation of these sites will still require special procedures to guard against introducing microbes from Earth, at least until they are definitively characterized. In particular, a full explanation of how these enigmatic features darken and fade still eludes us. Remote sensing at different times of day could provide important clues."

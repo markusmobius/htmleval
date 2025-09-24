@@ -1,0 +1,40 @@
+The long wait for fusion power may be coming to an end
+Some experts think commercial fusion reactors could begin operation as soon as 2030.
+by Tom Metcalfe / Dec.29.2017 / 2:05 PM ET
+
+
+
+
+Construction is underway at the ITER fusion reactor in southern France on Dec. 5, 2017.ITER Organization/EJF Riche
+Get the Mach newsletter.
+Renewable energy sources like solar and wind account for a growing share of the world’s electric power. That’s no surprise, given concerns about the carbon emissions from fossil fuel-fired power plants and their harmful effect on the climate.
+Nuclear energy offers some advantages over renewables, including the ability to make electricity when the sun doesn’t shine and the wind doesn’t blow. But today’s nuclear plants use fission, which splits atoms of rare metals like uranium. Fission creates radioactive waste and can be hard to control — as evidenced by reactor accidents like those at Three Mile Island, Chernobyl, and Fukushima.
+Another form of nuclear energy known as fusion, which joins atoms of cheap and abundant hydrogen, can produce essentially limitless supplies of power without creating lots of radioactive waste.
+Fusion has powered the sun for billions of years. Yet despite decades of effort, scientists and engineers have been unable to generate sustained nuclear fusion here on Earth. In fact, it’s long been joked that fusion is 50 years away, and will always be.
+But now it looks as if the long wait for commercial fusion power may be coming to an end — and sooner than in half a century.
+Leading the charge
+One of the brightest hopes for controlled nuclear fusion, the giant ITER reactor at Cadarache in southeastern France, is now on track to achieve nuclear fusion operation in the mid- to late-2040s, says Dr. William Madia, a former director of Oak Ridge National Laboratory who led an independent review of the ITER project in 2013.
+Construction of the ITER reactor — a doughnut-shaped vacuum chamber known as a “tokamak” that spans more than 60 feet — recently passed the halfway point.
+
+
+
+The assembly hall at ITER ( the International Thermonuclear Experimental Reactor), where components for the ITER Tokamak will be pre-assembled before integration into the machine, in Cadarache, southern France,on Dec. 13. Claude Paris / AP
+
+Madia says the decades needed to bring the ITER reactor to full operation reflect the huge engineering challenges still facing fusion researchers. These include building reactor walls that can withstand the intense heat of the fusion reaction — about 150 million degrees Celsius (270 million degrees Fahrenheit), or 10 times hotter than the core of the sun.
+And then there’s the challenge of creating superconducting materials that can generate the powerful magnetic fields needed to hold the fusion reaction in place.
+ITER has international backing and a budget of more than $14 billion. But it's not the only promising effort in the long quest for sustained nuclear fusion, or what some have called a “star in a jar.”
+Lots of competition
+Several smaller fusion projects, including commercial reactors being developed by Lockheed Martin in the U.S., General Fusion in Canada, and Tokamak Energy in the U.K., aim to feed fusion-generated power to electricity grids years before ITER produces its first fusion reactions.
+“Our target is to deliver commercial power to the grid by 2030,” says Tokamak Energy’s founder, Dr. David Kingham.
+NASA may send 'Dragonfly' drone to an alien world
+Lockheed Martin’s legendary Skunk Works engineering division is developing a compact fusion reactor that uses cylindrical magnetic fields to confine the fusion reaction instead of the donut-shaped reactor being built at the ITER site.
+The company foresees its fusion reactors replacing the fission reactors used in warships and submarines — and being put on trucks so they can be deployed wherever power is needed. A 100-megawatt fusion reactor that fits on the back of a truck could generate enough power for 100,000 people, according to the company.
+Other fusion power projects include the Wendelstein 7-X fusion reactor in Germany, which uses an alternative to ITER’s tokamak design known as a stellarator. Like ITER, the German reactor is backed by an international consortium and serves mainly for experimental research.
+
+
+
+The Wendelstein 7-X fusion reactor in Greifswald, Germany in 2015. Stefan Sauer / dpa via AP
+
+Exactly which, if any, of these initiatives will crack the fusion nut is still uncertain. But experts hope fusion power one day can make fossil-fuel-fired plants and nuclear fission reactors obsolete, along with most of their environmental problems.
+And we can take heart that the remaining challenges are all just a matter of advanced engineering. Says Madia, “We know the science is absolutely real because we can see it happening in the sun every day.”
+Get the Mach newsletter.

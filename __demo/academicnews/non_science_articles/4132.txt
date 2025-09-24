@@ -1,0 +1,20 @@
+Three weeks of Vox
+Vox video director Joe Posner made t-shirts for the team.
+
+It’s been three weeks since we started publishing on Vox full time — and they’ve been a pretty incredible three weeks. We talked to Thomas Piketty and Michael Pollan. We traveled to Vermont to understand their single-payer system; we asked porn stars about their families; and we explored the necrophiliac nature of otters. We worked hard to explain the Common Core, Ukraine, Obamacare, and Bitcoin. We asked why "basic" became an insult and what a broken political system means for the future of the internet.
+At the end of each day, we felt amazed by how much we learned — about the world and about how you, our readers, feel about our site. We watched how you’re finding our stories, which ones you’re reading, and what you’re doing once you get to Vox. We’ve heard from you on Facebook and on Twitter and by email. 
+On Monday, we opened comments on this story and asked what you thought about our site and asked what more would you would like to see. We spent the day answering as many questions as we could. It was a great discussion, with lots of good ideas about site improvements, story ideas and a healthy dose of constructive criticism. You can read the questions and answers down below. And here are answers to three questions I’ve been getting with some regularity.
+Where are the comments?
+We’ve watched sites open their comments and what should be a community devolves into an endless series of flame wars. We’ve also all seen sites with great communities, and how much they can add to the experience.
+We’re particularly conscious of that because great communities are at the core of every Vox Media site (check Polygon and The Verge's forums, or SB Nation’s 308 networked blogs, or SB Nation's gif oracle — yes, gif oracle). We want communities at the core of ours, too. But we’re still figuring out exactly what approach to take and, whatever we do, we know we need a full-time staffer (or possibly a few of them!) to help build the community. This is something we’re excited about, and we hope to start rolling it out over the summer.
+
+Can I search the site? 
+Not yet. This was a miscalculation on our part. We prioritized site search lower on the list of needs in part because so many people know how to use Google (or Bing, or DuckDuckGo, etc). However, it takes time for a new site to be recognized and to build authority within the algorithms that power these search engines. So, for the moment, searching the site externally doesn’t work that well. For that reason, we’ve moved up building a search function on our list of priorities. 
+Do you have a card stack on (fill in the blank)? 
+We just might, and we're adding more every day. We’re seeing that the cards are proving a good reading experience for people, and we’ve started getting requests for particular ones. We’re hoping to add a card stack request form on our site soon. And we’re hoping to make it easier for you to find card stacks on our site, so you can find topics that matter to you. 
+There’s so much still for us to build and so many new ideas to test. It’s exciting and daunting in equal measures. Each day our product team has been making big and small improvements. Over the last few weeks, we worked through some launch bugs, we added a much-requested print button (hack tip: if you want to read all the cards in a card stack in a single view, hit the print button and scroll away. We’ll work to give you a non-hack option soon.). And there’s a bunch of changes you won’t see on the site, but will help the reporters file, edit and maintain the growing database of card stacks, which should make it easier for us to build more of them, and do it faster. 
+In the meantime, send an email to editors@vox.com or tweet at us @voxdotcom if you want to read a card stack about a specific topic. 
+Oh, and thanks for coming on this weird, wonderful journey with us!
+Was this article helpful?
+ yes no 
+Awesome, share it:

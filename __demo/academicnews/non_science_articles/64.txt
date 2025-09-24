@@ -1,0 +1,17 @@
+Report: Tinder's Lack of Encryption Creates Spying Risk
+Report: Tinder’s Lack of Encryption Creates Spying Risk
+
+Leon Neal/Getty Images
+
+ 23 Jan, 2018
+ 23 Jan, 2018
+ 
+Tinder’s lack of encryption means users can easily be spied on while using the popular dating app, according to a report.
+“As one application security company has found, Tinder’s mobile apps still lack the standard encryption necessary to keep your photos, swipes, and matches hidden from snoops,” reported Wired on Tuesday, referencing research from security firm Checkmarx.
+“Checkmarx demonstrated that Tinder still lacks basic HTTPS encryption for photos. Just by being on the same Wi-Fi network as any user of Tinder’s iOS or Android app, the researchers could see any photo the user did, or even inject their own images into his or her photo stream,” Wired explained. “And while other data in Tinder’s apps are HTTPS-encrypted, Checkmarx found that they still leaked enough information to tell encrypted commands apart, allowing a hacker on the same network to watch every swipe left, swipe right, or match on the target’s phone nearly as easily as if they were looking over the target’s shoulder.”
+In a comment, Checkmarx Manager of Application Security Research Erez Yalon claimed the hackers “can simulate exactly what the user sees on his or her screen,” adding, “You know everything: What they’re doing, what their sexual preferences are, a lot of information.”
+Though Checkmarx reportedly contacted Tinder with their findings in November, the company has yet to fix the issue.
+“Like every other technology company, we are constantly improving our defenses in the battle against malicious hackers,” claimed a Tinder spokesman to Wired. “We are working towards encrypting images on our app experience as well… However, we do not go into any further detail on the specific security tools we use, or enhancements we may implement to avoid tipping off would be hackers.”
+Last year, Tinder was forced to investigate the theft of 40,000 user images, which a programmer took and made public as part of a “facial dataset,” while in October, Kaspersky Lab researchers discovered Tinder and other popular dating apps were easily exploitable.
+In November, it was also revealed that Tinder and other top apps were secretly tracking users.
+Charlie Nash is a reporter for Breitbart Tech. You can follow him on Twitter @MrNashington, or like his page at Facebook.

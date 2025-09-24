@@ -1,0 +1,16 @@
+Q&A: Samsung's Alex Hawkinson on Smart-Home Evolution
+NEW YORK — Many everyday appliances are connecting to the internet these days, allowing people to control them with apps and voice commands. More homes are embracing this, especially as people get comfortable using smart speakers such as the Amazon Echo and Google Home.
+For five years, SmartThings has been making smart-home products and a system for connecting similar products from other companies. Samsung bought the company in 2014 to expand its portfolio of internet-connected and automated services. SmartThings' founder and CEO, Alex Hawkinson, spoke with The Associated Press recently about how smart-home products are evolving. Questions and answers have been edited for length and clarity.
+___
+Q: What's the most common smart-home product, based on what you're seeing connected to SmartThings' systems?
+A: Eighty percent of our base has connected lighting. It's really simple to get started with the bulbs. You can go really deep with the in-wall switches and things. People love that it doesn't cross into the security and privacy concerns a lot of people have with connected speakers and cameras.
+Advertisement
+___
+Q: Wait, are these products safe?
+A: We pride ourselves in being leaders. Past problems tend to be low-quality devices, but they scare people. Obviously adoption is accelerating, so it's not the big holdback, but it would be wrong for me to say that's not a question. Have a conversation about connected locks with somebody, and you'll probably get like, "but it could be hacked," even though the reality is burglars are going to just break the door down.
+___
+Q: How are smartphones helping everyday people embrace smart homes?
+A: There's more connected to your phones in your life. A lot of people a couple years ago hadn't had the experience of pushing a button and seeing a car show up. Pushing a button and seeing some groceries, or some food show up. The continued maturity of the smartphone has caused consumers to recognize that the world is totally hyper-connected. That psychology makes it ready for people to say, "Why not have this?"
+___
+Q: How will artificial intelligence improve the experience?
+A: The No. 1 issue in security monitoring is false positives. You arm it, and you set it off when you come out to get a glass of water. AI's going to solve this. We can see in the pattern of data what's a false positive or not, without the user having to program stuff. When your smartphone is upstairs, and you are asleep because it hasn't been in use for a while, you can probably arm the security. But if you pick the phone up and there's been no motion downstairs, it's probably you coming downstairs.

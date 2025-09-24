@@ -1,0 +1,10 @@
+How come the links in charts don't work?
+Well, it says charts
+
+Several people have asked why some of our charts have what looks like a little clickable link saying "get the data" but then you can't actually click on anything. See Libby Nelson's beautiful and telling chart from this article for an example:
+
+We build it with the help of a fantastic chart tool called Datawrapper that allows our reporters to enter in complicated data sets and structures them in easy-to-read graphs and charts. The tool creates interactive charts that lets readers mouse over the results and dive deeper into the data. But when we loaded the charts up on our site, it turned out it was difficult to make Datawrapper's embedding function play nicely with Vox.com's responsive design. It didn't work on mobile devices, in other words. So we opted to usestatic images of Datawrapper charts rather than embed interactive charts.
+Nobody on the editorial or product teams is satisfied with this as the ultimate way to visually present quantitative information, and we are at work on both a really good solution and on creating a better interim solution. But in line with the overall spirit of the launch we didn't think it made sense to hold everything back until we could fully solve the problem.
+In the short term, we will get rid of those "get data" fake links in the static image. We still want to give credit to Datawrapper for their great tool, but we don't need to confuse people with non-functioning links. We'll be going over the site today to clean up our charts.
+Was this article helpful?
+ yes no

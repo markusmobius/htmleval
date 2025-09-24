@@ -1,0 +1,31 @@
+Climate scientists make a bold prediction about sea level rise | John Abraham
+John Fasullo and colleagues predict that satellites will detect accelerating sea level rise within the next decade
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A child looking at a ship is pictured on June 11, 2016 in Ghoramara Island, India. Ghoramara Island is an island 92 km south of Kolkata, in the Sundarban Delta complex of the Bay of Bengal. The island is roughly five square kilometers in area, and is quickly disappearing due to erosion and rise in sea level. Photograph: Sushavan Nandy / Barcroft Image
+
+One of the great things about science is that it allows you to make predictions. Three top climate scientists just made a very bold prediction regarding sea level rise; we should know in a few years if they are correct. 
+As humans emit greenhouse gases, it’s causing the Earth to warm. That’s indisputable and proven. We can actually measure the amount of extra heat. Since most of it ends up in the oceans, we can also measure other changes in the oceans.
+For instance, the oceans are rising. We know that’s indisputable. Measurements taken from physical gauges and from satellites confirm sea level rise. The cause of the rise is more complex. 
+Part of the rise is from ocean warming – warm water is less dense so the sea level rises as temperatures increase. Another part of the rise is from melting ice, especially ice that is currently on land (like glaciers and ice sheets). As this ice melts and flows into the oceans, the water levels rise. A third reason for sea level changes is from alterations of where water is stored on the planet. For instance, changing rainfall patterns and storage of water underground, in lakes, or in the atmosphere can affect sea levels. 
+The three ways we know sea levels are rising are from physical tide gauges, from satellites that measure the water height, and from satellites that measure where ice is stored across the globe. While tide gauge measurements go back many years, they only measure water levels at their location. Many tide gauges have to be in place to get an accurate sense of what is happening globally. 
+Satellites, on the other hand, are much more capable of taking global measurements. The problem with satellites is they have only been taking measurements since approximately 1993 (not nearly as long as tide gauges). So scientists try to combine these two measurements to get a long-term and global picture of what is really happening. 
+A very recent paper published in Nature has evaluated the history of sea level rise, and what they find is really interesting. The lead author (John Fasullo from the National Center for Atmospheric Research) and his colleagues tried to determine if the rate of sea level rise is changing. That is, are the water levels rising linearly, the same amount each year? Or, is the rate increasing (faster and faster each year)? 
+Using satellite data, the authors found little evidence of an acceleration. However, they show that this is because the satellites began measuring in 1993, right after a large volcanic eruption (Mount Pinatubo). This eruption temporarily reduced global warming because particles from the eruption blocked sunlight. Just by coincidence, the timing of the satellites and the eruption has affected the water rise so that it appears to be linear. Had the eruption not occurred, the rate would have increased.
+This allows the scientists to make a prediction: 
+barring another major volcanic eruption, a detectable acceleration is likely to emerge from the noise of internal climate variability in the coming decade.
+This means that the authors will be able to statistically observe an increase, even though the Earth experiences natural changes that may mask any increase.
+I communicated with Dr. Fasullo, asking him why this paper is so important. He told me:
+This article shows that the acceleration of sea level rise is real and ongoing. It is also an example of how climate models can play a key role in both the interpretation of observations and the prediction of near-future climate.
+While only time will tell if they are right, I’d put my money on the scientists. 
+ Topics

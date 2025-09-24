@@ -1,0 +1,709 @@
+Indianapolis Colts Roster - NFL Football
+special-teams TEAM LEADERS
+KICKING
+A. Vinatieri
+85.29 FG%
+PUNTING
+R. Sanchez
+44.81 AVG YDS
+KICK RETURNING
+Q. Bray
+430 YDS
+View All Player Statistics
+OFFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ James Wright 
+ WR 
+ 27 
+ 72 
+ 203 
+ 1991-12-31 
+ LSU 
+ active 
+ -- 
+ DeAndre Smelter 
+ WR 
+ 27 
+ 74 
+ 227 
+ 1991-12-03 
+ Georgia Tech 
+ active 
+ -- 
+ Seantavius Jones 
+ WR 
+ 26 
+ 75 
+ 200 
+ 1992-08-09 
+ Valdosta State 
+ active 
+ 10 
+ Donte Moncrief 
+ WR 
+ 25 
+ 74 
+ 216 
+ 1993-08-06 
+ Mississippi 
+ active 
+ 12 
+ Andrew Luck 
+ QB 
+ 29 
+ 76 
+ 240 
+ 1989-09-12 
+ Stanford 
+ active 
+ 13 
+ T.Y. Hilton 
+ WR 
+ 29 
+ 69 
+ 178 
+ 1989-11-14 
+ Florida International 
+ active 
+ 14 
+ Kolby Listenbee 
+ WR 
+ 24 
+ 72 
+ 183 
+ 1994-01-25 
+ TCU 
+ active 
+ 15 
+ K.J. Brent 
+ WR 
+ 25 
+ 75 
+ 202 
+ 1993-08-06 
+ Wake Forest 
+ active 
+ 16 
+ Scott Tolzien 
+ QB 
+ 31 
+ 74 
+ 215 
+ 1987-09-04 
+ Wisconsin 
+ active 
+ 17 
+ Kamar Aiken 
+ WR 
+ 29 
+ 74 
+ 216 
+ 1989-05-30 
+ Central Florida 
+ active 
+ 17 
+ Justice Liggins 
+ WR 
+ 24 
+ 73 
+ 210 
+ 1994-12-14 
+ Stephen F. Austin State 
+ active 
+ 23 
+ Frank Gore 
+ RB 
+ 35 
+ 69 
+ 212 
+ 1983-05-14 
+ Miami (FL) 
+ active 
+ 25 
+ Marlon Mack 
+ RB 
+ 22 
+ 72 
+ 210 
+ 1996-03-07 
+ South Florida 
+ active 
+ 33 
+ Robert Turbin 
+ RB 
+ 29 
+ 70 
+ 216 
+ 1989-12-02 
+ Utah State 
+ active 
+ 34 
+ Matt Jones 
+ RB 
+ 26 
+ 74 
+ 239 
+ 1992-03-07 
+ Florida 
+ active 
+ 37 
+ George Winn 
+ RB 
+ 28 
+ 71 
+ 215 
+ 1990-11-10 
+ Cincinnati 
+ active 
+ 38 
+ Christine Michael 
+ RB 
+ 28 
+ 70 
+ 220 
+ 1990-11-09 
+ Texas A&M 
+ active 
+ 39 
+ Josh Ferguson 
+ RB 
+ 25 
+ 70 
+ 205 
+ 1993-05-23 
+ Illinois 
+ active 
+ 43 
+ Ross Travis 
+ TE 
+ 25 
+ 79 
+ 235 
+ 1993-01-09 
+ Penn State 
+ active 
+ 45 
+ Jason Vander Laan 
+ TE 
+ 26 
+ 76 
+ 244 
+ 1992-09-22 
+ Ferris State 
+ active 
+ 47 
+ Darrell Daniels 
+ TE 
+ 24 
+ 75 
+ 246 
+ 1994-11-22 
+ Washington 
+ active 
+ 48 
+ Mo Alie-Cox 
+ TE 
+ 25 
+ 78 
+ 267 
+ 1993-09-19 
+ Virginia Commonwealth 
+ active 
+ 61 
+ Anthony Fabiano 
+ C 
+ 25 
+ 76 
+ 303 
+ 1993-07-13 
+ Harvard 
+ active 
+ 63 
+ Isaiah Williams 
+ G 
+ 25 
+ 75 
+ 306 
+ 1993-05-05 
+ Akron 
+ active 
+ 64 
+ Mark Glowinski 
+ G 
+ 26 
+ 76 
+ 310 
+ 1992-05-03 
+ West Virginia 
+ active 
+ 67 
+ Jeremy Vujnovich 
+ G 
+ 28 
+ 77 
+ 300 
+ 1990-10-12 
+ Louisiana College 
+ active 
+ 69 
+ Deyshawn Bond 
+ G 
+ 24 
+ 73 
+ 299 
+ 1994-08-19 
+ Cincinnati 
+ active 
+ 7 
+ Jacoby Brissett 
+ QB 
+ 26 
+ 76 
+ 235 
+ 1992-12-11 
+ North Carolina State 
+ active 
+ 72 
+ Mike Person 
+ C 
+ 30 
+ 76 
+ 300 
+ 1988-06-17 
+ Montana State 
+ active 
+ 78 
+ Ryan Kelly 
+ C 
+ 25 
+ 76 
+ 309 
+ 1993-05-30 
+ Alabama 
+ active 
+ 8 
+ Phillip Walker 
+ QB 
+ 23 
+ 71 
+ 216 
+ 1995-02-26 
+ Temple 
+ active 
+ 80 
+ Chester Rogers 
+ WR 
+ 24 
+ 73 
+ 184 
+ 1994-01-12 
+ Grambling State 
+ active 
+ 81 
+ Krishawn Hogan 
+ WR 
+ 23 
+ 75 
+ 222 
+ 1995-05-12 
+ Marian 
+ active 
+ 83 
+ Dres Anderson 
+ WR 
+ 26 
+ 74 
+ 190 
+ 1992-07-20 
+ Utah 
+ active 
+ 84 
+ Jack Doyle 
+ TE 
+ 28 
+ 78 
+ 262 
+ 1990-05-05 
+ Western Kentucky 
+ active 
+ 85 
+ Brandon Williams 
+ TE 
+ 31 
+ 75 
+ 260 
+ 1987-10-12 
+ Oregon 
+ active 
+ 86 
+ Erik Swoope 
+ TE 
+ 26 
+ 77 
+ 258 
+ 1992-05-08 
+ Miami (FL) 
+ active 
+ 9 
+ Brad Kaaya 
+ QB 
+ 23 
+ 76 
+ 215 
+ 1995-09-03 
+ Miami (FL) 
+ active 
+DEFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 20 
+ Darius Butler 
+ S 
+ 32 
+ 70 
+ 192 
+ 1986-03-18 
+ Connecticut 
+ active 
+ 26 
+ Clayton Geathers 
+ S 
+ 26 
+ 74 
+ 220 
+ 1992-06-01 
+ Central Florida 
+ active 
+ 27 
+ Nate Hairston 
+ CB 
+ 24 
+ 72 
+ 195 
+ 1994-06-30 
+ Temple 
+ active 
+ 28 
+ Chris Milton 
+ CB 
+ 26 
+ 71 
+ 196 
+ 1992-09-15 
+ Georgia Tech 
+ active 
+ 29 
+ Malik Hooker 
+ S 
+ 22 
+ 74 
+ 212 
+ 1996-04-01 
+ Ohio State 
+ active 
+ 30 
+ Rashaan Melvin 
+ CB 
+ 29 
+ 74 
+ 196 
+ 1989-10-02 
+ Northern Illinois 
+ active 
+ 31 
+ Quincy Wilson 
+ CB 
+ 22 
+ 73 
+ 206 
+ 1996-08-16 
+ Florida 
+ active 
+ 32 
+ T.J. Green 
+ S 
+ 23 
+ 75 
+ 211 
+ 1995-05-15 
+ Clemson 
+ active 
+ 35 
+ Pierre Desir 
+ CB 
+ 28 
+ 74 
+ 198 
+ 1990-09-08 
+ Lindenwood 
+ active 
+ 37 
+ D.J. White 
+ CB 
+ 25 
+ 71 
+ 193 
+ 1993-09-09 
+ Georgia Tech 
+ active 
+ 40 
+ Ronald Martin 
+ S 
+ 25 
+ 74 
+ 220 
+ 1993-02-26 
+ LSU 
+ active 
+ 41 
+ Matthias Farley 
+ S 
+ 26 
+ 71 
+ 209 
+ 1992-07-15 
+ Notre Dame 
+ active 
+ 42 
+ Kenny Moore 
+ CB 
+ 23 
+ 69 
+ 190 
+ 1995-08-23 
+ Valdosta State 
+ active 
+ 44 
+ Antonio Morrison 
+ LB 
+ 24 
+ 73 
+ 241 
+ 1994-12-06 
+ Florida 
+ active 
+ 48 
+ Darnell Sankey 
+ LB 
+ 24 
+ 74 
+ 250 
+ 1994-10-11 
+ Sacramento State 
+ active 
+ 49 
+ Joshua Perry 
+ LB 
+ 24 
+ 76 
+ 253 
+ 1994-04-26 
+ Ohio State 
+ active 
+ 50 
+ Anthony Walker Jr. 
+ LB 
+ 23 
+ 73 
+ 242 
+ 1995-08-08 
+ Northwestern 
+ active 
+ 51 
+ John Simon 
+ LB 
+ 28 
+ 73 
+ 250 
+ 1990-10-14 
+ Ohio State 
+ active 
+ 52 
+ Barkevious Mingo 
+ LB 
+ 28 
+ 76 
+ 239 
+ 1990-10-04 
+ LSU 
+ active 
+ 53 
+ Edwin Jackson 
+ LB 
+ 27 
+ 72 
+ 234 
+ 1991-12-19 
+ Georgia Southern 
+ active 
+ 55 
+ Arthur Miley 
+ LB 
+ 25 
+ 78 
+ 270 
+ 1993-03-03 
+ Southern 
+ active 
+ 56 
+ Jermaine Grace 
+ LB 
+ 25 
+ 73 
+ 223 
+ 1993-11-08 
+ Miami (FL) 
+ active 
+ 56 
+ Johnathan Calvin 
+ DT 
+ 25 
+ 75 
+ 266 
+ 1993-11-28 
+ Mississippi State 
+ active 
+ 57 
+ Jon Bostic 
+ LB 
+ 27 
+ 73 
+ 245 
+ 1991-05-05 
+ Florida 
+ active 
+ 58 
+ Tarell Basham 
+ LB 
+ 24 
+ 76 
+ 266 
+ 1994-03-18 
+ Ohio 
+ active 
+ 59 
+ Jeremiah George 
+ LB 
+ 26 
+ 71 
+ 234 
+ 1992-01-24 
+ Iowa State 
+ active 
+ 68 
+ Caraun Reid 
+ DT 
+ 27 
+ 74 
+ 298 
+ 1991-11-23 
+ Princeton 
+ active 
+ 90 
+ Grover Stewart 
+ DT 
+ 25 
+ 76 
+ 333 
+ 1993-10-20 
+ Albany State (Ga.) 
+ active 
+ 91 
+ Hassan Ridgeway 
+ DT 
+ 24 
+ 75 
+ 318 
+ 1994-11-02 
+ Texas 
+ active 
+ 92 
+ Margus Hunt 
+ DE 
+ 31 
+ 80 
+ 298 
+ 1987-07-14 
+ SMU 
+ active 
+ 93 
+ Jabaal Sheard 
+ LB 
+ 29 
+ 75 
+ 265 
+ 1989-05-10 
+ Pittsburgh 
+ active 
+ 95 
+ Johnathan Hankins 
+ DT 
+ 26 
+ 74 
+ 325 
+ 1992-03-29 
+ Ohio State 
+ active 
+ 96 
+ Henry Anderson 
+ DT 
+ 27 
+ 78 
+ 301 
+ 1991-08-03 
+ Stanford 
+ active 
+ 97 
+ Anthony Johnson 
+ DE 
+ 25 
+ 74 
+ 295 
+ 1993-01-24 
+ LSU 
+ active 
+SPECIAL TEAMS
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 2 
+ Rigoberto Sanchez 
+ P 
+ 24 
+ 72 
+ 195 
+ 1994-09-08 
+ Hawaii 
+ active 
+ 46 
+ Luke Rhodes 
+ LS 
+ 26 
+ 74 
+ 238 
+ 1992-12-02 
+ William & Mary 
+ active 
+^ Jump to top

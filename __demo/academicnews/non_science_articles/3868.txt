@@ -1,0 +1,346 @@
+NBA Sagarin - NBA Basketball
+New_Feature
+just click on "New_Feature" and it will take you to the daily predictions at bottom of file
+
+NBA 2017-2018 ratings through results of 2018 JANUARY 23 TUESDAY
+
+this output has three parts: (1) teams listed by RATING top-to-bottom
+ (2) DIVISION AVERAGES
+ (listed top-to-bottom & by conference)
+ (3) teams listed by DIVISION
+ (listed in order within divisions)
+The SCHEDULE ratings represent what the rating would have to be for a
+hypothetical team to have a mathematical expectation of winning precisely 50%
+of their games against the schedule played by the team in question in the games
+that it has played so far. The schedule difficulty of each given game takes
+into account the rating of the opponent and the location of the game. This
+is the same concept that is used in computing the WIN50% conference ratings.
+To make predictions for upcoming games, simply compare the RATINGS of
+the teams in question and allow an ADDITIONAL 3 points for the home
+team. Thus, for example, a HOME team with a rating of 97 would be
+favored by 5 points over a VISITING team having a rating of 95.
+Or a VISITING team with a rating of 94 would be favored by 7 points
+over a HOME team having a rating of 84.
+NOTE: Use whatever home advantage is listed in the output below.
+ In the example just above, a home edge of 3 was shown for
+ illustrative purposes. The home edge will vary during the season.
+Several different home edges are shown, one for each of the several different type of ratings
+directly over their respective columns.
+The numbers to the right of a team's schedule strength are its rank of
+schedule - (in parentheses) - and its record versus teams in these
+rating's CURRENT top 10 and CURRENT top 16 respectively.
+Teams that appear to be tied to two decimal places in a given column are actually
+different when carried to more decimal places in the computer's internal arithmetic.
+----------------------------------------------------------------------------------------------------------------
+The PREDICTOR, is such that the score is the only thing that matters.
+PREDICTOR is also known as PURE_POINTS, BALLANTINE, RHEINGOLD, WHITE OWL
+and is a very good PREDICTOR of future games.
+----------------------------------------------------------------------------------------------------------------
+GOLDEN_MEAN also utilizes the actual SCORES of the games in a different way but is also completely SCORE BASED
+and thus should be a good match for the PURE POINTS in terms of predictive accuracy for upcoming games.
+----------------------------------------------------------------------------------------------------------------
+The RECENT, is score-based and weights RECENT play more heavily than earlier games. Its effect will become
+more pronounced the longer a season goes if a given team happens to have an upward or downward trend.
+----------------------------------------------------------------------------------------------------------------
+The overall RATING is a synthesis of the three different SCORE-BASED methods, PREDICTOR(PURE_POINTS), GOLDEN_MEAN,
+and RECENT and thus should be a good predictor in its own right.
+____________________________________________________________________________________________________________________________________
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 1 Golden State Warriors = 99.11 38 10 90.18( 10) 10 4 | 21 7 | 99.23 1 | 99.57 1 | 96.33 2
+ 2 Houston Rockets = 96.77 33 12 89.58( 26) 6 6 | 13 8 | 97.02 2 | 96.55 2 | 97.13 1
+ 3 Toronto Raptors = 95.52 31 14 89.87( 17) 7 8 | 12 11 | 95.87 3 | 95.46 3 | 93.42 7
+ 4 Boston Celtics = 93.76 34 14 89.08( 30) 10 4 | 14 7 | 93.72 5 | 94.35 4 | 88.99 18
+ 5 Oklahoma City Thunder = 93.63 27 20 89.59( 25) 7 5 | 11 10 | 93.83 4 | 93.39 7 | 95.10 5
+ 6 Minnesota Timberwolves = 93.40 31 18 89.82( 20) 6 7 | 18 9 | 93.26 7 | 93.43 6 | 95.10 4
+ 7 San Antonio Spurs = 93.18 31 18 89.56( 27) 5 7 | 13 9 | 93.28 6 | 93.53 5 | 88.90 19
+ 8 Philadelphia 76ers = 91.28 22 21 90.91( 1) 6 13 | 9 15 | 91.30 8 | 91.06 10 | 95.29 3
+ 9 Cleveland Cavaliers = 91.02 27 19 89.52( 28) 5 8 | 10 9 | 90.62 11 | 91.75 8 | 85.24 27
+ 10 Washington Wizards = 90.87 26 21 89.11( 29) 5 5 | 10 10 | 90.91 9 | 91.15 9 | 86.47 25
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 11 Portland Trail Blazers = 90.72 25 22 89.61( 24) 5 10 | 9 15 | 90.73 10 | 90.68 11 | 91.31 11
+ 12 New Orleans Pelicans = 90.60 25 21 90.15( 11) 5 10 | 10 13 | 90.37 14 | 90.61 13 | 93.98 6
+ 13 Denver Nuggets = 90.49 24 23 89.69( 23) 3 10 | 8 14 | 90.58 12 | 90.68 12 | 86.52 24
+ 14 Los Angeles Clippers = 90.47 23 23 89.86( 18) 5 12 | 8 16 | 90.54 13 | 90.36 14 | 91.28 13
+ 15 Charlotte Hornets = 89.87 19 26 90.06( 12) 5 13 | 7 18 | 90.06 15 | 89.60 18 | 91.54 9
+ 16 Miami Heat = 89.87 27 20 90.01( 14) 5 9 | 10 12 | 89.49 19 | 90.13 15 | 90.83 15
+ 17 Detroit Pistons = 89.73 22 23 90.35( 9) 7 11 | 10 15 | 90.00 16 | 89.76 17 | 84.79 28
+ 18 Milwaukee Bucks = 89.71 24 22 90.03( 13) 7 11 | 11 16 | 89.38 20 | 90.03 16 | 89.34 17
+ 19 Utah Jazz = 89.54 19 28 90.51( 3) 6 13 | 12 20 | 89.86 17 | 89.40 19 | 87.57 21
+ 20 Indiana Pacers = 89.51 25 22 89.71( 21) 7 9 | 9 14 | 89.51 18 | 89.39 20 | 91.31 12
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 21 Dallas Mavericks = 88.51 16 31 90.74( 2) 6 15 | 10 20 | 88.97 21 | 88.00 21 | 89.92 16
+ 22 Memphis Grizzlies = 88.16 17 29 90.35( 8) 5 12 | 10 19 | 88.21 22 | 87.84 22 | 91.52 10
+ 23 New York Knicks = 87.58 21 27 89.84( 19) 4 12 | 9 16 | 87.74 23 | 87.51 23 | 86.57 22
+ 24 Los Angeles Lakers = 87.26 18 29 90.37( 7) 5 14 | 7 22 | 87.19 24 | 86.90 24 | 91.99 8
+ 25 Brooklyn Nets = 86.22 18 30 89.91( 16) 5 12 | 8 17 | 86.51 25 | 85.94 25 | 86.39 26
+ 26 Orlando Magic = 85.40 14 33 90.42( 6) 5 11 | 7 21 | 85.48 26 | 85.42 26 | 84.03 29
+ 27 Chicago Bulls = 85.30 18 29 90.42( 5) 2 15 | 5 21 | 84.61 28 | 85.11 27 | 90.93 14
+ 28 Atlanta Hawks = 85.01 14 32 89.70( 22) 3 11 | 7 18 | 85.23 27 | 84.37 29 | 88.38 20
+ 29 Phoenix Suns = 84.51 17 30 89.96( 15) 5 12 | 6 20 | 83.94 29 | 84.74 28 | 86.57 23
+ 30 Sacramento Kings = 83.00 14 33 90.47( 4) 5 11 | 8 21 | 82.60 30 | 83.29 30 | 83.25 30
+____________________________________________________________________________________________________________________________________
+Divisional Rankings
+There are three group ratings, the "central mean", the
+"simple average" (also known as the "arithmetic mean",)
+and the WIN50%.
+The "central mean" gives the most weight to the middle team(s)
+in the group and progressively less weight to teams as you go
+away from the middle in either direction, up or down.
+This tends to smooth out the effect of anomalous teams that are rated
+much higher and lower than the middle team(s) in the group. The
+"simple average" ("arithmetic mean") weights each team equally
+no matter where they are relative to the middle.
+Here are a few examples of how the "central mean" is computed.
+ 4-team group ___ the weights are 1-2-2-1
+ 5-team group ___ the weights are 1-2-3-2-1
+ 6-team group ___ the weights are 1-2-3-3-2-1
+ 7-team group ___ the weights are 1-2-3-4-3-2-1
+ 8-team group ___ the weights are 1-2-3-4-4-3-2-1
+ 9-team group ___ the weights are 1-2-3-4-5-4-3-2-1
+ 10-team group ___ the weights are 1-2-3-4-5-5-4-3-2-1
+ 11-team group ___ the weights are 1-2-3-4-5-6-5-4-3-2-1
+ 12-team group ___ the weights are 1-2-3-4-5-6-6-5-4-3-2-1
+ 13-team group ___ the weights are 1-2-3-4-5-6-7-6-5-4-3-2-1
+This is an expanded version of the "tri-mean".
+The WIN50% is the rating required to win 50% of the games if playing an
+infinite number of round-robins in the given group at a neutral location.
+ DIVISION CENTRAL MEAN SIMPLE AVERAGE TEAMS WIN50%
+ 1 NORTHWEST (west) = 91.46 91.56 ( 1) 5 91.55 ( 1)
+ 2 SOUTHWEST (west) = 91.12 91.44 ( 2) 5 91.40 ( 2)
+ 3 ATLANTIC (EAST) = 90.92 90.87 ( 3) 5 90.88 ( 3)
+ 4 CENTRAL (EAST) = 89.32 89.05 ( 4) 5 89.08 ( 4)
+ 5 SOUTHEAST (EAST) = 88.45 88.21 ( 6) 5 88.22 ( 6)
+ 6 PACIFIC (west) = 88.21 88.87 ( 5) 5 88.58 ( 5)
+ DIVISION CENTRAL MEAN SIMPLE AVERAGE TEAMS WIN50%
+ 3 ATLANTIC (EAST) = 90.92 90.87 ( 3) 5 90.88 ( 3)
+ 4 CENTRAL (EAST) = 89.32 89.05 ( 4) 5 89.08 ( 4)
+ 5 SOUTHEAST (EAST) = 88.45 88.21 ( 6) 5 88.22 ( 6)
+ 2 SOUTHWEST (west) = 91.12 91.44 ( 2) 5 91.40 ( 2)
+ 1 NORTHWEST (west) = 91.46 91.56 ( 1) 5 91.55 ( 1)
+ 6 PACIFIC (west) = 88.21 88.87 ( 5) 5 88.58 ( 5)
+__________________________________________________________________________________________________
+By Division
+____________________________________________________________________________________________________________________________________
+ 3 ATLANTIC (EAST) = 90.92 90.87 ( 3) TEAMS= 5 90.88 ( 3)
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 3 Toronto Raptors = 95.52 31 14 89.87( 17) 7 8 | 12 11 | 95.87 3 | 95.46 3 | 93.42 7
+ 4 Boston Celtics = 93.76 34 14 89.08( 30) 10 4 | 14 7 | 93.72 5 | 94.35 4 | 88.99 18
+ 8 Philadelphia 76ers = 91.28 22 21 90.91( 1) 6 13 | 9 15 | 91.30 8 | 91.06 10 | 95.29 3
+ 23 New York Knicks = 87.58 21 27 89.84( 19) 4 12 | 9 16 | 87.74 23 | 87.51 23 | 86.57 22
+ 25 Brooklyn Nets = 86.22 18 30 89.91( 16) 5 12 | 8 17 | 86.51 25 | 85.94 25 | 86.39 26
+____________________________________________________________________________________________________________________________________
+ 4 CENTRAL (EAST) = 89.32 89.05 ( 4) TEAMS= 5 89.08 ( 4)
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 9 Cleveland Cavaliers = 91.02 27 19 89.52( 28) 5 8 | 10 9 | 90.62 11 | 91.75 8 | 85.24 27
+ 17 Detroit Pistons = 89.73 22 23 90.35( 9) 7 11 | 10 15 | 90.00 16 | 89.76 17 | 84.79 28
+ 18 Milwaukee Bucks = 89.71 24 22 90.03( 13) 7 11 | 11 16 | 89.38 20 | 90.03 16 | 89.34 17
+ 20 Indiana Pacers = 89.51 25 22 89.71( 21) 7 9 | 9 14 | 89.51 18 | 89.39 20 | 91.31 12
+ 27 Chicago Bulls = 85.30 18 29 90.42( 5) 2 15 | 5 21 | 84.61 28 | 85.11 27 | 90.93 14
+____________________________________________________________________________________________________________________________________
+ 5 SOUTHEAST (EAST) = 88.45 88.21 ( 6) TEAMS= 5 88.22 ( 6)
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 10 Washington Wizards = 90.87 26 21 89.11( 29) 5 5 | 10 10 | 90.91 9 | 91.15 9 | 86.47 25
+ 15 Charlotte Hornets = 89.87 19 26 90.06( 12) 5 13 | 7 18 | 90.06 15 | 89.60 18 | 91.54 9
+ 16 Miami Heat = 89.87 27 20 90.01( 14) 5 9 | 10 12 | 89.49 19 | 90.13 15 | 90.83 15
+ 26 Orlando Magic = 85.40 14 33 90.42( 6) 5 11 | 7 21 | 85.48 26 | 85.42 26 | 84.03 29
+ 28 Atlanta Hawks = 85.01 14 32 89.70( 22) 3 11 | 7 18 | 85.23 27 | 84.37 29 | 88.38 20
+____________________________________________________________________________________________________________________________________
+ 2 SOUTHWEST (west) = 91.12 91.44 ( 2) TEAMS= 5 91.40 ( 2)
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 2 Houston Rockets = 96.77 33 12 89.58( 26) 6 6 | 13 8 | 97.02 2 | 96.55 2 | 97.13 1
+ 7 San Antonio Spurs = 93.18 31 18 89.56( 27) 5 7 | 13 9 | 93.28 6 | 93.53 5 | 88.90 19
+ 12 New Orleans Pelicans = 90.60 25 21 90.15( 11) 5 10 | 10 13 | 90.37 14 | 90.61 13 | 93.98 6
+ 21 Dallas Mavericks = 88.51 16 31 90.74( 2) 6 15 | 10 20 | 88.97 21 | 88.00 21 | 89.92 16
+ 22 Memphis Grizzlies = 88.16 17 29 90.35( 8) 5 12 | 10 19 | 88.21 22 | 87.84 22 | 91.52 10
+____________________________________________________________________________________________________________________________________
+ 1 NORTHWEST (west) = 91.46 91.56 ( 1) TEAMS= 5 91.55 ( 1)
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 5 Oklahoma City Thunder = 93.63 27 20 89.59( 25) 7 5 | 11 10 | 93.83 4 | 93.39 7 | 95.10 5
+ 6 Minnesota Timberwolves = 93.40 31 18 89.82( 20) 6 7 | 18 9 | 93.26 7 | 93.43 6 | 95.10 4
+ 11 Portland Trail Blazers = 90.72 25 22 89.61( 24) 5 10 | 9 15 | 90.73 10 | 90.68 11 | 91.31 11
+ 13 Denver Nuggets = 90.49 24 23 89.69( 23) 3 10 | 8 14 | 90.58 12 | 90.68 12 | 86.52 24
+ 19 Utah Jazz = 89.54 19 28 90.51( 3) 6 13 | 12 20 | 89.86 17 | 89.40 19 | 87.57 21
+____________________________________________________________________________________________________________________________________
+ 6 PACIFIC (west) = 88.21 88.87 ( 5) TEAMS= 5 88.58 ( 5)
+NBA 2017-2018 through games of 2018 January 23 Tuesday 
+ RATING W L SCHEDL(RANK) VS top 10 | VS top 16 | PREDICTOR | GOLDEN_MEAN | RECENT 
+ HOME ADVANTAGE=[ 2.62] [ 2.62] [ 2.62] [ 2.62]
+ 1 Golden State Warriors = 99.11 38 10 90.18( 10) 10 4 | 21 7 | 99.23 1 | 99.57 1 | 96.33 2
+ 14 Los Angeles Clippers = 90.47 23 23 89.86( 18) 5 12 | 8 16 | 90.54 13 | 90.36 14 | 91.28 13
+ 24 Los Angeles Lakers = 87.26 18 29 90.37( 7) 5 14 | 7 22 | 87.19 24 | 86.90 24 | 91.99 8
+ 29 Phoenix Suns = 84.51 17 30 89.96( 15) 5 12 | 6 20 | 83.94 29 | 84.74 28 | 86.57 23
+ 30 Sacramento Kings = 83.00 14 33 90.47( 4) 5 11 | 8 21 | 82.60 30 | 83.29 30 | 83.25 30
+____________________________________________________________________________________________________________________________________
+New_Feature
+HOME team in CAPS (if both teams in lower case, game is at neutral location)
+The HOME ADVANTAGE has been factored in for all HOME and CLOSEBY games. No home edge is applied in neutral games.
+In a CLOSEBY game, half of the normal home advantage has been applied.
+Regular Method Predictions "New Feature" Offense-Defense Method Predictions
+FAVORITE Rating Points Gold Recent UNDERDOG FAVORITE WINNER LOSER SPREAD TOTAL UNDERDOG
+===========================================================================================================================
+minnesota timber 0.05 -0.10 0.12 1.17 PORTLAND TRAIL B minnesota timber 104.42 - 104.00 0.42 208.43 PORTLAND TRAIL B
+boston celtics 0.67 0.56 1.36 -4.91 LOS ANGELES CLIP boston celtics 103.05 - 101.78 1.27 204.83 LOS ANGELES CLIP
+CHARLOTTE HORNET 1.90 2.31 1.62 0.18 new orleans peli CHARLOTTE HORNET 112.56 - 110.86 1.70 223.42 new orleans peli
+san antonio spur 2.41 2.44 3.06 -5.24 MEMPHIS GRIZZLIE san antonio spur 94.97 - 92.37 2.60 187.34 MEMPHIS GRIZZLIE
+DETROIT PISTONS 2.81 2.76 2.99 -0.16 utah jazz DETROIT PISTONS 98.74 - 95.77 2.96 194.51 utah jazz
+houston rockets 5.63 5.43 5.93 4.59 DALLAS MAVERICKS houston rockets 111.30 - 105.24 6.06 216.55 DALLAS MAVERICKS
+INDIANA PACERS 7.62 8.19 7.27 7.36 phoenix suns INDIANA PACERS 114.35 - 104.72 9.63 219.08 phoenix suns
+toronto raptors 7.88 8.02 8.47 2.41 ATLANTA HAWKS toronto raptors 111.62 - 102.52 9.10 214.14 ATLANTA HAWKS
+PHILADELPHIA 76E 8.60 9.31 8.57 6.98 chicago bulls PHILADELPHIA 76E 112.61 - 103.47 9.13 216.08 chicago bulls
+===========================================================================================================================
+COMBO is the combining of the ELO and the BLUE. ELO and BLUE are set to be on the same scale
+ and so are directly comparable and of course the COMBO is set to that same scale.
+ ELO uses only who the winner and loser was of each game and of course the game location.
+ So the difference in ELO between winning by 1 and losing by 1 is very large.
+ BLUE cares only about the score and game location and so in BLUE, the difference between
+ winning by 1 and losing by 1 is simply only 2 points which would be the same difference
+ as winning by 20 as compared to winning by 18 ... very small.
+ BLUE is an acronym which stands for "BestLinearUnbiasedEstimator" also known as "pure-least-squares."
+The ELO and the BLUE and thus the COMBO are all "unbiased" in that they consider only results from the season in question.
+Starting ratings have no bearing at all.
+Predictions for these ratings are found below at the bottom of the file.
+___________________________________________________________________________________________________________________________
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 1 Golden State Warriors = 99.50 38 10 90.03( 13) 12 4 | 19 6 100.38( 1) 98.95( 1)
+ 2 Houston Rockets = 96.88 33 12 89.50( 28) 7 5 | 13 7 96.40( 2) 97.54( 2)
+ 3 Toronto Raptors = 95.84 31 14 89.99( 15) 8 7 | 12 11 94.99( 4) 97.13( 3)
+ 4 Boston Celtics = 94.59 34 14 89.19( 29) 10 4 | 15 8 96.13( 3) 93.56( 4)
+ 5 Minnesota Timberwolves = 93.49 31 18 89.64( 22) 9 6 | 15 11 93.66( 5) 93.35( 6)
+ 6 San Antonio Spurs = 92.95 31 18 89.57( 25) 5 8 | 10 12 93.02( 6) 92.90( 7)
+ 7 Oklahoma City Thunder = 92.50 27 20 89.54( 27) 7 6 | 10 10 91.64( 10) 93.53( 5)
+ 8 Philadelphia 76ers = 91.76 22 21 90.94( 1) 5 13 | 12 15 91.61( 11) 91.93( 8)
+ 9 New Orleans Pelicans = 91.05 25 21 90.09( 11) 5 9 | 11 13 91.66( 9) 90.49( 12)
+ 10 Cleveland Cavaliers = 91.04 27 19 89.62( 23) 3 9 | 8 12 92.65( 7) 89.62( 17)
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 11 Indiana Pacers = 90.68 25 22 89.91( 18) 7 10 | 10 17 90.75( 12) 90.64( 9)
+ 12 Portland Trail Blazers = 90.66 25 22 89.55( 26) 5 11 | 10 14 90.74( 13) 90.60( 10)
+ 13 Miami Heat = 90.62 27 20 90.09( 10) 4 9 | 8 14 92.03( 8) 89.30( 19)
+ 14 Washington Wizards = 90.15 26 21 89.08( 30) 6 5 | 12 7 89.88( 15) 90.45( 13)
+ 15 Detroit Pistons = 90.14 22 23 90.47( 5) 7 9 | 11 15 89.79( 16) 90.50( 11)
+ 16 Denver Nuggets = 89.89 24 23 89.61( 24) 5 10 | 9 13 89.65( 17) 90.15( 14)
+ 17 Los Angeles Clippers = 89.53 23 23 89.65( 21) 4 12 | 7 16 88.92( 18) 90.15( 15)
+ 18 Milwaukee Bucks = 89.50 24 22 90.01( 14) 5 11 | 12 16 90.32( 14) 88.68( 21)
+ 19 Charlotte Hornets = 89.01 19 26 90.04( 12) 3 13 | 7 18 87.95( 21) 90.02( 16)
+ 20 Utah Jazz = 88.81 19 28 90.46( 6) 5 14 | 10 19 87.99( 20) 89.60( 18)
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 21 New York Knicks = 88.33 21 27 89.90( 19) 5 12 | 8 18 88.10( 19) 88.57( 22)
+ 22 Dallas Mavericks = 87.64 16 31 90.63( 2) 5 16 | 10 19 85.85( 26) 89.04( 20)
+ 23 Memphis Grizzlies = 87.10 17 29 90.29( 8) 7 11 | 8 18 86.02( 25) 88.00( 23)
+ 24 Los Angeles Lakers = 86.96 18 29 90.27( 9) 4 14 | 8 18 86.81( 23) 87.13( 24)
+ 25 Brooklyn Nets = 86.88 18 30 89.96( 16) 3 12 | 9 21 86.73( 24) 87.04( 25)
+ 26 Chicago Bulls = 86.72 18 29 90.53( 4) 2 16 | 5 24 87.79( 22) 85.33( 27)
+ 27 Atlanta Hawks = 85.17 14 32 89.75( 20) 3 11 | 7 18 84.41( 29) 85.79( 26)
+ 28 Orlando Magic = 84.83 14 33 90.55( 3) 6 10 | 8 21 84.53( 28) 85.12( 28)
+ 29 Phoenix Suns = 84.77 17 30 89.92( 17) 4 12 | 6 20 85.76( 27) 83.27( 29)
+ 30 Sacramento Kings = 83.01 14 33 90.29( 7) 6 10 | 8 17 83.85( 30) 81.62( 30)
+___________________________________________________________________________________________________________________________
+ DIVISION WIN50% ARITH.MEAN TEAMS
+ 1 ATLANTIC (EAST) = 91.49 91.48 5 ( 1)
+ 2 SOUTHWEST (west) = 91.08 91.12 5 ( 2)
+ 3 NORTHWEST (west) = 91.07 91.07 5 ( 3)
+ 4 CENTRAL (EAST) = 89.63 89.62 5 ( 4)
+ 5 PACIFIC (west) = 88.38 88.75 5 ( 5)
+ 6 SOUTHEAST (EAST) = 87.97 87.95 5 ( 6)
+ DIVISION WIN50% ARITH.MEAN TEAMS
+ 1 ATLANTIC (EAST) = 91.49 91.48 5 ( 1)
+ 4 CENTRAL (EAST) = 89.63 89.62 5 ( 4)
+ 6 SOUTHEAST (EAST) = 87.97 87.95 5 ( 6)
+ 2 SOUTHWEST (west) = 91.08 91.12 5 ( 2)
+ 3 NORTHWEST (west) = 91.07 91.07 5 ( 3)
+ 5 PACIFIC (west) = 88.38 88.75 5 ( 5)
+___________________________________________________________________________________________________________________________
+ 1 ATLANTIC (EAST) = 91.49 91.48
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 3 Toronto Raptors = 95.84 31 14 89.99( 15) 8 7 | 12 11 94.99( 4) 97.13( 3)
+ 4 Boston Celtics = 94.59 34 14 89.19( 29) 10 4 | 15 8 96.13( 3) 93.56( 4)
+ 8 Philadelphia 76ers = 91.76 22 21 90.94( 1) 5 13 | 12 15 91.61( 11) 91.93( 8)
+ 21 New York Knicks = 88.33 21 27 89.90( 19) 5 12 | 8 18 88.10( 19) 88.57( 22)
+ 25 Brooklyn Nets = 86.88 18 30 89.96( 16) 3 12 | 9 21 86.73( 24) 87.04( 25)
+___________________________________________________________________________________________________________________________
+ 4 CENTRAL (EAST) = 89.63 89.62
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 10 Cleveland Cavaliers = 91.04 27 19 89.62( 23) 3 9 | 8 12 92.65( 7) 89.62( 17)
+ 11 Indiana Pacers = 90.68 25 22 89.91( 18) 7 10 | 10 17 90.75( 12) 90.64( 9)
+ 15 Detroit Pistons = 90.14 22 23 90.47( 5) 7 9 | 11 15 89.79( 16) 90.50( 11)
+ 18 Milwaukee Bucks = 89.50 24 22 90.01( 14) 5 11 | 12 16 90.32( 14) 88.68( 21)
+ 26 Chicago Bulls = 86.72 18 29 90.53( 4) 2 16 | 5 24 87.79( 22) 85.33( 27)
+___________________________________________________________________________________________________________________________
+ 6 SOUTHEAST (EAST) = 87.97 87.95
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 13 Miami Heat = 90.62 27 20 90.09( 10) 4 9 | 8 14 92.03( 8) 89.30( 19)
+ 14 Washington Wizards = 90.15 26 21 89.08( 30) 6 5 | 12 7 89.88( 15) 90.45( 13)
+ 19 Charlotte Hornets = 89.01 19 26 90.04( 12) 3 13 | 7 18 87.95( 21) 90.02( 16)
+ 27 Atlanta Hawks = 85.17 14 32 89.75( 20) 3 11 | 7 18 84.41( 29) 85.79( 26)
+ 28 Orlando Magic = 84.83 14 33 90.55( 3) 6 10 | 8 21 84.53( 28) 85.12( 28)
+___________________________________________________________________________________________________________________________
+ 2 SOUTHWEST (west) = 91.08 91.12
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 2 Houston Rockets = 96.88 33 12 89.50( 28) 7 5 | 13 7 96.40( 2) 97.54( 2)
+ 6 San Antonio Spurs = 92.95 31 18 89.57( 25) 5 8 | 10 12 93.02( 6) 92.90( 7)
+ 9 New Orleans Pelicans = 91.05 25 21 90.09( 11) 5 9 | 11 13 91.66( 9) 90.49( 12)
+ 22 Dallas Mavericks = 87.64 16 31 90.63( 2) 5 16 | 10 19 85.85( 26) 89.04( 20)
+ 23 Memphis Grizzlies = 87.10 17 29 90.29( 8) 7 11 | 8 18 86.02( 25) 88.00( 23)
+___________________________________________________________________________________________________________________________
+ 3 NORTHWEST (west) = 91.07 91.07
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 5 Minnesota Timberwolves = 93.49 31 18 89.64( 22) 9 6 | 15 11 93.66( 5) 93.35( 6)
+ 7 Oklahoma City Thunder = 92.50 27 20 89.54( 27) 7 6 | 10 10 91.64( 10) 93.53( 5)
+ 12 Portland Trail Blazers = 90.66 25 22 89.55( 26) 5 11 | 10 14 90.74( 13) 90.60( 10)
+ 16 Denver Nuggets = 89.89 24 23 89.61( 24) 5 10 | 9 13 89.65( 17) 90.15( 14)
+ 20 Utah Jazz = 88.81 19 28 90.46( 6) 5 14 | 10 19 87.99( 20) 89.60( 18)
+___________________________________________________________________________________________________________________________
+ 5 PACIFIC (west) = 88.38 88.75
+NBA 2017-2018 through games of 2018 January 23 Tuesday
+HOME ADVANTAGE= [ 2.55] [ 2.84] [ 2.26]
+ COMBO W L SCHEDL(RANK) VS top 10| VS top 16 ELO BLUE
+ 1 Golden State Warriors = 99.50 38 10 90.03( 13) 12 4 | 19 6 100.38( 1) 98.95( 1)
+ 17 Los Angeles Clippers = 89.53 23 23 89.65( 21) 4 12 | 7 16 88.92( 18) 90.15( 15)
+ 24 Los Angeles Lakers = 86.96 18 29 90.27( 9) 4 14 | 8 18 86.81( 23) 87.13( 24)
+ 29 Phoenix Suns = 84.77 17 30 89.92( 17) 4 12 | 6 20 85.76( 27) 83.27( 29)
+ 30 Sacramento Kings = 83.01 14 33 90.29( 7) 6 10 | 8 17 83.85( 30) 81.62( 30)
+___________________________________________________________________________________________________________________________
+end_ratings
+ FAVORITE Combo Elo Blue UNDERDOG
+ Minnesota Timberwolv 0.29 0.09 0.49 @ Portland Trail Blaze
+ @ Charlotte Hornets 0.51 -0.87 1.79 New Orleans Pelicans *** Elo and Blue DIFFER on who will win
+ Boston Celtics 2.51 4.37 1.16 @ Los Angeles Clippers
+ San Antonio Spurs 3.31 4.17 2.64 @ Memphis Grizzlies
+ @ Detroit Pistons 3.87 4.64 3.16 Utah Jazz
+ Houston Rockets 6.70 7.71 6.24 @ Dallas Mavericks
+ @ Philadelphia 76ers 7.59 6.65 8.86 Chicago Bulls
+ Toronto Raptors 8.12 7.75 9.08 @ Atlanta Hawks
+ @ Indiana Pacers 8.46 7.83 9.62 Phoenix Suns
+ FAVORITE Combo Elo Blue UNDERDOG
+endpicks

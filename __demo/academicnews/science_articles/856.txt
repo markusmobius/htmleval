@@ -1,0 +1,54 @@
+Strangest things: fossils reveal how fungus shaped life on Earth
+Fossil fungi from over 400m years ago have altered our understanding of early life on land and climate change over deep time
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Detail of a fungal mycelium Photograph: Alamy
+
+Much of the weirdness depicted in the TV show Stranger Things is distinctly fungal. The massive organic underground network, the floating spores, and even the rotting pumpkin fields all capture the “otherness” of fungi: neither plants nor animals, often bizarre-looking, and associated with decay. As weird as they may seem to us, fungi are integral to the story of the evolution of our landscapes and climate.
+Molecular studies show us that animals and fungi share a more recent common ancestor than either group does with plants, and that these groups had all diverged over a billion years ago. A sparse fossil record for fungi is not entirely surprising, given the low preservation potential of soft, microscopic threads, but we still have tantalising glimpses of their history. Recent work on the Rhynie Chert, a deposit formed in hydrothermal wetlands 407m years ago, preserving an early land ecosystem in exquisite detail, has helped to reveal the hidden history of fungi. All modern groups of fungi are abundant in Rhynie chert samples apart from the basidiomycota, the group which includes those most familiar of fungi: mushrooms. New findings have been published in a special volume of the Philosophical Transactions of the Royal Society B. 
+Prototaxites is an organism as odd as anything in Stranger Things. Bearing a superficial similarity to a fossil conifer trunk (and initially described and named as such in the 19th century), some specimens are up to a metre in diameter and more than eight metres long. It has long been debated, but most researchers have settled on a fungal affinity for Prototaxites. Until the appearance of the first forests around 375 Ma, the largest organism on land, towering over the landscape, was an enormous fungus.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The microstructure of Prototaxites. Tubes are around a twentieth of a millimetre in diameter. Photograph: k2727 via Wikimedia Commons
+
+Rosmarie Honegger and colleagues studied permineralised fragments of Prototaxites from the Rhynie Chert, together with material preserved as fossilised charcoal from the Welsh Borderlands. The remarkable preservation of the outermost layer of these specimens allowed them to describe the reproductive structures of Prototaxites, enabling them to positively identify Prototaxites taiti as a basal member of the ascomycete group of fungi, which today includes brewer’s and baker’s yeasts, Penicillium, and thrush.
+Fungi are experts in symbiosis, and arguably the most important fungi for humans are those living within the roots of the plants we eat. Mycorrhizal fungi are found in around 80% of modern plant species, and provide improved uptake of minerals from the soil in return for a steady supply of carbohydrates. Mycorrhizal relationships can be recognised in the exceptionally preserved early land plant remains in the Rhynie Chert, and seem to have been established as soon as plants moved onto land (fungi had probably been exploiting this new environment in another of their symbiotic relationships, as lichens, for much longer). Benjamin Mills, Sarah Batterman and Katie Field  have taken the evidence of these symbiotic relationships, and combined it with experimental data, to model how they may have influenced climate change over deep time.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Arbuscular mycorrhiza seen under microscope. Flax root cortical cells containing paired arbuscules. Photograph: Msturmel via Wikimedia Commons /University of Manitoba, Plant Science Department
+
+Carbon dioxide levels 400m years ago were much higher than today. For modern plants, high carbon dioxide levels can mean greater productivity, but for rootless early plants, growing on poor rocky soils, the acquisition of minerals, particularly phosphorus, would have limited their productivity. Mycorrhizal symbiosis would have helped plants to obtain phosphorus, enabling them to use more carbon dioxide to build more plant material, which would eventually be buried, leading to a drawdown of global carbon dioxide levels. Mycorrhizae would have also increased the weathering of silicate minerals in rocks, which increases the cycling of carbon from the atmosphere to ocean sediments. Over deep time, early plants and their fungal partners changed our atmosphere into a lower carbon dioxide, higher oxygen regime.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Common Pellia liverwort ( Pellia epiphylla ) Photograph: Alamy
+
+In their paper, Benjamin Mills and colleagues show that modern liverworts, the nearest living equivalents of the Rhynie Chert plants, behave differently in response to heightened carbon dioxide, depending on which particular mycorrhizal partnerships that they employ. By building this information on carbon and phosphorus cycling into existing climate models, they show that the efficiency of mycorrhizal uptake of phosphorus in the earliest ecosystems on land would have profound effects on global climate. More accurate climate modelling needs to take into account the nuances of our weird fungal neighbours, and more great work incorporating experimental and palaeontological approaches will help to bridge this gap.
+ Topics

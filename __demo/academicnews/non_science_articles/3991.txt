@@ -1,0 +1,151 @@
+Everything you need to know about Obamacare
+Card 1 of 19
+ What is Obamacare?
+ Obamacare is what we’ve apparently decided to call the Patient Protection and Affordable Care Act, a set of health insurance and industry reforms passed by Congress and signed by President Obama in March 2010.
+ Obamacare has significantly increased the number of people with health insurance coverage. It did that by overhauling the individual insurance market — where people buy their own policies — and expanding Medicaid, a public program that covers low-income Americans.
+ But Obamacare does more than expand health insurance coverage. The law touches nearly every American industry, from hospitals and doctors to restaurants and even ice cream parlors (which, because of Obamacare, are required to post calorie listings on their menus). Obamacare includes lots of policies that change the way doctors get paid, with the aim of slowing the ever-growing cost of health care.
+ Since the day it passed, Obamacare has been controversial and divisive. There have been more than 50 votes in the House of Representatives to repeal it and multiple Supreme Court cases to overturn or curtail it. After all that Obamacare is still standing.
+Card 2 of 19
+ What does Obamacare do?
+ Obamacare does two main things: expand access to health insurance and change the way the federal government pays doctors.
+ Over the next decade, federal budget forecasters expect that 25 million people will gain health coverage because of Obamacare. And about 17 million people have so far become insured since the expansion started in 2014.
+ The number of people with insurance is rising because of three main provisions in the law.
+The expansion of Medicaid, a federal program that provides health coverage to low-income Americans.
+The creation of insurance exchanges, online portals including Healthcare.gov where Americans can shop for coverage — some with financial help from the federal government.
+The the individual mandate: The requirement that nearly all Americans carry health insurance coverage or pay a penalty. This is meant to encourage people to take advantage of the two insurance expansions above.
+That’s the part of Obamacare that most people know about. But there’s a whole other half of the Affordable Care Act that launches dozens of experiments in how Medicare pays doctors, trying to tether the money physicians get to whether they improve patients’ health. The hope is, when the federal government starts paying for the most valuable care, it will tamp down on unnecessary care that doesn’t make people any healthier, and reduce medical spending in the process. That’s the goal, at least. Whether it will actually work is a subject of fierce debate among health economists.
+Card 3 of 19
+ Who gets health insurance through Obamacare?
+ The most recent estimates show that about 23 million people have gained coverage through Obamacare's insurance expansion. Another 6 million or so people lost their health plans as a result of the law. This means that, on the balance, 17 million more people have insurance than would have without Obamacare.
+ These people are coming into their new plans through three main channels: the Medicaid expansion, the new health insurance marketplaces, and the plans that employers offer.
+
+About 8 million more people have insurance at work than did prior to the health care law's insurance expansion started. Obamacare didn't do anything specifically to expand employer-sponsored coverage, but it's individual mandate likely prompted some previously-uninsured people to buy a plan through their jobs.
+ Medicaid expanded by another 9.6 million members, largely in the 28 states that expanded the program. The individual market, meanwhile, grew by 9.3 million people as many used government subsidies to purchase plans through the new marketplaces.
+Card 4 of 19
+ What is a health insurance marketplace?
+
+The federal insurance marketplace, Healthcare.gov (Healthcare.gov)
+ Obamacare's insurance marketplaces are the websites where shoppers can buy health insurance coverage, sometimes with financial help from the federal government.
+ Marketplaces are supposed to make it easier to shop for coverage
+ Before the health care law passed, it was really hard to compare different insurance policies on the individual market. There was no one place to browse options. And even on sites like EHealthInsurance, which did include many plan choices, it was especially hard to compare between products. Some plans would have high co-payments but low deductibles, or a complex co-insurance structure only spelled out in fine print.
+ The idea of the the health insurance marketplaces was to eliminate a lot of this confusion — to make it easier to find plans in one place, and compare them. All of the plans on the marketplace display the same basic information to consumers, like what's shown below.
+
+(Healthcare.gov)
+ Insurance plans still use different co-payments and deductibles. But the health care law tries to make comparisons simpler by grouping all products into different metal levels: bronze, silver, gold, and platinum.
+ Bronze plans are the skimpiest coverage. No matter what their cost sharing structure, they will, on average, cover 60 percent of enrollees' health care costs. Silver plans are a bit better: they tend to cover 70 percent of subscribers' bills. For gold and platinum, the number rises up to 80 and 90 percent, respectively.
+ Once somebody picks a plan on the insurance marketplace, their enrollment file gets sent electronically to the health plan, which typically collects the first month’s premium, sends out an ID card, and begins to provide coverage.
+ In most states, the marketplace is Healthcare.gov
+
+(Kaiser Family Foundation)
+ During Obamacare's implementation, states had a choice: they could build their own marketplaces or use a federal fallback option. Thirty-seven states chose the latter option, and their residents use the Healthcare.gov site to shop for coverage.
+ Thirteen states and the District of Columbia built their own marketplaces, which gave them the ability to tailor the website a bit more to their own needs. Those states' marketplaces have different names; the Kentucky marketplace, for example, is called Kynect while the one in Connecticut is AccessHealthCT.
+
+(Kentucky Kynect)
+ While these marketplaces look different, they essentially do the same thing: offer a portal where insurance shoppers can compare options and, eventually, purchase a plan.
+Card 5 of 19
+ What is the individual mandate?
+ The individual mandate is the provision of Obamacare that requires most Americans to purchase health insurance coverage. It exists to encourage people who are unlikely to buy coverage — mostly healthy people who think premiums are a waste of money — to sign up. This is necessary, many health economists believe, in order to keep premiums low.
+ Some people do get an exemption from the individual mandate, because they can’t find an affordable plan, for example, or have a religious objection to health coverage. But, by and large, most Americans are now required to carry health coverage or pay a penalty.
+ The penaltyfor not carrying coverage in 2015 is $395 or 2 percent of income, whichever is greater. In 2016, it rises to $695 or 2.5 percent of income. The federal government recoups this penalty via the tax filing process (this calculator tells you how much you would pay).
+ Though the individual mandate was originally a conservative idea pushed in response to Bill Clinton’s 1994 health care plan, it became the subject of a lawsuit Republican attorneys general mounted against Obamacare’s constitutionality. The Supreme Court ultimately ruled in June 2012 that the mandate was constitutional under the federal government’s taxing powers. You can read the decision here.
+Card 6 of 19
+ What's an individual man date?
+ That’s when two dudes hang out together in a non-romantic way, although it really has nothing to do with health policy. Andy Samberg is probably the best-suited person to explain the subject.
+ 
+Card 7 of 19
+ Can I buy Obamacare right now?
+ Probably not: the open enrollment period for 2015 coverage ended in February. The open enrollment period for 2016 plans begins on November 1.
+ The Affordable Care Act doesn't let people buy coverage year-round. If it it did, you could imagine people signing up - in the most extreme examples - in the ambulance on the way to the hospital. This would make premiums skyrocket, as people would buy coverage at the exact point when they were expecting incredibly high medical bills. To prevent that, Obamacare (and most plans you get at work, too) says you have to sign up in a certain time frame, and commit to buying coverage all year long.
+ There are exceptions to this rule. If you have a new baby, you're allowed to have a special enrollment period; there's no way said baby could have signed up before it was born. People who lose their jobs or move states can also shop for a new plan, even when open enrollment is closed. There are a handful of other exceptions, too, all listed here.
+Card 8 of 19
+ What happens to pre-existing conditions under Obamacare?
+ Pre-existing conditions were an insurance industry term for different medical conditions that people already have when they’re shopping for a new plan. These could range from pretty basic things (like asthma) to more serious conditions (like cancer). Before Obamacare, health plans could deny coverage — or charge higher prices — to people who had them.
+ Under Obamacare, the concept of pre-existing conditions no longer exists. Insurance companies are barred from asking questions about applicants’ health status. They can only factor in three things — age, location, and tobacco use — in setting a shopper’s premium rate.
+ This is why insurers believe the individual mandate is so important: they worry that if healthy people don’t have to buy health insurance, and if insurers can’t turn away sick people, then too many sick people and too few healthy people will sign up.
+Card 9 of 19
+ What medical services does Obamacare cover?
+ All Obamacare-compliant health care plans have to cover 10 basic categories of medical services. This includes things like trips to the hospital, prescription drugs, and mental health care (read a full list here). But there’s no big, government-provided list of each type of service an insurer needs to cover — instead, states have oversight to make sure that each plan covers the 10 categories adequately.
+ More broadly, Obamacare covers catastrophes. The law doesn’t allow health plans to set annual limits on how much they will spend on your medical care. This means if something horrible happens of the hit-by-a-bus magnitude, the insurer will be on the hook for some very big medical bills.
+Card 10 of 19
+ What is a health insurance subsidy?
+ A health insurance subsidy is financial help from the federal government to uninsured Americans who are low or middle income. They are available to people who don’t get affordable coverage at work and earn somewhere between 133 and 400 percent of the federal poverty line (between $15,000 and $46,000 for an individual or $32,000 to $95,000 for a family of four). The amount of subsidy is determined by a family’s income, with those who earn less getting more financial help.
+ The health insurance subsidies are applied automatically to health insurance plans purchased through an online exchange. The federal government sends the subsidy payment straight to the insurance plan, meaning that an enrollee only pays the difference between what the amount of the subsidy and the monthly premium cost. The Kaiser Family Foundation has a helpful subsidy calculator that will let you see what your family might be eligible for.
+Card 11 of 19
+ Is Obamacare available in all states?
+ Some parts of it are — but not all of it. Every state does have an insurance exchange. Every state also has financial subsidies to help middle-income Americans to help buy private coverage.
+ Only 28 states are participating in the Medicaid expansion — the part of the law that was meant to cover 17 million people who earn less than 138 percent of the federal poverty line (about $15,000 for an individual or $31,000 for a family of four).
+
+(Advisory Board)
+ When it was written, Obamacare initially required all states to expand their Medicaid programs. Before Obamacare, there was lots of variation in whom states did and didn’t cover; the idea was to create a more standard and much bigger Medicaid program.
+ The Supreme Court changed that. Its June 2012 ruling found this requirement to be too onerous on states — which help pay for Medicaid — and that each state would get to decide whether to expand the program.
+ Twenty-eight states and the District of Columbia have so-far opted into the Medicaid expansion. Seventeen are currently opting out and another five are on the fence, with legislators and governors weighing their options.
+ Poor people in non-expansion states are pretty much out of luck
+ People who earn less than the poverty line cannot qualify for subsidized private insurance, and typically do not have access to affordable coverage.
+ The legislators who wrote Obamacare anticipated that this population would gain Medicaid coverage and so did not include them in the subsidies. That's left some of the poorest Americans in a coverage gap, where they are too poor to earn subsidies to help purchase insurance.
+
+(Kaiser Family Foundation)
+ 
+ 
+Card 12 of 19
+ Will Obamacare cover all of the uninsured?
+ No. Despite what you may have heard, it's a bit of a misnomer to call Obamacare universal coverage. At the end of the day and when the law is fully implemented, budget forecasters expect that 31 million people will lack insurance coverage.
+ Thirty-one million is a lot smaller than the 48.6 million Americans who currently lack insurance coverage, but it’s also not nobody. Budget forecasters estimate that the biggest chunk of that group — 45 percent — will simply decide not to buy health insurance, despite having access to the exchange or coverage at work.
+ Another 30 percent will be undocumented workers, who are not eligible for financial assistance. About 20 percent are eligible for Medicaid but, for some reason or another, don’t end up signing up. Last, approximately 5 percent of Obamacare’s uninsured are low-income residents of states that don’t expand Medicaid, who may not have access to affordable coverage.
+Card 13 of 19
+ What is the conservative case against Obamacare?
+ The conservative case against Obamacare can take a lot of different forms but it often focuses on the expansion of government regulation and spending.
+ Obamacare significantly expands the government’s oversight of the health care system. For the first time ever, the feds have the authority to require health insurers to accept all customers and offer them a specific set of health benefits. In Medicare, Obamacare creates the Independent Payment Advisory Board, or IPAB, which has unilateral authority to cut the rates that Medicare pays.
+ Conservatives argue that this is the wrong way to go about health reform: by requiring so much uniformity in the market, it could stifle innovation. Many of their policy alternatives include a bigger role for more consumer-driven healthcare plans — ones that give enrollees a set amount of money, rather than covering a standard set of benefits. Research shows these types of health plans tend to result in lower spending — although they do raise some concerns about patients skipping out on needed care to save money, or getting tricked by insurers into buying plans that don’t cover their needs.
+ Second, conservatives see Obamacare as an unsustainable spending commitment for federal and state governments. The health law’s insurance expansion costs over $1 trillion over the next 10 years. While Obamacare contains spending cuts and tax increases that appear to cover those costs, there’s worry (some of it shared by federal officials) that these painful policies won’t work as intended — or will be reversed by future congresses.
+ This concern is especially acute with the Medicaid expansion, which, for many states, is already their largest budget item. The federal government covers the majority of the expansion’s costs (93 percent, the Congressional Budget Office estimates, in the first decade), but many state legislators worry that, in the future, the federal government will cut that spending and leave them to pick up the tab.
+ Some of the more influential conservative Obamacare critics include Avik Roy, James Capretta, and Yuval Levin.
+Card 14 of 19
+ How much does Obamacare cost the government?
+ For the federal government, Obamacare's hefty tax increases and Medicare cuts means the law, as a whole, actually saves money — at least according to the Congressional Budget Office.
+ The Congressional Budget Office estimated in 2012 that Obamacare will save $109 billion over the next decade. And in more recent reports, the non-partisan agency has credited the law with helping drive down the government's deficit because its insurance expansion programs have cost less than initially expected.
+ Obamacare has come in way under budget
+
+(Congressional Budget Office)
+ Make no mistake: Obamacare spends a lot of money on its tax credits and Medicaid expansion. It recoups some, but not all, of that new spending with hundreds of billions of dollars in Medicare cuts, which reduce federal health spending. (The bulk of the remainder is made up with tax increases, but they're irrelevant for this calculation.) But back when the law was passing, Republicans argued up, down, and sideways that the Congressional Budget Office was sharply underestimating the amount of money Obamacare spends.
+ The opposite, however, has turned out to be true: CBO keeps revising down the estimated cost of Obamacare's insurance expansion.
+ Twice in the past year, the Congressional Budget Office has revised downward projected spending on the Affordable Care Act. In fact, the federal government is expected to spend less on health care now than it predicted in early 2010 — and those predictions didn't include any spending from Obamacare!
+ That isn't just about Obamacare — projections on what we'll spend on Medicare and Medicaid, the two other big federal health-care programs, went down, too. But it is pretty remarkable that health-care spending is now expected to be lower than projections made before Congress passed a massive health insurance expansion.
+Card 15 of 19
+ Is Obamacare popular?
+ No. Most polls show that Americans are sharply divided on Obamacare, with more people viewing the law negatively than favorably. This has been true pretty much since the the law passed:
+
+(Kaiser Family Foundation)
+ Other polls show that about a third of Americans think that Congress should repeal Obamacare (and, among those people, about 12 percent think Congress should replace it with something else).
+ The most detested part of Obamacare is the individual mandate, a requirement that nearly all Americans purchase health insurance. Seventy percent of Americans, by the Kaiser Family Foundation's estimate, don't like this part of the health care law.
+ Why opinions are stuck: Democrats and Republicans think the law is doing different things
+ If you want to understand why the public remains so divided on Obamacare, it's helpful to look at what they think the health-care law is doing.
+ Overall, 60 percent of Americans think more people have gotten health coverage through Obamacare, according to a recent Vox poll. All evidence we have suggests this is true: data from Gallup, theCommonwealth Fund, Robert Wood Johnson Foundation/Urban Institute, RAND Corporation, and theKaiser Family Foundation all have similar findings — namely, that millions more people have insurance than before Obamacare's insurance expansion.
+ But there's a stark divide between parties: 74 percent of Democrats agree with the fact that Obamacare has increased health coverage, compared with only 49 percent of Republicans.
+ Conversely, 54 percent of the country thinks businesses are cutting back on their employees' hours so they can dodge Obamacare's employer mandate. (There is evidence of this happening in isolated cases, but not at a widespread level.) Seventy-four percent of Republicans think this is true, compared with 42 percent of Democrats.
+ A similar divide shows up on insurance costs: 70 percent of Republicans say costs are going up as a "direct result" of Obamacare, while only 33 percent of Democrats agree with this statement. The best evidence we have shows that Obamacare has had a negligible effect on insurance premiums for people who get insurance at work, and that premiums have actually grown slower in the individual market since the start of the insurance expansion.
+
+Card 16 of 19
+ Will Obamacare get repealed?
+ Almost certainly not. House Republicans have voted many times — more than 50, by last count — to repeal either part or all of the Affordable Care Act. But with President Obama in office through 2016, those Congressional repeal bills are mere paper. 
+ There is a possible world where Republicans win the White House and Congress in 2016 and could be open to legislation to repeal Obamacare. At that point, though, there will be tens of millions of Americans whose coverage relies on the law. Upending all those insurance arrangements would be tremendously disruptive — and politically unpopular.
+Card 17 of 19
+ What is the IPAB?
+ The Independent Payment Advisory Board — or IPAB, for short — is a 15-person board created by the Affordable Care Act. It is arguably one of the more controversial parts of Obamacare because it gives unelected officials the authority to cut Medicare spending. What the board can't do is equally important: the IPAB is not allowed to cut benefits out of the Medicare program. The board is only allowed to reduce the amount that the federal government reimburses for those benefits.
+ The IPAB doesn't have any members right now because it only gets triggered when Medicare costs grow a percentage point faster than the rest of the economy. Health costs are currently growing at a slower rate than that threshold. Congress does have the authority to override IPAB's recommendations, but does need a supermajority to do so.
+Card 18 of 19
+ Does Obamacare change the care hospitals and doctors provide?
+ The drafters of the Affordable Care Act certainly hope so — which is why they included dozens of Obamacare programs that try to move the health care system from one that pays for volume to one that pays for value.
+ Right now, most of the American health care system operates in a fee-for-service model; a hip surgeon gets paid a set fee for each hip surgery, regardless of whether his patients have complications down the line or come out of the procedure as good as new.
+ Obamacare aims to tether doctors' payments, at least partially, to patient outcomes, rewarding doctors who practice better medicine with higher payments. The law's value-based purchasing program, for example, now ties how much hospitals get paid to whether their patients are getting healthier. 
+ Accountable Care Organizations, another big Obamacare program, has big groups of doctors band together and agree to take a lump sum payment for the care they provide patients. If they can provide care at a lower price than the lump sum — and, again, hit certain quality metrics — they pocket the difference as profit.
+ Programs like these are scattered throughout the health care law and are more like experiments than systemic reforms at this point. But if the experiments work the federal government is eager to scale them up.
+Card 19 of 19
+ Has Obamacare caused overcrowding in hospitals and doctors' offices?
+ Probably not, but we'll have to wait and see what happens over the next few years.
+ Obamacare has added 16.9 million people to the health insurance system. That's a lot of people who all of a sudden have fewer financial barriers standing between them and a doctor visit. But keep in mind two things when thinking about that.
+ First, the health insurance system already has hundreds of millions of people. In that context, the addition of 25 million people is sizable but relatively small increase in the insured population.
+ Second, plenty of uninsured people were going to the doctor before they gained coverage — although research tells us they'll probably go to the doctor even more now that they have a health plan. This is only to say that these newly-insured people aren't necessarily new to the health care system. Most research on Massachusetts doesn't show any clear evidence of longer wait times or reduced access when the state expanded insurance coverage in 2006.
+ Right now, we're still getting initial evidence on how the national expansion has effected doctors. One recent study, which pulled data from 16,000 doctors' records, showed no significant increase in new patient appointments last year.
+
+The proportion of new patient visits to primary care doctors increased from 22.6 percent in 2013 to 22.9 percent in 2014. And the people who showed up didn't seem to be significantly sicker; it didn't seem as if they had unmanageable health problems that they'd put off treating until they gained an insurance plan.
+ "We found no evidence that patient complexity increased in 2014," the report from medical record company AthenaHealth finds. "Physician work intensity per visit remained flat, diagnoses per visit increased slightly, and the percentage of visits with high-complexity evaluation and management codes actually decreased slightly."

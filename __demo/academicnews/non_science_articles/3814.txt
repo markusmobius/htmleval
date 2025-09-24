@@ -1,0 +1,18 @@
+European Union's top court dismisses class action suit against Facebook
+Europe's highest court ruled on Thursday that Austrian privacy activist Max Schrems could not bring a class action lawsuit against Facebook for what he claims is illegal use of private data.
+With 25,000 signatories to his suit, Schrems' case was highly unusual for Europe, where class action lawsuits are rarely recognized.
+The facts of the case:
+•Since 2014, Schrems has been making assertions that Facebook violates the data protection rights of European users, including giving their data to a U.S. intelligence agency.
+•Facebook claims that it adheres to European Union privacy laws.
+•The social media giant has also argued that Schrems, as an author and lecturer on privacy rights, has a professional interest in the case and thus cannot be treated as a normal customer under consumer protection laws.
+•Schrems was seeking 500 euros ($620.55) in damages for each of his 25,000 co-plaintiffs.
+'Facebook knows they can't win'
+Ahead of the verdict, Schrems accused Facebook's lawyers of trying to stop the case from being heard: "Facebook knows that they can't win this case when it will be heard. Therefore, they are trying everything to block the lawsuit by making it economically impossible."
+"Europe is already putting in place strong enforcement measures that hold Facebook and other companies accountable for privacy and data protection. We'll comply with these new rules, just as we've complied with existing data protection law in Europe,” a Facebook spokeswoman said.
+In its ruling, the European Court of Justice (ECJ) wrote that "Mr, Schrems may bring an individual action in Austria against Facebook Ireland," but that he could not use consumer laws to benefit himself and fellow claimants.
+Why this matters: Facebook has repeatedly come under fire for tracking users' behavior and the information it passes along to advertisers, though it has yet to face any serious legal consequences over its practices.
+Who is Max Schrems? The 30-year-old Austrian lawyer has long been a thorn in the side of tech companies. In 2015, in the wake of the Edward Snowden revelations, Schrems successfully sued the European Commission over its data sharing with the United States. He is also the founder of NOYB, the European Center for Digital Rights.
+What happens next? The court has ruled that Schrems cannot lead a class action lawsuit on behalf of others. He is, however, still able to sue Facebook on his own as a private citizen. Immediately after the ruling, Schrems said he would do so in a Vienna court.
+This article originally appeared on DW.com. Its content was created separately to USA TODAY.
+CONNECTTWEETLINKEDINCOMMENTEMAILMORE
+Read or Share this story: https://usat.ly/2DFVGSD

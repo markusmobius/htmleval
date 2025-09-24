@@ -1,0 +1,573 @@
+GOLF Schedule - GOLF
+Sports
+NFL 
+MLB 
+NBA 
+NHL 
+NCAAF 
+Olympics 
+NCAAB 
+Golf 
+NASCAR 
+UFC 
+Fantasy 
+MoreIndycar 
+Golfweek 
+Boxing 
+Tennis 
+High School 
+Soccer 
+MMA 
+Motor Sports 
+WNBA 
+Horse Racing 
+Cycling 
+College 
+NCAAW 
+Video 
+For The Win 
+Golf
+Main
+Leaderboard
+Schedule
+Stats
+Standings
+PGA Tour
+LPGA
+More
+Mlb
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Salaries
+Teams
+MoreRankings
+Injuries
+Transactions
+Fantasy Baseball
+Sagarin Ratings
+BaseballHQ.com
+TheBigLead.com
+Nascar
+Main
+Results
+Schedule
+Standings
+IndyCar
+MoreSagarin Ratings
+TheBigLead.com
+Nba
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreRankings
+Injuries
+Transactions
+Sagarin Ratings
+NBA Packages
+HoopsHype
+TheBigLead.com
+Ncaab
+Main
+Bracket Challenge
+Scores
+Schedule
+Polls
+MoreStandings
+Odds
+Teams
+Injuries
+Coaches Salaries
+Sagarin Ratings
+HoopsHype
+TheBigLead.com
+Ncaaf
+Main
+Fan Index
+Scores
+Polls
+MoreOdds
+Teams
+Schedule
+Standings
+Statistics
+Injuries
+Transactions
+Coaches Salaries
+Sagarin Ratings
+TheBigLead.com
+Nfl
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreRankings
+NFL Arrests
+Injuries
+Transactions
+Fantasy Football
+Sagarin Ratings
+NFL Packages
+TheHuddle.com
+TheBigLead.com
+Nhl
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreOdds
+Rankings
+Injuries
+Transactions
+Salaries
+Sagarin Ratings
+TheBigLead.com
+Soccer
+Main
+ScoresMLS
+ScheduleMLS
+StandingsMLS
+TeamsMLS
+MLS Photo Store
+MoreMLS Photo Store
+Sagarin MLS Ratings
+Wnba
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreOdds
+Injuries
+DATE
+TOURNAMENT
+CITY/SITE
+STATE/COUNTRY
+PAR
+YARDS
+TOTAL PURSE
+WINNER
+ Oct 5 - Oct 8 
+Safeway Open
+ Napa 
+ California 
+ 72 
+ 7203 
+ $ 6,200,000 
+ Brendan Steele 
+ Oct 12 - Oct 15 
+CIMB Classic
+ Kuala Lumpur 
+ MYS 
+ 72 
+ 7005 
+ $ 7,000,000 
+ Pat Perez 
+ Oct 19 - Oct 22 
+The CJ Cup @ Nine Bridges
+ Jeju Island 
+ KOR 
+ 72 
+ 7196 
+ $ 9,250,000 
+ Justin Thomas 
+ Oct 26 - Oct 29 
+Sanderson Farms Championship
+ Jackson 
+ Mississippi 
+ 72 
+ 7421 
+ $ 4,300,000 
+ Ryan Armour 
+ Oct 26 - Oct 29 
+ WGC - HSBC Champions 
+ Shanghai 
+ CHN 
+ 72 
+ 7261 
+ $ 9,750,000 
+ -- 
+ Oct 26 - Oct 29 
+WGC - HSBC Champions
+ Shanghai 
+ CHN 
+ 72 
+ 7266 
+ $ 9,750,000 
+ Justin Rose 
+ Nov 2 - Nov 5 
+Shriners Hospitals for Children Open
+ Las Vegas 
+ Nevada 
+ 71 
+ 7255 
+ $ 6,800,000 
+ Patrick Cantlay 
+ Nov 9 - Nov 12 
+OHL Classic at Mayakoba
+ Playa del Carmen 
+ MEX 
+ 71 
+ 6987 
+ $ 7,100,000 
+ Patton Kizzire 
+ Nov 16 - Nov 19 
+The RSM Classic
+ Sea Island 
+ Georgia 
+ 70 
+ 7005 
+ $ 6,200,000 
+ Austin Cook 
+ Jan 4 - Jan 7 
+Sentry Tournament of Champions
+ Maui 
+ Hawaii 
+ 73 
+ 7452 
+ $ 6,300,000 
+ Dustin Johnson 
+ Jan 11 - Jan 14 
+Sony Open in Hawaii
+ Honolulu 
+ Hawaii 
+ 70 
+ 7044 
+ $ 6,200,000 
+ Patton Kizzire 
+ Jan 18 - Jan 21 
+CareerBuilder Challenge
+ La Quinta 
+ California 
+ 72 
+ 7300 
+ $ 5,900,000 
+ Jon Rahm 
+ Jan 25 - Jan 28 
+ Farmers Insurance Open 
+ San Diego 
+ California 
+ 72 
+ 7698 
+ $ 6,900,000 
+ -- 
+ Feb 1 - Feb 4 
+ Waste Management Phoenix Open 
+ Scottsdale 
+ Arizona 
+ 71 
+ 7266 
+ $ 6,900,000 
+ -- 
+ Feb 8 - Feb 11 
+ AT&T Pebble Beach Pro-Am 
+ Pebble Beach 
+ California 
+ 72 
+ 6816 
+ $ 7,400,000 
+ -- 
+ Feb 15 - Feb 18 
+ Genesis Open 
+ Pacific Palisades 
+ California 
+ 71 
+ 7322 
+ $ 7,200,000 
+ -- 
+ Feb 22 - Feb 25 
+ The Honda Classic 
+ Palm Beach Gardens 
+ Florida 
+ 70 
+ 7045 
+ $ 6,600,000 
+ -- 
+ Mar 1 - Mar 4 
+ Puerto Rico Open 
+ Rio Grande Valley 
+ PRI 
+ 72 
+ 7506 
+ $ 3,000,000 
+ -- 
+ Mar 1 - Mar 4 
+ WGC - Mexico Championship 
+ Mexico City 
+ MEX 
+ 71 
+ 7245 
+ $ 10,000,000 
+ -- 
+ Mar 8 - Mar 11 
+ Valspar Championship 
+ Palm Harbor 
+ Florida 
+ 71 
+ 7340 
+ $ 6,500,000 
+ -- 
+ Mar 15 - Mar 18 
+ Arnold Palmer Invitational presented by MasterCard 
+ Orlando 
+ Florida 
+ 72 
+ 7419 
+ $ 8,900,000 
+ -- 
+ Mar 21 - Mar 25 
+ WGC - Dell Technologies Match Play 
+ Austin 
+ Texas 
+ 71 
+ 7073 
+ $ 10,000,000 
+ -- 
+ Mar 22 - Mar 25 
+ Corales Puntacana Resort and Club Championship 
+ Punta Cana 
+ DMA 
+ 72 
+ 7668 
+ $ 3,000,000 
+ -- 
+ Mar 29 - Apr 1 
+ Houston Open 
+ Humble 
+ Texas 
+ 72 
+ 7457 
+ $ 7,000,000 
+ -- 
+ Apr 5 - Apr 8 
+ Masters Tournament 
+ Augusta 
+ Georgia 
+ 72 
+ 7435 
+ $ 11,000,000 
+ -- 
+ Apr 12 - Apr 15 
+ RBC Heritage 
+ Hilton Head 
+ South Carolina 
+ 71 
+ 7099 
+ $ 6,700,000 
+ -- 
+ Apr 19 - Apr 22 
+ Valero Texas Open 
+ San Antonio 
+ Texas 
+ 72 
+ 7435 
+ $ 6,200,000 
+ -- 
+ Apr 26 - Apr 29 
+Zurich Classic of New Orleans
+ Avondale 
+ Louisiana 
+ 72 
+ 7341 
+ $ 7,200,000 
+ -- 
+ May 3 - May 6 
+ Wells Fargo Championship 
+ Charlotte 
+ North Carolina 
+ 71 
+ 7600 
+ $ 7,700,000 
+ -- 
+ May 10 - May 13 
+THE PLAYERS Championship
+ Ponte Vedra Beach 
+ Florida 
+ 72 
+ 7189 
+ $ 10,500,000 
+ -- 
+ May 17 - May 20 
+AT&T Byron Nelson
+ Dallas 
+ Texas 
+ 72 
+ 7450 
+ $ 7,700,000 
+ -- 
+ May 24 - May 27 
+ DEAN & DELUCA Invitational 
+ Fort Worth 
+ Texas 
+ 70 
+ 7209 
+ $ 7,100,000 
+ -- 
+ May 31 - Jun 3 
+The Memorial Tournament presented by Nationwide
+ Dublin 
+ Ohio 
+ 72 
+ 7392 
+ $ 8,900,000 
+ -- 
+ Jun 7 - Jun 10 
+ FedEx St. Jude Classic 
+ Memphis 
+ Tennessee 
+ 70 
+ 7244 
+ $ 6,600,000 
+ -- 
+ Jun 14 - Jun 17 
+ U.S. Open 
+ Southampton 
+ New York 
+ 70 
+ 6781 
+ $ 12,000,000 
+ -- 
+ Jun 21 - Jun 24 
+Travelers Championship
+ Cromwell 
+ Connecticut 
+ 70 
+ 6841 
+ $ 7,000,000 
+ -- 
+ Jun 28 - Jul 1 
+The National
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 7,100,000 
+ -- 
+ Jul 5 - Jul 8 
+The Greenbrier Classic
+ White Sulphur Springs 
+ West Virginia 
+ 70 
+ 7287 
+ $ 7,300,000 
+ -- 
+ Jul 12 - Jul 15 
+John Deere Classic
+ Silvis 
+ Illinois 
+ 71 
+ 7268 
+ $ 5,800,000 
+ -- 
+ Jul 19 - Jul 22 
+Barbasol Championship
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 3,500,000 
+ -- 
+ Jul 19 - Jul 22 
+The Open Championship
+ Carnoustie 
+ SCT 
+ 72 
+ 6948 
+ $ 10,250,000 
+ -- 
+ Jul 26 - Jul 29 
+RBC Canadian Open
+ Oakville 
+ Ontario 
+ 72 
+ 7253 
+ $ 6,200,000 
+ -- 
+ Aug 2 - Aug 5 
+ Barracuda Championship 
+ Reno 
+ Nevada 
+ 72 
+ 7472 
+ $ 3,400,000 
+ -- 
+ Aug 2 - Aug 5 
+WGC - Bridgestone Invitational
+ Akron 
+ Ohio 
+ 70 
+ 7400 
+ $ 10,000,000 
+ -- 
+ Aug 9 - Aug 12 
+PGA Championship
+ Saint Louis 
+ Missouri 
+ 71 
+ 7548 
+ $ 10,500,000 
+ -- 
+ Aug 16 - Aug 19 
+Wyndham Championship
+ Greensboro 
+ North Carolina 
+ 70 
+ 7127 
+ $ 6,000,000 
+ -- 
+ Aug 23 - Aug 26 
+ THE NORTHERN TRUST 
+ Paramus 
+ New Jersey 
+ 71 
+ 7194 
+ $ 9,000,000 
+ -- 
+ Aug 31 - Sep 3 
+Dell Technologies Championship
+ Norton 
+ Massachusetts 
+ 71 
+ 7342 
+ $ 9,000,000 
+ -- 
+ Sep 6 - Sep 9 
+BMW Championship
+ Newtown Square 
+ Pennsylvania 
+ 70 
+ 7190 
+ $ 9,000,000 
+ -- 
+ Sep 20 - Sep 23 
+The Tour Championship
+ Atlanta 
+ Georgia 
+ 70 
+ 7346 
+ $ 9,000,000 
+ -- 
+ Sep 28 - Sep 30 
+ Ryder Cup 
+ Paris 
+ FRA 
+ 71 
+ 7275 
+ -- 
+ -- 
+^ Jump to top

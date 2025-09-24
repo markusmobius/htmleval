@@ -1,0 +1,30 @@
+Let's rethink how we determine Olympic success
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+
+JUST WATCHED
+Security challenges at 2018 Winter Olympics
+Replay
+MUST WATCH
+ 02:08
+Charlie Tuggle, PhD, is the Stembler Distinguished Professor of Broadcast Journalism and the senior associate dean for undergraduate studies in the School of Media and Journalism at the University of North Carolina at Chapel Hill. Roxane Coche, PhD, is a former sports reporter and producer and is currently a professor of journalism and strategic media at the University of Memphis. Both have worked on developing the Medal Premium Calculations system. The opinions expressed in the commentary are theirs. 
+ (CNN)
+Which of these speed skaters is the greatest US Winter Olympian: Bonnie Blair with six medals or Apolo Ohno with eight? Why, Bonnie Blair, of course. 
+In a November article, Sports Illustrated called Ohno "the most decorated U.S. Winter Olympian of all time." Most journalists, analysts and fans would probably agree with this assessment. Ohno was indeed a huge success at the Olympics, winning eight medals (two golds, two silvers and four bronzes) in three Olympic Games. 
+
+Charlie Tuggle
+
+Roxane Coche
+Ohno was a commentator for NBC at the 2014 Sochi Games and will once again join the network in covering the games in PyeongChang this winter, so his impressive medal haul is sure to come up a number of times. 
+Despite the platitude that "anyone who makes it this far is a winner," Ohno's record reveals that he was a first-place winner only twice. He indeed does have the most Olympic medals of any US winter sports athlete in history, but would a comparison of medal values result in Ohno still being recognized as "the most decorated" of US winter Olympians? Perhaps not. 
+Consider the case of American speed skater Bonnie Blair, who has six Olympic medals -- five gold, one bronze. By medal count, Ohno beats her. But by cumulative medal worth, he doesn't. 
+Read More
+At UNC Chapel Hill, we have developed a system known as Medal Premium Calculations, or MPC. MPC allocates points based on the color of the medal, using a ratio of 5 to 3 to 2. The system was inspired by the US Olympic Committee's financial bonuses paid to American athletes of $25,000 for gold, $15,000 for silver and $10,000 for bronze. Using this new system, an athlete would earn 5 quality points by winning a gold medal, while silver and bronze medals would earn 3 or 2 points, respectively.
+
+We argue that this system is superior to the current systems used by media to evaluate Olympians' achievements. Some media outlets list Olympic results by the total number of medals won, assigning all of them equal value. But a gold does not equal a silver, which does not equal a bronze. 
+Other outlets, however, list their rankings according to the number of gold medals taken home (unless there is a tie, in which case they then look at silver). This method is equally flawed because it gives no weight to silvers or bronzes in many circumstances. 
+For example, while many media outlets noted that China had "won" the 2008 Beijing Games based on a higher gold medal count, US outlets had team USA on top of the medal table, based on a higher overall medal count. China beat the USA based on MPC count, 374 to 366. 
+Assigning MPC values to Blair's and Ohno's medals gives Blair a quality score of 27 (five golds at 5 points each, one bronze worth 2 points) while Ohno finishes with a score of 24 (two golds at 5 points each, two silvers worth 3 points each and four bronzes worth 2 points apiece). Although Apolo Ohno is without question one of the greatest US Winter Olympians of all time, our country's most accomplished athlete to compete at the Winter Olympics, according to our MPC calculation, is Bonnie Blair. 
+Join us on Twitter and Facebook
+In addition to addressing the obvious shortcomings of the two main methods used to calculate Olympic success MPC also allows us to perform advanced statistical analyses. For instance, we found that variables such as a country's wealth, population, size of Olympic contingent (how many athletes a country sends to the Olympics), or the proportion of women in said contingent can affect Olympic success at both summer and winter Olympics. 
+With the 2018 winter Olympics approaching, it's a great time to reconsider how we evaluate an athlete's success, and start using the MPC system for a holistic assessment of the performances of our favorite athletes.

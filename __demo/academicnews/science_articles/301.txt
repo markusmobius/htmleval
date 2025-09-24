@@ -1,0 +1,20 @@
+Convicted Hacker 'Weev' Gets Another Chance At Freedom
+Gerry Smith
+
+Attorneys for convicted hacker Andrew "Weev" Auernheimer will appear in court this week in a last-ditch attempt to win his freedom and overturn a verdict that could have a chilling effect on the work of researchers who help keep the Internet safe.
+Prosecutors have said Auernheimer, 28, is a publicity-hungry hacker who broke the law when he found a security flaw in an AT&T website three years ago that allowed him to collect 114,000 email addresses belonging to iPad 3G users. 
+Auernheimer turned over that information to the gossip site Gawker, which posted some partially redacted addresses, prompting an FBI investigation. 
+In 2012, a jury found Auernheimer guilty of violating the Computer Fraud and Abuse Act, the same controversial law used to prosecute the late Internet activist Aaron Swartz. Auernheimer has now served about 12 months of his 41-month prison sentence. 
+On Wednesday, Auernheimer's attorneys will argue that he did not commit a crime because AT&T's security was so lax that those email addresses were publicly available. 
+"The behavior in question here is no different than typing a URL in a Web browser," Auernheimer’s attorney, Tor Ekeland, said in an interview. "If what Weev did is illegal, then what millions of normal computer users do every day is a felony as well."
+In court documents, prosecutors acknowledge that AT&T's security "was not as good as it should have been, but it was not non-existent." They say Auernheimer should have first disclosed his findings to the company instead of a journalist.
+The federal appeals court decision will be watched closely by researchers who say Auernheimer's conviction has made them more reluctant to report the security and privacy flaws they find for fear of being prosecuted. 
+Partly for that reason, Auernheimer's case has gained the support of some of the country’s most respected cyber law experts. His legal team includes attorneys for the Electronic Frontier Foundation, a digital rights group, and Orin Kerr, a cyber law professor at George Washington University Law School. 
+In addition, a group of prominent computer scientists, academics and researchers have called on the appeals court to reverse Auernheimer's conviction. They include the Mozilla Foundation, which makes the popular Web browser Firefox, and Edward Felten, a former technologist for the Federal Trade Commission. 
+These advocates "are convinced that overturning [Auernheimer's] conviction will help security and privacy, not harm it," according to their court brief, which was filed by Stanford Law professor Jennifer Granick. "The alternative empowers private entities to force the public to turn a blind eye to their security and privacy missteps."
+Auernheimer is not the most sympathetic figure. As a notorious Internet troll, he frequently says outrageous things to evoke emotional responses from people. The name of his security company Goatse Security refers to an obscene Internet shock site, and is linked to an Internet trolling group whose name includes a racial slur. 
+On Wednesday, prosecutors and Auernheimer's lawyers will each argue for 15 minutes in a Philadelphia courtroom before the 3rd U.S. Circuit Court of Appeals begins deliberating.
+Auernheimer is currently serving his sentence at Allenwood Federal Correctional Complex in White Deer, Penn., about 170 miles west of New York City. His legal team was unable to get permission to let him attend Wednesday's hearing.
+Since his sentencing last March, prison officials have cut off Auernheimer's email access and forced him to spend time in a "special housing unit" as punishment for posting messages to Soundcloud, an audio distribution platform, Ekeland said.
+Auernheimer now spends his time "reading voraciously," playing Dungeons & Dragons, and bench-pressing up to 200 pounds, said Ekeland.
+"He's holding up about as well you can while being incarcerated," he said.

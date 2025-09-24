@@ -1,0 +1,52 @@
+The future of the Internet of Things depends on this
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+
+JUST WATCHED
+How to protect yourself from hackers
+Replay
+Story highlights
+Authors: Flashiness and profits should not be only concern of big tech companies
+They say we must force firms to be more ethical with products used in our private lives
+Mark Surman is executive director of the Mozilla Foundation, a global community devoted to keeping the Internet open and free. Follow him on Twitter: @msurman. Michelle Thorne leads the Mozilla Foundation's Internet of Things research. Follow her on Twitter: @thornet. The opinions expressed in this commentary are their own. 
+ (CNN)
+Life online has been rough lately -- for the billions of people who use the Web every day, and also for the tech giants behind much of the world's hardware and software. 
+Meanwhile, amid hacks and misinformation, the Internet is entering a new frontier. Connected devices, or the Internet of Things, are introducing the Internet to even more private aspects of our lives. 
+
+Mark Surman
+
+Michelle Thorne 
+First, the latest news:
+A massive cybersecurity breach at Equifax exposed millions of Americans' most sensitive data, from Social Security numbers to home addresses. The aftermath yielded even more digital drama: erroneous tweets, fake websites and phishing scams. 
+At Facebook, Mark Zuckerberg has admitted politically motivated Russian accounts used the social network during the recent US presidential election. "I don't want anyone to use our tools to undermine democracy," Zuckerberg had to aver. 
+Read More
+Across the Atlantic, Google is facing a staggering $2.7 billion antitrust fine from the European Union. Officials say the search giant is depriving Internet users of choice and depriving its competitors of a fair shake. (Google disagrees and says it's actually improving user choice and competition.) 
+And on the African continent, the government of Togo knocked the Internet offline amid growing protests. Social media sites, online banking and mobile text messaging were blocked -- a blow to freedom of expression and other democratic ideals.
+Headlines such as these are reminders that online life is deeply entwined with offline life. What happens on the Internet affects our pocketbooks and even our democracies. 
+
+All of this is happening as the Internet of Things grows exponentially. In the '90s, the Internet was tethered to our desktops. Last decade, it leapt onto our phones and into our pockets. Now, the Internet is becoming pervasive: It's entering our cities, our cars, our thermostats and even our salt shakers. 
+As a result, the connection between online life and all other aspects of life is deepening. Five or 10 years down the line, the implications of another Equifax hack, or another Internet shutdown, will be far greater. 
+What do we do? Right now, the Internet of Things is at an inflection point. It's pervasive but also still in its infancy. Rules have yet to be written, and social mores yet to be established. There are many possible futures -- some darker than others. 
+
+
+JUST WATCHED
+Seniors find independence in smart homes
+Replay
+MUST WATCH
+ 01:10
+If we continue forward with the Internet's current design patterns -- controlled by a handful of Silicon Valley giants, with personal data as currency -- those darker futures will likely prevail. Internet-connected bedrooms, cars, pacemakers and dialysis machines would be beholden to companies, not individual users. Personal data -- captured on an even more granular level -- would remain currency, and threats such as hacking would extend to even more intimate areas of our lives. 
+There are already sobering examples. Consider My Friend Cayla, the Internet-enabled toy that the German government labeled an "illegal espionage apparatus." Cayla is a seemingly innocuous, Barbie-like doll. But Cayla records conversations, hawks products to impressionable youngsters, and is vulnerable to hackers. 
+Even good news raises murky questions. Tesla recently gave its customers affected by Hurricane Irma a battery boost -- a noble gesture. But some Floridians and journalists questioned the implications: What happens if someone other than Tesla gains access to a fleet of vehicles? This is a concern about connected cars that long predates Hurricane Irma.
+
+
+JUST WATCHED
+Samsung tweaks policy after eavesdropping freak out 
+Replay
+MUST WATCH
+ 01:34
+Alternatively, we -- Internet users and consumers -- can demand new, better design patterns. The Internet of Things can adopt an ethos akin to the early Internet: decentralized, open source and harmonized with privacy. 
+Here, too, there are examples. A growing number of technologists ask not only what's possible but also what's responsible. At the recent ThingsCon event in Berlin, creations from this movement were on display. 
+We encountered the concept of the Internet of Things trust marks -- third-party labels that signal whether a device sufficiently respects privacy. We were introduced to Simply Secure's Knowledge Base, a tool kit instructing developers and designers how to make privacy-respecting, secure products. And we saw SolarPak, a backpack created in Senegal that's equipped with a solar panel. It collects energy during the day to power a small LED lamp at night, allowing students to study. 
+Join us on Twitter and Facebook
+These are ideas and devices that solve problems, as many technology products do. But they also put responsibility first; data collection and planned obsolescence aren't part of the equation. 
+This isn't a simple issue. Big tech platforms do have an important role to play in making the Internet of Things more responsible and ethical. But the dynamic of so few controlling so much of our lives is simply too risky. As we welcome the Internet into more intimate parts of our lives, individual consumers and users must remain in control. And loud consumer demand alone isn't enough: Regulators and industry leaders need to take steps, too. Together, we must ensure new hardware and software put responsibility ahead of flashiness and profit.

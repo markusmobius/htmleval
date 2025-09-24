@@ -1,0 +1,17 @@
+Winter Olympics 'targeted by hackers'
+Image caption The 2018 Winter Olympics take place in Pyeongchang next month
+
+Hackers have attempted to steal sensitive data from groups involved with next month's Winter Olympics, cyber-security firm McAfee said. 
+It did not identify those responsible, but said more attacks tied to the upcoming Olympics were likely. 
+In similar past attacks, hackers tried to obtain passwords and financial data.
+'Casting net wide'
+McAfee said a number of groups associated with the Olympics had received malicious emails - including several affiliated with ice hockey.
+"The majority of these organisations had some association with the Olympics, either in providing infrastructure or in a supporting role," the security firm said. 
+"The attackers appear to be casting a wide net with this campaign." 
+The emails were sent from a Singapore IP address and told readers to open a text document in Korean. 
+McAfee said the hackers were trying to trick recipients into believing the emails had come from South Korea's National Counter-Terrorism Center - which at the time was in the process of conducting anti-terror drills in the region.
+In some cases the hackers used a technique in known as steganography which hides malware in text and images. 
+McAfee echoed recent warnings from University of California researchers to expect more cyber-attacks targeting major sporting events. 
+"With the upcoming Olympics, we expect to see an increase in cyber attacks using Olympics-related themes," the security firm said. 
+It comes as Pyongyang prepares to hold official talks with South Korea for the first time in more than two years. 
+North Korea accepted an offer to attend the meeting on 9 January that will focus on finding a way for its athletes to attend the Games.

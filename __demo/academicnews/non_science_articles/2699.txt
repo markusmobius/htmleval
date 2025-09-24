@@ -1,0 +1,39 @@
+Amazon Echo Show: Worth it once the kinks are worked out
+NEW YORK—Alexa can now show you stuff as well as tell.
+Amazon users have been on a first-name basis with its cloud-based personal assistant since the debut of the company’s popular voice-driven Echo speaker. Now that Amazon will begin shipping Echo Show this week, the first Echo with a built-in screen, expect to spend more time with Alexa — as well as family and friends that allow you to "drop in" for a chat via a screen on their counter-tops.
+I’ve been testing Echo Show for just shy of a week and expect it to be a hit, as much for its potential as for where it will be on launch day. The presence of a screen lets you do things not possible on the original Echo, from surfacing photos to letting you watch YouTube.
+It costs $229.99 for a single Echo Show, though you get $100 off if you buy two. And you might consider a second unit so that you can exploit Echo Show's video calling features.
+More:
+But there’s some roughness around the edges with the device and in the Alexa app.
+For example, despite the presence of eight microphones, so-called beam forming tech, and noise cancellation, Echo Show misheard me here and there, which doesn’t seem to happen very often with the original Echo.
+On an incoming video call—I tested calling features with a colleague at USA TODAY’s Reviewed.com site—I asked Alexa out loud to “reject the call.” Her response: “There is no inbound call.” On a second try I said, “Alexa, end the call,” which worked.
+A couple of times, including when I was playing a round of Jeopardy, Echo Show froze. What’s more, relatively few of the more than 13,000 available Alexa “skills” have been optimized yet for Echo Show’s 7-inch color touch screen and front facing (5-megapixel) camera. Of course, I also have little doubt that you’ll see a steady progression of Alexa skills that will take advantage of the hardware.
+Indeed, even at this stage there was plenty that Echo Show could do to get me excited about its prospects. Among the examples:
+*Synchronized song lyrics. On most of the tracks on Amazon’s Prime Music and Music Unlimited services, song lyrics are synchronized, so as the song plays you can see the lyrics. That's not the case with tracks you hear via a third-party service such as Spotify.
+
+While listening, by the way, you’ll appreciate that the speaker quality is quite good, and better than the audio on the original Echo.
+*Controlling the smart home. I was able to remotely peek at live video feeds of my living room on the Echo Show screen through a Nest Cam security camera skill that I enabled through the Alexa app—at least some of the time. Echo Show sometimes asked me to link Nest to the Alexa app even after I'd successfully done so, another of those oddities.
+Echo Show is supposed to work with other cameras, too, including the Ring Video Doorbell Pro and Arlo Pro.
+*Visualize the forecast. Instead of just reading the weather out loud, Echo Show can display appropriate graphics (clouds, thunder, etc.) and let you visualize what the forecast will be over the next several days.
+*Timer countdowns. You can watch the countdown on a kitchen timer, rather than having to guess when the timer will go off or ask Alexa to tell you.
+
+*Prepare a meal. Through Allrecipes.com and YouTube, I was able to check out a variety of barbecue chicken recipes. Yum.
+*Show the news. I’m accustomed to requesting flash news audio briefings on the Echo units in my house without a screen. Echo Show can play videos news feeds, as well, from the likes of Bloomberg, CNN, Reuters and TechCrunch.
+*Play movies. My kids were thrilled to discover that they could not only play YouTube clips and movie trailers on Echo Show, but they could also watch available flicks that are part of the Amazon Prime service. And they could watch in their entirety and watch for free.
+The Echo Show's functional design reminds me of an old counter-top kitchen TV set, and it is not likely to win any beauty contests. It comes in black or white and is meant to blend in the background of wherever you place it. I can report that the screen was quite viewable, even from a distance.
+*Video calling. For many families, I suspect video calling will be the killer app. The person you are calling must be in your phone’s contacts and be recognized by the Alexa app. My colleague and I ran into a few snags before we got it to work, but once set up, calling is a simple as saying, “Call Daniel.”
+You can turn off the video during calls, but can't mute the audio.
+If the friend or family member doesn't answer your call you can leave them a voice message by saying something like, “Alexa, leave a voice message for Daniel.” But be careful because there doesn't seem to be anyway to review the message before you send it, an important omission. Nor can you leave a video or text message.
+For those closest to you—maybe an elderly relative, or even a child in an upstairs bedroom—you can use the “drop in” feature, in which each of you can drop in on the other person unannounced, kind of the video equivalent of Kramer barging in on Jerry’s apartment in the old Seinfeld TV series. Both sides have to enable the feature. If you’d rather not talk, or rather, be seen, there is a brief shield of privacy. At first all the person dropping in on you will see is a sketchy image of you behind frosted glass. That gives you 10 to 15 seconds to do what you have to do to look presentable or to reject the call by touching the Echo Show screen, or by using your voice. Just be aware that the person can hear you rejecting the drop-in call so suffice to say things can get rather awkward. If you do nothing, the frosted glass disappears and you'll be talking face to face.
+
+A few other items worth noting: While Echo Show isn't particularly heavy—during my tests I schlepped it back and forth between my home and office—it must be plugged in, so it is pretty much designed to stay put.
+Amazon says it will not surface “special offers” or ads on the Echo Show home screen to lower the price of the hardware, as it does on Kindle eBook reader models. But third party content producers can display their own ads.
+Showing is not better than telling in every instance. But in many situations it is great to have the option.
+Email: ebaig@usatoday.com; Follow USA TODAY Personal Tech Columnist @edbaig on Twitter
+The bottom line
+Amazon Echo Show
+$229.99; www.amazon.com
+Pro: The first Echo Show with a screen lets you watch videos, show pictures, follow song lyrics, make video calls and more.
+Con. Encountered a few hardware/software quirks. Not all of the Alexa skills have been optimized yet to exploit the display.
+CONNECTTWEET 1 LINKEDINEMAILMORE
+Read or Share this story: https://usat.ly/2taXVrd

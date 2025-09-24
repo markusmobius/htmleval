@@ -1,0 +1,60 @@
+Rick Perry’s proposed coal bailout just died an unceremonious death
+“What’s that? You say the FERC decision was unanimous?”
+
+Ding-dong, the NOPR is dead.
+Late last year, Rick Perry’s Department of Energy issued a notice of proposed rulemaking (NOPR) asking the Federal Energy Regulatory Commission (FERC) to bail out beleaguered coal and nuclear plants. 
+Specifically, the NOPR asked FERC to issue a rule ensuring full cost recovery for power plants with a 90-day supply of fuel on hand (i.e., coal and nuclear plants). 
+Yesterday, FERC officially responded: Thanks, but no thanks.
+There’s no spinning this news. It is a serious setback for the Trump administration, a rebuke to Perry, and an assertion of FERC’s ongoing independence and integrity. 
+It also marks the emergence of a serious national discussion about the performance of the electricity grid, which as regular readers know is an obsession of mine. Despite Perry’s efforts, however, big piles of coal will not play a prominent role in that discussion.
+FERC rejected the NOPR for all the right reasons
+It was clear from the get-go that the NOPR was bonkers. Suffice to say, Perry was asking FERC to intervene in energy markets in the crudest possible way, distorting their results based on justifications that were not even facially plausible. 
+DOE’s argument was twofold: a) subsidies for renewable energy are driving coal and nuclear plants out of business, and b) the loss of those plants is hurting the reliability and resilience of the electric grid.
+
+“What? Sounds good to me!”
+
+Problem is, neither is true. Even the DOE’s own report on grid reliability found otherwise. The premises were also harshly corrected by the historic number of commenters on the proposal. The reactions and comments, as I described at length in this post, were overwhelmingly negative, including several technical reports showing that the NOPR would substantially raise costs on consumers, for no benefit. Virtually no one except the corporate entities that stood to directly benefit found the NOPR plausible. 
+The proposal’s lack of merits was widely understood in the energy world. What remained in doubt is whether FERC would stand up for energy markets or submit to Trump’s crony capitalism. 
+With a few retirements and the slow process of nominations, FERC has been short of a five-member quorum for most of Trump’s administration. Its acting chair, Neil Chatterjee, was an ex-Mitch McConnell staffer who has made supportive noises about the NOPR. It was only a few months ago that the commission got fully staffed up, under the new chair, Kevin McIntyre. Four out of its five members are now Trump appointees (though two, Richard Glick and Cheryl LaFleur, are Democrats). 
+
+FERC Chair Kevin McIntyre sees you.
+
+Due to the political intensity of the situation — Trump has made lots of promises to the coal industry — there was some speculation that FERC might try to finesse the issue, though few thought it would simply adopt DOE’s recommendation. 
+But there wasn’t much finesse in yesterday’s unanimous ruling: It terminated the NOPR completely. 
+FERC’s core legal justification was simple. To justify a change in energy market rules, petitioners to FERC must do two things. They must show that existing rules are “unjust, unreasonable, unduly discriminatory or preferential,” and they must show that their proposed rules are just, reasonable, and not discriminatory or preferential.
+In this case, the DOE needed to show that current rules are harming grid resilience, to the detriment of ratepayers, and that its proposed rule is not discriminatory. 
+FERC’s commissioners agreed: The DOE failed on both counts.
+ This is exactly the argument we made in our comments - https://t.co/9erUhTqO84
+— Ari Peskoe (@AriPeskoe) January 8, 2018 
+The DOE could not show that power plant retirements are threatening reliability. And it certainly couldn’t show that “fuel assurance” — having big piles of coal around — is crucial to grid resilience. 
+Three commissioners — LaFleur, Chatterjee, and Glick — wrote separate, concurring statements. Chatterjee, ever the loyalist, says that he still supports his interim plan to subsidize coal plants while FERC makes its judgment. But Glick better captures the commission’s sentiments when he writes that the NOPR “had little, if anything, to do with resilience, and was instead aimed at subsidizing certain uncompetitive electric generation technologies.”
+ An interesting detail from the concurring statement on the FERC decision by Richard Glick. In the bomb cyclone, almost half the outages on PJM have come from coal-fired plants pic.twitter.com/H7YlNFsaJ6
+— Ed Crooks (@Ed_Crooks) January 9, 2018 
+LaFleur wrote that “the Commission should continue to focus its efforts not on slowing the transition from the past but on easing the transition to the future.” (Glick and LaFleur both also mention climate change, which Perry never has.)
+My inbox is groaning under supportive statements from environmentalists, energy industry groups, energy researchers and analysts, politicians, and your cousin Gary for the decision. It’s a clear signal that energy markets will be allowed to do their work and good news for anyone who supports forward-looking energy policy.
+FERC will undertake a rational assessment of grid reliability
+Though they rejected all his arguments and proposals, FERC commissioners thanked Perry for, ahem, drawing attention to the issue of grid reliability and resilience. As the DOE grid study documented, there have been lots of big changes in the electricity sector in the past decade, so it’s worth taking a fresh look at how to maintain a steady grid.
+In that spirit, FERC will begin a process of gathering information on the subject to determine if further action is warranted. 
+ In the new docket, here is what FERC has committed to: pic.twitter.com/MNiEbttUZG
+— Avi Zevin (@azevin) January 8, 2018 
+Specifically, FERC will ask the country’s ISOs and RTOs — the organizations that run regional energy markets — to report back within 60 days with answers to 18 questions about how they evaluate the resilience of their systems. They will also be asked to weigh in on four possible FERC actions to support resilience. 
+FERC specifically instructs ISOs and RTOs to look beyond fuel assurance to a “broader consideration of resilience issues.”
+This new proceeding on resilience gives at least a tiny bit of political cover for Perry, confirmation that he’s raised a valid subject, but ... it’s not much. This isn’t a new rulemaking or a proposal for rulemaking. It’s the beginning of an informal information-gathering process that may or may not widen in scope.
+The resilience discussion will continue
+In the near term and the long term, Perry’s dream of a coal bailout seems forlorn. The considered, deliberative process to assess grid resilience he’s kicked off is not going to conclude that big piles of coal are key to national security. 
+ One last point. DOE's bungling of this from the start (no coordination, proposal unlike a normal 206 proceeding, Perry's performance at House Energy hearing) very likely hurt its ability to get near-term policy in the direction it wanted (even if less than cost-of-service).
+— Avi Zevin (@azevin) January 8, 2018 
+All hopes for coal and nuclear now reside with ISOs and RTOs, professional organizations that pride themselves on independence and technical expertise and have invested years of effort in getting energy markets working. 
+Their path forward is looking rocky.
+ NEI, big NOPR supporter, hints at the next lobbying target for it and coal:
+"We believe the direction to the RTOs/ISOs to ‘take a proactive stance on addressing and ensuring resilience’ must lead to prompt and meaningful action, including on issues such as price formation.” https://t.co/QkOvJOwIZh
+— Gavin Bade (@GavinBade) January 9, 2018 
+Nuclear has another appeal to make, of course — it is low-carbon. That is, at the very least, a great reason to keep every existing nuclear plant open until the last coal plant is closed. Under Trump, however, the nuclear industry has proven willing to toss that argument overboard and tie its fate to coal’s, which strikes me, and many others, as a fateful strategic error.
+ The nuclear industry should be relieved that the NOPR was unceremoniously rejected. "Resilience" payments would have helped in the short term but tied nuclear economically and politically to coal, which is in long term decline, we argued in @ForeignAffairs https://t.co/DX2fF2d9w2
+— Varun Sivaram (@vsiv) January 8, 2018 
+Whatever nuclear’s argument, though, it has nothing to do with resilience. Resilience is an attribute of the electricity system, not any individual element within it.
+The overwhelming majority of electricity disturbances originate in damage to power poles and power lines — the grid itself. Grid resilience is likely to be best served by better, smarter grid architecture, networking together a diversity of small and midsize resources (perhaps someday including small nuclear plants). I’ll have more to say on grid architecture soon. 
+For now, it’s enough to say that a blow was struck this week for evidence-based policymaking. In pursuit of crony capitalism, Perry blundered into a nest of wonks. He did not fare well. 
+Was this article helpful?
+ yes no 
+Awesome, share it:

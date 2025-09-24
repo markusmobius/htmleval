@@ -1,0 +1,32 @@
+Who needs body cameras? Police testing cellphone cameras
+CLOSE
+
+ Police looking for a more inexpensive and accessible body camera now may only have to look as far as their own cellphone. Josh King has the story (@abridgetoland). Buzz60
+
+A solution for police officers searching for more accessible and inexpensive body cameras may have been in their pockets all along.
+The Jersey City Police Department is the first in the nation to test a new smartphone app called CopCast that allows officers to turn everyday cellphones into body cameras. After months of testing the system with 10 officers, the department is expected to sign an agreement this week to expand the technology to as many as 250 officers.
+As the U.S. is continuing to grapple with officer-involved shootings, the new technology may allow more departments to afford body cameras that provide a fuller picture of violent encounters.
+"All police leadership need to understand that this is the future," Jersey City Mayor Steven Fulop told USA TODAY. 
+The new system works like this: Officers download the CopCast app on a smartphone, and supervisors download a desktop version. Officers can strap the phone onto their chest and hit a button to start recording audio and video, which can be streamed live by supervisors monitoring from headquarters and show the exact location of the officer using GPS technology. The officer hits another button which ends the stream, and the entire encounter is automatically saved on a server.
+Many body cameras on the market now require officers to download all their video at the end of their shift, meaning the video must then be reviewed and organized before supervisors can look over any footage.
+Chuck Wexler, executive director of the Police Executive Research Forum, a Washington, D.C.-based law enforcement research organization, said the technology is intriguing because the biggest barrier for U.S. police departments interested in body cameras is the cost.
+Body camera companies usually sell their services as part of an all-inclusive package. Wexler used the example of cellphone carriers, which give customers massive discounts when buying a phone in order to lock them into long-term data contracts.
+Similarly, body camera companies provide discounted, or free, body cameras but require police departments to use their services to store the reams of video collected by officers.
+Gideon Morris, the head of community safety for the state of Western Cape in South Africa, said he experienced severe sticker shock when he first solicited bids to equip his officers with body cameras.
+"They'll give you a unit price and you'll do the calculation and you'll say, 'Guys, not in this era,'" said Morris, who went on to use CopCast.
+Brian Platt, the chief innovation officer of Jersey City, said the smartphone app — which has a basic version that is free to any police department — allows his city to shop around for more inexpensive storage and support services.
+Wexler said flexibility is much needed in an industry that is dominated by a handful of companies, led by Taser International, which changed its name to Axon in April. Wexler said more than half of the nation's medium- to large-size cities are using or testing body cameras. But he said 90% of the nation's 18,000 police departments have 50 officers or fewer, and they are struggling to afford body cameras.
+"If the industry needs anything it's competition and innovation," Wexler said. "We'll be looking to see how this gets rolled out."
+CopCast was created by the Igarapé Institute, a Brazilian think tank that focuses on security and justice issues, and Jigsaw, a technology incubator created by Eric Schmidt, the former CEO of Google who is now the executive chairman of its parent company, Alphabet. 
+Read more:
+Robert Muggah, research director of Igarapé, said test runs in Rio de Janeiro, South Africa and Bulgaria have shown that officers are quick to adopt the app.
+"Most were young and tech savvy and were already coming up with ways of using their phones in their jobs," he said.
+The technology also allows departments to quickly customize their software.
+James Shea, Jersey City's public safety director, said his officers noticed a problem when they first started testing CopCast with department-issued Samsung Galaxy S6 phones.
+To start recording video, officers had to pull the phone off their chest, hit a button on the screen and reattach the phone. The department spoke with the software developers in Brazil and were able to update that process — officers now hit the "volume up" button to start recording and the "volume down" button to stop without removing the phone from their chest.
+"The beauty of it is, because it's an app, they can make corrections and revisions and continue to develop it," Shea said. 
+The software — currently available on Android phones with an iPhone version in the works — is also open source, allowing departments with developers on staff to tinker with the software. Igarapé is planning to offer a paid service to help smaller departments customize the software to their needs. 
+The end result, they hope, is a platform that will allow police departments around the U.S. and the world to adopt body camera technology that has been off-limits to them for too long.
+"We hope that CopCast helps to lower the barriers to entry and lower the costs of body-worn camera systems, which improve police accountability and enhance trust with citizens," Jigsaw CEO Jared Cohen said. 
+CONNECTTWEET 184 LINKEDINEMAILMORE
+Read or Share this story: https://usat.ly/2tb0gDf

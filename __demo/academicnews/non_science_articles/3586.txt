@@ -1,0 +1,30 @@
+Apple shows what's coming in iOS 11.3: battery control and more Animojis
+The latest version of iOS software lets you manage battery slowdown, view health records, and (for the iPhone X), send new Animojis
+Posted!
+A link has been posted to your Facebook feed. 
+ 8 Shares 
+
+
+
+
+CLOSE
+
+ Tim Cook maintains that Apple slowed iPhone performance in order to help users prolong their battery. USA TODAY
+
+Apple gave a sneak peek at its next iPhone operating system update and it features more Animojis (for owners of iPhone X) — and for almost everyone, a much-discussed option to turn off a slowdown feature for older batteries. 
+Version 11.3 of the iOS software that Apple previewed Wednesday introduces a dragon, bear, skull and lion, as four additional Animoji characters — the animated emojis that take over your voice and mirror your facial expressions — bringing the grand total to 16.
+But iOS 11.3 addresses a very different, and for many users, more important consideration, by adding a power management tool that clues you in when the iPhone’s battery is about to poop out. It also gives you the ability to turn off a feature that slows down the phone when the battery reaches critical status, which Apple put in place to prevent the device from unexpectedly shutting down.
+Apple got into hot water recently for deliberately throttling aging iPhones, which led to the company lowering the cost of replacement batteries for such phones from $79 to $29.
+The power management capabilities will be made available for the iPhone 6 or later models and are not yet included in the beta version of the 11.3 software, which developers can get their hands on starting today. It will be available to consumers when the public version of the software is released in the spring.
+iOS 11.3 promises other new features and improvements. Apple’s ARKit software for augmented reality gets a boost that will let developers produce apps in which virtual objects can be placed on walls, doors, other vertical surfaces, and, Apple says, more accurately map irregularly shaped surfaces like circular tables. 
+
+A new Business Chat feature inside the Messages app is supposed to make it easier for you to communicate directly with service representatives at certain companies, whether you're or scheduling appointments or making purchases via Apple Pay. It will launch with such partners as Discover, Hilton, Lowe’s and Wells Fargo.
+
+Another new feature will let you view available health data from participating hospitals, clinics and other medical providers inside the Heath app, and yes, Apple says such records will be encrypted and password protected.
+And Apple Music will soon be the home for ad-free music videos on your phone.
+Email: ebaig@usatoday.com; Follow USA TODAY Personal Tech Columnist @edbaig on Twitter
+
+
+
+
+Read or Share this story: https://usat.ly/2FcUlQ9

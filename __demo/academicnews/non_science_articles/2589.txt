@@ -1,0 +1,44 @@
+Journalists to use 'immune system' software against fake news
+Full Fact software backed by George Soros and Pierre Omidyar fact-checks statements in parliament and news media in real time
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A screenshot showing the Full Fact software in action. Photograph: Full Fact
+
+Broadcast, print and online journalists are to begin using an automated fact-checking system that quickly alerts them to false claims made in the press, on TV and in parliament.
+An early version of the system, dubbed the “bullshit detector” by its creators, will be rolled out for testing from October as part of a global fightback against fake news.
+It is being developed by researchers at the Full Fact organisation in London with $500,000 (£380,000) of funding from charitable foundations backed by two billionaires: the Hungarian-born investor George Soros, and the Iranian-American eBay founder Pierre Omidyar.
+The software, which was demonstrated to the Guardian, scans statements as they are made by politicians and instantly provides a verdict on their veracity. An early version relies on a database of several thousand manual fact-checks, but later versions will automatically access official data to inform the verdict. The researchers are co-operating with the Office of National Statistics on the project.
+The Full Fact program will be first tested in the UK but will also be deployed in South America and Africa, where Kenya’s presidential election campaign has been beset by fake news such as bogus BBC and CNN news reports using fabricated polls to overstate the prospects of President Uhuru Kenyatta.
+In London, Full Fact is working with Chequeado, an Argentina-based fact-checking organisation, and Africa Check, which operates in several sub-Saharan countries, including Nigeria and South Africa.
+ 
+ 
+ 
+ 
+ 
+ 
+Pierre Omidyar.
+
+“It is like trying to build an immune system,” says Mevan Babakar, project manager at Full Fact in London. “As more information goes out into the world that is wrong, what we don’t have is the means of pushing back against that.”
+The early version of the software scans the subtitles of live news programmes, broadcasts of parliament, the Hansard parliamentary record, and articles published by newspapers. It tracks millions of words sentence by sentence until it identifies a claim that appears to match a fact-check already in its database.
+The Guardian witnessed a real-time demonstration during a health debate in parliament. Words spoken by the politicians were underlined if they matched an existing fact-check. For example, the claim that “in the last six years of the last Labour government, 25,000 hospital beds were cut” flags a fact-check from the database that states: “Correct, the number of overnight beds in the English NHS actually fell by slightly more – about 26,000 – between 2003-04 and 2009-10”.
+Another claim, that 10,000 more NHS nursing training places had been made available is also flagged: “Incorrect. This figure refers to the government’s ambition for additional places by 2020 on nursing, midwifery and child health courses”.
+In another version of the software, the fact-checks pop up on the TV screen as politicians are speaking, giving viewers instant verdicts on politicians’ claims. The experience of watching political debate programmes like BBC’s Question Time could be transformed.
+The developers want to expand the program so that it carries out its own fact-checks by using databases of statistics and verified information. Work is also under way to give Twitter and Facebook users the chance to fact-check their social media feeds, where the large majority of the worst fake news has been distributed.
+“This is an important investment in the future of fact-checking,” says Stephen King, the Omidyar Network’s global lead on governance and citizen engagement. “These tools will expand the reach and impact of fact-checkers around the world, ensuring citizens are properly informed and those in positions of power are held accountable.
+However, Babakar is keen to stress the limitations of the system so far and believes the tool should only be used by journalists in the first instance rather than the general public.
+“If we go straight to the public it will pit us against people wanting quick answers who won’t be satisfied because we can’t always make the answers small,” she said. “It is to help the journalist better push back, for example by challenging politicians at a press conference rather than going back to their desk and researching the claims. This way you can challenge the claim straight away. That is really important for public debate.”
+The fledgling system is not without its problems; sometimes it flags up a fact-check that isn’t relevant, for example. The challenge for the programmers is to get the software to understand the fuzzy logic and idiom used so often in speech.
+Neither is Babakar comfortable with the idea that the system separates the true from the false, especially since “fake” has become associated with information people dislike rather than which is objectively false.
+“I have a problem with the word truth because that means different things to different people,” said Babakar. “I think things are correct or incorrect. A truth can be personal. People may say crime is rising because it is in their area but the national average may be falling.”
+The software’s aim is not to offer people conclusions, but instead provide “the best available evidence”, Babakar says.
+ Topics

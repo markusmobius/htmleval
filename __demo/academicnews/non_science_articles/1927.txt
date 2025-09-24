@@ -1,0 +1,58 @@
+H5N1 Bird Flu Research That Stoked Fears Is Published
+The more controversial of two papers describing how the lethal H5N1 
+bird flu
+ could be made easier to spread was published Thursday, six months after a scientific advisory board suggested that the papers’ most potentially dangerous data be censored.
+The paper, by scientists at Erasmus Medical Center in the 
+Netherlands
+, identified five mutations apparently necessary to make the bird flu virus spread easily among ferrets, which catch the same flus that humans do.
+Only about 600 humans are known to have caught H5N1 in the last decade as it circulated in poultry and wild 
+birds
+, mostly in 
+Asia
+ and 
+Egypt
+, but more than half died of it.
+The paper’s publication, in the 
+journal Science
+, ended an acrimonious debate over whether such results should ever be released. Critics said they could help a rogue scientist create a superweapon. Proponents said the world needed to identify dangerous mutations so countermeasures could be designed.
+“There is always a risk,” Dr. 
+Anthony S. Fauci
+, the director of the National Institute for Allergy and Infectious Diseases, said in a telephone news conference held by Science. “But I believe the benefits are greater than the risks.”
+Two of the five mutations are already common in the H5N1 virus in the wild, said Ron A. M. Fouchier, the paper’s lead author. One has been found in H5N1 only once. The remaining two have never been found in wild H5N1, but occurred in the H2 and H3 flus that caused the 1957 Asian 
+flu
+ pandemic and the 1968 
+Hong Kong
+ flu.
+The Dutch team artificially introduced three mutations. The last two occurred as the virus was “passaged” through 10 generations of ferrets by using nasal washes from one to infect the next.
+Four changes were in the hemagglutinin “spike” that attaches the virus to cells. The last was in the PB2 protein.
+As the virus became more contagious, it lost lethality. It did not kill the ferrets that caught it through airborne transmission, but it did kill when high doses were squirted into the animals’ nostrils.
+Dr. Fouchier’s work proved that H5N1 need not mix with a more contagious virus to become more contagious.
+By contrast, the lead author of the other bird flu paper, Dr. Yoshihiro Kawaoka, of the University of Wisconsin-Madison, took the H5N1 spike gene and grafted it onto the 2009 H1N1 
+swine flu
+. One four-mutation strain of the mongrel virus he produced infected ferrets that breathed in droplets, but did not kill any.
+The controversy erupted in December when the National Science Advisory Board for Biosecurity asked that details be removed before the papers were published. On March 30, it reversed itself after a similar panel convened by the 
+World Health Organization
+ recommended publication without censorship.
+Dr. Kawaoka’s work was published by the 
+journal Nature
+ last month.
+Dr. Fouchier had to delay until the Dutch government gave him permission,  on April 27.
+Some of the early alarm was fed by Dr. Fouchier speaking at conferences and giving interviews last fall in which he boasted that he had “done something really, really stupid” and had “mutated the hell out of H5N1” to create something that was “very, very bad news.” He said his team had created “probably one of the most dangerous viruses you can make.”
+After the controversy erupted, he claimed the news media had overblown the danger.
+Science magazine on Thursday published seven other articles about H5N1. One, by a team at 
+Cambridge
+, concluded that it was not possible to accurately calculate the likelihood of all five mutations occurring in nature.
+Up to three in a single human is “a possibility,” said Derek J. Smith, the lead author. “Five mutations is pretty difficult, but we don’t yet know how difficult it is,” Dr. Smith said.
+Having H5N1 still circulating in birds is like “living on an active fault line,” he said. But asking whether a five-mutation strain could evolve in human hosts, he said, was like asking if it could ever snow in the Sahara — unlikely, but not inconceivable.
+Presumably, if an outbreak with several of the most dangerous mutations were spotted, the world would move quickly to try to eradicate it with vaccines and quarantine; whether it would work is an unanswered question.
+An important result of the controversy, Dr. Fauci said, is that the 
+United States
+ is now drafting new guidelines for dangerous research.
+For the moment, most researchers are honoring a voluntary moratorium on this line of flu research.
+Asked if a rogue researcher could now try to duplicate Dr. Fouchier’s work, Dr. Fauci said it was possible. But he argued that open discussion was still better than restriction to a few government-cleared flu researchers, because experts in unrelated fields, like 
+X-ray
+ crystallography or viral epidemiology, might take interest and eventually make important contributions, he said.
+“Being in the free and open literature makes it easier to get a lot of the good guys involved than the risk of getting the rare bad guy involved,” he said.
+Dr. Fouchier said that many papers are published about pathogens more dangerous than flu.
+Also, many scientists have said that the two papers have been so widely discussed that experts knew every detail anyway.
+A version of this article appears in print on June 22, 2012, on Page A7 of the New York edition with the headline: Bird Flu Paper Is Published After Debate.

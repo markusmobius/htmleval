@@ -1,0 +1,44 @@
+LUV Stock Price & News - Southwest Airlines Co.
+P/E Ratio (TTM)
+ 
+Earnings Per Share (TTM)
+
+Market Capitalization
+Reflects the total market value of a company. Market Cap is calculated by multiplying the number of shares outstanding by the stock's price. For companies with multiple common share classes, market capitalization includes both classes.
+Shares Outstanding
+
+Public Float
+The number of shares in the hands of public investors and available to trade. To calculate, start with total shares outstanding and subtract the number of restricted shares. Restricted stock typically is that issued to company insiders with limits on when it may be traded.
+Dividend Yield
+A company's dividend expressed as a percentage of its current stock price.
+Key Stock Data
+ P/E Ratio (TTM)
+ 17.95 (01/24/18) 
+ EPS (TTM)
+ $3.48 
+ Market Cap
+ $38.72 B 
+ Shares Outstanding
+ 593.39 M 
+ Public Float
+ 591.71 M 
+ Yield
+ 0.80% (01/24/18) 
+ Latest Dividend
+ $0.125 (01/04/18) 
+ Ex-Dividend Date
+ 12/06/17 
+Shares Sold Short
+The total number of shares of a security that have been sold short and not yet repurchased.
+Change from Last
+Percentage change in short interest from the previous report to the most recent report. Exchanges report short interest twice a month.
+Percent of Float
+Total short positions relative to the number of shares available to trade.
+Short Interest 
+(12/29/17)
+ Shares Sold Short
+ 9.56 M 
+ Change from Last
+ -22.62% 
+ Percent of Float
+ 1.62%

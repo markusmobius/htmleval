@@ -1,0 +1,24 @@
+Point-of-sale systems targeted in retailer data thefts
+SEATTLE — The hackers responsible for the wave of breaches at big retailers this holiday season very likely began testing a method to infect thousands of point-of-sale systems in big retail chains in January 2013.
+"This is a well-funded adversary taking their time to develop very specific malware to go after very specific targets and a big payday," says Chris Petersen, chief technology officer at security intelligence firm LogRhythm. "This is organized crime applied to cybercrime."
+Last April, Visa issued an alert to retailers about network intrusions targeting POS data at grocery merchants in early 2013. The technique discovered by the payment card giant involved installing a memory-parsing program on Windows-based cash register systems and back-of-house (BOH) servers. The clever piece of malware was designed to extract data from magnetic-striped payment card transactions.
+CLOSE
+
+ Some experts say thieves were likely inside Target computers for months before the data breach took place. VPC
+By last November security analysts and forensic investigators were quietly discussing cases of big retail chains getting hit by memory parsing attacks, says Avivah Litan, banking security analyst at research firm Gartner.
+"I can't give you names, but there were others hit," Litan says. "Target got hit the biggest."
+The breaches of customer databases at Target, Neiman Marcus and other yet-to-be-disclosed retail chains have all the earmarks of a methodical attack used in cyber espionage known as an Advanced Persistent Threat.
+An APT attack often begins with intelligence gathering. Researchers tap search engines and social media websites to build dossiers on employees likely to have privileged access to wide parts of a company network. Personalized e-mails carrying a viral PDF attachment or Web link get sent. A tried-and-true ruse: trick a subordinate into following orders from his or her superior to click on the viral payload.
+With control of the right logon and password, the attackers gain privileged access to sensitive databases and internal applications.
+"This is a huge wake-up call for companies to think about security from an 'inside-out' model and assume the bad guys are already on the network," says Eric Chiu, president of cloud control company HyTrust. "Access controls, role-based monitoring and data encryption are critical to ensure that data is protected from attackers that might be on your network."
+It's plausible that the hackers responsible for stealing personal data for as many as 100 million Target customers spent months locating — and systematically infecting — thousands of Target POS registers and servers.
+"They may have found an entry point in summer, then slowly compromised thousands of point-of-sale registers, waiting until the holiday season for the transaction volume to reach the highest of the year and for the security teams to get overwhelmed," says Petersen. "To do that all under the radar over a long period of time takes sophisticated malware."
+Security officials at Target, Neiman Marcus and other retailers eventually detected the data thefts. And public disclosures have been prompted by the reporting of cybersecurity blogger Brian Krebs.
+On Jan. 2, US-CERT, the cybersecurity incident reporting body, warned retailers to increase the security of POS systems.
+Yet despite the alerts from Visa and US-CERT, U.S. retailers — and consumers — remain vulnerable. The reason: The U.S. continues wide use of magnetic striped payment cards.
+The rest of the world, led by Europe, Asia and Canada, has moved to chip-embedded payment cards, which are much more difficult to counterfeit.
+"Replacing these cards in the U.S. is a billion-dollar proposition and a five-year time frame," says Anup Ghosh, CEO of browser security firm Invincea. "In the interim, consumers need to count on retailers to secure their store and corporate enterprise networks in order to ensure exposed consumer data is protected."
+
+
+
+Read or Share this story: http://usat.ly/1hQhJVq

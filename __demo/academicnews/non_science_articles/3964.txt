@@ -1,0 +1,51 @@
+4 big takeaways from the most comprehensive report on e-cigarettes yet
+While other countries — most notably England — have been moving ahead to regulate and promote e-cigarettes as a safer alternative to smoking, America has taken a pretty hard line against vaping. That may soon change. 
+
+The prestigious National Academies of Sciences, Engineering, and Medicine released a new report on e-cigarettes Tuesday that’s the most comprehensive look at the evidence to date. 
+A panel of experts analyzed the findings of 800 peer-reviewed studies and came out with a grab bag of conclusions about e-cigarettes’ public health impact.
+Before we dive into the key conclusions, it’s worth noting that the 600-page volume signals an important shift in the conversation about e-cigarettes here in the US. 
+While other countries — most notably England — have been moving ahead to regulate and promote e-cigarettes as a safer alternative to smoking, America has taken a pretty hard line against vaping, with tight controls on the products and little by way of glowing endorsements from the US Centers for Disease Control and Prevention.
+But the tide now appears to be turning. 
+In the NAS report, the authors repeatedly state that e-cigarettes are far less harmful than conventional cigarettes. “There is conclusive evidence,” the report says, “that completely substituting e-cigarettes for combustible tobacco cigarettes reduces users’ exposure to numerous toxicants and carcinogens present in combustible tobacco cigarettes.”
+This paves the way for regulators and policymakers to move toward the kind of harm reduction approach other countries are experimenting with — a direction the Food and Drug Administration, which recently gained the authority to regulate e-cigarettes, seems to be moving in. 
+In a speech last summer, FDA Commissioner Scott Gottlieb announced that the agency would not only work to reduce the nicotine in tobacco products but also offer less risky products for smokers who want or need nicotine. And in that context, he pushed back the compliance deadline for FDA regulation of e-cigarette products, which was seen as a win for the e-cigarette industry. 
+The FDA commissioned the NAS report to help inform its regulations, and on Tuesday, Gottlieb made a new statement on e-cigarettes: “We need to put novel products like e-cigarettes through an appropriate series of regulatory gates to fully evaluate their risks and maximize their potential benefits.”
+There’s a lot more to unpack in the report. Here are the four big takeaways.
+1) E-cigarettes may — or may not — help adults quit smoking
+
+A Juul e-cigarette in a Boston vaping shop on November 15, 2017. E-cigarettes are battery-powered devices that vaporize liquid nicotine.
+
+E-cigarettes are slender, battery-powered devices that vaporize liquid nicotine to imitate conventional smoking (hence why the verb “vaping” is used instead of “smoking” for these products).
+One of the most critical questions about e-cigarettes is whether they can help smokers quit traditional cigarettes. This was also one of the questions for which the NAS committee had the most limited evidence. 
+In the report, the reviewers were careful to draw their conclusions based on the strength of the available evidence. In their eyes, conclusions based on experimental studies — like randomized controlled trials — had more heft than conclusions based on observational research. 
+On the question of whether vaping helps people quit traditional smoking, the reviewers had only three randomized controlled trials to work with. So they found there was “insufficient evidence” that e-cigarettes can help people quit smoking.
+The observational studies were a little more favorable. In those, the committee found, “There is moderate evidence ... that more frequent use of e-cigarettes is associated with increased likelihood of cessation.” 
+Taken together, the committee said, e-cigarettes may increase the odds of smokers quitting — but we don’t know that for sure. 
+2) Vaping increases the likelihood that young people will smoke cigarettes 
+On the other hand, there is strong evidence that e-cigarettes may act as a gateway to traditional cigarettes among youth.
+“The evidence base was large enough and consistent enough and strong enough to conclude that there’s an association between e-cigarette use and ever-use of combustible tobacco [cigarettes],” said committee member Adam Leventhal, a professor of medicine at the University of Southern California, in a briefing. 
+This is a very important finding because another key question about the introduction of e-cigarettes to the market has been what impact they’ll have on youth smoking rates, which have dropped precipitously in recent years. And this NAS finding suggests they may have negative health consequences. 
+The committee had 10 high-quality studies to base their conclusions on, and they all pointed to the same effect. “That’s why we decided to make this conclusion much stronger: Children using e-cigarettes are at an increased risk of using tobacco cigarettes in the future,” said committee member Maciej Goniewicz, an oncologist at Roswell Park Comprehensive Cancer Center.
+So again, while e-cigarettes might have the benefit of helping adults quit smoking, they may also promote smoking among youth and young adults.
+3) E-cigarettes are less harmful than conventional cigarettes 
+
+E-cigarette vaporizers are displayed at Digital Ciggz on January 28, 2015, in San Rafael, California.
+
+On one fact, the report was clear: When compared to conventional cigarettes, e-cigarettes appear to be safer. 
+Before going into the details, let’s just be clear on the baseline here: Conventional cigarettes are one of the deadliest products available to consumers. They are responsible for nearly one in five deaths in the US.
+“Overall, e-cigarette aerosol contains fewer numbers and lower levels of toxicants than smoke from combustible tobacco cigarettes,” the committee found. There is also “conclusive evidence that completely substituting e-cigarettes for combustible tobacco cigarettes reduces users’ exposure to numerous toxicants and carcinogens present in combustible tobacco cigarettes” and “substantial evidence that completely switching from regular use of combustible tobacco cigarettes to e-cigarettes results in reduced short-term adverse health outcomes in several organ systems.” 
+Here, the evidence came from in vitro studies, animal studies, and human trials involving smokers who switched to e-cigarettes. (The human studies showed e-cigarette users had improvements in a range of cardiovascular, respiratory, and even dental health outcomes.) 
+But the committee didn’t go so far as saying that e-cigarettes are safe or that switching from traditional cigarettes to vaping will save lives. And that’s because of another big theme running through the report: There are still just a lot of unknowns about the long-term impact of e-cigarettes. 
+For example, e-cigarettes contain not only nicotine but other toxicants and carcinogens, like formaldehyde and acrolein. And there’s some evidence that they increase coughing and wheezing and can exacerbate asthma in adolescents who use them. 
+What long-term effects this will have on adolescents’ lungs, we don’t know. We also don’t yet know what effect e-cigarettes have on pregnancy outcomes or long-term cancer risk and cardiovascular outcomes. And there’s also “conclusive evidence” that e-cigarettes can explode and burn people, and that the liquids in e-cigarettes can be fatally poisonous. 
+4) The big-picture health effects of e-cigarettes are still a question mark
+To try to understand what effect e-cigarettes may have on public health in the future, the committee modeled several scenarios — and they all hinged on the effect e-cigarettes had on smokers quitting (see No. 1 on this list). “Unfortunately, the most important factor [for our model] was the one where we have the least evidence,” Goniewicz told Vox. 
+The fact that the evidence on this question was so limited made it pretty hard to draw firm conclusions about whether e-cigarettes will be a helpful harm-reduction tool at the population level. 
+But most of the simulations showed that e-cigarettes likely have a net public health benefit — at least in the short run — even if they lead some young people to take up smoking. Here’s the conclusion from the report: 
+Under the assumption that using e-cigarettes increases the net cessation rate of combustible tobacco cigarettes among adults, the modeling projects that in the short run, use of these products will generate a net public health benefit, despite the increased use of combustible tobacco products by young people. Yet in the long term (for instance, 50 years out), the public health benefit is substantially less and is even negative under some scenarios. If the products do not increase combustible tobacco cessation in adults, then with the range of assumptions the committee used, the model projects that there would be net public health harm in the short and long term.
+Again, the public health question hinges on whether over time, the e-cigarette market can displace much of the tobacco market and get most smokers to make the switch.
+For now, the committee members agreed that e-cigarettes are safer than traditional cigarettes. So we should expect the conversation to continue to move in a direction that frames vaping as an important harm-reduction tool. 
+On that note, it’ll be interesting to see what happens at a Wednesday FDA vote about whether to allow the heat-not-burn tobacco product iQOS to be marketed as less harmful than cigarettes. If approved, it’s expected to be the first such device to carry a modified risk claim — and to pave the way for other similar devices. 
+Was this article helpful?
+ yes no 
+Awesome, share it:

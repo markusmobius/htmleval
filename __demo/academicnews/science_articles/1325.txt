@@ -1,0 +1,111 @@
+We can draw school zones to make classrooms less segregated. This is how well your district does.
+Think about your elementary school. 
+If you attended an American public school, chances are you went to that school because your family lived in that school’s attendance zone. You probably didn’t think twice about it.
+We tend to assume these are neutrally drawn, immutable borders. But if you take a step back and look at the demographics of who lives in each attendance zone, you’re faced with maps like this:
+
+
+Once you look at the school attendance zones this way, it becomes clearer why these lines are drawn the way they are. Groups with political clout — mainly wealthier, whiter communities — have pushed policies that help white families live in heavily white areas and attend heavily white schools. 
+We see this in city after city, state after state.
+
+
+And often the attendance zones are gerrymandered to put white students in classrooms that are even whiter than the communities they live in.
+The result is that schools today are re-segregating. In fact, schools in the South are as segregated now as they were about 50 years ago, not long after the landmark Brown v. Board of Education Supreme Court decision.
+
+
+But this exact strategy — gerrymandering school districts to include certain kinds of students and exclude others — can also be used to integrate a school, rather than segregate them.
+In America, there is already a massive amount of residential segregation, shaped by a long history of racist government policies. This is why everyone going to the nearest school perpetuates very segregated classrooms. But using school zones, we can actually gerrymander these lines so we’re not recreating the underlying segregation. 
+
+
+But that’s not happening in most places.
+Two recent studies — one by Meredith Richards and another by Tomas Monarrez — find that most districts draw these lines to perpetuate the underlying residential segregation.
+Some even make it more segregated.
+
+
+I get that this is a problem, but what does this have to do with me?
+The decisions of where to draw these attendance zones are made on a very local level, which means we have a lot of influence on this matter.
+In fact, recent research shows that school boards with members who are registered Democrats tend to draw lines that reduce segregation.
+This means you can play an active part in deciding which children should be allowed to run bake sales together, learn their multiplication tables together, and shuffle through book orders together.
+
+
+That’s why we’re using data that Monarrez shared with us to see how your own district is faring.
+First, we’ll show you what your district would look like if everyone went to the nearest school. Using that baseline, we’ll show you whether or not your district reduces segregation — or exacerbates it.
+Why thinking about segregation in the context of school attendance zones is important
+There's kind of a twisted reason why we focus on school attendance zones.
+On one hand, there is a lot more stratification between districts — between, say, an urban district and a suburban one. 
+
+
+This is a product of the white flight that ensued after the Supreme Court integrated schools in the 1954 decision Brown v. Board of Education, which was aided by government policies that backed development loans to suburbs that would guarantee only white residents.
+
+
+So a truly comprehensive integration plan would require a solution that mixes students from different districts together.
+
+
+But in the 1974 Supreme Court case Milliken v. Bradley, the court ruled that school districts did not have to integrate among each other if the district lines weren't drawn with racist intent. Segregated geography, created by government policies, would just be recreated in our schools. As Justice Thurgood Marshall wrote in his dissent, the decision meant "school district lines, however innocently drawn, will surely be perceived as fences to separate the races."
+This still left room for districts to make sure their classrooms weren't separated by race. But the Supreme Court put limits on that, too. In a 2007 decision, the court ruled that school boards can't use the race of an individual student to decide where they go to school. In the majority opinion, Justice Anthony Kennedy wrote that schools could instead use demographic data to decide where to build new schools or draw attendance zones.
+
+
+But even with the incredibly limited scope of this action, a huge portion of American districts are using these attendance zones to exacerbate segregation.
+It's important to clearly state what's happening here: 
+Government policies created segregated neighborhoods. 
+
+
+The Supreme Court said we couldn't integrate schools across the most stratified boundaries.
+
+
+School districts could still ameliorate segregation within their own district.
+
+
+But even then, a huge portion of districts used these school boundaries to actually further the segregation that exists in each neighborhood.
+
+
+Meanwhile, a growing number of people are side-stepping integration efforts by attending charter schools, private schools, or even seceding from their school district — all of which further segregate schools.
+
+
+This is what happens to school boundaries when racial demographics shift
+In a 2013 paper, researcher Genevieve Siegel-Hawley studied Henrico County Public Schools in Virginia and she found that, in this racially changing suburb, "school officials responsible for the district's rezoning process failed to embrace the growing diversity of the school system and instead solidified extreme patterns of racial isolation within high school attendance areas." 
+She cited a blog post written by a parent who lives in heavily white areas:
+This is clearly the hottest topic at the bus stop each day. … My first reaction was that we would just move if the schools changed to ones which we do not want to send out kids to.
+
+
+This anecdote plays out on a larger scale, too.
+Richard's 2014 study found that districts with rapid changes in racial makeup end up having school attendance zones that are gerrymandered to further segregation. This indicates that white communities see an influx of minority families move into their neighborhoods and assume the defensive stance of fencing themselves in. 
+
+
+Richards also found that stable communities — ones where the demographics have stayed steady — also have high levels of gerrymandering toward segregation. "It seems as if [the boundaries] have been there so long that people have sorted across them," she told me. "The cusps of those boundaries are extremely strong."
+This means that, when the dust settles, white families insist on moving next to other white families and recreating white havens.
+This is what happens when school districts try to reduce segregation
+Some districts, however, are using these school attendance zones to try to reduce underlying segregation. A 2015 study by Saporito and David Van Riper suggests some schools boards may be drawing irregular shapes that aren't just drawn on top of the existing segregated geography, and ultimately creating more diverse classrooms.
+"This correlation implies (but does not prove) that some school boards adopt school zoning plans with weird shapes in order to integrate children who live in separate residential clusters within a school district," Saporito wrote to me in an email.
+
+
+And this year, researchers Hugh Macartney and John D. Singleton published a paper that found that school boards with members who are registered Democrats tend to create more integrated schools within their district. It's an encouraging finding — one that shows local elections can have a big impact on how inclusive our schools are.
+But they also found causal evidence that this integration causes "white flight" out of public schools.
+It falls in line with a 2007 paper from Saporito which shows that the children in neighborhood public schools tend to be less white and significantly poorer than the neighborhoods in which they are located. In other words, white families in diverse neighborhoods are opting out and sending their kids to private or charter schools.
+
+
+It also falls in line with Monarrez's findings, which show that when students in the Charlotte-Mecklenburg school district were exposed to more black and Hispanic students, it caused a certain amount of white flight between 2000 and 2010.
+
+
+And it falls in line with the increasing number of communities who, instead of moving, are using their political power to draw new school district boundaries and secede from the existing district. They are essentially fencing themselves in with the people they feel belong in their community, while excluding others. 
+In short, the way the courts have interpreted the segregation laws, white communities with political and economic clout still have quite a bit of agency to determine who their kids go to school with. And they're deciding that they only want a certain amount of diversity in their schools before they decide it's better to opt out of the system.
+The maps in our heads
+The maps at the top of this piece should create a sort of segregation baseline for each district. 
+Our neighborhoods are already quite segregated, and it's important to know if school attendance boundaries are being drawn to segregate our classrooms even more. 
+But groups that resist school rezoning often make the argument that there has been a valuable and strong community that has formed around a school. In Henrico County, Virginia, one couple wrote a letter that read:
+None of these options shows the dire need to redistrict our small group of subdivisions, but ALL of these options uproot a longstanding Godwin community, potentially split close knit relations, and rob us of a nationally recognized school and education that many of us consciously chose when we purchased our homes.
+This couple clearly has a map in their head of which neighborhood blocks belong in a group together, and which ones don't. It might be based on who they know, where they spend time, or what they've heard about other areas. In short, they have formed a geospatial bias based on their experiences.
+
+
+But it's important for us to understand how much this country's racist history has shaped these maps that we've internalized.
+One of my favorite pieces of research is by Maria Krysan, a University of Illinois sociologist. In a 2009 paper, she describes talking to a bunch of people who live in Chicago and asking them if they know anything about certain neighborhoods. 
+What she found was that white respondents had a blind spot for neighborhoods that were more diverse, even if they were majority white. Meanwhile, African Americans were less likely to know about far-flung suburbs. 
+
+
+This means America's long history of socially engineering where people live has not only segregated neighborhoods and schools; it's also created maps in our heads that tell us what is familiar, what is not, what is scary, what is safe. 
+And ultimately, we make small decisions based on these emotions that accrue into segregated neighborhoods and segregated schools.
+That's what makes this data and research so powerful. They give us some baseline to challenge the imaginary fences, which ultimately allow schools to be separated by race.
+
+
+Correction: A previous version of this piece said American schools were as segregated now as they were 50 years ago, but it’s actually schools in the South that are as segregated as they were 50 years ago. That said, in the last 30 years, black students who attend heavily black schools has increased in every region in the US.
+Read the conversation 
+Tomas Monarrez, a UC Berkeley economics PhD candidate, joined me for a discussion in Vox’s The Weeds Facebook group about how school districts could be gerrymandering attendance zones to reduce segregation — but generally don’t. The conversation ranged from what parents and school board members can do to the underlying housing segregation. Catch up on it here!

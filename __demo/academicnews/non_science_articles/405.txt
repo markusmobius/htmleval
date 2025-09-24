@@ -1,0 +1,45 @@
+Meet Amber Yang. She's trying to prevent a space debris catastrophe
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+Story highlights
+Yang's prize-winning project models the path of space debris
+The software uses an artificial neural network, designed to replicate the learning process of the brain
+She claims it can predict orbit paths more accurately than current technology
+This feature is part of Tomorrow's Hero, a series profiling young innovators transforming the world for a brighter future. Discover their stories here.
+ (CNN)
+After watching "Gravity," Amber Yang started having nightmares. 
+The ninth-grader and astrophysics enthusiast from Windermere, Florida was naturally drawn the film, which imagined an astronaut's desperate escape to Earth after the destruction of a NASA space shuttle. 
+"Gravity" bent some rules of physics, broke others, but its most terrifying plot device was, in theory, true. A phenomenon known as the Kessler syndrome, it's a scenario in which low Earth orbit -- home to the International Space Station and other satellites -- has reached a critical density of objects. An explosion, or collision between two objects with intersecting orbits, creates debris, setting off an exponential chain of collisions causing a catastrophic breakup of objects above Earth. 
+
+"Gravity" (2013) was loosely based on a destructive orbital event known as the Kessler syndrome.
+The implications are chastening, with the debris belt limiting our ability to reenter space for a significant amount of time. 
+Yang, now a college first year, has moved on from the nightmares. She's too busy trying to stop a space debris calamity from ever happening.
+Read More
+Faster than a speeding bullet
+Low Earth orbit, starting a few hundred miles up, contains millions of objects, ranging from space stations and rocket boosters to flecks of paint. Traveling 10 times faster than a bullet, a speck of debris less than half an inch wide can impact with the force of a hand grenade, meaning no object is benign.
+The European Space Agency says for many missions, space debris impact represents the third highest risk of losing a spacecraft behind risks associated with launch and deployment in orbit. Avoiding collisions requires constant monitoring and intervention -- the US Department of Defense's Space Surveillance Network makes hundreds of thousands of observations every day. 
+Timothy Payne, chief of operations assessments division at Headquarters Air Force Space Command (AFSPC), told CNN that AFSPC "routinely provides to NASA satellite predictions 10 days into the future to support collision avoidance," but did not elaborate as to how these predictions were made. 
+But Yang says she's developed a new way to predict orbits more accurately, and do so weeks into the future. What's more, she's won a number of prizes for her solution.
+The neural network
+"I started researching when I was in my second year of high school," she told CNN. Yang looked at current tracking methods -- ground and space-based sensors and radars -- as well as predictive methods such as an extended Kalman filter, a mathematical algorithm dating from the time of the Apollo program she says some organizations still use. (Payne confirmed AFSPC is not among them.)
+
+A close-up photograph showing damage sustained by the Solar Max experiment from a tiny piece of orbital debris.
+By 2016 Yang had turned to artificial neural networks, a computing system designed to replicate the learning process of the human brain. They can be used to identify patterns -- patterns like orbital debris paths.
+Using computer modeling software with a neural network tool, Yang began programming software of her own. She inputted various laws of physics and refined the parameters of her neural network. "It was a new experience for me," she says, "I hadn't really done much coding beforehand."
+To her network she added the coordinates of space debris available to the public online (accessible via Space-Track. You can see a model of this real-time data set via stuffin.space). In June 2016, Yang asked her network to predict three days ahead using 16 days-worth of back data. She says it was 98% accurate. 
+"There definitely is a threshold limit as to the accuracy, the further in advance you go," she cautions, but says it compares favorably to other methods. Moreover, the network is evolving.
+"Artificial intelligence basically operates on the fact that it can be relearned and retrained," she adds. "So the more data I have... the more accurate the predictions will be."
+Founding a company in college
+Yang entered her project into multiple competitions. By the end of the year she had presented her finding at CERN, attended the White House Frontiers Conference, and delivered an impassioned TEDx talk containing powerful insights about the obstacles facing women in STEM industries. 
+In 2017 she became a finalist in the Regeneron Science Talent Search, won the Intel Foundation Young Scientist Award -- and a $50,000 scholarship with it. Yang also found time to start university at Stanford.
+She's now studying physics while running Seer Tracking, a commercial enterprise looking to license out her software. 
+"I'm getting a lot of consumer interest from private space corporations," Yang says. "Startup companies trying to launch different things into space are very interested in my work, because it's essentially very low-cost," she adds, comparing her neural network to sensors and radars. 
+
+A screenshot of Yang's software, which predicts the flight path of space debris via an artificial neural network.
+"It is still a bit too early to put an exact price tag on my software," Yang said in a followup email, "however, current space startups that are providing debris mapping services charge around $750,000 to $1 million for one license." None, she said, use artificial neural networks.
+Yang notes that no government space agency has contacted her thus far. CNN asked US AFSPC for their thoughts:
+"We currently do not use neural networks for predicting orbital paths although we do think neural networks are well worth consideration and study for other areas related to satellite operations," said Payne. 
+"Nonetheless," he added, "we are very impressed with such a young scientist showing interest in the area of satellite orbit prediction and the capability to develop a neural network to predict them." 
+Looking ahead, Yang says she plans to go further in developing her software's accuracy, and is exploring convolutional neural networks and deep learning ("A lot of people think it's the next driving force in machine learning," she says).
+And as for going into space, and the potential catastrophe she's trying to avert? 
+"If ever have the opportunity to go I still would. So far we haven't had any dangers to astronauts yet -- hopefully it remains that way."

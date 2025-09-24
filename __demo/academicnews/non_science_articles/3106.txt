@@ -1,0 +1,644 @@
+Jacksonville Jaguars Roster - NFL Football
+OFFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Brandon Thomas 
+ G 
+ 27 
+ 75 
+ 317 
+ 1991-02-08 
+ Clemson 
+ active 
+ -- 
+ Brandon Wilds 
+ RB 
+ 25 
+ 72 
+ 220 
+ 1993-07-22 
+ South Carolina 
+ active 
+ -- 
+ Tevaun Smith 
+ WR 
+ 25 
+ 74 
+ 197 
+ 1993-01-30 
+ Iowa 
+ active 
+ -- 
+ Lamar Atkins 
+ RB 
+ -- 
+ 71 
+ 236 
+ -- 
+ Miami Norland HS 
+ active 
+ 10 
+ Jaelen Strong 
+ WR 
+ 24 
+ 74 
+ 220 
+ 1994-01-25 
+ Arizona State 
+ active 
+ 11 
+ Marqise Lee 
+ WR 
+ 27 
+ 72 
+ 196 
+ 1991-11-25 
+ Southern California 
+ active 
+ 12 
+ Dede Westbrook 
+ WR 
+ 25 
+ 72 
+ 178 
+ 1993-11-21 
+ Oklahoma 
+ active 
+ 13 
+ Rashad Greene Sr. 
+ WR 
+ 26 
+ 71 
+ 186 
+ 1992-09-23 
+ Florida State 
+ active 
+ 15 
+ Allen Robinson 
+ WR 
+ 25 
+ 75 
+ 211 
+ 1993-08-24 
+ Penn State 
+ active 
+ 17 
+ Arrelious Benn 
+ WR 
+ 30 
+ 74 
+ 228 
+ 1988-09-08 
+ Illinois 
+ active 
+ 24 
+ T.J. Yeldon 
+ RB 
+ 25 
+ 73 
+ 223 
+ 1993-10-02 
+ Alabama 
+ active 
+ 27 
+ Leonard Fournette 
+ RB 
+ 23 
+ 72 
+ 228 
+ 1995-01-18 
+ Louisiana State 
+ active 
+ 30 
+ Corey Grant 
+ RB 
+ 27 
+ 71 
+ 203 
+ 1991-12-19 
+ Auburn 
+ active 
+ 33 
+ Chris Ivory 
+ RB 
+ 30 
+ 72 
+ 223 
+ 1988-03-22 
+ Tiffin University 
+ active 
+ 40 
+ Tommy Bohanon 
+ FB 
+ 28 
+ 73 
+ 246 
+ 1990-09-10 
+ Wake Forest 
+ active 
+ 5 
+ Blake Bortles 
+ QB 
+ 26 
+ 77 
+ 236 
+ 1992-04-28 
+ Central Florida 
+ active 
+ 60 
+ A.J. Cann 
+ OL 
+ 27 
+ 75 
+ 315 
+ 1991-10-03 
+ South Carolina 
+ active 
+ 64 
+ Chris Reed 
+ OL 
+ 26 
+ 77 
+ 310 
+ 1992-07-22 
+ Minnesota State 
+ active 
+ 65 
+ Brandon Linder 
+ OL 
+ 26 
+ 78 
+ 315 
+ 1992-01-25 
+ Miami (Fla.) 
+ active 
+ 66 
+ Avery Gennesy 
+ OL 
+ 24 
+ 77 
+ 318 
+ 1994-02-06 
+ Texas A&M 
+ active 
+ 69 
+ Tyler Shatley 
+ OL 
+ 27 
+ 75 
+ 310 
+ 1991-05-05 
+ Clemson 
+ active 
+ 7 
+ Chad Henne 
+ QB 
+ 33 
+ 75 
+ 222 
+ 1985-07-02 
+ Michigan 
+ active 
+ 72 
+ Josh Wells 
+ OL 
+ 27 
+ 78 
+ 306 
+ 1991-02-14 
+ James Madison 
+ active 
+ 73 
+ Josh Walker 
+ OL 
+ 27 
+ 77 
+ 330 
+ 1991-06-02 
+ Middle Tennessee State 
+ active 
+ 74 
+ Cam Robinson 
+ OL 
+ 23 
+ 78 
+ 320 
+ 1995-10-09 
+ Alabama 
+ active 
+ 77 
+ Patrick Omameh 
+ OL 
+ 29 
+ 76 
+ 327 
+ 1989-12-29 
+ Michigan 
+ active 
+ 78 
+ Jermey Parnell 
+ OL 
+ 32 
+ 78 
+ 326 
+ 1986-07-20 
+ Mississippi 
+ active 
+ 80 
+ James O'Shaughnessy 
+ TE 
+ 26 
+ 76 
+ 245 
+ 1992-01-14 
+ Illinois State 
+ active 
+ 80 
+ David Grinnage 
+ TE 
+ -- 
+ 77 
+ 265 
+ -- 
+ North Carolina State 
+ active 
+ 81 
+ Mychal Rivera 
+ TE 
+ 28 
+ 75 
+ 245 
+ 1990-09-08 
+ Tennessee 
+ active 
+ 83 
+ Ben Koyack 
+ TE 
+ 25 
+ 77 
+ 258 
+ 1993-04-09 
+ Notre Dame 
+ active 
+ 84 
+ Keelan Cole 
+ WR 
+ 25 
+ 73 
+ 194 
+ 1993-04-20 
+ Kentucky Wesleyan 
+ active 
+ 85 
+ Jaydon Mickens 
+ WR 
+ 24 
+ 71 
+ 170 
+ 1994-04-21 
+ Washington 
+ active 
+ 88 
+ Allen Hurns 
+ WR 
+ 27 
+ 75 
+ 201 
+ 1991-11-12 
+ Miami (Fla.) 
+ active 
+ 89 
+ Marcedes Lewis 
+ TE 
+ 34 
+ 78 
+ 264 
+ 1984-05-19 
+ UCLA 
+ active 
+DEFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Sammy Seamster 
+ CB 
+ 27 
+ 72 
+ 205 
+ 1991-02-05 
+ Middle Tennessee State 
+ active 
+ -- 
+ Brooks Ellis 
+ LB 
+ 23 
+ 74 
+ 245 
+ 1995-01-15 
+ Arkansas 
+ active 
+ 20 
+ Jalen Ramsey 
+ CB 
+ 24 
+ 74 
+ 208 
+ 1994-10-24 
+ Florida State 
+ active 
+ 21 
+ A.J. Bouye 
+ CB 
+ 27 
+ 72 
+ 191 
+ 1991-08-16 
+ Central Florida 
+ active 
+ 22 
+ Aaron Colvin 
+ CB 
+ 27 
+ 72 
+ 193 
+ 1991-10-02 
+ Oklahoma 
+ active 
+ 23 
+ Tyler Patmon 
+ CB 
+ 27 
+ 70 
+ 188 
+ 1991-01-26 
+ Oklahoma State 
+ active 
+ 25 
+ Peyton Thompson 
+ S 
+ 28 
+ 70 
+ 184 
+ 1990-09-26 
+ San Jose State 
+ active 
+ 26 
+ Jarrod Wilson 
+ S 
+ 24 
+ 74 
+ 210 
+ 1994-02-09 
+ Michigan 
+ active 
+ 31 
+ Jalen Myrick 
+ CB 
+ 23 
+ 71 
+ 200 
+ 1995-02-27 
+ Minnesota 
+ active 
+ 38 
+ Charlie Miller 
+ DB 
+ -- 
+ 73 
+ 190 
+ -- 
+ Dartmouth 
+ active 
+ 39 
+ Tashaun Gipson 
+ S 
+ 28 
+ 71 
+ 212 
+ 1990-08-07 
+ Wyoming 
+ active 
+ 42 
+ Barry Church 
+ S 
+ 30 
+ 74 
+ 218 
+ 1988-02-11 
+ Toledo 
+ active 
+ 44 
+ Myles Jack 
+ LB 
+ 23 
+ 73 
+ 244 
+ 1995-09-03 
+ UCLA 
+ active 
+ 50 
+ Telvin Smith 
+ LB 
+ 27 
+ 75 
+ 215 
+ 1991-04-11 
+ Florida State 
+ active 
+ 51 
+ Paul Posluszny 
+ LB 
+ 34 
+ 74 
+ 232 
+ 1984-10-10 
+ Penn State 
+ active 
+ 52 
+ Donald Payne 
+ LB 
+ 24 
+ 71 
+ 217 
+ 1994-07-12 
+ Stetson 
+ active 
+ 53 
+ Blair Brown 
+ LB 
+ 24 
+ 72 
+ 238 
+ 1994-05-27 
+ Ohio 
+ active 
+ 54 
+ Eli Ankou 
+ DT 
+ 24 
+ 75 
+ 325 
+ 1994-06-08 
+ Red Lion Christian Academy 
+ active 
+ 55 
+ Lerentee McCray 
+ LB 
+ 28 
+ 75 
+ 249 
+ 1990-08-26 
+ Florida 
+ active 
+ 56 
+ Dante Fowler Jr. 
+ DE 
+ 24 
+ 75 
+ 255 
+ 1994-08-03 
+ Florida 
+ active 
+ 58 
+ Deon King 
+ LB 
+ 25 
+ 74 
+ 220 
+ 1993-07-02 
+ Norfolk State 
+ active 
+ 59 
+ Carroll Phillips 
+ DE 
+ 26 
+ 75 
+ 242 
+ 1992-09-02 
+ Illinois 
+ active 
+ 79 
+ Hunter Dimick 
+ DE 
+ 25 
+ 75 
+ 268 
+ 1993-10-29 
+ Utah 
+ active 
+ 91 
+ Yannick Ngakoue 
+ DE 
+ 23 
+ 74 
+ 246 
+ 1995-03-31 
+ Maryland 
+ active 
+ 93 
+ Calais Campbell 
+ DL 
+ 32 
+ 80 
+ 300 
+ 1986-09-01 
+ Miami (Fla.) 
+ active 
+ 94 
+ Dawuane Smoot 
+ DE 
+ 23 
+ 75 
+ 264 
+ 1995-03-02 
+ Illinois 
+ active 
+ 95 
+ Abry Jones 
+ DT 
+ 27 
+ 76 
+ 318 
+ 1991-09-08 
+ Georgia 
+ active 
+ 96 
+ Michael Bennett 
+ DT 
+ 25 
+ 74 
+ 287 
+ 1993-02-24 
+ Ohio State 
+ active 
+ 97 
+ Malik Jackson 
+ DL 
+ 28 
+ 77 
+ 290 
+ 1990-01-11 
+ Tennessee 
+ active 
+ 99 
+ Marcell Dareus 
+ DL 
+ 28 
+ 75 
+ 331 
+ 1990-03-13 
+ Alabama 
+ active 
+SPECIAL TEAMS
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 3 
+ Brad Nortman 
+ P 
+ 29 
+ 74 
+ 214 
+ 1989-09-12 
+ Wisconsin 
+ active 
+ 43 
+ Matt Overton 
+ LS 
+ 33 
+ 73 
+ 243 
+ 1985-07-06 
+ Western Washington 
+ active 
+ 49 
+ Colin Holba 
+ LS 
+ 24 
+ 76 
+ 248 
+ 1994-07-08 
+ Lousiville 
+ active 
+^ Jump to top

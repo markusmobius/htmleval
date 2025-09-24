@@ -1,0 +1,20 @@
+Apple-FBI dispute looms over RSA cybersecurity gathering
+Corrections and clarifications: An earlier version of this story misstated the company where Carl Bass serves as CEO.​
+SAN FRANCISCO — RSA, the cybersecurity conference that comes to San Francisco every year, might have flown past most people’s radars if this was a typical year.
+That all changed when the Apple vs. FBI iPhone battle became public earlier this month. While the keynotes and workshop titles aren't changing, the topics of privacy, security and government intrusion will loom over every panel.
+The furor over whether Apple will be forced to aid the government in creating a program that will allow the FBI to hack into the iPhone used by San Bernardino killer Syed Rizwan Farook is hitting just as an expected 34,000 cryptographers, chief information security officers, programmers and the like gather in San Francisco.
+
+Overall, this year’s conference focuses on the nuts and bolts of computer security: encryption, industrial control systems, digital identity, breaches and how to fight them.
+
+While always important to technology companies, the Apple case is raising awareness about the technical issues that create the security and privacy, or lack thereof, in the products we use daily.
+There will always be a tension between the public’s expectation of protection from the government and concerns about government intrusion, Autodesk CEO Carl Bass told USA TODAY last week.
+“I don’t think we will ever get to the point where nothing can be broken. Go back in history — there were locks and people who picked locks. There were secret codes and code breakers. These things will always be able to be broken,” he said.
+The U.S. security establishment will be working to get its voice heard at the conference. On Tuesday Attorney General Loretta Lynch will deliver a keynote on cybersecurity and then participate in an armchair conversation on the topic.
+Assistant Attorney General John Carlin of the National Security Division will also talk about terrorists' use of social media and the Internet.
+
+A topic likely to garner lots of information is the hackability of self-driving cars. The duo who made news last year by hacking into a Jeep Cherokee, Charlie Miller and Chris Valasek, will offer a workshop titled "Intro to Car Hacking."
+Both now work at Uber's Advanced Technology Center in Pittsburgh, PA., a strategic partnership between Uber and Carnegie Mellon University. The center focuses on research and development in areas like vehicle safety, mapping and self-driving cars.
+
+The conference ends Friday with a question and answer session with actor Sean Penn. He'll be interviewed by RSA President Amit Yoranabout his philanthropy and public advocacy and the relationship between Hollywood stardom and privacy.
+Penn was most recently in the news in in January for a controversial meeting with Mexican drug lord Joaquín "El Chapo" Guzmán for Rolling Stone magazine.
+The exact nature of Penn's expertise is unclear. He himself wrote in Rolling Stone in January that he is "the single most technologically illiterate man left standing. At 55 years old, I've never learned to use a laptop. Do they still make laptops? No f***g idea!"

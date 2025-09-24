@@ -1,0 +1,55 @@
+8 bad science and health ideas that should die in 2018
+2018 can be a better year for science literacy and empirical evidence. Here’s a start. 
+ By 
+ 
+ 
+ 
+HT-Pix /Shutterstock
+
+
+There was good reason to feel that science and reason were under attack in 2017: Donald Trump spoke more mistruths than any other president on record (with little impact on his approval ratings), anti-science attitudes were on display at just about every federal health and science agency in government, and Gwyneth Paltrow’s Goop expanded while pushing pseudoscientific bunk on the world. 
+But at Vox’s science desk, we like to take a glass-half-full approach to life ... and hope that 2018 can be a better year for science literacy and empirical evidence than last year was.
+To start the year off right, a housecleaning is in order. Let’s let these eight myths and misconceptions die as we move into 2018. (Check out last year’s list here.) 
+Myth 1) Voters make decisions based on facts 
+
+alash /Getty Creative Images
+
+We have a vision of democracy in which a virtuous public steers the decisions of leaders and those leaders are held accountable to facts. Often, we assume, people make up their minds after a careful weighing of evidence, based on facts, reason, and our experience in the world.
+But this assumption is incorrect. Over and over again, experiments in labs — and in the real world — show us that the vision of a virtuous, rational, informed public is a bit of a mirage. 
+Consider these findings from psychology that Vox has reported on in the past year:
+Trump supporters knew he lied during the election, but that didn’t change how they felt about him.
+Only about 20 to 40 percent of the public holds stable views on policy. Our views tend to sway depending on who is in charge.
+People participating in a psychological experiment rated listening to a political opponent as being almost as pleasant as getting a tooth pulled.
+Conservatives will support a liberal policy if they learn Trump supports that same liberal policy.
+Instead of facts, we are often guided by our emotions and deeply held biases. Humans are also very adept at ignoring facts so that we can continue to see the world in a way that conforms to our preconceived notions. We respond to emotions: We work to protect and love our in-groups, but fear and avoid out-groups. 
+And simply stating factual information that contradicts deeply held beliefs is often not enough to combat the spread of misinformation. Frustratingly, research finds that the more knowledgeable we are about politics, the more stubborn we get on politically charged topics. We use our smarts to protect our political groups, not to grapple with uncomfortable truths.
+Knowing all this might not change the current situation, where fake news and conspiracy theories easily sweep into people’s newsfeeds and then their minds. But it does make us less naive. We can’t fight misinformation by simply throwing more facts at people, or warning people that information is in dispute (as Facebook tried, and failed, to do). And we have to grapple with the fact that just repeating lies make them more likely to be believed — a lesson Google and Facebook, the de facto chief publishers of news in our connected worlds, ought to learn cold.
+And the science does offer some hope. One study reassuringly found that a sense of wonder and curiosity can help people avoid the trap of politically motivated reasoning. And there are ways to get people to realize the hypocrisy of their prejudice-laden arguments. It’s not easy, but it can happen. 
+Myth 2) Addiction is a moral failure 
+
+Javier Zarracina/Vox
+
+If you talk to doctors and experts about addiction, they’ll tell you that addiction is a medical condition, not unlike cancer, that needs medical help.
+Yet many of us still perceive people addicted to drugs not as victims of a disease, but as wrongdoers and perpetrators of their own illness, deserving of judgment and scorn.
+Stigma is everywhere. It’s in policies. It’s in doctors’ offices. It’s in individuals, even those suffering from addiction. And it holds everything back.
+Even our lawmakers sometimes argue that addiction is a moral failure. For example, Missouri state Sen. Rob Schaaf, a Republican, once remarked that when people die of overdoses, that “just removes them from the gene pool.” And in Lawrence County, Indiana, lawmakers shut down a needle exchange program earlier this year, citing their “morals” and the Bible.
+Needle exchange programs are based on empirical evidence and have been vetted by Johns Hopkins researchers, the World Health Organization, and the Centers for Disease Control and Prevention. They should be one of the least controversial ideas in public health; for decades, studies have repeatedly found that the programs help prevent the spread of diseases, such as HIV and hepatitis C, that can spread through used syringes, while not increasing overall drug use.
+This stigma is extremely destructive, particularly since the US is currently overwhelmed by its deadliest drug overdose crisis in history in the opioid epidemic. Experts say the best way to confront the crisis is by dealing with it as a public health issue — and boosting access to treatment (particularly highly effective medications for opioid addiction). 
+If we want to truly combat addiction — and the opioid crisis — we need to move away from stigmatization. And we need to focus on dedicating resources to the proven solutions we already have.
+Myth 3) Opioids are effective for treating chronic back pain 
+
+Javier Zarracina/Vox
+
+Medicine has historically been pretty terrible at treating chronic lower back pain. Many of the most popular treatments on offer — surgery, steroid injections, and, lately, opioids — have been proven ineffective in the majority of cases, and sometimes are downright harmful. 
+Consider this randomized controlled trial (soon to be published), which was the first to compare the long-term use of opioids versus non-opioid medications (such as anti-inflammatory drugs and acetaminophen) for low back pain. After a year, the researchers found opioids did not improve patients’ pain or function, and the people on opioids were actually in slightly more pain compared to the non-opioid group (perhaps the result of “opioid-induced hyperalgesia” — heightened pain brought on by these drugs).
+Yet 20 percent of back pain patients receive long-term opioid prescriptions. And so medical societies and public health agencies are now advising doctors to try less invasive options and even alternative therapies before considering opioids for back pain.
+Most recently, in February 2017, the American College of Physicians advised doctors and patients try “non-drug therapies” such as exercise, acupuncture, tai chi, yoga, and even chiropractics, and avoid prescription drugs or surgical options wherever possible. (If the non-drug therapies fail, they recommended non-steroidal anti-inflammatory drugs as a first-line therapy.) In March 2016, the Centers for Disease Control and Prevention also came out with new guidelines urging health care providers to turn to non-drug options and non-opioid painkillers before considering opioids.
+Active therapies (exercise programs, yoga, tai chi) seem to really help people work through back pain, and alternative approaches (massage, spinal manipulation) can be effective, too — with the caveat that they’re often no panacea and the effects tend to be short-lived and moderate. But most of the alternatives also carry little or no harm (except to patients’ pocketbooks) — which makes them all the more appealing amid the historic drug crisis. 
+Myth 4) “Statistically significant” means “strong scientific evidence” 
+
+Mick Wiggins / Getty Creative Images
+
+Most casual readers of scientific research know that for results to be declared “statistically significant,” they need to pass a simple test. The answer to this test is called a p-value. And if your p-value is less than .05, bingo, you got yourself a statistically significant result, worthy of publication. 
+But as researchers have (painfully) realized over the past several years, this threshold does not represent very strong evidence at all. For one: It can be gamed. Researchers can run a whole array of tests and only report the result that, by chance, yielded a significant result (this is sometimes called p-hacking). 
+But it’s also because researchers have placed undue confidence in their p-values. 
+A p

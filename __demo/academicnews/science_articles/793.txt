@@ -1,0 +1,29 @@
+Two planets in unusual star system are very likely habitable, scientists say
+Exoplanets orbiting Trappist-1 have thrilled astronomers since their discovery last year thanks to their Earth-like potential to harbor water
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Artist’s impression of the Trappist-1 planetary system, which was discovered last year. Photograph: Nasa/JPL-Caltech/T Pyle (IPAC)/EPA
+
+Scientists have identified two planets circling round a dim dwarf star as especially likely candidates for habitable worlds, with probable water and a source of heat, conditions thought necessary for life beyond Earth.
+Since their discovery last year, the seven planets and their star, called Trappist-1, have thrilled astronomers hunting for a world resembling Earth. Never before had scientists found so many Earth-sized planets around a single star, or in a zone where the extreme temperatures of space would not obliterate the chances of life.
+The finding suggested that there may be planets as rocky and large as Earth all over the Milky Way, and scientists quickly set to work analyzing the Trappist-1 system.
+With colleagues in Hungary, Dr Amy Barr, of the Planetary Science Institute built mathematical models of the seven planets and their interiors, and found that six of the seven worlds likely have water, as liquid or ice, with a global ocean possible on one. The team then modeled the planets’ orbits to determine a likely surface temperature on the worlds.
+“That’s one of the main innovations of the paper,” Barr told the Guardian. “The planets are also on eccentric orbits – kind of egg shaped – so every time the planet goes around the star it gets stretched and squeezed.”
+Jupiter’s moon Io, experiences the same kind of push-pull, called tidal heat. Io’s surface is riven by erupting volcanoes, lava flows, scars and caldera. Barr said the same forces are probably at work in the Trappist-1 system: “The planet kind of works its own internal friction, because that stretching and squeezing creates heat in the interior.”
+In the paper, set to be published in the journal Astronomy & Astrophysics, the team concluded that planets b and c (each world goes by a lower-case letter), experience tidal heat, and that planet c likely has little to no water, but mostly iron and rock. Planets d and e – the two identified as most likely to be habitable – also experience tidal heat, they found, but much less.
+They calculated that those planets are “in this kind of temperate region”, Barr said, with a “very reasonable surface temperatures”. Planet d, the team estimates, has a temperature around 15C (59F) or perhaps as low as slightly warmer than the melting point of ice. Planet e was colder, Barr said: “the temperatures you would get in Antarctica, but also reasonable”. 
+The likelihood of tidal heating is encouraging to scientists in search of planets with the conditions for life. Tidal heat not only warms a planet, but also drives chemistry and flow in its mantle, conditions amenable to the development of life – at least as humans know it.
+Because Nasa has yet to launch its next generation space telescope, the James Webb, scientists like Barr and her colleagues have turned to computers to investigate puzzles with limited data. A paper last year found that Trappist-1, although older and more dim than our sun, projects a stellar wind far more severe than the solar wind that lashes Earth from our sun. This wind likely stripped away the atmosphere – another condition for life – from the planets closest to Trappist-1, while the more distant planets fared better. Another team investigated whether the Trappist-1 worlds could hold water – another condition – and found that four of the seven might.
+But while the pieces of research by various teams have generally supported each other, Barr and other astronomers, astrophysicists and geophysicists are most eager for more observations. Should the James Webb launch on schedule this year, it will provide far more data about specific exoplanets, and ease the challenge of writing about a system as a whole.
+“It’s hard to write a paper about seven planets all at once,” Barr said.
+ Topics

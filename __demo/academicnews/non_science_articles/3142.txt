@@ -1,0 +1,110 @@
+Atlanta Braves Salaries - MLB Baseball
+Player Salaries
+rank
+Name
+POS
+Salary
+Years
+Total Value
+Avg Annual
+ -- 
+ Freddie Freeman 
+ 1B 
+ $ 21,359,375 
+ 8 (2014-21) 
+ $ 135,000,000 
+ $ 16,875,000 
+ -- 
+ Scott Kazmir 
+ SP 
+ $ 14,985,384 
+ 3 (2016-18) 
+ $ 48,000,000 
+ $ 16,000,000 
+ -- 
+ Brandon McCarthy 
+ SP 
+ $ 11,500,000 
+ 4 (2015-18) 
+ $ 48,000,000 
+ $ 12,000,000 
+ -- 
+ Nick Markakis 
+ RF 
+ $ 11,000,000 
+ 4 (2015-18) 
+ $ 44,000,000 
+ $ 11,000,000 
+ -- 
+ Julio Teheran 
+ SP 
+ $ 8,166,666 
+ 6 (2014-19) 
+ $ 32,400,000 
+ $ 5,400,000 
+ -- 
+ Sean Rodriguez 
+ 1B 
+ $ 5,750,000 
+ 2 (2017-18) 
+ $ 11,500,000 
+ $ 5,750,000 
+ -- 
+ Ender Inciarte 
+ RF 
+ $ 4,700,000 
+ 5 (2017-21) 
+ $ 30,525,000 
+ $ 6,105,000 
+ -- 
+ Tyler Flowers 
+ C 
+ $ 4,000,000 
+ 1 (2018) 
+ $ 4,000,000 
+ $ 4,000,000 
+ -- 
+ Kurt Suzuki 
+ C 
+ $ 3,500,000 
+ 1 (2018) 
+ $ 3,500,000 
+ $ 3,500,000 
+ -- 
+ Arodys Vizcaino 
+ RP 
+ $ 3,400,000 
+ 1 (2018) 
+ $ 3,400,000 
+ $ 3,400,000 
+ -- 
+ Rex Brothers 
+ RP 
+ $ 1,100,000 
+ 1 (2018) 
+ $ 1,100,000 
+ $ 1,100,000 
+ -- 
+ Sam Freeman 
+ RP 
+ $ 1,075,000 
+ 1 (2018) 
+ $ 1,075,000 
+ $ 1,075,000 
+ -- 
+ Chase Whitley 
+ RP 
+ $ 800,000 
+ 1 (2018) 
+ $ 800,000 
+ $ 800,000 
+ -- 
+ Dan Winkler 
+ RP 
+ $ 610,000 
+ 1 (2018) 
+ $ 610,000 
+ $ 610,000 
+About MLB Salaries
+USA TODAY's baseball salaries database contains year-by-year listings of salaries for Major League Baseball players on opening day rosters and disabled lists, 1988 through the current season. Figures, compiled by USA TODAY, are based on documents obtained from the MLB Players Association, club officials and filed with Major League Baseball's central office. Deferred payments and incentive clauses are not included. Team payrolls do not include money paid or received in trades or for players who have been released. Average and median salaries reported by USA TODAY may differ from numbers that are reported elsewhere. 
+^ Jump to top

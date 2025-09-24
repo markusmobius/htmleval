@@ -1,0 +1,47 @@
+Scientists report first success in cloning human stem cells
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+
+JUST WATCHED
+Human cloning: One step closer
+Replay
+Story highlights
+Scientists have made the first embryonic stem cell lines from human skin cells
+The stem cells can develop into muscle, nerve or other cells
+"It's something the field has been waiting for," one expert says
+It's been 17 years since Dolly the sheep was cloned from a mammary cell. And now scientists applied the same technique to make the first embryonic stem cell lines from human skin cells.
+Ever since Ian Wilmut, an unassuming embryologist working at the Roslin Institute just outside of Edinburgh stunned the world by cloning the first mammal, Dolly, scientists have been asking -- could humans be cloned in the same way? 
+Putting aside the ethical challenges the question raised, the query turned out to involve more wishful thinking than scientific success. Despite the fact that dozens of other species have been cloned using the technique, called nuclear transfer, human cells have remained stubbornly resistant to the process.
+Until now. Shoukhrat Mitalipov, a professor at Oregon Health & Science University, and his colleagues report in the journal Cell that they have successfully reprogrammed human skin cells back to their embryonic state. 
+The purpose of the study, however, was not to generate human clones but to produce lines of embryonic stem cells. These can develop into muscle, nerve, or other cells that make up the body's tissues. The process, he says, took only a few months, a surprisingly short period to reach such an important milestone.
+Nuclear transfer involves inserting a fully developed cell -- in Mitalipov's study, the cells came from the skin of fetuses -- into the nucleus of an egg, and then manipulating the egg to start dividing, a process that normally only occurs after it has been fertilized by a sperm.
+After several days, the ball of cells that results contains a blanket of embryonic stem cells endowed with the genetic material of the donor skin cell, which have the ability to generate every cell type from that donor. 
+
+
+JUST WATCHED
+Heart stem cells repair muscle damage
+Replay
+Are stem cells curing 'incurable' boy?
+Replay
+Indian clinic's stem cell therapy real?
+Replay
+MUST WATCH
+ 03:28
+In Dolly's case, those cells were allowed to continue developing into an embryo that was then transferred to a ewe to produce a cloned sheep. But Mitalipov says his process with the human cells isn't designed to generate a human clone, but rather just to create the embryonic stem cells. These could then be manipulated to create heart, nerve or other cells that can repair or treat disease.
+"I think this is a really important advance," says Dieter Egli, an investigator at the New York Stem Cell Foundation and Columbia University. "I have a very high confidence that versions of this technique will work very well; it's something that the field has been waiting for." 
+Egli is among the handful of scientists who have been working to perfect the technique with human cells and in 2011, succeeded in producing human stem cells, but with double the number of chromosomes. 
+In 2004, Woo Suk Hwang, a veterinary scientist at Seoul National University, claimed to have succeeded in achieving the feat, but later admitted to faking the data. Instead of generating embryonic stem cell lines via nuclear transfer, Hwang's group produced the stem cells from days-old embryos, a technique that had already been established by James Thomson at University of Wisconsin in 1998.
+That scandal, as well as ethical concerns about the dangers of encouraging work that could lead to human cloning, dried up interest in getting the process to work with human cells.
+Then came a breakthrough in 2007, when Shinya Yamanaka of Kyoto University succeeded in reprogramming adult skin cells back to their embryonic state simply by dousing them in a concoction of four genetic factors and some growth media. 
+That technique for generating embryonic-like stem cells (called induced pluripotent stem cells, or iPS cells) bypassed the need for transferring the cells into eggs, as Wilmut had done, and also averted the ethical issues attached to extracting stem cells from embryos as Thomson had done. Plus, the iPS cells had the advantage that patients could generate their own stem cells and potentially grow new cells they might need to treat or avert diseases like diabetes, Alzheimer's or heart problems.
+Except that researchers still couldn't prove that the heart, nerve, muscle and other cells they made from the iPS cells were exactly like the ones generated from the embryonic stem cells. The gold standard embryonic stem cells still came from embryos themselves, including ones that were made through nuclear transfer.
+Now that the technique appears to work with human cells, the process could be another source of generating stem cells that may ultimately treat patients, says Mitalipov. His group is especially interested in promoting the technique for treating mitochondrial diseases -- these organelles posses a different set of DNA than that contained in the nucleus of cells, and are responsible for generating the energy needed for cells to function. 
+But because they lie outside of the nucleus, transferring cells from a patient with mitochondrial diseases into a donor egg that has a healthy set of mitochondrial DNA would generate populations of cells that are free of disease.
+In order to make the process work, Mitalipov says he modified more than a dozen steps in the process that proved successful with sheep and other species. His group had the advantage of working first with monkey eggs; the knowledge about what stimulated the eggs to start dividing helped him to make the appropriate changes in the human eggs that contributed to his success.
+Beginning with high quality eggs that were donated by healthy volunteers was critical, he says. Most previous attempts involved discarded eggs from IVF clinics that may have been of lesser quality and affected their ability to survive the transfer process. 
+From the monkey studies, the team also realized that the process of introducing the donor cell into the egg also required a gentle touch; timing the transfer at the point when the egg was most likely to accept the new genetic material and start dividing was important. Infusing a bit of caffeine into the process also helped. 
+"Even though nothing we did seems that brand new -- there wasn't anything that people didn't try in other species or we haven't tried with monkey cells -- but the right combination, timing and concentration made the difference," says Mitalipov.
+He estimates that about 50% of the success can be attributed to the quality of the eggs while the remaining 50% is related to the optimization of the process. So far, the technique appears to be pretty efficient; from eight eggs, the group generated four embryonic stem cell lines.
+In the future, Mitalipov anticipates it will be possible to produce a stem cell line from each donated egg. "We knew the history of failure, that several legitimate labs had tried but couldn't make it work," he says. "I thought we would need about 500 to 1,000 eggs to optimize the process and anticipated it would be a long study that would take several years. But in the first experiment we got a blastocyst and within a couple of months we already had an (embryonic) stem cell line. We couldn't believe it."
+Egli and other stem cell scientists are eager to replicate the process, to test how reliable and robust it is, and hurdles still remain before the technique is standardized. It's not clear yet, for example, whether the process will work as efficiently with adult, or older cells, and healthy egg donors may not be as available in some parts of the country as they were in Oregon, where the state allows scientists to compensate donors for their eggs, just as IVF clinics do. But the achievement could establish another important source of stem cells that patients can generate to ultimately treat themselves.
+This article was originally published on TIME.com.

@@ -1,0 +1,15 @@
+Comcast’s Near-Unlimited Bandwidth Limits
+Not all limits are unreasonable. If I told my nine-year-old that from now on, she would be allowed no more than 16 cookies a day, I’d get a glassy-eyed “Whatever.”
+That’s what came to mind when I saw the post on DSLreports.com that Comcast is considering imposing a cap of 250 gigabytes of data a month for users of its flat-rate high-speed Internet service. Users will pay $15 for every 10 gigabytes over the limit.
+A Comcast spokeswoman told me this plan is under active consideration, but the details are still being worked on. 
+ One gigabyte represents 200 songs, 1,000 photos, or an 1 hour and 20 minutes of pretty good quality video. A cap of 250 gigabytes is so generous that it’s hard to see it causing problems for most users.
+I can’t say the same about the stingier approach being taken by Time Warner Cable, which is testing much smaller bandwidth limits in Beaumont, Tex., later this year. A spokesman said the test calls for various plans with limits of between 5 gigabytes and 40 gigabytes a month. Extra bandwidth will cost $1 a gigabyte. 
+The two cable companies have very different goals. Time Warner wants to find a way to tie its prices to how much bandwidth customers use, a common structure in many countries. Comcast still wants to sell nearly unlimited Internet service. But it wants to clarify its existing program, in which the company calls very heavy users and asks them to reduce their bandwidth use — those that don’t comply have been cut off.
+Now Comcast hopes to have a more formal limit and provide an opportunity for heavy users to buy more bandwidth if they choose.
+The vast majority of customers wouldn’t come anywhere close to the limit. Comcast says its average customer uses 2 gigabytes a month, and just one-tenth of one percent of its customers use more than 250 gigabytes. Time Warner says that about 5 percent of its customers consume more than 40 gigabytes a month.
+The cable companies say they want to rein in only the tiny minority of very heavy users, many of whom are downloading pirated movies and television shows by way of BitTorrent. They argue that heavy downloaders hog so much bandwidth that it degrades the experience for the rest of their customers.
+Some see another motive. Bandwidth use is also on the rise because of legal uses of video, such as streaming shows on networks and movie downloads from Apple’s iTunes Store. As Internet video becomes more popular, it has the potential to threaten the core business of the cable television companies. 
+Indeed, Time Warner’s proposed caps are just low enough to keep its customers from using their Internet connections as a replacement for cable as their main source of TV shows: the 40-gigabyte limit would allow users less than 2 hours a day of video.
+Comcast’s rules, by contrast, would allow 11 hours of video a day — giving its customers plenty of access to the sweet stuff, while still preventing the few from eating the whole cookie jar.
+What's Next
+Loading...

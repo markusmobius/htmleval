@@ -1,0 +1,15 @@
+The bad map we see every presidential election
+There is one thing we know for certain about the 2016 election: The night of November 8, a version of this map will be all over cable news.
+
+Map of 2012 presidential election results.
+
+That’s a shame. Because this map tells you almost nothing about how Americans are voting. Anytime you visualize data, you have to prioritize. In the case of these maps, the highest priority is geographic accuracy. Want to know which states border Indiana? This map has you covered. Want to know which candidate is closest to winning? Good luck.
+This map prioritizes geographic accuracy over electoral importance. Massachusetts has four times as many electoral votes as Montana but a much smaller geographic area. So it’s hard to see. It’s also really difficult to tell from looking at this map that Barack Obama beat Mitt Romney, since Romney won in states with large geographic areas but few electoral votes.
+There’s a simple solution to this problem: start making maps that prioritize electoral importance over geographic accuracy. The New York Times designed this nifty alternative. 
+
+A helpful alternative.
+
+Instead of precise borders, each state is represented by a square. The area of each square is proportional to the number of electoral votes that state has. And the squares are arranged geographically, so you can still find your state fairly easily.
+But alternatives like this haven’t really caught on. Change is hard, and pundits have gotten used to dusting off this visual aid every four years to assist in their pontifications. It’s hard enough to cut through all the factually dubious campaign rhetoric. We don’t need maps that lie, too.
+Was this article helpful?
+ yes no

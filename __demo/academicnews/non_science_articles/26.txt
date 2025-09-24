@@ -1,0 +1,6 @@
+BBC News website goes responsive
+BBC News Online will look a bit different from next week. 
+The new "responsive" version (which we previewed and wrote about here and then here ) will be what you see when you come to the desktop website, from Monday onwards. 
+It brings the responsive design we've had for a while on mobile and tablet to the desktop site, and it's designed to look great whichever device you are using. It's intended to be an evolution of what's gone before, rather than a radical rethink, and it will make it easier for us to add further improvements and features in future.
+Developed by the BBC Future Media News Product team, the new version is based on user testing and lots of feedback. Niko Vijayaratnam, our Senior Product Manager leading the work, explains more here and outlines the main changes you'll see. 
+We hope you'll enjoy using the new site - let us know what you think, by leaving comments and questions on his blog post, or in the survey here.

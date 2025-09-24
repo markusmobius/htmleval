@@ -1,0 +1,28 @@
+HuffPost March Madness Predict-o-Tron
+Statisticians, basketball experts and sports fans have tried for years to perfect the science of filling out a March Madness bracket. While there are many methods, it’s not always easy to decide which data to include and which to ignore. HuffPost’s Predict-o-Tron determines each team’s chances of advancing through the 2014 Men’s NCAA basketball tournament with a probabilistic model based on the importance you give different attributes. Try it by moving the sliders, and be sure to share your bracket — you don’t want to miss out on bragging rights if your model ends up correctly predicting the tournament. 
+Posted: 03/16/2014 7:30 pm EST 
+ This is what the bracket would have looked like with your model. Click here to return to the 2014 tournament. 
+ You are viewing a previously created bracket. Make your own prediction by moving the sliders. 
+ Get permalink  Tweet your bracket  Share your bracket 
+ Move the sliders below to select how much you think each attribute will factor in to success in the 2014 Men's NCAA basketball tournament.
+Here's how many games your model would have predicted each year:
+ 2014
+ 2013
+ 2012
+ 2011
+ 2010
+ Avg.
+ 
+  
+  
+  
+  
+  
+ 
+ 
+ 
+Sports pundits averaged about 57% in 2013
+Basic Rankings
+More 
+ Tournament seed 
+ Final AP rating

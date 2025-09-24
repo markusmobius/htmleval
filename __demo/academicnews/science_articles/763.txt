@@ -1,0 +1,35 @@
+Ebola Evolved Into Deadlier Enemy During the African Epidemic
+A burial team in Bong County, Liberia, buried a suspected Ebola victim in October 2014. The Ebola epidemic that hit West Africa that year claimed 11,310 lives. Credit Daniel Berehulak for The New York Times
+
+The Ebola epidemic that tore through West Africa in 2014 claimed 11,310 lives, far more than any previous outbreak. A combination of factors contributed to its savagery, among them a mobile population, crumbling public health systems, official neglect and hazardous burial practices.
+But new research suggests another impetus: The virus may have evolved a new weapon against its human hosts. In studies published on Thursday in the journal Cell, two teams of scientists report that a genetic mutation may have made Ebola more deadly by improving the virus’s ability to enter human cells.
+The researchers do not yet understand exactly how it works, but several lines of evidence suggest it helped expand the scope of the epidemic. One alarming finding: Patients infected with the mutated version of Ebola were significantly more likely to die.
+“It’s hard to escape the conclusion that it’s an adaptation to the human host,” said Dr. Jeremy Luban, a virologist at the University of Massachusetts Medical School and an author of one of the new studies.
+Normally, Ebola circulates among animal hosts, probably African bats. Scientists suspect that the West African epidemic began when a bat infected a boy in a village in Guinea in December 2013.
+As reports of the outbreak surfaced, Dr. Pardis C. Sabeti, a computational biologist at Harvard, and her colleagues started a collaboration with doctors in Sierra Leone. The researchers quickly sequenced the genomes of 99 Ebola viruses isolated from 78 patients there.
+Their analysis showed that Ebola was moving quickly from one victim to the next, and that the virus was gaining new mutations along the way. One worrying possibility was that those mutations somehow sped up Ebola’s replication.
+But it was also possible these changes didn’t mean anything at all. “We know that viruses mutate,” Dr. Sabeti said. “There was nothing revelatory in that.”
+Each of Ebola’s seven genes encodes a protein. Even if a gene is altered with a mutation, it may end up making precisely the same protein as before, or one that works exactly the same way.
+Last year computer simulations by Dr. Simon C. Lovell, an evolutionary biologist at the University of Manchester, and his colleagues did not find any important difference in Ebola’s proteins caused by the new mutations. But that work was based only on what scientists knew about the molecular biology of Ebola at the time.
+There was still a lot left to learn, it turned out. Dr. Sabeti and her colleagues went on to analyze 1,489 Ebola genomes, tracing the virus’s development over the course of the epidemic in an evolutionary tree.
+The tree showed that one mutation arose at a crucial point in the outbreak. Known as GPA82V, it was first observed in viral samples collected from a patient in Guinea on March 31, 2014.
+Ebola viruses carrying GPA82V exploded across all three countries. The original version of the virus, by contrast, sputtered on at low levels in Guinea before disappearing in a couple of months.
+The GPA82V mutation alters the gene that directs production of Ebola’s surface proteins, called glycoproteins. The tips of these proteins contact human host cells, opening a passageway by which the virus enters.
+To judge the effects of the mutation, Dr. Luban created a form of HIV studded with Ebola’s surface proteins and observed as these hybrid viruses infected human cells. One set of hybrid viruses contained the GPA82V mutation; the other contained the original version of the Ebola gene.
+The mutation, the scientists found, made the viruses much more successful at attacking human cells and those of other primates. Compared with the older gene, the mutated form infected four times as many primate cells.
+But the mutation did not help the hybrid viruses infect the cells of other species, such as cats and dogs.
+
+Times Coverage of Ebola: Pulitzer-Winning Articles and More The Times produced more than 400 articles, including about 50 front-page stories from inside the Ebola-afflicted countries themselves. Here is a sample of work.
+
+In a parallel study also published on Thursday, Jonathan K. Ball, a virologist at the University of Nottingham, and his colleagues analyzed 1,610 Ebola genomes and arrived at the same conclusion as Dr. Sabeti: The GPA82V mutation arose early in the West African epidemic and spread like wildfire.
+Dr. Ball’s team also created hybrid viruses — instead of HIV, they used mouse viruses — and found that GPA82V made them twice as infectious to human cells.
+The scientists also tried infecting cells from fruit bats, including an African species thought to be Ebola’s natural host. The mutation actually made the viruses worse at infecting the bat cells.
+Dr. Lovell said he and his colleagues had completed a study of their own, now under review at a journal, that produced similar findings. As a result, he is no longer a skeptic.
+“Now it seems there is a change,” he said of the Ebola virus. “What we don’t know yet is the effect on people.”
+Dr. Sabeti and her colleagues have discovered some frightening clues in patient medical records. Among 194 cases, they found, people infected with mutated Ebola were significantly more likely to die than those with the older strain.
+Collectively, Dr. Luban said, the evidence points strongly to the conclusion that Ebola’s mutation helped it spread more effectively in people.
+“It looks like a duck, and so I think it probably is a duck,” he said.
+It is not clear what role the mutation played in West Africa’s epidemic. Perhaps it was only minor, compared with geography and the poor state of region’s public health systems, Dr. Ball said.
+But the fact that Ebola did gain at least one advantage that made it better at infecting human cells worries him anyway. We will almost certainly face another outbreak.
+“You will see that virus trying to adapt to its new host,” he said. “And the longer you let that spillover take place, the more chance it has to become better adapted.”
+Follow Carl Zimmer on Twitter @carlzimmer.

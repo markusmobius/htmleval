@@ -1,0 +1,21 @@
+Apple CEO Says Battery Management 'Feature' that Caused iPhone Slowdown Can Be Disabled in Future Updates
+Apple CEO Says Battery Management ‘Feature’ that Caused iPhone Slowdown Can Be Disabled in Future Updates
+
+The Associated Press
+
+ 18 Jan, 2018
+ 18 Jan, 2018
+ 
+Apple CEO Tim Cook has announced that the battery management feature which caused slowdown issues in older iPhones can be disabled in future updates.
+MacRumors reports that during an interview with ABC News while visiting the Apple data center in Reno, Nevada, Apple CEO Tim Cook discussed Apple’s economic announcements and possible fixes to the power management feature in older iPhones that caused many to accuse Apple of planned obsolescence in recent months. Cook stated that the controversial power management features were first introduced in iOS 10.2.1 but believes that the company should have been clearer in their explanation of what these features did and how it may affect older iPhone models.
+Cook stated:
+About a year ago, we released some code that essentially what it does… is all batteries age over time and they become unhealthy at a point in time and an unhealthy battery has a probability that it will create an unexpected restart.
+And so you can imagine if you’re making an emergency call or you’re making an important call that’s important to you or a message that you’re waiting for, or you want to capture that moment that’s fleeting with your camera… we always focus on the user experience. So at the heart of any decision that we make is the user. We felt it would be better to take something off of the performance to prevent that from happening.
+When we did put it out, we did say what it was, but I don’t think a lot of people were paying attention and maybe we should have been clearer as well. And so we deeply apologize for anybody that thinks we had some other kind of motivation. Our motivation is always the user. The user is at the center of everything that we do.
+In an attempt to remedy the situation, Apple has offered replacements to older iPhone batteries for $29, Cook now states that in the future Apple will give their users the option to disable the power management feature on older devices:
+We’re also going to… first in a developer release that happens next month, we’re going to give people the visibility of the health of their battery. So it’s very, very transparent. This hasn’t been done before, but we’ve thought through this whole thing and learned everything we can learn from it.
+So we want to do that, and in the situation… and we will tell someone we’re reducing your performance by some amount in order to not have an unexpected restart. And if you don’t want it, you can turn it off. Now we don’t recommend it, because we think people’s iPhones are really important to them, and you never can tell when something is so urgent. Our actions were all in service of the user. I can’t stress that enough.
+Cook also briefly confirmed that Apple’s latest economic announcements relating bonuses and tax cuts are the result of President Trump’s new tax plan:
+There are two parts of the tax bill. There’s a corporate piece and an individual piece. I do believe the corporate side will result in job creation and a faster growing economy.
+When asked if these new tax cuts would allow for a decrease in the price of iPhones, Cook stated that it would not and that “the phone costs what the innovation inside of it costs.”
+Lucas Nolan is a reporter for Breitbart News covering issues of free speech and online censorship. Follow him on Twitter @LucasNolan_ or email him at lnolan@breitbart.com.

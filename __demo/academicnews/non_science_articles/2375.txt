@@ -1,0 +1,28 @@
+The end of road rage? A car which detects emotions
+Could a car that understands your feelings make driving safer? - video 
+The potential for cars to tune into their driver’s emotions is being explored by manufacturers, who believe a car which understands feelings could make driving safer. 
+Researchers hope to integrate biometric sensors into cars, allowing the vehicle to understand when a driver is tired or stressed. It could then issue prompts or alerts, or potentially take over the wheel in extreme circumstances.
+Cars would be able to combine facial recognition technology with sensors tracking pulse, breathing rate and sweat.
+Scientists at Ford are collaborating in an EU-funded project developing advanced driver-assistance systems to enable cars to better respond to drivers’ needs, by recognising human emotional states rather than just physical road conditions.
+Ford demonstrated an early-concept prototype, a customised Ford Focus RS, in London on Tuesday, which lit up according to the mood of its driver, who was wired up with fitness trackers and skin sensors. A computer then interpreted the biometric data to make thousands of LED lights in the side windows flicker along with the driver’s stress levels. 
+On a cold, wet day in Stratford’s Olympic Park, under the tuition of stunt driver Paul Swift, the Guardian put the emoting Focus through its paces: pedal to the floor and steering wheel locked hard left, with every bead of sweat illuminated in patterns on the windows. 
+ Sign up to the daily Business Today email or follow Guardian Business on Twitter at @BusinessDesk 
+A succession of barely controlled doughnut manoeuvres culminated with a panicked lurch and solid contact between the driver’s cheekbone and the internal circuitry. The Focus flashed a brilliant white. 
+“That was what we call a ‘buzz moment’, a peak moment of emotional activity,” said Dr Cavan Fyans, chief technology officer of Sensum, the Belfast-based empathic technology company which souped-up Ford’s car. “Your heart rate was elevated by 25%, your galvanic skin response was up by 25% – roughly one microsiemens.” 
+Such moments, Fyans said, are good for the driver – a claim which Ford is using to shift more sports cars. However, the applications will go beyond that, he said. “If you’re stressed, nervous, distracted, we can detect these things. This is a big emerging market. A lot of automobile manufacturers are working out how to humanise the technology: the autonomous vehicle people know how to map the world and track other cars, but not much about the people inside them.
+“A self-driving car which knows how you are feeling could reassure a stressed passenger, or if you’re happy about it being in control, just do its thing.”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Ford Focus RS displays the driver’s ‘buzz moment’, when lights illuminate in tune to the driver’s emotions. Photograph: Jonathan Brady/PA
+
+Dr Marcel Mathissen, a research scientist at Ford of Europe, in Aachen, said the concept was at an early stage. “We are developing robust algorithms and technology for predicting and monitoring driver states such as sleepiness.” Car manufacturers will first need to improve on current wearable tech: “Our customers wouldn’t wear these kind of sensors. One of our biggest research topics is developing unobtrusive sensors, and the data quality is not as good as we would like to have it.”
+Monitoring could be done by a combination of facial recognition cameras, which issue alerts on closing eyes and yawning, as well as heartbeat and breathing detectors, said Mathissen. This could be combined with data from existing elements such as the lane departure warning. A car detecting an impaired or sleepy driver could also transfer that information to other cars. 
+Insurers said such innovations in autonomous technology could significantly reduce accidents, more than 90% of which involve human error. Ben Howarth, a senior policy adviser for motor and liability at the Association of British Insurers, said: “Anything that helps alert drivers who may be at extra risk of causing an accident is worth exploring. Although your mood at the wheel is unlikely to make much difference to decisions made by on-board computers, tapping into this type of information could be another way of predicting potential problems, or detecting a serious health issue.”
+Mathissen admitted: “There are people for whom these kind of technologies are a voodoo thing. But the acceptance will grow.”
+ Topics

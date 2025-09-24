@@ -1,0 +1,485 @@
+NHL Injuries - NHL Hockey
+Brad Marchand
+ Marchand is facing potential discipline for elbowing an opponent in the last game. His status against the Senators on Thursday has yet to be determined. 
+Current NHL Injuries
+DATE
+NAME
+TEAM
+POS
+DETAILS
+STATUS
+ 2018-01-24 
+ Brad Marchand 
+ Bruins 
+ LW 
+ Marchand is facing potential discipline for elbowing an opponent in the last game. His status against the Senators on Thursday has yet to be determined. 
+ Ques Thurs 
+ 2018-01-24 
+ Brayden McNabb 
+ Golden Knights 
+ D 
+ McNabb left the last game with an undisclosed injury and it is unclear if he will suit up against the Islanders on Thursday. 
+ Ques Thurs 
+ 2018-01-24 
+ Colin Wilson 
+ Avalanche 
+ C 
+ Wilson is battling the flu and it is unknown if he will suit up against the Blues on Thursday. 
+ Ques Thurs 
+ 2018-01-24 
+ Derek Forbort 
+ Kings 
+ D 
+ Forbort left the game with an upper body injury and it is unknown if he will suit up Wednesday against the Flames. 
+ Ques Wed 
+ 2018-01-24 
+ Joe Thornton 
+ Sharks 
+ C 
+ Thorton left his last game with a right knee injury and his status for Thursday's game against the Rangers is unclear. 
+ Ques Thurs 
+ 2018-01-24 
+ Michael Raffl 
+ Flyers 
+ LW 
+ Raffl left the game with a lower-body injury and his status is unknown against the Lightening on Thursday. 
+ Ques Thurs 
+ 2018-01-24 
+ Noel Acciari 
+ Bruins 
+ C 
+ Acciari has an injury to his lower body, leaving his status unclear for Thursday's game against the Senators. 
+ Ques Thurs 
+ 2018-01-24 
+ Patrice Bergeron 
+ Bruins 
+ C 
+ Bergeron will likely suit up for Thursday's game against the Senators despite battling a flu bug. 
+ Prob Thurs 
+ 2018-01-23 
+ Cory Schneider 
+ Devils 
+ G 
+ Schneider left the previous game due to a lower-body injury and it is unclear if he will be available Thursday against the Predators. 
+ Ques Thurs 
+ 2018-01-23 
+ Filip Chlapik 
+ Senators 
+ C 
+ Chlapik missed the last game with an injury to his upper body and it is unclear if he will participate in Thursday's matchup against the Bruins. 
+ Ques Thurs 
+ 2018-01-23 
+ James Reimer 
+ Panthers 
+ G 
+ Reimer left the last game due to a lower-body injury and it is uncertain if he will be available against the Capitals on Thursday. 
+ Ques Thurs 
+ 2018-01-23 
+ Jordan Martinook 
+ Coyotes 
+ LW 
+ Martinook is dealing with an unspecified injury and it is uncertain if he will play Thursday against the Blue Jackets. 
+ Ques Thurs 
+ 2018-01-23 
+ Marcus Johansson 
+ Devils 
+ LW 
+ Johansson exited the last game due to a facial injury and it is unknown if he will play against the Predators on Thursday. 
+ Ques Thurs 
+ 2018-01-23 
+ Tommy Wingels 
+ Blackhawks 
+ RW 
+ Wingels has a facial injury and it is unclear if he will play Wednesday against the Maple Leafs. 
+ Ques Wed 
+ 2018-01-22 
+ Charlie McAvoy 
+ Bruins 
+ D 
+ McAvoy elected to undergo a procedure to treat an abnormal heart rhythm and is expected to miss two weeks. 
+ Early Feb 
+ 2018-01-22 
+ Johnny Oduya 
+ Senators 
+ D 
+ Oduya suffered an injury to his lower body and has landed on the injured reserve without a clear timetable for return. 
+ Out indefinitely 
+ 2018-01-22 
+ Josh Gorges 
+ Sabres 
+ D 
+ Gorges missed the last two games as he is ailing from an illness and it is unclear if he will be available Thursday against the Canucks. 
+ Ques Thurs 
+ 2018-01-22 
+ Mark Stone 
+ Senators 
+ RW 
+ Stone has sat out the previous two games due to a knee injury and it is undetermined if he will suit up against the Bruins on Thursday. 
+ Ques Thurs 
+ 2018-01-22 
+ Nathan Beaulieu 
+ Sabres 
+ D 
+ Beaulieu has been placed on the injured reserve list due to concussion-like symptoms and it is unknown when he will draw back into the lineup. 
+ Out indefinitely 
+ 2018-01-22 
+ Taylor Hall 
+ Devils 
+ LW 
+ Hall sat out his second-consecutive game due to a hand injury and his status is in question for Thursday's contest against the Predators. 
+ Ques Thurs 
+ 2018-01-21 
+ Joonas Donskoi 
+ Sharks 
+ RW 
+ Donskoi missed his second-straight game as he is ailing from a flu bug and it is unknown if he will suit up against the against the Rangers on Thursday. 
+ Ques Thurs 
+ 2018-01-21 
+ Keith Kinkaid 
+ Devils 
+ G 
+ Kinkaid has been designated for injured reserve due to a groin injury and is without a timetable for return. 
+ Out indefinitely 
+ 2018-01-21 
+ Ondrej Palat 
+ Lightning 
+ LW 
+ Palat suffered a lower-body injury and is expected to miss six-to-eight weeks. 
+ Mid March 
+ 2018-01-20 
+ Brian Gibbons 
+ Devils 
+ LW 
+ Gibbons has been placed on the injured reserve list with a broken right thumb and it is uncertain if he will return to the lineup during the beginning of February. 
+ Early Feb 
+ 2018-01-20 
+ Erik Gudbranson 
+ Canucks 
+ D 
+ Gudbranson has landed on the injured reserve list due to back spasms and it is unclear if he will be activated in time for Thursday's game against the Sabres. 
+ Ques Thurs 
+ 2018-01-20 
+ Martin Hanzal 
+ Stars 
+ C 
+ Hanzal was held out of the last game due to a lower-body injury and his availability against the Maple Leafs on Thursday is up in the air. 
+ Ques Thurs 
+ 2018-01-20 
+ Martin Jones 
+ Sharks 
+ G 
+ Jones has been held out of the past three games due to a lower-body injury and it is undetermined if he will be available Thursday against the Rangers. 
+ Ques Thurs 
+ 2018-01-20 
+ Shane Prince 
+ Islanders 
+ LW 
+ Prince is dealing with an injury to his upper body and there is no timetable set for his return. 
+ Out indefinitely 
+ 2018-01-20 
+ Trevor Daley 
+ Red Wings 
+ D 
+ Daley has sat out the last two games with a lower-body injury and it is unknown if he will return against the Blackhawks on Thursday. 
+ Ques Thurs 
+ 2018-01-19 
+ Kevin Shattenkirk 
+ Rangers 
+ D 
+ Shattenkirk suffered a torn meniscus and has been placed on the injured reserve list without a timetable for recovery. 
+ Out indefinitely 
+ 2018-01-19 
+ Morgan Rielly 
+ Maple Leafs 
+ D 
+ Rielly has been designated for the injured reserve list with a left arm injury and is expected to remain sidelined until after the All-Star break. 
+ Early Feb 
+ 2018-01-18 
+ Nate Thompson 
+ Senators 
+ C 
+ Thompson is sidelined due to a lower-body injury and there is no timetable for recovery. 
+ Out indefinitely 
+ 2018-01-17 
+ Jean-Gabriel Pageau 
+ Senators 
+ C 
+ Pageau has been placed on injured reserve with an upper-body injury and it is unclear if he will be activated prior to Thursday's game against the Bruins. 
+ Ques Thurs 
+ 2018-01-17 
+ Tomas Nosek 
+ Golden Knights 
+ LW 
+ Nosek has been designated for the injured reserve list due to an upper-body injury and it has yet to be determined as to when he will be activated. 
+ Out indefinitely 
+ 2018-01-15 
+ Andrew Shaw 
+ Canadiens 
+ RW 
+ Shaw is on the injured reserve list due to a lower-body injury and is not expected to return until after the All-Star break. 
+ Early Feb 
+ 2018-01-14 
+ Kevin Hayes 
+ Rangers 
+ RW 
+ Hayes is sidelined due to a leg contusion and it has yet to be determined when he will draw back into the lineup. 
+ Out indefinitely 
+ 2018-01-14 
+ Ryan Nugent-Hopkins 
+ Oilers 
+ C 
+ Nugent-Hopkins is on the injured reserve list with cracked ribs and is expected to need five-to-six weeks to recover. 
+ Early March 
+ 2018-01-14 
+ Sebastian Aho 
+ Hurricanes 
+ RW 
+ Aho will miss an extended period of time as he has been diagnosed with a concussion and a knee injury. 
+ Out indefinitely 
+ 2018-01-13 
+ Casey Cizikas 
+ Islanders 
+ C 
+ Cizikas is on injured-reserve with an upper-body injury but is likely to return by the beginning of February. 
+ Early Feb 
+ 2018-01-13 
+ Darren Helm 
+ Red Wings 
+ LW 
+ Helm is on injured reserve with a left leg injury and it is unknown if he will return by the beginning of February. 
+ Early Feb 
+ 2018-01-13 
+ Justin Abdelkader 
+ Red Wings 
+ LW 
+ Abdelkader suffered a lower-body injury and it is uncertain if he will return to the lineup by the beginning of February. 
+ Early Feb 
+ 2018-01-13 
+ Phillip Danault 
+ Canadiens 
+ LW 
+ Danault is sidelined due to concussion-like symptoms and it has yet to established when he will return to the lineup. 
+ Out indefinitely 
+ 2018-01-13 
+ Shawn Matthias 
+ Jets 
+ LW 
+ Matthias sustained an upper-body injury and there is no timetable for recovery. 
+ Out indefinitely 
+ 2018-01-12 
+ Matt Murray 
+ Penguins 
+ G 
+ Murray has been away from the team due to a death in the family and it is unclear if he will return to action against the Wild on Thursday. 
+ Ques Thurs 
+ 2018-01-12 
+ Steve Mason 
+ Jets 
+ G 
+ Mason is on injured reserve with a concussion and will miss an undetermined period of time. 
+ Out indefinitely 
+ 2018-01-11 
+ Victor Hedman 
+ Lightning 
+ D 
+ Hedman has been placed on the injured reserve list due to a left knee injury and is expected to need three-to-six weeks to recover. 
+ Late Feb 
+ 2018-01-10 
+ Jacob Josefson 
+ Sabres 
+ C 
+ Josefson suffered a lower-body injury and will miss an undetermined length of time while on the injured reserve list. 
+ Out indefinitely 
+ 2018-01-10 
+ Zach Bogosian 
+ Sabres 
+ D 
+ Bogosian has been designated for the injured reserve list due to a left ankle injury and is expected to miss four-to-six weeks. 
+ Late Feb 
+ 2018-01-09 
+ Nino Niederreiter 
+ Wild 
+ RW 
+ Niederreiter sustained a lower-body injury and is not expected to return until after the All-Star break. 
+ Early Feb 
+ 2018-01-08 
+ Sonny Milano 
+ Blue Jackets 
+ LW 
+ Milano is on injured reserved with a torn oblique muscle and is expected to miss four-to-six weeks. 
+ Late Feb 
+ 2018-01-07 
+ Adam Lowry 
+ Jets 
+ C 
+ Lowry has been placed on injured reserve due to an upper-body injury and it is uncertain when he will return to the lineup. 
+ Out indefinitely 
+ 2018-01-07 
+ Luca Sbisa 
+ Golden Knights 
+ D 
+ Sbisa has been placed on the injured reserve list after undergoing surgery to repair a ruptured ligament in his left hand and is expected to need six-to-eight weeks to recover. 
+ Early March 
+ 2018-01-06 
+ Andrew Ladd 
+ Islanders 
+ LW 
+ Ladd has landed on the injured reserve with an upper-body injury and is expected to remain out of action until at least the beginning of February. 
+ Early Feb 
+ 2018-01-06 
+ Marc Methot 
+ Stars 
+ D 
+ Methot is on injured reserve after having a procedure on his knee and is expected to remain out of action until the beginning of February. 
+ Early Feb 
+ 2018-01-05 
+ Jaromir Jagr 
+ Flames 
+ RW 
+ Jagr has landed on the injured reserve list with a lingering groin injury and it is unknown when he will rejoin the lineup. 
+ Out indefinitely 
+ 2018-01-05 
+ Jon Merrill 
+ Golden Knights 
+ D 
+ Merrill is dealing with a lower-body injury and is on injured reserve without a timetable for recovery. 
+ Out indefinitely 
+ 2018-01-03 
+ Carter Rowney 
+ Penguins 
+ RW 
+ Rowney is on the injured reserve list and is expected to need at least four weeks to recuperate from an upper-body injury. 
+ Early Feb 
+ 2018-01-02 
+ Semyon Varlamov 
+ Avalanche 
+ G 
+ Varlamov is on the injured reserve list with a groin strain but is likely to return by the beginning of February. 
+ Early Feb 
+ 2018-01-01 
+ Sven Andrighetto 
+ Avalanche 
+ RW 
+ Andrighetto has been designated for injured reserve due to a leg injury and it is undetermined when he will be activated prior to Thursday's game against the Blues. 
+ Ques Thurs 
+ 2017-12-30 
+ Filip Forsberg 
+ Predators 
+ LW 
+ Forsberg has landed on injured reserve with an upper-body ailment and will need four-to-six weeks to recover. 
+ Mid Feb 
+ 2017-12-29 
+ Michael Frolik 
+ Flames 
+ RW 
+ Frolik is on injured reserve with a broken jaw and is unlikely to return until sometime after the All-Star break. 
+ Early Feb 
+ 2017-12-29 
+ Peter Budaj 
+ Lightning 
+ G 
+ Budaj has been placed on the injured reserve list with a left leg injury and is expected to miss another three weeks. 
+ Mid Feb 
+ 2017-12-28 
+ Chad Ruhwedel 
+ Penguins 
+ D 
+ Ruhwedel is on the injured reserve list with an upper-body injury and it is unknown when he will return to the ice. 
+ Out indefinitely 
+ 2017-12-28 
+ Johnny Boychuk 
+ Islanders 
+ D 
+ Boychuk is on injured reserve with a lower-body injury and it is unknown if he will be activated by the beginning of February. 
+ Early Feb 
+ 2017-12-27 
+ Chris Kreider 
+ Rangers 
+ LW 
+ Kreider has landed on the injured reserve list due to a blood clot in his right arm. He also had a rib resected and is without a timetable for return. 
+ Out indefinitely 
+ 2017-12-27 
+ Corey Crawford 
+ Blackhawks 
+ G 
+ Crawford has been placed on injured reserve as he is experiencing post-concussion symptoms and a timeline for his recovery has yet to be established. 
+ Out indefinitely 
+ 2017-12-27 
+ Mark Scheifele 
+ Jets 
+ C 
+ Scheifele has been placed on injured reserve with an upper-body injury and is expected to miss six-to-eight weeks of action. 
+ Mid Feb 
+ 2017-12-25 
+ Cam Atkinson 
+ Blue Jackets 
+ RW 
+ Atkinson is on injured reserve and is expected to miss four to six weeks recovering from surgery to repair a fractured right foot. 
+ Early Feb 
+ 2017-12-23 
+ Tyson Barrie 
+ Avalanche 
+ D 
+ Barrie is expected to miss four-to-six weeks while on the injured reserve list with a broken bone in his hand. 
+ Early Feb 
+ 2017-12-18 
+ Shea Weber 
+ Canadiens 
+ D 
+ Weber is on injured reserve with a left foot injury and is unlikely to rejoin the lineup until after the All-Star break. 
+ Early Feb 
+ 2017-12-17 
+ Calvin de Haan 
+ Islanders 
+ D 
+ de Haan has been designated for the injured reserve list as he will undergo season-ending shoulder surgery. 
+ out for season 
+ 2017-12-17 
+ Nikita Zaitsev 
+ Maple Leafs 
+ D 
+ Zaitsev is nursing a foot injury and is expected to resume skating with the team in early February. 
+ Early Feb 
+ 2017-12-12 
+ Brandon Dubinsky 
+ Blue Jackets 
+ C 
+ Dubinsky is on the injured reserve list with an orbital bone fracture and is dealing with personal issues. There is no timetable for his return. 
+ Out indefinitely 
+ 2017-12-12 
+ Nikita Soshnikov 
+ Maple Leafs 
+ RW 
+ Soshnikov is on the injured reserve list due to an issue with his lower body. He is expected to be sent on a conditioning stint but it is unclear when he will return to the lineup. 
+ Out indefinitely 
+ 2017-12-09 
+ Jaden Schwartz 
+ Blues 
+ LW 
+ Schwartz is on the injured reserve list with a significant right ankle injury and it is unknown if he will return Thursday against the Avalanche. 
+ Ques Thurs 
+ 2017-12-04 
+ Roberto Luongo 
+ Panthers 
+ G 
+ Luongo has been placed on injured reserve with an injury to his lower body and is expected to be sidelined until the beginning of February. 
+ Early Feb 
+ 2017-12-02 
+ Mike Liambas 
+ Ducks 
+ LW 
+ Liambas has been designated for the injured reserve list with an upper-body injury and it is unclear when he will be activated. 
+ Out indefinitely 
+ 2017-11-28 
+ Ryan Murray 
+ Blue Jackets 
+ D 
+ Murray has been placed on injured reserve due to a back injury and there is no timetable for recovery. 
+ Out indefinitely 
+ 2017-11-25 
+ Kris Versteeg 
+ Flames 
+ RW 
+ Versteeg had surgery to repair a labrum injury in his hip and has been placed on injured reserve without a definitive timetable for return. 
+ Out indefinitely 
+^ Jump to top

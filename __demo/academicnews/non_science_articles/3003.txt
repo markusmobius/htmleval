@@ -1,0 +1,77 @@
+NFL Injuries - NFL Football
+Nick Foles
+ Foles is expected to be available against the Patriots in Super Bowl 52 despite soreness in his ribs. 
+Current NFL Injuries
+DATE
+NAME
+TEAM
+POS
+DETAILS
+STATUS
+ 2018-01-21 
+ Nick Foles 
+ Eagles 
+ QB 
+ Foles is expected to be available against the Patriots in Super Bowl 52 despite soreness in his ribs. 
+ Prob Feb 4 
+ 2018-01-21 
+ Rob Gronkowski 
+ Patriots 
+ TE 
+ Gronkowski suffered a concussion but is expected to be cleared in time for Super Bowl 52 against the Eagles. 
+ Prob Feb 4 
+ 2018-01-17 
+ Dannell Ellerbe 
+ Eagles 
+ LB 
+ Ellerbe is bothered by a hamstring injury and it is unclear if he will play against the Patriots in Super Bowl 52. 
+ Ques Feb 4 
+ 2018-01-17 
+ Jonathan Jones 
+ Patriots 
+ DB 
+ Jones has been placed on injured reserve due to a foot injury. 
+ I-R 
+ 2018-01-17 
+ LaAdrian Waddle 
+ Patriots 
+ OL 
+ Waddle is bothered by a knee injury and it is unclear if he will play against the Eagles in Super Bowl 52. 
+ Ques Feb 4 
+ 2018-01-10 
+ Sidney Jones 
+ Eagles 
+ CB 
+ Jones is battling a hamstring injury and it is unknown if he will be available for Super Bowl 52 against the Patriots. 
+ Ques Feb 4 
+ 2017-12-29 
+ Joe Walker 
+ Eagles 
+ LB 
+ Walker has been placed on the injured reserve list with a neck injury. 
+ I-R 
+ 2017-12-27 
+ Mike Gillislee 
+ Patriots 
+ RB 
+ Gillislee has a knee injury and it is unknown if he will suit up for Super Bowl 52 against the Eagles. 
+ Ques Feb 4 
+ 2017-12-11 
+ Alan Branch 
+ Patriots 
+ DL 
+ Branch is sidelined with a knee injury and it is uncertain if he will return against the Eagles in Super Bowl 52. 
+ Ques Feb 4 
+ 2017-12-10 
+ Carson Wentz 
+ Eagles 
+ QB 
+ Wentz suffered a torn ACL in his left knee and is on the injured reserve list. 
+ I-R 
+ 2017-11-26 
+ Nate Ebner 
+ Patriots 
+ DB 
+ Ebner has landed on injured reserve due to a knee injury. 
+ I-R 
+^ Jump to top

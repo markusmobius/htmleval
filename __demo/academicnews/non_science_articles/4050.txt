@@ -1,0 +1,68 @@
+Yelp’s CEO makes the case against Google's search monopoly
+Yelp CEO Jeremy Stoppelman
+
+When European antitrust regulators announced a €2.4 billion ($2.7 billion) fine against Google in late June, few people had more reason to celebrate than Yelp CEO Jeremy Stoppelman. Yelp isn’t directly affected by the decision, which focused on comparison shopping services rather than review sites like Yelp. But Yelp has been lobbying for stronger antitrust enforcement against Google for about a decade, both in the United States and Europe. And the June decision is an important precedent that could bolster Yelp’s own efforts in Europe.
+Stoppelman argues that Google has hurt Yelp by artificially putting links to Google’s own Yelp competitor — previously named Google Places and renamed Google My Business in 2014 — ahead of Yelp’s in Google search results. And he argues that this is part of a larger trend, in which internet giants like Google and Facebook have used their power to limit competition and prevent the emergence of powerful new competitors.
+Stoppelman draws an analogy to the 1990s, when Microsoft tried to use its dominance in the PC operating market to limit the growth of Netscape, the maker of the first commercially successful web browser. In that case, US regulators intervened, suing Microsoft for anticompetitive conduct and, in Stoppelman’s view, saving the open web. He argues that it’s past time for a new era of antitrust activism to deal with the anticompetitive practices of today’s technology giants.
+I visited Stoppelman at Yelp’s San Francisco headquarters on June 12, a couple of weeks before the European decision was announced. This transcript has been edited for length and clarity. 
+Timothy B. Lee
+In the 1990s and early 2000s, there were a lot of companies like Google and Facebook that went from being small startups to household names. It seems like that's happening less frequently. I'm curious about your thoughts on this as someone who went through that process of building Yelp — from a new startup in 2004 into a well-known internet brand today.
+Jeremy Stoppelman
+If you go back several years, there was celebration of the fact that the cost of doing a startup was so low. You didn't have to pay Oracle a million dollars for a server license any more. You didn't even have to rack your own hardware. Now you can just dial it up on Amazon.
+But there are now these gatekeepers and toll-takers. Back in 2004, you had the wide-open internet. Google wasn't focused on trying to protect its monopoly, so there was a lot of opportunity to get distribution for free if you delivered something of value to consumers.
+That window has closed. We have more mature platforms, and if you want to get distribution, you have to pay for it. The idea phase is still low-cost, but once you want to drive distribution, you often see these startups raising hundreds of millions of dollars.
+There used to be search engine optimization as a distribution model. Then there were email contact lists as a distribution model. But a bunch of these have been slowly closed off. Like for instance, Facebook grew based on saying “give me your email addresses, and I will send out emails inviting your friends to try Facebook.”
+Does Facebook allow that on its own platform? Hell no. They say “pay us $4 an install and we'll help you get one user at a time and make a lot of money in the process.”
+So it's a very different landscape. I think it's a little bit less fertile.
+This is usually how it happens, things get more and more locked up by the entrenched and successful players, and then there's something new, that creates an opportunity for new startups. But right now, we're not in that phase.
+Timothy B. Lee
+How do you see the role of antitrust enforcement in creating those opportunities?
+Jeremy Stoppelman
+This has happened before. There was the birth of the PC era and lots of opportunity for startups. Then we had the rise of Microsoft sucking the oxygen out of the room so to speak. Then there was a lot of antitrust scrutiny for Microsoft, which you could argue created the opportunity for Google.
+Imagine a world where we had a browser that was full of proprietary Microsoft crap. They were really trying to constrain the browser and lock it up into a Microsoft world.
+Imagine if Google had started to take off in that world and Microsoft had said, “We're going to do things like we did to Netscape and slow down search if it's not Bing.” These things could have happened if we didn't have effective antitrust enforcement. But we did, and that created new opportunities.
+And then here we are again. I think people are finally waking up and realizing, okay maybe there is a bit of a problem. Maybe we do have to at least apply scrutiny and make sure that bad behavior is checked. No one can check it except for the government.
+Part of it is Google's been encouraging people to be asleep, and they have been. And there are more public examples that are starting to reinvigorate the conversation. Just looking at Facebook and Snapchat, I think that's an eye-opener for people. They say, oh wait, Facebook is really big in social media, and is able to leverage its dominance to effectively cut off Snapchat's growth.
+
+Stoppelman in 2011.
+
+Timothy B. Lee
+It does seem surprising in retrospect that there wasn’t more public debate when Facebook acquired Instagram, which has turned into one of the most important social media platforms. I assume one factor was that Instagram was such a small company at the time that most people didn’t realize how significant it would become.
+Jeremy Stoppelman
+Part of it is free-riding off of the hard work that Google's done over the past decade. I mean case in point: A couple of years ago, Obama himself was repeating Google lines, arguing that the reason why Europe is interested in antitrust is because they're jealous of our tech darlings.
+There was a great Washington Post story in 2014 that showed how Google was quietly funneling money to George Mason University. They were hosting conferences that the FTC was attending, where the FTC was not informed that all of the sessions, all of the panels, all of the topics, were being created by Google.
+At least the Washington Post covered it. But it's a little bit wonky. This is a hard topic to get people to focus on. It's a little bit esoteric.
+I've been screaming from the rooftops for a decade, and people mostly have rolled their eyes. But I think now we're finally at a point where I do feel like both the media and tech leaders are waking up and saying, “I see what you've been talking about for the past 10 years.”
+Timothy B. Lee
+Where do you see the practical impact of weak antitrust enforcement?
+Jeremy Stoppelman
+I think Yelp is smoking gun evidence of what can happen. We got started in the US, we grew city by city, we started expanding internationally, we were doing quite well. But then Google started turning the screws on distribution and started to bury organic search results. If you do a search in local, you really don't get organic results. You get Google Places, you get their content, you get their ads. The consumer really has to dig deep to find Yelp content.
+
+
+So you look at the value that was created in the US through Yelp, and then you go to Europe and there's nothing. There's a huge gap in the market, because Google said this is competitive, we're going to make sure this diversion of traffic gets snuffed out. They did it successfully.
+As a result, in Europe, you have a weak Google property that’s mostly limited just to restaurants, and beyond that, you have a gap in the market that is not being filled. So consumers are robbed of that information.
+In the US, we found ways to keep our head above water because of our relationship with Apple. Apple has created a much more level playing field when it comes to local content. They're not collecting content of their own. They're able to work with multiple providers of the best content, whether it's Yelp, OpenTable or TripAdvisor. 
+But to get consumers to download the app, there's a high frictional cost to that. You have to have a brand, you have to have a reason for people to make that leap.
+And in Europe, we have some traction, but the brand isn't so strong that we've been able to see similar traction on the app side. That's constrained us.
+We pared back our investment to virtually nothing about a year ago internationally because of this. We have to come up with a new distribution strategy if we're going to have any success outside of US and Canada, and we didn't have any great ideas. We have real traction internationally, but it's not growing in a way that's going to turn into a successful business for us financially. So we decided to take that $25 million that we were spending annually and put it somewhere else.
+Timothy B. Lee
+You’ve been talking about this issue for about a decade. What was it like when you first started raising concerns about Google’s market power?
+Jeremy Stoppelman
+We were a young startup, we hadn't gone public, we weren't very savvy in the ways of antitrust: How do we talk about it, what are the regulators thinking about?
+And even before we were getting up to speed, Google was ready because Eric Schmidt, who was leading the company at the time, had gone through it before when he worked at Novell and made all these successful antitrust arguments against Microsoft. So who knows the playbook better than someone who was on the other side in the 1990s?
+I think if I were them I would be pleasantly surprised that they haven't had the scrutiny that Microsoft did. Part of that was because of their deep savvy in this area, and their taking it on in an early and aggressive manner. Right around the time of our 2011 Senate testimony, they went out and signed up virtually every lobbying firm in Washington that was credible and dealt with this type of issue. If you look at their spending, it is well ahead of virtually any other company in the entire country.
+So when we went around and talked to FTC commissioners back then, I mean it was comical. Google had been talking to them and repeating their messages for so long that we'd go from FTC commissioner to FTC commissioner and they'd repeat to us the same lines. They were all Google lines. I thought, uh oh we're in trouble. Google's gotten way ahead of us. 
+So the US antitrust enforcement has been fairly lax because, I think, of Google's aggressive lobbying
+In Europe, there's a different standard for abuse of monopoly power. Europe has been more aggressive in its posture. It continues to be a process that rolls on and takes a lot longer than they would like and we would like.
+Timothy B. Lee
+Google’s argument is that they’re just giving users what they want — that it’s good for consumers to give different kinds of content in response to different queries. And it does seem like there’s a danger to getting regulators too deeply involved in designing how search results look. What do you see as the best way for regulators to approach this issue?
+Jeremy Stoppelman
+Google used to argue that this is the only way to engineer it. They’d say “consumers are looking for answers.” That was the justification for taking over the top of that page and using proprietary Google results.
+That makes sense for the weather. If I say what's the temperature right now, there's a factual answer to that. But when it comes to things like who's a good pediatrician, everyone's got a different take on that. It’s like: Yelp has its reviews that say this. Zocdoc says this. Google Places says this.
+You can't give a definitive answer. It's completely subjective, and there's multiple takes on this answer, and so therefore you can't resort to delivering your results and calling it a day.
+We get this question a lot, so we have contributed to a site called Focus on the User that lays out what it would look like. There is a way to think about it. You can even use Google's own technology. The Google answers box that they come back with, with the map and different businesses, that could be powered both by their own search engine as well as substituting in for the highest-ranking information for each business.
+So let’s say that Google Paces has some reviews on business A, Yelp has some review on business A, and TripAdvisor has some reviews on business A. Google is really good at ranking. So just apply the algorithm. And whoever wins, wins. We just want the same principles applied to Google’s own properties. Why do they get a free pass?
+Disclosure: My brother works at Google.
+Was this article helpful?
+ yes no 
+Awesome, share it:

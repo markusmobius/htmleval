@@ -1,0 +1,57 @@
+Rhino DNA database helps tracks poaching crimes
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+
+JUST WATCHED
+Can data save Africa's rhinos from the guns of poachers?
+Replay
+Story highlights
+The RhODIS database contains more than 20,000 rhino samples
+Rhino horns and powders are worth more than gold, diamonds or cocaine
+For more about the debate over big game trophies, watch CNN Films' "Trophy," premiering Sunday, January 14, at 9pm ET/PT, on CNN.
+ (CNN)
+CODIS -- the FBI's Combined DNA Index System, containing genetic evidence gathered from crime scenes and serial offenders -- helps cops nab criminals. Now, a similar DNA database is helping link international traffickers of rhinoceros horns to the scene of a poaching, according to a study published Monday in the journal Current Biology. 
+Rhino horns and powders, made from grinding down the horns, are illegally sold across the globe as trophies and fake medicines. 
+Today, RhODIS -- the Rhino DNA Index System -- includes data from roughly 5,800 rhino crime cases since 2010, according to the researchers. And more than 120 case reports built from RhODIS data have helped investigators connect the dots between criminals and blood-stained evidence, including carcasses and recovered horns.
+
+One case, which involved three horns from two carcasses, led to a sentence of 29 years, said the team of researchers led by Cindy Harper, director of the Veterinary Genetics Laboratory at the University of Pretoria in South Africa.
+"Traditionally the punishment for poaching -- which is more lucrative than drug trafficking -- was trivial," said Steven O'Brien, a co-author of the new study and a professor at Halmos College of Natural Sciences and Oceanography at Nova Southeastern University in Florida. "It was a very small slap on the hand, perhaps a small fine of a thousand dollars or maybe a week or two in jail, but that's all changing now with the DNA evidence."
+Read More
+'Vigilant and strong culture'
+Rhino horns and powders are worth more, kilogram for kilogram, than gold, diamonds or cocaine, according to O'Brien. In South Africa, rhino poaching incidents increased from just 13 in 2007 to 1,215 in 2014, the research indicates. 
+"South Africa has a vigilant and strong culture against the taking and poaching of the wildlife species, particularly rhinos and elephants and large, charismatic species," O'Brien said. But the dramatic increase in rhino killings, accomplished in some cases by wealthy criminals helicoptering into habitats with automatic weapons and chain saws, has overwhelmed the African courts.
+
+"Most of the prosecutions were difficult to conclude because these guys could say anything when they're caught with a piece of horn," O'Brien said. Criminal "excuses" have included pretend ignorance -- not knowing it was a rhino horn -- and claims that the item is an ancestral museum piece.
+"If you could basically prove that they actually were in possession of material that was from a poached rhino in recent time, then that closes the circle of evidence," he said. 
+Human crimes are prosecuted based on DNA left at a crime scene, so why not apply that logic and technology to rhino crimes? 
+Though this idea may be obvious, O'Brien said, what was not obvious was how to create a rhino database -- in wild and remote African regions -- that could make a direct genetic match. 
+In South Africa, Harper "trained the entire wildlife anti-poaching staff to not only collect materials from poached animals but to enter them into an iPad and a small program that RhODIS designed that specifically gets uploaded into the database as soon as they come into Wi-Fi range," he explained.
+
+The goal is for all rhinos to be in the RhODIS system. The South African government made it obligatory for law enforcement officers to collect DNA samples from every crime scene as well as every living rhino handled by academic researchers, conservationists or veterinarians. Kenya soon followed suit. Other countries in the southern part of the African continent, including Botswana and Zimbabwe, have begun to do the same. 
+Yet there's another essential element necessary for DNA evidence to stand up in court, O'Brien said. 
+Match probability 
+There's always some chance that completely unrelated DNA could be a genetic match to crime scene evidence. This is called "match probability," he said. 
+To win a court case, then, prosecutors need to prove that match probability is extremely low in order to prevent a good lawyer from getting up and saying the match of DNA from a rhino to DNA on confiscated items held by a criminal "is just by chance," O'Brien said. "This is the kind of thing a lawyer would say. They're wrong, but that's what they would say."
+O'Brien enlisted the help of "the best computational biologists I know": a group working at the Theodosius Dobzhansky Center for Genome Bioinformatics at St. Petersburg State University in Russia.
+Asked how St. Petersburg's programmers got involved with rhinos, O'Brien laughed. After working at the US National Institutes of Health for nearly four decades, he retired a few years ago and was looking for an adventure.
+"Mostly, I was looking for programmers to get into the genetics field," he said, so he traveled to St. Petersburg and recruited about 20 of them. "If they were in the US, they would all be hired by Google or Facebook or Silicon Valley places," he said. "But over there, they're just trying to learn a trade that will make them valuable to the international genetics community."
+
+The Dobzhansky Center programmers developed "state of the art methods" for application of match probability statistics. 
+In nine case studies presented in the new research paper, the programmers' statistical model shows that the likelihood of a chance match is "on the order of one in a million," O'Brien said. "So this rhino thing was exciting for (the programmers) because it was a clear application of the methodology that they had perfected."
+Bas Huijbregts, African species manager at the World Wildlife Fund, believes this "very interesting mix of different people" is one reason the new study and the RhODIS system are so strong. 
+Protecting the species
+"It's researchers from research institutes, from law enforcement agencies, from rhino specialist groups, from conservation groups, from all different horizons and different countries," said Huijbregts, who was not involved in the new study. All of these contributions were necessary to validate RhODIS as a law enforcement tool that could be used internationally.
+By helping populate the RhODIS system with data, South Africa has given RhODIS importance and recognized evidence from the system in its courts, he noted.
+With 20,000 total rhino samples -- gathered from crime scenes and research labs -- in the database today, the system is becoming "very significant" while helping paint a picture of international criminal networks, Huijbregts said. 
+There's still work to be done when it comes to learning how to effectively build and use RhODIS, particularly with regard to "how data and information flows happen between different organizations and different law enforcement agencies," he said.
+
+He is hopeful for the future, however. Rhino poaching may be continuing, but Huijbregts sees "more and more efforts on protecting the species," including more professional rangers and more professional forensic tools. 
+More effort is needed on the demand side, he said, with rhino products sold to the "rising middle-income classes in newly emerging economies" such as Vietnam and China. In these countries, rhino powders are marketed as "traditional" hangover cures and cancer treatments. 
+"This has nothing to do with traditional Chinese medicine; it's just newly invented branding for rhino products," Huijbregts said. With completely fake medical usages popping up regularly, conservationists work hard to understand why people buy these products and quickly debunk the science, showing that there's no real medical value to rhino horn or rhino horn powder. 
+
+It's all about "making it not cool anymore, like it's not cool to drive and drink or smoke anymore," Huijbregts said. "That type of cultural shift needs to happen in those markets."
+Ultimately, Huijbregts believes "that at some point, this current wave of killings will diminish." And so he worries more about other threats to the rhino's long-term survival.
+"A lot of people don't know that there's actually five species of rhinos left. And three of those five are critically endangered," he said. (It is believed that there were once many rhino species, though the number is unknown.) For instance, there may be only 60 individual Javan rhino left in the wild as of 2015 estimates, according to the International Union for Conservation of Nature. In Asia, there are roughly 3,500 one-horned or Indian rhinos and fewer than 100 Sumatran rhinos, while about 26,000 white and black rhinos remain in Africa. 
+See the latest news and share your comments with CNN Health on Facebook and Twitter.
+As leftovers from an ancient past, rhinos are not only important for their own intrinsic value, they perform ecological functions in Africa and Asia and serve as a model for economic development (in the form of tourism) for the countries where they roam. 
+Conservationists working with governments in African and Asian countries are devising various plans to preserve these phenomenal beasts, Huijbregts said. "But we have to be very, very quick."

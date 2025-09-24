@@ -1,0 +1,24 @@
+A simple way to see why Trump’s climate order will struggle to bring back coal jobs
+A train loaded with coal in Williamson, West Virginia.
+
+One of the big justifications the Trump administration is using to dismantle US climate policies is that these moves would reverse the collapse of the coal industry and bring back coal jobs lost under President Obama.
+ "Basically, you know what this is?" Trump says to miners as he signs exec order. "You know what it says, right? You’re going back to work."
+— Juliet Eilperin (@eilperin) March 28, 2017 
+“Will it bring back coal jobs? I think absolutely it will,” EPA Administrator Scott Pruitt said on Sunday, of Trump’s new executive order.
+I’ve argued in the past that this is much harder than it sounds — coal mining employment is in decline for a wide variety of reasons: automation of mining; competition from cheap natural gas in the power sector; collapsing demand at steel mills in China. Environmental rules are only one part of the story, and, as many experts have pointed out, repealing those rules won’t bring back many lost jobs. At best, it would slow the industry’s sharp decline in the years ahead.
+And there’s a fairly simple way to see this.
+The biggest thing Trump’s new order would do to help the coal industry is try to repeal the Clean Power Plan, which forces emissions reductions in the electricity sector. As it happens, the US Energy Information Administration modeled the effects of CPP repeal earlier this year. The agency estimated that US coal consumption would rebound to roughly 2015 levels and then plateau:
+
+Energy Information Administration
+
+So let’s assume that happens. The problem is that in 2015, mining employment was still at near-historically low levels. There were only about 63,000 miners in America that year — somewhat higher than today’s levels of 50,000 — but still lower than at any point since the 1980s:
+
+( Federal Reserve Bank of St. Louis )
+
+And even that’s not the whole story. As various studies have found, coal mining is likely to become increasingly automated in the coming years, thanks to new technologies like automated drilling and tunnel-boring systems or semi-autonomous rock breakers. So 63,000 jobs is almost certainly overly optimistic. In all likelihood, there will be many fewer than that.
+There’s also reason to suspect the EIA might be too sanguine about future coal production. For one, the agency has long underrated wind and solar growth. Second, many states are mulling plans to close their coal plants and shift to cleaner sources even if the Clean Power Plan is killed — because they know that carbon cuts are inevitable. (See Emily Holden’s interview with utility regulators in Arkansas for a great example.)
+So unless Trump plans to ban fracking or automation, about the most coal miners can hope for is either a modest increase in employment or a slower decline than would’ve otherwise been the case.
+Now, to be fair, as the EIA chart shows, the mining industry clearly would be collapsing even faster if Obama’s policies had been kept in place or expanded. Trump’s order could well stave off that drastic scenario. But “slower decline” isn’t the sales pitch.
+Even some coal executives have been quietly admitting this all along: “I don't think it will be a thriving industry ever again," Murray Energy Corp. CEO Robert Murray told SNL reporter Taylor Kuykendall before the election. At best, "it will be an extremely competitive industry and it will be half size. … The coal mines cannot come back to where they were or anywhere near it."
+Whether that’s good enough for Trump’s supporters in coal country is something we’ll find out over the next few years. One possibility is that they’ll give him credit for helping the coal industry no matter what happens. After all, coal is still declining more slowly than it likely would've under Hillary Clinton. And there’s likely to be a modest bump in coal mining and hiring in 2017 after a historically awful year last year, which should make for good headlines.
+But another possibility is that these voters will feel angry and misled if jobs keep vanishing in the years ahead. Shortly after the election, NPR ran an interview with a miner in Wyoming who saw Trump as the industry’s last hope for reversing its long-term decline. “If he doesn't do what he says he's going to do,” the miner added, “you know, why are people going to vote for Republicans again?”

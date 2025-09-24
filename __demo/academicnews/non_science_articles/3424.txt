@@ -1,0 +1,646 @@
+Oakland Raiders Roster - NFL Football
+special-teams TEAM LEADERS
+KICKING
+G. Tavecchio
+76.19 FG%
+PUNTING
+M. King
+47.39 AVG YDS
+KICK RETURNING
+C. Patterson
+538 YDS
+View All Player Statistics
+OFFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 10 
+ Seth Roberts 
+ WR 
+ 27 
+ 74 
+ 195 
+ 1991-02-22 
+ West Alabama 
+ active 
+ 14 
+ Keon Hatcher 
+ WR 
+ 24 
+ 73 
+ 212 
+ 1994-09-11 
+ Arkansas 
+ active 
+ 15 
+ Michael Crabtree 
+ WR 
+ 31 
+ 73 
+ 214 
+ 1987-09-14 
+ Texas Tech 
+ active 
+ 16 
+ Johnny Holton 
+ WR 
+ 27 
+ 72 
+ 190 
+ 1991-08-22 
+ Cincinnati 
+ active 
+ 18 
+ Connor Cook 
+ QB 
+ 25 
+ 76 
+ 217 
+ 1993-01-29 
+ Michigan St. 
+ active 
+ 19 
+ Isaac Whitney 
+ WR 
+ 24 
+ 74 
+ 204 
+ 1994-06-22 
+ USC 
+ active 
+ 24 
+ Marshawn Lynch 
+ RB 
+ 32 
+ 71 
+ 215 
+ 1986-04-22 
+ California 
+ active 
+ 3 
+ EJ Manuel 
+ QB 
+ 28 
+ 76 
+ 237 
+ 1990-03-19 
+ Florida State 
+ active 
+ 30 
+ Jalen Richard 
+ RB 
+ 25 
+ 68 
+ 207 
+ 1993-10-15 
+ Southern Mississippi 
+ active 
+ 33 
+ DeAndre Washington 
+ RB 
+ 25 
+ 68 
+ 204 
+ 1993-02-22 
+ Texas Tech 
+ active 
+ 34 
+ Elijah Hood 
+ RB 
+ 22 
+ 72 
+ 220 
+ 1996-01-01 
+ North Carolina 
+ active 
+ 4 
+ Derek Carr 
+ QB 
+ 27 
+ 75 
+ 214 
+ 1991-03-28 
+ Fresno State 
+ active 
+ 49 
+ Jamize Olawale 
+ FB 
+ 29 
+ 73 
+ 240 
+ 1989-04-17 
+ North Texas 
+ active 
+ 61 
+ Rodney Hudson 
+ C 
+ 29 
+ 74 
+ 300 
+ 1989-07-12 
+ Florida State 
+ active 
+ 62 
+ James Stone 
+ C 
+ 26 
+ 75 
+ 291 
+ 1992-04-26 
+ Tennessee 
+ active 
+ 65 
+ Jordan Simmons 
+ G 
+ 24 
+ 75 
+ 339 
+ 1994-07-15 
+ USC 
+ active 
+ 66 
+ Gabe Jackson 
+ G 
+ 27 
+ 75 
+ 336 
+ 1991-07-12 
+ Mississippi State 
+ active 
+ 68 
+ Ian Silberman 
+ OL 
+ 26 
+ 77 
+ 306 
+ 1992-10-10 
+ Boston College 
+ active 
+ 70 
+ Kelechi Osemele 
+ OL 
+ 29 
+ 77 
+ 330 
+ 1989-06-24 
+ Iowa State 
+ active 
+ 73 
+ Marshall Newhouse 
+ OL 
+ 30 
+ 76 
+ 328 
+ 1988-09-29 
+ Texas Christian 
+ active 
+ 74 
+ Vadal Alexander 
+ G 
+ 24 
+ 77 
+ 326 
+ 1994-03-23 
+ LSU 
+ active 
+ 76 
+ Jon Feliciano 
+ OL 
+ 26 
+ 76 
+ 323 
+ 1992-02-10 
+ Miami (Fla.) 
+ active 
+ 79 
+ Denver Kirkland 
+ G 
+ 24 
+ 77 
+ 340 
+ 1994-03-06 
+ Arkansas 
+ active 
+ 81 
+ Pharaoh Brown 
+ TE 
+ 24 
+ 77 
+ 246 
+ 1994-05-04 
+ Oregon 
+ active 
+ 84 
+ Cordarrelle Patterson 
+ WR 
+ 27 
+ 74 
+ 220 
+ 1991-03-17 
+ Tennessee 
+ active 
+ 86 
+ Lee Smith 
+ TE 
+ 31 
+ 78 
+ 265 
+ 1987-11-21 
+ Marshall 
+ active 
+ 87 
+ Jared Cook 
+ TE 
+ 31 
+ 77 
+ 254 
+ 1987-04-07 
+ South Carolina 
+ active 
+ 88 
+ Clive Walford 
+ TE 
+ 27 
+ 76 
+ 258 
+ 1991-10-21 
+ Miami (Fla.) 
+ active 
+ 89 
+ Amari Cooper 
+ WR 
+ 24 
+ 73 
+ 211 
+ 1994-06-18 
+ Alabama 
+ active 
+DEFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Shaq Richardson 
+ DB 
+ 26 
+ 72 
+ 194 
+ 1992-03-21 
+ Arizona 
+ active 
+ 20 
+ Obi Melifonwu 
+ S 
+ 24 
+ 75 
+ 224 
+ 1994-04-05 
+ Connecticut 
+ active 
+ 21 
+ Sean Smith 
+ CB 
+ 31 
+ 75 
+ 218 
+ 1987-07-14 
+ Utah 
+ active 
+ 22 
+ Gareon Conley 
+ CB 
+ 23 
+ 72 
+ 195 
+ 1995-06-29 
+ Ohio State 
+ active 
+ 23 
+ Dexter McDonald 
+ CB 
+ 27 
+ 73 
+ 200 
+ 1991-11-30 
+ Kansas 
+ active 
+ 26 
+ Shalom Luani 
+ S 
+ 24 
+ 72 
+ 205 
+ 1994-08-05 
+ Washington State 
+ active 
+ 27 
+ Reggie Nelson 
+ S 
+ 35 
+ 71 
+ 210 
+ 1983-09-21 
+ Florida 
+ active 
+ 29 
+ David Amerson 
+ CB 
+ 27 
+ 73 
+ 205 
+ 1991-12-08 
+ North Carolina State 
+ active 
+ 31 
+ Darius Hillary 
+ DB 
+ 25 
+ 70 
+ 183 
+ 1993-04-05 
+ Wisconsin 
+ active 
+ 32 
+ Antonio Hamilton 
+ CB 
+ 25 
+ 72 
+ 185 
+ 1993-01-24 
+ South Carolina State 
+ active 
+ 37 
+ Tevin Mitchel 
+ DB 
+ 26 
+ 72 
+ 192 
+ 1992-08-03 
+ Arkansas 
+ active 
+ 38 
+ TJ Carrie 
+ CB 
+ 28 
+ 72 
+ 204 
+ 1990-07-28 
+ Ohio 
+ active 
+ 39 
+ Keith McGill II 
+ DB 
+ 29 
+ 75 
+ 211 
+ 1989-03-09 
+ Utah 
+ active 
+ 41 
+ Erik Harris 
+ S 
+ 28 
+ 75 
+ 225 
+ 1990-04-02 
+ California (PA) 
+ active 
+ 42 
+ Karl Joseph 
+ S 
+ 25 
+ 70 
+ 205 
+ 1993-09-08 
+ West Virginia 
+ active 
+ 43 
+ Brady Sheldon 
+ LB 
+ 25 
+ 77 
+ 230 
+ 1993-02-23 
+ Ferris State 
+ active 
+ 47 
+ James Cowser 
+ LB 
+ 28 
+ 75 
+ 244 
+ 1990-09-13 
+ Southern Utah 
+ active 
+ 50 
+ Nicholas Morrow 
+ LB 
+ 23 
+ 72 
+ 224 
+ 1995-07-10 
+ Greenville 
+ active 
+ 51 
+ Bruce Irvin 
+ LB 
+ 31 
+ 75 
+ 260 
+ 1987-11-01 
+ West Virginia 
+ active 
+ 52 
+ Khalil Mack 
+ DE 
+ 27 
+ 75 
+ 252 
+ 1991-02-22 
+ Buffalo 
+ active 
+ 53 
+ NaVorro Bowman 
+ LB 
+ 30 
+ 72 
+ 242 
+ 1988-05-28 
+ Penn State 
+ active 
+ 55 
+ Marquel Lee 
+ LB 
+ 23 
+ 75 
+ 240 
+ 1995-10-21 
+ Wake Forest 
+ active 
+ 57 
+ Cory James 
+ LB 
+ 25 
+ 72 
+ 235 
+ 1993-05-22 
+ Colorado St. 
+ active 
+ 75 
+ Darius Latham 
+ DT 
+ 24 
+ 77 
+ 305 
+ 1994-11-09 
+ Indiana 
+ active 
+ 78 
+ Justin Ellis 
+ DT 
+ 28 
+ 74 
+ 334 
+ 1990-12-27 
+ Louisiana Tech 
+ active 
+ 90 
+ Treyvon Hester 
+ DT 
+ 26 
+ 75 
+ 300 
+ 1992-09-21 
+ Toledo 
+ active 
+ 91 
+ Shilique Calhoun 
+ LB 
+ 26 
+ 76 
+ 251 
+ 1992-03-20 
+ Michigan State 
+ active 
+ 92 
+ Shakir Soto 
+ DL 
+ 24 
+ 75 
+ 290 
+ 1994-02-12 
+ Pittsburgh 
+ active 
+ 93 
+ Joby Saint Fleur 
+ DL 
+ 26 
+ 76 
+ 253 
+ 1992-11-22 
+ Northwestern Oklahoma State 
+ active 
+ 94 
+ Eddie Vanderdoes 
+ DT 
+ 24 
+ 76 
+ 305 
+ 1994-10-13 
+ UCLA 
+ active 
+ 95 
+ Jihad Ward 
+ DE 
+ 24 
+ 77 
+ 296 
+ 1994-03-11 
+ Illinois 
+ active 
+ 96 
+ Denico Autry 
+ DL 
+ 28 
+ 77 
+ 273 
+ 1990-07-15 
+ Mississippi State 
+ active 
+ 97 
+ Mario Jr. Edwards 
+ DE 
+ 24 
+ 75 
+ 280 
+ 1994-04-19 
+ Florida State 
+ active 
+ 99 
+ Fadol Brown 
+ DE 
+ 25 
+ 76 
+ 282 
+ 1993-04-15 
+ Mississippi 
+ active 
+ 99 
+ Aldon Smith 
+ LB 
+ 29 
+ 76 
+ 265 
+ 1989-09-25 
+ Missouri 
+ active 
+SPECIAL TEAMS
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Bradley Northnagel 
+ LS 
+ 24 
+ 75 
+ 250 
+ 1994-01-29 
+ California 
+ active 
+ 59 
+ Jon Condo 
+ LS 
+ 37 
+ 75 
+ 240 
+ 1981-08-26 
+ Maryland 
+ active 
+ 7 
+ Marquette King 
+ P 
+ 30 
+ 72 
+ 192 
+ 1988-10-26 
+ Fort Valley State 
+ active 
+^ Jump to top

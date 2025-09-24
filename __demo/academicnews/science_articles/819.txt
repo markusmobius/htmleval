@@ -1,0 +1,27 @@
+Bussed out: how America moves thousands of homeless people around the country
+Credits
+Guardian staff
+ Alastair Gee (homelessness editor), Julia Carrie Wong (reporter), Paul Lewis (editor), Adithya Sambamurthy (video editor), Charlotte Simmonds (copy editor)
+Data analysis and visualization
+ Nadieh Bremer
+Data visualization and web development
+ Shirley Wu
+Reporters
+ Carla Green, Erin McCormick, Winston Ross, Thacher Schmid, Luis Trelles, Amanda Waldroupe, Joanna Walters
+Videographers
+ Daniel Hollis, Sara Lafleur-Vetter, Michael Landsberg
+Photographer
+ Logan Newell
+Methodology
+Reporting on this project began in mid-2016. To determine which American cities have homeless bus programs, we contacted homelessness, housing or police departments in the 25 largest cities in the country. We also searched for references to bus programs in news archives from the early 1980s onwards. After producing a shortlist, we submitted several dozen public records requests to cities in order to obtain their data. Most of the cities supplied spreadsheets documenting the destinations and dates for individual journeys, some provided the names of travelers and three gave their phone numbers.
+To interview people who had taken bus tickets, we called the hundreds of numbers we received, and for the 700 names for which we did not have numbers, we searched for contact details on the Nexis database and sent messages on social media. In addition, reporters in New York, Los Angeles, Portland, Key West and San Juan spent several days visiting shelters and homeless encampments.
+In order to accompany a homeless person embarking on a bus journey, we requested introductions from city programs. Owing to reticence from officials, however, two San Francisco-based reporters stationed themselves outside the city’s Homeward Bound office several days a week over a period of a month in order to meet and chat with ticket applicants. Two reporters also rode along with the Reno police department to meet travelers.
+In total these efforts yielded more than 35 narrative accounts of journeys, and we were also able to travel with two homeless people on buses. Complementing these were numerous interviews with program managers and homelessness experts across the US.
+Data preparation and analysis
+The spreadsheets received from the 16 cities and counties required extensive cleaning and categorizing, and the US Cities Database was used to map each bus ticket to a destination based on census data. Although the vast majority of data points had an exact match, when no match was found an algorithm was applied to weed out typing errors. We confirmed each of these suggestions manually. If the destination name was still unclear and an internet search did not produce results, we deleted the row from the dataset.
+Altogether we collated information on 34,000 individuals taking journeys. These were further analyzed to understand trends in age, gender, race, and destinations, as well as changes over time, depending on which variables were available. A large portion of the data comes from either New York or San Francisco, and we bore this in mind when deriving insights from the set. We also noted idiosyncrasies in some programs, for instance in the small scheme in Humboldt County, California, where staff said tickets are in the main given to homeless people but others in need also receive them.
+Data visualizations
+US map We analyzed 21,000 journeys taken on the US mainland in 2011-16. To produce per-capita homelessness rates, we used 2016 state homeless population estimates released by the Department of Housing and Urban Development and 2016 state population data from the US Census Bureau.
+Flights from New York Using Google Maps APIs (through the ggmap package in R) we attached a geolocation to all of the non-US trips from the New York dataset. We grouped travelers by country and, using the average geolocation of destinations within each country, we calculated the distances from New York.
+Difference in mean income of origin and destination cities For the mean incomes in the US cities in our dataset, we scraped the US Census Factfinder, cross-referencing with the US Cities Database to ensure the income data was matched to the correct city.
+San Francisco’s bus program Data from our set was correlated with homeless-count numbers reported to the Department of Housing and Urban Development. This is intended to give a sense of the bus program’s impact but is only a partial picture, because we do not possess data from every US bus program and many homeless San Franciscans did not arrive by bus: they were originally housed there or came by different means.

@@ -1,0 +1,63 @@
+Should you take statins? Guidelines differ
+Story highlights
+Leading authorities have different guidelines on using statins to prevent a first heart attack or stroke
+Research behind preventive use of cholesterol-lowering medication is widely industry-funded
+ (CNN)
+When it comes to using statins to prevent a first heart attack or stroke, one leading US guideline recommends the drugs to 9 million more people than the other, according to a study published in the Journal of the American Medical Association.
+This leaves experts debating over who should get these cholesterol-lowering drugs when it comes to 40- to 75-year-olds with no history of cardiovascular problems.
+"There's generally confusion on who should be getting statins," said Michael Pencina, one of the study's authors and a professor of biostatistics and bioinformatics at the Duke Clinical Research Institute. "I don't think we have the perfect guideline yet."
+The first recommendation -- put out in 2013 by the American College of Cardiology and the American Heart Association -- covers 26.4 million Americans, the study estimated. This recommendation is based partly on a 10-year risk of stroke or heart disease, which can be plugged into a risk calculator. People over 40 with at least a 7.5% risk of these conditions are included in the guidelines.
+The US Preventive Services Task Force (USPSTF), however, released its own recommendation last year. Those who stand to benefit most from preventive statins, they said, have at least one other risk factor -- such as hypertension, diabetes or smoking -- in addition to a 10% risk on the same calculator. These guidelines cover a more conservative 17.1 million Americans.
+Read More
+"That's a major change," said Pencina.
+
+Researchers in Demark compared these guidelines to international ones, which can vary even more dramatically.
+In a study released Monday in Annals of Internal Medicine, researchers found that the Canadian Cardiovascular Society's guidelines would recommend statins to the greatest number of Danes: about 44% of those between 40 and 75 with no history of cardiovascular problems. The most conservative number came from the European Society of Cardiology and the European Atherosclerosis Society, which jointly covered about 15% of the same population sample. 
+For the American groups, the ACC/AHA and USPSTF, those numbers came to 42% and 31%, respectively. 
+The researchers predicted that, if doctors were to prescribe "high-intensity" statins to the population covered by the ACC/AHA or the Canadian group, that could cut cardiovascular events "by roughly a third during a 10-year period," they said in the study.
+Over one in five Americans between the ages of 40 and 75 already take a statin to prevent an initial heart attack or stroke, the American study from 2017 estimated. Following either of the guidelines consistently would add millions to that list, and the ACC/AHA recommendation in particular would more than double it.
+Pencina said that much of the difference -- 9.3 million people -- includes those under 60 and those with diabetes. Some of these people may have a low 10-year risk, he said, but a relatively high 30-year risk.
+The guidelines "highlight many, many important similarities much more than it highlights some small differences," said Dr. Don Lloyd-Jones, a spokesperson for the AHA and a professor of preventive medicine at Northwestern University Feinberg School of Medicine.
+"Both guidelines start with the same concepts," he said. "The difference is how they look at the evidence."
+USPSTF Chair Dr. Kirsten Bibbins-Domingo agrees.
+"While there are some variations among the major guidelines on when to use statins, all of the guidelines recognize the important role that these medications can play in preventing heart attacks and strokes," she said.
+
+Pencina's study was funded by the Duke Clinical Research Institute. However, several of the study's authors reported receiving separate grants and fees from the ACC, the AHA and various pharmaceutical companies. A number of these companies manufacture statins and other lipid-lowering drugs. 
+The study does not estimate what the effects of either recommendation would be, such as how many heart attacks or strokes would be prevented, or what the harms and costs would be. 
+But some health experts have criticized both recommendations for inflating the benefits, which they say could push doctors to over-prescribe the drugs, leading to minimal rewards, a hefty price tag and potential side effects.
+"People have a very exaggerated idea of the benefits," said Dr. Rita Redberg, a professor of medicine at University of California, San Francisco and the editor-in-chief of the journal JAMA Internal Medicine.
+Numbers game
+Critics of the guidelines say that most people who take statins for primary prevention -- meaning, to prevent a first stroke or heart attack -- don't actually benefit from it, but they could be exposed to side effects such as an increased risk of diabetes, muscle pain, cognitive problems and fatigue.
+This is different from secondary prevention: the use of statins to prevent heart attacks and strokes in people who have already had one. Redberg said the evidence for this is much stronger.
+
+Out of 100 people taking primary preventive statins for five years, "the best estimates are that one or two people will avoid a heart attack, and none will live longer, by taking statins," Redberg said.
+To prevent just one death from any cause, 250 people would need to take statins for one to six years, according to the USPSTF's analysis.
+Some studies have found no overall mortality benefit for using statins preventatively in at-risk groups. Other research has taken aim at the risk calculator itself, saying that it overestimates the likelihood of heart disease in real life.
+"We've seen a number of groups in which (the risk calculator) performs extremely well," said the Heart Association's Lloyd-Jones.
+Lloyd-Jones said that the current risk estimator was "a huge step forward" in that it accounts for women and African-Americans, who have often been overlooked in large-scale health surveys. The 7.5% threshold used by the AHA is based heavily on clinical trial data, he said.
+"These risk scores were never intended to be perfect," Lloyd-Jones said. "They're there to start a conversation, not to write a prescription."
+Company ties
+Beyond the data, some health experts have questioned the industry forces behind these studies.
+A number of experts who worked on the ACC/AHA guidelines had financial links to drug companies, which they disclosed publicly. No conflicts of interests were reported by the authors of the USPSTF guidelines, but nearly all of the trials they included in their analysis were sponsored by industry, according to Redberg, who stressed this point in a January 2017 editorial in the journal she oversees.
+"The ACC did not follow its own conflict of interest guidelines," she said.
+
+Studies funded by the pharmaceutical industry tend to find drugs to be more effective than independently funded studies, according to a Cochrane review published in February. Redberg also said that some raw data on statins have not been publicly released, and the data on side effects can be scattered and inconsistent.
+"If you don't ask about muscle weakness in a study, you're not going to report it," she said.
+Pencina said that if all experts with industry ties were ruled out, guideline committees might have a hard time finding the most qualified minds. He added that many studies would be difficult to fund without money from pharmaceutical companies.
+"We have the scientific freedom to do whatever we think is necessary," he said. "I don't have reasons to doubt the quality of the data that these studies are providing." 
+But Redberg said that there are plenty of experts without conflicts of interest, which is important to keep in mind when considering top-selling drugs like statins.
+"It's billions of dollars here," she said. "You can't ignore that."
+The market for statins extends far beyond just the United States, experts say, and some countries have their own guidelines, as well.
+For example, a leading UK organization, the National Institute for Health and Care Excellence, lowered its 10-year risk threshold from 20% to 10% in 2014, making statins more widely available in an effort to combat heart disease.
+
+The AHA's Lloyd-Jones agreed that knowing where research and guidelines come from is important. He said that panels like ACC/AHA rigorously vet anyone who serves on the panel.
+"The purpose of the ACC/AHA, the purpose of USPSTF is not to create a healthy pharmaceutical industry. It's to create better care for our patients," Lloyd-Jones said.
+Lloyd-Jones said that for the upcoming 2018 ACC/AHA panel, there would be "no conflicts allowed, period."
+He added, "Having been a member of the guidelines panel in 2013 ... the data are so overwhelming that it would've been hard for us to come to any other conclusion."
+Starting a conversation
+Because Redberg has been outspoken against the wide use of statins for primary prevention, she said she regularly receives emails from people who are "miserable" taking statins. She also recalled a fellow physician who forgot to take his pills on a business trip. The doctor realized he had been developing memory issues, she said, "and suddenly, everything was clear."
+See the latest news and share your comments with CNN Health on Facebook and Twitter.
+But Redberg, Lloyd-Jones and other health experts do agree on one thing: No pill should replace a healthy diet, exercise and avoiding smoking.
+"The sooner you start to try to prevent (heart disease) ... the more effective you'll be at reducing that risk," Lloyd-Jones said, adding that for some people, safe and effective medications could be part of that plan.
+Still, these guidelines are not sweeping rules that patients must follow, he said; they are a way for people to start a conversation with their doctors.
+"Since heart attacks and strokes are by far our leading cause of death and disability, I'm not sure there are much more important things you'd want to talk to your primary care doctor about," Lloyd-Jones said.

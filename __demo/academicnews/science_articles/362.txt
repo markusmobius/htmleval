@@ -1,0 +1,40 @@
+As California Awaits The 'Big One,' Anxieties Loom Over Funding The Earthquake Warning System
+SAN FRANCISCO - Last week, millions of San Francisco Bay Area residents were startled awake around 2:30 in the morning by a powerful shaking that lasted several seconds. A mere eight miles beneath them, the dreaded Hayward Fault was rupturing.
+Despite the significant trembles brought forth by rupture’s shallow depth, the earthquake was a mere 4.4 magnitude and didn’t cause any serious damage or injuries. But it was a small glimpse at what an eventual wholesale disaster might look like ― and a grim reminder that unlike residents in some other earthquake-prone parts of the world, West Coast residents may not know when it’s coming. 
+The Hayward Fault is a “tectonic time bomb” due for a much bigger earthquake at any moment, according to the U.S. Geological Survey. Excavations from the USGS show that strong quakes ― defined as 6.0 or greater ― occur on it about every 150 years. The last time one hit? A 6.8 magnitude in 1868 ― 150 years ago as of 2018. 
+But the Hayward Fault is hardly the only earthquake risk in the country. There are six other major fault zones in the Bay Area alone, more than a dozen in California, and several others spread across the United States. 
+
+Buckled asphalt in Napa, California, after a 6.0 earthquake struck the region in 2014.
+
+For more than a decade, researchers at universities along the earthquake-prone West Coast have been working on developing an earthquake early warning system in which seismic sensors along the coast send out alerts to everyone in the affected area. Those warnings, which may go out anywhere from seconds to minutes before shaking starts, can provide time for trains and cars to slow down, people to get away from bridges or unstable buildings, and doctors to stabilize patients, among countless other potential lifesaving actions. 
+Warning systems have been used in other earthquake-prone countries for years, including parts of Japan, Mexico, Turkey, Romania, China and Italy. The most sophisticated version is in Japan, where a decade-old system sends out warnings over television and radio broadcasts, cell phones and the internet. 
+“We’re more than 10 years behind [Japan],” said John Vidale, director of the Southern California Earthquake Center headquartered at the University of Southern California, and a member of the advisory committee for the effort to develop an early earning system for the West Coast.
+Vidale and others leading that project, which began receiving funding through the USGS in 2014 as ShakeAlert, hope to release some public version of the warning system by the end of 2018.
+But as their deadline looms, the project’s insufficient and insecure funding hangs heavy on the project’s leaders. 
+Funding for the seismic networks in the United States has been meager and in steady decline for years. Tom Heaton, professor of engineering seismology at the California Institute of Technology
+“In general, earthquake funding in the United States has been pretty much like the earthquake activity; we’re in a pretty profound drought,” said Tom Heaton, a professor of engineering seismology at the California Institute of Technology who works on ShakeAlert, noting the anticipation for “the big one” after years of relatively quiet seismic activity in the U.S. 
+Current overall federal spending on earthquake research is around $60 million, Heaton said, a negligible change from the $37 million spent when he worked for the USGS in 1979.
+“Funding for the seismic networks in the United States has been meager and in steady decline for years” with inflation taken into account, he lamented.
+Annual federal spending on ShakeAlert specifically is $8.2 million, just over half the $16 million per year in federal funds needed to sustain the system, Heaton said. In November, some California lawmakers urged the White House to fulfill those funding needs in the 2019 budget.
+“This request echoes what we have been working toward for many years now,” Doug Toomey, a University of Oregon seismology professor working on the project, said of the lawmakers’ efforts. 
+“We’ve made good progress but there is a lot of tension in the project at the moment with having to deliver without having the resources to do what we really want,” Heaton said. 
+
+The remains of the Cypress Freeway in Oakland, California, after the Bay Area's 1989 earthquake.
+
+But they’re not holding their breath. President Donald Trump’s Interior Department in its initial budget blueprint last year has already threatened to completely deplete ShakeAlert’s funding.
+While Congress reinstated that funding in the latest version of the spending bill it hopes to pass this month, the possibility of losing it has rattled the project leads. 
+“If they actually followed through on it [eliminating funding], it would have been a complete stop” and the software engineers working to develop the warning system would have been laid off, Heaton said.
+“You really need people who understand the software and how to develop it,” he continued. “If we’d laid off the team we have, it would have taken us years to put it back together again.”
+Any indication that the federal government isn’t committed to ShakeAlert, Toomey noted, could hamper the project.
+“If the funding is not secure, we cannot hire the best people to develop and maintain the system,” he said. 
+Vidale is “cautiously optimistic” the project will stay on its path.
+“Things seem to be on track, but it wouldn’t be hard to go off track if budget negotiations go the wrong way,” he said. 
+
+University of Southern California cinema students participate in a 2015 earthquake drill.
+
+The scientists working on ShakeAlert say much of their focus in 2018 will be on getting ShakeAlert warnings into the majority of classrooms before a full public version is released. But to do that, more software engineering is needed to automate how the seismic sensors analyze earthquake signals and instantly turn those signals into public alerts. 
+Public transportation networks like Bay Area Rapid Transit (BART) are also a high priority, they said. 
+Ultimately, ShakeAlert members aim to have automated text message alerts sent like those distributed in Japan. But cell phone service providers have told the ShakeAlert team that that technology on U.S. phones is probably years away.
+“There’s just not any way to send a signal to cell phones within a second or two, which is what we’d like,” Vidale said.
+In the next few months, Heaton said, they plan to release a more detailed budget request outlining the costs of each need. He’s also hoping more private partners may be willing to help bring the system to the public. 
+“But I doubt they’ll do anything until they feel an important earthquake,” he said. “Earthquakes just don’t happen all that often, but after the earthquake people are completely freaked out and want to do something.”

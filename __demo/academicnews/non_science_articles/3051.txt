@@ -1,0 +1,533 @@
+GOLF Schedule - GOLF
+Sports
+NFL 
+MLB 
+NBA 
+NHL 
+NCAAF 
+Olympics 
+NCAAB 
+Golf 
+NASCAR 
+UFC 
+Fantasy 
+MoreIndycar 
+Golfweek 
+Boxing 
+Tennis 
+High School 
+Soccer 
+MMA 
+Motor Sports 
+WNBA 
+Horse Racing 
+Cycling 
+College 
+NCAAW 
+Video 
+For The Win 
+Golf
+Main
+Leaderboard
+Schedule
+Stats
+Standings
+PGA Tour
+LPGA
+More
+Mlb
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Salaries
+Teams
+MoreRankings
+Injuries
+Transactions
+Fantasy Baseball
+Sagarin Ratings
+BaseballHQ.com
+TheBigLead.com
+Nascar
+Main
+Results
+Schedule
+Standings
+IndyCar
+MoreSagarin Ratings
+TheBigLead.com
+Nba
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreRankings
+Injuries
+Transactions
+Sagarin Ratings
+NBA Packages
+HoopsHype
+TheBigLead.com
+Ncaab
+Main
+Bracket Challenge
+Scores
+Schedule
+Polls
+MoreStandings
+Odds
+Teams
+Injuries
+Coaches Salaries
+Sagarin Ratings
+HoopsHype
+TheBigLead.com
+Ncaaf
+Main
+Fan Index
+Scores
+Polls
+MoreOdds
+Teams
+Schedule
+Standings
+Statistics
+Injuries
+Transactions
+Coaches Salaries
+Sagarin Ratings
+TheBigLead.com
+Nfl
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreRankings
+NFL Arrests
+Injuries
+Transactions
+Fantasy Football
+Sagarin Ratings
+NFL Packages
+TheHuddle.com
+TheBigLead.com
+Nhl
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreOdds
+Rankings
+Injuries
+Transactions
+Salaries
+Sagarin Ratings
+TheBigLead.com
+Soccer
+Main
+ScoresMLS
+ScheduleMLS
+StandingsMLS
+TeamsMLS
+MLS Photo Store
+MoreMLS Photo Store
+Sagarin MLS Ratings
+Wnba
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreOdds
+Injuries
+DATE
+TOURNAMENT
+CITY/SITE
+STATE/COUNTRY
+PAR
+YARDS
+TOTAL PURSE
+WINNER
+ Oct 10 - Oct 13 
+ Frys.com Open 
+ San Martin 
+ California 
+ 71 
+ 7368 
+ $ 5,000,000 
+ Jimmy Walker 
+ Oct 17 - Oct 20 
+ Shriners Hospitals for Children Open 
+ Las Vegas 
+ Nevada 
+ 71 
+ 7223 
+ $ 6,000,000 
+ Webb Simpson 
+ Oct 24 - Oct 27 
+ CIMB Classic 
+ Kuala Lumpur 
+ MYS 
+ 72 
+ 6951 
+ $ 7,000,000 
+ Ryan Moore 
+ Oct 31 - Nov 3 
+ WGC - HSBC Champions 
+ Shanghai 
+ CHN 
+ 72 
+ 7266 
+ $ 8,500,000 
+ Dustin Johnson 
+ Nov 7 - Nov 10 
+ The McGladrey Classic 
+ Sea Island 
+ Georgia 
+ 70 
+ 7055 
+ $ 5,500,000 
+ Chris Kirk 
+ Nov 14 - Nov 17 
+ OHL Classic at Mayakoba 
+ Playa del Carmen 
+ MEX 
+ 71 
+ 6987 
+ $ 6,000,000 
+ Harris English 
+ Jan 3 - Jan 6 
+ Hyundai Tournament of Champions 
+ Maui 
+ Hawaii 
+ 73 
+ 7411 
+ $ 5,700,000 
+ Zach Johnson 
+ Jan 9 - Jan 12 
+ Sony Open in Hawaii 
+ Honolulu 
+ Hawaii 
+ 70 
+ 7068 
+ $ 5,600,000 
+ Jimmy Walker 
+ Jan 16 - Jan 19 
+ Humana Challenge 
+ La Quinta 
+ California 
+ 72 
+ 6950 
+ $ 5,700,000 
+ Patrick Reed 
+ Jan 23 - Jan 26 
+ Farmers Insurance Open 
+ La Jolla 
+ California 
+ 72 
+ 7569 
+ $ 6,100,000 
+ Scott Stallings 
+ Jan 30 - Feb 2 
+ Waste Management Phoenix Open 
+ Scottsdale 
+ Arizona 
+ 71 
+ 7216 
+ $ 6,200,000 
+ Kevin Stadler 
+ Feb 6 - Feb 9 
+ AT&T Pebble Beach National Pro-Am 
+ Pebble Beach 
+ California 
+ 71 
+ 6838 
+ $ 6,600,000 
+ Jimmy Walker 
+ Feb 13 - Feb 16 
+ Northern Trust Open 
+ Pacific Palisades 
+ California 
+ 71 
+ 7298 
+ $ 6,700,000 
+ Bubba Watson 
+ Feb 19 - Feb 23 
+ WGC - Accenture Match Play Championship 
+ Marana 
+ Arizona 
+ 72 
+ 7791 
+ $ 9,000,000 
+ Jason Day 
+ Feb 27 - Mar 2 
+ The Honda Classic 
+ Palm Beach Gardens 
+ Florida 
+ 70 
+ 7140 
+ $ 6,000,000 
+ Russell Henley 
+ Mar 6 - Mar 9 
+ WGC - Cadillac Championship 
+ Miami 
+ Florida 
+ 72 
+ 7481 
+ $ 9,000,000 
+ Patrick Reed 
+ Mar 6 - Mar 9 
+ Puerto Rico Open presented by seepuertorico.com 
+ Rio Grande 
+ PRI 
+ 72 
+ 7506 
+ $ 3,500,000 
+ Chesson Hadley 
+ Mar 13 - Mar 16 
+ Valspar Championship 
+ Palm Harbor 
+ Florida 
+ 71 
+ 7340 
+ $ 5,700,000 
+ John Senden 
+ Mar 20 - Mar 23 
+ Arnold Palmer Invitational presented by MasterCard 
+ Orlando 
+ Florida 
+ 72 
+ 7419 
+ $ 6,200,000 
+ Matt Every 
+ Mar 27 - Mar 30 
+ Valero Texas Open 
+ San Antonio 
+ Texas 
+ 72 
+ 7435 
+ $ 6,200,000 
+ Steven Bowditch 
+ Apr 3 - Apr 6 
+ Shell Houston Open 
+ Humble 
+ Texas 
+ 72 
+ 7441 
+ $ 6,400,000 
+ Matt Jones 
+ Apr 10 - Apr 13 
+ The Masters 
+ Augusta 
+ Georgia 
+ 72 
+ 7435 
+ $ 8,000,000 
+ Bubba Watson 
+ Apr 17 - Apr 20 
+ RBC Heritage 
+ Hilton Head 
+ South Carolina 
+ 71 
+ 7101 
+ $ 5,800,000 
+ Matt Kuchar 
+ Apr 24 - Apr 27 
+ Zurich Classic of New Orleans 
+ Avondale 
+ Louisiana 
+ 72 
+ 7399 
+ $ 6,800,000 
+ Seung-Yul Noh 
+ May 1 - May 4 
+ Wells Fargo Championship 
+ Charlotte 
+ North Carolina 
+ 72 
+ 7442 
+ $ 6,900,000 
+ J.B. Holmes 
+ May 8 - May 11 
+ The Players Championship 
+ Ponte Vedra Beach 
+ Florida 
+ 72 
+ 7215 
+ $ 10,000,000 
+ Martin Kaymer 
+ May 15 - May 18 
+ HP Byron Nelson Championship 
+ Irving 
+ Texas 
+ 70 
+ 7166 
+ $ 6,900,000 
+ Brendon Todd 
+ May 22 - May 25 
+ Crowne Plaza Invitational at Colonial 
+ Fort Worth 
+ Texas 
+ 70 
+ 7204 
+ $ 6,400,000 
+ Adam Scott 
+ May 29 - Jun 1 
+ The Memorial Tournament 
+ Dublin 
+ Ohio 
+ 72 
+ 7392 
+ $ 6,200,000 
+ Hideki Matsuyama 
+ Jun 5 - Jun 8 
+ FedEx St. Jude Classic 
+ Memphis 
+ Tennessee 
+ 70 
+ 7239 
+ $ 5,800,000 
+ Ben Crane 
+ Jun 12 - Jun 15 
+ U.S. Open 
+ Pinehurst 
+ North Carolina 
+ 70 
+ 7360 
+ $ 8,000,000 
+ Martin Kaymer 
+ Jun 19 - Jun 22 
+ Travelers Championship 
+ Cromwell 
+ Connecticut 
+ 70 
+ 6841 
+ $ 6,200,000 
+ Kevin Streelman 
+ Jun 26 - Jun 29 
+ Quicken Loans National 
+ Bethesda 
+ Maryland 
+ 71 
+ 7569 
+ $ 6,500,000 
+ Justin Rose 
+ Jul 3 - Jul 6 
+ The Greenbrier Classic 
+ White Sulphur Springs 
+ West Virginia 
+ 70 
+ 7287 
+ $ 6,500,000 
+ Angel Cabrera 
+ Jul 10 - Jul 13 
+ John Deere Classic 
+ Silvis 
+ Illinois 
+ 71 
+ 7268 
+ $ 4,700,000 
+ Brian Harman 
+ Jul 17 - Jul 20 
+ The 143rd Open Championship 
+ Hoylake 
+ GBR 
+ 72 
+ 7312 
+ $ 8,000,000 
+ Rory McIlroy 
+ Jul 24 - Jul 27 
+ RBC Canadian Open 
+ Ile Bizard 
+ Quebec 
+ 70 
+ 7153 
+ $ 5,700,000 
+ Tim Clark 
+ Jul 31 - Aug 3 
+ WGC - Bridgestone Invitational 
+ Akron 
+ Ohio 
+ 70 
+ 7400 
+ $ 9,000,000 
+ Rory McIlroy 
+ Jul 31 - Aug 3 
+ Barracuda Championship 
+ Reno 
+ Nevada 
+ 72 
+ 7472 
+ $ 3,000,000 
+ Geoff Ogilvy 
+ Aug 7 - Aug 10 
+ US PGA Championship 
+ Louisville 
+ Kentucky 
+ 71 
+ 7458 
+ $ 10,000,000 
+ Rory McIlroy 
+ Aug 14 - Aug 17 
+ Wyndham Championship 
+ Greensboro 
+ North Carolina 
+ 70 
+ 7127 
+ $ 5,300,000 
+ Camilo Villegas 
+ Aug 21 - Aug 24 
+ The Barclays 
+ Paramus 
+ New Jersey 
+ 71 
+ 7319 
+ $ 8,000,000 
+ Hunter Mahan 
+ Aug 29 - Sep 1 
+ Deutsche Bank Championship 
+ Norton 
+ Massachusetts 
+ 71 
+ 7216 
+ $ 8,000,000 
+ Chris Kirk 
+ Sep 4 - Sep 7 
+ BMW Championship 
+ Cherry Hills Village 
+ Colorado 
+ 70 
+ 7352 
+ $ 8,000,000 
+ Billy Horschel 
+ Sep 11 - Sep 14 
+ The Tour Championship by Coca-Cola 
+ Atlanta 
+ Georgia 
+ 70 
+ 7307 
+ $ 8,000,000 
+ Billy Horschel 
+ Sep 26 - Sep 28 
+ Ryder Cup 
+ Perthshire 
+ SCT 
+ 72 
+ 7243 
+ -- 
+ -- 
+^ Jump to top

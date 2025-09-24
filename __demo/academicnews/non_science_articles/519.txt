@@ -1,0 +1,14 @@
+Tinder flaw could expose your swipes to snoops
+How to protect yourself from hackers
+There's a basic security measure missing from Tinder's mobile dating app.
+ And it could let prying eyes see your potential matches, along with whether you swiped left or right, a security firm has found. 
+ The issue was discovered by researchers at the security firm Checkmarx. The company says it stems from Tinder's decision to not use HTTPS, a security protocol, to encrypt photos on its iOS and Android apps. 
+ Sites that use HTTPS, compared to HTTP, encrypt communications between the user's browser or app and web server, so information is protected against hackers or eavesdroppers. 
+ Because photos are not encrypted, it's possible for eavesdroppers on the same Wi-Fi network to monitor a user's behavior on the dating app and see photos of a user and potential matches. It also allows someone to inject images or malicious content into the app feed. 
+ The lack of encryption could let a snoop spy on your Tinder activity in places like coffee shops or at work. Though no passwords or other sensitive data is leaking, researchers said this tactic could potentially be used to blackmail someone. 
+ Tinder says it knows about the missing encryption. A Tinder spokesperson told CNNTech in an email Tuesday that photos on the Tinder app are publicly available to anyone using Tinder. The company said its desktop and mobile web platforms already encrypt images, and it is working toward encrypting them in the app. 
+ Erez Yalon, manager of application security research at Checkmarx, said the application should be fixed to prevent potential spying. He added that he reported the issue to Tinder in mid-November. 
+ "There's absolutely no reason not to use HTTPS for everything," Yalon told CNNTech. "Letting sensitive data be transferred unencrypted is wrong." 
+ Tinder encrypts other information within the app, but it was possible for researchers to figure out patterns that correlate to swiping left, right, and matching with someone. For example, swiping left is represented by 278 bytes each time. 
+ By pairing swiping data with visible images, researchers showed it's possible for a hacker to see on whom someone swiped left or right. The firm created an app called Tinder Drift to demonstrate a potential spying scenario. 
+ CNNMoney (San Francisco) First published January 23, 2018: 4:48 PM ET

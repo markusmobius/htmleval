@@ -1,0 +1,30 @@
+Five factors that could ground the drone economy
+CLOSE
+
+ Pilots are reporting a dramatic increase in drone sightings to the FAA, increasing concerns of a potentially dangerous collision. Aircraft pilots reported 650 drone sightings in 2015 through Aug. 9, compared with 238 sightings in all of 2014. VPC
+
+Corrections & Clarifications:The FAA rules mentioned in this story are proposed and still awaiting adoption.
+SAN FRANCISCO – The drone economy could be grounded if operators and regulators alike don't address pressing concerns over cyber attacks, privacy breaches and reckless pilots, according to a new report by insurers Lloyd's of London.
+The British insurance giant's risk report series survey, "Drones Take Flight," out Thursday, highlights five issues that could hamper the growth of businesses using unmanned aerial robots for jobs ranging from crop monitoring to parcel deliveries.
+Those factors, all which are critical to those insuring players in the drone economy, are crashes caused by poorly trained operators, drone hackers redirecting flights, a lack of an internationally agreed upon set of regulations, lax enforcement of said regulations, and privacy infringement.
+Put simply: drones sound like fun gizmos, until they're falling on our heads or spying on us.
+"This technology has immense power, but it has developed faster than regulations," says Nick Beecroft, Lloyd's of London's manager of emerging risk and research. "Regulators and insurers don't yet have comfort and clarity here. And no one wants a free-for-all."
+Beecroft says the explosion in drone is largely the result of huge drops in the cost of such tech. An app-controlled quad-copter capable of shooting 1080p video is $1,000, a fraction of what such machines cost even five years ago.
+"The growth in maturity and affordability is incredible," says Beecroft. "What's needed is a sensible debate on the risk management of drones."
+Drones have quickly mushroomed from backyard hobbyist toys to powerful commercial tools. Unmanned aerial vehicle (UAV) expenditures over the next 10 years are expected to total $91 billion, according to the Teal Group. But the sector remains largely unregulated and potentially dangerous.
+The Federal Aviation Administration reports a quadrupling of the number of pilot-reported close calls with drones over 2014. It cautions drone operators that flying around planes is illegal and can be punishable with fines and jail.
+Proposed FAA drone regulations allow drones weighing up to 55 pounds to fly within sight of their remote pilots during the day. The aircraft must stay below 500 feet and fly less than 100 mph. Drone operators have to be at least 17 years old, pass an aeronautics test and be vetted by the Transportation Security Administration, according to the regulations, which have yet to be adopted.
+In March, the FAA granted Amazon permission to conduct research and development and crew training for its planned delivery service, called Amazon Prime Air. In April, British authorities gave the green light to drone delivery service Bizzby, which operates in specific sectors of the British capital.
+For Keith Kaplan, CEO of commercial drone user association UAVSA (Unmanned Aerial Vehicle Safety Association), the solution to these drone questions is simple.
+
+"Drones are aircraft," says Kaplan. "We don't need to change the laws. We need to modify and integrate this new form of aircraft into the existing system. The simple truth is, if you buy a drone, you're a pilot. Just because there's no one in the aircraft doesn't make it a flying video game."
+Kaplan's Los Angeles-based association is eager to promote the merits of drone-based businesses. It expects nearly 10,000 drone operators to converge daily on its second annual expo in L.A. on Dec. 11. He's keen for commercial companies and pro-sumers alike to approach drone ownership in the same light as plane ownership.
+"Our sense is that the vast majority of hobbyists and commercial drone owners are interested in learning proper drone skills," he says. "They want to be compliant."
+The Lloyd's report notes that drone use is booming in both developed and emerging economies.
+In England, the BBC uses drones to film news report. In Kenya, game officials monitor poaching through unmanned craft. And in Japan, a growing number of rice paddies are sprayed using drones.
+The report also highlights several instances in 2014 in which drones injured bystanders, such as a patron of a New York restaurant who was hit by a drone taking aerial shots of the eatery and an Australian triathlete who was hit in the head after a drone-using videographer was allegedly attacked and lost control of the aircraft.
+Beecroft says solutions to the current state of drone anarchy include mandatory training for UAV operators and improved high-tech safety systems that include geo-fencing and drone-collision avoidance sensors.
+"The fantastic thing about drones is they're available to just about everyone," he says. "But that immediately makes you ask just how responsible and capable is the person operating that drone?"
+Follow USA TODAY tech reporter Marco della Cava on Twitter: @marcodellacava
+CONNECTTWEET 37 LINKEDINEMAILMORE
+Read or Share this story: http://usat.ly/1LnBqCX

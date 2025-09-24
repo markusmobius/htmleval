@@ -1,0 +1,60 @@
+Are We Ready For A Nuclear Attack From North Korea?
+After successfully testing two intercontinental ballistic missiles in a matter of weeks, North Korean leader Kim Jong Un declared late last month that Pyongyang is now capable of striking the United States mainland.
+A number of U.S.-based analysts have backed Kim’s alarming claim, saying North Korea’s ICBM launch on July 28 demonstrated that several major American cities are indeed within missile range. Many experts have expressed their concern at how rapidly the regime’s internationally sanctioned ― and perhaps underestimated ― nuclear weapons program is advancing. 
+Can North Korea really attack the U.S. with a nuke?
+General Lori Robinson, commander of the North American Aerospace Defense Command and U.S. Northern Command, assured the public after the latest launch that her agency “remains unwavering in our confidence that we can fully defend the United States against this ballistic missile threat.”
+But last month’s ICBM tests, which followed a string of other recent ballistic missile launches from North Korea, have renewed fears that Pyongyang is nearing its goal of developing a missile that can carry a nuclear warhead to the U.S. ― a feat some believe is already within its grasp.
+While there’s a lot of uncertainty surrounding the exact state of North Korea’s nuclear program, defense officials have to assume this threat could manifest itself at any time, warns Thomas Karako, director of the Missile Defense Project at the Center for Strategic and International Studies.
+And the North “could certainly surprise us” with an attack, says Jeffrey Lewis, a nuclear nonproliferation expert at the Middlebury Institute of International Studies. The U.S. hadn’t confirmed the most recent ICBM test was about to happen until four hours prior to launch, the Diplomat reported, citing a government source with knowledge of North Korea’s weapons program.
+“That’s getting pretty tight to see something, then get that information back and act,” said Lewis, who believes North Korea is already capable of launching a nuclear-armed missile overseas. “You have to take seriously the possibility that [North Korea] would be able to launch some of the missiles before we would know where they were.”
+
+North Korea's ICBM Hwasong-14 is pictured during its second test fire in a photo provided by North Korean state news agency KCNA on July 29, 2017.
+
+An unsettling yet pertinent question remains: If a defiant North Korea fires a nuclear-tipped ICBM toward American soil, can the U.S. defend itself?
+The good news is that such missile defense technology does exist, and has been in the works for well over a decade. The Pentagon’s Missile Defense Agency developed its Ground-based Midcourse Defense system, or GMD, partly as a response to the looming threat of North Korea’s ballistic missile program.
+What is a GMD, and how does it work?
+The GMD is America’s only missile defense system established to defend the nation from unsophisticated long-range ballistic missile attacks and incoming warheads. It was first operationally deployed in 2004, and has cost taxpayers over $40 billion.
+The system is designed to defend the entire U.S. and Canada from distant attackers, but is not capable of short-range defense missions. North Korean threats against shorter-range targets, such as U.S. allies like South Korea or Japan, would have to be addressed with other defense systems, such as Aegis, THAAD or Patriot, per CSIS. 
+GMD’s extremely precise defense operation is often compared to a bullet intercepting another bullet. If land- and sea-based radars detect any foreign missile take-offs, the system launches ground-based interceptors, known as GBIs or rocket boosters, toward the incoming missile or missiles.
+GBIs do not carry explosive devices, but are equipped with Exoatmospheric Kill Vehicles that are released into the path of an offensive target to collide with it and take it out on impact prior to nuclear detonation. Experts expect three or more GBIs need to be launched per missile to have a decent likelihood of collision.
+But an interceptor’s task is far more complicated than simply striking the warhead. It must use algorithms and its kill vehicle’s onboard sensors to distinguish its target from a flurry of debris and potential decoys in a process referred to as “mid-course discrimination,” concisely explained in the CSIS video below:
+If any kill vehicles miss their targets and continue hurtling through space, they would likely burn up in the atmosphere over Russia, which, to the Russians, “would look like a nuclear attack,” according to Lewis.
+The Missile Defense Agency is working on developing Multi-Object Kill Vehicles, which would be able to destroy numerous targets rather than just one, but this initiative is still in its early stages and has limited funding.
+The agency currently has some 37 GBIs in Alaska and California, and is still in the process of fulfilling a President Barack Obama-era directive to expand its fleet to 44 by the end of the year in response to the growing threat from Pyongyang.
+How thoroughly has the GMD been tested? 
+On May 30, after North Korea had warned it was in the final stages of developing an ICBM, the Missile Defense Agency successfully conducted its first live-fire test to intercept a simulated ICBM.
+Vice Admiral Jim Syring, the agency’s then-director, said the test reaffirmed his confidence in the ability to defend the U.S. and outpace North Korean progress. 
+CSIS’s Karako also praised the success, writing in an analysis on the CSIS website that it marked “a good day for homeland missile defense, and a bad day for Kim Jong-un.”
+The positive results of the test in May and a previous GBI flight test in 2014 “validate the path that we as a nation have been on for a long time now to have some kind of defense against long-range missile threats from places like North Korea, so that we’re not held hostage or blackmailed,” Karako told HuffPost.
+“The program has had some reliability challenges,” he acknowledged, “but they’re understandable when you put them in context of how the system was developed, and also quite addressable.”
+
+North Korean leader Kim Jong Un guides the second test fire of the ICBM Hwasong-14.
+
+Prior to this year’s missile defense test, which cost $244 million, U.S. interceptors succeeded in just 9 in 17 attempts since 1999. According to CSIS, the “complexity and realism of GMD testing has increased considerably” over the past two decades.
+The MDA doesn’t test in bad weather, so you’d have to hope the North Koreans attack when it’s sunny. Jeffrey Lewis, nuclear nonproliferation expert at Middlebury Institute of International Studies
+But testing conditions are not always realistic, Lewis argues, noting the MDA’s radar performance can be hindered by poor weather.
+“The Missile Defense Agency doesn’t test in bad weather, so you’d have to hope the North Koreans attack when it’s sunny,” he said, noting that tests can cost hundreds of millions of dollars, and are therefore infrequent.
+“[The GMD] has a mediocre test record,” Lewis continued. “And if the weather is bad and they decide to postpone a test, they don’t count that as a failure. But in real life, you don’t get to postpone the test.”
+Are we ready to defend ourselves against a missile attack?
+If North Korea launched a nuclear attack tomorrow, could the U.S. confidently defend itself?
+The short answer, according to Lewis, is “No.”
+“The way I say it is, ‘If everything goes as planned, [the U.S. interceptors] will probably get most of [the North Korean missiles],’” he explained. “But I don’t have any confidence that they would get them all.”
+As the Los Angeles Times observes, the nonpartisan Government Accountability Office reported last year that the GMD’s test record had been “insufficient to demonstrate that an operationally useful defense capability exists.” The Pentagon’s Operational Test and Evaluation office rated GMD’s reliability as “low” in January.
+It’s not a surprise, where we are today ... it’s not as if this snuck up on us. Thomas Karako, director of the Missile Defense Project at CSIS
+But Karako points out that the U.S. has long been tracking North Korean progress on developing a nuclear ICMB, and has been making significant strides to address the threat.
+“It’s not a surprise, where we are today. This is what we’ve been seeing coming for a long time. Because of that, I think we’re postured, to some extent, to deal with this threat,” he said. “It’s nothing to dismiss ― this is a real problem and potential for a crisis ― but it’s not as if this snuck up on us.”
+In terms of near-future GMD use, Karako thinks “there’s a lot of basis in the confidence in the system as deployed today,” based on the most recent tests and ongoing modernization efforts, although he notes “there are a lot of areas for improvement.”
+So, what now?
+Beyond expanding its fleet of GBIs and working to improve the GMD’s kill vehicles, the Missile Defense Agency is also considering an alternative (though not immediately viable) option to protect the homeland. U.S. defense planners are working on “left of launch” operations, which would entail disabling an enemy missile before it is launched, potentially through electronic warfare or with cyber tools.
+In the White House, President Donald Trump ― who initially dismissed the threat of a North Korean nuclear ICBM by tweeting “it won’t happen!” ― has repeatedly responded to the country’s missile launches by insulting Kim and attacking China on social media.
+Trump has aggressively pushed Beijing to use its influence over North Korea to curb the country’s nuclear ambitions, and has publicly shamed Chinese leaders for failing to do so.
+I am very disappointed in China. Our foolish past leaders have allowed them to make hundreds of billions of dollars a year in trade, yet...
+— Donald J. Trump (@realDonaldTrump) July 29, 2017
+...they do NOTHING for us with North Korea, just talk. We will no longer allow this to continue. China could easily solve this problem!
+— Donald J. Trump (@realDonaldTrump) July 29, 2017
+But many pundits agree that de-escalation of political tensions is currently just as important, if not more important, than defense development for national security.
+Washington seemed to soften its tone after the latest, most advanced ICBM test. Days after the launch, Secretary of State Rex Tillerson announced America is not an enemy to North Korea, and does not want to see a regime change or take military action. Instead, he suggested the U.S. would be open to a dialogue with Pyongyang.
+“I don’t think we actually plan to attack them ― the problem is, this administration likes to sort of pretend they might, to motivate the Chinese,” said Lewis, who thinks North Korea would only use its nuclear weapons if it felt threatened.
+“If we panic and we act like President Trump, and stamp our feet and threaten the North Koreans and talk about attacking them (and God forbid we do), then we’re in a lot of trouble ... North Korea can build missiles faster than we can build defenses,” he added. “It seems really hard to believe that we’ll be able to stay ahead.”
+“We’ll always be vulnerable, and we just have to deal with that.”
+Read more:

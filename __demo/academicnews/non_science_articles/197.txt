@@ -1,0 +1,32 @@
+Eight planets found orbiting distant star, NASA says
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+
+JUST WATCHED
+The galaxy explained
+Story highlights
+For the first time, eight planets have been found orbiting Kepler-90
+It is tied with our solar system for a star hosting the most known planets
+ (CNN)
+For the first time, eight planets have been found orbiting a distant star, Kepler-90, 2,545 light-years from Earth in the Draco constellation, NASA announced Thursday. It is the first star known to support as many planets as are orbiting our own sun, and researchers believe that this is the first of many to come.
+Researchers had known that seven planets were orbiting the star. But Google Artificial Intelligence -- which enables computers to "learn" -- looked at archival data obtained by NASA's planet-hunting Kepler telescope and uncovered the eighth planet. 
+With the idea of eventually differentiating among exoplanets, Christopher Shallue, senior software engineer at Google AI in California, and Andrew Vanderburg, astronomer and NASA Sagan postdoctoral fellow at the University of Texas, Austin, trained a computer how to differentiate between images of cats and dogs. 
+
+They refined their approach to identify exoplanets in Kepler data based on the change in light when a planet passed in front of its star. The neural network learned to identify these by using signals that had been vetted and confirmed in Kepler's planet catalog. Ninety-six percent of the time, it was accurate. 
+Since launching in 2009, Kepler has watched more than 150,000 stars in one part of the sky to determine exoplanet candidates, based on the slight dimming of stars as potential planets pass across them. Kepler gathered a dataset of 35,000 possible signals indicating planets. In order to help find weaker signals of potential planets that researchers had missed, the neural network was trained to look for weak signals in star systems that were known to support multiple planets.
+Read More
+"Machine learning really shines in situations where there is so much data that humans can't search it for themselves," Shallue said.
+The new planet has been dubbed Kepler-90i. It's not a hospitable environment. It's small, "sizzling" hot and rocky, whirling around its star every 14.4 days. In our solar system, the closest planet to the sun, Mercury, has an orbit of 88 days. 
+"The Kepler-90 star system is like a mini version of our solar system. You have small planets inside and big planets outside, but everything is scrunched in much closer," Vanderburg said.
+Although Kepler-90 is a sun-like star, the planets are all bunched together in tight orbits around it -- the same distance that Earth is from the sun. 
+
+"Just as we expected, there are exciting discoveries lurking in our archived Kepler data, waiting for the right tool or technology to unearth them," said Paul Hertz, director of NASA's Astrophysics Division in Washington. "This finding shows that our data will be a treasure trove available to innovative researchers for years to come." 
+Researchers also announced that they had uncovered a sixth planet in the Kepler-80 system, Kepler-80g, which is similar in size to Earth. It also has an orbit of 14.4 days. The star is cooler and redder than our sun, and all of the planets orbit very tightly around it. Five of the six planets form a resonant chain, in which they are locked in orbit by mutual gravity. The Kepler-80 system is stable, as the previously discovered seven-planet TRAPPIST-1 system has proven to be. 
+To date, Kepler has observed 2,525 confirmed exoplanets. 
+
+"These results demonstrate the enduring value of Kepler's mission," said Jessie Dotson, Kepler's project scientist at NASA's Ames Research Center in California. "New ways of looking at the data -- such as this early-stage research to apply machine learning algorithms -- promises to continue to yield significant advances in our understanding of planetary systems around other stars. I'm sure there are more firsts in the data waiting for people to find them."
+Missions launching in 2018, like the Transiting Exoplanet Survey Satellite and the James Webb Space Telescope, will enable further and closer study of planet candidates identified by Kepler. 
+
+Compared with Kepler, TESS will use a similar transit method for observing planets when they pass in front of their parent stars. Though Kepler looked at one portion of the sky for stars that were farther away for a longer time, TESS will observe the entire sky and focus on the brightest and closest stars, each for 30 days.
+The James Webb Space Telescope is capable of observing large exoplanets and detecting starlight filtered through their atmospheres, which will enable scientists to determine the atmospheric composition and analyze them for gases that can create a biological ecosystem.
+The K2 mission, which launched in 2014, is extending Kepler's legacy to new parts of the sky and new fields of study, adding to NASA's "arc of discovery." It has enough fuel to keep identifying candidates until summer 2018. It's helping bridge the gap between Kepler and TESS as far as identifying targets for the James Webb Space Telescope to observe.

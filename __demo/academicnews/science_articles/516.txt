@@ -1,0 +1,34 @@
+Could this be the battery that revolutionizes our cars and phones?
+by Alex Johnson / Mar.07.2017 / 8:37 AM ET
+
+
+
+
+John Goodenough in his office at the University of Texas in Austin in 2013.University of Texas
+Get the Mach newsletter.
+The co-inventor of the lithium-ion battery, which powers almost every modern mobile device and many newer electric cars, says he's developed a safer battery that lasts three times longer.
+In a filing with the U.S. Patent and Trademark Office and in research published in the March edition of the journal Energy & Environmental Science, John Goodenough and colleagues at the University of Texas report that their new battery technology could produce a safe, non-explosive cell able to power an electric car much longer than current batteries do — with charging times measured in minutes, not hours.
+"Cost, safety, energy density, rates of charge and discharge and cycle life are critical for battery-driven cars to be more widely adopted," Goodenough said in a statement issued through the university. "We believe our discovery solves many of the problems that are inherent in today's batteries."
+The new cells — which use, of all things, glass — also promise safer, faster-charging, longer-lasting batteries for handheld devices, like smartphones and gaming systems, the research team wrote.
+Supposed battery breakthroughs are nothing new — many new technologies have been developed in the last two decades, but none has been simultaneously beefy enough, safe enough and cheap enough to supplant lithium-ion cells.
+And while there's no guarantee that Goodenough's new battery will break that cycle, what's different this time is that he's John Goodenough.
+Goodenough, 94, co-invented lithium-ion battery technology more than 30 years ago. In 2013, President Barack Obama awarded him the National Medal of Science.
+
+
+
+President Barack Obama awards the National Medal of Science to John Goodenough at the White House in February 2013. AP
+
+"When John Goodenough makes an announcement, I pay attention," Donald Sadoway, a professor of materials science and engineering at the Massachusetts Institute of Technology, told Spectrum, the journal of the Institute of Electrical and Electronics Engineers.
+"He's tops in the field and really a fantastic scientist," Sadoway said. "So his pronouncements are worth listening to."
+Why It's Better
+Lithium-ion batteries use liquid electrolytes to transport lithium ions between the positive and negative sides of a battery. Overcharging the battery — or charging it too fast — can cause a short-circuit that can lead to explosions and fires.
+Get the Mach newsletter.
+
+Goodenough's team, instead, uses glass electrolytes — which aren't in a liquid state and don't slosh around and "leak" out of their paths. That so-called solid-state transfer solves two common problems, according to the researchers.
+It preserves the density of the electrolytes as they pass back and forth — one reason a charge could last so much longer — because none of the electrolytes break away from the circuit, or "leak." Because they don't leak, the electrolytes also don't bump into other parts of the battery that they shouldn't, which can cause explosive short-circuits.
+And Goodenough's team reported that in experiments, the new cells "have demonstrated more than 1,200 cycles" in much colder and hotter conditions than current batteries can handle. When they're regularly charged to full capacity, today's average lithium-ion batteries are generally considered to last for only about 500 "charge cycles."
+Over that time, the batteries' maximum capacity also shrinks thanks to what's called "cell resistance"; Goodenough's team says its battery can be recharged all those extra times with very low resistance, meaning they don't go flat.
+Not only that, but the new cells could also be better for the environment. That's because "the glass electrolytes allow for the substitution of low-cost sodium for lithium," Maria Helena Braga, a visiting research fellow at the University of Texas working with Goodenough, said in a statement released through the university.
+Unlike lithium, a volatile metal that must be extracted from minerals with which it has bonded, "sodium is extracted from seawater that is widely available" and is much cheaper, Braga said.
+The university said Goodenough and Braga soon "hope to work with battery makers to develop and test their new materials in electric vehicles and energy storage devices."
+Get the Mach newsletter.

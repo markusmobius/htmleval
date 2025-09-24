@@ -1,0 +1,2297 @@
+NCAAB Standings - NCAAB Basketball
+Clinched Conference
+American Athletic
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Southern Methodist Mustangs 
+30
+5
+0.857
+17 - 1
+
+ Cincinnati Bearcats 
+30
+6
+0.833
+16 - 2
+
+ Houston Cougars 
+21
+11
+0.656
+12 - 6
+
+ Central Florida Knights 
+24
+12
+0.667
+11 - 7
+
+ Memphis Tigers 
+19
+13
+0.594
+9 - 9
+
+ Connecticut Huskies 
+16
+17
+0.485
+9 - 9
+
+ Tulsa Golden Hurricane 
+15
+17
+0.469
+8 - 10
+
+ Temple Owls 
+16
+16
+0.500
+7 - 11
+
+ East Carolina Pirates 
+15
+18
+0.455
+6 - 12
+
+ Tulane Green Wave 
+6
+25
+0.194
+3 - 15
+
+ South Florida Bulls 
+7
+23
+0.233
+1 - 17
+Atlantic Coast Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ North Carolina Tar Heels 
+33
+7
+0.825
+14 - 4
+
+ Florida State Seminoles 
+26
+9
+0.743
+12 - 6
+
+ Notre Dame Fighting Irish 
+26
+10
+0.722
+12 - 6
+
+ Louisville Cardinals 
+25
+9
+0.735
+12 - 6
+
+ Duke Blue Devils 
+28
+9
+0.757
+11 - 7
+
+ Virginia Cavaliers 
+23
+11
+0.676
+11 - 7
+
+ Virginia Tech Hokies 
+22
+11
+0.667
+10 - 8
+
+ Miami-Florida Hurricanes 
+21
+12
+0.636
+10 - 8
+
+ Syracuse Orange 
+19
+15
+0.559
+10 - 8
+
+ Wake Forest Demon Deacons 
+19
+14
+0.576
+9 - 9
+
+ Georgia Tech Yellow Jackets 
+21
+16
+0.568
+8 - 10
+
+ Clemson Tigers 
+17
+16
+0.515
+6 - 12
+
+ Pittsburgh Panthers 
+16
+17
+0.485
+4 - 14
+
+ NC State Wolfpack 
+15
+17
+0.469
+4 - 14
+
+ Boston College Eagles 
+9
+23
+0.281
+2 - 16
+America East Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Vermont Catamounts 
+29
+6
+0.829
+16 - 0
+
+ Stony Brook Seawolves 
+18
+14
+0.563
+12 - 4
+
+ Albany Great Danes 
+21
+13
+0.618
+10 - 6
+
+ New Hampshire Wildcats 
+20
+12
+0.625
+10 - 6
+
+ MD Baltimore County Retrievers 
+18
+12
+0.600
+9 - 7
+
+ Massachusetts Lowell River Hawks 
+11
+20
+0.355
+5 - 11
+
+ Hartford Hawks 
+9
+23
+0.281
+4 - 12
+
+ Binghamton Bearcats 
+12
+20
+0.375
+3 - 13
+
+ Maine Black Bears 
+7
+25
+0.219
+3 - 13
+Atlantic 10 Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Dayton Flyers 
+24
+8
+0.750
+15 - 3
+
+ VCU Rams 
+26
+9
+0.743
+14 - 4
+
+ Rhode Island Rams 
+25
+10
+0.714
+13 - 5
+
+ Richmond Spiders 
+22
+13
+0.629
+13 - 5
+
+ St. Bonaventure Bonnies 
+20
+12
+0.625
+11 - 7
+
+ George Washington Colonials 
+20
+15
+0.571
+10 - 8
+
+ George Mason Patriots 
+20
+14
+0.588
+9 - 9
+
+ La Salle Explorers 
+15
+15
+0.500
+9 - 9
+
+ Davidson Wildcats 
+17
+15
+0.531
+8 - 10
+
+ Fordham Rams 
+13
+19
+0.406
+7 - 11
+
+ Saint Louis Billikens 
+12
+21
+0.364
+6 - 12
+
+ Massachusetts Minutemen 
+15
+18
+0.455
+4 - 14
+
+ St. Joseph's Hawks 
+11
+20
+0.355
+4 - 14
+
+ Duquesne Dukes 
+10
+22
+0.313
+3 - 15
+Atlantic Sun Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Florida Gulf Coast Eagles 
+26
+8
+0.765
+12 - 2
+
+ Lipscomb Bison 
+20
+13
+0.606
+11 - 3
+
+ North Florida Osprey 
+15
+19
+0.441
+8 - 6
+
+ South Carolina Upstate Spartans 
+17
+15
+0.531
+7 - 7
+
+ Kennesaw St. Fighting Owls 
+14
+18
+0.438
+7 - 7
+
+ Jacksonville Dolphins 
+17
+15
+0.531
+5 - 9
+
+ New Jersey Tech Highlanders 
+11
+20
+0.355
+3 - 11
+
+ Stetson Hatters 
+11
+21
+0.344
+3 - 11
+Big 12 Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Kansas Jayhawks 
+31
+5
+0.861
+16 - 2
+
+ West Virginia Mountaineers 
+28
+9
+0.757
+12 - 6
+
+ Baylor Bears 
+27
+8
+0.771
+12 - 6
+
+ Iowa State Cyclones 
+24
+11
+0.686
+12 - 6
+
+ Oklahoma State Cowboys 
+20
+13
+0.606
+9 - 9
+
+ Kansas State Wildcats 
+21
+14
+0.600
+8 - 10
+
+ Texas Christian Horned Frogs 
+24
+15
+0.615
+6 - 12
+
+ Texas Tech Red Raiders 
+18
+14
+0.563
+6 - 12
+
+ Oklahoma Sooners 
+11
+20
+0.355
+5 - 13
+
+ Texas Longhorns 
+11
+22
+0.333
+4 - 14
+Big East Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Villanova Wildcats 
+32
+4
+0.889
+15 - 3
+
+ Butler Bulldogs 
+25
+9
+0.735
+12 - 6
+
+ Creighton Bluejays 
+25
+10
+0.714
+10 - 8
+
+ Seton Hall Pirates 
+21
+12
+0.636
+10 - 8
+
+ Providence Friars 
+20
+13
+0.606
+10 - 8
+
+ Marquette Golden Eagles 
+19
+13
+0.594
+10 - 8
+
+ Xavier Musketeers 
+24
+14
+0.632
+9 - 9
+
+ St. John's Red Storm 
+14
+19
+0.424
+7 - 11
+
+ Georgetown Hoyas 
+14
+18
+0.438
+5 - 13
+
+ DePaul Blue Demons 
+9
+23
+0.281
+2 - 16
+Big Sky Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ North Dakota Fighting Hawks 
+22
+10
+0.688
+14 - 4
+
+ Eastern Washington Eagles 
+22
+12
+0.647
+13 - 5
+
+ Weber St. Wildcats 
+19
+13
+0.594
+12 - 6
+
+ Idaho Vandals 
+18
+13
+0.581
+12 - 6
+
+ Montana Grizzlies 
+16
+16
+0.500
+11 - 7
+
+ Montana St. Bobcats 
+16
+16
+0.500
+11 - 7
+
+ Sacramento State Hornets 
+13
+18
+0.419
+9 - 9
+
+ Portland St. Vikings 
+15
+16
+0.484
+7 - 11
+
+ Northern Colorado Bears 
+11
+18
+0.379
+7 - 11
+
+ Northern Arizona Lumberjacks 
+9
+23
+0.281
+6 - 12
+
+ Southern Utah Thunderbirds 
+6
+27
+0.182
+3 - 15
+
+ Idaho State Bengals 
+5
+26
+0.161
+3 - 15
+Big South Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Winthrop Eagles 
+26
+7
+0.788
+15 - 3
+
+ NC-Asheville Bulldogs 
+23
+9
+0.719
+15 - 3
+
+ Liberty Flames 
+19
+13
+0.594
+14 - 4
+
+ Gardner-Webb Runnin' Bulldogs 
+19
+14
+0.576
+11 - 7
+
+ High Point Panthers 
+15
+16
+0.484
+9 - 9
+
+ Radford Highlanders 
+14
+18
+0.438
+8 - 10
+
+ Campbell Fighting Camels 
+17
+17
+0.500
+7 - 11
+
+ Charleston Southern Buccaneers 
+12
+19
+0.387
+7 - 11
+
+ Longwood Lancers 
+6
+24
+0.200
+3 - 15
+
+ Presbyterian Blue Hose 
+5
+25
+0.167
+1 - 17
+Big Ten Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Purdue Boilermakers 
+27
+8
+0.771
+14 - 4
+
+ Wisconsin Badgers 
+27
+10
+0.730
+12 - 6
+
+ Maryland Terrapins 
+24
+9
+0.727
+12 - 6
+
+ Minnesota Golden Gophers 
+24
+10
+0.706
+11 - 7
+
+ Michigan Wolverines 
+26
+12
+0.684
+10 - 8
+
+ Northwestern Wildcats 
+24
+12
+0.667
+10 - 8
+
+ Michigan St Spartans 
+20
+15
+0.571
+10 - 8
+
+ Iowa Hawkeyes 
+19
+15
+0.559
+10 - 8
+
+ Illinois Fighting Illini 
+20
+15
+0.571
+8 - 10
+
+ Indiana Hoosiers 
+18
+16
+0.529
+7 - 11
+
+ Ohio St Buckeyes 
+17
+15
+0.531
+7 - 11
+
+ Penn St. Nittany Lions 
+15
+18
+0.455
+6 - 12
+
+ Nebraska Cornhuskers 
+12
+19
+0.387
+6 - 12
+
+ Rutgers Scarlet Knights 
+15
+18
+0.455
+3 - 15
+Big West Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ UC Irvine Anteaters 
+21
+15
+0.583
+12 - 4
+
+ UC Davis Aggies 
+23
+13
+0.639
+11 - 5
+
+ Cal St. Fullerton Titans 
+17
+14
+0.548
+10 - 6
+
+ Long Beach St. 49ers 
+15
+19
+0.441
+9 - 7
+
+ Hawaii Warriors 
+14
+16
+0.467
+8 - 8
+
+ CSU Northridge Matadors 
+11
+19
+0.367
+7 - 9
+
+ Cal Poly SLO Mustangs 
+11
+20
+0.355
+6 - 10
+
+ UC Riverside Highlanders 
+7
+21
+0.250
+5 - 11
+
+ UC Santa Barbara Gauchos 
+6
+22
+0.214
+4 - 12
+Colonial Athletic Association
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ NC-Wilmington Seahawks 
+29
+6
+0.829
+15 - 3
+
+ Charleston Cougars 
+25
+10
+0.714
+14 - 4
+
+ Towson Tigers 
+20
+13
+0.606
+11 - 7
+
+ Elon University Phoenix 
+18
+14
+0.563
+10 - 8
+
+ William & Mary Tribe 
+17
+14
+0.548
+10 - 8
+
+ Northeastern Huskies 
+15
+16
+0.484
+8 - 10
+
+ Hofstra Pride 
+15
+17
+0.469
+7 - 11
+
+ James Madison Dukes 
+10
+23
+0.303
+7 - 11
+
+ Delaware Blue Hens 
+13
+20
+0.394
+5 - 13
+
+ Drexel Dragons 
+9
+23
+0.281
+3 - 15
+Conference USA
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Middle Tennessee St. Blue Raiders 
+31
+5
+0.861
+17 - 1
+
+ Louisiana Tech Bulldogs 
+23
+10
+0.697
+14 - 4
+
+ Old Dominion Monarchs 
+19
+12
+0.613
+12 - 6
+
+ Texas-El Paso Miners 
+15
+17
+0.469
+12 - 6
+
+ Rice Owls 
+23
+12
+0.657
+11 - 7
+
+ Marshall Thundering Herd 
+20
+15
+0.571
+10 - 8
+
+ UAB Blazers 
+17
+16
+0.515
+9 - 9
+
+ Western Kentucky Hilltoppers 
+15
+17
+0.469
+9 - 9
+
+ Texas-San Antonio Roadrunners 
+14
+19
+0.424
+8 - 10
+
+ Charlotte 49ers 
+13
+17
+0.433
+7 - 11
+
+ Florida Atlantic Owls 
+10
+20
+0.333
+6 - 12
+
+ Southern Miss Golden Eagles 
+9
+22
+0.290
+6 - 12
+
+ Florida International Golden Panthers 
+7
+24
+0.226
+3 - 15
+
+ North Texas Mean Green Eagles 
+8
+22
+0.267
+2 - 16
+Horizon League
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Oakland Golden Grizzlies 
+25
+9
+0.735
+14 - 4
+
+ Valparaiso Crusaders 
+24
+9
+0.727
+14 - 4
+
+ Northern Kentucky Norse 
+24
+11
+0.686
+12 - 6
+
+ Green Bay Phoenix 
+18
+14
+0.563
+12 - 6
+
+ Wright St. Raiders 
+20
+12
+0.625
+11 - 7
+
+ Illinois-Chicago Flames 
+17
+19
+0.472
+7 - 11
+
+ Detroit Mercy Titans 
+8
+23
+0.258
+6 - 12
+
+ Youngstown St. Penguins 
+13
+21
+0.382
+5 - 13
+
+ Cleveland St. Vikings 
+9
+22
+0.290
+5 - 13
+
+ Wis.-Milwaukee Panthers 
+11
+24
+0.314
+4 - 14
+Ivy League
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Princeton Tigers 
+23
+7
+0.767
+14 - 0
+
+ Harvard Crimson 
+18
+10
+0.643
+10 - 4
+
+ Yale Bulldogs 
+18
+11
+0.621
+9 - 5
+
+ Pennsylvania Quakers 
+13
+15
+0.464
+6 - 8
+
+ Columbia Lions 
+11
+16
+0.407
+5 - 9
+
+ Brown Bears 
+13
+17
+0.433
+4 - 10
+
+ Cornell Big Red 
+8
+21
+0.276
+4 - 10
+
+ Dartmouth Big Green 
+7
+20
+0.259
+4 - 10
+Metro Atlantic Athletic Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Monmouth-NJ Hawks 
+27
+7
+0.794
+18 - 2
+
+ St. Peter's Peacocks 
+19
+13
+0.594
+14 - 6
+
+ Iona Gaels 
+22
+13
+0.629
+12 - 8
+
+ Siena Saints 
+17
+17
+0.500
+12 - 8
+
+ Fairfield Stags 
+16
+14
+0.533
+11 - 9
+
+ Canisius Golden Griffins 
+18
+15
+0.545
+10 - 10
+
+ Rider Broncs 
+18
+15
+0.545
+10 - 10
+
+ Quinnipiac Bobcats 
+10
+21
+0.323
+7 - 13
+
+ Niagara Purple Eagles 
+10
+23
+0.303
+6 - 14
+
+ Manhattan Jaspers 
+10
+22
+0.313
+5 - 15
+
+ Marist Red Foxes 
+8
+24
+0.250
+5 - 15
+Mid-American Conference - East
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Akron Zips 
+27
+9
+0.750
+14 - 4
+
+ Ohio Bobcats 
+20
+11
+0.645
+11 - 7
+
+ Buffalo Bulls 
+17
+15
+0.531
+11 - 7
+
+ Kent St. Golden Flashes 
+22
+14
+0.611
+10 - 8
+
+ Bowling Green Falcons 
+13
+19
+0.406
+7 - 11
+
+ Miami (OH) Red Hawks 
+11
+21
+0.344
+4 - 14
+Mid-American Conference - West
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Ball St. Cardinals 
+21
+12
+0.636
+11 - 7
+
+ Western Michigan Broncos 
+16
+16
+0.500
+11 - 7
+
+ Toledo Rockets 
+17
+17
+0.500
+9 - 9
+
+ Eastern Michigan Eagles 
+16
+17
+0.485
+7 - 11
+
+ Northern Illinois Huskies 
+15
+17
+0.469
+7 - 11
+
+ Central Michigan Chippewas 
+16
+16
+0.500
+6 - 12
+Mid-Eastern Athletic Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ North Carolina Central Eagles 
+25
+9
+0.735
+13 - 3
+
+ Norfolk State Spartans 
+17
+16
+0.515
+12 - 4
+
+ Morgan St. Bears 
+14
+16
+0.467
+11 - 5
+
+ Hampton Pirates 
+14
+17
+0.452
+11 - 5
+
+ Savannah State Tigers 
+13
+16
+0.448
+10 - 6
+
+ Maryland - E. Shore Hawks 
+14
+20
+0.412
+9 - 7
+
+ South Carolina State Bulldogs 
+11
+20
+0.355
+7 - 9
+
+ Delaware State Hornets 
+10
+22
+0.313
+7 - 9
+
+ Coppin St. Eagles 
+8
+24
+0.250
+7 - 9
+
+ Bethune-Cookman Wildcats 
+10
+22
+0.313
+6 - 10
+
+ Howard Bison 
+10
+24
+0.294
+5 - 11
+
+ Florida A&M Rattlers 
+7
+23
+0.233
+5 - 11
+
+ No.Carolina A&T Aggies 
+3
+29
+0.094
+1 - 15
+Missouri Valley Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Wichita St. Shockers 
+31
+5
+0.861
+17 - 1
+
+ Illinois St. Redbirds 
+27
+7
+0.794
+17 - 1
+
+ Southern Illinois Salukis 
+17
+16
+0.515
+9 - 9
+
+ Northern Iowa Panthers 
+14
+15
+0.483
+9 - 9
+
+ Loyola-Chicago Ramblers 
+18
+14
+0.563
+8 - 10
+
+ Missouri St. Bears 
+17
+16
+0.515
+7 - 11
+
+ Bradley Braves 
+13
+20
+0.394
+7 - 11
+
+ Evansville Purple Aces 
+16
+17
+0.485
+6 - 12
+
+ Indiana St. Sycamores 
+11
+20
+0.355
+5 - 13
+
+ Drake Bulldogs 
+7
+24
+0.226
+5 - 13
+Mountain West Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Nevada Wolf Pack 
+28
+7
+0.800
+14 - 4
+
+ Colorado St. Rams 
+24
+12
+0.667
+13 - 5
+
+ Boise St. Broncos 
+20
+12
+0.625
+12 - 6
+
+ Fresno St. Bulldogs 
+20
+13
+0.606
+11 - 7
+
+ New Mexico Lobos 
+17
+14
+0.548
+10 - 8
+
+ San Diego St. Aztecs 
+19
+14
+0.576
+9 - 9
+
+ Wyoming Cowboys 
+23
+15
+0.605
+8 - 10
+
+ San Jose St. Spartans 
+14
+16
+0.467
+7 - 11
+
+ Utah St. Aggies 
+14
+17
+0.452
+7 - 11
+
+ Air Force Falcons 
+12
+21
+0.364
+4 - 14
+
+ UNLV Runnin' Rebels 
+11
+21
+0.344
+4 - 14
+Northeast Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Mount St. Mary's Mountaineers 
+20
+16
+0.556
+14 - 4
+
+ LIU Brooklyn Blackbirds 
+20
+12
+0.625
+13 - 5
+
+ Wagner Seahawks 
+16
+14
+0.533
+11 - 7
+
+ St. Francis (PA) Red Flash 
+16
+16
+0.500
+11 - 7
+
+ Robert Morris Colonials 
+14
+19
+0.424
+9 - 9
+
+ Bryant Bulldogs 
+12
+20
+0.375
+9 - 9
+
+ Fairleigh Dickinson Knights 
+11
+18
+0.379
+9 - 9
+
+ Sacred Heart Pioneers 
+13
+19
+0.406
+8 - 10
+
+ Central Conn. St. Blue Devils 
+6
+23
+0.207
+4 - 14
+
+ St. Francis-NY Terriers 
+4
+27
+0.129
+2 - 16
+Ohio Valley Conference - East
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Belmont Bruins 
+23
+6
+0.793
+15 - 1
+
+ Morehead St. Eagles 
+14
+16
+0.467
+10 - 6
+
+ Jacksonville St. Gamecocks 
+20
+15
+0.571
+9 - 7
+
+ Tennessee St. Tigers 
+17
+13
+0.567
+8 - 8
+
+ Tennessee Tech Golden Eagles 
+12
+20
+0.375
+8 - 8
+
+ Eastern Kentucky Colonels 
+12
+19
+0.387
+5 - 11
+Ohio Valley Conference - West
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Tenn-Martin Skyhawks 
+21
+12
+0.636
+10 - 6
+
+ SE Missouri St. Redhawks 
+15
+18
+0.455
+9 - 7
+
+ Murray St. Racers 
+16
+17
+0.485
+8 - 8
+
+ Austin Peay Governors 
+11
+19
+0.367
+7 - 9
+
+ Eastern Illinois Panthers 
+14
+15
+0.483
+6 - 10
+
+ SIU - Edwardsville Cougars 
+6
+24
+0.200
+1 - 15
+Pacific 12 Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Oregon Ducks 
+33
+6
+0.846
+16 - 2
+
+ Arizona Wildcats 
+32
+5
+0.865
+16 - 2
+
+ UCLA Bruins 
+31
+5
+0.861
+15 - 3
+
+ Utah Utes 
+20
+12
+0.625
+11 - 7
+
+ Southern California Trojans 
+26
+10
+0.722
+10 - 8
+
+ California Golden Bears 
+21
+13
+0.618
+10 - 8
+
+ Colorado Buffaloes 
+19
+15
+0.559
+8 - 10
+
+ Arizona State Sun Devils 
+15
+18
+0.455
+7 - 11
+
+ Stanford Cardinal 
+14
+17
+0.452
+6 - 12
+
+ Washington St. Cougars 
+13
+18
+0.419
+6 - 12
+
+ Washington Huskies 
+9
+22
+0.290
+2 - 16
+
+ Oregon St. Beavers 
+5
+27
+0.156
+1 - 17
+Patriot League
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Bucknell Bison 
+26
+9
+0.743
+15 - 3
+
+ Lehigh Mountain Hawks 
+20
+12
+0.625
+12 - 6
+
+ Boston U Terriers 
+18
+14
+0.563
+12 - 6
+
+ Navy Midshipmen 
+16
+16
+0.500
+10 - 8
+
+ Holy Cross Crusaders 
+15
+17
+0.469
+9 - 9
+
+ Loyola-Maryland Greyhounds 
+16
+17
+0.485
+8 - 10
+
+ Colgate Raiders 
+10
+22
+0.313
+8 - 10
+
+ Army Black Knights 
+13
+19
+0.406
+6 - 12
+
+ Lafayette Leopards 
+9
+21
+0.300
+5 - 13
+
+ American U. Eagles 
+8
+22
+0.267
+5 - 13
+Southeastern Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Kentucky Wildcats 
+32
+6
+0.842
+16 - 2
+
+ Florida Gators 
+27
+9
+0.750
+14 - 4
+
+ Arkansas Razorbacks 
+26
+10
+0.722
+12 - 6
+
+ South Carolina Gamecocks 
+26
+11
+0.703
+12 - 6
+
+ Mississippi Rebels 
+22
+14
+0.611
+10 - 8
+
+ Alabama Crimson Tide 
+19
+15
+0.559
+10 - 8
+
+ Vanderbilt Commodores 
+19
+16
+0.543
+10 - 8
+
+ Georgia Bulldogs 
+19
+15
+0.559
+9 - 9
+
+ Texas A&M Aggies 
+16
+15
+0.516
+8 - 10
+
+ Tennessee Volunteers 
+16
+16
+0.500
+8 - 10
+
+ Auburn Tigers 
+18
+14
+0.563
+7 - 11
+
+ Mississippi State Bulldogs 
+16
+16
+0.500
+6 - 12
+
+ Louisiana State Tigers 
+10
+21
+0.323
+2 - 16
+
+ Missouri Tigers 
+8
+24
+0.250
+2 - 16
+Southern Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ East Tennessee St. Buccaneers 
+27
+8
+0.771
+14 - 4
+
+ NC-Greensboro Spartans 
+25
+10
+0.714
+14 - 4
+
+ Furman Paladins 
+21
+11
+0.656
+14 - 4
+
+ Chattanooga Mocs 
+19
+12
+0.613
+10 - 8
+
+ Wofford Terriers 
+16
+17
+0.485
+10 - 8
+
+ Mercer Bears 
+15
+17
+0.469
+9 - 9
+
+ Samford Bulldogs 
+19
+15
+0.559
+8 - 10
+
+ The Citadel Bulldogs 
+12
+21
+0.364
+4 - 14
+
+ Western Carolina Catamounts 
+9
+23
+0.281
+4 - 14
+
+ VMI Keydets 
+6
+24
+0.200
+3 - 15
+Southland Conference - East
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Lamar Cardinals 
+19
+14
+0.576
+10 - 8
+
+ Southeastern Louisiana Lions 
+16
+16
+0.500
+9 - 9
+
+ Nicholls State Colonels 
+14
+17
+0.452
+7 - 11
+
+ Northwestern St. Demons 
+13
+16
+0.448
+7 - 11
+
+ Central Arkansas Bears 
+8
+24
+0.250
+7 - 11
+
+ McNeese St. Cowboys 
+7
+22
+0.241
+4 - 14
+Southland Conference - West
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Texas A&M CC Islanders 
+20
+11
+0.645
+12 - 6
+
+ Stephen F. Austin Lumberjacks 
+18
+14
+0.563
+12 - 6
+
+ Sam Houston St. Bearkats 
+21
+13
+0.618
+10 - 8
+Summit League
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ South Dakota Coyotes 
+22
+12
+0.647
+12 - 4
+
+ North Dakota State Bison 
+19
+11
+0.633
+11 - 5
+
+ Nebraska Omaha Mavericks 
+18
+14
+0.563
+9 - 7
+
+ IUPU - Ft. Wayne Mastodons 
+19
+12
+0.613
+8 - 8
+
+ South Dakota State Jackrabbits 
+18
+17
+0.514
+8 - 8
+
+ Denver Pioneers 
+16
+14
+0.533
+8 - 8
+
+ Indiana - Purdue Jaguars 
+14
+18
+0.438
+7 - 9
+
+ Western Illinois Leathernecks 
+8
+20
+0.286
+5 - 11
+
+ Oral Roberts Golden Eagles 
+8
+22
+0.267
+4 - 12
+Sun Belt Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Texas-Arlington Mavericks 
+27
+9
+0.750
+14 - 4
+
+ Georgia St Panthers 
+20
+12
+0.625
+12 - 6
+
+ Arkansas St. Red Wolves 
+20
+12
+0.625
+11 - 7
+
+ Texas State Bobcats 
+20
+13
+0.606
+11 - 7
+
+ Georgia Southern Eagles 
+18
+15
+0.545
+11 - 7
+
+ Troy Trojans 
+22
+15
+0.595
+10 - 8
+
+ UL Lafayette Ragin' Cajuns 
+21
+12
+0.636
+10 - 8
+
+ Coastal Carolina Chanticleers 
+20
+19
+0.513
+10 - 8
+
+ South Alabama Jaguars 
+14
+18
+0.438
+7 - 11
+
+ Little Rock Trojans 
+15
+17
+0.469
+6 - 12
+
+ Appalachian St. Mountaineers 
+9
+21
+0.300
+4 - 14
+
+ Louisiana Monroe Warhawks 
+9
+24
+0.273
+2 - 16
+Southwestern Athletic Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Texas Southern Tigers 
+23
+12
+0.657
+16 - 2
+
+ Alcorn St. Braves 
+18
+13
+0.581
+13 - 5
+
+ Grambling State Tigers 
+16
+17
+0.485
+10 - 8
+
+ Southern Jaguars 
+15
+18
+0.455
+10 - 8
+
+ Jackson State Tigers 
+14
+18
+0.438
+10 - 8
+
+ Prairie View A&M Panthers 
+13
+20
+0.394
+10 - 8
+
+ Mississippi Valley State Delta Devils 
+7
+25
+0.219
+7 - 11
+
+ Alabama St. Hornets 
+8
+23
+0.258
+6 - 12
+
+ Arkansas-Pine Bluff Golden Lions 
+7
+25
+0.219
+6 - 12
+
+ Alabama A&M Bulldogs 
+2
+27
+0.069
+2 - 16
+Western Athletic Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Cal. State - Bakersfield Roadrunners 
+25
+10
+0.714
+12 - 2
+
+ New Mexico St. Aggies 
+28
+6
+0.824
+11 - 3
+
+ Grand Canyon Antelopes 
+22
+9
+0.710
+11 - 3
+
+ UMKC Kangaroos 
+18
+17
+0.514
+8 - 6
+
+ Utah Valley Wolverines 
+17
+17
+0.500
+6 - 8
+
+ Seattle Redhawks 
+13
+17
+0.433
+5 - 9
+
+ Texas Rio Grande Valley Vaqueros 
+10
+22
+0.313
+2 - 12
+
+ Chicago St. Cougars 
+6
+26
+0.188
+1 - 13
+West Coast Conference
+ TEAM 
+ W 
+ L 
+ PCT 
+ CONF 
+
+ Gonzaga Bulldogs 
+37
+2
+0.949
+17 - 1
+
+ St. Mary's Gaels 
+29
+4
+0.879
+16 - 2
+
+ Brigham Young Cougars 
+22
+12
+0.647
+12 - 6
+
+ San Francisco Dons 
+20
+13
+0.606
+10 - 8
+
+ Santa Clara Broncos 
+17
+16
+0.515
+10 - 8
+
+ Loyola Marymount Lions 
+15
+15
+0.500
+8 - 10
+
+ San Diego Toreros 
+13
+18
+0.419
+6 - 12
+
+ Pepperdine Waves 
+9
+22
+0.290
+5 - 13
+
+ Pacific Tigers 
+11
+22
+0.333
+4 - 14
+
+ Portland Pilots 
+11
+22
+0.333
+2 - 16
+
+Clinched Conference
+^ Jump to top

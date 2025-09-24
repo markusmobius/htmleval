@@ -1,0 +1,32 @@
+Can you solve it? Le Sudoku français est arrivé!
+Paris: the city claims it has the most research mathematicians in the world. Photograph: Zakaria Abdelkafi/AFP/Getty Images 
+
+Bonjour guzzleurs!
+Today’s puzzle comes from France. It is called Garam, and provides some spice for the brain....
+Like Sudoku, you need to write numbers in a grid. And the rules are self explanatory. Fill in the squares with single digits so that each line and column is a valid equation. Two digit numbers cannot begin with a 0.
+I have four examples of increasing difficulty. You might want to print them out, and in that case click here for a printable version. Otherwise here are the first two:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note: as you can see from the first example, a 1 above a 2 means 12.
+
+The name Garam sadly has nothing to do with with Indian curry powder but is an amalgamation of Gaëlle and Ramsés: the latter, Ramsés Bounkeo Safo, is the 28-year-old French inventor of the puzzle; the former is his fiancée.
+Garam has been fêted with a prestigious French award. The Concours Lépine, which has been going since 1901, is an annual competition for inventors. Its winning inventions include, for example, a machine for pureeing vegetables by the man who went on to found Moulinex. At the 2016 concours, Garam was awarded a gold medal.
+I find Garam a very satisfying puzzle. It’s a mixture of logic and basic arithmetic. Here are the more difficult ones. Bonne chance!
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Facebook Twitter Pinterest
+
+If you are getting stuck, it can help to write down all the possible numbers in each cell as you proceed to the solution. Think Liberty, Equality and Parity!
+I’ll post the solutions (with some extra hints) at 5pm today.

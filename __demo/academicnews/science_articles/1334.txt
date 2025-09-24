@@ -1,0 +1,58 @@
+The latest winter storms have been deadly. But are cold snaps deadlier than heat waves?
+Answer: it’s complicated.
+ By 
+ 
+ 
+ 
+An ambulance drives through Boston as the snow begins to fall during a massive winter storm on January 4, 2018.
+
+Writing in the Wall Street Journal in 2016, Danish commentator Bjørn Lomborg, who has questioned many of the risks of climate change, claimed that warming temperatures will “reduce the number of cold days and cold spells. That will cut the total number of cold-related deaths.”
+It sounded plausible. But since then, it’s been clear that cold snaps can still be very deadly: Frigid temperatures in the Eastern United States this month led to more than two dozen deaths, including 10 deaths this week from snow, ice, and record cold in the South. 
+In 2017, the third-hottest year on record, we also saw dozens of deaths as record-setting heat baked swaths of the country from the Pacific Northwest to the Southeast. It was part of a devastating, record-setting disaster year, with an endless cycle of extreme heat, torrential rain, hurricanes, wildfires, floods, and cold. 
+Scientists expect some of these events to become more severe and frequent as the climate changes, but they’re still grappling with how to anticipate and prepare for conditions like cold snaps and heat waves to keep them from becoming deadlier. 
+One surprisingly difficult question is figuring out what’s more dangerous: the cold or the heat? 
+“That’s a very controversial issue, actually,” said Patrick Kinney, a professor of public health at Boston University. “As scientists, we haven’t come to an agreement, especially about the future impacts of climate change.”
+The research breaks down into two broad camps, with one finding that the heat is more deadly and the other finding cold temperatures to be the greater threat.
+And when it comes to the effects of rising average temperatures around the world, there’s another bifurcation. One group finds that climate change has a silver lining in reduced deaths from the cold, while the other holds that deaths from the cold will barely budge since it’s not the cold itself that’s dangerous, but associated factors like increased disease transmission in cold weather.
+Here’s what we understand about the dangers of high and low temperatures so far. 
+Heat and cold are an underrated danger
+Most people have dealt with discomfort at both ends of the temperature spectrum, so it’s not hard to believe that extremes in either direction can quickly become dangerous. However, researchers have struggled to figure out just how much temperature is to blame when hospital visits rise during periods of heat and cold.
+For starters, it’s difficult to link any individual death to a temperature extreme, since fatalities don’t often come from the heat and cold per se, but from worsening underlying conditions like asthma and high blood pressure.
+Scientists have a good understanding of the temperature limits of the human body, so it stands to reason that as the weather reaches these danger zones, more people will die. The World Meteorological Organization reported that heat-related deaths and illnesses have risen steadily since 1980, and now 30 percent of the world’s population lives in regions vulnerable to heat waves. 
+But the advent of artificial heating and cooling has blunted these effects, and as temperatures rise, air conditioning will likely become more common, allowing people to adapt to warmer climates. That means a projection of warming will not necessarily have an equivalent increase in illnesses and deaths.
+One estimate reported in a 2015 analysis of deaths in 13 countries in The Lancet attributed about 8 percent of mortality to “non-optimum temperature.” This includes shifts toward both heat and cold, accounting for a larger percentage of deaths than traffic accidents, diarrheal disease, and tuberculosis combined. 
+Yet temperature deaths don’t raise the same amount of alarm as storms and floods since the effects are obscured behind conditions like heart attacks and strokes, so public health officials often invest fewer resources in mitigating temperature effects than they do for preventing influenza and dealing with allergies. And many people in areas vulnerable to temperature swings don’t take it as seriously as they should. 
+“If people turned blue from cold events, and people who died of heat turned red, there would be a hell of a lot more research in this area,” said Adrian Barnett, a professor of public health at the Queensland University of Technology in Brisbane, Australia. “It would be a national emergency.” 
+And depending on how you structure your study, heat, or cold, can emerge as the deadlier phenomenon. One calculation from the National Weather Service pegged heat as three times deadlier than cold, while the 2015 Lancet paper found cold was 20 times deadlier than heat. 
+Even moderate shifts in temperature can be deadly
+When zooming out to study health at the level of cities or countries rather than individuals, temperature swings lead to distinct increases in emergency room visits and deaths. And it’s not just the searing heat and frigid cold; moderate changes in temperature can lead to surges in morbidity and mortality. 
+Barnett has been studying this phenomenon in Brisbane, a city of 1.9 million people on Australia’s east coast. Temperatures there are temperate year-round, usually between 68 and 77 degrees Fahrenheit. Extremes rarely dip below 50 degrees Fahrenheit or climb above 84 degrees Fahrenheit. 
+As a result, many homes in the city lack insulation and air conditioning, so indoor temperatures are directly linked to outdoor weather, creating a very narrow comfort zone and making Brisbane an ideal laboratory to study how temperature influences health. 
+In a 2012 study in Nature Climate Change, Barnett and his co-authors reported how temperature changes in Brisbane influenced years of life lost, a metric that helps account for age differences at the time of death. A person dying at 84 whose life expectancy is 85 would count as one year of life lost, compared to a 25-year-old’s death with the same life expectancy, which weighs as 60 years of life lost. Using this metric helps illustrate the societal value of the lives lost, according to Barnett.
+
+The temperature effects on the relative risk of mortality (top row) and years of life lost (bottom row) in Brisbane between 1996 and 2004.
+
+The results showed that fatalities increased as soon as temperatures shifted away from 75 degrees Fahrenheit in either direction, and the effect was stronger in women than in men. It also showed that heat is more dangerous than the cold on balance.
+But the 2015 Lancet paper, which looked at more than 74 million deaths between 1984 and 2012, reported that the cold is deadlier and that people responded to changes in temperature differently depending on the city they’re in. 
+
+Relative risks of temperature changes across four US cities. You can see how below-average temperatures (blue curve) in warm cities are more deadly, and the opposite effect with higher temperatures (red curve) in cooler cities.
+
+Hot temperatures are more dangerous in a city that’s cooler year-round like Buffalo, New York, while chilly weather in the warmer climes of Brownsville, Texas, is deadlier. This is likely due to the fact that people acclimate to a certain climate, whether through their physiology or through homes and workplaces that protect them from the average local weather.
+Both studies showed that temperatures didn’t have to reach extremes before becoming dangerous. In fact, since temperature extremes are rare, moderate shifts outside the norm accounted for the most harm in a given population.
+We’re not sure how heat and cold harm health across a population
+Both high and low temperatures have direct effects on the human body, but it’s not clear that’s what’s driving the surge in deaths outside the Goldilocks zone for a city. 
+Cold, for example, stresses the heart and lungs as the body works to maintain its core temperature. Researchers have found that heart-related hospitalizations increase shortly after a snowstorm blankets a region. 
+However, in cold weather, people tend to stay indoors. Spending more hours in an enclosed space with others increases the likelihood of transmitting viruses like influenza, while dry indoor air can increase the susceptibility to these infections. As such, in cold weather the increase in deaths may not come from the temperature per se. 
+Similarly, heat is a health stressor, but most people living in areas prone to heat in the United States have air conditioning. On the other hand, high temperatures worsen air pollutants like ozone, which can damage lungs.
+Distinguishing whether a hospital visit or a death is due directly to a change in temperature or to a secondary effect is difficult to elucidate from population studies. However, it’s worth figuring out where the actual danger is coming from so public health officials can design interventions that save lives. 
+One thing that’s clear: climate change will make things worse
+As average temperatures rise, the frequency and duration of heat waves will go up, and so will deaths and illness associated with them. Spikes that occurred once every 20 years will occur every two years by the end of the century, with some parts of the world poised to experience temperature surges that make them uninhabitable for humans. 
+Temperature variability and unseasonal heat events will also become more risky.
+“Our research has shown that heat waves that occur earlier in the warm season are generally more harmful to health than those that occur later,” said Michelle Bell, a professor of environmental health at Yale University, in an email. “Further, while climate change results in overall warmer temperatures, the variability of temperature is also impacted with more extreme cold and heat, which can impact health.”
+Variability can be harmful because a sudden increase or decrease in temperature can catch us off guard, leaving us ill-prepared to handle the weather, unlike the slower seasonal changes that allow us to acclimate with heating and cooling. 
+Does that mean global warming will help keep us from freezing to death? If the harm from cold stems from direct exposure to chilly weather, then yes. But if cold-weather fatalities come from infections and the like, then climate change will likely have a negligible impact. 
+And as heat waves become more common, hospitalizations and deaths due to changes in temperatures are poised to increase overall in the coming century.
+“What we end up gaining in the cold end, we might end up losing at the hot end,” Barnett said. 
+Was this article helpful?
+ yes no 
+Awesome, share it:

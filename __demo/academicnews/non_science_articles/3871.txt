@@ -1,0 +1,592 @@
+Atlanta Falcons Roster - NFL Football
+special-teams TEAM LEADERS
+KICKING
+M. Bryant
+87.18 FG%
+PUNTING
+M. Bosher
+44.89 AVG YDS
+KICK RETURNING
+A. Roberts
+860 YDS
+View All Player Statistics
+OFFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 11 
+ Julio Jones 
+ WR 
+ 29 
+ 75 
+ 220 
+ 1989-02-03 
+ Alabama 
+ active 
+ 12 
+ Mohamed Sanu 
+ WR 
+ 29 
+ 74 
+ 210 
+ 1989-08-22 
+ Rutgers 
+ active 
+ 14 
+ Justin Hardy 
+ WR 
+ 27 
+ 70 
+ 192 
+ 1991-12-18 
+ East Carolina 
+ active 
+ 15 
+ Nick Williams 
+ WR 
+ 28 
+ 70 
+ 184 
+ 1990-11-23 
+ Connecticut 
+ active 
+ 16 
+ Reggie Davis 
+ WR 
+ 23 
+ 72 
+ 170 
+ 1995-11-22 
+ Georgia 
+ active 
+ 17 
+ Marvin Hall 
+ WR 
+ 25 
+ 70 
+ 190 
+ 1993-04-10 
+ Washington 
+ active 
+ 18 
+ Taylor Gabriel 
+ WR 
+ 27 
+ 68 
+ 167 
+ 1991-02-17 
+ Abilene Christian 
+ active 
+ 19 
+ Andre Roberts 
+ WR 
+ 30 
+ 71 
+ 192 
+ 1988-01-09 
+ The Citadel 
+ active 
+ 2 
+ Matt Ryan 
+ QB 
+ 33 
+ 76 
+ 217 
+ 1985-05-17 
+ Boston College 
+ active 
+ 24 
+ Devonta Freeman 
+ RB 
+ 26 
+ 68 
+ 206 
+ 1992-03-15 
+ Florida State 
+ active 
+ 25 
+ Terrence Magee 
+ RB 
+ 25 
+ 69 
+ 220 
+ 1993-03-16 
+ LSU 
+ active 
+ 26 
+ Tevin Coleman 
+ RB 
+ 25 
+ 73 
+ 210 
+ 1993-04-16 
+ Indiana 
+ active 
+ 28 
+ Terron Ward 
+ RB 
+ 26 
+ 67 
+ 201 
+ 1992-02-15 
+ Oregon State 
+ active 
+ 40 
+ Derrick Coleman 
+ FB 
+ 28 
+ 72 
+ 233 
+ 1990-10-18 
+ UCLA 
+ active 
+ 51 
+ Alex Mack 
+ C 
+ 33 
+ 76 
+ 311 
+ 1985-11-19 
+ California 
+ active 
+ 63 
+ Ben Garland 
+ G 
+ 30 
+ 77 
+ 308 
+ 1988-04-06 
+ Air Force 
+ active 
+ 64 
+ Sean Harlow 
+ G 
+ 23 
+ 76 
+ 284 
+ 1995-03-28 
+ Oregon State 
+ active 
+ 67 
+ Andy Levitre 
+ G 
+ 32 
+ 74 
+ 303 
+ 1986-05-15 
+ Oregon State 
+ active 
+ 68 
+ Austin Pasztor 
+ OL 
+ 28 
+ 79 
+ 305 
+ 1990-11-26 
+ Virginia 
+ active 
+ 71 
+ Wes Schweitzer 
+ G 
+ 25 
+ 77 
+ 314 
+ 1993-09-11 
+ San Jose State 
+ active 
+ 75 
+ Jamil Douglas 
+ G 
+ 26 
+ 76 
+ 308 
+ 1992-02-28 
+ Arizona State 
+ active 
+ 8 
+ Matt Schaub 
+ QB 
+ 37 
+ 78 
+ 245 
+ 1981-06-25 
+ Virginia 
+ active 
+ 80 
+ Levine Toilolo 
+ TE 
+ 27 
+ 80 
+ 265 
+ 1991-07-30 
+ Stanford 
+ active 
+ 81 
+ Austin Hooper 
+ TE 
+ 24 
+ 76 
+ 248 
+ 1994-11-04 
+ Stanford 
+ active 
+ 85 
+ Eric Saubert 
+ TE 
+ 24 
+ 77 
+ 253 
+ 1994-05-01 
+ Drake 
+ active 
+ 89 
+ Alex Gray 
+ TE 
+ 27 
+ 76 
+ 231 
+ 1991-05-01 
+ Barnard Castle School 
+ active 
+ 9 
+ Garrett Grayson 
+ QB 
+ 27 
+ 74 
+ 220 
+ 1991-05-29 
+ Colorado State 
+ active 
+DEFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 20 
+ Sharrod Neasman 
+ S 
+ 27 
+ 72 
+ 198 
+ 1991-10-14 
+ Florida Atlantic 
+ active 
+ 21 
+ Desmond Trufant 
+ CB 
+ 28 
+ 72 
+ 190 
+ 1990-09-10 
+ Washington 
+ active 
+ 22 
+ Keanu Neal 
+ S 
+ 23 
+ 72 
+ 211 
+ 1995-07-26 
+ Florida 
+ active 
+ 23 
+ Robert Alford 
+ CB 
+ 30 
+ 70 
+ 186 
+ 1988-11-01 
+ Southeastern Louisiana 
+ active 
+ 27 
+ Damontae Kazee 
+ CB 
+ 25 
+ 71 
+ 174 
+ 1993-06-05 
+ San Diego State 
+ active 
+ 33 
+ Blidi Wreh-Wilson 
+ CB 
+ 29 
+ 73 
+ 190 
+ 1989-12-05 
+ University of Connecticut 
+ active 
+ 34 
+ Brian Poole 
+ CB 
+ 26 
+ 70 
+ 211 
+ 1992-10-20 
+ Florida 
+ active 
+ 35 
+ Leon McFadden 
+ DB 
+ 28 
+ 70 
+ 195 
+ 1990-10-26 
+ San Diego State 
+ active 
+ 36 
+ Kemal Ishmael 
+ S 
+ 27 
+ 72 
+ 206 
+ 1991-05-06 
+ Central Florida 
+ active 
+ 37 
+ Ricardo Allen 
+ S 
+ 27 
+ 69 
+ 186 
+ 1991-12-18 
+ Purdue 
+ active 
+ 38 
+ Marcelis Branch 
+ S 
+ 24 
+ 71 
+ 180 
+ 1994-01-19 
+ Robert Morris 
+ active 
+ 39 
+ Deante Burton 
+ DB 
+ 24 
+ 74 
+ 205 
+ 1994-07-12 
+ Kansas State 
+ active 
+ 41 
+ Quincy Mauger 
+ S 
+ 23 
+ 72 
+ 206 
+ 1995-03-04 
+ Georgia 
+ active 
+ 42 
+ Duke Riley 
+ LB 
+ 24 
+ 73 
+ 218 
+ 1994-08-09 
+ LSU 
+ active 
+ 44 
+ Vic Beasley 
+ LB 
+ 26 
+ 75 
+ 246 
+ 1992-07-08 
+ Clemson 
+ active 
+ 45 
+ Deion Jones 
+ LB 
+ 24 
+ 73 
+ 222 
+ 1994-11-04 
+ LSU 
+ active 
+ 50 
+ Brooks Reed 
+ DE 
+ 31 
+ 75 
+ 254 
+ 1987-02-28 
+ Arizona 
+ active 
+ 52 
+ Jordan Tripp 
+ LB 
+ 27 
+ 75 
+ 234 
+ 1991-04-03 
+ Montana 
+ active 
+ 53 
+ LaRoy Reynolds 
+ LB 
+ 28 
+ 73 
+ 240 
+ 1990-11-03 
+ Virginia 
+ active 
+ 55 
+ J'Terius Jones 
+ DE 
+ 25 
+ 75 
+ 245 
+ 1993-11-12 
+ Miami (Ohio) 
+ active 
+ 56 
+ Sean Weatherspoon 
+ LB 
+ 31 
+ 74 
+ 244 
+ 1987-12-29 
+ Missouri 
+ active 
+ 59 
+ De'Vondre Campbell 
+ LB 
+ 25 
+ 76 
+ 232 
+ 1993-07-03 
+ Minnesota 
+ active 
+ 77 
+ Joey Ivie 
+ DT 
+ 23 
+ 75 
+ 295 
+ 1995-01-22 
+ Florida 
+ active 
+ 79 
+ Ahtyba Rubin 
+ DT 
+ 32 
+ 74 
+ 310 
+ 1986-07-25 
+ Iowa State 
+ active 
+ 90 
+ Derrick Shelby 
+ DE 
+ 29 
+ 74 
+ 280 
+ 1989-03-04 
+ Utah 
+ active 
+ 91 
+ Courtney Upshaw 
+ DT 
+ 29 
+ 74 
+ 272 
+ 1989-12-13 
+ Alabama 
+ active 
+ 93 
+ Taniela Tupou 
+ DL 
+ 26 
+ 73 
+ 284 
+ 1992-12-13 
+ Washington 
+ active 
+ 95 
+ Jack Crawford 
+ DE 
+ 30 
+ 77 
+ 288 
+ 1988-09-07 
+ Penn State 
+ active 
+ 96 
+ Martin Ifedi 
+ DE 
+ 27 
+ 75 
+ 275 
+ 1991-09-04 
+ Memphis 
+ active 
+ 97 
+ Grady Jarrett 
+ DT 
+ 25 
+ 72 
+ 305 
+ 1993-04-28 
+ Clemson 
+ active 
+ 98 
+ Takkarist McKinley 
+ DE 
+ 23 
+ 74 
+ 250 
+ 1995-11-02 
+ UCLA 
+ active 
+ 99 
+ Adrian Clayborn 
+ DE 
+ 30 
+ 75 
+ 280 
+ 1988-07-06 
+ Iowa 
+ active 
+SPECIAL TEAMS
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 47 
+ Josh Harris 
+ LS 
+ 29 
+ 73 
+ 224 
+ 1989-04-27 
+ Auburn 
+ active 
+ 5 
+ Matt Bosher 
+ P 
+ 31 
+ 72 
+ 208 
+ 1987-10-18 
+ Miami (Fla.) 
+ active 
+^ Jump to top

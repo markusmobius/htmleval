@@ -1,0 +1,45 @@
+At least 18 million Americans were at risk of drinking lead-contaminated water last year.
+More than 18 million Americans may have received water from lead-contaminated pipes in 2015, according to a new study released Tuesday by the Natural Resources Defense Council (NRDC).
+The new study looks at where communities have failed to reduce high lead levels in the water — or places where they haven’t properly tested for exposure in the first place. It suggests that the risk of lead contamination in American water is more prevalent than once realized — and that the tragedy in Flint, Michigan, may be far from an isolated event.
+"Providing safe drinking water to citizens is a fundamental government service," said study author Erik Olson. "If you’re not doing that, you’re not doing your job."
+More than 5,000 community water systems violated a federal lead rule
+NRDC analyzed thousands of Environmental Protection Agency violation and enforcement records and found 5,363 community water systems that were in violation of the Lead and Copper Rule, a federal requirement for monitoring of lead and copper levels in water.
+The NRDC report found 1,110 water systems that exceed the action level for lead (15 parts per billion in at least 10 percent of homes tested). These systems collectively served nearly 4 million people.
+NRDC also examined violations data reported to the EPA. Violations filed with the EPA generally fall into three main categories:
+Failure to treat to reduce lead levels in the water (health violations)
+Failure to properly test water for lead or condition that could result in lead contamination as required by law (monitoring violations)
+Failure to report contamination to the public or the government (reporting violations)
+These are counties where known EPA violations exist and water delivery services failed to protect their customers, gravely endangering their health.
+There were 214 water systems, for example, that failed to reduce known lead levels in water, putting more than half a million people in serious jeopardy of lead poisoning.
+The NRDC mapped the potentially contaminated water systems by county and found violations in every single state. And in some states, like Arizona, there were violations reported in every single county.
+
+A screenshot of the interactive map NRDC produced of counties with water systems in violation of the EPA’s Lead and Copper Rule.
+
+For an interactive version of this map, check out NRDC’s online report. At the bottom of this story, you can also see an interactive table of the 100 largest community water systems with reported EPA violations in 2015.
+One glaring omission: Flint is missing from the data, which means the problem could be even worse than it seems
+Despite national outrage earlier this year about the lead poisoning crisis in Flint, Michigan’s Department of Environmental Quality (MDEQ) has still not officially reported Flint in violation of the Lead and Copper Rule. It doesn’t show up in the NRDC data set even though Michigan’s attorney general freely acknowledges that the law was violated.
+This is especially troubling because if what happened in Flint isn’t in the EPA database, many more violations across the country are likely unreported and hidden from the public eye.
+The NRDC report authors, Olson and Kristi Fedinick, said there are several reasons violations go underreported, ranging from general government inefficiency to deliberate obfuscation of the data, as we saw in Flint, where outdated testing methods were purposely used in order to avoid detecting contamination.
+And based on their analysis, Olson and Fedinick fear the data contained in their report is incomplete. It might only reflect a small subset of what is likely a far more serious and much larger national problem.
+It wasn’t just a lack of regulatory oversight in Flint. Ninety percent of violations are not subject to enforcement.
+The EPA was aware of a potential lead crisis in Flint at least as early as February 2015, but this didn’t stop MDEQ from continuing to dismiss claims that there was a problem.
+And unfortunately, it turns out this is pretty standard for how known violations are handled.
+In 2015, the EPA took formal enforcement action against just 11.2 percent of the more than 8,000 reported violations — which means 88.8 percent of all violations were not enforced or followed up on in any way.
+And of those 11.2 percent of violations where there was at least some action undertaken by the EPA, only 3 percent of violations sought or resulted in actual penalties.
+This sends an unmistakable message to water suppliers that knowingly violate the Lead and Copper Rule — there is no accountability for failing to ensure America’s drinking water is safe.
+What’s more, it’s America’s low-income neighborhoods and communities of color that are disproportionately impacted. A 2014 paper found that social disparities exist in accessing clean water and that lower-income communities are at greater risk for exposure to drinking water contaminants.
+NRDC is in the process of analyzing racial and socioeconomic patterns of drinking water violations to suss out to what extent this disparity can be documented nationally.
+To prevent another Flint, America must act fast to fix its crumbling water infrastructure and beef up EPA enforcement powers
+Professional civil engineers estimate that overhauling America’s drinking water system and bringing it up to code will cost at least $1 trillion over the next 25 years.
+More than 6 million lead lines nationwide must be replaced, and many distribution points are suffering from decay or need outdated parts replaced. Plus, there are many drinking water plants in the US in dire need of maintenance and improvement.
+But congressional funding currently hovers at a little over $2 billion annually for clean water infrastructure, which will not be enough to foot the bill. Even if funding levels are restored to $8 billion, as stipulated under the 2009 American Recovery and Reinvestment Act, it still won’t be enough.
+Legislative action is needed.
+In February earlier this year, Democratic Sens. Dick Durbin (IL) and Ben Cardin (MD) introduced the CLEAR Act, which outlines more robust measures for monitoring and testing lead and copper levels in our drinking water.
+The bill calls for the establishment of check-ins from various health agencies for individual households that report tests above the action level of 15 ppb in addition to increasing outreach to consumers with known lead service lines and other vulnerable populations.
+"No longer can we sit idly by. Flint is not an isolated example," Durbin said in a conference call. "It calls on us to show leadership. Local governments by themselves can’t do it. States by themselves can’t do it. And the federal government by itself can’t do it. We need a coordinated effort at all levels so they won’t become the next Flint, Michigan."
+The proposed amendment is currently stuck in committee with only one other co-sponsor of the bill.
+But the NRDC report goes one step further, calling for a radical overhaul of the EPA’s existing Lead and Copper Rule.
+The report suggests that the law should be amended to replace all existing lead service lines and to prohibit water suppliers from using testing strategies that bypass the detection — or reporting — of lead contamination. In addition, the report calls for ongoing public education around the topic of lead in our drinking water.
+Was this article helpful?
+ yes no 
+Awesome, share it:

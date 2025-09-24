@@ -1,0 +1,32 @@
+Records: Energy Department struck by cyber attacks
+CLOSE
+
+ USA TODAY producer Shannon Rae Green talks with investigative reporter Steve Reilly about the more than 150 times that cyber attackers successfully compromised the security of U.S. Department of Energy computer systems. USA TODAY
+Attackers successfully compromised U.S. Department of Energy computer systems more than 150 times between 2010 and 2014, a review of federal records obtained by USA TODAY finds.
+
+CONNECTTWEETLINKEDINEMAILMORE
+Corrections & clarifications: An earlier version of this story contained conflicting information about the number of successful cyber intrusions involving the U.S. Department of Energy from October 2010 to October 2014. Records show 159 successful cyber intrusions.
+Cyber attackers successfully compromised the security of U.S. Department of Energy computer systems more than 150 times between 2010 and 2014, according to a review of federal records obtained by USA TODAY.
+Incident reports submitted by federal officials and contractors since late 2010 to the Energy Department's Joint Cybersecurity Coordination Center shows a near-consistent barrage of attempts to breach the security of critical information systems that contain sensitive data about the nation's power grid, nuclear weapons stockpile and energy labs.
+The records, obtained by USA TODAY through the Freedom of Information Act, show DOE components reported a total of 1,131 cyberattacks over a 48-month period ending in October 2014. Of those attempted cyber intrusions, 159 were successful.
+"The potential for an adversary to disrupt, shut down (power systems), or worse … is real here," said Scott White, Professor of Homeland Security and Security Management and Director of the Computing Security and Technology program at Drexel University. "It's absolutely real."
+Energy Department officials would not say whether any sensitive data related to the operation and security of the nation's power grid or nuclear weapons stockpile was accessed or stolen in any of the attacks, or whether foreign governments are believed to have been involved.
+"DOE does not comment on ongoing investigations or possible attributions of malicious activity," Energy Department spokesman Andrew Gumbiner said in a statement.
+In all cases of malicious cybersecurity activity, Gumbiner said the Energy Department "seeks to identify indicators of compromise and other cybersecurity relevant information, which it then shares broadly amongst all DOE labs, plants, and sites as well as within the entire federal government."
+The National Nuclear Security Administration, a semi-autonomous agency within the Energy Department responsible for managing and securing the nation's nuclear weapons stockpile, experienced 19 successful attacks during the four-year period, records show.
+While information on the specific nature of the attacks was redacted from the records prior to being released, numerous Energy Department cybersecurity vulnerabilities have been identified in recent years by the department's Office of Inspector General, an independent watchdog agency.
+After a cyber attack in 2013 resulted in unauthorized access to personally identifying information for more than 104,000 Energy Department employees and contractors, auditors noted "unclear lines of responsibility" and "lack of awareness by responsible officials." In an audit report released in October of last year, the Inspector General found 41 Energy Department servers and 14 workstations "were configured with default or easily guessed passwords."
+
+Felicia Jones, spokeswoman for the Energy Department Office of Inspector General, said while there have been some improvements, "threats continue and the Department cannot let down its guard."
+Records show 53 of the 159 successful intrusions from October 2010 to October 2014 were "root compromises," meaning perpetrators gained administrative privileges to Energy Department computer systems.
+Manimaran Govindarasu, a professor in the Department of Electrical and Computer Engineering at Iowa State University who studies cybersecurity issues involving the power grid, said the root compromises represent instances where intruders gained "super-user" privileges.
+"That means you can do anything on the computer," he said. "So that is definitely serious. Whether that computer was critical or just a simple office computer, we don't know."
+Govindarasu said while there could be information in Energy Department computer systems concerning security plans or investments related to the nation's power grid, the grid's real-time control systems are operated by utilities and are not directly connected to the Energy Department's computer systems.
+The Energy Department federal laboratories, however, sometimes pull data on the operation of the grid from utilities for research and analysis.
+Records show 90 of the 159 successful cyber intrusions over the four-year period were connected to the DOE's Office of Science, which directs scientific research and is responsible for 10 of the nation's federal energy laboratories.
+A USA TODAY Media Network report in March found a physical or cyber attack nearly once every four days on the nation's power infrastructure, based on an analysis of reports to the U.S. Department of Energy through a separate reporting system which requires utility companies to notify the federal agency of incidents that affect power reliability.
+Amid mounting concerns, the oversight and energy subcommittees of the House Committee on Science, Space and Technology will hold a joint hearing at 10 a.m. Thursday to examine vulnerabilities of the national electric grid and the severity of various threats.
+The congressional committee's charter for Thursday's meeting, citing USA TODAY's report in March, notes the growing vulnerability of the nation's increasingly sophisticated bulk electric system.
+"As the electric grid continues to be modernized and become more interconnected," the charter states, "the threat of a potential cybersecurity breach significantly increases."
+CONNECTTWEETLINKEDINEMAILMORE
+Read or Share this story: http://usat.ly/1UHrXGv

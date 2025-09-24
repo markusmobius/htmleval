@@ -1,0 +1,29 @@
+Are You A Night Owl? It May Be A Gene Mutation
+Do you get your best work done late at night and then struggle to wake up in the morning? New research suggests your night owl tendencies could be hard-wired in your genes.
+In the new study, researchers looked at 70 people from six families and found that a mutation in a gene called CRY1 was common among those who have a condition known as delayed sleep phase disorder (DSPD). In people with this condition, the circadian clock runs behind, so they wake up later than normal, and go to bed later than normal.
+The mutation was absent in the members of these same families who did not have DSPD, the researchers said. In addition, the researchers showed in lab experiments that this gene may play a key role in driving the circadian clock. [Top 10 Spooky Sleep Disorders]
+This is the first genetic mutation found to be associated with DSPD, the researchers said.
+“Carriers of the mutation have longer days than the planet gives them, so they are essentially playing catch-up for their entire lives,” Alina Patke, the lead author of the study and a research associate in the Laboratory of Genetics at The Rockefeller University, said in a statement from Cell Press. The findings are published today (April 6) in the journal Cell.
+Daily rhythms
+The circadian clock is an internal rhythm that guides nearly all life on Earth. In people, it dictates when one feels tired, hungry or awake. It even regulates body temperature. Most people are hard-wired to a 24-hour clock, but up to 10 percent of peoplewith DSPD follow an internal clock that runs on a longer loop.
+“A person like a bartender, for example, might not experience any problem with the delayed sleep cycle,” Patke told Live Science. “But someone like a surgeon who has to be in the OR in the early morning – that’s not compatible.”
+Patke and her colleagues first identified the DSPD-linked mutation seven years ago, in a 46-year-old U.S. woman who had come to a sleep clinic after a long struggle with her late sleep cycle.
+Patke’s team andother researchers analyzed the woman’s natural sleep patterns. She was placed in an apartment for two weeks that was isolated from all time cues. [5 Surprising Sleep Discoveries]
+“It didn’t have windows, TV or internet,” Patke said. “Then we told her to live on her own timeline and to eat and sleep according to what her body told her to do.”
+In this isolation, the woman settled into a rhythm that stretched about 1 hour longer than the typical 24-hour circadian cycle, and her sleep was fragmented, Patke said.
+In sequencing her genes, the researchers identified the CRY1 mutation. The mutation is a single-point mutation in the CRY1 gene, meaning just one “letter” in its genetic instructions is off.
+In the new study, Patke’s team confirmed CRY1 genetic mutation’s link to delayed sleep phase disorder by looking for the mutation among the woman’s extended family, and in other population samples.
+Using a database of genomic information for people in Turkey, the researchers identified people who carried the mutation in CRY1. In collaboration with researchers at Bilkent University in Ankara, Turkey, the researchers reached out to these people, and were able to conduct interviews and perform further DNA sequencing with the members of six families.
+Among the Turkish family members, 39 carried the CRY1 mutation, and 31 did not. Data revealed that the sleep cycles of those carrying the gene were clearly late-shifted. Their midpoint of sleep naturally fell between 6 a.m. and 8 a.m., while the midpoint of sleep for those who did not carry the mutation fell around 4 a.m. [5 Things You Must Know About Sleep]
+Other genetic causes?
+Clinical studies estimate that up to 10 percent of people experience delayed sleep phase disorder, and not all the cases may be linked to this single mutation, the researchers said.
+In fact, Patke said that she is a night owl and often works late into the night. But she does not carry the CRY1 mutation.
+“I checked,” she said. “Not everybody who had this behavior necessarily has this mutation, but it does seem to have an effect on a large part of the population.”
+There are likely other underlying genetic causes for the condition, Patke said.
+Still, identifying at least one genetic mutation behind the sleep disorder represents an important step.
+“Understanding how the rhythms are controlled opens the door to eventually manipulating them with drugs,” Patke said.
+Also, she said that if a drug is eventually found to help night owls align their sleep schedules to normal patterns, a similar pathway could tapped to help travelers deal with jet lag.
+In the meantime, the researchers emphasized there are strategies that people with delayed sleep phase disorder can use to try to reset their clocks.
+Patke advised practicing “good sleep hygiene,” which involves going to bed at a set time every night, even on weekends, and waking up at a set time each morning. Avoiding bright lights (including laptops and smartphones) at night also helps, as does exposing yourself to the sunlight first thing in the morning.
+“Even if you have this mutation, it’s not unchangeable destiny,” Patke said. “There are steps you can take to try and match your internal rhythms to the outside world.”
+Original article on Live Science.

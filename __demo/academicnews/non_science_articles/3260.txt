@@ -1,0 +1,533 @@
+GOLF Schedule - GOLF
+Sports
+NFL 
+MLB 
+NBA 
+NHL 
+NCAAF 
+Olympics 
+NCAAB 
+Golf 
+NASCAR 
+UFC 
+Fantasy 
+MoreIndycar 
+Golfweek 
+Boxing 
+Tennis 
+High School 
+Soccer 
+MMA 
+Motor Sports 
+WNBA 
+Horse Racing 
+Cycling 
+College 
+NCAAW 
+Video 
+For The Win 
+Golf
+Main
+Leaderboard
+Schedule
+Stats
+Standings
+PGA Tour
+LPGA
+More
+Mlb
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Salaries
+Teams
+MoreRankings
+Injuries
+Transactions
+Fantasy Baseball
+Sagarin Ratings
+BaseballHQ.com
+TheBigLead.com
+Nascar
+Main
+Results
+Schedule
+Standings
+IndyCar
+MoreSagarin Ratings
+TheBigLead.com
+Nba
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreRankings
+Injuries
+Transactions
+Sagarin Ratings
+NBA Packages
+HoopsHype
+TheBigLead.com
+Ncaab
+Main
+Bracket Challenge
+Scores
+Schedule
+Polls
+MoreStandings
+Odds
+Teams
+Injuries
+Coaches Salaries
+Sagarin Ratings
+HoopsHype
+TheBigLead.com
+Ncaaf
+Main
+Fan Index
+Scores
+Polls
+MoreOdds
+Teams
+Schedule
+Standings
+Statistics
+Injuries
+Transactions
+Coaches Salaries
+Sagarin Ratings
+TheBigLead.com
+Nfl
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreRankings
+NFL Arrests
+Injuries
+Transactions
+Fantasy Football
+Sagarin Ratings
+NFL Packages
+TheHuddle.com
+TheBigLead.com
+Nhl
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreOdds
+Rankings
+Injuries
+Transactions
+Salaries
+Sagarin Ratings
+TheBigLead.com
+Soccer
+Main
+ScoresMLS
+ScheduleMLS
+StandingsMLS
+TeamsMLS
+MLS Photo Store
+MoreMLS Photo Store
+Sagarin MLS Ratings
+Wnba
+Main
+Scores
+Schedule
+Standings
+Statistics
+Odds
+Teams
+MoreOdds
+Injuries
+DATE
+TOURNAMENT
+CITY/SITE
+STATE/COUNTRY
+PAR
+YARDS
+TOTAL PURSE
+WINNER
+ Jan 6 - Jan 9 
+ Hyundai Tournament of Champions 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,600,000 
+ Jonathan Byrd 
+ Jan 13 - Jan 16 
+ Sony Open in Hawaii 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,500,000 
+ Mark Wilson 
+ Jan 19 - Jan 23 
+ Bob Hope Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,000,000 
+ Jhonattan Vegas 
+ Jan 27 - Jan 30 
+ Farmers Insurance Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,800,000 
+ Bubba Watson 
+ Feb 3 - Feb 7 
+Waste Management Phoenix Open
+ Scottsdale 
+ Arizona 
+ 71 
+ -- 
+ $ 6,100,000 
+ Mark Wilson 
+ Feb 10 - Feb 13 
+AT&T Pebble Beach National Pro-Am
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,300,000 
+ D.A. Points 
+ Feb 17 - Feb 20 
+ Northern Trust Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,500,000 
+ Aaron Baddeley 
+ Feb 23 - Feb 27 
+ WGC- Accenture Match Play Championship 2011 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,500,000 
+ Luke Donald 
+ Feb 24 - Feb 27 
+Mayakoba Golf Classic
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 3,700,000 
+ Johnson Wagner 
+ Mar 3 - Mar 6 
+The Honda Classic
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,700,000 
+ Rory Sabbatini 
+ Mar 10 - Mar 13 
+Puerto Rico Open
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 3,500,000 
+ Michael Bradley 
+ Mar 10 - Mar 13 
+ World Golf Championship- Cadillac Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,500,000 
+ Nick Watney 
+ Mar 17 - Mar 20 
+ Transitions Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,500,000 
+ Gary Woodland 
+ Mar 24 - Mar 27 
+ Arnold Palmer Invitational 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,000,000 
+ Martin Laird 
+ Mar 31 - Apr 3 
+ Shell Houston Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,900,000 
+ Phil Mickelson 
+ Apr 7 - Apr 10 
+ The Masters 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 7,500,000 
+ Charl Schwartzel 
+ Apr 14 - Apr 17 
+ Valero Texas Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,200,000 
+ Brendan Steele 
+ Apr 21 - Apr 24 
+ The Heritage 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,700,000 
+ Brandt Snedeker 
+ Apr 28 - May 1 
+ Zurich Classic of New Orleans 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,400,000 
+ Bubba Watson 
+ May 5 - May 8 
+ Wells Fargo Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,500,000 
+ Lucas Glover 
+ May 12 - May 15 
+ The Players Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 9,500,000 
+ K.J. Choi 
+ May 19 - May 22 
+ Crowne Plaza Invitational 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,200,000 
+ David Toms 
+ May 26 - May 29 
+ HP Byron Nelson Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,500,000 
+ Keegan Bradley 
+ Jun 2 - Jun 5 
+ Memorial Tournament 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,200,000 
+ Steve Stricker 
+ Jun 9 - Jun 12 
+ FedEx St. Jude Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,600,000 
+ Harrison Frazar 
+ Jun 16 - Jun 19 
+ U.S. Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 7,500,000 
+ Rory McIlroy 
+ Jun 23 - Jun 26 
+ Travelers Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,000,000 
+ Freddie Jacobson 
+ Jun 30 - Jul 3 
+ AT&T National 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,200,000 
+ Nick Watney 
+ Jul 7 - Jul 10 
+ John Deere Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 4,500,000 
+ Steve Stricker 
+ Jul 14 - Jul 17 
+ Viking Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 3,600,000 
+ Chris Kirk 
+ Jul 14 - Jul 17 
+ The 140th Open Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 7,300,000 
+ Darren Clarke 
+ Jul 21 - Jul 24 
+ RBC Canadian Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,200,000 
+ Sean O'Hair 
+ Jul 28 - Jul 31 
+ The Greenbrier Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 6,000,000 
+ Scott Stallings 
+ Aug 4 - Aug 7 
+ Reno-Tahoe Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 3,000,000 
+ Scott Piercy 
+ Aug 4 - Aug 7 
+ WGC- Bridgestone Invitational 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,500,000 
+ Adam Scott 
+ Aug 11 - Aug 14 
+ PGA Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 7,500,000 
+ Keegan Bradley 
+ Aug 18 - Aug 21 
+ Wyndham Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,200,000 
+ Webb Simpson 
+ Aug 25 - Aug 28 
+ The Barclays 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,000,000 
+ Dustin Johnson 
+ Sep 2 - Sep 5 
+ Deutsche Bank Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,000,000 
+ Webb Simpson 
+ Sep 15 - Sep 18 
+ BMW Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,000,000 
+ Justin Rose 
+ Sep 22 - Sep 25 
+ The Tour Championship 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 8,000,000 
+ Bill Haas 
+ Sep 29 - Oct 2 
+ Justin Timberlake Shriners Hospitals for Children 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 4,400,000 
+ Kevin Na 
+ Oct 6 - Oct 9 
+ Frys.com Open 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 5,000,000 
+ Bryce Molder 
+ Oct 13 - Oct 16 
+ The McGladrey Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 4,000,000 
+ Ben Crane 
+ Oct 20 - Oct 23 
+ Children's Miracle Network Classic 
+ -- 
+ -- 
+ -- 
+ -- 
+ $ 4,700,000 
+ Luke Donald 
+ Nov 16 - Nov 20 
+ The Presidents Cup 
+ -- 
+ -- 
+ -- 
+ -- 
+ -- 
+ -- 
+^ Jump to top

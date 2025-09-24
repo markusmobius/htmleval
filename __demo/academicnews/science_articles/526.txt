@@ -1,0 +1,36 @@
+Drones are fighting wildfires in some very surprising ways
+Just in time too, as climate change is making wildfires worse.
+by Kate Baggaley / Nov.16.2017 / 2:14 PM ET
+
+
+
+
+A drone flies over a wildfire.Bureau of Land Management
+Get the Mach newsletter.
+Bad as they are, the wildfires now raging in southern California aren't exactly unprecedented. Wildfires in the U.S. were brutal last summer too, scorching more than 8.8 million acres and cloaking the Pacific Northwest in smoke and ash. In California alone last year, more than 40 people died and 8,400 buildings were destroyed in the deadliest wildfires in the state’s history.
+Things may only get worse in years to come. Climate change is lengthening fire seasons and triggering more and larger blazes.
+But aerial drones may help save the day. In fact, the Los Angeles Fire Department today said it would use firefighting drones for the first time in its history to coordinate the effort to help extinguish a pair of fires threatening homes in the city.
+From tiny quadcopters to big fixed-wing aircraft, drones are showing that they can detect, contain and even extinguish fires faster and with greater safety. They give firefighters a bird’s-eye view of the terrain and help them determine where a fire will spread — so they can make swift decisions about where fire crews should go and which residents need to be evacuated.
+Safer and more versatile
+Drones have key advantages over conventional aircraft.
+For one thing, the airplanes and helicopters used to survey wildfires and drop retardant can’t fly in poor conditions — and they’re often in short supply. “The sheer cost of operating, maintaining, and training is huge, so we run out of aircraft real quick,” says Chad Runyan, acting manager of the U.S. Forest Service’s unmanned aircraft systems program.
+And flying over raging fires puts pilots and crew at risk. Plane and helicopter crashes accounted for 24 percent of wildland firefighter deaths between 2006 and 2016, according to the Forest Service.
+Drones can be equipped with infrared cameras that peer through smoke, as well as sensors for wind direction and other weather variables that affect how wildfires spread. They can whiz through canyons and other cramped spaces where helicopters can’t fly and glide low enough to capture high-resolution footage.
+Get the Mach newsletter.
+
+
+
+Drones can fly in conditions that helicopters and airplanes aren’t equipped for. Department of the Interior
+
+And if a fire starts to close in on a crew, drones can identify a quick escape route. “If we have a group of firefighters trapped we can easily send three or four drones up there,” Runyan says.
+Proving their mettle
+These nimble aircraft have already begun to show their mettle. As fires raged across California last summer, dozens of helicopters were grounded. “The smoke was too thick for them to fly for days, sometimes weeks,” says Brad Koeckeritz, chief of the Interior Department’s unmanned aircraft systems division. “The drones provided an opportunity to gather intelligence at a time when we wouldn’t be able to gather it any other way.”
+In California and Oregon, drones flew through thick smoke to find small fires that otherwise probably wouldn’t have been detected until they had become much larger and harder to contain, Koeckeritz says.
+High-flying drones and drone swarms
+Going forward, wildfire experts intend to deploy high-altitude drones to cruise over fires and send back a continuous stream of video. “You’re talking about an aircraft that can cover a massive amount of land at 65,000 feet…We can loiter one above a fire for hours or days on end,” Runyan says. “It’s ever vigilant, and that’s an ability we’ve never had.”
+Unmanned helicopters could also carry in supplies and help tame wildfires. These oversized drones will dump buckets of water on a blaze long after sunset, when manned helicopters have landed for the night.
+Can These Drones Save Elephants from Extinction?
+Drones can help establish firebreaks to keep wildfires from spreading. Firefighters often set small, controlled fires by dropping flammable balls from helicopters. The balls ignite on the ground and burn up vegetation lying in the wildfire’s path; when the wildfire arrives, there’s no fuel left.
+But the low-altitude flights required to make these drops put pilots and crew at risk. Engineers at the University of Nebraska are testing drones that could drop these balls instead.
+Someday entire swarms of firefighting drones may be launched over wildfires. These would be programmed to fly autonomously — no need for drone pilots on the ground below — and share information with each other and with firefighters on the ground, says Dr. Hung La, director of the advanced robotics and automation laboratory at the University of Nevada, Reno and a leader in the development of autonomous drone swarms.
+Drones won’t stamp out fires completely — and since wildfires play an important role in many ecosystems, we wouldn’t want them to. But already drones are helping prevent the loss of lives and property — with greater capabilities in the works. As Runyan puts it, “The opportunities are endless.”

@@ -1,0 +1,664 @@
+Baltimore Ravens Roster - NFL Football
+special-teams TEAM LEADERS
+KICKING
+J. Tucker
+91.89 FG%
+PUNTING
+S. Koch
+44.82 AVG YDS
+KICK RETURNING
+C. Moore
+346 YDS
+View All Player Statistics
+OFFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 1 
+ Josh Woodrum 
+ QB 
+ 26 
+ 75 
+ 231 
+ 1992-11-07 
+ Liberty 
+ active 
+ 10 
+ Chris Moore 
+ WR 
+ 25 
+ 73 
+ 200 
+ 1993-06-16 
+ Cincinnati 
+ active 
+ 11 
+ Breshad Perriman 
+ WR 
+ 25 
+ 74 
+ 215 
+ 1993-09-10 
+ Central Florida 
+ active 
+ 12 
+ Michael Campanaro 
+ WR 
+ 27 
+ 69 
+ 191 
+ 1991-01-25 
+ Wake Forest 
+ active 
+ 15 
+ Ryan Mallett 
+ QB 
+ 30 
+ 78 
+ 250 
+ 1988-06-05 
+ Arkansas 
+ active 
+ 16 
+ Quincy Adeboyejo 
+ WR 
+ 23 
+ 75 
+ 197 
+ 1995-05-26 
+ Mississippi 
+ active 
+ 17 
+ Mike Wallace 
+ WR 
+ 32 
+ 72 
+ 200 
+ 1986-08-01 
+ Mississippi 
+ active 
+ 18 
+ Jeremy Maclin 
+ WR 
+ 30 
+ 72 
+ 198 
+ 1988-05-11 
+ Missouri 
+ active 
+ 28 
+ Terrance West 
+ RB 
+ 27 
+ 70 
+ 225 
+ 1991-01-28 
+ Towson 
+ active 
+ 30 
+ Kenneth Dixon 
+ RB 
+ 24 
+ 70 
+ 212 
+ 1994-01-21 
+ Louisiana Tech 
+ active 
+ 34 
+ Alex Collins 
+ RB 
+ 24 
+ 70 
+ 210 
+ 1994-08-26 
+ Arkansas 
+ active 
+ 37 
+ Javorius Allen 
+ RB 
+ 27 
+ 72 
+ 222 
+ 1991-08-27 
+ USC 
+ active 
+ 39 
+ Danny Woodhead 
+ RB 
+ 33 
+ 68 
+ 200 
+ 1985-01-25 
+ Chadron State 
+ active 
+ 44 
+ Ricky Ortiz 
+ FB 
+ 24 
+ 72 
+ 230 
+ 1994-04-15 
+ Oregon State 
+ active 
+ 45 
+ John Crockett 
+ RB 
+ 26 
+ 72 
+ 217 
+ 1992-02-16 
+ North Dakota State 
+ active 
+ 5 
+ Joe Flacco 
+ QB 
+ 33 
+ 78 
+ 245 
+ 1985-01-16 
+ Delaware 
+ active 
+ 6 
+ Tim White 
+ WR 
+ 24 
+ 70 
+ 175 
+ 1994-07-15 
+ Arizona State 
+ active 
+ 60 
+ Brandon Kublanow 
+ C 
+ 23 
+ 74 
+ 302 
+ 1995-04-05 
+ Georgia 
+ active 
+ 61 
+ Luke Bowanko 
+ C 
+ 27 
+ 78 
+ 300 
+ 1991-06-13 
+ Virginia 
+ active 
+ 65 
+ Nico Siragusa 
+ G 
+ 24 
+ 76 
+ 320 
+ 1994-05-10 
+ San Diego State 
+ active 
+ 66 
+ Ryan Jensen 
+ G 
+ 27 
+ 76 
+ 319 
+ 1991-05-27 
+ Colorado State-Pueblo 
+ active 
+ 68 
+ Matt Skura 
+ C 
+ 25 
+ 75 
+ 313 
+ 1993-02-17 
+ Duke 
+ active 
+ 71 
+ Jermaine Eluemunor 
+ G 
+ 24 
+ 76 
+ 330 
+ 1994-12-13 
+ Texas A&M 
+ active 
+ 72 
+ Alex Lewis 
+ G 
+ 26 
+ 78 
+ 315 
+ 1992-04-21 
+ Nebraska 
+ active 
+ 73 
+ Marshal Yanda 
+ G 
+ 34 
+ 75 
+ 305 
+ 1984-09-15 
+ Iowa 
+ active 
+ 76 
+ Maurquice Shakir 
+ G 
+ 25 
+ 76 
+ 308 
+ 1993-10-14 
+ Middle Tennessee State 
+ active 
+ 80 
+ Crockett Gillmore 
+ TE 
+ 27 
+ 78 
+ 260 
+ 1991-11-16 
+ Colorado State 
+ active 
+ 82 
+ Benjamin Watson 
+ TE 
+ 38 
+ 75 
+ 251 
+ 1980-12-18 
+ Georgia 
+ active 
+ 84 
+ Darren Waller 
+ TE 
+ 26 
+ 78 
+ 255 
+ 1992-09-13 
+ Georgia Tech 
+ active 
+ 86 
+ Nick Boyle 
+ TE 
+ 25 
+ 76 
+ 270 
+ 1993-02-17 
+ Delaware 
+ active 
+ 87 
+ Maxx Williams 
+ TE 
+ 24 
+ 76 
+ 257 
+ 1994-04-12 
+ Minnesota 
+ active 
+ 88 
+ Vince Mayle 
+ TE 
+ 27 
+ 74 
+ 228 
+ 1991-06-12 
+ Washington State 
+ active 
+DEFENSE
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ -- 
+ Robert Nelson Jr. 
+ DB 
+ 28 
+ 69 
+ 175 
+ 1990-02-16 
+ Arizona State 
+ active 
+ -- 
+ Bennett Jackson 
+ S 
+ 27 
+ 72 
+ 192 
+ 1991-09-16 
+ Notre Dame 
+ active 
+ 21 
+ Lardarius Webb 
+ DB 
+ 33 
+ 70 
+ 185 
+ 1985-10-12 
+ Nicholls State 
+ active 
+ 22 
+ Jimmy Smith 
+ CB 
+ 30 
+ 74 
+ 210 
+ 1988-07-26 
+ Colorado 
+ active 
+ 23 
+ Tony Jefferson 
+ S 
+ 26 
+ 71 
+ 212 
+ 1992-01-27 
+ Oklahoma 
+ active 
+ 24 
+ Brandon Carr 
+ CB 
+ 32 
+ 72 
+ 210 
+ 1986-05-19 
+ Grand Valley State 
+ active 
+ 25 
+ Tavon Young 
+ CB 
+ 24 
+ 69 
+ 177 
+ 1994-03-14 
+ Temple 
+ active 
+ 26 
+ Maurice Canady 
+ CB 
+ 24 
+ 73 
+ 193 
+ 1994-05-26 
+ Virginia 
+ active 
+ 29 
+ Marlon Humphrey 
+ CB 
+ 22 
+ 72 
+ 197 
+ 1996-07-08 
+ Alabama 
+ active 
+ 31 
+ Robertson Daniel 
+ CB 
+ 27 
+ 73 
+ 205 
+ 1991-10-01 
+ Brigham Young University 
+ active 
+ 32 
+ Eric Weddle 
+ S 
+ 33 
+ 71 
+ 200 
+ 1985-01-04 
+ Utah 
+ active 
+ 35 
+ Brandon Boykin 
+ CB 
+ 28 
+ 70 
+ 173 
+ 1990-07-13 
+ Georgia 
+ active 
+ 36 
+ Chuck Clark 
+ S 
+ 23 
+ 72 
+ 210 
+ 1995-04-19 
+ Virginia Tech 
+ active 
+ 38 
+ Stanley Jean-Baptiste 
+ CB 
+ 28 
+ 75 
+ 218 
+ 1990-04-12 
+ Nebraska 
+ active 
+ 41 
+ Anthony Levine Sr. 
+ DB 
+ 31 
+ 71 
+ 200 
+ 1987-03-27 
+ Tennessee State 
+ active 
+ 42 
+ Patrick Ricard 
+ DL 
+ 24 
+ 75 
+ 300 
+ 1994-05-27 
+ Maine 
+ active 
+ 43 
+ Jaylen Hill 
+ CB 
+ 24 
+ 70 
+ 186 
+ 1994-05-26 
+ Jacksonville State 
+ active 
+ 48 
+ Patrick Onwuasor 
+ LB 
+ 26 
+ 72 
+ 217 
+ 1992-08-22 
+ Portland State 
+ active 
+ 50 
+ Albert McClellan 
+ LB 
+ 32 
+ 74 
+ 250 
+ 1986-06-04 
+ Marshall 
+ active 
+ 51 
+ Kamalei Correa 
+ LB 
+ 24 
+ 75 
+ 250 
+ 1994-04-27 
+ Boise State 
+ active 
+ 53 
+ Bam Bradley 
+ LB 
+ 24 
+ 71 
+ 237 
+ 1994-06-26 
+ Pittsburgh 
+ active 
+ 54 
+ Tyus Bowser 
+ LB 
+ 23 
+ 75 
+ 240 
+ 1995-05-23 
+ Houston 
+ active 
+ 55 
+ Terrell Suggs 
+ LB 
+ 36 
+ 75 
+ 265 
+ 1982-10-11 
+ Arizona State 
+ active 
+ 56 
+ Tim Williams 
+ LB 
+ 25 
+ 75 
+ 260 
+ 1993-11-12 
+ Alabama 
+ active 
+ 57 
+ C.J. Mosley 
+ LB 
+ 26 
+ 74 
+ 250 
+ 1992-06-19 
+ Alabama 
+ active 
+ 58 
+ Steven Johnson 
+ LB 
+ 30 
+ 73 
+ 237 
+ 1988-03-28 
+ Kansas 
+ active 
+ 69 
+ Willie Henry 
+ DT 
+ 24 
+ 75 
+ 300 
+ 1994-03-20 
+ Michigan 
+ active 
+ 90 
+ Za'Darius Smith 
+ LB 
+ 26 
+ 76 
+ 275 
+ 1992-09-08 
+ Kentucky 
+ active 
+ 92 
+ Bronson Kaufusi 
+ DE 
+ 27 
+ 78 
+ 285 
+ 1991-07-06 
+ Brigham Young University 
+ active 
+ 93 
+ Chris Wormley 
+ DE 
+ 25 
+ 77 
+ 300 
+ 1993-10-25 
+ Michigan 
+ active 
+ 94 
+ Carl Davis 
+ DT 
+ 26 
+ 77 
+ 327 
+ 1992-03-02 
+ Iowa 
+ active 
+ 96 
+ Brent Urban 
+ DE 
+ 27 
+ 79 
+ 300 
+ 1991-05-05 
+ Virginia 
+ active 
+ 97 
+ Michael Pierce 
+ DT 
+ 26 
+ 72 
+ 340 
+ 1992-11-06 
+ Samford 
+ active 
+ 98 
+ Brandon Williams 
+ DT 
+ 29 
+ 73 
+ 340 
+ 1989-02-21 
+ Missouri Southern State 
+ active 
+ 99 
+ Matthew Judon 
+ LB 
+ 26 
+ 75 
+ 275 
+ 1992-08-15 
+ Grand Valley State 
+ active 
+SPECIAL TEAMS
+NO
+NAME
+POS
+AGE
+HT
+WT
+DOB
+COLLEGE
+STATUS
+ 4 
+ Sam Koch 
+ P 
+ 36 
+ 73 
+ 222 
+ 1982-08-13 
+ Nebraska 
+ active 
+ 46 
+ Morgan Cox 
+ LS 
+ 32 
+ 76 
+ 233 
+ 1986-04-26 
+ Tennessee 
+ active 
+^ Jump to top

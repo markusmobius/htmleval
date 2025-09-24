@@ -1,0 +1,13 @@
+The 31-year-old Queens programmer at the center of a $100 billion crypto storm
+Published: Jan 24, 2018 7:01 a.m. ET
+Share
+How a top source of bitcoin data contributed to a sudden plunge in digital currencies
+
+
+By
+ PaulVigna 
+The drop was swift: Prices for bitcoin and dozens of other digital currencies on Jan. 8 fell sharply, lopping more than $100 billion off their collective market value.
+The globe-rattling move can be traced to one address: An apartment in a new residential building across the street from a local union headquarters in a gentrifying section of Long Island City, Queens.
+It is the workplace of Brandon Chez, the 31-year-old computer programmer behind coinmarketcap.com, a website that is a top source for data on bitcoin BTCUSD, -0.27% and hundreds of other cryptocurrencies. Chez’s site, which went live in 2013, has become one of the most heavily trafficked websites in the world.
+Competition is heating up. On Thursday, Interncontinental Exchange Inc. ICE, -0.36% , the owner of the New York Stock Exchange, announced a partnership to launch a bitcoin data feed for Wall Street banks and traders. Independent sites including Onchainfx.com have also popped up.
+Meanwhile, Chez’s site is wielding unexpected impact. On January 7, coinmarketcap.com decided to remove trading activity from South Korean exchanges from its price-quote algorithms. The reason: prices there were significantly and persistently higher than in other countries. To some, it seemed the Korean trades were artificially inflating the price of bitcoin.

@@ -1,0 +1,38 @@
+Dogs can't speak human. Here's the tech that could change that.
+A pet translator could be available in less than a decade.
+by Bahar Gholipour / Jan.19.2018 / 4:11 PM ET
+
+
+
+
+AI technology could improve animals' wellbeing and even save their lives.David Baileys / Getty Images/iStockphoto
+Get the Mach newsletter.
+What if your pet dog or cat could talk instead of barking or meowing? You’d know just how much Rover loves you — and maybe how sorry Fluffy is about that mess on the carpet.
+We all know that’s not about to happen. But recent advances in artificial intelligence and machine learning suggest the longstanding dream of being able to converse with animals — in a limited fashion — could become a reality.
+With the help of AI, scientists are learning how to translate animals’ vocalizations and facial expressions into something we can understand. Recent advances include an AI system that listens in on marmoset monkeys to parse the dozen calls they use to communicate with each other and one that reads sheep’s faces to determine whether an animal is in pain.
+Taking note of the research, an Amazon-sponsored report on future trends released last summer predicted that in 10 years, we’ll have a translator for pets.
+What prairie dogs have to say
+Dr. Con Slobodchikoff, a professor emeritus of biology at Northern Arizona University and the author of “Chasing Doctor Dolittle: Learning the Language of Animals," is on the vanguard of animal communication. More than 30 years studying prairie dogs have convinced him that these North American rodents have a sophisticated form of vocal communication that is nothing less than language.
+The prairie dogs make high-pitched calls to alert the group to the presence of a predator. Slobodchinoff discovered that those calls vary according to the type of the predator as well as its size. The animals can combine their calls in various ways and can even use them to indicate the color of a nearby human’s clothing.
+But Slobodchinoff wasn’t content just to understand prairie dogs. With help from a computer scientist colleague, he developed an algorithm that turns the vocalizations into English. And last year, he founded a company called Zoolingua with the goal of developing a similar tool that translates pet sounds, facial expressions, and body movements.
+“I thought, if we can do this with prairie dogs, we can certainly do it with dogs and cats,” Slobodchikoff said.
+Pet Tech Will Transform a Dog's Life in Some Surprising Ways
+The work is at an early stage. Slobodchikoff is amassing thousands of videos of dogs showing various barks and body movements. He’ll use the videos to teach an AI algorithm about these communication signals. The algorithm still needs to be told what each bark or tail wag means, and at this point that means humans must offer their own interpretations. But Slobodchikoff aims to incorporate the growing scientific research that uses careful experiments rather than guesswork to decipher the true meanings of dogs’ behavior.
+Slobodchinoff’s ultimate goal is to create a device that can be pointed at a dog to translate its woofs into English words — for example, Slobodchiknoff said, “'I want to eat now’…or ‘I want to go for a walk.’”
+What animal communication would mean
+Being able to communicate with animals would mean more than just forging closer emotional ties with them. It could eliminate the guesswork in caring for animals and even save their lives.
+In the U.S. alone, an estimated 3 million unwanted cats and dogs are euthanized each year — in many cases because of their poorly understood behavioral problems. But a dog that exhibits aggression could simply be afraid — and if we have the technology to understand its fears, we might be able to find a way to spare its life. “You could use that information and instead of backing the dog into a corner, give the dog more space,” Slobodchikoff said.
+Similarly, AI technology could make things easier for farmers and ranchers — for instance, by quickly identifying animals that are sick by detecting signs of pain in their faces.
+“Farmers find it difficult to recognize pain in the sheep,” said Dr. Krista McLennan, a lecturer in animal behavior at the University of Chester in England. She developed a scale for estimating pain levels based on the animals’ facial expressions — retracted lips, folded ears, and so on.
+But when training people to use the scale proved difficult, Dr. Peter Robinson, a University of Cambridge professor who has developed computer systems that read human facial expressions, turned McLennan’s scale into an AI algorithm. When the computer running the algorithm was shown hundreds of photos of sheep — some healthy and some not — it learned to tell which animals were in pain.
+Though confined to the lab for now, the technology could one day be commercialized — perhaps in the form of a camera that automatically photographs sheep as they pass through a gate, Robinson said. If an animal is showing pain, the rancher would get an automatic alert.
+Such a system could be much faster than humans at spotting sick animals — and more reliable. “The reason I’m slightly optimistic is that in our research with people’s faces, our automatic system was as good as the top 10 percent of people — much better than the average person,” Robinson said.
+Robinson and McLennan want to expand their work to other animals — and perhaps for indicators other than pain. “We are looking at pain because that’s the most significant in terms of welfare,” McLennan said. “But there's nothing stopping us from looking at other emotions as well. What does a happy sheep look like? What does a sad sheep look like? But there still needs to be a lot of work done.”
+(Story continues below quiz)
+Can we ever truly understand animals?
+Even if an AI translator becomes a reality, it doesn’t necessarily mean you’ll ever have a heart-to-heart conversation with your pet. There are vast differences between human and animal cognition, and we are a long way from understanding the latter.
+One technology that may give us access to dogs’ mysterious mental life is brain imaging. In humans, functional magnetic resonance imaging (fMRI) can be used to detect certain mental states by looking at brain activity.
+“I see something like that very possible with dogs,” said Dr. Gregory Berns, a neuroscientist at Emory University and the author of "What It's Like to Be a Dog: And Other Adventures in Animal Neuroscience." Berns has been training dogs to lie still inside brain scanners as the machine reads their brain activity. Already, his experiments have opened a window into what dogs might think or feel — for example, he’s found evidence that dogs see us as friends, and not just hands that feed them.
+“Their reward system in the brain is driven as much by praise as food,” Berns said. “This reinforces the notion that the dog enjoys the social bond with humans by itself.”
+Maybe someday technology can turn us all into Dr. Dolittles so we can make the wonderful bond between people and their pets even tighter.
+Get the Mach newsletter.

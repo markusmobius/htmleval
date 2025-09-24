@@ -1,0 +1,113 @@
+Security Fix Live
+Security Fix Blogger 
+ Friday, December 5, 2008; 11:00 AM 
+ Security Fix blogger Brian Krebs was online Friday, Dec. 5, at 11 a.m. ET to answer your questions about the latest computer security threats and offer ways to protect your personal information. 
+ A transcript follows. 
+ ____________________ 
+ Brian Krebs: Good morning, dear Security Fix readers! Welcome to Security Fix Live. I'm going to dive right in, because I haven't got time to go over my allotted hour today. So if you've got a security question, please don't hesitate to ask early. Try to be as specific as possible about your setup, and any relevant security applications you have installed, etc. Onwards! 
+ _______________________ 
+ Arlington, Va.: Brian, 
+ My father had a bad experience once with Windows Updates on his XP machine. Apparently, Windows Updates at one time were somehow incompatible with his system, and somehow caused him to either lose some programs altogether or have them revert to previous versions. Though no data on his computer was lost. Bear in mind, too, that I wasn't present to witness this incompatibility. I'm just running on what he told me. 
+ Personally, I have a hard to believing that Windows Updates would cause the problems he mentioned (it sounds more like a virus to me!). Have you ever heard of anything like this happening with Windows Updates? 
+ As a result, though (and this has me VERY unsettled), my father is now convinced that Windows Updates will crash his system rather than protect it. I've tried convincing him that his course of action is leaving his machine MORE vulnerable to online dangers, but to no avail. For what it's worth, he protects his machine with Norton Internet Security, I think the 2009 version. 
+ Brian Krebs: Patches are meant to fix problems, but it is not at all unusual for them to introduce new problems. That is why updates are such a big deal for companies: The updates often will cause problems for third-party applications, because while Microsoft and other vendors can and do test their patches to make sure they don't break software applications in a variety of configurations, in many cases the cause of an incompatibility issue introduced by a patch is a complex mix of applications and certain configurations. 
+ That said, on occasion a Windows update will simply bork an essential or widely used application. This happened less than six months ago, actually, when a Microsoft update to fix a DNS bug broke Zone Alarm, effectively cutting millions of users off the Internet, at least until they uninstalled the fix or applied an update from ZoneAlarm. 
+ Your father's experience may or may not be related to this ZoneAlarm problem. However, it's not unusual for people to have the reaction he has after experiencing an update that clobbers an important program. Microsoft urges everyone to turn on automatic updates, because it pushes out security updates very quickly to the largest number of users. Some people, however, prefer to have more control and wait a day before applying any updates, just to make sure there aren't any major problems reported by people who were early installers. While quickly applying security updates is about the surest way to keep your machine secure, the wait-a-day approach is a very rational one. 
+ _______________________ 
+ Brooklyn, N.Y.: Hi Brian, 
+ Couple weeks back you helped me with a DNS Hijacker. I was the one that stupidly jumped out and used my CC to buy Norton right after realizing I have the virus. Luckily, no mysterious charges have appeared on my credit cards or anything like that. 
+ Help for anyone experiencing this problem: You suggested getting Malwarebytes and running it and that definitely helped, BUT the malware was preventing those pieces of software from updating. Thus, I also HAD to use HijackThis and posted logs all over the net until someone told me to delete a couple of lines which were running unnamed .EXEs (something like kdrcw.exe in the Windows-System folder). Once I deleted these entries, I was able to update Malwarebytes and Windows Defender and resultant scans solved the problem entirely. So thanks, Brian! 
+ Now my question: You mentioned that I should check my DNS settings (on my router maybe?) afterwards to make sure they've not been hijacked...so, uh...how do I do that and how do I know everything's okay? 
+ Thanks again! 
+ Brian Krebs: Yeah, I mention HiJack this all the time in these chats (despite comments I've received from people who claim this is an outdated tool, to the contrary I find it extremely relevant and useful). The reality though, is that unless you know what to look for, it's sometimes not very useful. It's most effective when someone who's familiar with normal system processes to step through the output with you on some kind of online support forum, like DSL Report's Security Cleanup forum. Sounds like you were able to get that detailed attention. 
+ If you use a wired or wireless router, you can interface with the device using a Web browser, as all routers have built-in Web servers that are used to configure the devices. This link will take you to a page that has instructions on how to get to the interface page on the most popular routers out there. It also has videos that can walk you though this process, as well as enabling encryption on your router. Depending on your router, though, the interface will be at something like 192.168.1.1, or 192.168.0.1. If you haven't changed the default username and/or password for the router (yes, you should do this), you can find a list of of default router passwords here or in your router documentation. 
+ You should find a tab somewhere in that wireless interface that shows the DNS settings of the router. Chances are they are configured to use your ISP's default DNS servers (Google those if you don't know them). 
+ _______________________ 
+ Asburn, Va.: Seems like there have been a lot of hard criticism against the Vista OS, yet after setting some IE7 and firewall configurations (Vista free firewall), installing Windows Defender free, installing Avast free AV and as well with all the Vista patching - I have not experienced one BSD or any type of malware or virus. The smooth glass like Vista interface effects running on a NVIDIA 9500 card on a HD screen is just as clear and vivid as any high-end Mac system. 
+ My question is, are people really anti-Vista because of the apple commercials, or just because they are following the "in" crowd? 
+ Thanks for your thoughts... 
+ Brian Krebs: I think much of the criticism against Vista came as the company was rolling it out. Vista was a loooooooong time coming. And early on, a lot of third party software vendors still had not developed drivers to work with Vista. Heck, many of the security vendors' products didn't work on Vista either. 
+ I think Vista also received lumps because of the way it handled user permissions. In XP, all users were admin by default. This, as I have warned readers ad nauseum, is extremely unsafe and is the primary contributor to the security problems most users face today. Microsoft tried to fix that in Vista, by making the user approve a dialog box (and in some cases enter their password) to make important system changes or to install software. 
+ This is an important security change, but I think there was a general feeling that Vista's user account control was maybe a bit too annoying for most users, and over-asked for certain types of everyday tasks. The reality is this was going to be a bitter pill for Microsoft any way they did it: Going from years of never asking the user to ever type their password to install software or change settings to all of sudden prompting them to approve every little move was probably not the smoothest transition for the Windows user base. 
+ _______________________ 
+ Rockville, Md.: Being a Wintel user for the last 10 years, my daughter wants a MacBook laptop for college. Knowing very little about the Mac OS X Leopard system, do you think an apple will be compatible with all the college course executables, programs and the like that are used for a typical business degree? 
+ Brian Krebs: I would not worry too much about the compatibility issue. If you are worried about whether she can still read/write/open Microsoft Office documents (Word, Excel, PowerPoint, Acess), she can use OpenOffice, which is free, or there is also a version of Microsoft Office for the Mac. 
+ Are there other specific applications you are concerned about? 
+ _______________________ 
+ paoli, in: any truth to firefox's claim that it's more secure than you-know-who? 
+ Brian Krebs: More secure is a tough thing to measure, because it's a bit subjective: For one thing, a non-trivial number of security experts will always ascribe the market share model to security failures -- i.e., because IE has a much higher user base, that's what the bad guys attack, and that it has less to do with the actual security of the code itself. 
+ That may or may not be true. I don't think there's a way to to prove that. However, there are certainly fewer attacks against Firefox vulnerabilities than against flaws in IE. Firefox also has a bunch of free add-ons available that also can increase the security of the browser, such as Noscript and Adblock Plus, to name a couple. Managing scripting on a site-by-site basis in IE is a real pain and in my opinion not very practical for everyday Web browsing. 
+ One measure of security is how long known vulnerabilities remain unfixed, without patches from the vendor. On this front, I have measured and compared the performance of both Microsoft and Mozilla and found some pretty stark differences. 
+ See: 
+ _______________________ 
+ Arlington: Hi Brian, 
+ Computers at home use both XP Home, and Vista Home. XP Home uses Norton AV corporate, the Vista Home uses AVG antivirus (paid subscription). 
+ On both: lavasoft adaware, spybot search and destroy, Zonealarm free firewall. Websurfing done only on Firefox. 
+ I noted that you don't bother to use Java at all and are quite happy with your decision. Is that something I should do also? 
+ What exactly is the purpose of Java and does the ordinary webuser like me even need it? I surf primarily news, sports, and commerce sites (amazon, apple, buy, and banking/bill pay). 
+ Thanks. 
+ Brian Krebs: Arlington, thanks for your question. I can't answer the question of whether you should remove Java. I'd recommend trying it out. If you find you don't run into applications or Web sites that require it, keep it off your system. 
+ Java is a powerful software application that some Web sites are built to use to generate a more interactive experience. For example, some online, Web-based games will use Java. I have seen Java also required by Internet speed tests, for example. It just depends. 
+ You may find that you don't need it at all. On the other hand, you may find you can't use a Web site or an application without it. The whole point of my mentioning my experience with it gone was to say 'If you don't need it, great: one less application to have to update.' 
+ _______________________ 
+ Las Vegas, Nev.: Thanks for all you do here, Brian. Is a computer sitting on line vulnerable to invasion if no browser is loaded. What about if the browser is loaded but idle? 
+ Brian Krebs: Yes. A computer unprotected by a hardware or software firewall and just connected naked to the World Wild Web can quickly become compromised by an ungodly number of threats, most likely bot programs designed to turn the systems into spam spewing zombies. All that would be required is that the system is missing certain patches for the operating system. Web browser would not have to be open for this to happen. 
+ If the browser were open but idle, it would increase the threat somewhat, again, for a poorly protected system. It is not at all uncommon for malware to be loaded through third party banner ads on the like. Most Web sites that run ads outsource the process to third parties, and even an idle browser can load new ad content without any action by the user. 
+ _______________________ 
+ Urbana, Md.: Are there any free (open source) wifi intrusion detection programs available? Basically want to view who is using my wireless network - and yes WPA2 personal is set on the WAP. 
+ Thanks. 
+ Brian Krebs: Hrm. Well, I assume you are managing a larger network of users? Otherwise, with WPA2 set, I wouldn't worry too much about people breaking the encryption to hop on your wireless net. 
+ To answer your question, the free Snort for Windows will almost certainly do the job, although depending on your knowledge level may require some reading. 
+ Google shows me this tool, recommended by the excellent TechTV. I don't know anything about this tool, have never used it, so YMMV. 
+ Also, most wireless routers have a tab (administration, I think in Linksys, e.g.) that lets you see how many machines are currently connected to the router, their IP addresses, MAC addresses, that sort of thing. 
+ Hope this helps. 
+ _______________________ 
+ Las Vegas, Nev.: FYI, Java is necessary if you like to do the WPost's crossword puzzle online. 
+ Brian Krebs: There you go. As I said, certain Web apps simply won't work unless you have Java installed. 
+ _______________________ 
+ Falls Church, Va.: Security issues aside, is anyone at Mozilla working on Firefox's memory-utilization problems? I'm using version 2 at work, and it's entirely common for Firefox to slow my system to sludge after a while. 
+ I'm considering upgrading to version 3 at home. Is it any better on this issue? 
+ Brian Krebs: Yes, yes, yes, yes. Firefox 3 doesn't *solve* the memory consumption issues on FF2, but it does improve the performance on that front considerably. 
+ You may have little choice but to upgrade to Firefox 3 soon if you want to keep it secure. I believe Mozilla is very close to phasing it out soon. 
+ One way to improve the performance and speed on the browser is to remove any add-ons that you don't use. 
+ _______________________ 
+ More on vulnerable PCs: I have a followup question to Las Vegas's. I have both a hardware (router) firewall and a software (McAfee), and I also run the usual AV and anti-malware/anti-spyware applications. When my PC goes into stand-by mode, are these safety applications still protecting my computer? Should I lockdown the software firewall and/or put the cable modem into stand-by when I know the PC will be idle for several hours? 
+ Brian Krebs: I certainly can't hurt, but I doubt it will add much security to your setup. I don't think it is necessary. 
+ _______________________ 
+ Barberton, Ohio: Brian, I saw the earlier question concerning DNS settings and was wondering what you thought of configuring a wireless router to use the Open DNS settings. When the issue arose a few months ago about DNS hijackings, I configured my router to use Open DNS. 
+ Thanks for all the great info you provide! 
+ Brian Krebs: I have encouraged people to use OpenDNS, and I will do it again. I am an OpenDNS user myself, for some of the reasons I explain in the above-linked article. 
+ _______________________ 
+ Washington, D.C.: Hi Brian, 
+ I recently reinstalled windows XP. I created a limited rights account, installed windows defender, norton AV and outpost firewall (in addition to windows default firewall). I also installed Windows SP3. 
+ My system seems to be running really well. The only thing is that windows automatic updater keeps trying to download and install a security upgrade for flash. It fails to install the upgrade every single time - in fact, I don't think I even have flash on my computer. 
+ I'm worried that because it keeps trying and failing to install this security update, that it is not moving on to download and install other security updates. Is there any way I can tell the system "stop trying to install this particular update and move on to the next one" or, alternatively, to verify I have the most up to date updates possible? 
+ Thanks! 
+ Brian Krebs: Unless I am wrong about this, I don't think Windows Update would offer the Flash update unless you already had Flash installed on your system. 
+ Yes. You can use Automatic Updates to download Windows updates and set it to "Download Updates but let me choose which ones to install," as opposed to "install updates automatically". Then, when the little yellow shield pops up in your program tray indicating you have Windows updates to apply, click it and choose "Custom". That will generate a list of available updates, each with a check box next to it. Uncheck the one next to Flash, and then tell it to remember your answer. 
+ Alternatively, you may try logging in as administrator, running the Flash removal tool from Adobe...and assuming you still want Flash installed at all, downloading the update directly from Adobe's site. Remember, that there is a different version of Flash for IE than the one that comes for Firefox and Opera. Two different install processes there, so if you want updated Flash on both IE and Firefox, for example, you will need to visit the Adobe install page with each browser. 
+ _______________________ 
+ Fayetteville, N.C.: Brian-- The organization I worked for went belly up a while ago and allowed employees to keep laptops it issued to us. Is there a way for me to gain administrator rights to the laptop and remove the organization from that role? 
+ Brian Krebs: Yes. You can reinstall Windows. Or another operating system. 
+ You didn't say what OS you are running, actually, so I'm going to assume Windows XP? I have used and had success with a Windows XP password reset tool from this site (Offline NT Password and Registry Editor). That allows you to boot into a CD-ROM and reset the administrator password. In fact, I keep this CD in my computer bag at all times. 
+ Be *sure* you read the caveats and understand the risks of doing this tool for certain setups. For example: "If used on users that have EFS encrypted files, and the system is XP or later service packs on W2K, all encrypted files for that user will be UNREADABLE! and cannot be recovered unless you remember the old password again." 
+ _______________________ 
+ Springfield, Va.: A while back, I installed System Mechanic v8 on my PC running XP (which was also dual boot for Linux). Upon running it, it said a large number of DLLs were unused, so I trusted it and allowed it to "fix" the registry (among other things). Shortly thereafter, I wasn't able to boot Linux (no option on powerup/restart), plus a few other problems, but it worked okay. So, I opted to rebuild the disk (pain in the butt, but not too bad). Now, right after the rebuild and not much use, SM wants to delete a bunch of registry entries for unused DLLs. I'm wary of doing that. What should I do? 
+ Brian Krebs: Unused DLLs? I don't think you're likely to see much improvement in system performance for removing unused DLLs. I'd just leave it alone, given that you had problems with this option before. 
+ _______________________ 
+ Password Safe question: I backup my PC to an external hard drive that sits on my desk. I know that the backup includes the current database file and all the interim backup that Password Safe creates. If my hard drive were to stolen, how easy would it be for somebody to open up the current file with all my user IDs and passwords? And is there something I can do to protect myself against that (other than buying a Rottweiler or a handgun)? Thanks. 
+ Brian Krebs: The database file is encrypted. Period. It is no less encrypted because it's not stored in the active operating system. 
+ _______________________ 
+ Wireless Router: Brian, 
+ What's the difference if XP runs the router or the router software package running it? Is one way better than the other? Also, it was recommended to upgrade the firmware with DD-WRT. Is that better than the default? 
+ Brian Krebs: XP doesn't "run" the router. In fact, the operating system itself has little to do with the router's operation, aside from providing a point and click way to interface with it through a Web browser. 
+ The router has its own operating system, also know as "firmware." DD-WRT is one of many third-party firmware products you can buy or download. Many people enjoy using alternative firmware because they provide expanded options, and allow the user to tweak more settings (gamers are some of the biggest users of alternative firmware versions, eg.,). 
+ If you don't know whether you need firmware other than that which shipped with your router, then you probably don't. 
+ _______________________ 
+ Capitol Hill, D.C.: Lately, my McAfee virus program hijacks the system (Windows XP on a 7 yr old Dell desktop) for as much as an hour to update the virus program. My computer tells me virtual memory is low, other programs like IE and Outlook Express are hard to open. I'm not doing a scan, just allowing McAfee to do its thing after booting up. I am losing productivity as a result. Suggestions? 
+ Brian Krebs: I wouldn't put up with that kind of behavior from any anti-virus program for any reason. My advice: dump the program for another product. If you can't or won't shell out $40 for a license to a commercial product like NOD32 or Symantec 2009, you could do a lot worse than to grab something free like Anti-Vir, AVG Free, AVAST, to name a few free AV products at the beginning of the alphabet. Lots of options, here. 
+ _______________________ 
+ Brian Krebs: Thanks everyone for making this an interesting and fun chat. Please join us again in a couple of weeks for another Security Fix Live, but in the meantime consider making Security Fix a regular stop on your daily Web browsing circuit. Thanks again, and be safe out there, people! 
+ _______________________ 
+ Editor's Note: washingtonpost.com moderators retain editorial control over Discussions and choose the most relevant questions for guests and hosts; guests and hosts can decline to answer questions. washingtonpost.com is not responsible for any content posted by third parties. 
+© 2008 The Washington Post Company

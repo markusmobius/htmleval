@@ -1,0 +1,91 @@
+Climate change did not "cause" Harvey or Irma, but it’s a huge part of the story
+A young Houston couple, adapting to climate change.
+
+The recent Category 4 hurricanes making landfall in the US have revived the perennial discussion about the relationship between extreme storms and climate change. Despite what you might think from the dueling headlines, it’s actually a fairly complicated issue — complicated not just because of the physics, but because of the politics. 
+Here are nine things you can say about Harvey, Irma, and climate change.
+1) These hurricanes are not centrally about climate change
+Talking about climate change during a disaster always runs the risk of insensitivity. The story that most matters about Harvey and Irma right now are the effects they are having on lives and land in Texas and Florida, and the efforts underway to prevent more suffering. 
+More broadly, climate is never going to be central to stories like these. There have always been hurricanes and floods in Texas and Floriday. The things making those states’ coastal developments vulnerable to severe weather — heedless development, sandy subsoil, insufficient drainage — would be problems even in the absence of climate change.
+Climate is not central, but by the same token it is grossly irresponsible to leave climate out of the story, for the simple reason that climate change is, as the US military puts it, a threat multiplier. The storms, the challenges of emergency response, the consequences of poor adaptation — they all predate climate change. But climate change will steadily make them worse.
+2) “Did climate change cause this hurricane?” is a malformed question
+Climate change does not cause things, because climate change is not a causal agent. “Climate change” is a descriptive term — it describes the fact that the climate is changing. What’s causing the changes is an increase in heat energy trapped in the atmosphere, due to greenhouse gases.
+But saying that heat energy caused a hurricane is also somewhat problematic. Let’s explain by way of an analogy. 
+Say I turned up Earth’s gravity by 1 percent. More people around the world would trip and fall. Does it make sense to say, of a particular person tripping and falling, that the increase in gravity (“gravity change”) caused it to happen? No. Does it make sense to say that gravity cause it to happen? No. 
+For any particular instance of tripping and falling, there will be proximate causes — a slippery patch on the sidewalk, a moment’s inattention, whatever. Gravity is a background condition of anyone tripping, but no one would say gravity caused them to trip. If it’s true, it’s trivially true.
+What we might say is that the increase in gravity raised the probability of tripping and falling, or raised the average severity of tripping and falling. Those are measurable facts that can be entirely true without increased gravity causing any particular fall. 
+Increased gravity is a causal condition in every fall, but it is not the primary causal agent in any one fall. Similarly, increased heat energy is a causal condition in every storm (not just the bad ones) — every storm forms and travels in the same global climate — but it is not the primary causal agent in any storm. 
+
+Caused by moisture and warm air and high pressure, like normal hurricanes.
+
+There is, to be sure, increasing sophistication in the science of attribution — that is, in distinguishing the climate signal from the “normal weather” noise. We’re learning to say things like, “There’s only a 5 percent chance the storm would have been this severe in the absence of climate change.” 
+But still, saying a storm “probably wouldn’t have happened this way in the absence of climate change” is not the same as saying climate change caused the storm. What caused the storm is warm air, atmospheric moisture, and weird high/low pressure systems, just like all storms. Climate change just gave it its winning personality.
+3) Yes, climate change made these hurricanes worse
+Thanks to the recent profusion of great climate journalists and communicators, this story has been well told already. Probably the best source is this Facebook post from climate scientist Michael Mann, but also see Chris Mooney, Robinson Meyer, John Schwartz, Emily Atkin, and Susan Mathews.
+It’s a complex story, especially in its particulars, but in broad strokes, climate change made Harvey and Irma worse in two ways (Harvey possibly in three).
+First, it raised sea levels more than half a foot in recent decades. Higher seas mean worse storm surges.
+Second, it raised the temperature of the water in the region, which means more evaporation and more water in the air. Mann:
+Sea surface temperatures in the area where Harvey intensified were 0.5-1C warmer than current-day average temperatures, which translates to 1-1.5C warmer than the 'average' temperatures a few decades ago. That means 3-5% more moisture in the atmosphere.
+More moisture in the atmosphere means more rain.
+Finally (and most speculatively), in the case of Harvey, one of the most damaging aspects is how it hung around in one place, thanks to weak prevailing winds. Mann recently published a paper suggesting that such near-stationary summer weather patterns are made more common by climate change.
+All these factors contributed to the size and severity of the storms. Exactly how much they contributed will have to await peer-reviewed attribution science, but logic, experience, and measurements all make clear that the damage was worse than it would have been absent recent changes in the climate. Harvey “is a bit more intense, bigger and longer lasting than it otherwise would be,” climate researcher Kevin Trenberth told Mooney.
+Joss Fong / Vox
+4) We don’t know if climate change is making hurricanes more likely
+The scientific battles over hurricanes and climate change go way, way back, and run hot. They are also, for a nonpartisan outsider, quite technical and boring. 
+So I’ll skip to the end: The evidence is mixed, and the jury is still out. We’re still not sure if climate change increases hurricane frequency.
+5) We know climate change is making severe downpours more likely
+Severe downpours in the Houston area have become 167 percent more frequent in the past decade, which is commensurate with one of the best-understood and most confident predictions of climate science: Climate change is going to bring lots more heavy rains (and thus flooding). See Andrea Thompson’s great rundown at Climate Central on this.
+In fact, due to sea level rise and more moisture in the air, I expect flooding to be the most frequent public face of climate change over the next decade or so. 
+6) Climate change is nowhere near the biggest determinant of Harvey’s damages, but it’s in there
+Another hotly contested area of climate research has to do with climate change’s role in rising natural disaster damages. 
+Financial damages from natural disasters are definitely rising worldwide, but that’s not just being driven by climate change. Most of it has to do with increasing populations building unsafe buildings on land vulnerable to disasters. 
+These big demographic and economic trends are putting more people and property in harm’s way, so naturally there’s more harm, financial and otherwise. (Andy Revkin is good on this connection; see here and here.) To truly pick out the climate signal from that noise, you’d have to run a model with all the same trends and no climate change. For understandable reasons, that is extremely difficult.
+Some researchers believe there is no climate signal discernible at all yet. (Spare a thought for Roger Pielke Jr.’s long, lonely crusade on this question.) Others disagree, and the battle wages on, but that battle has always struck me as less important than its participants take it to be. 
+Humanity is growing more financially vulnerable to natural disasters for lots of reasons, so there are, correspondingly, lots of ways to reduce vulnerability. Most of them are far more direct than climate mitigation — changing the location and nature of settlements, mainly, along with reforms in building codes, insurance, and government emergency planning. If your main goal is to reduce vulnerability as much and as quickly as possible, reducing greenhouse gases would be a silly way to do it.
+But again, at the same time, it’s grossly irresponsible to leave climate out of the picture. We know it’s going to get worse. We know it’s going to make every other challenge more challenging, every damage more damaging, every expense more expensive. 
+Whether the climate signal is discernible now, it surely will be by the end of the century. By then, our opportunity to prevent some of it will be long past.
+7) Adapting to climate change is very, very different than mitigating it
+Obama presidential adviser John Holdren is credited with what has become a familiar way of formulating the challenge of climate change: We will end up with some mix of prevention, adaptation, and suffering; it is for us to determine the ratio.
+This is a powerful way to approach the subject. It emphasizes the consequences of inaction. We prevent what we can, we adjust to what we can’t prevent, and we suffer what we can’t adjust to. The status quo is not an option.
+But in another way, it is misleading, making it seem as though mitigation (that is, preventing greenhouse gas emissions) and adaptation (adjusting to a changed climate) are two sides of the same coin, fungible even. A dollar spent on one is as good as a dollar spent on the other. 
+Indeed, many conservatives — at least among those who accept the reality of climate change — argue that humans have adapted to all sorts of climates and it’s better to just adapt again than to upend the global energy system. And it’s not just conservatives. Economists generally have great faith in the power of human beings to adapt. 
+But adaptation is not fungible with mitigation. They are different beasts entirely, not only practically but on a profound moral level. I wrote a big post about this once, but to make a long story short: Mitigation has local costs and egalitarian global benefits; adaptation has local costs and inequitable local benefits.
+
+Need higher walls.
+
+Because every ton of greenhouse gases mixes into the atmosphere and affects the entire global climate, preventing the emission of a ton of GHGs offers a global benefit. Climate mitigation generates benefits that are unavoidably egalitarian (distributed across the globe, to everyone who lives in the atmosphere) and progressive (the poor are most vulnerable, so they benefit first and most from harm prevention). 
+There’s plenty of self-interest in climate mitigation, but there’s also an ineradicable element of altruism.
+Adaptation is different. The benefits of adaptation — higher sea walls, better drainage systems, more effective emergency response — are unavoidably both local (only those who happen to live behind the sea wall benefit) and regressive (wealthy people and places will adapt first, best, and most). 
+So adaptation is not some easier alternative route to the same goal. It is every bit as politically difficult as mitigation (mitigation has multiple co-benefits, e.g., cleaner air, while adaptation rarely does), much, much more expensive, and less morally admirable. (Joe Romm had a magnificent post on this back in 2012.) 
+8) Without mitigation, adaptation is a cruel joke, and these hurricanes show why
+Houston’s situation is unique in many ways, well captured in this tweetstorm:
+ A Houston floodsplainer:
+(caveat, I'm not a pro, just someone interested in how my city works. If a real pro finds an error, please LMK)
+— Matt Corbett (@CorbettMatt) August 28, 2017 
+There are several reasons why flooding is so bad in Houston (among them ever-growing amounts of impermeable surfacing and a not-very-absorptive soil substrate). And there are several reasons why evacuating people beforehand was a complicated and fraught decision. 
+ The debate of whether Houston should have issued a mandatory evacuation is more complicated than many probably realize 1/x
+— Aman Batheja (@amanbatheja) August 27, 2017 
+Similarly, every island and city in Irma’s path will have its own idiosyncratic challenges in rebuilding and becoming more resilient. Lessons about how to prepare and respond will inevitably have a local flavor. 
+Still, while there are undoubtedly ways Houston could do better (see Natasha Geiling for much more on that), take a step back and ponder: What is good or adequate adaptation to 40 to 50 inches of rain falling on your head in 72 hours?
+What is a good way to adapt to periodic 5 to 10 feet storm surges? 
+ 5:16 p: Eye of Hurricane Irma is over Naples. Wind gusts 60-70 mph continue across the Keys, with storm surge of 5-10 feet still possible pic.twitter.com/QS8Vhg0uFO
+— NWS Key West (@NWSKeyWest) September 10, 2017 
+There’s just no way to prepare for that and no painless way to respond to it. There’s no adapting. There’s destruction and suffering, followed by slow rebuilding. 
+In the absence of some pretty radical mitigation, such massive rainfall events will just get more frequent and worse on the Gulf Coast, every year, year on year, more or less forever. The worst hurricanes will just get worse. What would adaptation in those circumstances even look like? What kind of long-lasting infrastructure do you build when the climate is changing that fast? How many cycles of destruction and rebuilding can a city cope with? How many simultaneous cities in crisis can a country handle?
+The fact is, we already know that sea level rise and frequent flooding are going to make lots of coastal cities uninhabitable over coming decades (though exactly how many, and when, remains maddeningly uncertain). Think, for a moment, about Miami slowly becoming unlivable. “Adaptation” will mean figuring out who has to leave, who has to pay for resettlement, and who bears the cost of the abandoned city’s infrastructure as it rots, crumbles, and pollutes. 
+That’s a lot of fateful decisions to be made about people’s lives, homes, land, families, and legacies. It is politically explosive stuff. Raise your hand if you think it will be done in an egalitarian or equitable way. 
+(Recall, in the wake of Katrina, House Speaker Dennis Hastert saying that New Orleans might as well just be bulldozed. Recall that 20 members of the Texas congressional delegation, who are now desperately requesting help, voted against federal aid to New York City in the wake of Hurricane Sandy. If adaptation decisions are made so callously within the US, imagine how they’ll be made internationally.)
+
+Imagine this, but written across the entirety of Bangladesh.
+
+Rebuilding after Harvey and Irma will be a test case — adaptation in action. Let’s watch to see if it’s done in a wise and equitable way. My hopes are not high. 
+Without mitigation, if we just let climate change get worse and worse, adaptation is only going to look uglier and uglier, more and more of a euphemism for abandoning poor people to their suffering.
+9) Climate change is part of every story now, including Harvey and Irma
+Everything human beings do, we do in a climate (except hang out on the space station, I suppose). 
+Our climate has been in a rough temperature equilibrium for about 10,000 years, while we developed agriculture and advanced civilization and Netflix. 
+Now our climate is about to rocket out of that equilibrium, in what is, geologically speaking, the blink of an eye. We’re not sure exactly what’s going to happen, but we have a decent idea, and we know it’s going to be weird. With more heat energy in the system, everything’s going to get crazier — more heat waves, more giant rainstorms, more droughts, more floods.
+That means climate change is part of every story now. The climate we live in shapes agriculture, it shapes cities and economies and trade, it shapes culture and learning, it shapes human conflict. It is a background condition of all these stories, and its changes are reflected in them.
+So we’ve got to get past this “did climate change cause it?” argument. A story like Harvey is primarily a set of local narratives, about the lives immediately affected. But it is also part of a larger narrative, one developing over decades and centuries, with potentially existential stakes. 
+We’ve got to find a way to weave those narratives together while respecting and doing justice to both.
+Was this article helpful?
+ yes no 
+Awesome, share it:

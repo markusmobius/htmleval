@@ -1,0 +1,29 @@
+Weisman: Why our entire election system is in jeopardy
+The presidential election is over, but the multiple threats to the trustworthiness of our election system and thus our entire democracy exposed during the recent, contentious presidential campaign must be addressed for democracy to survive.
+The threat is real and it is multifaceted.
+Disinformation
+Disinformation was rampant throughout social media and even, in some instances, through more conventional media sources, such as the false reporting by Fox News Channel of the likelihood of an indictment of Hillary Clinton by the FBI on charges related to misconduct tied to the Clinton Foundation.
+Social media was a sewer of misinformation during the campaign. According to the Pew Research Center and Knight Foundation, more than 40% of people turn to social media for their news. Twitter was particularly active on Election Day. It is a simple thing for someone or some country trying to influence an election to set up phony Twitter accounts to sow deliberate misinformation. Fake stories, such as Pope Francis’ endorsement of Donald Trump and reports that Clinton adviser John Podesta was a Satanist, spread through phony news links on Facebook and other social media.
+Internet of Things
+The growth of the Internet of Things brings a variety of threats to the election system, including the vulnerability of essential infrastructure such as the electrical grid and communication systems at a sensitive time such as Election Day. The recent major denial-of-service attack that temporarily disrupted major websites such as Amazon, CNBC and Twitter was done using relatively unsophisticated and readily available malware and was triggered through a botnet of Internet-connected devices including webcams.
+Fool me once, shame on you. Fool me twice, shame on me. We have got to do better with cybersecurity, and we have the tools. So much of the malware used by cybercriminals, both individual and state-sponsored, is downloaded to our systems by way of "spear phishing," luring unsuspecting victims into clicking on infected links and downloading the malware. Increased training of everyone as to cybersecurity and better use of available analytics and security software are two things that are absolutely necessary
+Remember the past
+In 2014, during Ukraine’s presidential elections, suspected Russian hackers attempted to install malware on the computers of the Ukrainian Central Election Commission that would have altered the vote count.
+The Russians
+Russia is suspected of sponsoring hackers that gained access to Democratic National Committee data and that of other election-related institutions. According to security firm Trend Micro, Russia hacks governments around the world. Elections in France and Germany could be targets. According to the security firm Volexity, a number of political think-tanks have been targeted by Russian hackers.
+An outmoded election system
+Though the fear of outdated voting machines being hacked may have been exaggerated in this election, it is a legitimate concern for future elections. Though the systems used for voting are primarily governed by the individual states, national security standards need to be implemented immediately to prevent not only tampering with votes but even the perception that massive vote tampering could be a possibility. Public confidence in any election is critical.
+The election-related computer systems of the states and municipalities holding voter registration data are vulnerable. Well-publicized hacking attempts to access voter registration systems in Illinois and Arizona during this past election campaign have illustrated this fact. The specter of Russia or anyone tampering with voter registrations and affecting the legitimacy or even the perception of legitimacy of elections is daunting.
+Citizens United
+Lost among the debate about cybersecurity and the hacking of elections is the impact from the Supreme Court decision in Citizens United v. Federal Election Commission in 2010. This decision has been manipulated so corporations can spend massive amounts of money to influence elections without the public being aware of who is behind the advertisements. This is dangerous to a democracy.
+What can we do?
+•Cybersecurity has got to become a way of life for all our institutions. Technology may have created much of the problem, but it also, through analytics and security software, can provide much of the solution.
+ •The media have got to do a better job of exposing false news. In Ukraine, the website StopFake does a great job of exposing disinformation and propaganda. We should follow its lead.
+ •Social media have to improve their own filtering systems.
+ •Education to identify and avoid spear phishing would help to avoid cyberattacks.
+ •The states and the federal government need to work together on an updating of the voting system.
+ •The federal government and industry have got to improve their joint efforts in securing the Internet of Things.
+ •Disclosure by corporations of campaign-related contributions should be mandatory.
+Steve Weisman, an expert in preventing cyberscams and identity theft, is a lawyer and professor at Bentley University. He writes the blog scamicide.com, where he provides daily update information about the latest scams. His new book is  Identity Theft Alert.
+CONNECTTWEET 3 LINKEDINEMAILMORE
+Read or Share this story: http://usat.ly/2g8w4jn

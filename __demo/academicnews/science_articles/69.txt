@@ -1,0 +1,49 @@
+The microscopic critter that can survive almost anything
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+Tardigrades could outlive us by 10 billion years, one recent study found.
+Story highlights
+Tardigrades are microscopic animals that withstand extreme conditions
+They will outlive humans and may be closely related to roundworms
+ (CNN)
+Tardigrades, often called the "water bears" or "moss piglets," are starting to reveal more secrets about their ability to survive extreme conditions that humans can't, according to a new study in the journal PLOS. 
+These tiny, pudgy animals are no longer than one millimeter. Tardigrades, which live in water or in the film of water on plants like lichen or moss, can be found all over the world in some of the most extreme environments, from icy mountains and polar regions to the balmy equator and the depths of the sea. 
+They have eight legs with claws at the end, a brain and central nervous system, and something sucker-like called a pharynx behind their mouth that can pierce food. 
+And they could outlive us by 10 billion years, according to a recent study from Oxford University. 
+It's because they would be largely unaffected by things that could potentially spell doom for Earth and human life in the future, like asteroids, supernovae or gamma ray bursts. As long as the world's oceans don't boil away, tardigrades will live on.
+Read More
+But even if tardigrades have to go without water, it isn't a sacrifice. They've been through worse and come back to life. And no matter what inquiring scientists put them through in the name of science, tardigrade life finds a way. 
+
+The tardigrade species Ramazzottius varieornatus.
+"In recent years humans have been pretty mean to them: drying them out slowly and quickly, freezing them solid, autoclaving them, exposing them to the vacuum of space and cosmic rays, irradiating them," said Mark Blaxter, professor at the University of Edinburgh's Institute of Evolutionary Biology. "I am sure someone has put them under extreme pressure, maybe even tried really bad music at high volumes, or biting insults. 
+"When they are dry, they are not really alive. If 'life' is defined as there being biochemistry going on, then a dried up tardigrade is 'not alive,' as without water there is no biochemistry."
+
+The difference is, tardigrades can be revived, come back to life and reproduce after being frozen for 30 years -- and humans can't. Japanese scientists did this in 2016 by defrosting and soaking moss containing tardigrades in water.
+But it's a misconception that tardigrades can come back to life after longer amounts of time. 
+"Usually people had heard of some ancient moss in a herbarium being accidentally soaked one day and tardigrades crawling out [after 100 years]," Blaxter said. "I have searched for the origin of this story, and am sorry to say it seems to be a scientific myth.
+"We have some Ramazzottius we keep dried up in Edinburgh and check each year: We are now at year four, and last month we got hundreds of wriggling tardigrades coming back to life in half a gram of the dried-up algae."
+Where tardigrades fit in
+Blaxter and his fellow researchers used new genomes of tardigrade DNA to better understand where they may fall on the tree of life. Because they are so small, tardigrades haven't exactly left behind any fossils to help secure where they belong.
+They have been considered to be most closely related to arthropods like insects and spiders because tardigrades have four pairs of legs. But they are also similar to nematodes like roundworms. All three are linked by the fact that they moult, or shed their skin several times during their lives. 
+Nematodes and tardigrades are similar because they're missing the same thing -- certain genes that other animals need to survive. Nose-to-tail animals, including everything from flies to humans, have HOX genes that help coordinate their formation, Blaxter said. Insects have 10 different kinds of them. Nematodes and tardigrades have only five. 
+But even DNA can be deceptive, and only time and more research will tell if Blaxter and his fellow researchers are right about the relationship between nematodes and tardigrades, which is why they want to further refine this in the future.
+
+One of the Antarctic tardigrades revived by Japanese scientists in 2016, showing green algae in its stomach. 
+The researchers were intrigued by something else -- how tardigrades withstand the loss of water, the environment they live in. Most animals have genes that help their bodies respond to stress by carrying away certain cells. Tardigrades and nematodes don't have them. After all, tardigrades don't need to be losing cells when they're under duress, like drying out. 
+Instead, tardigrades turn on certain genes to replace the water loss in their cells with proteins that essentially preserve their structure until water is returned. Other proteins appear to protect DNA from damage, like the kind they would sustain from radiation. 
+But not all tardigrades are the same. There are nearly a thousand species of them, and they adapt to survive in different ways.
+
+"What we found very interesting was that our two tardigrades use similar proteins but do things differently," Blaxter said. "Ramazzottius is able to withstand drying at zero notice. The pond tardigrade Hypsibius needs warning. If we dry it up rapidly it doesn't survive, but if we give it 24 hours warning -- by exposing it to a drying atmosphere -- it does OK. Hypsibius has to turn on genes in order to survive drying, but Ramazzottius has already got the necessary proteins made."
+It confirms the finding of a previous study from March by Thomas Boothby and his colleagues that looked at how genes function in tardigrade species that need time to dry out, versus those that can dry without notice. 
+"These findings seem to indicate that different tardigrade species may be using some overlapping, but also, some distinct mediators and mechanisms to survive stresses," Boothby, a Life Sciences Research Foundation postdoctoral fellow at the University of North Carolina.
+How tardigrades could help us
+Blaxter has been studying tardigrades for years and his fascination started with them at a young age when he spied the "small beasties" in an animal encyclopedia that his parents gave him for Christmas. It would go on to guide his research career, he said. 
+Now, he and fellow researchers are looking at the ways this animal could answer many questions we have about life.
+
+It may be a long way off, but Blaxter believes that the proteins that allow the tardigrade cells to survive drying out could be used to preserve cells and cell products "indefinitely" in a dried up state without the need for a freezer or even power.
+"Imagine a vaccine made in the US that is to be used to protect kids from a devastating childhood disease across the developing world," Blaxter said. "Currently we have to have a chain of fridges from here to, say, central Brazil, including a fridge in each and every village clinic, all of them working, every day, before we can be sure that the vaccine will get to the people who need it safely and securely. 
+"Even then, the vaccine will have a shelf life, and we would have to guarantee keeping it cold all the time. Now imagine the same vaccine, coated in tardigrade desiccation proteins. Stored at room temperature and shipped by post, the vaccine would have a much extended shelf life, and would be ready to use whenever and wherever it was needed."
+Boothby is also leading a project with NASA to grow tardigrades on the International Space Station. 
+See the latest news and share your comments with CNN Health on Facebook and Twitter.
+"Prolonged exposure to spaceflight conditions -- low gravity, increased radiation -- has a number of detrimental effects," Boothby said. "I'll be looking at how tardigrades cope with prolonged exposure to these stresses and also what genes are activated or inactivated during and after these extended periods. 
+"The hope is that since tardigrades can combat the detrimental effects of many Earth-based stresses, that they would do the same for spaceflight. If we can learn how tardigrades protect themselves during spaceflight, maybe we can apply the same or similar tricks for safeguarding astronauts during long missions."

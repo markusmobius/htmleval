@@ -1,0 +1,990 @@
+{
+  "summary": {
+    "random_seed": 42,
+    "total_articles": 120,
+    "token_usage": {
+      "prompt": 75019,
+      "completion": 20379,
+      "total": 95398
+    }
+  },
+  "metrics": {
+    "confusion_matrix": [
+      [
+        82,
+        8
+      ],
+      [
+        18,
+        12
+      ]
+    ],
+    "accuracy": 0.7833333333333333,
+    "precision": 0.6,
+    "recall": 0.4,
+    "f1_score": 0.48,
+    "false_positive_rate": 0.08888888888888889
+  },
+  "detailed_results": [
+    {
+      "filename": "4457.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses political and legal matters—Senate testimony of an attorney general nominee, executive privilege, and congressional investigations—not scientific research, studies, or academic findings.",
+      "title": "On Day 2, Democrats See Change In Mukasey"
+    },
+    {
+      "filename": "583.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.8,
+      "gpt_reasoning": "The article reports and discusses survey data (Sports and Fitness Industry Association figures) about youth tackle football participation and references research-informed safety concerns (concussions, CTE). While it's a news piece, it is grounded in research findings and statistics rather than being purely opinion or general news.",
+      "title": "Would you let your child play football?"
+    },
+    {
+      "filename": "3390.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports a sports governing body's policy decision to reduce rider numbers for safety in road races. It describes an administrative change and rationale but does not report on scientific studies, research findings, or academic analysis.",
+      "title": "UCI reduces field size in road races to improve safety"
+    },
+    {
+      "filename": "1453.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports and analyzes scientific data on Antarctic sea ice extent from the National Snow and Ice Data Center and NASA, discusses trends, historical records, and the scientific interpretation of those findings in the context of climate variability.",
+      "title": "Analysis | Antarctic sea ice levels have shrunk to record low levels for late June"
+    },
+    {
+      "filename": "195.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "This is a personal/lifestyle piece about returning to work and a popular book that draws on interviews, not a report of scientific studies or academic research with methods or findings.",
+      "title": "The 'Fifth Trimester': When moms return to work"
+    },
+    {
+      "filename": "2675.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The piece is a human-interest roundup of baby animals at zoos and breeding program highlights for visitors. It does not report on scientific studies, methods, data, or research findings—only descriptive conservation context and animal counts/names.",
+      "title": "Spring 2016: New baby animals to find at zoos across the USA"
+    },
+    {
+      "filename": "93.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "The piece is written by an organizational psychologist and explicitly draws on and cites empirical research and studies about workplace 'jerks' and harassment (e.g., Bennett Tepper's cost estimate), so it primarily reports and discusses scientific findings in social/organizational psychology.",
+      "title": "Want to fix sexual harassment? Don't hire jerks"
+    },
+    {
+      "filename": "1944.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "Opinion/political commentary about Obama's health care stance and negotiation strategy; contains no discussion of studies, research methods, or scientific findings.",
+      "title": "Obama messes up on health care, big time"
+    },
+    {
+      "filename": "509.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.88,
+      "gpt_reasoning": "The article summarizes and cites research findings (e.g., APA survey, Cornell research, a study in the journal Appetite) about stress, emotion, and comfort foods, framing advice around those studies.",
+      "title": "Why comfort foods make us feel better — and how to make them healthier"
+    },
+    {
+      "filename": "699.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is a biographical/profile piece about Carlota Zimmerman and her career (journalism, coaching, playwriting), and contains no discussion of scientific studies, research methods, or findings.",
+      "title": "Carlota Zimmerman | HuffPost"
+    },
+    {
+      "filename": "934.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is sports-related (team schedule, stats, standings, player leaders) and does not discuss scientific research, studies, or academic findings.",
+      "title": "Dayton Flyers News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "29.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers a legal and human-rights/political news story about a journalist's prison sentence and related detentions, with no discussion of scientific research, studies, or academic findings.",
+      "title": "Bahrain journalist's sentence upheld"
+    },
+    {
+      "filename": "1333.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.86,
+      "gpt_reasoning": "The piece is an opinion/policy discussion about demographics, fertility, and political responses rather than a report of specific scientific studies or research findings. It synthesizes punditry and policy arguments rather than detailing academic methods or results.",
+      "title": "The US needs more babies, more immigrants, and more integration"
+    },
+    {
+      "filename": "1050.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a personal/travel-retirement piece about living in Ecuador and factors that make it a retirement destination; it does not report on scientific studies, research findings, or academic analysis.",
+      "title": "Why Ecuador Will Always Be The Ultimate Retirement Haven"
+    },
+    {
+      "filename": "61.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The article is political news about a leaked poll and its implications for Chuck Hagel’s confirmation and Senate races. Although it cites a poll, it does not report on scientific research or academic studies — it's political reporting and analysis.",
+      "title": "Exclusive: Leaked Poll Suggests Hagel a Risky Vote for Red State Democrats"
+    },
+    {
+      "filename": "3255.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers President Obama's comments on a military and political strategy regarding IS/ISIL in Syria and reactions from Congress — it is political/military news, not reporting on scientific research or academic studies.",
+      "title": "Obama: 'We don't have a strategy yet' for IS in Syria"
+    },
+    {
+      "filename": "3186.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a sports/business news item about David Beckham unveiling an MLS team in Miami, covering announcements, stadium plans and legal issues; it does not report on scientific research or studies.",
+      "title": "AP source: Beckham plans to unveil Miami MLS team on Monday"
+    },
+    {
+      "filename": "164.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The piece is an opinion/political column about presidential control of nuclear launch authority and public concerns about Trump. It discusses security and politics, not scientific research or study findings (aside from a cited poll), so it is not primarily about scientific research.",
+      "title": "Cómo quitar el dedo de Trump del 'botón' de lanzamiento nuclear"
+    },
+    {
+      "filename": "2454.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is an advertising/sales pitch (audience metrics, reach, influence) for The Guardian, citing analytics sources for marketing credibility. It does not report on scientific studies, research findings, or academic analysis.",
+      "title": "Guardian Advertising"
+    },
+    {
+      "filename": "4392.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "The article is reporting political polling and voter preferences related to the presidential race, which is news/politics rather than coverage of scientific or academic research studies.",
+      "title": "Clinton has 4-point edge as voters weigh in on Trump's treatment of women"
+    },
+    {
+      "filename": "842.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses mass extinctions, extinction rates, the Permian–Triassic event and references researchers and the 2009 'planetary boundaries' study — it is centered on scientific research and findings about biodiversity loss and tipping points.",
+      "title": "Could biodiversity destruction lead to a global tipping point?"
+    },
+    {
+      "filename": "2846.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The piece is a reader-opinion/solicitation about justice system reforms and public views, not reporting on studies, research findings, or academic work.",
+      "title": "Readers talk about the justice system"
+    },
+    {
+      "filename": "1972.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is a crossword puzzle discussion about a theme involving Supreme Court justices and wordplay, not reporting on scientific research or studies.",
+      "title": "Supreme Intelligence"
+    },
+    {
+      "filename": "517.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers political/diplomatic news about Biden and the Israeli-Palestinian conflict, not scientific research, studies, or findings.",
+      "title": "Biden presses Israel on two-state solution"
+    },
+    {
+      "filename": "276.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on new research studies, describing participants, survey methods, and findings linking forgiveness to productivity, absenteeism, and health — indicating it covers scientific research.",
+      "title": "The Power of Forgiveness at Work"
+    },
+    {
+      "filename": "1379.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article summarizes and discusses a 2016 peer‑reviewed systematic review of roughly 130 studies on gun laws and violence, including methodology, authors, and findings — clearly reporting on scientific research.",
+      "title": "A huge international study of gun control finds strong evidence that it actually works"
+    },
+    {
+      "filename": "141.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses Trump administration policy changes and political implications for Medicaid and reproductive healthcare providers, not reporting on scientific studies, research findings, or academic work.",
+      "title": "New Trump administration initiatives: A win for anti-abortion activists, a weapon against others"
+    },
+    {
+      "filename": "324.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses political and legislative details of a Senate tax bill and differences from the House plan; it covers policy/news rather than reporting on scientific research or study findings.",
+      "title": "Senate Republicans unveil their own tax plan"
+    },
+    {
+      "filename": "2464.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "This is an obituary about art historian Linda Nochlin and her influence on feminist art history, not a report of scientific studies or research findings. It discusses biography and cultural impact rather than presenting research results.",
+      "title": "Linda Nochlin obituary"
+    },
+    {
+      "filename": "2617.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.7,
+      "gpt_reasoning": "Title and date alone ('Migration and development | Global-development') suggest a general policy or commentary piece; no mention of studies, data, methods, or research findings is provided, so it likely isn't primarily reporting scientific research.",
+      "title": "Migration and development | Global-development"
+    },
+    {
+      "filename": "1577.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is a human-interest/conflict news report about a photographer helping wounded children in Aleppo, detailing eyewitness accounts and casualties; it does not discuss studies, research, or scientific findings.",
+      "title": "War photographer stops photographing and helps wounded Syrian children in Aleppo"
+    },
+    {
+      "filename": "3167.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article describes a livestreamed college football awards show and related event coverage; it focuses on sports, personalities, and broadcasting rather than reporting on scientific research, studies, or academic findings.",
+      "title": "USA TODAY NETWORK Scores First Livestream of American Football Coaches Association Awards Show"
+    },
+    {
+      "filename": "1326.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a news roundup focused on politics, government operations, legal cases, and current events (shutdown negotiations, arrests, elections, court testimony). It does not report on scientific studies, research findings, or academic work.",
+      "title": "Wednesday's Morning Email: What's On The Table As A Government Shutdown Looms"
+    },
+    {
+      "filename": "2443.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article summarizes a Climate Council report and research findings (citing CSIRO and Bureau of Meteorology), provides quantitative changes and projections in rainfall and streamflow, and discusses research-linked health and agricultural impacts.",
+      "title": "Climate change making droughts in Australia worse as rain patterns shift"
+    },
+    {
+      "filename": "938.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is a sports team page with game times, scores, standings and player/team statistics for Elon University basketball; it does not report on research, studies, or scientific findings.",
+      "title": "Elon University Phoenix News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "118.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The piece is an opinion/news article about the #MeToo movement and a circulated spreadsheet of alleged misconduct in media; it discusses social events and commentary rather than reporting on scientific studies, research methods, or empirical findings.",
+      "title": "Why the \"sh***y men\" list author deserves our praise"
+    },
+    {
+      "filename": "340.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article reports on leaked political emails and commentary by Colin Powell about Donald Trump—political news and opinion—rather than any scientific study, research findings, or academic analysis.",
+      "title": "Powell: Trump is 'an international pariah'"
+    },
+    {
+      "filename": "3665.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "This is a news/ranking article about state performance (unemployment, pension ratios, credit ratings, poverty, etc.) and policy outcomes, not a report of scientific research or academic studies.",
+      "title": "The best- and worst-run states in America"
+    },
+    {
+      "filename": "1095.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The content is sports coverage (team schedule, game stats, standings, player stats and photo galleries) about the Lehigh Mountain Hawks basketball team, with no discussion of scientific research, studies, or academic findings.",
+      "title": "Lehigh Mountain Hawks News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "2368.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on a criminal investigation and prison transfer related to John Worboys, with no discussion of scientific studies, research methods, data, or academic findings.",
+      "title": "Police investigate new allegation against John Worboys"
+    },
+    {
+      "filename": "462.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers Monica Puig's fundraising and celebrity appeals for Puerto Rico disaster relief after Hurricane Maria; it contains no discussion of scientific studies, research methods, or findings.",
+      "title": "Monica Puig: 'Help Puerto Rico,' it's 'in crisis now'"
+    },
+    {
+      "filename": "1026.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is sports-related (team schedule, game stats, standings, and player statistics) and does not report on scientific studies, research findings, or academic analysis.",
+      "title": "American U. Eagles News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "3891.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses celebrity estates, wills, legal and financial fallout after death. It covers biographical/entertainment and legal topics, not scientific research, studies, or academic findings.",
+      "title": "6 legendary stars who died without wills"
+    },
+    {
+      "filename": "2937.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "This is an opinion/letters piece about pundit bias and police violence. While it cites statistics from a news project, it does not report on or discuss scientific studies or academic research findings.",
+      "title": "Pundits too often bring bias to analysis of police violence: Your Say"
+    },
+    {
+      "filename": "6.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on a medical treatment (autologous haematopoietic stem cell transplant) for multiple sclerosis, describes its mechanism, patient outcomes and quotes clinicians—i.e., coverage of clinical research/medical findings.",
+      "title": "Cancer treatment for MS hailed"
+    },
+    {
+      "filename": "988.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is sports-related (team stats, schedule, standings, player stats) and does not report on scientific studies, research findings, or academic analysis.",
+      "title": "Texas Tech Red Raiders News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "3487.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is sports news about college football roster additions and player statistics, not reporting on scientific research, studies, or academic findings.",
+      "title": "Tennessee State adds ex-Tide LB Brown, ex-Gophers QB Croft"
+    },
+    {
+      "filename": "64.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The article reports on technical research by security firm Checkmarx demonstrating encryption vulnerabilities in Tinder, i.e., empirical findings about app security rather than general news or opinion.",
+      "title": "Report: Tinder's Lack of Encryption Creates Spying Risk"
+    },
+    {
+      "filename": "3240.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is a sports news report on a boxing match with quotes, scores and fight description; it does not discuss studies, research methods, or scientific findings.",
+      "title": "Danny Garcia beats Lamont Peterson to stay unbeaten"
+    },
+    {
+      "filename": "2166.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a human-interest piece about comedian Elayne Boosler, crossword puzzles, and animal adoption; it does not report on scientific studies, research methods, or findings.",
+      "title": "Celebrity Guest Solver Elayne Boosler: Soft T's"
+    },
+    {
+      "filename": "3694.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers the sale and ownership history of a WNBA team, team performance and attendance — sports/business news — and contains no discussion of scientific studies, research methods, or findings.",
+      "title": "James Dolan looking to sell New York Liberty after 21 years"
+    },
+    {
+      "filename": "3241.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is financial/corporate news focused on Valeant's earnings, stock movement, CEO strategy, and asset sales; it does not report on scientific studies, experiments, or research findings.",
+      "title": "Valeant shares surge 25% despite earnings miss"
+    },
+    {
+      "filename": "616.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers U.S. House Speaker Paul Ryan's diplomatic visit and policy statements on Iran, sanctions, and regional politics — political/news reporting rather than any scientific study or research findings.",
+      "title": "On Mideast visit, US house speaker vows to confront Iran"
+    },
+    {
+      "filename": "4206.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article summarizes a Department of Justice investigative report and news coverage of policing, racial bias, and the Ferguson protests. It is investigative/journalistic and policy-related rather than reporting on scientific or academic research studies.",
+      "title": "What did the Justice Department's investigation into the Ferguson Police Department find? - The 2014 Ferguson protests over the Michael Brown shooting"
+    },
+    {
+      "filename": "485.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on academic research into solar geoengineering, cites a University of Exeter study published in Nature Communications, and describes simulation-based findings about climate impacts.",
+      "title": "Who's right about this radical plan to cool the planet?"
+    },
+    {
+      "filename": "957.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "The article is a tech/industry news piece about UPS testing drone deliveries and business implications, not reporting on academic research, studies, or scientific findings.",
+      "title": "UPS Is Testing Drone Deliveries, And It's Just As Cool As You'd Hope"
+    },
+    {
+      "filename": "3194.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is political commentary about Donald Trump and Vladimir Putin, focusing on campaign behavior, foreign policy, and speculation about motives; it does not report on scientific research, studies, or academic findings.",
+      "title": "Trump's Kafkaesque bromance with Putin: Our view"
+    },
+    {
+      "filename": "2582.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is a series of crossword editor updates and columns about puzzles, setters and events; it does not report on scientific studies, research findings, or academic work.",
+      "title": "Crossword editor's update | Crosswords"
+    },
+    {
+      "filename": "1883.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content describes travel itineraries and short-break packages inspired by a newspaper travel feature; it contains no discussion of studies, research methods, data, or scientific findings.",
+      "title": "36 Hours+ | Educational Travel | Small Group | Cruises | Shortbreaks"
+    },
+    {
+      "filename": "662.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The piece is an opinion/analysis about economic geography and the role of small cities, referencing ideas and a journalistic article rather than reporting on specific scientific studies, experiments, or research findings.",
+      "title": "Gambler’s Ruin of Small Cities (Wonkish)"
+    },
+    {
+      "filename": "3555.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is an entertainment piece about Gigi Hadid and Kendall Jenner performing Justin Bieber's song for a magazine; it contains no discussion of studies, research methods, data, or scientific findings.",
+      "title": "Gigi Hadid, Kendall Jenner add dramatic flair to Justin Bieber's 'Baby'"
+    },
+    {
+      "filename": "4627.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses stock market metrics (money flow, uptick/downtick ratio, quote data providers) and financial data — it does not report on scientific studies, research findings, or academic work.",
+      "title": "TSS Stock Price & News - Total System Services Inc."
+    },
+    {
+      "filename": "4282.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on a criminal investigation into the Boston Marathon bombing and focus on the suspect's widow, citing law enforcement details and forensic leads; it does not discuss scientific research, studies, or academic findings.",
+      "title": "Investigators sharpen focus on wife of dead Boston bombing suspect"
+    },
+    {
+      "filename": "3492.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "This is a sports commentary/opinion piece about the Cleveland Cavaliers' chances, citing game statistics and roster issues rather than reporting on scientific studies, research methods, or academic findings.",
+      "title": "5 reasons the Cavaliers won't make the NBA Finals this year"
+    },
+    {
+      "filename": "1426.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.85,
+      "gpt_reasoning": "The piece draws on and summarizes a body of social science research and a Council on Foreign Relations report to support its analysis of sexual violence in conflict. Although it is policy-oriented analysis, it discusses research findings rather than purely opinion or routine news.",
+      "title": "Analysis | 5 reasons the U.N. Security Council should care about the Burmese military’s sexual assaults on the Rohingya"
+    },
+    {
+      "filename": "515.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is political news covering Donald Trump's comments about an incident at a campaign rally and a Black Lives Matter protester. It does not report on studies, research findings, or scientific analysis.",
+      "title": "Donald Trump on Black Lives Matter protester: 'Maybe he should have been roughed up' - CNNPolitics"
+    },
+    {
+      "filename": "1134.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses a film project and biographical story about Megan Phelps-Roper and the Westboro Baptist Church; it covers entertainment/news and personal history rather than scientific studies, research, or findings.",
+      "title": "Reese Witherspoon To Produce Film About 'God Hates Fags' Church"
+    },
+    {
+      "filename": "2279.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article profiles Arianna Huffington and The Huffington Post, focusing on media, publishing, and politics. It does not report on scientific studies, research findings, or academic work.",
+      "title": "Citizen Huff"
+    },
+    {
+      "filename": "1309.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a pop-culture/entertainment piece about a poet's ode to Jennifer Lopez and media reaction; it contains no discussion of studies, research methods, or scientific findings.",
+      "title": "Poet Breaks Down Why J.Lo Is So Much More Than Her 'Beauty And Booty'"
+    },
+    {
+      "filename": "1097.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is sports-related (Villanova basketball stats, schedule, standings, and player info) and does not report on scientific research, studies, or academic findings.",
+      "title": "Villanova Wildcats News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "2861.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The article discusses research-linked health risks of indoor tanning, cites experts and federal health agencies (CDC, FDA, Surgeon General), and reports on findings and regulatory actions based on scientific evidence.",
+      "title": "Home tanning beds: convenient but dangerous, health experts say"
+    },
+    {
+      "filename": "3735.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "This is an opinion/letter about private prisons, immigration detention, lobbying and policy—news and advocacy content—not reporting on scientific studies or academic research.",
+      "title": "Private prison industry will always find a way to make a profit: Your Say"
+    },
+    {
+      "filename": "613.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is an entertainment/celebrity news piece about Anne Hathaway's wardrobe malfunction and an interview; it does not report on research, studies, or scientific findings.",
+      "title": "Anne Hathaway: Wardrobe malfunction ‘makes me sad;’ Matt Lauer under fire for question"
+    },
+    {
+      "filename": "4189.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article covers political news and policy developments (Trump, DACA, CHIP, Senate primary) and does not report on scientific studies, research findings, or academic work.",
+      "title": "The 4 most important stories in politics this week"
+    },
+    {
+      "filename": "2754.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "This is an obituary/celebrity news piece about Zsa Zsa Gabor's life and death; it contains no discussion of scientific studies, research findings, or academic analysis.",
+      "title": "Zsa Zsa Gabor, one of the first celebutantes, is dead at 99"
+    },
+    {
+      "filename": "1810.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article discusses the legal process, potential execution of Saddam Hussein, political and social reactions — it is news/political reporting, not about scientific research or studies.",
+      "title": "Iraqis Line Up to Put Hussein in the Noose"
+    },
+    {
+      "filename": "3434.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a local feature about farm-raised paddlefish and caviar production/sales, describing people and processes rather than reporting on scientific studies or research findings.",
+      "title": "Making caviar in Ohio"
+    },
+    {
+      "filename": "3432.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The article is an opinion/policy piece about law enforcement, government response, and shipping controls related to fentanyl trafficking, not reporting on scientific studies or research findings.",
+      "title": "To catch mass killer, focus on fentanyl shipments"
+    },
+    {
+      "filename": "829.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The article centers on climate science and includes expert scientists' explanations about temperature change, adaptation, and risks—reporting scientific perspectives and findings rather than general politics or consumer advice.",
+      "title": "Scott Pruitt insincerely asked what's Earth's ideal temperature. Scientists answer | Dana Nuccitelli"
+    },
+    {
+      "filename": "3437.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article focuses on health coverage, the ADAP program, patient experiences and policy implications of changes to the Affordable Care Act, not on scientific studies, research findings, or clinical trial results.",
+      "title": "Low-income AIDS patients fear coverage gains could slip away"
+    },
+    {
+      "filename": "2784.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The title and content relate to NFL/sports and a subscription/login notice, with no mention of studies, research, or scientific findings.",
+      "title": "NFL Teams - NFL Football"
+    },
+    {
+      "filename": "91.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The article is a human-interest news report about a patient's surgery and death; it does not report on scientific studies, research findings, or academic results (only mentions the family's intent to donate the body for research).",
+      "title": "Fallece Emanuel, el menor cubano que tenía un enorme tumor en el rostro"
+    },
+    {
+      "filename": "1522.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is an advice/opinion piece for incoming college students from Latino professors about choosing majors and campus life. It does not report on studies, research findings, or scientific methods.",
+      "title": "Entering college? Latino professors share some great advice"
+    },
+    {
+      "filename": "566.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a political/news/opinion piece listing notable lines from a Trump presser; it does not report on studies, research findings, or scientific analysis.",
+      "title": "35 amazing Trump lines at impromptu presser"
+    },
+    {
+      "filename": "671.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.85,
+      "gpt_reasoning": "The piece is political journalism and analysis about education and voting behavior. While it cites social-science sources (e.g., Pew) and discusses explanations, its primary focus is electoral commentary rather than reporting or detailing scientific studies or research findings.",
+      "title": "Why Does Education Translate to Less Support for Donald Trump?"
+    },
+    {
+      "filename": "1559.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.85,
+      "gpt_reasoning": "The article summarizes findings from the Annie E. Casey Foundation's Kids Count Data Book, reporting statistical measures and trends in child poverty and related social indicators—i.e., coverage of a research/reported study rather than purely opinion or general news.",
+      "title": "Report Suggests American Children Left Behind in Economy Recovery"
+    },
+    {
+      "filename": "205.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on a paleontology study published in Nature Communications, describes scientific analysis (melanosome comparison) and quotes researchers, indicating coverage of academic research findings.",
+      "title": "'Rainbow' dinosaur discovery: Tiny dino had colorful feathers"
+    },
+    {
+      "filename": "40.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The snippets are business/economic commentary about the global economy, Davos, and trade actions by China—news and analysis rather than reports of scientific studies or research findings.",
+      "title": "Business - BBC News"
+    },
+    {
+      "filename": "44.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on trade policy and tariff decisions (solar panels and washing machines) by the Trump administration and trade bodies. It does not discuss scientific research, studies, or academic findings.",
+      "title": "AMERICA FIRST: Trump Imposes 30% Tariff on Imported Solar Products and Washing Machines"
+    },
+    {
+      "filename": "1289.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is sports news: team schedule, game stats, standings and player statistics for a college basketball team, with no discussion of scientific research, studies, or academic findings.",
+      "title": "Florida International Golden Panthers News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "3999.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a cultural commentary about consuming work by alleged sexual predators and industry reactions; it discusses moral/aesthetic decisions and specific entertainers rather than reporting on scientific studies or research findings.",
+      "title": "How to think about consuming art made by sexual predators."
+    },
+    {
+      "filename": "1355.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on a civil rights lawsuit and alleged privacy violations by Motel 6 and ICE — legal/news content about immigration and litigation, not research, studies, or scientific findings.",
+      "title": "Civil rights group sues Motel 6 for giving guest info to immigration authorities"
+    },
+    {
+      "filename": "1453.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The item is a news photo gallery ('The Week in Pictures') about Mexico and current events, not reporting on studies, research, or scientific findings.",
+      "title": "Mexico News: Breaking News, Photos & Videos about Mexico - NBC News"
+    },
+    {
+      "filename": "2541.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a news piece about North Korea's cheerleading delegation and political/public-relations aspects of the Winter Olympics, not reporting on scientific research, studies, or academic findings.",
+      "title": "North Korea's 'army of beauties' will be under close scrutiny at Winter Olympics"
+    },
+    {
+      "filename": "2444.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.99,
+      "gpt_reasoning": "The article is a culinary piece featuring a vegan recipe and personal cooking narrative, with no discussion of scientific studies, research methods, or findings.",
+      "title": "Meera Sodha’s recipe for vegan sweet potato and aubergine massaman curry"
+    },
+    {
+      "filename": "434.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "The article is sports/legal news about football players, team policies on cell phone use, and allegations/defense statements. It does not report on scientific studies, research findings, or academic analysis—mentions of 'experts' are opinion-based rather than study-based.",
+      "title": "Fútbol | CNN"
+    },
+    {
+      "filename": "4329.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article focuses on the British royal family and a public visit to a neuroscience institute, without reporting on any specific studies, research findings, or scientific results.",
+      "title": "The royal family: William, Catherine, George and Charlotte"
+    },
+    {
+      "filename": "907.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article is an entertainment piece about the 10th anniversary of the TV show Breaking Bad, featuring interviews and reflections on storytelling and production—there is no discussion of scientific studies or research findings.",
+      "title": "'Breaking Bad' Turns 10: Vince Gilligan, Bryan Cranston And Aaron Paul Break Down The Pilot"
+    },
+    {
+      "filename": "3342.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "This is a personal letter/opinion about a childhood encounter with police and views on race and policing, not reporting on studies, research findings, or scientific analysis.",
+      "title": "Early encounter with police shaped man's life: Your Say"
+    },
+    {
+      "filename": "2847.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.92,
+      "gpt_reasoning": "The article reports results from the J.D. Power 2017 North America Rental Car Satisfaction Study, including survey methodology, sample size, and quantitative findings — i.e., coverage of a research study.",
+      "title": "J.D. Power: Enterprise is top-rated rental car company"
+    },
+    {
+      "filename": "2214.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article reports on Ugandan political developments — a constitutional amendment and related protests and debate — and contains no discussion of scientific studies, research methods, or findings.",
+      "title": "Uganda Lifts an Age Limit, Paving the Way for a President for Life"
+    },
+    {
+      "filename": "1429.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "This is a political analysis/opinion piece about the electoral effects of a government shutdown. While it cites opinion polls, it does not primarily report on or discuss scientific studies or academic research findings.",
+      "title": "The electoral ramifications of the shutdown are far from clear"
+    },
+    {
+      "filename": "2138.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article describes a synthetic biology project to create glowing plants, references prior university research creating glowing tobacco, and discusses genetic engineering methods and research-related controversies, so it primarily covers scientific research and development.",
+      "title": "A Dream of Glowing Trees Is Assailed for Gene-Tinkering"
+    },
+    {
+      "filename": "1310.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a personal narrative about a 24-hour photography project, discussing goals, experiences, and photos—there is no mention of scientific studies, research methods, data, or findings.",
+      "title": "24hourproject : Three Stories from Three Cities"
+    },
+    {
+      "filename": "1068.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is sports coverage—team schedule, stats, standings and player stats for Nicholls State basketball. It does not report on research, studies, or scientific findings.",
+      "title": "Nicholls State Colonels News, Photos, Stats, Rankings"
+    },
+    {
+      "filename": "1013.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is just a brief author/title and copyright boilerplate with no mention of studies, research, or scientific findings, so it is not primarily about scientific research.",
+      "title": "Emily Ingram | HuffPost"
+    },
+    {
+      "filename": "2076.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.9,
+      "gpt_reasoning": "The content is a generic search/results listing ('Middle East' with '22237 results'), with no mention of studies, findings, or academic research.",
+      "title": "Middle East"
+    },
+    {
+      "filename": "3733.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is an entertainment/news piece about the NAACP Image Awards, listing nominees and winners and featuring celebrities. It does not report on scientific studies, research findings, or academic work.",
+      "title": "Mary J. Blige, Danny Glover, Jay-Z in spotlight at NAACP Image Awards; Jordan Peele among early winners"
+    },
+    {
+      "filename": "4215.txt",
+      "original_label": "non_science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.85,
+      "gpt_reasoning": "The article reports results from a Washington Post-ABC News poll — a survey study presenting findings about public opinion on the economy and President Trump. While political in subject, it is primarily reporting research/survey results rather than general opinion or pure news.",
+      "title": "Poll finds public optimistic about the economy, critical of Trump, split on issues"
+    },
+    {
+      "filename": "722.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.85,
+      "gpt_reasoning": "The article is a human-interest/health news piece focused on a patient story and public reaction to hyperemesis gravidarum, not reporting on scientific studies, research methods, or findings.",
+      "title": "When Pregnancy Almost Kills You"
+    },
+    {
+      "filename": "1089.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The article reports on a policy/regulatory action expanding transgender protections in health care under the Affordable Care Act, focusing on legal and civil-rights developments rather than scientific studies or research findings.",
+      "title": "Obama Makes Big Move For Transgender Rights"
+    },
+    {
+      "filename": "639.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.97,
+      "gpt_reasoning": "The article is a political/opinion piece about the status of the Western Wall, U.S. diplomacy, and historical claims — it does not report on scientific research, studies, or academic findings.",
+      "title": "Mr. Trump, stand with Israel: The Western Wall is Jewish"
+    },
+    {
+      "filename": "36.txt",
+      "original_label": "science",
+      "gpt_classification": "scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses clinical trials, drug development efforts, research funding initiatives, and the scientific challenges of treating dementia and Alzheimer’s—it is focused on scientific research and findings.",
+      "title": "Why it's so hard to treat dementia"
+    },
+    {
+      "filename": "4698.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article discusses hedge-fund activism and corporate board nominations at media companies (business and finance news), not scientific studies, research findings, or academic work.",
+      "title": "Hedge Fund  "
+    },
+    {
+      "filename": "4094.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is an entertainment roundup/review of TV shows (e.g., Crazy Ex-Girlfriend) and contains no discussion of scientific research, studies, or academic findings.",
+      "title": "Crazy Ex-Girlfriend: The CW embraces musical comedy in this brilliant gem - The 18 best TV shows airing right now"
+    },
+    {
+      "filename": "2060.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content describes a book review podcast and commentary on books, libel law, and bestseller news—there is no report of scientific studies, research findings, or academic research.",
+      "title": "Books - Sunday Book Review - New York Times"
+    },
+    {
+      "filename": "3170.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The article is a press/marketing announcement about USA TODAY NETWORK being selected for GoPro's pilot program to use a new camera for content production; it does not report on scientific studies, research methods, or findings.",
+      "title": "USA TODAY NETWORK Selected for GoPro's Pilot Program"
+    },
+    {
+      "filename": "35.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The piece is primarily a product recommendation/review for adjustable dumbbells and consumer advice. It only briefly cites a 2014 UCLA study to support the benefits of weightlifting rather than reporting or analyzing scientific research as its main focus.",
+      "title": "This top-rated set of dumbbells will save you space at home"
+    },
+    {
+      "filename": "2413.txt",
+      "original_label": "non_science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.95,
+      "gpt_reasoning": "The content is a news/front-page roundup covering politics, culture and current events (Brexit, pensions, government shutdown, human interest stories) with no mention of studies, experiments, or research findings.",
+      "title": "News | From the Observer  | Theobserver"
+    },
+    {
+      "filename": "1276.txt",
+      "original_label": "science",
+      "gpt_classification": "non-scientific",
+      "gpt_confidence": 0.98,
+      "gpt_reasoning": "The content is sports coverage—team schedule, game times, player and team statistics, rankings and conference standings for the Michigan Wolverines. It does not report on research, studies, or scientific findings.",
+      "title": "Michigan Wolverines News, Photos, Stats, Rankings"
+    }
+  ]
+}

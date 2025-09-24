@@ -1,0 +1,29 @@
+How do we thwart the latest terrorist threat: swarms of weaponised drones? | Alyssa Sims
+Countering a multi-drone strike, like that seen recently in Syria, should be prioritised in protecting civilian and military air space 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+‘Swashbuckling drones operated by rebels and militants have been shoring up the frontlines of conflict internationally.’ Photograph: Brendon Thorne/Getty Images
+
+Russia responded on 5 January to an attack by a swarm of drones targeting a Russian airbase in north-western Syria and a naval station on the Mediterranean Sea. The multi-drone attack, which is suspected to have been launched by militants, is the first of its kind, representing a new threat from terrorist groups.
+The use of a swarm attack demonstrates a militant capability, which was previously limited to states, to simultaneously control and coordinate several commercial drones at one time using a GPS unit. This development may send viewers of the science-fiction series Black Mirror into hiding, but it should prompt professional militaries to double down on countermeasures, specifically the creation of electronic jamming tech.
+Swashbuckling drones operated by rebels and militants have been shoring up the frontlines of conflict internationally, in some cases braving the choppy waters off the coast of Yemen, and in others crowding the skies over Syria and Iraq. The Lebanese militant group Hezbollah and Hamas, the Palestinian group that operates in the Gaza Strip, are the only groups with military drones in their arsenal, which were supplied by Iran, but terrorist use of unmanned aircraft has grown in recent history with the popularity of commercial drones.
+In January 2017, Islamic State documents were recovered by a Harvard researcher embedded with Iraqi troops that revealed details about the terror network’s drone programme, which is equipped with commercially available drone models reconfigured to carry small bombs and munitions, and directed by trained drone pilots. An incident in October 2016, months before the revelations about Isis’s drone programme, confirmed the lethality of these rigged machines. A drone shot down and recovered in northern Iraq by Kurdish forces exploded on being dismantled, killing two soldiers.
+According to New America’s World of Drones database, (which, for purposes of disclosure, I maintain) several non-state groups have deployed drones, including: Isis, Hezbollah, Hamas, Houthi rebels, Libyan rebels, various Syrian rebel groups, the Revolutionary Armed Forces of Colombia (Farc), and Colombian and Mexican drug cartels. Most of these groups are using drones for surveillance, video recording and communications and, aside from Isis, have not demonstrated the capability to kill. But that doesn’t mean they’re not dangerous.
+Commercial drones are popular among terror networks because of their availability and generally low costs. And even if they’re not successfully weaponised, small, remote-controlled drones have the potential to disrupt military operations in a variety of nonviolent ways. They can be used to surveil military targets in support of a conventional terrorist attack, to carry hazardous materials to a target location, or to take propaganda videos of their operations.
+Countries are exploring the potential and limitations of small drones too – albeit of a more sophisticated variety – with swarming as a priority. While military surveillance drones have become ubiquitous among nations, drone swarm technology, like that which was used in the militant attack on Russian facilities, is nascent, and some have pegged it as the next significant drone innovation.
+Indeed, government-supported research groups and high-powered tech giants continue to experiment with the capability. In October 2017, the US Defense Advanced Research Projects Agency announced that the government research organisation was soliciting proposals for its OFFensive Swarm-Enabled Tactics (OFFSET) programme, designed to test swarms of air and ground robots in “urban environments”. Two months later, China deployed more than 1,000 quadcopters, the largest recorded drone swarm, in a demonstration at the Fortune Global Forum hosted in Guangzhou.
+As nations invest in drone research, it’s paramount that in addition to drone development, researchers continue to emphasise counter-technologies. In 2017, Eric Schmitt reported in the New York Times that in response to the growing alarm surrounding Isis’s drone use, the Pentagon initiated a $700m crash programme “overseen by two senior army generals to draw on the collective know-how and resources of all branches of the armed services, Silicon Valley and defense industry giants like Boeing and Raytheon to devise tactics and technology to thwart the menace”.
+According to Schmitt, the American military is using electronic jammers to disable the often homemade drones, and cannons and other munitions to shoot them down. The Russian military reportedly shot down seven of the 13 drones in the swarm attack with Pantsir-S anti-aircraft missiles, which are medium range surface-to-air missiles, and hacked the other six, forcing them to land.
+Commercially available drones will become cheaper, more sophisticated, and capable of carrying larger payloads. And terror groups will continue to capitalise on this technology, using drones to disrupt military operations and attempt to harm civilian populations. Federal regulators are developing rules designed to protect civilian air space from nefarious drone operators. But on the battlefield, it’s a technological problem that requires a technological solution.
+• Alyssa Sims is a research associate with the International Security Program at New America
+ Topics

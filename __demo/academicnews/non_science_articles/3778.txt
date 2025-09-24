@@ -1,0 +1,296 @@
+NASCAR Schedule - NASCAR
+DATE
+RACE
+CITY
+STATE
+LAPS
+DISTANCE
+WINNER
+ Feb 11 2018 
+Advance Auto Parts Clash
+ Daytona Beach 
+ Florida 
+ 75 
+ 2.5 mi 
+ -- 
+ Feb 15 2018 
+Can-Am Duel 1
+ Daytona Beach 
+ Florida 
+ 60 
+ 2.5 mi 
+ -- 
+ Feb 15 2018 
+Can-Am Duel 2
+ Daytona Beach 
+ Florida 
+ 60 
+ 2.5 mi 
+ -- 
+ Feb 18 2018 
+Daytona 500
+ Daytona Beach 
+ Florida 
+ 200 
+ 2.5 mi 
+ -- 
+ Feb 25 2018 
+Folds of Honor QuikTrip 500
+ Hampton 
+ Georgia 
+ 325 
+ 1.54 mi 
+ -- 
+ Mar 4 2018 
+Pennzoil 400
+ Las Vegas 
+ Nevada 
+ 267 
+ 1.5 mi 
+ -- 
+ Mar 11 2018 
+TicketGuardian 500
+ Avondale 
+ USA 
+ 314 
+ 1.0 mi 
+ -- 
+ Mar 18 2018 
+Auto Club 400
+ Fontana 
+ California 
+ 202 
+ 2.0 mi 
+ -- 
+ Mar 25 2018 
+STP 500
+ Martinsville 
+ Virginia 
+ 250 
+ 0.526 mi 
+ -- 
+ Apr 8 2018 
+O'Reilly Auto Parts 500
+ Fort Worth 
+ Texas 
+ 334 
+ 1.5 mi 
+ -- 
+ Apr 15 2018 
+Food City 500
+ Bristol 
+ Tennessee 
+ 500 
+ 0.533 mi 
+ -- 
+ Apr 21 2018 
+Toyota Owners 400
+ Richmond 
+ Virginia 
+ 400 
+ 0.75 mi 
+ -- 
+ Apr 29 2018 
+GEICO 500
+ Talladega 
+ Alabama 
+ 191 
+ 2.66 mi 
+ -- 
+ May 6 2018 
+AAA 400 Drive For Autism
+ Dover 
+ Delaware 
+ 406 
+ 1.0 mi 
+ -- 
+ May 12 2018 
+Monster Energy NASCAR Cup Series at Kansas
+ Kansas City 
+ Kansas 
+ 267 
+ 1.5 mi 
+ -- 
+ May 19 2018 
+Monster Energy NASCAR Cup Series All-Star Open at Charlotte Motor Speedway
+ Concord 
+ North Carolina 
+ 50 
+ 1.5 mi 
+ -- 
+ May 19 2018 
+Monster Energy NASCAR All-Star Race at Charlotte Motor Speedway
+ Concord 
+ North Carolina 
+ 70 
+ 1.5 mi 
+ -- 
+ May 27 2018 
+Coca-Cola 600
+ Concord 
+ North Carolina 
+ 400 
+ 1.5 mi 
+ -- 
+ Jun 3 2018 
+ Pocono 400 
+ Long Pond 
+ Pennsylvania 
+ 160 
+ 2.5 mi 
+ -- 
+ Jun 10 2018 
+FireKeepers Casino 400
+ Brooklyn 
+ Michigan 
+ 200 
+ 2.0 mi 
+ -- 
+ Jun 24 2018 
+Toyota / Save Mart 350
+ Sonoma 
+ California 
+ 110 
+ 1.99 mi 
+ -- 
+ Jul 1 2018 
+Monster Energy NASCAR Cup Series Race at Chicagoland
+ Joliet 
+ Illinois 
+ 267 
+ 1.5 mi 
+ -- 
+ Jul 7 2018 
+Coke Zero 400
+ Daytona Beach 
+ Florida 
+ 163 
+ 2.5 mi 
+ -- 
+ Jul 14 2018 
+Quaker State 400 presented by Advance Auto Parts
+ Sparta 
+ Kentucky 
+ 274 
+ 1.5 mi 
+ -- 
+ Jul 22 2018 
+New Hampshire 301
+ Loudon 
+ New Hampshire 
+ 301 
+ 1.058 mi 
+ -- 
+ Jul 29 2018 
+ Overton's 400 
+ Long Pond 
+ Pennsylvania 
+ 160 
+ 2.5 mi 
+ -- 
+ Aug 5 2018 
+Monster Energy NASCAR Cup Series Race at The Glen
+ Watkins Glen 
+ New York 
+ 90 
+ 2.45 mi 
+ -- 
+ Aug 12 2018 
+Monster Energy NASCAR Cup Series Race at Michigan
+ Brooklyn 
+ Michigan 
+ 202 
+ 2.0 mi 
+ -- 
+ Aug 18 2018 
+Bass Pro Shops NRA Night Race
+ Bristol 
+ Tennessee 
+ 500 
+ 0.533 mi 
+ -- 
+ Sep 2 2018 
+Bojangles' Southern 500
+ Darlington 
+ South Carolina 
+ 367 
+ 1.366 mi 
+ -- 
+ Sep 9 2018 
+Big Machine Brickyard 400
+ Indianapolis 
+ Indiana 
+ 167 
+ 2.5 mi 
+ -- 
+ Sep 16 2018 
+ South Point 400 
+ Las Vegas 
+ Nevada 
+ 267 
+ 1.5 mi 
+ -- 
+ Sep 22 2018 
+Federated Auto Parts 400
+ Richmond 
+ Virginia 
+ 404 
+ 0.75 mi 
+ -- 
+ Sep 30 2018 
+Bank of America 500
+ Concord 
+ North Carolina 
+ 337 
+ 1.5 mi 
+ -- 
+ Oct 7 2018 
+Monster Energy NASCAR Cup Series at Dover
+ Dover 
+ Delaware 
+ 400 
+ 1.0 mi 
+ -- 
+ Oct 14 2018 
+Alabama 500
+ Talladega 
+ Alabama 
+ 188 
+ 2.66 mi 
+ -- 
+ Oct 21 2018 
+Hollywood Casino 400
+ Kansas City 
+ Kansas 
+ 267 
+ 1.5 mi 
+ -- 
+ Oct 28 2018 
+First Data 500
+ Martinsville 
+ Virginia 
+ 505 
+ 0.526 mi 
+ -- 
+ Nov 4 2018 
+AAA Texas 500
+ Fort Worth 
+ Texas 
+ 334 
+ 1.5 mi 
+ -- 
+ Nov 11 2018 
+Can-Am 500
+ Avondale 
+ USA 
+ 312 
+ 1.0 mi 
+ -- 
+ Nov 18 2018 
+Ford EcoBoost 400
+ Homestead 
+ Florida 
+ 267 
+ 1.5 mi 
+ -- 
+^ Jump to top

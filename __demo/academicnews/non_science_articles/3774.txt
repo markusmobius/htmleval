@@ -1,0 +1,27 @@
+Anatomy of a SpaceX launch
+SpaceX will attempt to make history Thursday night by reusing a rocket booster. The Falcon 9 rocket will deliver a communications satellite into orbit using a first-stage system that they used nearly a year ago. Here’s a look at SpaceX’s feat to launch and land the system back on Earth.
+The Falcon 9 is a two-stage rocket used to transport satellites and the Dragon spacecraft into orbit.
+
+1
+Aluminum-lithium alloy tanks fuel nine Merlin engines with liquid oxygen and rocket-grade kerosene propellant, generating more than 1.7 million pounds of thrust.
+
+The main engines are cutoff as Falcon 9 nears the edge of Earth’s atmosphere.The total burn time from launch is 162 seconds.
+
+2
+Once beyond Earth’s atmopshere, the pneumatic stage separation system releases the first stage from the second stage. A single Merlin engine fires, propelling stage two into orbit.
+
+3
+The fairing separates from the second stage,exposing the satellite. Merlin engines ignite on the first stage, setting it on a trajectory for the landing site.
+
+The second stage releases the satellite into a predetermined orbit.
+
+4
+The first stage undergoes a flip maneuver using onboard cold gas thrusters. When complete, it is positioned with engines forward.
+
+5
+The first stage grid fins deploy and engines do a temporary burn to slow it down. The grid fins will steer stage one as it enters Earth’s atmosphere.
+
+6
+Landing legs deploy and engines light a final time to land the first stage safely on a designated landing platform.
+
+Source:  SpaceX
