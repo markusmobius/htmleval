@@ -130,13 +130,6 @@ for tab_config in tab_configs:
     main_column = Column()
     root.add_tab(tabName=tab_config['name'], block=main_column)
 
-    # Add description
-    main_column.add_column([
-        Text(title=f"{tab_config['name']} ({len(articles_in_category)} articles)",
-             titleSize=3,
-             body=[tab_config['description']])
-    ])
-
     # Create article selection using MultiRowSelect
     article_options = []
     for i, article in enumerate(articles_in_category):
@@ -207,8 +200,12 @@ for tab_config in tab_configs:
         # Add article content to tab column (this creates a conditional display)
         candidate_tabs.add_tab(tabName=f"{filename}", block=article_column)
 
-    main_column.add_column([candidate_tabs])
-
+    main_column.add_column([
+        Text(title=f"{tab_config['name']} ({len(articles_in_category)} articles)",
+             titleSize=3,
+             body=[tab_config['description']]),
+        candidate_tabs
+    ])
 # --- Generate and Save Files ---
 
 # Create the JSON for the review tool
