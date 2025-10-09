@@ -60,8 +60,8 @@ demo = ReviewJSON(root)
 
 # Define options for the user's agreement decision
 agreement_options = [
-    MultiRowOption(label="Yes", value="yes", color="success"),
-    MultiRowOption(label="No", value="no", color="danger")
+    MultiRowOption(label="No", value="no", color="danger"),
+    MultiRowOption(label="Yes", value="yes", color="success")
 ]
 count = 0
 # Create tabs for each category
