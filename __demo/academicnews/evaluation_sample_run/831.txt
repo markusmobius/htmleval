@@ -1,0 +1,90 @@
+Palantir: the ‘special ops’ tech giant that wields as much real-world power as Google
+Peter Thiel’s CIA-backed, data-mining firm honed its ‘crime predicting’ techniques against insurgents in Iraq. The same methods are now being sold to police departments. Will they inflame already tense relations between the public and the police? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Palantir has made Minority Report a reality.
+
+In Minority Report, the 2002 movie adaptation of the Philip K Dick novel, Tom Cruise plays a police officer in the LAPD “pre-crime” unit. Using the premonitions of sentient mutants called “pre-cogs”, the police are able to predict when someone is going to commit a crime before it happens, swooping down from helicopters and arresting them on the street before they can do anything. Their “crime” is that they merely thought about it.
+Palantir, the CIA-backed startup, is Minority Report come true. It is all-powerful, yet no one knows it even exists. Palantir does not have an office, it has a “SCIF” on a back street in Palo Alto, California. SCIF stands for “sensitive compartmentalised information facility”. Palantir says its building “must be built to be resistant to attempts to access the information within. The network must be ‘airgapped’ from the public internet to prevent information leakage.”
+Palantir’s defence systems include advanced biometrics and walls impenetrable to radio waves, phone signal or internet. Its data storage is blockchained: it cannot be accessed by merely sophisticated hacking, it requires digital pass codes held by dozens of independent parties, whose identities are themselves protected by blockchain.
+What is Palantir protecting? A palantir is a “seeing stone” in JRR Tolkien’s The Lord of the Rings; a dark orb used by Saruman to be able to see in darkness or blinding light. “Palantir” means “one that sees from afar”, a mythical instrument of omnipotence.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Saruman with his seeing stone in The Lord of the Rings.
+
+In 2004, Peter Thiel – the billionaire PayPal co-founder, Facebook investor and and latter-day Trump ally – created Palantir alongside Nathan Gettings, Joe Lonsdale, Stephen Cohen and Alex Karp. Their intention was to create a company that took Big Data somewhere no one else dared to go. In 2013, Karp, Palantir’s CEO, announced that the company would not be pursuing an IPO, as going public would make “running a company like ours very difficult”. This is why.
+Palantir watches everything you do and predicts what you will do next in order to stop it. As of 2013, its client list included the CIA, the FBI, the NSA, the Centre for Disease Control, the Marine Corps, the Air Force, Special Operations Command, West Point and the IRS. Up to 50% of its business is with the public sector. In-Q-Tel, the CIA’s venture arm, was an early investor.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Palantir helped convict ponzi-schemer Bernie Madoff. Photograph: Sipa Press/Rex Features
+
+Palantir tracks everyone from potential terrorist suspects to corporate fraudsters (Bernie Madoff was imprisoned with the help of Palantir), child traffickers and what they refer to as “subversives”. But it is all done using prediction.
+In Iraq, the Pentagon used Palantir software to track patterns in roadside bomb deployment and worked out garage-door openers were being used as remote detonators by predicting it.
+Palantir allowed the marines to upload DNA samples from remote locations and tap into information gathered from years of collecting fingerprints and DNA evidence, the results returned almost immediately.
+Without Palantir, suspects would have already moved on to a different location by the time the field agents received the results. Using the most sophisticated data mining, Palantir can predict the future, seconds or years before it happens. Samuel Reading – a former marine who has worked in Afghanistan for NEK Advanced Securities Group, a US military contractor – has said: “It’s the combination of every analytical tool you could ever dream of. You will know every single bad guy in your area.”
+Palantir is at the heart of the US government, but with its other arm, Palantir Metropolis, it provides the analytical tools for hedge funds, banks and financial services firms to outsmart each other.
+Palantir does not just provide the Pentagon with a machine for global surveillance and the data-efficient fighting of war, it runs Wall Street, too. Palantir is exactly what it says it is: a giant digital eye like Saruman’s seeing stone in The Lord of the Rings.
+On the streets of Chicago and Los Angeles, Palantir is getting closest to Philip K Dick’s vision of the future, now. In the film, a premonition of an Orwellian thought-police state, crime rates drop to zero as the pre-crime unit successfully imprisons thousands of individuals for merely thinking of committing a felony.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Palantir’s co-founder Peter Thiel. Photograph: Bloomberg via Getty Images
+
+However, when Cruise’s character begins to question the morality of what he is doing, his superiors detect a threat to the entire pre-crime programme. In order to get rid of him, Cruise is framed for a murder by altering the data of his thought history. In the final showdown with his boss, it is explained to Cruise that sometimes the numbers need to lie for the greater good of society.
+Minority Report is set in 2054, but Palantir is putting pre-crime into operation now. The Los Angeles Police Department has used Palantir to predict who will commit a crime by swooping Minority Report-style on suspects. Palantir calls its work with the LAPD “improving situational awareness, and responding to crime in real time”.
+Algorithms take in data on the location, time and date of previously committed crimes and this data is superimposed to create hotspots on a map for police officers to patrol. A 2013 video about “predictive policing” by the National Science Foundation features an officer explaining how they used one of these maps to prevent an assault “before it happened”.
+Military-grade surveillance technology has now migrated from Fallujah to the suburban neighbourhoods of LA. Predictive policing is being used on illegal drivers and petty criminals through a redeployment of techniques and algorithms used by the US army dealing with insurgents in Iraq and with civilian casualty patterns.
+When the US is described as a “war zone” between police and young black males, it is rarely mentioned that tactics developed by the US military in a real war zone are actually being deployed. Is predictive policing as a counter-insurgency tactic a contributing factor in the epidemic of police shootings of unarmed black men in the past four years?
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Could predictive policing contribute to police shootings of black people? Photograph: Frederic J Brown/AFP/Getty Images
+
+One could argue that sophisticated pre-crime algorithms are not necessary when being black and male is seen as reason enough for the police to swoop. What predictive policing has done is militarise American cities, creating a heightened culture of suspicion and fear in areas where tensions are highest and policing is already most difficult. Officers being led to certain neighbourhoods solely because of an algorithm is enough to cause tension; enough to ignite a powder keg and push a delicate policing situation over the edge.
+Ana Muniz is an activist and researcher who works with the Inglewood-based Youth Justice Coalition. “Any time that a society’s military and domestic police become more similar, the lines blur,” she told LA Weekly. “The military is supposed to defend the territory from external enemies, that’s not the mission of the police – they’re not supposed to look at the population as an external enemy.”
+In 2010, the LAPD announced a partnership with Motorola Solutions to monitor the Jordan Downs public housing project with surveillance cameras. In 2013, they announced the deployment of live CCTV cameras with facial-recognition software in San Fernando Valley, reported to be programmed to ID suspects on a “hot list”.
+Data merely becomes a new way of reinforcing old prejudices. Critics of these analytics argue that from the moment a police officer with the pre-crime mindset that you are a criminal steps out of their patrol car to confront you, your fate has been sealed.
+In 2013, TechCrunch obtained a leaked report on the use of Palantir by the LA and Chicago police departments. Sgt Peter Jackson of the LAPD was quoted as saying: “Detectives love the type of information [Palantir] provides. They can now do things that we could not do before.”
+Palantir is immensely secretive. It wields as much real-world power as Google, Facebook, Amazon, Microsoft and Apple, but unlike them, Palantir operates so far under the radar, it is special ops.
+• This is an extract from Done: The Secret Deals That Are Changing Our World by Jacques Peretti (Hodder & Stoughton, £20), available now. To order a copy for £17, go to bookshop.theguardian.com or call the Guardian Bookshop on 0330 333 6846. Free UK p&p over £10, online orders only. Phone orders min. p&p of £1.99.
+ Topics

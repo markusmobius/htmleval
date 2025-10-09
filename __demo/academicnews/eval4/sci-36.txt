@@ -1,0 +1,37 @@
+Why it's so hard to treat dementia
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+
+
+JUST WATCHED
+What is dementia?
+Story highlights
+Dementia is not a single disease but a complex problem with more than 50 underlying causes
+Most drug treatments in development target pathology of Alzheimer's, the most common form of dementia
+Finding a cure for neurodegenerative diseases such as Alzheimer's is challenging. They're difficult to diagnose, and drugs struggle to get into the brain as the brain's blood supply is largely separate to the rest of the body. 
+Not surprisingly, several companies have left this territory in recent years. Last week, pharmaceutical giant Pfizer announced it will stop research into developing drugs to treat Alzheimer's disease, after costly failed attempts over the past decade.
+In recent years some clinical trials involving potential dementia drugs have had disappointing setbacks. In 2012, Pfizer and Johnson & Johnson halted development of the antibody drug bapineuzumab, after it failed in late-stage trials to treat patients with mild to moderate Alzheimer's.
+
+Despite last week's announcement, Pfizer's support of the UK's Dementia Discovery Fund, an initiative involving the government, major pharmaceutical companies, and Alzheimer's Research UK, may be where their money can make the most impact in this space. 
+The fund aims to boost dementia research investment by financing early-stage drug development projects. And other pharma companies, such as Eli Lilly, Biogen and Novartis have continued to pursue dementia drug development with modest but promising success to date.
+Read More
+So what makes dementia such a difficult condition to treat with drugs, and is progress being made towards a treatment?
+Why dementia is so hard to treat
+Despite the vast number of people affected globally, with an estimated 46.8 million people currently living with dementia, there is currently no cure. While current treatments manage symptoms (the latest drug to gain FDA approval was memantine, in 2003) they offer no prospect of recovery.
+
+Part of the difficulty in finding treatments for dementia stems from the fact it's not a single disease, but a complex health problem with more than 50 underlying causes. Dementia can be better thought of as an umbrella term describing a range of conditions that cause parts of the brain to deteriorate progressively.
+Most drug treatments currently in development have targeted the pathology of Alzheimer's disease, the most common form of dementia, which accounts for about 60 to 70% of all cases.
+Finding a successful treatment for Alzheimer's faces two major hurdles: the first being we still don't know enough about the disease's underlying biology. For example, we don't know what exactly regulates the toxic build-up of amyloid-β plaques and tau tangles in the brain that are found in Alzheimer's patients, which specific types of these are toxic, or why the disease progresses at different rates in different people.
+
+It doesn't help that symptoms of Alzheimer's develop gradually and slowly and a diagnosis might only be made years after the brain has started to undergo neurodegenerative changes. To boot, it's not uncommon for Alzheimer's to be present as well as other forms of dementia.
+The second major hurdle to finding a treatment is that drugs need to first cross the blood-brain barrier. The blood-brain barrier provides a defence against disease-causing pathogens and toxins that may be present in our blood, and by design exists to keep out foreign substances from the brain. The downside is that it also keeps the vast majority of potential drug treatments from reaching the brain.
+Promising steps in the right direction
+Currently available medications such as those which block the actions of an enzyme that destroys an important chemical messenger in the brain for memory (acetylcholinesterase inhibitors) or blocks the toxic effects of another messenger, glutamate (memantine) temporarily manage symptoms. But new treatments are focused on slowing or reversing the disease process itself, by targeting the underlying biology.
+
+One approach, called immunotherapy, involves creating antibodies that bind to abnormal developments in the brain (such as amyloid-β or tau), and mark them for destruction by a range of mechanisms. Immunotherapy is experiencing a surge of interest and a number of clinical trials -- targeting both amyloid-β and tau -- are currently underway.
+Aducanumab, an antibody targeting amyloid-β, has shown promise in clinical trials and phase 3 trials are currently ongoing, as are several tau-based strategies. If any are successful, we would have a vaccine for Alzheimer's.
+It's estimated only 0.1% of antibodies circulating in the bloodstream enter the brain -- this also includes the therapeutic antibodies currently used in clinical trials. An approach my team is taking is to use ultrasound to temporarily open the blood-brain barrier, which increases the uptake of Alzheimer's drugs or antibody fragments.
+See the latest news and share your comments with CNN Health on Facebook and Twitter.
+We've had success in mice, finding ultrasound can clear toxic tau protein clumps, and that combining ultrasound with an antibody fragment treatment is more effective than either treatment alone in removing tau and reducing Alzheimer's symptoms. The next challenge will be translating this success into human clinical trials.
+The task of dementia drug development is no easy feat, and requires collaboration across government, industry and academia. In Australia, the National Dementia Network serves this purpose well. It's only through perseverance and continued investment in research that we'll one day have a treatment for dementia.
+Jürgen Götz is director of the Clem Jones Centre for Ageing Dementia Research at the University of Queensland.
+Copyright 2017 The Conversation. Some rights reserved.

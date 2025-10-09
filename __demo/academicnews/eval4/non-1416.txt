@@ -1,0 +1,24 @@
+What they said about planets and Pluto
+Font:
++
+-
+ Here is the text of the International Astronomical Union's resolutions on Pluto and the definition of planethood, approved Thursday at its General Assembly in Prague: 
+IAU Resolution: 
+Definition of a Planet in the Solar System 
+Contemporary observations are changing our understanding of planetary systems, and it is important that our nomenclature for objects reflect our current understanding. This applies, in particular, to the designation 'planets'. The word 'planet' originally described 'wanderers' that were known only as moving lights in the sky.
+Recent discoveries lead us to create a new definition, which we can make using currently available scientific information.
+RESOLUTION 5A 
+The IAU therefore resolves that planets and other bodies in our Solar System be defined into three distinct categories in the following way:
+(1) A planet1 is a celestial body that (a) is in orbit around the Sun, (b) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape, and (c) has cleared the neighbourhood around its orbit.
+(2) A dwarf planet is a celestial body that (a) is in orbit around the Sun, (b) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape2, (c) has not cleared the neighbourhood around its orbit, and (d) is not a satellite.
+(3) All other objects3 orbiting the Sun shall be referred to collectively as "Small Solar System Bodies".
+1The eight planets are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.
+2An IAU process will be established to assign borderline objects into either dwarf planet and other categories.
+3These currently include most of the Solar System asteroids, most Trans-Neptunian Objects (TNOs), comets, and other small bodies.
+IAU Resolution: Pluto
+RESOLUTION 6A 
+The IAU further resolves:
+Pluto is a dwarf planet by the above definition and is recognized as the prototype of a new category of trans-Neptunian objects.
+RESOLUTION 6B 
+The following sentence is added to Resolution 6A:
+This category is to be called "plutonian objects."

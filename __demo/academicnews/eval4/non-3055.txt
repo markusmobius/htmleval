@@ -1,0 +1,39 @@
+A laptop with three days of battery life: It's coming
+CLOSE
+
+ Jefferson Graham previews the 2018 Consumer Electronics Show in Las Vegas, where new smart home products using technology from Google, Amazon and Apple will be unveiled. USA TODAY
+
+Is this the dawn of the multi-day laptop battery?
+“Always connected personal computers” — or ACPCs — refer to a new breed of Windows laptops with three key features: a battery that can last multiple days; instant-on access when you open the lid or touch a key; and an optional high-speed cellular connection, to avoid hunting for a Wi-Fi hotspot to get online.
+In other words, your laptop is going to behave a lot more like your smartphone.
+Qualcomm – the world’s largest smartphone chip maker — is largely spearheading this emerging category. This marks the San Diego-based company’s second foray into the computer space, after the Windows RT mobile operating system failed to catch on after it debuted in 2012.
+Intel is also a major player in this space, having worked on the first cellular-supported PC back in 2005 (with Sony). It's been heavily involved in battery improvements over the past few years.
+But if you believe the hype, what we’ll see debut in 2018 will be nothing like we’ve witnessed in the past.
+“With computers we have today, you’re lucky if you can get 15 hours of battery performance — and in most cases, it’s 8 to 10 hours, if that – so where I see the breakthrough here is a new benchmark of 22 hours, and standby of at least a week,” says technology analyst Tim Bajarin, who also serves as president at Creative Strategies, one of the first market research firms in Silicon Valley.
+In fact, with the Qualcomm Snapdragon 835 processor, ASUS is claiming battery life of up to 22 hours of continuous video playback, and up to 30 days on standby.
+
+At $799, the ASUS NovaGo (model # TP370) will also be the first always-connected PC with a 360-degree flip hinge – making it a “2-in-1” that can convert from laptop mode to a tablet by bending back the 13.3-inch screen – and the first with Gigabit LTE speeds, for an always on, always connected experience. 
+“I’ve been using these devices for many months, and the one thing that often gets overlooked is the ‘always on’ feature,” adds Miguel Nunes, senior director of product management at Qualcomm Technologies, Inc. “Like your smartphone, even when the screen is off, it’s still connected, so when I open the lid, it does facial recognition, and I’m in.”
+Speed boon, too
+
+Along with multi-day battery performance, these always-on PC's take advantage of ubiquitous cellular connectivity.
+“With the NovaGo, you don’t have to find a Wi-Fi hotspot, and you get fast 1 gigabit-per-second wireless Internet speeds that are between 3 to 7 times faster than the average broadband speed,” says Randall Grilli, director of media relations at ASUS North America. “It allows you to download a 2-hour movie in about 10 seconds.”
+ASUS is supporting both a nano SIM and built-in eSIM, the latter of which allows you to easily switch networks in areas that support it, says Grilli.
+Cellular connectivity is optional with always-connected PCs, since the user must pay for data. Details are still scarce on provider pricing plans — ASUS says users may work directly with Microsoft on data plan activation or directly with a provider, for instance — but SIM-supported laptops haven’t been adopted by the mainstream in the past, reminds Bajarin.
+“Consumers are often reluctant to pay extra money for an additional data SIM, so until we see people actually putting down dollars for connectivity, I’m not sure if that will drive ACPCs,” says Bajarin. “What will drive this is 22 hours of battery. Ultimately, the consumer wants all-day computing, even though always-connected would be a good feature, too.”
+Tradeoffs? Perhaps
+
+These always-on PCs sound amazing, no doubt, between long battery life, always-on architecture, and LTE connectivity. So, what’s the catch, you ask?
+Though it’s too early to know for sure, power and compatibility might not be what you’re used to with previous Windows laptops.
+Intel has been trying to make PC's more mobile for six or seven years, with ultrabooks, then with 3G and LTE connectivity options — say with the LTE-supported Samsung Galaxy Book 12, with Verizon.
+“First and foremost, it must be a great PC. It has to deliver performance…and PC experiences…that consumer expect,” said Josh Newman, general manager of mobile innovation segment for Intel.
+Newman says when consumers take the new PC out of the box “it should just work with all the software they’re used to working – and work better than the 4- or 5-year-old PC they may be replacing – and same goes for multitasking, and peripherals, too.”
+Even Qualcomm concedes it’s not going after those that demand serious horsepower. “For full disclosure, we are not a high-end gaming PC. That’s not Qualcomm,” says Nunes. “Our strength is in mobility, thin and light devices, and with Microsoft, we focused heavily focused on what people are doing with their devices.”
+While ASUS and HP have confirmed support for Qualcomm’s ACPCs, and other major players will likely unveil their wares early next week at the annual tech trade show CES in Las Vegas, not everyone is onboard.
+“Dell is not planning to announce any PCs with Qualcomm Snapdragon processors in the foreseeable future,” said Jay Parker, president of the client product group at Dell, in a statement provided to USA TODAY.
+“We have a strong portfolio of PCs for consumer and commercial customers that deliver excellent battery life with LTE connectivity – which constitutes ‘always on’ in the customer’s mind,” says Parker. “We find that our customers don’t want to sacrifice full functionality and performance – that’s what our products deliver. The current Snapdragon processor doesn’t allow us to strike that right balance today.”
+
+ Casio's G's Eye is a wearable action on display at the 2018 Consumer Electronics Show at the Las Vegas Convention Center. The G's Eye is waterproof to 50 meter, wth a super wide angle lens, has slow motion capabilities and image stabilization. Robert Hanashiro, USA TODAY NETWORK
+Follow Marc on Twitter: @marc_saltzman. E-mail him at askmarcsaltzman@gmail.com.
+CONNECTTWEET 50 LINKEDINEMAILMORE
+Read or Share this story: https://usat.ly/2m30Jl1

@@ -1,0 +1,39 @@
+A Dream of Glowing Trees Is Assailed for Gene-Tinkering
+Antony Evans, left, and Kyle Taylor show E. coli with jellyfish genes. Credit Peter DaSilva for The New York Times
+
+Hoping to give new meaning to the term “natural light,” a small group of biotechnology hobbyists and entrepreneurs has started a project to develop plants that glow, potentially leading the way for trees that can replace electric streetlamps and potted flowers luminous enough to read by.
+The project, which will use a sophisticated form of genetic engineering called synthetic biology, is attracting attention not only for its audacious goal, but for how it is being carried out.
+Rather than being the work of a corporation or an academic laboratory, it will be done by a small group of hobbyist scientists in one of the growing number of communal laboratories springing up around the nation as biotechnology becomes cheap enough to give rise to a do-it-yourself movement.
+The project is also being financed in a D.I.Y. sort of way: It has attracted more than $250,000 in pledges from about 4,500 donors in about two weeks on the Web site Kickstarter.
+The effort is not the first of its kind. A university group created a glowing tobacco plant a few years ago by implanting genes from a marine bacterium that emits light. But the light was so dim that it could be perceived only if one observed the plant for at least five minutes in a dark room.
+The new project’s goals, at least initially, are similarly modest. “We hope to have a plant which you can visibly see in the dark (like glow-in-the-dark paint), but don’t expect to replace your light bulbs with version 1.0,” the project’s Kickstarter page says.
+But part of the goal is more controversial: to publicize do-it-yourself synthetic biology and to “inspire others to create new living things.” As promising as that might seem to some, critics are alarmed at the idea of tinkerers creating living things in their garages. They fear that malicious organisms may be created, either intentionally or by accident.
+Two environmental organizations, Friends of the Earth and the ETC Group, have written to Kickstarter and to the Agriculture Department, which regulates genetically modified crops, in an effort to shut down the glowing plant effort.
+The project “will likely result in widespread, random and uncontrolled release of bioengineered seeds and plants produced through the controversial and risky techniques of synthetic biology,” the two groups said in their letter demanding that Kickstarter remove the project from its Web site.
+
+Arabidopsis, the first plant test subject. Credit Peter DaSilva for The New York Times
+
+They note that the project has pledged to deliver seeds to many of its 4,000 contributors, making it perhaps the “first-ever intentional environmental release of an avowedly ‘synthetic biology’ organism anywhere in the world.” Kickstarter told the critics to take up their concerns with the project’s organizers. The Agriculture Department has not yet replied.
+Antony Evans, the manager of the glowing plant project, said in an interview that the activity would be safe.
+“What we are doing is very identical to what has been done in research laboratories and big institutions for 20 years,” he said. Still, he added, “We are very cognizant of the precedent we are setting” with the do-it-yourself project and that some of the money raised would be used to explore public policy issues.
+Synthetic biology is a nebulous term and it is difficult to say how, if at all, it differs from genetic engineering.
+In its simplest form, genetic engineering involves snipping a gene out of one organism and pasting it into the DNA of another. Synthetic biology typically involves synthesizing the DNA to be inserted, providing the flexibility to go beyond the genes found in nature.
+The glowing plant project is the brainchild of Mr. Evans, a technology entrepreneur in San Francisco, and Omri Amirav-Drory, a biochemist. They met at Singularity University, a program that introduces entrepreneurs to futuristic technology.
+Dr. Amirav-Drory runs a company called Genome Compiler, which makes a program that can be used to design DNA sequences. When the sequence is done, it is transmitted to a mail-order foundry that synthesizes the DNA.
+Kyle Taylor, who received his doctorate in molecular and cell biology at Stanford last year, will be in charge of putting the synthetic DNA into the plant. The research will be done, at least initially, at BioCurious, a communal laboratory in Silicon Valley that describes itself as a “hackerspace for biotech.”
+The first plant the group is modifying is Arabidopsis thaliana, part of the mustard family and the laboratory rat of the plant world. The organizers hope to move next to a glowing rose.
+Scientists have long made glowing creatures for research purposes, including one or more monkeys, cats, pigs, dogs and worms. Glowing zebra fish have been sold in some aquarium shops for years.
+
+Mr. Taylor, left, is lead scientist of the glowing plant project, and Mr. Evans its manager. Credit Peter DaSilva for The New York Times
+
+These creatures typically have the gene for a green fluorescent protein, derived from a jellyfish, spliced into their DNA. But they glow only when ultraviolet light is shined on them.
+Others going back to the 1980s have transplanted the gene for luciferase, an enzyme used by fireflies, into plants. But luciferase will not work without another chemical called luciferin. So the plants did not glow unless luciferin was constantly fed to them. In 2010, researchers at Stony Brook University reported in the journal Plos One that they had created a tobacco plant that glowed entirely on its own, however dimly. They spliced into the plant all six genes from a marine bacterium necessary to produce both luciferase and luciferin.
+Alexander Krichevsky, who led that research, has started a company, BioGlow, to commercialize glowing plants, starting with ornamental ones, since it is still impractical to replace light bulbs.
+“Wouldn’t you like your beautiful flowers to glow in the dark?” he said, invoking the glowing foliage in the movie “Avatar.”
+Dr. Krichevsky declined to provide more about the products, timetables or the investors backing his company, which is based in St. Louis.
+Whether it will ever be possible to replace light bulbs remains to be seen and depends to some extent on how much of the plant’s energy can be devoted to light production while still allowing the plant to grow. Mr. Evans said his group calculated, albeit with many assumptions, that a tree that covers a ground area of 10 meters (nearly 33 feet) by 10 meters might be able to cast as much light as a street lamp.
+While the Agriculture Department regulates genetically modified plants, it does so under a law covering plant pests.
+BioGlow has already obtained a letter from the department saying that it will not need approval to release its glowing plants because they are not plant pests, and are not made using plant pests. The hobbyist project hopes to get the same exemption.
+Todd Kuiken, senior research associate at the Woodrow Wilson Center in Washington, who has been studying the governance of both synthetic biology and the do-it-yourself movement, said the glowing plant project was an ideal test case.
+“It exposes the gaps and holes in the regulatory structure, while it is, I would argue, a safe product in the grand scheme of things,” Dr. Kuiken said. “A serious look needs to be taken at the regulatory system to see if it can handle the questions synthetic biology is going to raise.”
+A version of this article appears in print on May 8, 2013, on Page B1 of the New York edition with the headline: A Dream of Trees Aglow at Night.
