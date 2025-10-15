@@ -1,0 +1,3042 @@
+{
+  "summary": {
+    "random_seed": 42,
+    "total_articles_processed": 300,
+    "total_articles_evaluated": 300,
+    "model": "gpt-5-mini_2025-08-07"
+  },
+  "article_analysis": [
+    {
+      "filename": "non-4769.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a culinary/cultural piece about Oklahoma's fried-onion burger, its history and recipe. It focuses on food and regional culture rather than scientific research, experts, or scientific concepts."
+    },
+    {
+      "filename": "non-2864.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an editorial about corporate responsibility, executive pay, wealth inequality, and corporate personhood. It focuses on economics, governance, and social policy rather than reporting on scientific research, expert scientific analysis, or scientific concepts."
+    },
+    {
+      "filename": "non-4189.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is political reporting focused on immigration policy (DACA), the Children’s Health Insurance Program funding, President Trump's remarks, and the Arizona Senate race. It contains no scientific studies, expert scientific analysis, explanations of scientific concepts, or discussion of science-related policy beyond general politics."
+    },
+    {
+      "filename": "sci-1480.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article's primary focus is philanthropy, tax policy, and the debate over private versus public provision of social welfare. It discusses billionaire giving, the Giving Pledge, and implications for democracy and public spending. While it briefly cites health initiatives (e.g., vaccines funded by the Gates Foundation) and broad goals like 'curing diseases' or 'clean energy,' it does not engage with scientific research, methods, findings, or expert scientific analysis in any substantive way."
+    },
+    {
+      "filename": "non-2056.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "ergonomics",
+        "musculoskeletal health and posture",
+        "biomechanics / human factors",
+        "ergonomic furniture design and materials (foam density, springs)",
+        "kinesiology and physical therapy guidance"
+      ],
+      "gpt_reasoning": "The article centers on ergonomics and how furniture design affects musculoskeletal health, citing experts (a kinesiologist, professors of design and bioengineering, a physical therapist) and discussing biomechanical principles (spine alignment, seat height/depth, pressure on veins, strain from sinking seats) and technical design details (foam-density ratings, coil springs, supportive construction). Although it is consumer-facing, its primary focus is scientific/technical guidance about human factors and health rather than general lifestyle content."
+    },
+    {
+      "filename": "sci-813.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "geoengineering",
+        "stratospheric aerosol injection (solar radiation management)",
+        "engineering feasibility of large-scale delivery systems (balloon-and-hose)",
+        "marine cloud brightening / cloud whitening",
+        "environmental and climatic risks and unintended consequences",
+        "public policy, ethics and governance of climate intervention",
+        "carbon dioxide removal approaches (ocean fertilisation, artificial trees)",
+        "carbon capture and storage (CCS)",
+        "albedo modification and space-based reflective options"
+      ],
+      "gpt_reasoning": "The article centers on a planned field test by UK researchers aimed at developing a balloon-and-hose system to inject particles into the stratosphere—classic geoengineering/solar radiation management. It discusses the engineering challenges of the delivery system, potential use of sulphates and cloud whitening, and summarizes other climate intervention proposals (ocean fertilisation, space mirrors, artificial trees, albedo changes, CCS). It also covers environmental risks, public reaction, and policy/ethical debate, making the piece clearly focused on scientific and technical topics related to climate engineering."
+    },
+    {
+      "filename": "non-856.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article reports on criminal charges against a teacher/coach, focusing on allegations, law enforcement actions, victims, and school response. It does not discuss scientific research, expertise, theories, technological explanations, or public-health/science policy issues."
+    },
+    {
+      "filename": "sci-277.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is political reporting and analysis about midterm elections, polling trends, candidate margins, and public opinion of President Obama. While it cites polls and statistics, it does not discuss scientific studies, research methods, scientific experts, or scientific concepts, so it is not a scientific article."
+    },
+    {
+      "filename": "sci-6.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "multiple sclerosis (MS)",
+        "autologous haematopoietic stem cell transplant (HSCT)",
+        "immunology (immune 'reboot' / autoimmunity)",
+        "clinical trials and evidence (MIST trial, study findings)",
+        "treatment safety and side-effects",
+        "health economics and policy (cost-effectiveness, NHS adoption)",
+        "stem cell therapy development and industry incentives/ethics"
+      ],
+      "gpt_reasoning": "The article centers on a medical treatment—repurposing cancer-style autologous stem cell transplants—for MS, reporting patient outcomes and expert commentary. It discusses mechanisms (immune system reset), ongoing clinical trials and published study results, safety/side-effects, cost and potential adoption by the NHS, and the lack of commercial incentives for industry involvement, all of which are scientific/medical topics."
+    },
+    {
+      "filename": "non-1700.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article covers diplomatic and political developments—Vice President Pence's announcement about moving the U.S. embassy to Jerusalem, reactions from Israeli and Palestinian leaders, and related political consequences. It contains no discussion of scientific research, concepts, experts, or technological issues."
+    },
+    {
+      "filename": "non-3761.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports game recap focusing on players, scores, and statistics from a college basketball game; it does not discuss scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-888.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is purely sports-focused—game schedule, team and player statistics, conference standings and galleries. It reports athletic performance data and team information, with no discussion of scientific research, theories, expert scientific analysis, technology, or policy."
+    },
+    {
+      "filename": "sci-1432.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a news article about trade policy and the Trump administration's objectives for renegotiating NAFTA. While it cites economists and some economic research, these references are background to a policy/political story rather than the article being focused on scientific research, methods, or scientific debates."
+    },
+    {
+      "filename": "non-1050.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a personal/travel piece about retiring in Ecuador, discussing cost of living, climate, and an annual retirement index; it contains no scientific studies, expert analysis of scientific topics, or in-depth explanation of scientific concepts."
+    },
+    {
+      "filename": "sci-517.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a brief political/diplomatic news item about President Biden urging Israel on a two-state solution and notes the new Israeli government's stance on Palestinian statehood. It does not discuss scientific research, experts in scientific fields, technologies, or scientific concepts."
+    },
+    {
+      "filename": "sci-1601.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The title refers to a historical commemoration of the Great U.S. Migration around the World War I centenary. There is no indication of coverage of scientific research, expert scientific analysis, or explanation of scientific concepts—the focus appears historical/social rather than scientific."
+    },
+    {
+      "filename": "sci-765.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change attribution",
+        "extreme precipitation / heavy rainfall",
+        "hurricane behavior and dynamics (stalling, formation, intensity)",
+        "climate modeling and simulation techniques",
+        "flood risk, adaptation, and policy implications"
+      ],
+      "gpt_reasoning": "The article reports on two scientific studies that quantify how anthropogenic warming increased Hurricane Harvey’s rainfall and changed its probability (attribution science). It discusses increases in extreme precipitation, mentions possible links to hurricane motion/intensity (and the complexity of those links), and describes the use of climate models and simulation comparisons (with/without CO2). It also covers implications for flood hazard zones, adaptation, and policy, and includes expert commentary, so the primary focus is scientific research and its impacts."
+    },
+    {
+      "filename": "non-1788.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports news report about sprinter Christian Coleman's record indoor 60m dash, focusing on results, quotes from the athlete and coach, and competition context. It does not discuss scientific research, methods, theories, or expert analysis on scientific topics."
+    },
+    {
+      "filename": "non-3241.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a business/financial news story about Valeant's earnings, stock movement, restructuring and debt reduction. Although it mentions pharmaceuticals (drug sales, a potential reformulation of Xifaxan and FDA activity), the article's primary focus is corporate strategy and finance rather than scientific research, expert analysis, or technical explanation."
+    },
+    {
+      "filename": "non-583.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "sports-related concussions",
+        "chronic traumatic encephalopathy (CTE)",
+        "spinal injuries",
+        "youth sports injury epidemiology and participation statistics",
+        "pediatric sports medicine and safety recommendations",
+        "injury prevention and youth football policy"
+      ],
+      "gpt_reasoning": "The article centers on medical and public-health concerns about youth tackle football—mentioning concussions, CTE, spinal injuries—and cites participation survey data and the American Academy of Pediatrics' policy recommendations on delaying tackling and improving safety, so it addresses scientific/medical and injury-prevention topics rather than purely non-scientific issues."
+    },
+    {
+      "filename": "non-4009.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article discusses digital media, website homepages, web traffic trends, site design and editorial organization. It focuses on journalism/product decisions and audience behavior, not on scientific research, theories, or expert scientific analysis."
+    },
+    {
+      "filename": "non-2368.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a criminal justice/news report about a new sexual-assault allegation, prison transfer, parole and victims' reactions. It focuses on legal and policing matters rather than scientific research, expert scientific analysis, or explanations of scientific concepts."
+    },
+    {
+      "filename": "sci-66.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "artificial sweeteners (non-nutritive sweeteners)",
+        "health effects of artificial sweeteners",
+        "weight management and obesity (diet soda linked to weight gain/loss)",
+        "carcinogenicity and animal studies (saccharin, cyclamate)",
+        "regulation and food safety policy (FDA bans, warning labels)",
+        "metabolic syndrome and type 2 diabetes",
+        "gut microbiome alterations related to sweeteners",
+        "kidney function decline",
+        "cardiovascular/vascular risk"
+      ],
+      "gpt_reasoning": "The article's primary focus is on artificial sweeteners and their health implications. It reviews historical discoveries and regulatory actions (saccharin, cyclamate), cites epidemiological and lab studies linking sweeteners or diet soda to weight gain, cancer findings in animals, kidney decline, metabolic syndrome/diabetes risk, possible effects on gut bacteria, and vascular events. It discusses mechanisms (metabolism of aspartame vs excretion of others) and the methodological challenge of studying mixed sweeteners, so the content is clearly scientific and research-centered."
+    },
+    {
+      "filename": "sci-823.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an obituary focused on Paul Hartnack's life and civil service career (Patent Office leadership, administrative reforms, aviation negotiations). It does not report on scientific research, explain scientific concepts, or present expert scientific analysis; mentions of patents and technology administration are incidental and not treated as scientific topics."
+    },
+    {
+      "filename": "non-961.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content consists only of site header/notification text and author credentials related to law and editorial roles, with no discussion of scientific research, concepts, experts, or technology."
+    },
+    {
+      "filename": "non-3039.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a sports ratings / rankings report (college football Sagarin ratings) with tables and prediction instructions. While it names statistical methods (ELO, BLUE, predictors) in passing, the primary focus is sports analytics and standings rather than reporting scientific research, debates, or explaining scientific concepts in depth."
+    },
+    {
+      "filename": "non-217.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political opinion piece about Trump administration appointments, agency leadership, and congressional oversight (CFPB, EXIM, EPA). It discusses policy, personnel, and constitutional issues rather than scientific research, experts, technical explanations, or scientific debates, so there are no scientific topics present."
+    },
+    {
+      "filename": "non-3694.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports/business news item about the sale of the New York Liberty, team ownership, attendance and personnel; it contains no discussion of scientific research, theories, experts, or technical topics."
+    },
+    {
+      "filename": "sci-818.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/opinion piece about education policy, privatization, and the nomination of Betsy DeVos. While it cites studies and research broadly to support arguments, the article's primary focus is advocacy and policy critique rather than reporting on scientific research, methods, or technical scientific debates."
+    },
+    {
+      "filename": "sci-227.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "behavioral science / nudging / choice architecture",
+        "urban planning and the built environment's impact on public health",
+        "physical activity and transportation-related activity",
+        "food environment and eating behavior (portion size, plate/contrast effects)",
+        "biophilia / biophilic design and mental health/well-being",
+        "environmental psychology / occupational health"
+      ],
+      "gpt_reasoning": "The article centers on how sensory cues and the built environment shape health-related behaviors, citing research and examples from behavioral science, urban planning, public health (e.g., CDC campaign), studies on eating behavior, and biophilic design. Its primary focus is on synthesizing scientific findings and design strategies to improve health and well-being rather than on non-scientific topics."
+    },
+    {
+      "filename": "non-4810.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article discusses mall tenants negotiating leases, concessions, rents and landlord pressures—topics related to retail and commercial real estate/business. It does not report scientific studies, expert scientific analysis, technologies, or scientific concepts."
+    },
+    {
+      "filename": "sci-782.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "gender and labor economics",
+        "occupational gender segregation",
+        "nursing workforce trends and labor market dynamics",
+        "workforce development and recruitment strategies"
+      ],
+      "gpt_reasoning": "The article centers on labor and gender trends in nursing and cites a working paper using census data and economists' analysis, so it engages with social-science topics (labor economics, occupational segregation, workforce dynamics and recruitment). It is not focused on biomedical or natural-science issues, but it does report on empirical social-science research and policy-relevant workforce analysis."
+    },
+    {
+      "filename": "non-607.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a news report about a vehicle accident and rescue. It does not discuss scientific research, present expert analysis, or explain scientific or medical concepts in depth—apart from a brief mention that the man was treated for hypothermia, which is not developed into a scientific topic."
+    },
+    {
+      "filename": "non-4436.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is focused on politics, historical comparison to Watergate, media relations, and potential impeachment — featuring commentary from a former White House attorney. It does not report on scientific research, explain scientific concepts, or engage in scientific debate."
+    },
+    {
+      "filename": "non-3822.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports Q&A/interview about Draymond Green, Kevin Durant, and the Golden State Warriors' season, team dynamics, and in-game decisions. Although the word 'experimenting' is used colloquially about lineups and plays, there is no discussion of scientific research, methods, theories, or expert analysis on scientific topics."
+    },
+    {
+      "filename": "non-3204.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article covers sports/entertainment news about Vince McMahon's XFL and Johnny Manziel's ineligibility due to past legal issues and tweets. It contains no discussion of scientific research, concepts, experts, or technology."
+    },
+    {
+      "filename": "non-1964.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a personal/opinion feature about a Gazan student's experience pursuing higher education abroad, focusing on travel restrictions, exile, homesickness, and community support. It does not report on scientific research, expert analysis of scientific topics, or in-depth explanation of scientific concepts. Brief mentions of 'science labs' and 'air pollution from bombings' are passing references related to educational resources and environmental effects, not the article's focus."
+    },
+    {
+      "filename": "non-4715.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "satellite launches / spaceflight",
+        "rocket / launch vehicle technology (PSLV)",
+        "nanosatellites / small satellite trends",
+        "earth observation satellites (Cartosat-2)",
+        "space industry / commercial launch services"
+      ],
+      "gpt_reasoning": "The article reports on a specific space mission and its technical and operational details (PSLV launch, orbit altitude and inclination, separation sequence), discusses the payloads including an earth‑observation satellite and over 100 nano satellites, and places the event in the context of commercial and international space industry trends with expert comment. These elements make the piece focused on space science/technology and the commercial space sector rather than non‑scientific topics."
+    },
+    {
+      "filename": "non-351.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/opinion piece about Oprah potentially running for president, campaign dynamics, and personal advice; it does not discuss scientific research, concepts, experts, or public-health/technology policy."
+    },
+    {
+      "filename": "sci-890.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a sports team roster for the Boston Red Sox listing players, positions, ages, and statuses. It focuses on athletics and player information and does not discuss scientific research, experts, theories, technology, or policy."
+    },
+    {
+      "filename": "non-2937.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a collection of opinion letters about police violence, racial bias, and reparations. While it cites a news statistic about killings from The Guardian, it does not report on scientific research, expert analysis, or scientific methods; its primary focus is social and political commentary rather than science."
+    },
+    {
+      "filename": "non-2381.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content only shows a brief heading 'Museums | Culture' and a date, with no discussion of scientific studies, experts, concepts, or technological issues. The primary focus appears cultural, not scientific."
+    },
+    {
+      "filename": "non-3813.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports-opinion article about NFL coach Chip Kelly, his coaching decisions, team performance, and personnel moves. It contains no discussion of scientific research, methods, expert scientific analysis, technological or medical topics, or broader scientific policy—so no scientific topics are present."
+    },
+    {
+      "filename": "non-92.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on immigration enforcement and the detention of a Michigan doctor by ICE, detailing his background, legal history, and family concerns. It contains no discussion of scientific research, concepts, expert analysis in science, or technology."
+    },
+    {
+      "filename": "sci-1342.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "evidence-based medicine",
+        "percutaneous coronary intervention (stents) for stable angina",
+        "placebo-controlled (sham) surgical trials",
+        "overtreatment and low-value medical care",
+        "comparative effectiveness research (PCORI) and Choosing Wisely",
+        "health policy and cost-effectiveness (Medicare, CMS reference pricing)",
+        "medical device regulation and surgical innovation"
+      ],
+      "gpt_reasoning": "The article centers on a Lancet sham-controlled trial showing stents for nonemergency chest pain offer no benefit and uses that case to discuss the broader scientific issue of many medical procedures lacking rigorous evidence. It reviews studies on ineffective surgeries, cites estimates of unsupported care and costs, and focuses heavily on comparative-effectiveness research, initiatives like Choosing Wisely and PCORI, and policy proposals (Medicare/CMS reference pricing) — all scientific/medical research and policy topics rather than general news."
+    },
+    {
+      "filename": "sci-1005.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a sports preview/stats page for Tennessee State basketball (game times, team and player statistics, conference standings). It focuses on athletics and game data, not on scientific research, concepts, experts, or debates."
+    },
+    {
+      "filename": "sci-1048.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/statistics page for a college basketball game (team records, points, rebounds, standings, player stats). It contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-1453.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "Antarctic sea ice extent and trends",
+        "Climate change / global warming and attribution",
+        "Ocean warming and related indicators (ocean heat content, Arctic sea ice, sea level)",
+        "Atmospheric circulation effects (winds, polar vortex) and stratospheric ozone impacts",
+        "Natural variability versus forced change",
+        "Sea ice monitoring (satellite records / NSIDC data)"
+      ],
+      "gpt_reasoning": "The article centers on scientific observations and analysis of Antarctic sea ice extent using NSIDC/satellite records, cites researchers and studies, and discusses possible physical drivers—ocean warming, wind patterns/polar vortex, ozone depletion—and the debate over natural variability versus anthropogenic climate change. It therefore addresses multiple scientific topics and attribution questions rather than non-scientific news."
+    },
+    {
+      "filename": "non-3848.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a repetitive listing of editorial cartoonists and the label 'Military' with no discussion of scientific research, methods, experts, technologies, or scientific concepts. Therefore there is no scientific focus."
+    },
+    {
+      "filename": "sci-28.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change / global warming",
+        "sea-level rise and climate impacts (famine, economic/economic collapse)",
+        "carbon dioxide emissions and atmospheric CO2",
+        "carbon capture / negative-emissions technologies",
+        "population/resource limits (e.g., The Population Bomb)",
+        "climate science policy and politics"
+      ],
+      "gpt_reasoning": "The article centers on a New York magazine piece about the dangers of climate change, mentioning sea-level rise and broader climate impacts, discusses CO2 and the need for carbon-capture technologies, references historical scientific claims about population/resource limits, and treats the political and policy implications of scientific solutions—so climate science and related technological and policy debates are the main topics."
+    },
+    {
+      "filename": "non-3698.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an entertainment/travel news piece about Disney Cruise Line's Star Wars Day at Sea sailings and ship features and itineraries. It does not report on scientific research, expert analysis of scientific topics, technological advances rooted in science, or explain scientific concepts."
+    },
+    {
+      "filename": "sci-1181.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports team preview/stats page for the Northwestern Wildcats (schedules, game times, points, rebounds, conference standings, player leaders). It contains no discussion of scientific research, concepts, experts, or technological topics."
+    },
+    {
+      "filename": "sci-485.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "solar geoengineering (solar radiation management)",
+        "climate change mitigation",
+        "atmospheric aerosols and volcanic forcing",
+        "climate modeling and simulations",
+        "regional climate impacts (tropical cyclones, Sahel drought)",
+        "geoengineering risks, ethics, and policy/regulation"
+      ],
+      "gpt_reasoning": "The article reports on a peer-reviewed study and simulations about intentionally injecting aerosols to reflect sunlight (solar geoengineering), explains the physical mechanism by analogy with volcanic eruptions, discusses modeled regional impacts on storms and drought, and presents expert debate about scientific uncertainties and governance, making it focused on scientific research and policy issues."
+    },
+    {
+      "filename": "sci-93.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "organizational psychology",
+        "workplace bullying / abusive supervision",
+        "sexual harassment (workplace)",
+        "occupational health / mental and physical health impacts",
+        "behavioral contagion (spread of rudeness)",
+        "human resources / hiring practices and policy"
+      ],
+      "gpt_reasoning": "The piece is written by an organizational psychologist and synthesizes academic research (citations, studies, and statistics) on abusive supervision, workplace bullying, and the health and productivity harms they cause. It discusses the science-backed costs and contagion of rudeness and links those findings to hiring and HR policy, so the article is focused on social-science research and expert analysis rather than non-scientific topics."
+    },
+    {
+      "filename": "non-4338.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a crime/news story about an alleged murder, Dark Web activity, and a criminal trial. While it mentions forensic details (toxicology for scopolamine, gunshot residue, bitcoin transactions), these are incidental to the reporting and not presented as scientific analysis, research findings, or expert discussion. The primary focus is on the criminal narrative and courtroom proceedings rather than on scientific topics."
+    },
+    {
+      "filename": "sci-271.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "Daylight Saving Time (DST) and its health effects",
+        "Circadian rhythms / chronobiology",
+        "Cardiovascular risk (heart attacks)",
+        "Sleep deprivation effects (immune function, cognition, behavior)",
+        "Public safety (car accidents) and behavioral consequences"
+      ],
+      "gpt_reasoning": "The article summarizes research findings linking the spring DST clock change to health and safety outcomes: a 2014 study on increased heart attacks, research on circadian rhythms not fully adjusting (especially for night owls), a 2016 study on harsher legal sentences, and links to increased car accidents and immune/productivity impacts. Thus its primary focus is on scientific/medical research about sleep, circadian biology, and public health consequences of DST."
+    },
+    {
+      "filename": "non-1883.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The text is a travel product description for short-break itineraries inspired by The New York Times's '36 Hours' feature, focusing on trips, activities, and travel logistics rather than scientific research, experts, or scientific concepts."
+    },
+    {
+      "filename": "non-2390.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a political/satirical report about Ukip leader Henry Bolton, focusing on party infighting and personal scandal. It contains no discussion of scientific research, experts, theories, technologies, or public-health/policy science topics."
+    },
+    {
+      "filename": "sci-938.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for Elon University basketball—schedules, game times, team and player statistics, and conference standings. It contains no discussion of scientific research, theories, expert analysis, or science-related policy."
+    },
+    {
+      "filename": "non-162.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political news update about a government shutdown and an upcoming Senate vote to reopen funding; it contains no discussion of scientific studies, concepts, experts, or technology."
+    },
+    {
+      "filename": "sci-736.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "human evolution",
+        "paleoanthropology",
+        "early modern human migration (Out of Africa)",
+        "fossil dating techniques (chronology)",
+        "morphology and comparative anatomy of hominins",
+        "archaeology / Paleolithic behavior",
+        "ancient DNA and interbreeding with Neanderthals"
+      ],
+      "gpt_reasoning": "The article reports a new paleoanthropological discovery (a fossil jawbone) published in a scientific journal, describes morphological analyses (micro-CT, comparisons to Neanderthals and other hominins), details multiple dating methods that establish the age, situates the find in its archaeological context (Misliya Cave, Paleolithic behavior), and discusses implications for Out-of-Africa migration timing and possible ancient DNA/interbreeding — all central scientific topics."
+    },
+    {
+      "filename": "non-4711.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a financial/market data disclaimer and metadata about data providers (stock, bond, currency quotes, FactSet), with no discussion of scientific research, concepts, experts, or debates; therefore it is not a scientific article."
+    },
+    {
+      "filename": "non-616.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political/military news report about U.S. House Speaker Paul Ryan's visit to the UAE, Iran policy, regional alliances, and the Yemen conflict. It does not report on scientific research, expert scientific analysis, or explain scientific concepts—references to missiles and military hardware are geopolitical/military, not scientific discussion."
+    },
+    {
+      "filename": "non-699.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an author/biography piece about Carlota Zimmerman focused on her education, career, coaching practice, media appearances and accomplishments. It contains no discussion of scientific research, theories, expert analysis on scientific topics, or science-related policy."
+    },
+    {
+      "filename": "sci-1139.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is purely sports-related (team schedule, game time, points per game, field goal percentage, rebounds, standings, and player stats). It contains no discussion of scientific research, experts, theories, technology, or policy."
+    },
+    {
+      "filename": "non-722.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "Hyperemesis gravidarum (severe pregnancy nausea and vomiting)",
+        "maternal health and pregnancy complications",
+        "causes: hormonal (estrogen) and genetic factors",
+        "treatment: IV nutrition/fluids and prescription antiemetics",
+        "epidemiology/prevalence of HG",
+        "maternal and fetal medical risks (dehydration, low birth weight, thyroid/liver problems)",
+        "mental health consequences (trauma, PTSD)",
+        "public perception and stigma of a medical condition"
+      ],
+      "gpt_reasoning": "The article centers on a medical condition—hyperemesis gravidarum—describing symptoms, prevalence estimates, possible biological causes (hormones and genetics), cited research, treatment approaches (IV nutrition and anti-nausea drugs), and medical risks to mother and baby. It also includes expert commentary from a foundation director and references a 2010 study, making the piece primarily focused on medical/scientific aspects rather than general news."
+    },
+    {
+      "filename": "non-2443.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change",
+        "drought and precipitation changes",
+        "atmospheric circulation shifts (subtropical ridge, Southern Ocean rain front)",
+        "hydrology and urban water resources",
+        "agricultural productivity impacts",
+        "climate modeling and attribution",
+        "public health impacts (rural suicide risk)"
+      ],
+      "gpt_reasoning": "The article summarizes a Climate Council report and expert commentary using observational data and model projections about changing rainfall patterns and atmospheric circulation, linking these to drought, reduced streamflows and reservoir inflows, impacts on agriculture, and associated public health risks—all core scientific topics involving climate science, hydrology, impacts and attribution."
+    },
+    {
+      "filename": "non-433.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a human-interest story about a social enterprise that trains former street children to make shoes from old tires. While it mentions environmental reuse and sustainability in passing, it does not present scientific concepts, research findings, expert analysis, or technical discussion, so it is not a scientific article."
+    },
+    {
+      "filename": "non-3754.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on Antoine Walker's NBA career, bankruptcy, and efforts to provide financial education to athletes. It covers personal finance, sports history, and career rehabilitation rather than any scientific research, concepts, or expert scientific analysis."
+    },
+    {
+      "filename": "non-335.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political and social commentary about Cliven Bundy's racist remarks and the political fallout. While it cites commentators and mentions demographic census figures, it does not focus on scientific research, methods, experiments, or scientific debates; its primary focus is race, politics, and public reaction rather than any scientific topic."
+    },
+    {
+      "filename": "non-3432.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "opioid epidemic",
+        "fentanyl and synthetic opioids",
+        "drug overdose mortality / public health surveillance"
+      ],
+      "gpt_reasoning": "The piece is an editorial focused on the public-health crisis of fentanyl and rising overdose deaths and advocates policy changes (mail/package data tracking) to stem supply. It does not report on new scientific research or expert scientific analysis, but it does discuss epidemiological outcomes and public-health surveillance measures tied to the opioid epidemic."
+    },
+    {
+      "filename": "non-252.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on security threats, jihadi propaganda, and counterterrorism measures around the Rio 2016 Olympics. It reports on intelligence and policing actions rather than scientific research, expert analysis of scientific topics, or explanations of scientific concepts, so it does not present any primary scientific topics."
+    },
+    {
+      "filename": "sci-637.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "international trade and labor-market impacts",
+        "China trade shock (effects of rising Chinese imports)",
+        "empirical economic research / econometrics (studies by Autor, Dorn, Hanson et al.)",
+        "trade policy and distributional consequences (compensation, safety nets)",
+        "macroeconomic factors (exchange rates, savings, trade deficits)"
+      ],
+      "gpt_reasoning": "The article centers on empirical economic research challenging conventional wisdom about the benefits of trade—citing specific studies that quantify job losses and wage effects from Chinese import competition—and discusses broader economic and policy implications (distributional effects, macro factors like exchange rates and savings). This makes it focused on social-science research and policy analysis rather than being a non-scientific news or opinion piece without research grounding."
+    },
+    {
+      "filename": "sci-1307.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a sports roster for the Colorado Rockies (player names, positions, ages, and statuses). It focuses on baseball team information and contains no discussion of scientific concepts, research, experts, or technology."
+    },
+    {
+      "filename": "non-3629.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is purely sports content (team matchup, game time, player/team statistics, conference standings, and photo galleries) and does not discuss scientific studies, concepts, experts, technology, or policy."
+    },
+    {
+      "filename": "non-1332.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article describes a personal/political dispute between Megyn Kelly and Jane Fonda and references Fonda's anti-Vietnam War activism. It contains no discussion of scientific studies, concepts, experts, technologies, or public-health/policy analysis, so it is not a scientific article."
+    },
+    {
+      "filename": "non-4350.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on legal and political matters—Justice Department review, Voting Rights Act compliance, and congressional redistricting disputes—and does not discuss scientific research, methods, experts in scientific fields, or scientific concepts."
+    },
+    {
+      "filename": "non-1411.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on allegations of sexual misconduct against actor Dustin Hoffman, recounting personal testimonies, legal responses, and media coverage. It does not discuss scientific research, expert scientific analysis, medical or technological topics, or any scientific debates."
+    },
+    {
+      "filename": "sci-463.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a news roundup and video/gallery listings focused on politics, protests, crime, and human-interest stories in Africa (e.g., Trump comments, protests, elections, attacks). It does not report on scientific research, expert scientific analysis, or in-depth explanation of scientific or technological topics; references to things like a school producing engineers are brief human-interest items, not scientific coverage."
+    },
+    {
+      "filename": "non-108.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a human-interest/social commentary about the #MeToo movement's cultural impact on adolescent girls, based on interviews, personal anecdotes, and general commentary from a psychotherapist. It does not report on scientific studies, present empirical data, or engage in a substantive scientific or research-based debate."
+    },
+    {
+      "filename": "non-417.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article covers political and legal matters—the unresolved death of prosecutor Alberto Nisman and a scandal over a minister's leaked audio and employment irregularities. It contains no discussion of scientific research, experts in scientific fields, scientific concepts, or technology, so there are no science topics present."
+    },
+    {
+      "filename": "sci-1493.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "public health / population health",
+        "epidemiology and causal inference (mortality study, randomized trial)",
+        "social determinants of health / poverty and health outcomes",
+        "health economics and program evaluation (welfare, EITC, WIC, food stamps)",
+        "maternal and infant health (birth weight effects)"
+      ],
+      "gpt_reasoning": "The article centers on research about the health impacts of welfare reform, citing a Health Affairs mortality study (based on a randomized welfare-to-work experiment) and other empirical studies linking anti-poverty programs to health outcomes like birth weight and biomarkers. It therefore engages with public health and epidemiological evidence, social determinants of health, and health-economics program evaluation rather than being purely political commentary."
+    },
+    {
+      "filename": "non-354.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports profile of Roger Federer focused on his tennis career, achievements, emotions and rivalries. It contains no discussion of scientific concepts, research, experts, or technology-related analysis."
+    },
+    {
+      "filename": "non-3170.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a brief press-release style announcement about USA TODAY NETWORK being selected for GoPro's pilot program to receive Fusion cameras. It focuses on media/marketing and the use of VR/360 cameras for content production, and does not report on scientific research, expert analysis, technical explanations, or scientific debates."
+    },
+    {
+      "filename": "sci-842.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "biodiversity loss / biosphere integrity",
+        "mass extinctions (Permian–Triassic and current extinction rates)",
+        "planetary boundaries framework / tipping points",
+        "ecosystem resilience and regime shifts",
+        "ecosystem functions and ecosystem services (pollination, water quality, biomass)",
+        "climate change as a driver of ecological change",
+        "conservation policy and scientific definitions/metrics"
+      ],
+      "gpt_reasoning": "The article centers on scientific debates about biodiversity decline and its consequences: it discusses mass-extinction history, cites researchers and a peer-reviewed critique, examines the planetary boundaries concept and whether biodiversity loss can trigger global tipping points, describes regime shifts and impacts on ecosystem functions and services, and links these issues to climate-change drivers and policy implications."
+    },
+    {
+      "filename": "sci-1029.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is sports coverage (team schedule, game times, standings, team and player statistics, and photo galleries). It contains no discussion of scientific research, experts, theories, methods, or science-related policy, so no scientific topics are present."
+    },
+    {
+      "filename": "non-816.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a policy/opinion piece about Department of Education rulemaking on borrower defense and for-profit college accountability. It discusses regulatory standards, taxpayer protection, and legal/political arguments rather than scientific research, theories, or expert scientific analysis. While it cites claim numbers and outcomes, those statistics serve a policy argument and do not make the article scientific in focus."
+    },
+    {
+      "filename": "sci-1173.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/box-score style page with team schedules, statistics, standings, and player leaders for the Oregon St. Beavers; it focuses on athletics and contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-1276.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is purely sports-related (team schedule, game statistics, rankings, and conference standings) and does not discuss scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "non-582.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/opinion piece about President Trump's foreign policy and the internal turmoil of his administration. It discusses diplomatic actions, military strikes, and geopolitical risks, and does not report on scientific studies, technologies, expert scientific analysis, or explain scientific concepts."
+    },
+    {
+      "filename": "non-4221.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "virtual reality (VR)",
+        "artificial intelligence (AI) in education / AI tutors",
+        "sensors and affective computing (emotion detection)",
+        "educational technology (MOOCs, edtech adoption and economics)",
+        "privacy and ethical implications of monitoring students"
+      ],
+      "gpt_reasoning": "The article is a perspective on how technologies — VR headsets, AI tutoring systems, and sensors that read pupil/voice signals — could transform education, discusses current MOOC limitations and hardware cost trends, and touches on implications of monitoring students, so its primary focus is technological/scientific rather than general news."
+    },
+    {
+      "filename": "non-943.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "neuroscience / neurology (brain, neurological signatures)",
+        "psychology / cognitive science (prayer/meditation effects, moral cognition)",
+        "evolutionary psychology (evolution-driven impulses, lower vs higher brain functions)",
+        "health / psychophysiology (stress reduction, brain tissue development)",
+        "memetics / cultural transmission"
+      ],
+      "gpt_reasoning": "The piece frames theological concepts using scientific-language models (psychosocial models, brain function, innate biases, evolution, meditation benefits, memes) and refers to neuroscience, psychology, evolution, and health effects of practices like prayer. However, it is primarily a faith/community reflection using these sciences as analogies and supportive claims rather than reporting original research or engaging in scientific debate."
+    },
+    {
+      "filename": "sci-1420.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political opinion piece about Trump, democracy, and democratic backsliding. While it invokes political-science concepts and cites scholars, it does not report on scientific research, experiments, medical or natural-science topics, nor does it center on expert scientific analysis or empirical study."
+    },
+    {
+      "filename": "non-2214.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on Ugandan politics: a constitutional amendment to remove the presidential age limit, reactions from politicians, legal experts, protests, and public sentiment. It does not report on scientific research, expert analysis of scientific topics, technological developments, or explanations of scientific concepts—references to a public opinion poll are used as political evidence rather than forming a scientific focus."
+    },
+    {
+      "filename": "non-1925.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a wedding announcement focused on biographical and personal details. Although it mentions professions and degrees (a neurointensivist and a gemology degree), it does not discuss scientific research, concepts, debates, or expert analysis."
+    },
+    {
+      "filename": "sci-1435.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "human evolution and life-history theory",
+        "menopause and reproductive cessation (grandmother hypothesis)",
+        "aging and senescence patterns",
+        "comparative biology (e.g., orcas) and evolutionary parallels",
+        "physiology of middle-age changes (fat distribution, vision, skin)",
+        "cognitive aging and brain function changes",
+        "anthropology/demography of hunter-gatherers and prehistoric lifespans",
+        "cultural transmission and the role of older adults in skill transfer"
+      ],
+      "gpt_reasoning": "The article centrally discusses evolutionary explanations for middle age and post-reproductive lifespan in humans, citing comparative examples (orcas), archaeological and hunter-gatherer demographic evidence, physiological changes (vision, skin, fat), cognitive/brain-imaging findings, and the role of older adults in cultural transmission. These are explicit scientific topics from evolutionary biology, anthropology, physiology and cognitive science, so the piece is scientific in focus."
+    },
+    {
+      "filename": "non-1205.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an interview/profile about a podcast that reads Harry Potter as a sacred text and discusses literary, religious, and cultural themes (book bans, ritual, fandom). It contains no reporting on scientific research, expert scientific analysis, or explanations of scientific concepts, so it is not a scientific article."
+    },
+    {
+      "filename": "sci-388.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "weighted blankets / deep pressure stimulation",
+        "anxiety and stress reduction",
+        "insomnia and sleep improvement",
+        "occupational therapy and sensory disorders (e.g., autism)",
+        "cutaneous tactile receptors / physiological mechanism",
+        "safety and medical considerations (breathing, circulation)"
+      ],
+      "gpt_reasoning": "The article centers on the purported scientific basis and evidence for weighted blankets: it cites pilot studies and a 2015 study, quotes occupational therapists and a physiologist about mechanisms (deep pressure touch and skin receptors), discusses therapeutic use for sensory disorders and potential benefits for insomnia and anxiety, and mentions safety recommendations—making science and research the primary focus."
+    },
+    {
+      "filename": "non-3141.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports game recap focusing on player performance, statistics, and coach comments about a college basketball game; it contains no discussion of scientific research, theories, expert analysis on scientific topics, or science-related policy."
+    },
+    {
+      "filename": "sci-509.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "psychology of comfort eating / emotional eating",
+        "stress-related eating behaviors",
+        "social and memory associations of food (food psychology)",
+        "nutrition / healthier recipe adaptations",
+        "food science / gastronomy (minor)"
+      ],
+      "gpt_reasoning": "The article cites studies and an expert psychologist about why people choose comfort foods (social/memory associations and increased consumption under stress), and quotes statistics from the American Psychological Association—indicating coverage of behavioral and psychological research. It also provides nutrition-focused guidance and recipe swaps to make comfort foods healthier, touching on dietary science and practical food/gastronomy techniques. The piece is more of a lifestyle/health article that draws on research rather than a primary scientific report, but scientific topics are present."
+    },
+    {
+      "filename": "sci-205.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "paleontology",
+        "dinosaur evolution",
+        "feather structure and coloration (iridescence)",
+        "melanosomes and pigment analysis",
+        "evolution of flight / asymmetrical feathers",
+        "fossil preservation and soft-tissue preservation"
+      ],
+      "gpt_reasoning": "The article reports on a peer-reviewed study describing a newly identified dinosaur species (paleontology, dinosaur evolution) and focuses on analysis of preserved feathers. It discusses melanosome measurements used to infer iridescent, hummingbird-like coloration (feather structure and pigment analysis) and interprets asymmetrical feathers in the tail with implications for the evolution of flight. It also highlights the unusually detailed soft-tissue preservation of the fossil."
+    },
+    {
+      "filename": "non-4043.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a brief professional bio of Laura McGann and describes her editorial roles; it does not discuss any scientific topics, research, experts, or scientific debates."
+    },
+    {
+      "filename": "non-2534.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The provided content contains only a numeric title and the phrase 'current edition: US edition' with no substantive text discussing research, experts, scientific concepts, or technology; therefore there are no scientific topics present."
+    },
+    {
+      "filename": "non-431.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political/opinion piece about Donald Trump's interactions with FBI Director James Comey and his demand for loyalty; it contains no discussion of scientific research, concepts, experts, or technology."
+    },
+    {
+      "filename": "non-2138.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "synthetic biology",
+        "genetic engineering / GMOs",
+        "bioluminescence in organisms (luciferase, GFP)",
+        "biosafety and biosecurity concerns",
+        "regulation and policy for genetically modified plants",
+        "DIY biology and community laboratories",
+        "biotech commercialization and DNA synthesis technology"
+      ],
+      "gpt_reasoning": "The article centers on a project to create glowing plants using synthetic biology and genetic engineering (discussing luciferase, GFP and DNA synthesis), cites prior research and expert commentary, and addresses related issues of biosafety, regulation, public policy, the DIY bio movement, and commercialization—all of which make science and technology the primary focus."
+    },
+    {
+      "filename": "non-1416.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "planet definition / planethood",
+        "dwarf planets",
+        "Pluto reclassification",
+        "planetary taxonomy and nomenclature",
+        "trans-Neptunian objects (TNOs)"
+      ],
+      "gpt_reasoning": "The article reproduces IAU resolutions that set a scientific definition of 'planet', establish the category 'dwarf planet', reclassify Pluto as a dwarf planet and prototype of a new class of trans-Neptunian objects, and address nomenclature—all topics central to planetary science and classification policy."
+    },
+    {
+      "filename": "non-3488.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports news piece focused on the Milwaukee Brewers' roster moves, player acquisitions, payroll and team strategy. It discusses trades, contracts and on-field performance, and contains no discussion of scientific research, theories, expert scientific analysis, or technological topics."
+    },
+    {
+      "filename": "non-613.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is an entertainment/celebrity news item about Anne Hathaway's wardrobe malfunction and an interview exchange with Matt Lauer. It focuses on personal incident, publicity for a film, and cultural commentary, with no discussion of scientific studies, experts, methods, or technical concepts."
+    },
+    {
+      "filename": "non-547.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a human-interest/photography feature about refugees and a photographer's portrait project. While it mentions a medical clinic and instances of malaria testing, there is no focus on scientific research, health analysis, medical data, or expert scientific discussion."
+    },
+    {
+      "filename": "non-3207.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a news report about a cybersecurity breach of the SEC's EDGAR system and its regulatory/market implications (comparisons to Equifax, congressional scrutiny, potential market manipulation). It discusses a security incident and its financial/policy fallout rather than scientific research, expert technical analysis of methods, or broader scientific debates, so it does not qualify as a science-focused article."
+    },
+    {
+      "filename": "sci-308.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "stress (physiological and psychological effects)",
+        "empathy and its neural correlates",
+        "neuroscience / brain imaging",
+        "stress hormones (cortisol)",
+        "altruism and behavioral economics (dictator game)",
+        "research methodology and limitations (sample size, generalizability)"
+      ],
+      "gpt_reasoning": "The article centers on a published study that used brain imaging and cortisol measurements to examine how experimentally induced stress influences neural activity in empathy-related brain regions and subsequent altruistic behavior in a dictator game. It discusses neuroscience methods, hormonal stress markers, behavioral economics measures, and notes study limitations, so the primary focus is scientific."
+    },
+    {
+      "filename": "non-3363.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a legal/business news report about a lawsuit alleging theft of an idea for Uber and discusses plaintiffs, defendants, funding and prior lawsuits. It does not report scientific research, expert scientific analysis, or explain scientific concepts—technology and funding are mentioned but not as scientific topics."
+    },
+    {
+      "filename": "non-3548.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is an airport guide focused on practical travel information (contact details, checkpoints, parking, transport, Wi‑Fi, shops, and amenities). It does not discuss scientific research, experts, theories, or policy, so no scientific topics are present."
+    },
+    {
+      "filename": "non-4354.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on legal and political matters—charges and a plea deal involving Michael Flynn and the Mueller probe. It reports on criminal allegations and courtroom-related developments rather than any scientific research, expert scientific analysis, technologies, or scientific concepts."
+    },
+    {
+      "filename": "sci-1099.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports report containing team schedules, game stats, player statistics, and conference standings for Bucknell basketball; it does not discuss scientific research, theories, expert analysis, or science-related policy."
+    },
+    {
+      "filename": "sci-1002.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for Cal St. Fullerton basketball (game time, team and player statistics, conference standings) and contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-1333.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "fertility decline / demographic trends",
+        "population economics",
+        "immigration and immigrant integration",
+        "family / pro-natal policy effectiveness",
+        "labor force participation and productivity",
+        "reproductive health access (contraception and abortion) and fertility outcomes",
+        "social and cultural determinants of fertility"
+      ],
+      "gpt_reasoning": "The article centers on demographic and population-economic debates: declining fertility rates, their economic consequences, and policy responses (pro-natal measures, tax and benefit proposals). It cites empirical findings about the limited impact of financial incentives and reproductive restrictions, discusses labor-force and productivity implications, and considers immigration and integration research—all topics grounded in social-science research rather than pure opinion."
+    },
+    {
+      "filename": "non-319.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is focused on political and legal reporting about the Mueller investigation, Steve Bannon, and related meetings and allegations. It discusses investigations, interviews, and political actors rather than scientific research, theories, expert scientific analysis, or technological/medical findings. Mentions of entities like Cambridge Analytica are descriptive and not treated as scientific or technical analysis."
+    },
+    {
+      "filename": "sci-1292.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The provided text contains site navigation/menu items and no substantive article content; it does not discuss scientific studies, experts, concepts, or technological topics."
+    },
+    {
+      "filename": "non-820.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a lifestyle/travel/entertainment listicle about underrated experiences at Disneyland (rides, food, shows, and locations). It does not report on research, scientific concepts, experts, or scientific debate, so no scientific topics are present."
+    },
+    {
+      "filename": "non-2498.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on a Nigerian senator's cameo in a rap video, public image, satire and questions about wealth and corruption. It is a cultural/political/entertainment piece and does not discuss scientific research, concepts, methods, or expert scientific analysis."
+    },
+    {
+      "filename": "non-2421.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on an individual stateless asylum case, UK Home Office decisions, and broader legal/policy issues around statelessness and protection. While it cites UNHCR estimates and explains what statelessness means, it does not report scientific research, expert scientific analysis, or scientific debates—its primary focus is legal, political, and human-rights reporting."
+    },
+    {
+      "filename": "non-4825.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a business/market report about Euroseas Ltd.'s fleet reductions, financing and the collapse in dry-bulk freight rates. It focuses on company actions, market conditions and financial outcomes rather than scientific research, methods, experts, or explanations of scientific concepts."
+    },
+    {
+      "filename": "non-536.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a human-interest news item about an astronaut's mistaken claim and apology; science is only mentioned briefly (a short note that microgravity can temporarily lengthen the spine). The article's primary focus is the anecdote/event, not an in-depth scientific discussion."
+    },
+    {
+      "filename": "sci-582.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "trust in healthcare and medical institutions",
+        "public health behavior and vaccine uptake",
+        "patient adherence to treatment (medication compliance)",
+        "clinical trial participation and medical innovation",
+        "epidemic response and institutional trust (e.g., Ebola study)",
+        "health data privacy, telemedicine, and digital health adoption",
+        "health disparities and trust across socioeconomic and racial groups",
+        "health policy and health system structure (e.g., universal care debate)"
+      ],
+      "gpt_reasoning": "The article centers on the role of trust in medicine and public health, citing studies and evidence about medication adherence, vaccine refusal, clinical trial enrollment, and an Ebola survey linking institutional trust to protective behaviors. It discusses public-health policy implications, health disparities, and barriers to adoption of digital health technologies—all topics squarely within medical/public-health science and health policy research."
+    },
+    {
+      "filename": "non-2093.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "nuclear reactor accidents / meltdowns",
+        "radiation exposure and dosimetry (millisieverts)",
+        "acute radiation sickness and long-term health effects (cancer, cataracts, burns)",
+        "containment breaches and release of radioactive materials",
+        "emergency response and mitigation (seawater pumping, helicopters, firefighting)",
+        "occupational safety and regulatory exposure limits",
+        "radiation monitoring and environmental contamination"
+      ],
+      "gpt_reasoning": "The article centers on the Fukushima Daiichi nuclear accident and the technicians working to prevent broader catastrophe, so it discusses technical and scientific aspects: reactor damage and potential meltdowns, containment integrity, measured radiation levels (millisieverts), health effects from radiation (acute sickness and long-term risks), emergency mitigation tactics (pumping seawater, helicopter spraying, cycling workers), and a regulatory decision to raise worker exposure limits. It also cites expert commentary and comparisons to Chernobyl, making the piece primarily scientific/technical in focus rather than purely human-interest or political."
+    },
+    {
+      "filename": "non-1355.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article covers a civil rights lawsuit against Motel 6 over sharing guest information with immigration authorities, focusing on legal, privacy, and immigration enforcement issues. It does not discuss scientific research, expert scientific analysis, technology rooted in science, or explanations of scientific concepts."
+    },
+    {
+      "filename": "non-1037.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "reproductive health and contraception (tubal ligation)",
+        "pregnancy and childbirth (including ectopic pregnancy)",
+        "antidepressant/anti-anxiety medication use in pregnancy and potential birth defect risk",
+        "mental health and medication withdrawal"
+      ],
+      "gpt_reasoning": "The article is a collection of personal stories about choosing to be childfree. While it mentions medical/reproductive issues—tubal ligation, an ectopic pregnancy, and concerns about Paxil and withdrawal symptoms—these are anecdotal references rather than in-depth scientific discussion, reporting of studies, or expert analysis. Therefore the topics are present only incidentally and not treated as scientific debates."
+    },
+    {
+      "filename": "non-1879.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an investigative/human-interest piece about the historical scandal of the Tuam Mother and Baby Home, focusing on journalism, history, social injustice, and memory. It does not report on scientific research, methods, experiments, expert scientific analysis, or scientific concepts."
+    },
+    {
+      "filename": "sci-662.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "economic geography",
+        "urban economics",
+        "regional development policy",
+        "industrial clusters (Marshallian externalities)",
+        "stochastic processes in city growth (gambler's ruin metaphor)",
+        "globalization (mentioned as not central)"
+      ],
+      "gpt_reasoning": "The piece is an economics/opinion essay about the dynamics of small cities — i.e., economic geography and urban economics — discussing cluster effects (Marshallian externalities), chance-driven growth or decline (gambler's-ruin metaphor), and policy implications for regional development. It is social-science focused rather than reporting new empirical scientific research or experimental findings."
+    },
+    {
+      "filename": "non-4312.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on CIA interrogation practices, alleged torture, legal reviews, and policy/accountability issues. It reports on classified agency actions and legal/ethical debates rather than scientific research, methods, experts, or technical scientific topics."
+    },
+    {
+      "filename": "sci-829.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change / global warming",
+        "temperature change and rates of warming",
+        "sea level rise",
+        "impacts on agriculture and food security",
+        "infectious disease risk (e.g., malaria)",
+        "coral bleaching and ecosystem impacts",
+        "climate adaptation limits",
+        "mitigation policy (Paris Agreement, 1.5–2°C targets)",
+        "fossil fuel emissions / carbon pollution"
+      ],
+      "gpt_reasoning": "The article centers on climate science: experts explain why rapid temperature change (not a single 'ideal' temperature) threatens human systems and ecosystems, citing impacts such as sea‑level rise, agricultural stress, disease, and coral bleaching. It discusses warming rates, temperature thresholds (1–2°C), and policy responses (Paris targets, emissions reduction), and is structured around commentary from climate scientists, so its primary focus is scientific."
+    },
+    {
+      "filename": "non-2060.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content describes a Book Review podcast lineup focusing on book commentary, authors, libel law, and bestseller news—literary and legal/political topics rather than reporting on scientific research, experts in science, or scientific concepts."
+    },
+    {
+      "filename": "sci-1039.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports/news piece focused on North Dakota Fighting Hawks basketball — game times, scores, team and player statistics, and conference standings. It contains no discussion of scientific research, concepts, expert analysis, or science policy."
+    },
+    {
+      "filename": "non-359.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a human-interest feature composed of personal narratives about victims and surviving family members of gun violence, grief, and activism. It does not report on scientific studies, provide expert scientific analysis, or explain scientific concepts; references to trauma or policy are anecdotal and not presented as scientific investigation."
+    },
+    {
+      "filename": "non-3681.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "lead contamination in drinking water",
+        "water filtration and treatment technologies (e.g., reverse osmosis, distillation, point-of-use filters)",
+        "water quality testing and monitoring",
+        "standards, certification and regulation of water filters (NSF, WQA, EPA guidance)",
+        "public health implications and risk reduction (e.g., Flint example)",
+        "filter performance, maintenance and lifecycle costs"
+      ],
+      "gpt_reasoning": "The article is focused on scientific and technical guidance about removing lead from household water: it explains contamination pathways, compares treatment technologies, recommends testing and certification sources, cites expert advice and public-health contexts, and discusses performance/maintenance — all central scientific and public-health topics rather than general news or opinion."
+    },
+    {
+      "filename": "sci-934.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/statistics page for the Dayton Flyers (schedule, points per game, field goal %, rebounds, conference standings, player leaders). It focuses on game times and team/player basketball stats rather than scientific research, theories, expert analysis, or technology."
+    },
+    {
+      "filename": "sci-769.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "microbiome/gut microbiota",
+        "antibiotics and antimicrobial impacts",
+        "Clostridium difficile infection (C. diff)",
+        "fecal microbiota transplantation",
+        "microbiome and nutrition/malnutrition",
+        "microbiome and obesity",
+        "microbiome and development/behavior (e.g., autism)",
+        "research methods/omics and study design",
+        "research hype vs. evidence and policy (National Microbiome Initiative)"
+      ],
+      "gpt_reasoning": "The article's primary focus is on scientific research about the human microbiome: its roles in digestion, immunity and disease; how antibiotics alter it (with C. diff as a clinical example); therapeutic approaches like fecal transplants; links being explored between the microbiome and nutrition, obesity, and developmental disorders; and the methodological challenges (contamination, sequencing, bioinformatics, meta-analyses) and policy/funding context. It critiques hype versus current evidence, making it clearly a science-focused piece."
+    },
+    {
+      "filename": "sci-654.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "breast-feeding / lactation",
+        "infant nutrition",
+        "neurocognitive development in infants",
+        "protection against infections and sudden infant death syndrome (SIDS)",
+        "epidemiology and clinical research (PROBIT trial)",
+        "public health guidelines and policy (AAP, WHO)",
+        "breast-feeding rates and demographic disparities",
+        "workplace/lactation support and maternal health"
+      ],
+      "gpt_reasoning": "The article centers on medical and public‑health aspects of breast‑feeding: it cites guidelines (AAP, WHO), reports on epidemiological research (the PROBIT trial), quotes experts on mechanisms and outcomes (infection protection, SIDS, neurocognitive effects), and discusses population data and policy/support issues—making it primarily a scientific/medical piece rather than general news or opinion."
+    },
+    {
+      "filename": "non-3463.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a chronological database of NFL player arrests, charges and outcomes compiled by a sports writer. It focuses on legal incidents, teams and case resolutions, not on scientific research, expert scientific analysis, technologies, medical studies, or policy debates grounded in scientific evidence."
+    },
+    {
+      "filename": "non-5.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article discusses UKIP party leadership and internal political developments (Gerard Batten, Henry Bolton, Nigel Farage). It is a political news item with no coverage of scientific research, experts in scientific fields, theories, or technical/medical topics."
+    },
+    {
+      "filename": "non-1271.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an opinion/advocacy piece comparing TSA PreCheck to E-ZPass, focusing on operational efficiency, queueing, cost savings, and security policy. It cites statistics and program outcomes but does not report scientific research, explain scientific concepts, or feature expert scientific analysis, so it is not primarily a scientific article."
+    },
+    {
+      "filename": "non-2181.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion/political piece centered on Donald Trump's remarks at Davos, focusing on politics, economics, trade, immigration and rhetoric. It only contains a brief passing reference to 'global warming/climate change' and the Paris agreement without discussing scientific evidence, research, or expert analysis, so it does not have a scientific focus."
+    },
+    {
+      "filename": "non-2474.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "human habitation of Mars",
+        "planetary science/space exploration",
+        "astronomy (eclipses and meteor showers)"
+      ],
+      "gpt_reasoning": "The page includes a Q&A on 'Can humans live on Mars?' (human space habitation and planetary science) and 'Starwatch' items about the August night sky, the American eclipse and the Perseid meteor shower, indicating a primary focus on space/astronomy topics."
+    },
+    {
+      "filename": "sci-1581.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The title and context indicate a historical/military piece about World War I and grenades (a centenary remembrance). There is no indication of discussion of scientific research, experiments, expert scientific analysis, or explanation of scientific concepts, so it is non-scientific."
+    },
+    {
+      "filename": "non-3349.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a human-interest/conflict report about the White Helmets (Syrian Civil Defense), their rescue work, training, and bravery. It does not discuss scientific research, theories, experiments, expert scientific analysis, or technical/medical details beyond brief mentions of basic tools and first aid, so there is no primary scientific focus."
+    },
+    {
+      "filename": "non-873.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on ISIS attacks, terrorism tactics, geopolitics and organizational strategy. It discusses security, propaganda and recruitment, with no coverage of scientific research, methods, experts in scientific fields, or explanations of scientific concepts."
+    },
+    {
+      "filename": "non-4791.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The excerpt and title focus on investment advice and the performance of Apple stock (financial/market commentary). There is no discussion of scientific research, concepts, experts, or technological explanation—the piece is non-scientific financial/opinion content."
+    },
+    {
+      "filename": "non-2593.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change / global warming",
+        "sea level rise",
+        "greenhouse gas emissions (fossil fuels, coal)",
+        "climate policy and economics (cap-and-trade, carbon markets, carbon tax, offsets)",
+        "climate science integrity / 'Climategate' (scientific data and trust)",
+        "impacts of climate change (droughts, floods, famines, displaced cities)"
+      ],
+      "gpt_reasoning": "The article is built around an interview with climate scientist James Hansen and focuses on scientific evidence about global warming and its impacts (including sea level rise), debates over mitigation strategies (cap-and-trade versus carbon tax and offsets), and concerns about the integrity of climate science following leaked emails. These elements make the piece primarily scientific in focus, combining expert analysis of climate science with discussion of related policy and ethical issues."
+    },
+    {
+      "filename": "sci-831.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "predictive policing / predictive analytics",
+        "data mining and big data",
+        "surveillance technology",
+        "biometrics",
+        "blockchain for data security",
+        "algorithmic bias and ethics",
+        "military applications of data science / counterinsurgency analytics",
+        "privacy and civil liberties (policy implications of technology)"
+      ],
+      "gpt_reasoning": "The article centers on Palantir’s technological tools and methods — data mining, predictive analytics applied to policing and military operations — and describes technical elements (biometrics, blockchain, algorithmic prediction). It also discusses ethical and policy issues (algorithmic bias, surveillance, privacy, militarisation of policing), so the primary focus is technological and socio-technical rather than unrelated news."
+    },
+    {
+      "filename": "non-3055.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "battery technology and energy efficiency (multi-day battery, standby power)",
+        "mobile processors and system-on-chip (Qualcomm Snapdragon 835, ARM-based PCs)",
+        "cellular connectivity in PCs (LTE, Gigabit LTE, eSIM, nano SIM)",
+        "power management and always-on architecture (instant-on, standby behavior)",
+        "performance vs. compatibility tradeoffs in low-power PC designs"
+      ],
+      "gpt_reasoning": "The article centers on technological advancements for 'always-connected' PCs — claims about multi-day battery life, low-power Snapdragon processors, LTE/eSIM connectivity and instant-on/standby behavior — and includes quotes from industry experts and manufacturers. While not a research paper, it reports on engineering/product developments and their technical implications, so the primary focus is on applied science/technology topics rather than general news."
+    },
+    {
+      "filename": "non-3406.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a photo tour/travel feature describing the cruise ship Royal Clipper—its design, accommodations, amenities, and specifications. It contains no discussion of scientific studies, theories, expert scientific analysis, or science policy; technical details (dimensions, sail area) are descriptive rather than scientific exploration."
+    },
+    {
+      "filename": "non-4261.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political/news story about internal FBI personnel disputes, tensions among the Attorney General, FBI director, and the White House. It focuses on staffing, investigations, and partisan pressures, and contains no discussion of scientific research, methods, experts, or scientific topics."
+    },
+    {
+      "filename": "non-1173.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change (anthropogenic)",
+        "greenhouse gas emissions",
+        "renewable energy",
+        "carbon pricing / cap-and-trade and carbon markets",
+        "hydraulic fracturing (fracking) environmental impacts",
+        "international climate policy (Paris Agreement)"
+      ],
+      "gpt_reasoning": "The article centers on California's efforts to address climate change—mentioning the science of climate change, greenhouse-gas–reduction measures (cap-and-trade), proposals for a common carbon market, renewable energy goals, and debates over fracking. These are scientific/environmental topics, though the piece is primarily political/policy reporting rather than an in-depth scientific analysis."
+    },
+    {
+      "filename": "non-1309.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an entertainment/culture piece about a poet's ode to Jennifer Lopez, focusing on media representation, celebrity, and philanthropic/political commentary about Hurricane Maria relief; it does not discuss scientific research, methods, experts, theories, or technological advances."
+    },
+    {
+      "filename": "non-318.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is focused on a legal/political dispute — an ACLU lawsuit over the Trump administration blocking a minor's access to an abortion — and covers immigration, policy, and reproductive rights. It does not report on scientific research, medical evidence, expert scientific analysis, or explain scientific concepts; the medical procedure is mentioned only as the subject of a rights dispute."
+    },
+    {
+      "filename": "non-600.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article describes a tourism initiative and historical Civil Rights Trail, focusing on sites, history, tourism promotion, and interviews with organizers and family members. It does not report on scientific research, expert scientific analysis, technological or scientific debates, or explain scientific concepts."
+    },
+    {
+      "filename": "non-1488.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a personal/profile piece about a student entrepreneur and building a startup for the visually impaired. It focuses on college life, mentorship, and entrepreneurship rather than on scientific research, technologies, methodologies, or expert analysis of a scientific topic."
+    },
+    {
+      "filename": "non-2925.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an opinion piece about Russian strategy and military/political involvement in Syria and the Mediterranean. It focuses on geopolitics, history, and military posture rather than reporting on scientific research, expert scientific analysis, or explaining scientific concepts."
+    },
+    {
+      "filename": "sci-77.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion/policy piece about the GOP tax plan and its economic and social effects on women and families. Although it cites statistics and reports from organizations (Pew, Census, CBO, Penn-Wharton) and mentions an economist, it does not focus on scientific research, methods, or scientific debates; its primary focus is political/economic advocacy and analysis rather than science."
+    },
+    {
+      "filename": "non-566.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political/news roundup of notable lines from an impromptu press appearance by President Trump, focusing on politics, immigration (DACA), the Mueller investigation, media relations, and personality. It does not discuss scientific research, methods, experts in scientific fields, or scientific theories/policy, so there are no scientific topics present."
+    },
+    {
+      "filename": "non-3193.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is political journalism analyzing 2016 election voting shifts and county-level demographic and economic data. While it cites Census and election data, its primary focus is electoral geography and politics rather than scientific research, experiments, or expert scientific analysis."
+    },
+    {
+      "filename": "non-969.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is celebrity gossip about personal relationships and dating; it contains no discussion of scientific studies, experts, theories, methods, or any scientific concepts or policy."
+    },
+    {
+      "filename": "sci-276.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "psychology of forgiveness",
+        "workplace/organizational psychology",
+        "occupational health and well-being (stress, mental and physical health)",
+        "behavioral interventions and models (e.g., REACH) to improve workplace outcomes"
+      ],
+      "gpt_reasoning": "The article reports on empirical research (surveys of employees) linking forgiveness to productivity, absenteeism, and health, references an established forgiveness model and an intervention program, and discusses psychological mechanisms (reduced interpersonal stress). These elements make the piece focused on scientific/psychological study and applied research in organizational and occupational health."
+    },
+    {
+      "filename": "non-2100.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political and military news report focused on Saudi-U.S. relations, Saudi support for Sunni groups, foreign fighters in Iraq, and diplomatic tensions. It contains no discussion of scientific research, methods, experts in scientific fields, or scientific concepts—only geopolitical analysis, intelligence claims, and conflict-related statistics."
+    },
+    {
+      "filename": "non-1562.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on political transition, inaugural fundraising, personnel meetings and reactions to appointments; it contains no discussion of scientific research, experts, scientific concepts, or public health/technology policy."
+    },
+    {
+      "filename": "non-967.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political opinion piece about Congress, presidential power, impeachment, and war-making authority; it discusses constitutional and political matters and contains no reporting on scientific research, experts in scientific fields, or scientific concepts."
+    },
+    {
+      "filename": "non-1636.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on a headmistress running a school for Syrian refugee children and the role of education in preventing radicalization by ISIS. It is a human-interest/social piece about education and conflict, with no discussion of scientific research, methods, experts in scientific fields, or scientific concepts."
+    },
+    {
+      "filename": "sci-815.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/opinion piece focused on Trump, alleged ties to Russia, FBI handling, media management and calls for congressional probes. It does not discuss scientific research, methods, expert scientific analysis, or technical/technical-detail explanations of cyberissues—its focus is political rather than scientific."
+    },
+    {
+      "filename": "non-3186.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is about David Beckham's plans to unveil an MLS soccer team in Miami, covering sports, business, and legal aspects (stadium purchase, lawsuit, market history). It contains no discussion of scientific research, concepts, experts, or technologies."
+    },
+    {
+      "filename": "sci-1515.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The title indicates a historical/commemorative piece about World War I submarines. No content is provided that suggests reporting on scientific research, technical engineering analysis, or expert scientific debate, so there is no clear scientific focus."
+    },
+    {
+      "filename": "non-1789.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "blockchain technology",
+        "cryptography",
+        "distributed ledgers / consensus (Bitcoin, Ethereum)",
+        "decentralized identity (self-sovereign ID, uPort, Blockstack)",
+        "distributed file systems and protocols (IPFS, Filecoin)",
+        "token economies / ICOs and crypto-economics",
+        "cybersecurity and data privacy",
+        "energy use of mining and technical scalability",
+        "internet architecture and open vs. closed protocols",
+        "technology policy / regulation and antitrust implications"
+      ],
+      "gpt_reasoning": "The article is a technology-focused feature that explains how cryptographic keys, blockchains and consensus mechanisms work (Bitcoin, Ethereum), describes protocol-level projects (IPFS, Filecoin), and discusses technical debates about identity, security, scalability and energy use. It also addresses the economic/token models (ICOs, tokens) and policy implications for internet architecture and regulation. These are technical/scientific topics about computing, cryptography and socio-technical systems rather than general non-scientific news."
+    },
+    {
+      "filename": "non-1810.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on the legal, political and logistical aspects of Saddam Hussein's potential execution, death-penalty practice in Iraq, and security concerns. It contains no discussion of scientific research, methods, theories, or expert analysis in scientific fields; references to a doctor certifying death are procedural, not a scientific topic of focus."
+    },
+    {
+      "filename": "non-615.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a website navigation/menu listing Fox News sections and shows; it contains no substantive article text, scientific reporting, expert analysis, or discussion of scientific topics."
+    },
+    {
+      "filename": "sci-910.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for the Kentucky Wildcats (game schedule, team and player statistics, conference standings). It does not discuss scientific research, theories, experts, or science-related policy—only athletic performance data and game information."
+    },
+    {
+      "filename": "non-1563.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article describes a mass shooting and airport response, focusing on events, passenger experiences, and logistics; it does not discuss scientific research, expert analysis of scientific issues, technical explanations, or other science-related topics."
+    },
+    {
+      "filename": "non-306.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article discusses Republican political strategy and messaging against Hillary Clinton, focusing on partisan labeling, a super PAC's tactics, and polling implications. It contains no discussion of scientific research, methods, experts, or scientific topics."
+    },
+    {
+      "filename": "non-10.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a police/human-interest news item about tracing a collapsed man's family. Although it mentions medical facts (a heart attack and an induced coma), it does not discuss medical research, scientific explanations, expert analysis, or broader scientific debates, so science is not the article's focus."
+    },
+    {
+      "filename": "sci-772.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "plastic pollution in oceans",
+        "microplastic ingestion by marine organisms",
+        "chemical additives in plastics acting as attractants",
+        "coral feeding behavior and health",
+        "marine ecology and environmental toxicology",
+        "laboratory study on organism-plastic interactions"
+      ],
+      "gpt_reasoning": "The article centers on a scientific study reporting lab experiments showing corals ingest plastic and explores why—specifically that chemical additives in plastics may mimic food cues. It discusses microplastics, coral biology, potential ecological/toxicological effects, and ongoing research, making it a science-focused piece."
+    },
+    {
+      "filename": "non-4206.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article summarizes a DOJ civil-rights investigation and its findings about racial bias, policing practices, and municipal revenue schemes. Its focus is legal, social, and political reporting (investigative journalism about police misconduct), not on scientific research, methods, expert scientific analysis, or scientific debate."
+    },
+    {
+      "filename": "non-4328.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is focused on police shootings, crime statistics, demographic patterns, and policy/training responses. While it cites a database and includes expert commentary from a criminologist and mental-health advocates, its primary focus is criminal justice reporting and public-policy implications rather than on scientific research, methods, or scientific debates."
+    },
+    {
+      "filename": "non-3520.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on film industry diversity, Meryl Streep's remarks at the Berlin Film Festival, and the Oscars diversity controversy with reactions from filmmakers and actors. It discusses cultural and industry issues rather than scientific research, theories, expert scientific analysis, or technological topics."
+    },
+    {
+      "filename": "non-659.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports/feature piece about Olympic swimmers Mark Spitz and Michael Phelps, focusing on records and personal reflections; it contains no scientific content, studies, expert analysis, or discussion of scientific topics."
+    },
+    {
+      "filename": "sci-1498.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political opinion/column about Donald Trump and the rise of transnational populist movements (the 'Populist International'). It discusses ideology, parties, media, and democratic institutions; it does not report on scientific research, cite scientific experts, explain scientific concepts, or address scientific policy or technology as its primary focus."
+    },
+    {
+      "filename": "sci-988.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for the Texas Tech basketball team (scores, schedules, per-game statistics, standings and player leaders). It contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-330.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "pelvic physical therapy (pelvic PT)",
+        "pelvic floor dysfunction (PFD) and women's pelvic health",
+        "clinical practice standards, training and patient consent",
+        "epidemiology/prevalence of PFD",
+        "trauma sequelae and mental health effects related to sexual abuse"
+      ],
+      "gpt_reasoning": "Although an opinion piece, the article is written by a credentialed clinician and focuses on medical/scientific topics: it explains pelvic physical therapy and pelvic floor dysfunction, cites prevalence, describes evidence-based examination/treatment practices and training, and discusses how trauma and ethical clinical practices affect patient outcomes and care-seeking. These elements make the primary focus healthcare/medical rather than general news."
+    },
+    {
+      "filename": "sci-1017.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports roster for the Washington Nationals (MLB) listing players, positions, ages, and physical stats. It focuses on team personnel and not on scientific research, concepts, experts, or debates."
+    },
+    {
+      "filename": "sci-1035.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is purely a sports preview/boxscore for college basketball (team schedule, points, rebounds, percentages, standings, and player stats). It contains no discussion of scientific research, concepts, experts, or policy, so there are no scientific topics present."
+    },
+    {
+      "filename": "non-1514.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an entertainment/celebrity news piece about allegations of sexual misconduct against James Franco, social media reactions, and career repercussions. It contains no discussion of scientific studies, experts, theories, technologies, or public-health/science policy issues."
+    },
+    {
+      "filename": "non-465.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a human-interest/sports feature about land-speed racing and Danny Thompson's quest at Bonneville. While it includes descriptive technical references (engines, horsepower, superchargers, salt-surface conditions, fuel toxicity), it does not present scientific explanation, research, expert analysis, or debate. The primary focus is on the event, people, and narrative rather than on scientific or technical investigation."
+    },
+    {
+      "filename": "sci-660.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion piece about minimum-wage policy and regional cost differences (an economic/policy argument). It does not report scientific research, feature scientific experts or methods, or explain scientific concepts; it uses economic data to support a policy recommendation rather than presenting a scientific debate."
+    },
+    {
+      "filename": "sci-1379.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "gun violence and gun control effectiveness",
+        "epidemiology / public health",
+        "suicide prevention and means restriction",
+        "homicide rates / criminology",
+        "systematic review / meta-analysis and causal inference in policy research"
+      ],
+      "gpt_reasoning": "The article centers on a 2016 systematic review published in an academic journal that synthesizes ~130 studies across countries on the effect of firearm laws on homicide and suicide, includes interview commentary from the lead epidemiology author, and discusses methodological issues (causal inference, study quality, substitution effects). These elements make it a scientific/public‑health policy piece rather than a general news story."
+    },
+    {
+      "filename": "sci-1097.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is purely sports content (team schedule, game stats, standings, player statistics) and does not discuss scientific research, concepts, experts, methods, or policy. While it contains numerical sports statistics, it does not treat them as part of a scientific analysis or debate."
+    },
+    {
+      "filename": "non-3035.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is an entertainment/gaming piece about a frustrating mobile game clip (Trap Adventure 2). It contains no discussion of scientific research, experts, theories, methods, or policy—only description and reaction to gameplay."
+    },
+    {
+      "filename": "non-3891.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on celebrity deaths, estate planning, probate disputes and financial outcomes; it contains no reporting on scientific research, expert scientific analysis, scientific concepts, or technology topics. Legal/financial matters are discussed, but these do not make it a scientific article."
+    },
+    {
+      "filename": "non-1464.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is political news focused on the Trump transition, inaugural fundraising, personnel meetings and appointments, and reactions from politicians and officials. It discusses donors, meetings (e.g., Romney), staffing (Bannon, Conway), and foreign-policy concerns (Russia/Syria), but contains no reporting on scientific research, expert scientific analysis, technical explanations, or science-related policy debates."
+    },
+    {
+      "filename": "non-4301.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on activist Chen Guangcheng, his escape, diplomatic negotiations between the U.S. and China, human rights abuses, and political fallout. It does not discuss scientific research, theories, expert scientific analysis, medical details, or technological developments—aside from a brief mention of hospital treatment, which contains no scientific content."
+    },
+    {
+      "filename": "non-951.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a short political/profile news blurb about Barbara Boxer, her PAC and activism. It discusses politics, civic engagement and environmental responsibility in a general way but contains no reporting on research, scientific concepts, expert analysis, or scientific debate."
+    },
+    {
+      "filename": "sci-1267.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is purely sports-related (team schedule, box-score style statistics, conference standings, player leaders) and does not discuss scientific research, concepts, experts, or debates."
+    },
+    {
+      "filename": "non-2907.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports/entertainment piece about LeBron James' reaction to a congratulatory video for his 30,000-point milestone; it contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "non-3876.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on book sales, publishing details, and marketing/political context for Michael Wolff's Fire and Fury, with sales figures and publisher quotes. It does not discuss scientific research, experts in scientific fields, scientific methods, theories, or technological advances."
+    },
+    {
+      "filename": "sci-779.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "education policy",
+        "school choice",
+        "charter schools",
+        "school vouchers",
+        "educational outcomes / standardized testing",
+        "education research / program evaluation"
+      ],
+      "gpt_reasoning": "The piece is an opinion about K–12 education policy that relies heavily on empirical evidence and published studies (e.g., NAEP results, a center study on Louisiana vouchers, comparisons of Detroit and New Orleans). Though normative in tone, its primary focus is on social-science research findings and program evaluation of school-choice interventions, so it addresses topics in education research rather than purely non-scientific news."
+    },
+    {
+      "filename": "non-2917.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a sports game recap focused on the Toronto Raptors vs. Atlanta Hawks: score, player stats, coach quotes, injuries and game notes. It does not report on scientific research, explain scientific concepts, nor center on expert scientific analysis. The lone medical mention (an MRI showing an adductor strain) is incidental to a player injury and not developed as a scientific topic."
+    },
+    {
+      "filename": "non-4392.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a list of political poll questions about the presidential race and voters' views of candidates and their treatment of women. It focuses on opinion polling and election-related topics, not on scientific research, theories, experts, or technological/medical issues."
+    },
+    {
+      "filename": "non-2454.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is an advertising/promotional piece about audience reach, metrics, and influence (readership statistics and marketing claims). It does not discuss any scientific studies, theories, experts, or scientific processes."
+    },
+    {
+      "filename": "non-397.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is primarily a human-interest/celebrity story about Hugh Jackman's charitable work, fair-trade coffee and economic empowerment. Mentions of climate change and a 'zero carbon footprint' are brief and incidental, not developed as scientific topics or analyses."
+    },
+    {
+      "filename": "non-2729.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on a political/legal news story about missing FBI text messages, an information management system glitch, and related congressional scrutiny; it does not discuss scientific research, theories, expert scientific analysis, or public-health/technology science topics as its primary focus."
+    },
+    {
+      "filename": "non-1865.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political news article about power shifts between Dmitri Medvedev and Vladimir Putin, policy reversals, and media narratives. It contains no discussion of scientific research, concepts, expert scientific analysis, technological advances, or public-health/ environmental debates — the mention of a time-change policy is political, not a scientific topic."
+    },
+    {
+      "filename": "non-3576.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on the Charlie Hebdo terrorist attack and its political and social fallout — tensions over immigration, anti-Islam movements, and security/policy responses. While it quotes a political scientist, it does not discuss scientific research, methods, technologies, or scientific debates, so there is no scientific topic present."
+    },
+    {
+      "filename": "non-1931.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a roundup of new paperback books and brief literary reviews/summaries. It discusses fiction and biography titles, characters, and reviewers' impressions, with no focus on scientific research, concepts, expert interviews, or science-related policy or technology."
+    },
+    {
+      "filename": "non-1361.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a holiday book list and reviews of children's and young adult titles focused on Latino culture, bilingualism, immigration, and historical/fictional themes. It does not report on research, scientific studies, expert interviews, scientific theories, or technological advances, so there is no scientific topic as the primary focus."
+    },
+    {
+      "filename": "non-2635.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports news piece about the Los Angeles Rams' pending free agents and coach Sean McVay's perspective on roster decisions. It contains no discussion of scientific research, experts in scientific fields, scientific concepts, or technology-related developments."
+    },
+    {
+      "filename": "non-2831.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports piece summarizing the 2018 Baseball Hall of Fame class and players' career statistics and achievements. It focuses on athletic accomplishments and biographical details rather than scientific research, expert analysis on scientific topics, or explanation of scientific concepts."
+    },
+    {
+      "filename": "non-4415.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political and security analysis of al-Shabab—covering terrorism, governance, taxation, and military activity—not scientific research. Although the author references field interviews, it does not present scientific studies, methods, or engage in scientific or technical debates."
+    },
+    {
+      "filename": "non-1526.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "antibiotic resistance / antimicrobial resistance",
+        "Neisseria gonorrhoeae (gonorrhea)",
+        "sexually transmitted infections (epidemiology)",
+        "public health surveillance and diagnostics",
+        "treatment guidelines and antimicrobial stewardship",
+        "drug development and vaccine research"
+      ],
+      "gpt_reasoning": "The article centers on a WHO report about rising drug-resistant strains of gonorrhea, cites an expert, gives prevalence statistics, discusses causes of spread, current treatment recommendations, gaps in surveillance, and urges new drug and vaccine development — all topics squarely within medical, microbiological, and public‑health science."
+    },
+    {
+      "filename": "non-501.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "nutrition and dietary sugar (added sugars)",
+        "sugar addiction and reward/craving mechanisms",
+        "metabolic health and pediatric effects of sugar reduction",
+        "dietary intervention (sugar detox) as a weight-loss/health strategy",
+        "artificial sweeteners and metabolic consequences"
+      ],
+      "gpt_reasoning": "The article primarily focuses on nutrition science and health: it discusses the impacts of added sugar on weight, skin and heart disease, cites experts and research (e.g., Robert Lustig and a study on obese children), explains a stepwise dietary intervention (a 31-day sugar detox) and addresses artificial sweeteners. While it includes anecdotal testimonials and practical diet advice, the central content concerns scientific/medical topics related to diet and metabolism rather than general news or entertainment."
+    },
+    {
+      "filename": "non-2810.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/opinion piece calling for impeachment of President Trump and discussing constitutional law, alleged misconduct, and ongoing investigations. It does not report on scientific research, expert scientific analysis, or explain scientific concepts."
+    },
+    {
+      "filename": "non-4422.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political interview/transcript focused on campaign positions, foreign policy, law, and social issues. It does not report scientific research, expert scientific analysis, or explain scientific concepts. Climate change is mentioned briefly as a policy opinion, but it is not treated as a scientific topic in the article."
+    },
+    {
+      "filename": "non-3342.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a personal letter about an early experience with police and reflections on race and police-community relations, with some reader tweets—there is no discussion of scientific research, theories, experts, methods, or technological/medical topics."
+    },
+    {
+      "filename": "non-2257.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "muscle hypertrophy",
+        "resistance/strength training",
+        "exercise physiology",
+        "time-efficient/HIIT workouts"
+      ],
+      "gpt_reasoning": "The article's title and authorship (a medical/exercise expert) indicate it focuses on how to build muscle using short workouts, which involves exercise physiology and principles of hypertrophy and strength training and discusses time-efficient (high‑intensity) workout strategies grounded in sports medicine/exercise science."
+    },
+    {
+      "filename": "non-2444.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a food/cooking article and recipe focused on culinary techniques, ingredients and cultural background. It does not report on scientific research, present scientific data, involve scientific experts discussing scientific topics, or address scientific policy or theory."
+    },
+    {
+      "filename": "sci-1026.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports-focused piece containing team schedules, game time, statistics, conference standings, and player leaders for American U. Eagles—there is no discussion of scientific research, concepts, experiments, or expert analysis."
+    },
+    {
+      "filename": "non-1509.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "genetics (olfactory receptor genes)",
+        "olfaction / sensory perception",
+        "genomics / genome-wide association",
+        "gene editing / ethical implications",
+        "nutrition and health benefits of asparagus"
+      ],
+      "gpt_reasoning": "The article reports on a specific research study linking inability to detect the so-called 'asparagus effect' to mutations clustered on chromosome 1 in the olfactory receptor 2 gene family (genetics and olfaction). It describes analysis of large cohorts and scanning millions of genetic variants (genomics/GWAS), quotes a lead researcher, and raises the possibility of using gene editing to alter detection ability (gene editing/ethical implications). It also mentions asparagus' nutritional components and hypothesized health benefits, so nutrition is a minor scientific topic. The piece is a research-focused, expert-led report (though noted as a tongue-in-cheek BMJ holiday article)."
+    },
+    {
+      "filename": "non-2617.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "Only the title and date are provided. 'Migration and development' suggests a policy/social‑science or development/economic discussion rather than reporting on scientific research, experiments, or expert scientific analysis. With no article text or indications of studies, methods, or scientific experts, there is insufficient evidence that the piece is primarily a scientific article."
+    },
+    {
+      "filename": "non-1720.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion piece about Roe v. Wade, the right to privacy, and political/legal history and strategy. While it briefly mentions data breaches and digital privacy concerns, it does not engage in scientific or technical analysis, research findings, or expert scientific debate, so it is not a scientific article."
+    },
+    {
+      "filename": "non-1948.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is focused on political and economic developments — congressional debate and amendments to a financial bailout bill, market reactions, and legislative maneuvering — rather than scientific research, expert scientific analysis, or explanation of scientific concepts."
+    },
+    {
+      "filename": "sci-504.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "canine genomics",
+        "phylogenetics and domestication of dogs",
+        "breed formation and genetic diversity",
+        "comparative genetics and disease mapping (canine-human disease models)",
+        "population genetics and ancient migrations (New World dogs)"
+      ],
+      "gpt_reasoning": "The article reports on a specific research project (NIH researchers sequencing 161 dog breeds, published in Cell Reports), presents phylogenetic findings about breed relationships, timelines and geographic origins, discusses genetic causes of breed-specific diseases and their relevance to human disease, and addresses population-genetic signals such as remnants of ancient New World dogs—all central scientific topics."
+    },
+    {
+      "filename": "sci-1567.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "chemical weapons",
+        "toxicology",
+        "history of chemical warfare",
+        "weaponization of chemistry",
+        "arms control / chemical weapons policy and ethics"
+      ],
+      "gpt_reasoning": "The title centers on 'Chemical Weapons' for the World War I centenary, which strongly implies discussion of chemical agents, their toxic effects, and the development/weaponization of chemicals in warfare — all scientific/technical topics. Such a piece would also likely touch on toxicology and the historical scientific development of agents, plus policy and ethical issues around arms control. (Content was not provided, so this inference is based on the title.)"
+    },
+    {
+      "filename": "non-3839.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a travel industry roundup reporting Expedia booking/search data, top destinations, hotels and activities; it does not discuss scientific research, theories, experiments, or expert scientific analysis—only commercial travel trends and a quote from an Expedia executive."
+    },
+    {
+      "filename": "sci-133.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece primarily covers legal, policy, and access issues around abortion clinics, personal stories, and advocacy. While it cites medical facts (e.g., medical abortion timing, gestational limits) and quotes a research scientist and statistics, it does not focus on scientific research, methods, or expert scientific analysis—its main thrust is public policy, law, and human-interest reporting rather than a scientific topic or debate."
+    },
+    {
+      "filename": "sci-36.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "Dementia and Alzheimer's disease",
+        "Amyloid-β and tau pathology",
+        "Blood-brain barrier and drug delivery",
+        "Immunotherapy / antibody-based treatments",
+        "Clinical trials and drug development challenges",
+        "Ultrasound-mediated blood-brain barrier opening",
+        "Research funding and collaborative efforts (e.g., Dementia Discovery Fund)"
+      ],
+      "gpt_reasoning": "The article is focused on medical and scientific aspects of dementia: it explains disease biology (amyloid and tau), barriers to therapy (blood-brain barrier), current and experimental treatment strategies (immunotherapy, antibodies, ultrasound-assisted delivery), the status of clinical trials, and the role of funding and collaboration—all indicating a clear scientific/biomedical focus rather than general news."
+    },
+    {
+      "filename": "non-1030.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a crime/odd-news report about an alleged public indecency incident involving a man and a parked van; it contains no discussion of scientific research, concepts, experts, data analysis, or policy. Mentions of intoxication and police actions are descriptive details, not scientific treatment."
+    },
+    {
+      "filename": "non-1756.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a news report about a North Korean cultural delegation's visit to South Korea, public reactions, protests, and Olympic-related diplomatic arrangements. While it briefly mentions concerns about North Korea's nuclear and missile programs, it does not discuss scientific research, methods, expert analysis, or technical details—its focus is political/cultural rather than scientific."
+    },
+    {
+      "filename": "sci-931.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for Coppin St. Eagles (game time, team and player statistics, conference standings, and photo galleries). It contains no discussion of scientific research, concepts, experts, or policy, so there are no scientific topics present."
+    },
+    {
+      "filename": "non-3399.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article covers a legal dispute and payment ruling involving Michael Bisping and his ex-manager—a sports/celebrity/legal news item—without discussing scientific studies, experts, theories, methods, or technical concepts."
+    },
+    {
+      "filename": "non-3888.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a consumer technology news/rumor about Apple launching a Siri-enabled smart speaker and market adoption of voice assistants. It reports product speculation and market share figures rather than covering scientific research, expert scientific analysis, or scientific concepts."
+    },
+    {
+      "filename": "non-1446.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article describes a short documentary about a woman's experience on the sex offender registry and a film festival showcase; it focuses on personal/social and legal issues and film content rather than reporting scientific research, expert analysis, or scientific concepts."
+    },
+    {
+      "filename": "non-4839.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a brief business/financial news roundup about company forecasts, an acquisition, and operational delays. It does not report on scientific research, expert analysis of scientific issues, or in-depth explanation of scientific concepts—only a passing mention of 'high-tech deep-water equipment' without scientific detail."
+    },
+    {
+      "filename": "sci-1426.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "sexual violence in conflict (gender-based violence)",
+        "conflict studies and armed-group behavior",
+        "forced displacement / refugee flows",
+        "post-conflict reconciliation and social stigma",
+        "economic/public-health costs of wartime sexual violence",
+        "prevention and accountability measures (policy interventions)"
+      ],
+      "gpt_reasoning": "The piece is an evidence-based policy analysis drawing on social science research (reviews of civil wars and armed groups, empirical studies, and program evaluations) to argue that wartime sexual violence is a security problem with measurable causes and consequences. It does not report natural-science or clinical research, but it synthesizes social-science findings and discusses prevention/intervention approaches, so the primary ‘scientific’ frame is social science/public policy rather than biomedical or physical science."
+    },
+    {
+      "filename": "non-214.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/opinion piece about Sarah Sanders, media reactions, and gendered criticism. It discusses politics, personalities, and cultural commentary rather than scientific research, experts, theories, or public-health/technology issues."
+    },
+    {
+      "filename": "non-1721.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is primarily a cultural/tourism story about conserving the Taj Mahal — its cleaning, scaffolding, visitor impacts and political interest. While it mentions pollution, sewage, insects and the use of Fuller's earth as a cleaning material, these are described at a surface level as practical details rather than in-depth scientific analysis, reporting of research, or expert-driven explanation of scientific issues."
+    },
+    {
+      "filename": "sci-1075.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is sports coverage focused on Bryant Bulldogs game schedule, team and player statistics, and conference standings. It contains no discussion of scientific research, concepts, experts, or policy, so there are no scientific topics present."
+    },
+    {
+      "filename": "sci-316.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion/cultural commentary about Christmas, consumerism, and the #MeToo movement. While the author briefly invokes biological ideas (e.g., mating imperatives, 'selfish genes') and mentions preventive medicine training, these are used as metaphors or context rather than to discuss scientific research, methods, data, or a scientific debate. The primary focus is social and ethical, not scientific."
+    },
+    {
+      "filename": "sci-282.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "glyphosate carcinogenicity",
+        "toxicology and animal study interpretation",
+        "regulatory science and pesticide regulation (EPA, EFSA, IARC)",
+        "scientific integrity, conflicts of interest, and corporate influence on research",
+        "data transparency and proprietary data access"
+      ],
+      "gpt_reasoning": "The article centers on allegations that an EPA official colluded with Monsanto concerning glyphosate (Roundup) and references scientific assessments of carcinogenicity (IARC vs EFSA), reanalysis of animal study data, regulatory review processes, and concerns about corporate influence and access to proprietary data—all clear scientific and regulatory topics rather than non-scientific news."
+    },
+    {
+      "filename": "sci-903.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a sports preview/stats page for the Central Michigan Chippewas (game time, team stats, standings, player leaders and photo galleries). It contains no discussion of scientific research, concepts, experts, or technology."
+    },
+    {
+      "filename": "sci-574.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a political/administrative review of President Trump's campaign promises and conduct in office (draining the swamp, salary, taxes, golf, vacations). It does not report on scientific research, present expert scientific analysis, explain scientific concepts, or engage in public-health or technology debates (aside from a brief mention of an opioid program donation, which is not developed as a scientific topic). Therefore no scientific topics are present."
+    },
+    {
+      "filename": "non-2516.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "H1N1 (swine) influenza outbreak",
+        "vaccination / immunization policy (Pandemrix, Celvapan)",
+        "vaccine safety in pregnancy",
+        "vaccine adjuvants and immune response",
+        "epidemiology and disease severity trends (case counts, ICU rates)",
+        "health system capacity and critical care strain",
+        "vaccine distribution logistics and public-health implementation"
+      ],
+      "gpt_reasoning": "The article centers on a public-health/medical event: rising H1N1 cases and deaths, detailed epidemiological figures and ICU proportions, and the rollout of specific vaccines (Pandemrix, Celvapan). It quotes medical authorities (chief medical officer, director of immunisation) and references WHO licensing, discusses vaccine safety for pregnant women and adjuvants, and covers policy/logistical issues (priority groups, delivery schedules, postal strike). These elements make the piece primarily scientific/medical in focus."
+    },
+    {
+      "filename": "sci-508.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a roundup of music news and videos (artists, deaths, concerts, lawsuits, videos). There is no substantive discussion of scientific research, methods, expert analysis, or technical explanations—mentions of health (e.g., Parkinson's) are incidental to a music story and not developed as scientific topics."
+    },
+    {
+      "filename": "sci-929.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for a college basketball game (team records, points, rebounds, standings, player stats) and contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-164.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is an opinion/policy article about presidential control of the nuclear launch authority and related security concerns. While it references nuclear weapons and command-and-control procedures, it does not discuss scientific research, technical explanations, or scientific expert analysis; its primary focus is political/security policy rather than science."
+    },
+    {
+      "filename": "non-2830.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports news list of NFL player suspensions and related disciplinary reasons (e.g., player-safety rules, personal conduct, substance/PED policy). It does not discuss scientific research, concepts, expert analysis, or policy in a scientific context—mentions of substances/PEDs are descriptive of violations rather than scientific discussion."
+    },
+    {
+      "filename": "sci-118.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion/news piece about media culture, #MeToo, an authorship/doxxing controversy, and feminist solidarity; it does not report on research, scientific experts, scientific concepts, or technology-driven advances."
+    },
+    {
+      "filename": "sci-1095.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a sports news/stats page for the Lehigh Mountain Hawks (schedule, team and player statistics, conference standings, galleries). It focuses on athletics and game information rather than scientific research, expert analysis, or scientific concepts."
+    },
+    {
+      "filename": "non-3592.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports news piece about the Tampa Bay Buccaneers and quotes from general manager Jason Licht regarding team performance, roster moves, and expectations. It contains no discussion of scientific research, methods, experts in scientific fields, or scientific concepts."
+    },
+    {
+      "filename": "non-4757.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article discusses a credit-rating agency's change in outlook for Indonesia's sovereign debt, focusing on financial concerns (debt rescheduling, Paris Club, creditor burden-sharing). It does not cover scientific research, experts in scientific fields, scientific concepts, or technology."
+    },
+    {
+      "filename": "sci-1604.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article title indicates a focus on World War I centenary cartoons, a cultural/historical topic. There is no indication of scientific content, research, expert analysis, or discussion of scientific concepts, so it is not a scientific article."
+    },
+    {
+      "filename": "non-870.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a human-interest/news piece about a TV reporter resigning and planning to enter politics after a colleague's on-air killing. It focuses on personal grief, the crime, and political intent; it contains no discussion of scientific research, concepts, experts, or technical analysis."
+    },
+    {
+      "filename": "sci-146.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion/social‑commentary piece about the political and economic plight of the white working class, race, and voting behavior. While it cites polls, statistics, and social‑science findings, its primary focus is political and sociological commentary rather than reporting on scientific research, methods, or debates."
+    },
+    {
+      "filename": "non-3065.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content and title relate to NBA standings and a subscription/login prompt; there is no discussion of scientific topics, research, experts, or technical explanations."
+    },
+    {
+      "filename": "sci-1289.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports preview/stats page for the Florida International Golden Panthers (game times, team standings, player and team statistics). It contains no discussion of scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "non-4578.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a financial/market report about copper and other metals rising on optimism about U.S. and global economic growth and housing sales. It focuses on commodity prices and economic indicators, not on scientific research, theories, or expert scientific analysis."
+    },
+    {
+      "filename": "sci-195.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a feature/article about working motherhood, a book ('The Fifth Trimester'), and workplace/parenting advice. While it references medical terms (postpartum mood/anxiety) and cites a survey and an organization (ACOG), its primary focus is personal experience, workplace policy, and practical tips rather than reporting on scientific research, methodology, or in-depth expert analysis."
+    },
+    {
+      "filename": "non-3593.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports news piece about Manchester City's defensive vulnerabilities, tactics, injuries, and transfer interest. It discusses match events, player form and team strategy rather than scientific research, expert scientific analysis, or explanations of scientific concepts. Mentions of injuries and statistics are journalistic and not presented as medical or scientific discussion."
+    },
+    {
+      "filename": "non-3767.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article describes protests and public reaction to the acquittal of a former police officer (coverage of events, images, and policing/legal issues). It does not discuss scientific research, methods, experts, technologies, or scientific concepts, so there are no scientific topics present."
+    },
+    {
+      "filename": "non-4094.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an entertainment roundup listing and briefly describing TV shows. Although one show description mentions themes like mental illness, the article does not present scientific research, expert analysis, explanations, or debates—its primary focus is television and criticism, not science."
+    },
+    {
+      "filename": "sci-1273.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political/editorial piece about immigration policy and President Trump's racist remarks. It discusses policy, demographics and legal statuses but does not present scientific research, expert scientific analysis, or scientific debates."
+    },
+    {
+      "filename": "non-640.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content contains only site/legal boilerplate (Terms of Use, Privacy Policy, copyright notice) and no discussion of scientific subjects, studies, experts, or technological topics."
+    },
+    {
+      "filename": "non-2347.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The text is a political/diplomatic statement by Secretary of State John Kerry about protests and government response in Ukraine. It focuses on human rights, democracy, and U.S. foreign policy and contains no discussion of scientific research, concepts, experts, methods, or technologies."
+    },
+    {
+      "filename": "sci-671.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a political and social-analysis article about how education correlates with support for Trump, driven largely by anecdotes, reader opinions and demographic observations. While it cites polls and some social-science studies (e.g., Pew Research, faculty ideology surveys), the primary focus is electoral behavior and cultural explanations rather than reporting on scientific research or expert-driven scientific debate."
+    },
+    {
+      "filename": "non-2809.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article covers a planned Ku Klux Klan rally, protests over the Confederate flag, political responses, and the Charleston shooting; it focuses on social, political and racial issues rather than any scientific research, concepts, experts, or technological topics."
+    },
+    {
+      "filename": "non-1559.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article reports on a child-welfare/poverty report and discusses socioeconomic statistics and policy recommendations. While it cites data and an advocacy group's analysis, it does not focus on scientific research methods, experiments, scientific theories, or expert scientific debate; its primary focus is social policy and child well-being rather than science."
+    },
+    {
+      "filename": "non-1940.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political opinion piece about President Trump, elections, cabinet controversies, and policy (health care, taxes), with no reporting on scientific research, expert scientific analysis, technological advances, or in-depth explanation of scientific concepts."
+    },
+    {
+      "filename": "non-1131.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article reports allegations of sexual assault against a baseball player and related responses from the team and league; it focuses on a criminal/ethical news story and sports figures rather than any scientific studies, concepts, experts, or technological topics."
+    },
+    {
+      "filename": "non-4684.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on corporate finance and governance—Hess's earnings, asset sales in the Eagle Ford shale, and a proxy battle with Elliott Management. While it mentions shale as an asset class, it does not discuss scientific research, technical details of extraction, or scientific debates, so it is not a scientific article."
+    },
+    {
+      "filename": "non-1072.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "oil spill environmental impacts",
+        "groundwater/aquifer contamination (Ogallala Aquifer)",
+        "tar sands/bitumen properties and pollution",
+        "pipeline safety and spill risk assessment/statistics",
+        "greenhouse gas emissions and climate impact from tar sands"
+      ],
+      "gpt_reasoning": "The article reports on a large pipeline spill and discusses environmental consequences (contamination, cleanup), the vulnerability of the Ogallala aquifer and local hydrology, the noxious nature of tar sands/bitumen, quantitative risk estimates from an academic analysis of spill frequency, and emissions estimates tied to tar sands transport — all scientific/environmental topics. However, the piece is primarily a news/political story about protests, regulatory decisions, and advocacy, with the scientific points used to support those arguments."
+    },
+    {
+      "filename": "non-1426.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "methanol poisoning",
+        "toxicology (toxic alcohols)",
+        "poison control / public health response",
+        "forensic/medical investigation"
+      ],
+      "gpt_reasoning": "The article focuses on suspected ingestion of racing fuel (methanol) and its toxic effects, includes expert commentary from the Tennessee Poison Center explaining methanol metabolism, acidosis and blindness, and discusses the public-health/forensic investigation—making toxicology and poison-control issues the primary scientific themes."
+    },
+    {
+      "filename": "non-2029.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is an opinion/editorial about a police shooting, race, and accountability; it focuses on events, policy and leadership rather than scientific research, methods, data, or expert scientific analysis."
+    },
+    {
+      "filename": "non-3255.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is focused on geopolitical and national security issues—U.S. strategy on IS/ISIL in Syria and responses to Russia in Ukraine—and contains no discussion of scientific research, methods, experts, or scientific concepts."
+    },
+    {
+      "filename": "sci-1068.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports/team statistics and schedule page for Nicholls State basketball (scores, standings, player stats, galleries) and does not discuss scientific research, concepts, experts, or policy."
+    },
+    {
+      "filename": "sci-35.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is primarily a product/consumer shopping article about adjustable dumbbells. It only briefly cites a 2014 UCLA study and general health benefits of weight training to support the product recommendation, but it does not focus on reporting, analyzing, or explaining scientific research or concepts in depth."
+    },
+    {
+      "filename": "non-2629.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a sports/opinion piece about the Washington Redskins' roster and contract decisions regarding quarterback Kirk Cousins. It discusses team strategy, player performance, and salary concerns but contains no discussion of scientific research, concepts, expert scientific analysis, or public-health/technology policy."
+    },
+    {
+      "filename": "non-1738.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a financial markets roundup reporting stock price moves, corporate earnings, acquisitions and investor actions. It focuses on business and finance news and does not discuss scientific research, technologies, methods, experts, or scientific debates."
+    },
+    {
+      "filename": "non-13.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on government policy and consumer product safety regulation (creation of an Office for Product Safety and Standards) and on recalls of faulty appliances linked to fires. It reports on policy responses and stakeholder reactions rather than presenting scientific research, expert scientific analysis, or explanations of scientific concepts."
+    },
+    {
+      "filename": "sci-408.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "developmental psychology",
+        "infant cognition",
+        "observational learning / social learning",
+        "perseverance / grit in early childhood",
+        "experimental study design in psychology"
+      ],
+      "gpt_reasoning": "The article reports on a specific peer-reviewed study about how 13–18 month-old babies learn persistence by watching adults struggle, describes the experimental setup and sample, cites researchers and journal publication, and discusses implications for child development—all hallmarks of scientific coverage in developmental/behavioral psychology."
+    },
+    {
+      "filename": "non-563.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on a sexual harassment lawsuit, allegations against a media executive, corporate response, and programming/rating details. It covers legal and workplace misconduct matters rather than any scientific research, expert analysis of scientific topics, or technological/medical content."
+    },
+    {
+      "filename": "sci-696.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "This is a political opinion piece about U.S. policy toward Iran, alleged Iran–Al Qaeda ties, and the risk of being misled into war. It cites terrorism experts, intelligence documents, and geopolitical actors but contains no discussion of scientific research, methods, technologies, or scientific debates."
+    },
+    {
+      "filename": "non-1310.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a set of personal narratives about participating in the 24 Hour Project photography event, focusing on photographic practice, planning, locations, and personal experiences. It does not report on research, scientific concepts, expert analysis, or science policy—mentions of camera gear and techniques are artistic/technical rather than scientific."
+    },
+    {
+      "filename": "non-4710.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article focuses on a criminal investigation, corporate settlement, and national-security/compliance issues involving a software firm and Russian nationals. It discusses legal and security matters rather than scientific research, methods, expert scientific analysis, or technological/scientific advances."
+    },
+    {
+      "filename": "sci-1429.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is political analysis of the government shutdown's electoral effects, discussing polls, approval ratings, partisan dynamics, and historical precedent. While it cites polling data and political scientists, it does not focus on scientific research, methods, or topics in the natural or social sciences as its primary subject."
+    },
+    {
+      "filename": "sci-515.txt",
+      "original_label": "science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a news/gallery aggregation focused on Pope Francis, religion, Vatican affairs, and related political and human-interest stories (e.g., visits, apologies, Masses). It does not report on scientific research, experts, technologies, or scientific debates."
+    },
+    {
+      "filename": "non-2655.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a human-interest/news report about a record Powerball jackpot, the winning ticket locations, retailer payouts, and local reactions. It does not report on scientific research, expert analysis of scientific topics, or explanations of scientific concepts."
+    },
+    {
+      "filename": "non-1577.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a human-interest/war report focused on a photographer's actions and the casualties in Aleppo. It contains eyewitness accounts and casualty figures but does not discuss scientific research, concepts, expert analysis, technology, or public-health/scientific policy—so there is no scientific topic as the primary focus."
+    },
+    {
+      "filename": "non-1773.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The text is a travel booking/participant agreement and terms & conditions for a tour (pricing, cancellations, insurance, liability, arbitration, etc.). It contains no discussion of scientific research, theories, experts, methods, or science-related policy, so it is not a scientific article."
+    },
+    {
+      "filename": "non-4537.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is business/industry reporting about tech companies and private-equity competition in China’s health-care market; it focuses on market dynamics and strategy rather than scientific research, medical findings, or explanations of scientific concepts."
+    },
+    {
+      "filename": "non-2102.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a real-estate listing/filter interface (price min/max values) and the title references real estate. It contains no discussion of scientific research, concepts, experts, or debates."
+    },
+    {
+      "filename": "sci-22.txt",
+      "original_label": "science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "climate change / global warming",
+        "carbon capture and storage (CCS)",
+        "greenhouse gas mitigation",
+        "fossil-fuel energy technology (e.g., 'clean coal')",
+        "energy technology and policy"
+      ],
+      "gpt_reasoning": "While the article is primarily a political/economic opinion piece about jobs and strategy after the Paris withdrawal, it repeatedly discusses scientific and technological issues: the debate over climate change, the role and costs of greenhouse-gas emissions, and especially carbon-capture technologies (their past investments, current uses, and potential scaling). It therefore engages with science and engineering topics related to energy and emissions mitigation alongside its policy arguments."
+    },
+    {
+      "filename": "non-1111.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The piece is a human-interest/entertainment story about an orangutan kissing a pregnant woman; it contains no discussion of scientific research, animal behavior science, expert analysis, methods, or data—only anecdote and zoo publicity."
+    },
+    {
+      "filename": "non-2600.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The content is a search/results listing for 'Australian immigration and asylum', a political/social/legal topic. It does not report on scientific research, expert scientific analysis, or explain scientific concepts, so no scientific topics are present."
+    },
+    {
+      "filename": "non-3263.txt",
+      "original_label": "non_science",
+      "gpt_label": "non_science",
+      "gpt_science_topics": [
+        "no science topic"
+      ],
+      "gpt_reasoning": "The article is a travel/hospitality piece listing the best-reviewed hotels in Rome based on Booking.com data. It does not report on scientific research, experts, theories, or policy, and contains no scientific concepts or debates."
+    },
+    {
+      "filename": "non-2537.txt",
+      "original_label": "non_science",
+      "gpt_label": "science",
+      "gpt_science_topics": [
+        "antidepressant withdrawal and mental health",
+        "vaccine safety for pets / anti-vaccination movement",
+        "parasitic infections from raw fish (tapeworms) / food safety",
+        "physiological signs of stress (study on blood draining from the face)",
+        "informed consent and medical ethics for the elderly",
+        "plastic pollution and waste-reduction practices",
+        "mental health responses to climate trauma and mindfulness",
+        "environmental and ethical impacts of glitter",
+        "sustainable/ethical fashion and materials"
+      ],
+      "gpt_reasoning": "The page is a lifestyle 'Life and style' roundup that includes multiple pieces touching on scientific or health-related subjects: a warning about stopping antidepressants (mental health/withdrawal), an item on anti-vaxxers targeting pets (vaccine safety/public health), a story on tapeworm risk from sushi (parasitology/food safety), a report referring to a University of Nottingham study on stress-related facial blood flow (physiology), a piece on informed consent in elderly care (medical ethics), and several environment/sustainability items (plastic reduction, glitter's environmental/ethical impact, sustainable fashion) as well as mindfulness for climate trauma. However, these appear as lifestyle journalism or consumer-oriented health/environment coverage rather than in-depth scientific research articles — some cite studies or experts but the overall focus is lifestyle content rather than primary scientific reporting."
+    }
+  ]
+}
