@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo</title>
+    <style>
+        details > summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .hidden-content {
+            display: none;
+        }
+        details[open] .hidden-content {
+             display: block;
+        }
+        select {
+            /* Style adjustments for the dropdown */
+            padding: 5px;
+            margin: 0;
+            border-radius: 5px;
+        }
+        input[type="checkbox"] {
+            transform: scale(2); /* Adjust the scale value as needed */
+            /* margin: 10px; Optional: Adjust the margin to align the checkbox */
+        }
+        .scrollable-box {
+            overflow-y: auto;
+        }
+        .annotated-text span {
+            padding: 2px 4px;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+        }
+        .annotated-text span:hover::after {
+            content: attr(data-details);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            white-space: nowrap;
+            background: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 3px;
+            z-index: 10;
+            font-size: 12px;
+        }
+    </style>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+    <div class="container mt-3">
+        <dl class="row">
+            <dt class="col-sm-2">Reviewer</dt>
+            <dd class="col-sm-2">reviewer1</dd>          
+            <dt class="col-sm-2">Evaluation</dt>
+            <dd class="col-sm-2">Demo</dd>
+            <dd class="col-sm-2">&nbsp;</dd>
+            <dd class="col-sm-2" id="completedstatus">0% complete</dd>
+        </dl>
+    </div>
+
+    <div class="container mt-3" id="rootblock">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script>
+
+        //surveyID
+        var reviewerID = "5fc12d81-8e9f-4100-93f8-2682b0faf3cd";
+
+        //data and blocks
+        var data = null;
+        var dataDefaults= {};
+        var blockLookup={};
+        var rootBlock={"type": "tabs", "content": [{"tabName": "Tab 1", "block": {"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "This is the first text block", "size": 3}, "body": {"is_table": false, "text": ["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."]}}}, {"type": "text", "content": {"title": {"text": "This is the second text block", "size": 3}, "body": {"is_table": false, "text": ["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."]}}}]]}}, {"tabName": "Tab 2", "block": {"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "This is the first left text block", "size": 3}, "body": {"is_table": false, "text": ["This is the first left paragraph. Life is good.", "This is the second left paragraph. Life is still good."]}}}], [{"type": "text", "content": {"title": {"text": "This is the first right text block", "size": 3}, "body": {"is_table": false, "text": ["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."]}}}, {"type": "text", "content": {"title": {"text": "This is the second right text block", "size": 3}, "body": {"is_table": false, "text": ["This is the first paragraph. Life is good.", "This is the second paragraph. Life is still good."]}}}]]}}, {"tabName": "Tab 3", "block": {"type": "multi_row_select", "content": {"rowLabels": ["Fragment"], "questions": [{"label": "Correct?", "id": {"1": "correct"}, "options": [{"label": "No", "value": "no", "color": "danger"}, {"label": "Yes", "value": "yes", "color": "success"}]}], "rows": [{"text": ["Stocks, bonds and commodities are heading for their strongest simultaneous four-month rise on record, highlighting the breadth of the market recovery during the 2020 economic slowdown."], "id": {"0": "frag1"}}, {"text": ["Through Thursday, the"], "id": {"0": "frag2"}}]}}}, {"tabName": "Tab 4", "block": {"type": "column", "content": [[{"type": "column", "content": [[{"type": "text", "content": {"verticalHeight": 50, "title": {"text": "Article", "size": 4}, "body": {"is_table": false, "text": ["The Department of Justice is expected Tuesday to charge Google with violating federal antitrust law, according to two people familiar with the matter, finding after a year-long investigation that the tech giant wrongfully wielded its digital dominance to the detriment of corporate rivals and consumers.", "The federal government's imminent lawsuit will touch off a landmark and lengthy legal war between Washington and Silicon Valley, one that could have vast implications not only for Google but the entirety of a tech industry that has faced new, unprecedented scrutiny in recent years for the unrivaled power, money and data it has amassed.", "Neither the Justice Department nor Google responded to a request for comment.", "A federal antitrust lawsuit marks the start, not the end, of the government's gambit against Google. It could take years for a federal court to resolve whether the company violated the country's competition laws and, if so, what punishments it should may face. Only Republican state attorneys general are expected to sign onto the DOJ's complaint, the Post has previously reported. Other states later may choose to join the Justice Department suit, or they still yet may bring their own lawsuits against the tech giant, widening the legal ground Google must cover to defend its business from serious, potentially far-reaching changes.", "But the filing alone still serves as a stunning turn of events for Google, roughly seven years after the federal government last probed the company for potential antitrust violations -- an inquiry that regulators concluded without suing Google or seeking significant penalties, including its breakup. The inaction in Washington for years has stood in stark contrast to the withering antitrust scrutiny Google has faced in Europe, where competition regulators over the past decade have slapped the Mountain View, California-based tech behemoth with $9 billion in fines and sought to secure major changes to the way it offers search, advertising and Android, its smartphone operating system.", "The Justice Department began scrutinizing Google as part of a broad review of big tech announced last summer, as federal officials sought to respond to what they described then as widespread concerns that consumers, businesses, and entrepreneurs have expressed about search, social media, and some retail services online. That September, Google started turning over key, sensitive documents to DOJ for its investigation, the company acknowledged in a securities filing at the time.", "Initially, DOJ officials signaled an interest in probing the company's advertising business, which contributed the lion's share of the company's total $162 billion in 2019 revenue. Quickly, though, the probe expanded to touch on a wider array of issues in response to a flurry of complaints from rival companies -- from news publishers to travel review websites -- that say Google wields its powerful search engine in myriad ways to entrench its dominance.", "At times, the federal probe has proven acrimonious. The DOJ and Google have warred over the company's apparent unwillingness to turn over documents that federal investigators describe as critical to their work. Within DOJ, meanwhile, government lawyers have sparred among themselves over the timeline for bringing a case particularly in the weeks before the 2020 presidential election. Dozens of agency staff signaled this summer they did not feel they were ready to bring charges against Google, but Attorney General William P. Barr ultimately overruled them -- and set the Justice Department on a course to file this month.", "The federal investigation has proceeded in parallel with state probes commenced last September by nearly every Democratic and Republican attorney general. The investigations have broadened to encompass more than advertising -- touching on search and the extent to which Google further enhances its dominance through the Android smartphone operating system.", "A handful of states including Colorado, Iowa, Nebraska and New York are preparing to issue a joint public statement as soon as Tuesday indicating they are still scrutinizing a wide array of Google's business practices and may instead opt to join any federal case later, according to four people familiar with their thinking, who spoke on the condition of anonymity to discuss a law-enforcement matter. The Post first reported the news last week."]}}}], [{"type": "text", "content": {"verticalHeight": 50, "title": {"text": "Summary", "size": 4}, "body": {"is_table": false, "text": ["The U.S. Department of Justice (DOJ) is set to file an antitrust lawsuit against Google, alleging the tech giant abused its digital dominance to undermine competition and harm consumers. This legal action marks the commencement of a significant court battle that could have extensive consequences not only for Google but also for the broader technology industry, which has already been under heightened scrutiny for its considerable influence and data accumulation. The lawsuit could take years to conclude whether Google actually breached competition laws and determine the appropriate penalties. This development follows a lengthy period of inactivity in the U.S., contrasting the intense antitrust scrutiny Google has faced in Europe, resulting in $9 billion in fines. This legal action originates from a wider DOJ review that began last summer into major tech companies, with Google's advertising dominance being a major focal point that later expanded to include complaints from various competitor sectors."]}}}]]}, {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"1": "goodsummary"}, "rows": [{"id": {"0": "article1"}, "text": "Is the summary good?"}], "options": [{"label": "No", "value": "no", "color": "danger"}, {"label": "Yes", "value": "yes", "color": "success"}]}}]]}}, {"tabName": "Tab 5", "block": {"type": "column", "content": [[{"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "Cluster Description", "size": 4}, "body": {"is_table": false, "text": ["Democratic presidential candidate Joe Biden visited Kenosha, Wisconsin, on September 3, 2020, to meet with the family of Jacob Blake, a Black man who was shot by a police officer, igniting several days of protests."]}}}], [{"type": "text", "content": {"title": {"text": "Article Titles", "size": 4}, "body": {"is_table": true, "text": ["Biden to call for healing on Kenosha visit", "Joe Biden Meets with Blake Family -- Including Antisemitic, Racist Father", "Biden to meet with Jacob Blake's family in Kenosha today", "Biden says he spoke with Jacob Blake, praises family's 'resilience and optimism' during Kenosha visit", "Joe Biden meets Jacob Blake\u2019s family, tours Kenosha days after Trump visit", "Joe Biden meets with Jacob Blake's family after arriving in Wisconsin for Kenosha visit"]}}}]]}, {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"1": "appropriate"}, "rows": [{"id": {"0": "cluster1"}, "text": "Is this cluster appropriate?"}], "options": [{"label": "No", "value": "no", "color": "danger"}, {"label": "Yes", "value": "yes", "color": "success"}]}}]]}}, {"tabName": "Tab 6", "block": {"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "Event Sentence Summary", "size": 2}, "body": {"is_table": false, "text": ["In mid-October, vandals targeted former Deputy Mayor Randy Mastro's home on the Upper East Side, New York City, by spraying graffiti and throwing red paint as a protest against his support for closing a local hotel used as a homeless shelter."]}}}, {"type": "text", "content": {"title": {"text": "Pertinent Articles", "size": 3}}}, {"type": "text", "content": {"verticalHeight": 30, "title": {"text": "Article 1", "size": 5}, "body": {"is_table": false, "text": ["De Blasio pauses plans to boot disabled from NYC shelter after lawsuit threat", "Vandals splattered the front of a prominent Manhattan lawyer\u2019s home with graffiti blaring, \u201cRandy Mastro you can\u2019t displace us\u201d and \u201cF\u2013k you Randy\u201d after he represented a group of residents in their bid to close a West 79th Street hotel that houses homeless men.", "Mastro, a former deputy mayor under Rudy Giuliani, was not home at his Upper East Side residence when it was tagged sometime Tuesday night, a source told The Post, but he was alerted by a neighbor whose home was also vandalized and they both reported the incident to the NYPD.", "Red paint was splashed on the front door and the words \u201cprick,\u201d \u201cshame,\u201d \u201cRandy Mastro you can\u2019t displace us\u201d and \u201cF\u2013k you Randy\u201d were written on the building\u2019s facade and sidewalk in red and pink.", "\u201cThis is a very sad day to see a genuine debate about serious issues involving the homeless devolve into vandalism targeting my family\u2019s home. The persons who did this are criminals who should be brought to justice. And if they thought they were going to intimidate me, they picked the wrong guy,\u201d Mastro told The Post.", "\u201cI will continue to be a passionate advocate against housing homeless adults in SRO hotels where they don\u2019t get the services [they] need. This vulnerable population requires housing in proper shelters with full services. The City says it is committed to doing just that, and I will continue to advocate for it because that is the right and humane thing to do.\u201d", "UWS Hearts Initiative, a group that opposes Mastro\u2019s effort to relocate about 235 homeless men with mental illness or struggling with substance abuse living at the Lucerne Hotel on West 79th Street, tweeted about the incident Wednesday morning.Advertisement", "October 21, 2020", "\u201cWe\u2019ve received reports from one of our faith leaders that Randy Mastro\u2019s home has been vandalized. UWS Open Hearts and Lucerne residents unequivocally condemn this kind of personal attack. Our fight is for human dignity for all, and we extend our support to the Mastro family,\u201d the group tweeted.", "A second source said NYPD detectives were interviewing homeless men at the Lucerne about the incident. Police reps did not immediately comment.", "Mayor Bill de Blasio announced in early September that he would stop using the Lucerne as a homeless shelter after Mastro threatened a lawsuit.But the men remain in the converted facility after a Manhattan judge blocked their move, following legal challenges both by Lucerne residents and a group of Financial District neighbors who live near a shuttered Radisson Hotel that city officials planned to use as their new shelter."]}}}, {"type": "tabs", "content": [{"tabName": "0", "block": {"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "Action and Actor", "size": 2}, "body": {"is_table": false, "text": ["<strong>Action:</strong> Relocating homeless men from the Lucerne Hotel", "<strong>Actor:</strong> City officials and Randy Mastro"]}}}, {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "action1"}, "rows": [{"id": {"1": "contained"}, "text": "Is the action in described in an article?"}, {"id": {"1": "controversial"}, "text": "Is the action controversial?"}, {"id": {"1": "correctactor"}, "text": "Is the correct actor identified in the article?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}, {"type": "text", "content": {"title": {"text": "Arguments in Favor", "size": 2}}}, {"type": "multi_row_select", "content": {"rowLabels": ["Argument", "Example Fragment"], "questions": [{"label": "Is argument present in text?", "id": {"1": "id_present"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}, {"label": "Is argument valid?", "id": {"1": "is_valid"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}], "rows": [{"text": ["Homeless adults should not be housed in SRO (Single Room Occupancy) hotels because they cannot provide the necessary services.", "I will continue to be a passionate advocate against housing homeless adults in SRO hotels where they don\u2019t get the services [they] need."], "id": {"0": "tab1_argument_favor1"}}, {"text": ["Homeless men at the Lucerne require housing in shelters equipped with full services to address their needs adequately.", "This vulnerable population requires housing in proper shelters with full services."], "id": {"0": "tab1_argument_favor2"}}]}}, {"type": "text", "content": {"title": {"text": "Arguments Against", "size": 2}}}, {"type": "multi_row_select", "content": {"rowLabels": ["Argument", "Example Fragment"], "questions": [{"label": "Is argument present in text?", "id": {"1": "id_present"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}, {"label": "Is argument valid?", "id": {"1": "is_valid"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}], "rows": [{"text": ["The relocation efforts are opposed due to the disruption it could cause to the lives of the homeless men involved.", "Vandals splattered the front of a prominent Manhattan lawyer\u2019s home with graffiti blaring, \u201cRandy Mastro you can\u2019t displace us\u201d"], "id": {"0": "tab1_argument_against1"}}]}}]]}}, {"tabName": "1", "block": {"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "Action and Actor", "size": 2}, "body": {"is_table": false, "text": ["<strong>Action:</strong> Threatening or initiating a lawsuit against the city to stop using the Lucerne as a shelter", "<strong>Actor:</strong> Randy Mastro"]}}}, {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "action2"}, "rows": [{"id": {"1": "contained"}, "text": "Is the action in described in an article?"}, {"id": {"1": "controversial"}, "text": "Is the action controversial?"}, {"id": {"1": "correctactor"}, "text": "Is the correct actor identified in the article?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}, {"type": "text", "content": {"title": {"text": "Arguments in Favor", "size": 2}}}, {"type": "multi_row_select", "content": {"rowLabels": ["Argument", "Example Fragment"], "questions": [{"label": "Is argument present in text?", "id": {"1": "id_present"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}, {"label": "Is argument valid?", "id": {"1": "is_valid"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}], "rows": [{"text": ["Initiating legal intervention to prevent the inappropriate use of unsuitable facilities for housing vulnerable populations.", "Mayor Bill de Blasio announced in early September that he would stop using the Lucerne as a homeless shelter after Mastro threatened a lawsuit."], "id": {"0": "tab2_argument_favor1"}}]}}, {"type": "text", "content": {"title": {"text": "Arguments Against", "size": 2}}}, {"type": "multi_row_select", "content": {"rowLabels": ["Argument", "Example Fragment"], "questions": [{"label": "Is argument present in text?", "id": {"1": "id_present"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}, {"label": "Is argument valid?", "id": {"1": "is_valid"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}], "rows": [{"text": ["The lawsuit causes additional stress and uncertainty for the residents involved, potentially exacerbating their already challenging circumstances.", "But the men remain in the converted facility after a Manhattan judge blocked their move, following legal challenges both by Lucerne residents and a group of Financial District neighbors."], "id": {"0": "tab2_argument_against1"}}]}}]]}}]}]]}}, {"tabName": "Tab 7", "block": {"type": "interactive", "content": [{"fragments": [{"text": "This is paragraph 0 with sentence 0.", "block": {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "sentence0:0"}, "rows": [{"id": {"1": "like"}, "text": "Do you like this sentence?"}, {"id": {"1": "grammar"}, "text": "Does it have grammatical errors?"}, {"id": {"1": "spelling"}, "text": "Are there misspellings?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}}, {"text": "This is paragraph 0 with sentence 1.", "block": {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "sentence0:1"}, "rows": [{"id": {"1": "like"}, "text": "Do you like this sentence?"}, {"id": {"1": "grammar"}, "text": "Does it have grammatical errors?"}, {"id": {"1": "spelling"}, "text": "Are there misspellings?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}}]}, {"fragments": [{"text": "This is paragraph 1 with sentence 0.", "block": {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "sentence1:0"}, "rows": [{"id": {"1": "like"}, "text": "Do you like this sentence?"}, {"id": {"1": "grammar"}, "text": "Does it have grammatical errors?"}, {"id": {"1": "spelling"}, "text": "Are there misspellings?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}}, {"text": "This is paragraph 1 with sentence 1.", "block": {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "sentence1:1"}, "rows": [{"id": {"1": "like"}, "text": "Do you like this sentence?"}, {"id": {"1": "grammar"}, "text": "Does it have grammatical errors?"}, {"id": {"1": "spelling"}, "text": "Are there misspellings?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}}]}, {"fragments": [{"text": "This is paragraph 2 with sentence 0.", "block": {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "sentence2:0"}, "rows": [{"id": {"1": "like"}, "text": "Do you like this sentence?"}, {"id": {"1": "grammar"}, "text": "Does it have grammatical errors?"}, {"id": {"1": "spelling"}, "text": "Are there misspellings?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}}, {"text": "This is paragraph 2 with sentence 1.", "block": {"type": "multi_row_checked", "content": {"rowLabel": "Question", "id": {"0": "sentence2:1"}, "rows": [{"id": {"1": "like"}, "text": "Do you like this sentence?"}, {"id": {"1": "grammar"}, "text": "Does it have grammatical errors?"}, {"id": {"1": "spelling"}, "text": "Are there misspellings?"}], "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}}}]}]}}, {"tabName": "Tab 8", "block": {"type": "column", "content": [[{"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 1"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 2"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 3"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 4"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 5"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 6"]}}}]]}], [{"type": "column", "content": []}]]}}, {"tabName": "Tab 9", "block": {"type": "column", "content": [[{"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 1"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 2"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 3"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 4"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 5"]}}}, {"type": "text", "content": {"title": {"text": "test", "size": null}, "body": {"is_table": false, "text": ["This is text snippet 6"]}}}]]}}]};
+        var serverURL="https://www.kv.econlabs.org/";
+
+        class Column {
+
+  constructor(root, block, parent, blockID) {
+      //generate a unique block ID
+      this.blockID=blockID;
+      this.parent=parent;
+      //keep track of completion
+      this.completed={};
+      //construct columns
+      var container=document.createElement("div");
+      container.className="container";
+      root.appendChild(container);
+      var row=document.createElement("div");
+      row.className="row align-items-start";
+      container.appendChild(row);
+      this.bubbleUp=false;
+      for(var i=0;i<block["content"].length;i++){
+        //create column
+        var column=document.createElement("div");
+        column.className="col";
+        row.appendChild(column);
+        for(var j=0;j<block["content"][i].length;j++){
+          if (i==block["content"].length-1 && j==block["content"][i].length-1){
+            this.bubbleUp=true;  
+          }
+          blocks.push(new blockLookup[block["content"][i][j]["type"]](column,block["content"][i][j],this,blocks.length));
+        }
+      }
+  }
+
+  //completion method
+  completion(blockID,completed,total) {
+      this.completed[blockID]=[completed,total];
+      //bubble up completion status to parent
+      if (this.bubbleUp){
+          var status=[0,0];
+          for(var key in this.completed){
+              status[0]+=this.completed[key][0];
+              status[1]+=this.completed[key][1];
+          }
+          this.parent.completion(this.blockID,status[0],status[1]);
+      }
+  }
+}
+
+  
+//add class to lookup dictionary
+blockLookup["column"]=Column;
+class Interactive {
+
+  constructor(root, block, parent, blockID) {
+      //generate a unique block ID
+      this.blockID=blockID;
+      this.parent=parent;
+      //keep track of completion
+      this.completed={};
+      //construct container
+      var container=document.createElement("div");
+      container.className="container";
+      root.appendChild(container);
+      var row=document.createElement("div");
+      row.className="row align-items-start";
+      container.appendChild(row);
+      //construct two columns
+      this.bubbleUp=false;
+      //text column
+      var textColumn=document.createElement("div");
+      textColumn.className="col large-scrollable-box";
+      row.appendChild(textColumn);
+      //context column
+      var contextColumn=document.createElement("div");
+      contextColumn.className="col";
+      row.appendChild(contextColumn);
+      this.spanAssignments={};
+      this.tabAssignments={};
+      for(var i=0;i<block["content"].length;i++){
+        var para=document.createElement("p");
+        textColumn.appendChild(para);
+        for(var j=0;j<block["content"][i]["fragments"].length;j++){
+          if (data["active"][this.blockID]==undefined){
+            data["active"][this.blockID]=blocks.length;
+          }        
+          if (i==block["content"].length-1 && j==block["content"][i]["fragments"].length-1){
+            this.bubbleUp=true;  
+          }  
+          var fragment=block["content"][i]["fragments"][j];
+          var span=document.createElement("div");
+          this.spanAssignments[blocks.length]=span;
+          span.innerHTML=fragment["text"];
+          span.setAttribute("blockid",blocks.length);
+          
+          // Apply light bottom border to all fragments for visual separation
+          span.style.borderBottom = "1px solid #e0e0e0";
+          span.style.paddingBottom = "8px";
+          span.style.marginBottom = "8px";
+          span.style.display = "block";
+          span.style.padding = "8px";
+          span.style.borderRadius = "4px";
+          
+          // Set border attribute from fragment data if it exists
+          if (fragment["border"]) {
+            span.setAttribute("border", fragment["border"]);
+            span.setAttribute("original-border", fragment["border"]); // Store original border
+            span.style.border = fragment["border"];
+            // Override the bottom separator with the main border
+            span.style.borderBottom = fragment["border"];
+          }
+          
+          para.appendChild(span);
+          span.addEventListener("mouseover", (e) => {
+            e.currentTarget.classList.add("text-danger-emphasis");
+          });
+          span.addEventListener("mouseout", (e) => {
+            e.currentTarget.classList.remove("text-danger-emphasis");
+          });
+          span.addEventListener("click", (e) => {
+            // Determine new and previous block IDs as numbers
+            var newBlockID = parseInt(e.currentTarget.getAttribute("blockid"), 10);
+            var priorBlockID = data["active"][this.blockID] !== undefined ? parseInt(data["active"][this.blockID], 10) : undefined;
+
+            // If clicking the same active block, ensure tab is visible and keep highlight
+            if (priorBlockID === newBlockID) {
+              if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+              e.currentTarget.classList.add("bg-warning-subtle");
+              saveSurvey();
+              return;
+            }
+
+            // Unmark old span if it exists
+            var priorSpan = this.spanAssignments[priorBlockID];
+            if (priorSpan != undefined){
+              priorSpan.classList.remove("bg-warning-subtle");
+              // Restore original border if it exists
+              var originalBorder = priorSpan.getAttribute("original-border");
+              if (originalBorder) {
+                priorSpan.style.border = originalBorder;
+              } else {
+                priorSpan.style.border = ""; // Remove any border
+                priorSpan.style.borderBottom = "1px solid #e0e0e0"; // Restore fragment separator
+              }
+              if (this.tabAssignments[priorBlockID]) this.tabAssignments[priorBlockID].style.display="none";
+            }
+
+            //adjust context - set new active and show its tab
+            if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+            data["active"][this.blockID] = newBlockID;
+
+            //mark new span - add yellow background but preserve border
+            e.currentTarget.classList.add("bg-warning-subtle");
+
+            // Update the previous span to show its completion status now that it's not active
+            if (priorSpan!=undefined && this.completed[priorBlockID]) {
+              this.completion(priorBlockID, this.completed[priorBlockID][0], this.completed[priorBlockID][1]);
+            }
+
+            saveSurvey();
+          });
+          var tabDiv=document.createElement("div");
+          this.tabAssignments[blocks.length]=tabDiv;
+          if (data["active"][this.blockID]==blocks.length){
+            tabDiv.style.display="";
+          }
+          else{
+            tabDiv.style.display="none";
+          }
+          contextColumn.appendChild(tabDiv);
+          var currentBlockId=blocks.length;
+          blocks.push(new blockLookup[fragment["block"]["type"]](tabDiv,fragment["block"],this,blocks.length));
+          //if not active, apply normal styling
+          if (currentBlockId!=data["active"][this.blockID]){
+            // Fragment gets its default styling from border attribute
+          }          
+          else{
+            span.classList.add("bg-warning-subtle");
+          }
+        }
+      }
+  }
+
+  //completion method
+  completion(blockID,completed,total) {
+    console.log(blockID+":"+completed+":"+total);
+    this.completed[blockID]=[completed,total];
+    var span = this.spanAssignments[blockID];
+    
+    //update the span - just change background, preserve border
+    // Check if any answers for this specific block are "no"
+    // TODO make this more generic - this only works for yes/no questions
+    if (completed==total){
+      var hasNoAnswers = false;
+      // Get the specific block and check its data variables directly
+      if (blocks[blockID]) {
+        // Look for the table element in the tab that corresponds to this blockID
+        var tabDiv = this.tabAssignments[blockID];
+        if (tabDiv) {
+          // Find all checked inputs in this specific tab div (for MultiRowChecked)
+          var checkedInputs = tabDiv.querySelectorAll('input[type="checkbox"]:checked');
+          for (var i = 0; i < checkedInputs.length; i++) {
+            var input = checkedInputs[i];
+            var fullId = input.getAttribute("fullid") || input.getAttribute("name");
+            var value = fullId ? data["variables"][fullId] : null;
+            var varValue = input.getAttribute("varvalue");
+            console.log("[completion] checkbox", i, "fullId:", fullId, "stored value:", value, "varvalue:", varValue);
+            if (value === "no" || varValue === "no" || input.value === "no") {
+              hasNoAnswers = true;
+              break;
+            }
+          }
+
+          // Support MultiRowSelect: radio inputs or select elements
+          if (!hasNoAnswers) {
+            // Radios
+            var radioInputs = tabDiv.querySelectorAll('input[type="radio"]:checked');
+            console.log('[completion] found radios:', radioInputs.length);
+            for (var r = 0; r < radioInputs.length; r++) {
+              var rInput = radioInputs[r];
+              var rFullId = rInput.getAttribute("fullid") || rInput.getAttribute("name");
+              var rValue = rFullId ? data["variables"][rFullId] : null;
+              var rVarValue = rInput.getAttribute("varvalue");
+              console.log("[completion] radio", r, "fullId:", rFullId, "stored value:", rValue, "varvalue:", rVarValue, "input.value:", rInput.value);
+              if (rValue === "no" || rVarValue === "no" || rInput.value === "no") {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+
+          if (!hasNoAnswers) {
+            // Select elements (dropdowns)
+            var selects = tabDiv.querySelectorAll('select');
+            console.log('[completion] found selects:', selects.length);
+            for (var s = 0; s < selects.length; s++) {
+              var sel = selects[s];
+              var selFullId = sel.getAttribute('fullid') || sel.getAttribute('name');
+              var selValue = selFullId ? data['variables'][selFullId] : null;
+              var selSelected = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].value : null;
+              console.log('[completion] select', s, 'fullId:', selFullId, 'stored value:', selValue, 'selected:', selSelected);
+              if (selValue === 'no' || selSelected === 'no') {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+        } else {
+          console.log("Could not find tabDiv for blockID:", blockID);
+        }
+      } else {
+        console.log("Could not find block for blockID:", blockID);
+      }
+            
+      span.classList.remove("bg-primary-subtle", "bg-warning-subtle", "bg-danger-subtle", "bg-success-subtle");
+      
+      // Check if this block is currently active/selected - if so, don't change it
+      var isActive = data["active"][this.blockID] == blockID;
+      
+      if (!isActive) {
+        // Only apply completion colors if the block is NOT currently active
+        if (hasNoAnswers) {
+          span.classList.add("bg-danger-subtle");
+        } else {
+          span.classList.add("bg-success-subtle");
+        }
+      } else {
+        // If active, keep the yellow highlight
+        span.classList.add("bg-warning-subtle");
+      }
+    }
+    else if (completed > 0){
+      // Check if this block is currently active/selected
+      var isActive = data["active"][this.blockID] == blockID;
+      
+      span.classList.remove("bg-success-subtle", "bg-warning-subtle", "bg-danger-subtle");
+      
+      if (isActive) {
+        // If active, show yellow highlight
+        span.classList.add("bg-warning-subtle");
+      } else {
+        // If not active, show partial completion (blue)
+        span.classList.add("bg-primary-subtle");
+      }
+    }
+    else {
+      // No completion - remove completion styling
+      span.classList.remove("bg-success-subtle", "bg-primary-subtle", "bg-danger-subtle");
+      // Keep warning if currently active
+      if (data["active"][this.blockID] == blockID) {
+        span.classList.add("bg-warning-subtle");
+      }
+    }
+    
+    //bubble up completion status to parent
+    if (this.bubbleUp){
+        var status=[0,0];
+        for(var key in this.completed){
+            status[0]+=this.completed[key][0];
+            status[1]+=this.completed[key][1];
+        }
+        this.parent.completion(this.blockID,status[0],status[1]);
+    }
+  }
+}
+
+  
+//add class to lookup dictionary
+blockLookup["interactive"]=Interactive;
+class Tabs {
+
+    constructor(root, block, parent, blockID) {
+        //generate a unique tab ID
+        this.blockID=blockID;
+        this.parent=parent;
+        this.tabBlockAssignment={};
+        //keep track of completion
+        this.completed={};
+        //construct tabs
+        var ul=document.createElement("ul");
+        root.appendChild(ul);
+        ul.className="nav nav-tabs";
+        ul.setAttribute("role","tablist");
+        if (data["active"][this.blockID]==undefined){
+            data["active"][this.blockID]=0;
+        }
+        for(var i=0;i<block["content"].length;i++){
+            var li=document.createElement("li");
+            ul.appendChild(li);
+            li.className="nav-item";
+            li.setAttribute("role","presentation");
+            var button=document.createElement("button");
+            li.appendChild(button);
+            button.setAttribute("data-bs-toggle","tab");
+            button.setAttribute("id",this.blockID+":"+i);
+            button.setAttribute("taborder",i);
+            button.setAttribute("data-bs-target","#"+this.blockID+":"+i+"-tab");
+            button.setAttribute("type","button");        
+            button.setAttribute("role","tab");
+            button.setAttribute("aria-controls",i);
+            if (data["active"][this.blockID]==i){
+                button.setAttribute("aria-selected","true");
+                button.className="nav-link active bg-warning-subtle";
+            }
+            else{
+                button.setAttribute("aria-selected","false");
+                button.className="nav-link";                    
+            }
+            button.innerHTML=block["content"][i]["tabName"];
+            button.addEventListener("click", (e) => {
+                //remove active class from currently active tab
+                var oldButton=document.getElementById(this.blockID+":"+data["active"][this.blockID]);
+                oldButton.classList.remove("bg-warning-subtle");
+                var oldStatus=[0,0];
+                for(var key in this.tabBlockAssignment){
+                    if (this.tabBlockAssignment[key]==data["active"][this.blockID]){
+                        if (this.completed[key] !== undefined) {
+                            oldStatus=this.completed[key];
+                        }
+                    }
+                }
+                if (oldStatus[1]>0 && oldStatus[0]==oldStatus[1]){
+                    oldButton.classList.remove("bg-primary-subtle");
+                    oldButton.classList.add("bg-success-subtle");
+                }
+                if (oldStatus[1]>0 && oldStatus[0]<oldStatus[1]){
+                    oldButton.classList.remove("bg-success-subtle");
+                    oldButton.classList.add("bg-primary-subtle");
+                }
+                data["active"][this.blockID]=parseInt(e.target.getAttribute("taborder"));
+                var newButton=document.getElementById(this.blockID+":"+data["active"][this.blockID]);
+                newButton.classList.remove("bg-success-subtle");
+                newButton.classList.remove("bg-primary-subtle");
+                newButton.classList.add("bg-warning-subtle");
+                saveSurvey();
+            });
+        }
+        //now add the content
+        var tabcontent=document.createElement("div");
+        root.appendChild(tabcontent);
+        tabcontent.className="tab-content bg-light";
+        this.bubbleUp=false;
+        for(var i=0;i<block["content"].length;i++){
+            var pane=document.createElement("div");
+            tabcontent.appendChild(pane);
+            if (data["active"][this.blockID]==i){
+                pane.className="tab-pane active";
+            }
+            else{
+                pane.className="tab-pane";
+            }
+            pane.setAttribute("id",this.blockID+":"+i+"-tab");
+            pane.setAttribute("role","tabpanel");
+            pane.setAttribute("aria-labelledby",this.blockID+":"+i+"-tab");
+            if (i==block["content"].length-1){
+                this.bubbleUp=true;  
+            }
+            this.tabBlockAssignment[blocks.length]=i;
+            var newBlock=new blockLookup[block["content"][i]["block"]["type"]](pane,block["content"][i]["block"],this,blocks.length);
+            blocks.push(newBlock);
+        }
+    }
+ 
+    //completion method
+    completion(blockID,completed,total) {
+        this.completed[blockID]=[completed,total];
+        //if not active update the button background
+        if (this.tabBlockAssignment[blockID]!=data["active"][this.blockID]){
+            var newButton=document.getElementById(this.blockID+":"+this.tabBlockAssignment[blockID]);
+            newButton.classList.remove("bg-success-subtle");
+            newButton.classList.remove("bg-primary-subtle");
+            if (total>0 && completed==total){
+                newButton.classList.add("bg-success-subtle");
+            }
+            if (total>0 && completed<total){
+                newButton.classList.add("bg-primary-subtle");
+            }
+        }
+        //bubble up completion status to parent
+        if (this.bubbleUp){
+            var status=[0,0];
+            for(var key in this.completed){
+                status[0]+=this.completed[key][0];
+                status[1]+=this.completed[key][1];
+            }
+            this.parent.completion(this.blockID,status[0],status[1]);
+        }
+    }
+}
+
+//add class to lookup dictionary
+blockLookup["tabs"]=Tabs;
+
+class Chart {
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        this.completed = [0, 0];
+
+        this.div = document.createElement("div");
+        root.appendChild(this.div);
+
+        // Title
+        if (block.content.title) {
+            const h = document.createElement("h" + block.content.title.size);
+            h.innerHTML = block.content.title.text;
+            this.div.appendChild(h);
+        }
+    }
+
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+    }
+}
+
+class SimpleHistogram extends Chart {
+    constructor(root, block, parent, blockID) {
+        super(root, block, parent, blockID);
+
+        const width = block.content.width || 400;
+        const height = block.content.height || 200;
+        const data = block.content.data || [];
+        const labels = block.content.labels || [];
+        const barColor = block.content.barColor || "#2196F3";
+        const maxVal = Math.max(...data, 1);
+        
+        // Add left margin for y-axis labels
+        const leftMargin = 50;
+        
+        // Adjust SVG height to accommodate x-axis label
+        const svgHeight = block.content.xLabel ? height + 30 : height;
+        
+        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svg.setAttribute("width", width);
+        svg.setAttribute("height", svgHeight);
+        this.div.appendChild(svg);
+
+        const barWidth = (width - leftMargin) / data.length;
+        
+        // Draw background grid
+        const numTicks = 5;
+        for (let t = 0; t <= numTicks; t++) {
+            const y = height - 30 - ((height - 40) * t) / numTicks;
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute("x1", leftMargin);
+            line.setAttribute("x2", width - 10);
+            line.setAttribute("y1", y);
+            line.setAttribute("y2", y);
+            line.setAttribute("stroke", "#eee");
+            line.setAttribute("stroke-width", "1");
+            svg.appendChild(line);
+            
+            const tickVal = Math.round((maxVal * t) / numTicks);
+            const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            label.setAttribute("x", leftMargin - 5);
+            label.setAttribute("y", y + 4);
+            label.setAttribute("text-anchor", "end");
+            label.setAttribute("font-size", "12");
+            label.setAttribute("fill", "#555");
+            label.textContent = tickVal;
+            svg.appendChild(label);
+        }
+
+        // Draw bars
+        data.forEach((val, i) => {
+            // Always show bar, even for zero values
+            const barHeight = val === 0 ? 
+                2 : // Small height for zero values
+                (val / maxVal) * (height - 40);
+            
+            const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+            rect.setAttribute("x", leftMargin + i * barWidth + 5);
+            rect.setAttribute("y", height - barHeight - 30);
+            rect.setAttribute("width", barWidth - 10);
+            rect.setAttribute("height", barHeight);
+            rect.setAttribute("fill", val === 0 ? "#dddddd" : barColor);
+            svg.appendChild(rect);
+            
+            // Add tooltip using HTML title attribute which has better browser support
+            rect.setAttribute("data-value", val);
+            rect.addEventListener("mouseover", (e) => {
+                const tooltip = document.createElement("div");
+                tooltip.textContent = val;
+                tooltip.style.position = "absolute";
+                tooltip.style.backgroundColor = "rgba(0,0,0,0.7)";
+                tooltip.style.color = "white";
+                tooltip.style.padding = "5px";
+                tooltip.style.borderRadius = "3px";
+                tooltip.style.fontSize = "12px";
+                tooltip.style.left = `${e.pageX + 10}px`;
+                tooltip.style.top = `${e.pageY - 20}px`;
+                tooltip.style.zIndex = "1000";
+                tooltip.id = "chart-tooltip";
+                document.body.appendChild(tooltip);
+            });
+            rect.addEventListener("mouseout", () => {
+                const tooltip = document.getElementById("chart-tooltip");
+                if (tooltip) tooltip.remove();
+            });
+
+            // Draw x-axis label
+            if (labels[i]) {
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", leftMargin + i * barWidth + barWidth / 2);
+                text.setAttribute("y", height - 10);
+                text.setAttribute("text-anchor", "middle");
+                text.setAttribute("font-size", "8");
+                text.textContent = labels[i];
+                svg.appendChild(text);
+            }
+        });
+        
+        // Y axis label
+        if (block.content.yLabel) {
+            const yLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            yLabel.setAttribute("x", 15);
+            yLabel.setAttribute("y", height / 2);
+            yLabel.setAttribute("text-anchor", "middle");
+            yLabel.setAttribute("font-size", "14");
+            yLabel.setAttribute("transform", `rotate(-90 15,${height / 2})`);
+            yLabel.setAttribute("fill", "#333");
+            yLabel.textContent = block.content.yLabel;
+            svg.appendChild(yLabel);
+        }
+        
+        // X axis label
+        if (block.content.xLabel) {
+            const xLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            xLabel.setAttribute("x", leftMargin + (width - leftMargin) / 2);
+            xLabel.setAttribute("y", height + 15);
+            xLabel.setAttribute("text-anchor", "middle");
+            xLabel.setAttribute("font-size", "14");
+            xLabel.setAttribute("fill", "#333");
+            xLabel.textContent = block.content.xLabel;
+            svg.appendChild(xLabel);
+        }
+        
+        this.completion();
+    }
+}
+// Add to blockLookup
+blockLookup["histogram"] = SimpleHistogram;
+
+class MultiRowChecked {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID=blockID;
+        this.parent=parent;
+        //keep track of completion
+        this.completed=[0,0];
+        //construct table
+        var tbl = document.createElement("table");
+        tbl.className = "table table-striped table-hover";
+        tbl.setAttribute("border", 1);
+        root.appendChild(tbl);
+        //add header
+        var thead = document.createElement("thead");
+        var header_row = document.createElement("tr");
+        thead.appendChild(header_row);
+        tbl.appendChild(thead);
+        var th = document.createElement("th");
+        th.innerHTML = block["content"]["rowLabel"];
+        var width=100-block["content"]["options"].length*10;
+        if (width<50){
+            width=50;
+        }
+        th.style.width=width+"%";
+        header_row.appendChild(th);
+        for(var k=0;k<block["content"]["options"].length;k++){
+            th = document.createElement("th");
+            th.innerHTML = block["content"]["options"][k]["label"];
+            header_row.appendChild(th);    
+        }
+        //now add the rows    
+        var tbody = document.createElement("tbody");
+        tbl.appendChild(tbody);
+        for (var i = 0; i < block["content"]["rows"].length; i++) {
+            var row = document.createElement("tr");
+            tbody.appendChild(row);
+            var td = document.createElement("td");
+            row.appendChild(td);
+            td.innerHTML=block["content"]["rows"][i]["text"];
+            //now create the check boxes element
+            var fullId=["",""];
+            for(var key in block["content"]["rows"][i]["id"]){
+                fullId[key]=block["content"]["rows"][i]["id"][key];
+            }
+            for(var key in block["content"]["id"]){
+                fullId[key]=block["content"]["id"][key];
+            }
+            fullId=JSON.stringify(fullId);
+            var oldValue=data["variables"][fullId];
+            for(var k=0;k<block["content"]["options"].length;k++){
+                var td = document.createElement("td");
+                row.appendChild(td);
+                var input = document.createElement("input");
+                td.appendChild(input);    
+                input.setAttribute("type","checkbox");
+                input.setAttribute("fullid",fullId);
+                input.setAttribute("id",fullId+"|"+block["content"]["options"][k]["value"])
+                input.setAttribute("order",k+1);
+                input.setAttribute("varvalue",block["content"]["options"][k]["value"]);
+                if (block["content"]["options"][k]["color"]!=undefined){
+                    input.setAttribute("color",block["content"]["options"][k]["color"]);
+                }    
+                if (oldValue==block["content"]["options"][k]["value"]){
+                    input.checked = true;
+                    this.completed[0]++;
+                    if (block["content"]["options"][k]["color"]!=undefined){
+                        row.className="table-"+block["content"]["options"][k]["color"];
+                    }    
+                }
+                else{
+                    input.checked = false;
+                }
+                input.addEventListener('change', (e) => {
+                    if (!e.target.checked){
+                        e.target.checked=true;
+                        return;
+                    }
+                    if (data["variables"][e.target.getAttribute("fullid")]==undefined){
+                        this.completed[0]++;
+                    }
+                    data["variables"][e.target.getAttribute("fullid")]=e.target.getAttribute("varvalue");
+                    var row=e.target.parentElement.parentElement;
+                    //uncheck everything
+                    var children = row.childNodes;
+                    var array = Array.prototype.slice.call(children);
+                    for(k=1;k<array.length;k++){
+                        var input=array[k].firstChild;
+                        if (input.checked && input.getAttribute("order")!=e.target.getAttribute("order")){
+                            input.checked=false;
+                        }
+                    }
+                    var color=e.target.getAttribute("color");
+                    if (color!=undefined){
+                        row.className="table-"+color;
+                    }    
+                    else{
+                        row.className="";
+                    }
+                    this.completion();
+                    saveSurvey();    
+                });
+            }
+            this.completed[1]++;
+        }
+        this.completion();
+    }
+  
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+    }
+  }
+  
+    
+//add class to lookup dictionary
+blockLookup["multi_row_checked"]=MultiRowChecked;
+class MultiRowSelect {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID=blockID;
+        this.parent=parent;
+        //keep track of completion
+        this.completed=[0,0];
+        //construct table
+        var tbl = document.createElement("table");
+        tbl.className = "table table-striped table-hover";
+        tbl.setAttribute("border", 1);
+        root.appendChild(tbl);
+        //add header
+        var thead = document.createElement("thead");
+        var header_row = document.createElement("tr");
+        thead.appendChild(header_row);
+        tbl.appendChild(thead);
+        var width=(100-20*block["content"]["questions"].length)/block["content"]["rowLabels"].length;
+        for(var i=0;i<block["content"]["rowLabels"].length;i++){
+            var th = document.createElement("th");
+            th.innerHTML = block["content"]["rowLabels"][i];
+            th.style.width=width+"%";    
+            header_row.appendChild(th);
+        }
+        //now add question labels
+        for(var i=0;i<block["content"]["questions"].length;i++){
+            th = document.createElement("th");        
+            th.innerHTML = block["content"]["questions"][i]["label"];
+            header_row.appendChild(th);    
+        }
+        //now add the rows    
+        var tbody = document.createElement("tbody");
+        tbl.appendChild(tbody);
+        for (var i = 0; i < block["content"]["rows"].length; i++) {
+            var row = document.createElement("tr");
+            tbody.appendChild(row);
+            for(var j=0;j<block["content"]["rowLabels"].length;j++){
+                var td = document.createElement("td");
+                row.appendChild(td);
+                td.innerHTML=block["content"]["rows"][i]["text"][j];
+            }
+            //now create the select element
+            for(var j=0;j<block["content"]["questions"].length;j++){
+                var td = document.createElement("td");
+                row.appendChild(td);
+                var select = document.createElement("select");
+                td.appendChild(select);
+                select.className = "form-control";
+                var fullId=["",""];
+                for(var key in block["content"]["rows"][i]["id"]){
+                    fullId[key]=block["content"]["rows"][i]["id"][key];
+                }
+                for(var key in block["content"]["questions"][j]["id"]){
+                    fullId[key]=block["content"]["questions"][j]["id"][key];
+                }
+                fullId=JSON.stringify(fullId);
+                select.setAttribute("id",fullId);
+                var option = document.createElement("option");
+                option.innerHTML = "Select";
+                select.appendChild(option);
+                var oldValue=data["variables"][fullId];
+                for(var k=0;k<block["content"]["questions"][j]["options"].length;k++){
+                    var option = document.createElement("option");
+                    option.innerHTML = block["content"]["questions"][j]["options"][k]["label"];
+                    if (block["content"]["questions"][j]["options"][k]["color"]!=undefined){
+                        option.setAttribute("color",block["content"]["questions"][j]["options"][k]["color"]);
+                    }
+                    option.value=block["content"]["questions"][j]["options"][k]["value"];
+                    select.appendChild(option);                    
+                    if (oldValue==option.value){
+                        select.selectedIndex=k+1;
+                        this.completed[0]++;
+                        if (block["content"]["questions"][j]["options"][k]["color"]!=undefined){
+                            td.className="table-"+block["content"]["questions"][j]["options"][k]["color"];
+                        }    
+                    }
+                }
+                this.completed[1]++;
+                select.addEventListener('change', (e) => {
+                    if (e.target.selectedIndex==0){
+                        delete data["variables"][e.target.id];
+                        this.completed[0]--;
+                    }
+                    else{
+                        if (data["variables"][e.target.id]==undefined){
+                            this.completed[0]++;
+                        }
+                        data["variables"][e.target.id]=e.target.value;
+                    }
+                    var selectedOption = e.target.options[e.target.selectedIndex];
+                    var color = selectedOption.getAttribute('color');
+                    var td=e.target.parentElement;
+                    if (color!=undefined){                    
+                        td.className="table-"+color;
+                    }
+                    else{
+                        td.className="";
+                    }
+                    this.completion();
+                    saveSurvey();
+                });    
+            }
+        }
+        this.completion();
+    }
+  
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+    }
+  }
+  
+    
+//add class to lookup dictionary
+blockLookup["multi_row_select"]=MultiRowSelect;
+class SimpleText {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID=blockID;
+        this.parent=parent;
+        //keep track of completion
+        this.completed=[0,0];
+        var div=document.createElement("div");
+        root.appendChild(div);
+        if (block["content"]["verticalHeight"]){
+            div.style.overflowY="auto";
+            div.style.height=block["content"]["verticalHeight"]+"vh";
+        }
+        //write title (if exists)
+        if (block["content"]["title"]!=undefined){
+            var h=document.createElement("h"+block["content"]["title"]["size"]);
+            div.appendChild(h);
+            h.innerHTML=block["content"]["title"]["text"];
+        }
+        //write body (if exists)
+        if (block["content"]["body"]!=undefined){
+            if (block["content"]["body"]["is_table"]==true){
+                var tbl = document.createElement("table");
+                tbl.className = "table table-striped table-hover";
+                root.appendChild(tbl);
+                var tbody = document.createElement("tbody");
+                tbl.appendChild(tbody);
+                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                    var row = document.createElement("tr");
+                    tbody.appendChild(row);
+                    var rowData = block["content"]["body"]["text"][i];
+                    // If rowData is an array, create a cell for each item
+                    if (Array.isArray(rowData)) {
+                        for (var j = 0; j < rowData.length; j++) {
+                            var td = document.createElement("td");
+                            row.appendChild(td);
+                            td.innerHTML = rowData[j];
+                        }
+                    } else {
+                        // Fallback: treat as single column
+                        var td = document.createElement("td");
+                        row.appendChild(td);
+                        td.innerHTML = rowData;
+                    }
+                }
+            }
+            else{
+                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                    var p=document.createElement("p");
+                    div.appendChild(p);
+                    p.innerHTML=block["content"]["body"]["text"][i];    
+                }    
+            }
+        }
+        this.completion();
+    }
+  
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+    }
+  }
+  
+    
+//add class to lookup dictionary
+blockLookup["text"]=SimpleText;
+var saveSurvey = function() {
+            //we assume that the data is stored in tabData
+            fetch("https://www.kv.econlabs.org/" + reviewerID, {
+                method: 'PUT',
+                headers: {
+                    'Content-type': 'text'
+                },
+                body: JSON.stringify(data)
+            }).then((data) => {
+                console.log("data saved");
+            }).catch((error) => {
+                console.log(error)
+            });
+};
+
+var completion = function(blockID,completed,total){
+    if (total==0){
+        document.getElementById("completedstatus").innerHTML="100% completed";
+    }
+    else{
+        document.getElementById("completedstatus").innerHTML=Math.floor(100*completed/total)+ "% completed";
+    }
+}
+
+//populate survey when loading
+var blocks=[];
+var loadSurvey = async function(){
+    try{
+        var response = await fetch(this.serverURL + reviewerID);
+    }
+    catch(e){
+        console.log("network is down");
+        document.getElementById("completedstatus").innerHTML="SERVER UNAVAILABLE";
+        return;
+    }
+    if (!response.ok){
+        console.log("no stored data");
+        data={
+            "active": {},
+            "variables":this.dataDefaults
+        };
+    }
+    else{
+        var text= await response.text();
+        data=JSON.parse(text);
+        console.log("stored data retrieved");
+    }
+    //now build the survey
+    var root=document.getElementById("rootblock");
+    blocks.push(new blockLookup[rootBlock["type"]](root,rootBlock,this,blocks.length));
+};
+
+
+(async() => {
+    await loadSurvey(); 
+ })();
+
+    </script>
+    
+
+</body>
+</html>

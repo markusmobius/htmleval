@@ -1,23 +1,17 @@
 import os
-import sys
 
-# Add the root directory (parent of htmleval) to Python path so 'htmleval' module can be found
-script_dir = os.path.dirname(os.path.abspath(__file__))
-root_dir = os.path.dirname(script_dir)  # Go up one level from htmleval to the root
-sys.path.insert(0, root_dir)
-
-from htmleval.src.reviewLib import Review
-from htmleval.src.json.reviewJsonLib import ReviewJSON
-from htmleval.src.json.compoundBlocks.tabs import Tabs
-from htmleval.src.json.compoundBlocks.column import Column
-from htmleval.src.json.compoundBlocks.interactive import Interactive
-from htmleval.src.json.compoundBlocks.interactive import InteractiveParagraph
-from htmleval.src.json.compoundBlocks.interactive import InteractiveFragment
-from htmleval.src.json.simpleBlocks.multiRowSelect import MultiRowSelect
-from htmleval.src.json.simpleBlocks.multiRowSelect import MultiRowSelectQuestion
-from htmleval.src.json.simpleBlocks.multiRowChecked import MultiRowChecked
-from htmleval.src.json.simpleBlocks.multiRowOption import MultiRowOption
-from htmleval.src.json.simpleBlocks.text import Text
+from src.reviewLib import Review
+from src.json.reviewJsonLib import ReviewJSON
+from src.json.compoundBlocks.tabs import Tabs
+from src.json.compoundBlocks.column import Column
+from src.json.compoundBlocks.interactive import Interactive
+from src.json.compoundBlocks.interactive import InteractiveParagraph
+from src.json.compoundBlocks.interactive import InteractiveFragment
+from src.json.simpleBlocks.multiRowSelect import MultiRowSelect
+from src.json.simpleBlocks.multiRowSelect import MultiRowSelectQuestion
+from src.json.simpleBlocks.multiRowChecked import MultiRowChecked
+from src.json.simpleBlocks.multiRowOption import MultiRowOption
+from src.json.simpleBlocks.text import Text
 
 
 #create the demo.json file from scratch
@@ -76,10 +70,10 @@ nestedCol.add_column([
         "At times, the federal probe has proven acrimonious. The DOJ and Google have warred over the company's apparent unwillingness to turn over documents that federal investigators describe as critical to their work. Within DOJ, meanwhile, government lawyers have sparred among themselves over the timeline for bringing a case particularly in the weeks before the 2020 presidential election. Dozens of agency staff signaled this summer they did not feel they were ready to bring charges against Google, but Attorney General William P. Barr ultimately overruled them -- and set the Justice Department on a course to file this month.",
         "The federal investigation has proceeded in parallel with state probes commenced last September by nearly every Democratic and Republican attorney general. The investigations have broadened to encompass more than advertising -- touching on search and the extent to which Google further enhances its dominance through the Android smartphone operating system.",
         "A handful of states including Colorado, Iowa, Nebraska and New York are preparing to issue a joint public statement as soon as Tuesday indicating they are still scrutinizing a wide array of Google's business practices and may instead opt to join any federal case later, according to four people familiar with their thinking, who spoke on the condition of anonymity to discuss a law-enforcement matter. The Post first reported the news last week."
-    ],scrollable=True)
+    ],verticalHeight=50)
 ])
 nestedCol.add_column([
-    Text(title= "Summary", titleSize=4,body=["The U.S. Department of Justice (DOJ) is set to file an antitrust lawsuit against Google, alleging the tech giant abused its digital dominance to undermine competition and harm consumers. This legal action marks the commencement of a significant court battle that could have extensive consequences not only for Google but also for the broader technology industry, which has already been under heightened scrutiny for its considerable influence and data accumulation. The lawsuit could take years to conclude whether Google actually breached competition laws and determine the appropriate penalties. This development follows a lengthy period of inactivity in the U.S., contrasting the intense antitrust scrutiny Google has faced in Europe, resulting in $9 billion in fines. This legal action originates from a wider DOJ review that began last summer into major tech companies, with Google's advertising dominance being a major focal point that later expanded to include complaints from various competitor sectors."], scrollable=True),
+    Text(title= "Summary", titleSize=4,body=["The U.S. Department of Justice (DOJ) is set to file an antitrust lawsuit against Google, alleging the tech giant abused its digital dominance to undermine competition and harm consumers. This legal action marks the commencement of a significant court battle that could have extensive consequences not only for Google but also for the broader technology industry, which has already been under heightened scrutiny for its considerable influence and data accumulation. The lawsuit could take years to conclude whether Google actually breached competition laws and determine the appropriate penalties. This development follows a lengthy period of inactivity in the U.S., contrasting the intense antitrust scrutiny Google has faced in Europe, resulting in $9 billion in fines. This legal action originates from a wider DOJ review that began last summer into major tech companies, with Google's advertising dominance being a major focal point that later expanded to include complaints from various competitor sectors."],verticalHeight=50),
 ])
 options=[
     MultiRowOption(label="No",value ="no",color="danger"),
@@ -98,7 +92,7 @@ nestedCol=Column()
 nestedCol.add_column([
     Text(title= "Cluster Description",titleSize=4,body=[
         "Democratic presidential candidate Joe Biden visited Kenosha, Wisconsin, on September 3, 2020, to meet with the family of Jacob Blake, a Black man who was shot by a police officer, igniting several days of protests."
-    ],scrollable=True)
+    ])
 ])
 nestedCol.add_column([
     Text(title= "Article Titles", titleSize=4,body=[
@@ -108,7 +102,7 @@ nestedCol.add_column([
         "Biden says he spoke with Jacob Blake, praises family's 'resilience and optimism' during Kenosha visit",
         "Joe Biden meets Jacob Blake’s family, tours Kenosha days after Trump visit",
         "Joe Biden meets with Jacob Blake's family after arriving in Wisconsin for Kenosha visit"        
-        ], scrollable=True, is_table=True),
+        ], is_table=True),
 ])
 options=[
     MultiRowOption(label="No",value ="no",color="danger"),
@@ -126,7 +120,7 @@ eventDescription=Text(title="Event Sentence Summary",titleSize=2,body=[
     "In mid-October, vandals targeted former Deputy Mayor Randy Mastro's home on the Upper East Side, New York City, by spraying graffiti and throwing red paint as a protest against his support for closing a local hotel used as a homeless shelter."
 ])
 pertinentArticles=Text(title="Pertinent Articles",titleSize=3)
-article1=Text(title="Article 1",titleSize=5,scrollable=True,body=[
+article1=Text(title="Article 1",titleSize=5,verticalHeight=30,body=[
     "De Blasio pauses plans to boot disabled from NYC shelter after lawsuit threat",
     "Vandals splattered the front of a prominent Manhattan lawyer’s home with graffiti blaring, “Randy Mastro you can’t displace us” and “F–k you Randy” after he represented a group of residents in their bid to close a West 79th Street hotel that houses homeless men.",
     "Mastro, a former deputy mayor under Rudy Giuliani, was not home at his Upper East Side residence when it was tagged sometime Tuesday night, a source told The Post, but he was alerted by a neighbor whose home was also vandalized and they both reported the incident to the NYPD.",
@@ -236,14 +230,39 @@ for i in range(3):
         ))
 root.add_tab(tabName="Tab 7",block=interactive)
 
+#add the eighth tab
+mainCol=Column()
+root.add_tab(tabName="Tab 8",block=mainCol)
+leftCol=Column()
+rightCol=Column()
+mainCol.add_column([leftCol])
+mainCol.add_column([rightCol])
+#add text snippets in left column
+snippets=[]
+for i in range(6):
+    snippet=Text(title="test", body=[f"This is text snippet {i+1}"])
+    snippets.append(snippet)
+leftCol.add_column(snippets)
+
+#add the ninethtab
+mainCol=Column()
+root.add_tab(tabName="Tab 9",block=mainCol)
+#add text snippets in left column
+snippets=[]
+for i in range(6):
+    snippet=Text(title="test", body=[f"This is text snippet {i+1}"])
+    snippets.append(snippet)
+mainCol.add_column(snippets)
+
+
 #now we create the JSON
 json=demo.get_json()
 
 #save demo json
-with open(os.path.join("htmleval","__demo","demo1","demo.json"), 'w') as f:
+with open(os.path.join(".","__demo","demo1","demo.json"), 'w') as f:
     f.write(json)
 
 #now we create the HTML files
-review=Review(targetFolder="htmleval/__demo/demo1",block=json,evalTitle="Demo", serverURL="https://www.kv.econlabs.org/")
-review.create(reviewers=["reviewer1","reviewer2"])
+review=Review(block=json,evalTitle="Demo", serverURL="https://www.kv.econlabs.org/")
+review.create(targetFolder="./__demo/demo1",defaults=None,reviewers=["reviewer1","reviewer2"])
 

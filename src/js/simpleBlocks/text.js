@@ -7,8 +7,9 @@ class SimpleText {
         this.completed=[0,0];
         var div=document.createElement("div");
         root.appendChild(div);
-        if (block["content"]["scrollable"]===true){
-            div.className="scrollable-box";
+        if (block["content"]["verticalHeight"]){
+            div.style.overflowY="auto";
+            div.style.height=block["content"]["verticalHeight"]+"vh";
         }
         //write title (if exists)
         if (block["content"]["title"]!=undefined){

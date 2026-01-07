@@ -1,4 +1,4 @@
-from htmleval.src.json.simpleBlocks.multiRowOption import MultiRowOption
+from src.json.simpleBlocks.multiRowOption import MultiRowOption
 
 class MultiRowSelectQuestion:
 
@@ -22,7 +22,5 @@ class MultiRowSelect:
             "text" : text,
             "id" : id
         }
-        if default_values is not None:
-            row["default_values"] = default_values
         self.content["rows"].append(row)
     

@@ -26,7 +26,7 @@ var completion = function(blockID,completed,total){
 var blocks=[];
 var loadSurvey = async function(){
     try{
-        var response = await fetch("https://www.kv.econlabs.org/" + reviewerID);
+        var response = await fetch(this.serverURL + reviewerID);
     }
     catch(e){
         console.log("network is down");
@@ -37,7 +37,7 @@ var loadSurvey = async function(){
         console.log("no stored data");
         data={
             "active": {},
-            "variables":{}
+            "variables":this.dataDefaults
         };
     }
     else{

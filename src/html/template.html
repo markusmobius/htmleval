@@ -24,16 +24,7 @@
             /* margin: 10px; Optional: Adjust the margin to align the checkbox */
         }
         .scrollable-box {
-            max-height: 30vh;
             overflow-y: auto;
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-        .large-scrollable-box{
-            max-height: 100vh;
-            overflow-y: auto;
-            border: 1px solid #ccc;
-            padding: 10px;
         }
         .annotated-text span {
             padding: 2px 4px;
@@ -85,8 +76,10 @@
 
         //data and blocks
         var data = null;
+        var dataDefaults= DEFAULTS;
         var blockLookup={};
         var rootBlock=BLOCKDATA;
+        var serverURL="SERVERURL";
 
         BUILDJS
     </script>
