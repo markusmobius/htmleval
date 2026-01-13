@@ -19,3 +19,13 @@ The `Interactive` block is a highly specialized compound block designed for gran
 - **Components**:
   - `InteractiveParagraph`: Represents a paragraph.
   - `InteractiveFragment`: Represents a piece of text within a paragraph that opens a pop-up or interaction when clicked.
+
+## Thread
+The `Thread` block is used to represent threaded conversations. It acts as a text block that can have other threads attached to it.
+- **Properties**:
+  - `title`: Optional title text.
+  - `titleSize`: Size of header (e.g., 3 for h3).
+  - `body`: List of paragraph strings.
+- **Visuals**: Displays the text content, then adds a vertical line and indentation for any attached child threads.
+- **Method**: `addThread(block)`
+  - Adds a child `Thread` block (or other block) to the thread, indented below the current text.

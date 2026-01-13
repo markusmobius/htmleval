@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>EVALTITLE</title>
     <style>
-        details > summary {
+        details>summary {
             cursor: pointer;
             font-weight: bold;
         }
+
         .hidden-content {
             display: none;
         }
+
         details[open] .hidden-content {
-             display: block;
+            display: block;
         }
+
         select {
             /* Style adjustments for the dropdown */
             padding: 5px;
             margin: 0;
             border-radius: 5px;
         }
+
         input[type="checkbox"] {
-            transform: scale(2); /* Adjust the scale value as needed */
+            transform: scale(2);
+            /* Adjust the scale value as needed */
             /* margin: 10px; Optional: Adjust the margin to align the checkbox */
         }
+
         .scrollable-box {
             overflow-y: auto;
         }
+
         .annotated-text span {
             padding: 2px 4px;
             border-radius: 3px;
             cursor: pointer;
             position: relative;
         }
+
         .annotated-text span:hover::after {
             content: attr(data-details);
             position: absolute;
@@ -45,16 +54,61 @@
             z-index: 10;
             font-size: 12px;
         }
+
+        .thread-content {
+            background-color: #f4f4f4;
+            /* Distinct gray */
+            padding: 5px;
+            /* Reduced padding */
+            border-radius: 5px;
+            margin-bottom: 5px;
+            /* Separation from children or usage of thread container */
+            transition: background-color 0.2s;
+        }
+
+        .thread-content:hover {
+            background-color: #e2e2e2;
+            /* Darker on hover */
+        }
+
+        .thread-content h1,
+        .thread-content h2,
+        .thread-content h3,
+        .thread-content h4,
+        .thread-content h5,
+        .thread-content h6 {
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+            /* Force smaller size regardless of tag to fit thread block */
+            font-weight: bold;
+        }
+
+        .thread-content p {
+            margin-bottom: 0;
+            /* Tighten paragraph spacing */
+        }
+
+        .thread-container {
+            margin-left: 1.5rem;
+            /* Offset to the right */
+            padding-left: 1rem;
+            border-left: 2px solid #e0e0e0;
+            /* Line indicating same level */
+            margin-bottom: 1rem;
+        }
     </style>
-    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet"/>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
+
 <body>
 
     <div class="container mt-3">
         <dl class="row">
             <dt class="col-sm-2">Reviewer</dt>
-            <dd class="col-sm-2">REVIEWERNAME</dd>          
+            <dd class="col-sm-2">REVIEWERNAME</dd>
             <dt class="col-sm-2">Evaluation</dt>
             <dd class="col-sm-2">EVALTITLE</dd>
             <dd class="col-sm-2">&nbsp;</dd>
@@ -66,8 +120,12 @@
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 
     <script>
 
@@ -76,14 +134,15 @@
 
         //data and blocks
         var data = null;
-        var dataDefaults= DEFAULTS;
-        var blockLookup={};
-        var rootBlock=BLOCKDATA;
-        var serverURL="SERVERURL";
+        var dataDefaults = DEFAULTS;
+        var blockLookup = {};
+        var rootBlock = BLOCKDATA;
+        var serverURL = "SERVERURL";
 
         BUILDJS
     </script>
-    
+
 
 </body>
+
 </html>

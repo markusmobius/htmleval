@@ -63,7 +63,7 @@ json_data = demo.get_json()
 # 5. Generate the HTML files
 # This creates the necessary HTML/JS files in the target folder
 target_folder = "./my_demo_survey"
-review = Review(block=json_data, evalTitle="My Demo", serverURL="https://www.example.com/")
+review = Review(block=json_data, evalTitle="My Demo", serverURL="https://www.kv.econlabs.org/")
 # reviewers list generates unique links for each reviewer if needed
 review.create(targetFolder=target_folder, defaults=None, reviewers=["reviewer1", "reviewer2"])
 

@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thread Demo</title>
+    <style>
+        details>summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        details[open] .hidden-content {
+            display: block;
+        }
+
+        select {
+            /* Style adjustments for the dropdown */
+            padding: 5px;
+            margin: 0;
+            border-radius: 5px;
+        }
+
+        input[type="checkbox"] {
+            transform: scale(2);
+            /* Adjust the scale value as needed */
+            /* margin: 10px; Optional: Adjust the margin to align the checkbox */
+        }
+
+        .scrollable-box {
+            overflow-y: auto;
+        }
+
+        .annotated-text span {
+            padding: 2px 4px;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .annotated-text span:hover::after {
+            content: attr(data-details);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            white-space: nowrap;
+            background: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 3px;
+            z-index: 10;
+            font-size: 12px;
+        }
+
+        .thread-content {
+            background-color: #f4f4f4;
+            /* Distinct gray */
+            padding: 5px;
+            /* Reduced padding */
+            border-radius: 5px;
+            margin-bottom: 5px;
+            /* Separation from children or usage of thread container */
+            transition: background-color 0.2s;
+        }
+
+        .thread-content:hover {
+            background-color: #e2e2e2;
+            /* Darker on hover */
+        }
+
+        .thread-content h1,
+        .thread-content h2,
+        .thread-content h3,
+        .thread-content h4,
+        .thread-content h5,
+        .thread-content h6 {
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+            /* Force smaller size regardless of tag to fit thread block */
+            font-weight: bold;
+        }
+
+        .thread-content p {
+            margin-bottom: 0;
+            /* Tighten paragraph spacing */
+        }
+
+        .thread-container {
+            margin-left: 1.5rem;
+            /* Offset to the right */
+            padding-left: 1rem;
+            border-left: 2px solid #e0e0e0;
+            /* Line indicating same level */
+            margin-bottom: 1rem;
+        }
+    </style>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <dl class="row">
+            <dt class="col-sm-2">Reviewer</dt>
+            <dd class="col-sm-2">reviewer2</dd>
+            <dt class="col-sm-2">Evaluation</dt>
+            <dd class="col-sm-2">Thread Demo</dd>
+            <dd class="col-sm-2">&nbsp;</dd>
+            <dd class="col-sm-2" id="completedstatus">0% complete</dd>
+        </dl>
+    </div>
+
+    <div class="container mt-3" id="rootblock">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        //surveyID
+        var reviewerID = "d1a001db-ebee-4446-a448-b64bd8cbcedd";
+
+        //data and blocks
+        var data = null;
+        var dataDefaults = {};
+        var blockLookup = {};
+        var rootBlock = {"type": "tabs", "content": [{"tabName": "Thread Demo", "block": {"type": "column", "content": [[{"type": "thread", "content": {"title": {"text": "Parent Thread", "size": 3}, "body": {"text": ["This is the start of the conversation.", "It acts as the root of the discussion tree."]}}, "threads": [{"type": "thread", "content": {"title": {"text": "Child 1", "size": 4}, "body": {"text": ["I am the first response to the parent."]}}, "threads": []}, {"type": "thread", "content": {"title": {"text": "Child 2", "size": 4}, "body": {"text": ["I am the second response. I have a follow-up comment below me."]}}, "threads": [{"type": "thread", "content": {"title": {"text": "Grandchild", "size": 5}, "body": {"text": ["I am a reply to Child 2.", "This shows the nesting capability."]}}, "threads": []}]}, {"type": "thread", "content": {"title": {"text": "Child 3", "size": 4}, "body": {"text": ["I am the third response to the parent."]}}, "threads": []}]}]]}}]};
+        var serverURL = "https://www.kv.econlabs.org/";
+
+        class Column {
+
+  constructor(root, block, parent, blockID) {
+      //generate a unique block ID
+      this.blockID=blockID;
+      this.parent=parent;
+      //keep track of completion
+      this.completed={};
+      //construct columns
+      var container=document.createElement("div");
+      container.className="container";
+      root.appendChild(container);
+      var row=document.createElement("div");
+      row.className="row align-items-start";
+      container.appendChild(row);
+      this.bubbleUp=false;
+      for(var i=0;i<block["content"].length;i++){
+        //create column
+        var column=document.createElement("div");
+        column.className="col";
+        row.appendChild(column);
+        for(var j=0;j<block["content"][i].length;j++){
+          if (i==block["content"].length-1 && j==block["content"][i].length-1){
+            this.bubbleUp=true;  
+          }
+          blocks.push(new blockLookup[block["content"][i][j]["type"]](column,block["content"][i][j],this,blocks.length));
+        }
+      }
+  }
+
+  //completion method
+  completion(blockID,completed,total) {
+      this.completed[blockID]=[completed,total];
+      //bubble up completion status to parent
+      if (this.bubbleUp){
+          var status=[0,0];
+          for(var key in this.completed){
+              status[0]+=this.completed[key][0];
+              status[1]+=this.completed[key][1];
+          }
+          this.parent.completion(this.blockID,status[0],status[1]);
+      }
+  }
+}
+
+  
+//add class to lookup dictionary
+blockLookup["column"]=Column;
+class Interactive {
+
+  constructor(root, block, parent, blockID) {
+      //generate a unique block ID
+      this.blockID=blockID;
+      this.parent=parent;
+      //keep track of completion
+      this.completed={};
+      //construct container
+      var container=document.createElement("div");
+      container.className="container";
+      root.appendChild(container);
+      var row=document.createElement("div");
+      row.className="row align-items-start";
+      container.appendChild(row);
+      //construct two columns
+      this.bubbleUp=false;
+      //text column
+      var textColumn=document.createElement("div");
+      textColumn.className="col large-scrollable-box";
+      row.appendChild(textColumn);
+      //context column
+      var contextColumn=document.createElement("div");
+      contextColumn.className="col";
+      row.appendChild(contextColumn);
+      this.spanAssignments={};
+      this.tabAssignments={};
+      for(var i=0;i<block["content"].length;i++){
+        var para=document.createElement("p");
+        textColumn.appendChild(para);
+        for(var j=0;j<block["content"][i]["fragments"].length;j++){
+          if (data["active"][this.blockID]==undefined){
+            data["active"][this.blockID]=blocks.length;
+          }        
+          if (i==block["content"].length-1 && j==block["content"][i]["fragments"].length-1){
+            this.bubbleUp=true;  
+          }  
+          var fragment=block["content"][i]["fragments"][j];
+          var span=document.createElement("div");
+          this.spanAssignments[blocks.length]=span;
+          span.innerHTML=fragment["text"];
+          span.setAttribute("blockid",blocks.length);
+          
+          // Apply light bottom border to all fragments for visual separation
+          span.style.borderBottom = "1px solid #e0e0e0";
+          span.style.paddingBottom = "8px";
+          span.style.marginBottom = "8px";
+          span.style.display = "block";
+          span.style.padding = "8px";
+          span.style.borderRadius = "4px";
+          
+          // Set border attribute from fragment data if it exists
+          if (fragment["border"]) {
+            span.setAttribute("border", fragment["border"]);
+            span.setAttribute("original-border", fragment["border"]); // Store original border
+            span.style.border = fragment["border"];
+            // Override the bottom separator with the main border
+            span.style.borderBottom = fragment["border"];
+          }
+          
+          para.appendChild(span);
+          span.addEventListener("mouseover", (e) => {
+            e.currentTarget.classList.add("text-danger-emphasis");
+          });
+          span.addEventListener("mouseout", (e) => {
+            e.currentTarget.classList.remove("text-danger-emphasis");
+          });
+          span.addEventListener("click", (e) => {
+            // Determine new and previous block IDs as numbers
+            var newBlockID = parseInt(e.currentTarget.getAttribute("blockid"), 10);
+            var priorBlockID = data["active"][this.blockID] !== undefined ? parseInt(data["active"][this.blockID], 10) : undefined;
+
+            // If clicking the same active block, ensure tab is visible and keep highlight
+            if (priorBlockID === newBlockID) {
+              if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+              e.currentTarget.classList.add("bg-warning-subtle");
+              saveSurvey();
+              return;
+            }
+
+            // Unmark old span if it exists
+            var priorSpan = this.spanAssignments[priorBlockID];
+            if (priorSpan != undefined){
+              priorSpan.classList.remove("bg-warning-subtle");
+              // Restore original border if it exists
+              var originalBorder = priorSpan.getAttribute("original-border");
+              if (originalBorder) {
+                priorSpan.style.border = originalBorder;
+              } else {
+                priorSpan.style.border = ""; // Remove any border
+                priorSpan.style.borderBottom = "1px solid #e0e0e0"; // Restore fragment separator
+              }
+              if (this.tabAssignments[priorBlockID]) this.tabAssignments[priorBlockID].style.display="none";
+            }
+
+            //adjust context - set new active and show its tab
+            if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+            data["active"][this.blockID] = newBlockID;
+
+            //mark new span - add yellow background but preserve border
+            e.currentTarget.classList.add("bg-warning-subtle");
+
+            // Update the previous span to show its completion status now that it's not active
+            if (priorSpan!=undefined && this.completed[priorBlockID]) {
+              this.completion(priorBlockID, this.completed[priorBlockID][0], this.completed[priorBlockID][1]);
+            }
+
+            saveSurvey();
+          });
+          var tabDiv=document.createElement("div");
+          this.tabAssignments[blocks.length]=tabDiv;
+          if (data["active"][this.blockID]==blocks.length){
+            tabDiv.style.display="";
+          }
+          else{
+            tabDiv.style.display="none";
+          }
+          contextColumn.appendChild(tabDiv);
+          var currentBlockId=blocks.length;
+          blocks.push(new blockLookup[fragment["block"]["type"]](tabDiv,fragment["block"],this,blocks.length));
+          //if not active, apply normal styling
+          if (currentBlockId!=data["active"][this.blockID]){
+            // Fragment gets its default styling from border attribute
+          }          
+          else{
+            span.classList.add("bg-warning-subtle");
+          }
+        }
+      }
+  }
+
+  //completion method
+  completion(blockID,completed,total) {
+    console.log(blockID+":"+completed+":"+total);
+    this.completed[blockID]=[completed,total];
+    var span = this.spanAssignments[blockID];
+    
+    //update the span - just change background, preserve border
+    // Check if any answers for this specific block are "no"
+    // TODO make this more generic - this only works for yes/no questions
+    if (completed==total){
+      var hasNoAnswers = false;
+      // Get the specific block and check its data variables directly
+      if (blocks[blockID]) {
+        // Look for the table element in the tab that corresponds to this blockID
+        var tabDiv = this.tabAssignments[blockID];
+        if (tabDiv) {
+          // Find all checked inputs in this specific tab div (for MultiRowChecked)
+          var checkedInputs = tabDiv.querySelectorAll('input[type="checkbox"]:checked');
+          for (var i = 0; i < checkedInputs.length; i++) {
+            var input = checkedInputs[i];
+            var fullId = input.getAttribute("fullid") || input.getAttribute("name");
+            var value = fullId ? data["variables"][fullId] : null;
+            var varValue = input.getAttribute("varvalue");
+            console.log("[completion] checkbox", i, "fullId:", fullId, "stored value:", value, "varvalue:", varValue);
+            if (value === "no" || varValue === "no" || input.value === "no") {
+              hasNoAnswers = true;
+              break;
+            }
+          }
+
+          // Support MultiRowSelect: radio inputs or select elements
+          if (!hasNoAnswers) {
+            // Radios
+            var radioInputs = tabDiv.querySelectorAll('input[type="radio"]:checked');
+            console.log('[completion] found radios:', radioInputs.length);
+            for (var r = 0; r < radioInputs.length; r++) {
+              var rInput = radioInputs[r];
+              var rFullId = rInput.getAttribute("fullid") || rInput.getAttribute("name");
+              var rValue = rFullId ? data["variables"][rFullId] : null;
+              var rVarValue = rInput.getAttribute("varvalue");
+              console.log("[completion] radio", r, "fullId:", rFullId, "stored value:", rValue, "varvalue:", rVarValue, "input.value:", rInput.value);
+              if (rValue === "no" || rVarValue === "no" || rInput.value === "no") {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+
+          if (!hasNoAnswers) {
+            // Select elements (dropdowns)
+            var selects = tabDiv.querySelectorAll('select');
+            console.log('[completion] found selects:', selects.length);
+            for (var s = 0; s < selects.length; s++) {
+              var sel = selects[s];
+              var selFullId = sel.getAttribute('fullid') || sel.getAttribute('name');
+              var selValue = selFullId ? data['variables'][selFullId] : null;
+              var selSelected = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].value : null;
+              console.log('[completion] select', s, 'fullId:', selFullId, 'stored value:', selValue, 'selected:', selSelected);
+              if (selValue === 'no' || selSelected === 'no') {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+        } else {
+          console.log("Could not find tabDiv for blockID:", blockID);
+        }
+      } else {
+        console.log("Could not find block for blockID:", blockID);
+      }
+            
+      span.classList.remove("bg-primary-subtle", "bg-warning-subtle", "bg-danger-subtle", "bg-success-subtle");
+      
+      // Check if this block is currently active/selected - if so, don't change it
+      var isActive = data["active"][this.blockID] == blockID;
+      
+      if (!isActive) {
+        // Only apply completion colors if the block is NOT currently active
+        if (hasNoAnswers) {
+          span.classList.add("bg-danger-subtle");
+        } else {
+          span.classList.add("bg-success-subtle");
+        }
+      } else {
+        // If active, keep the yellow highlight
+        span.classList.add("bg-warning-subtle");
+      }
+    }
+    else if (completed > 0){
+      // Check if this block is currently active/selected
+      var isActive = data["active"][this.blockID] == blockID;
+      
+      span.classList.remove("bg-success-subtle", "bg-warning-subtle", "bg-danger-subtle");
+      
+      if (isActive) {
+        // If active, show yellow highlight
+        span.classList.add("bg-warning-subtle");
+      } else {
+        // If not active, show partial completion (blue)
+        span.classList.add("bg-primary-subtle");
+      }
+    }
+    else {
+      // No completion - remove completion styling
+      span.classList.remove("bg-success-subtle", "bg-primary-subtle", "bg-danger-subtle");
+      // Keep warning if currently active
+      if (data["active"][this.blockID] == blockID) {
+        span.classList.add("bg-warning-subtle");
+      }
+    }
+    
+    //bubble up completion status to parent
+    if (this.bubbleUp){
+        var status=[0,0];
+        for(var key in this.completed){
+            status[0]+=this.completed[key][0];
+            status[1]+=this.completed[key][1];
+        }
+        this.parent.completion(this.blockID,status[0],status[1]);
+    }
+  }
+}
+
+  
+//add class to lookup dictionary
+blockLookup["interactive"]=Interactive;
+class Tabs {
+
+    constructor(root, block, parent, blockID) {
+        //generate a unique tab ID
+        this.blockID=blockID;
+        this.parent=parent;
+        this.tabBlockAssignment={};
+        //keep track of completion
+        this.completed={};
+        //construct tabs
+        var ul=document.createElement("ul");
+        root.appendChild(ul);
+        ul.className="nav nav-tabs";
+        ul.setAttribute("role","tablist");
+        if (data["active"][this.blockID]==undefined){
+            data["active"][this.blockID]=0;
+        }
+        for(var i=0;i<block["content"].length;i++){
+            var li=document.createElement("li");
+            ul.appendChild(li);
+            li.className="nav-item";
+            li.setAttribute("role","presentation");
+            var button=document.createElement("button");
+            li.appendChild(button);
+            button.setAttribute("data-bs-toggle","tab");
+            button.setAttribute("id",this.blockID+":"+i);
+            button.setAttribute("taborder",i);
+            button.setAttribute("data-bs-target","#"+this.blockID+":"+i+"-tab");
+            button.setAttribute("type","button");        
+            button.setAttribute("role","tab");
+            button.setAttribute("aria-controls",i);
+            if (data["active"][this.blockID]==i){
+                button.setAttribute("aria-selected","true");
+                button.className="nav-link active bg-warning-subtle";
+            }
+            else{
+                button.setAttribute("aria-selected","false");
+                button.className="nav-link";                    
+            }
+            button.innerHTML=block["content"][i]["tabName"];
+            button.addEventListener("click", (e) => {
+                //remove active class from currently active tab
+                var oldButton=document.getElementById(this.blockID+":"+data["active"][this.blockID]);
+                oldButton.classList.remove("bg-warning-subtle");
+                var oldStatus=[0,0];
+                for(var key in this.tabBlockAssignment){
+                    if (this.tabBlockAssignment[key]==data["active"][this.blockID]){
+                        if (this.completed[key] !== undefined) {
+                            oldStatus=this.completed[key];
+                        }
+                    }
+                }
+                if (oldStatus[1]>0 && oldStatus[0]==oldStatus[1]){
+                    oldButton.classList.remove("bg-primary-subtle");
+                    oldButton.classList.add("bg-success-subtle");
+                }
+                if (oldStatus[1]>0 && oldStatus[0]<oldStatus[1]){
+                    oldButton.classList.remove("bg-success-subtle");
+                    oldButton.classList.add("bg-primary-subtle");
+                }
+                data["active"][this.blockID]=parseInt(e.target.getAttribute("taborder"));
+                var newButton=document.getElementById(this.blockID+":"+data["active"][this.blockID]);
+                newButton.classList.remove("bg-success-subtle");
+                newButton.classList.remove("bg-primary-subtle");
+                newButton.classList.add("bg-warning-subtle");
+                saveSurvey();
+            });
+        }
+        //now add the content
+        var tabcontent=document.createElement("div");
+        root.appendChild(tabcontent);
+        tabcontent.className="tab-content bg-light";
+        this.bubbleUp=false;
+        for(var i=0;i<block["content"].length;i++){
+            var pane=document.createElement("div");
+            tabcontent.appendChild(pane);
+            if (data["active"][this.blockID]==i){
+                pane.className="tab-pane active";
+            }
+            else{
+                pane.className="tab-pane";
+            }
+            pane.setAttribute("id",this.blockID+":"+i+"-tab");
+            pane.setAttribute("role","tabpanel");
+            pane.setAttribute("aria-labelledby",this.blockID+":"+i+"-tab");
+            if (i==block["content"].length-1){
+                this.bubbleUp=true;  
+            }
+            this.tabBlockAssignment[blocks.length]=i;
+            var newBlock=new blockLookup[block["content"][i]["block"]["type"]](pane,block["content"][i]["block"],this,blocks.length);
+            blocks.push(newBlock);
+        }
+    }
+ 
+    //completion method
+    completion(blockID,completed,total) {
+        this.completed[blockID]=[completed,total];
+        //if not active update the button background
+        if (this.tabBlockAssignment[blockID]!=data["active"][this.blockID]){
+            var newButton=document.getElementById(this.blockID+":"+this.tabBlockAssignment[blockID]);
+            newButton.classList.remove("bg-success-subtle");
+            newButton.classList.remove("bg-primary-subtle");
+            if (total>0 && completed==total){
+                newButton.classList.add("bg-success-subtle");
+            }
+            if (total>0 && completed<total){
+                newButton.classList.add("bg-primary-subtle");
+            }
+        }
+        //bubble up completion status to parent
+        if (this.bubbleUp){
+            var status=[0,0];
+            for(var key in this.completed){
+                status[0]+=this.completed[key][0];
+                status[1]+=this.completed[key][1];
+            }
+            this.parent.completion(this.blockID,status[0],status[1]);
+        }
+    }
+}
+
+//add class to lookup dictionary
+blockLookup["tabs"]=Tabs;
+
+class Thread {
+
+    constructor(root, block, parent, blockID) {
+        //generate a unique block ID
+        this.blockID = blockID;
+        this.parent = parent;
+        //keep track of completion
+        this.completed = {};
+
+        // Render Text Content (Title + Body)
+        var textDiv = document.createElement("div");
+        textDiv.className = "thread-content";
+        root.appendChild(textDiv);
+
+        // Title
+        if (block["content"] && block["content"]["title"] != undefined) {
+            var h = document.createElement("h" + block["content"]["title"]["size"]);
+            textDiv.appendChild(h);
+            h.innerHTML = block["content"]["title"]["text"];
+        }
+
+        // Body
+        if (block["content"] && block["content"]["body"] != undefined) {
+            for (var i = 0; i < block["content"]["body"]["text"].length; i++) {
+                var p = document.createElement("p");
+                textDiv.appendChild(p);
+                p.innerHTML = block["content"]["body"]["text"][i];
+            }
+        }
+
+        // Render Child Threads Container
+        var container = document.createElement("div");
+        container.className = "thread-container";
+        root.appendChild(container);
+
+        this.bubbleUp = false;
+        // Loop over child threads
+        if (block["threads"]) {
+            for (var i = 0; i < block["threads"].length; i++) {
+                // Check if this is the last block to handle bubbleUp logic
+                if (i == block["threads"].length - 1) {
+                    this.bubbleUp = true;
+                }
+                // Instantiate the child block
+                blocks.push(new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, blocks.length));
+            }
+        }
+    }
+
+    //completion method
+    completion(blockID, completed, total) {
+        this.completed[blockID] = [completed, total];
+        //bubble up completion status to parent
+        if (this.bubbleUp) {
+            var status = [0, 0];
+            for (var key in this.completed) {
+                status[0] += this.completed[key][0];
+                status[1] += this.completed[key][1];
+            }
+            this.parent.completion(this.blockID, status[0], status[1]);
+        }
+    }
+}
+
+
+//add class to lookup dictionary
+blockLookup["thread"] = Thread;
+
+class Chart {
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        this.completed = [0, 0];
+
+        this.div = document.createElement("div");
+        root.appendChild(this.div);
+
+        // Title
+        if (block.content.title) {
+            const h = document.createElement("h" + block.content.title.size);
+            h.innerHTML = block.content.title.text;
+            this.div.appendChild(h);
+        }
+    }
+
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+    }
+}
+
+class SimpleHistogram extends Chart {
+    constructor(root, block, parent, blockID) {
+        super(root, block, parent, blockID);
+
+        const width = block.content.width || 400;
+        const height = block.content.height || 200;
+        const data = block.content.data || [];
+        const labels = block.content.labels || [];
+        const barColor = block.content.barColor || "#2196F3";
+        const maxVal = Math.max(...data, 1);
+        
+        // Add left margin for y-axis labels
+        const leftMargin = 50;
+        
+        // Adjust SVG height to accommodate x-axis label
+        const svgHeight = block.content.xLabel ? height + 30 : height;
+        
+        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svg.setAttribute("width", width);
+        svg.setAttribute("height", svgHeight);
+        this.div.appendChild(svg);
+
+        const barWidth = (width - leftMargin) / data.length;
+        
+        // Draw background grid
+        const numTicks = 5;
+        for (let t = 0; t <= numTicks; t++) {
+            const y = height - 30 - ((height - 40) * t) / numTicks;
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute("x1", leftMargin);
+            line.setAttribute("x2", width - 10);
+            line.setAttribute("y1", y);
+            line.setAttribute("y2", y);
+            line.setAttribute("stroke", "#eee");
+            line.setAttribute("stroke-width", "1");
+            svg.appendChild(line);
+            
+            const tickVal = Math.round((maxVal * t) / numTicks);
+            const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            label.setAttribute("x", leftMargin - 5);
+            label.setAttribute("y", y + 4);
+            label.setAttribute("text-anchor", "end");
+            label.setAttribute("font-size", "12");
+            label.setAttribute("fill", "#555");
+            label.textContent = tickVal;
+            svg.appendChild(label);
+        }
+
+        // Draw bars
+        data.forEach((val, i) => {
+            // Always show bar, even for zero values
+            const barHeight = val === 0 ? 
+                2 : // Small height for zero values
+                (val / maxVal) * (height - 40);
+            
+            const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+            rect.setAttribute("x", leftMargin + i * barWidth + 5);
+            rect.setAttribute("y", height - barHeight - 30);
+            rect.setAttribute("width", barWidth - 10);
+            rect.setAttribute("height", barHeight);
+            rect.setAttribute("fill", val === 0 ? "#dddddd" : barColor);
+            svg.appendChild(rect);
+            
+            // Add tooltip using HTML title attribute which has better browser support
+            rect.setAttribute("data-value", val);
+            rect.addEventListener("mouseover", (e) => {
+                const tooltip = document.createElement("div");
+                tooltip.textContent = val;
+                tooltip.style.position = "absolute";
+                tooltip.style.backgroundColor = "rgba(0,0,0,0.7)";
+                tooltip.style.color = "white";
+                tooltip.style.padding = "5px";
+                tooltip.style.borderRadius = "3px";
+                tooltip.style.fontSize = "12px";
+                tooltip.style.left = `${e.pageX + 10}px`;
+                tooltip.style.top = `${e.pageY - 20}px`;
+                tooltip.style.zIndex = "1000";
+                tooltip.id = "chart-tooltip";
+                document.body.appendChild(tooltip);
+            });
+            rect.addEventListener("mouseout", () => {
+                const tooltip = document.getElementById("chart-tooltip");
+                if (tooltip) tooltip.remove();
+            });
+
+            // Draw x-axis label
+            if (labels[i]) {
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", leftMargin + i * barWidth + barWidth / 2);
+                text.setAttribute("y", height - 10);
+                text.setAttribute("text-anchor", "middle");
+                text.setAttribute("font-size", "8");
+                text.textContent = labels[i];
+                svg.appendChild(text);
+            }
+        });
+        
+        // Y axis label
+        if (block.content.yLabel) {
+            const yLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            yLabel.setAttribute("x", 15);
+            yLabel.setAttribute("y", height / 2);
+            yLabel.setAttribute("text-anchor", "middle");
+            yLabel.setAttribute("font-size", "14");
+            yLabel.setAttribute("transform", `rotate(-90 15,${height / 2})`);
+            yLabel.setAttribute("fill", "#333");
+            yLabel.textContent = block.content.yLabel;
+            svg.appendChild(yLabel);
+        }
+        
+        // X axis label
+        if (block.content.xLabel) {
+            const xLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            xLabel.setAttribute("x", leftMargin + (width - leftMargin) / 2);
+            xLabel.setAttribute("y", height + 15);
+            xLabel.setAttribute("text-anchor", "middle");
+            xLabel.setAttribute("font-size", "14");
+            xLabel.setAttribute("fill", "#333");
+            xLabel.textContent = block.content.xLabel;
+            svg.appendChild(xLabel);
+        }
+        
+        this.completion();
+    }
+}
+// Add to blockLookup
+blockLookup["histogram"] = SimpleHistogram;
+
+class MultiRowChecked {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID=blockID;
+        this.parent=parent;
+        //keep track of completion
+        this.completed=[0,0];
+        //construct table
+        var tbl = document.createElement("table");
+        tbl.className = "table table-striped table-hover";
+        tbl.setAttribute("border", 1);
+        root.appendChild(tbl);
+        //add header
+        var thead = document.createElement("thead");
+        var header_row = document.createElement("tr");
+        thead.appendChild(header_row);
+        tbl.appendChild(thead);
+        var th = document.createElement("th");
+        th.innerHTML = block["content"]["rowLabel"];
+        var width=100-block["content"]["options"].length*10;
+        if (width<50){
+            width=50;
+        }
+        th.style.width=width+"%";
+        header_row.appendChild(th);
+        for(var k=0;k<block["content"]["options"].length;k++){
+            th = document.createElement("th");
+            th.innerHTML = block["content"]["options"][k]["label"];
+            header_row.appendChild(th);    
+        }
+        //now add the rows    
+        var tbody = document.createElement("tbody");
+        tbl.appendChild(tbody);
+        for (var i = 0; i < block["content"]["rows"].length; i++) {
+            var row = document.createElement("tr");
+            tbody.appendChild(row);
+            var td = document.createElement("td");
+            row.appendChild(td);
+            td.innerHTML=block["content"]["rows"][i]["text"];
+            //now create the check boxes element
+            var fullId=["",""];
+            for(var key in block["content"]["rows"][i]["id"]){
+                fullId[key]=block["content"]["rows"][i]["id"][key];
+            }
+            for(var key in block["content"]["id"]){
+                fullId[key]=block["content"]["id"][key];
+            }
+            fullId=JSON.stringify(fullId);
+            var oldValue=data["variables"][fullId];
+            for(var k=0;k<block["content"]["options"].length;k++){
+                var td = document.createElement("td");
+                row.appendChild(td);
+                var input = document.createElement("input");
+                td.appendChild(input);    
+                input.setAttribute("type","checkbox");
+                input.setAttribute("fullid",fullId);
+                input.setAttribute("id",fullId+"|"+block["content"]["options"][k]["value"])
+                input.setAttribute("order",k+1);
+                input.setAttribute("varvalue",block["content"]["options"][k]["value"]);
+                if (block["content"]["options"][k]["color"]!=undefined){
+                    input.setAttribute("color",block["content"]["options"][k]["color"]);
+                }    
+                if (oldValue==block["content"]["options"][k]["value"]){
+                    input.checked = true;
+                    this.completed[0]++;
+                    if (block["content"]["options"][k]["color"]!=undefined){
+                        row.className="table-"+block["content"]["options"][k]["color"];
+                    }    
+                }
+                else{
+                    input.checked = false;
+                }
+                input.addEventListener('change', (e) => {
+                    if (!e.target.checked){
+                        e.target.checked=true;
+                        return;
+                    }
+                    if (data["variables"][e.target.getAttribute("fullid")]==undefined){
+                        this.completed[0]++;
+                    }
+                    data["variables"][e.target.getAttribute("fullid")]=e.target.getAttribute("varvalue");
+                    var row=e.target.parentElement.parentElement;
+                    //uncheck everything
+                    var children = row.childNodes;
+                    var array = Array.prototype.slice.call(children);
+                    for(k=1;k<array.length;k++){
+                        var input=array[k].firstChild;
+                        if (input.checked && input.getAttribute("order")!=e.target.getAttribute("order")){
+                            input.checked=false;
+                        }
+                    }
+                    var color=e.target.getAttribute("color");
+                    if (color!=undefined){
+                        row.className="table-"+color;
+                    }    
+                    else{
+                        row.className="";
+                    }
+                    this.completion();
+                    saveSurvey();    
+                });
+            }
+            this.completed[1]++;
+        }
+        this.completion();
+    }
+  
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+    }
+  }
+  
+    
+//add class to lookup dictionary
+blockLookup["multi_row_checked"]=MultiRowChecked;
+class MultiRowSelect {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID=blockID;
+        this.parent=parent;
+        //keep track of completion
+        this.completed=[0,0];
+        //construct table
+        var tbl = document.createElement("table");
+        tbl.className = "table table-striped table-hover";
+        tbl.setAttribute("border", 1);
+        root.appendChild(tbl);
+        //add header
+        var thead = document.createElement("thead");
+        var header_row = document.createElement("tr");
+        thead.appendChild(header_row);
+        tbl.appendChild(thead);
+        var width=(100-20*block["content"]["questions"].length)/block["content"]["rowLabels"].length;
+        for(var i=0;i<block["content"]["rowLabels"].length;i++){
+            var th = document.createElement("th");
+            th.innerHTML = block["content"]["rowLabels"][i];
+            th.style.width=width+"%";    
+            header_row.appendChild(th);
+        }
+        //now add question labels
+        for(var i=0;i<block["content"]["questions"].length;i++){
+            th = document.createElement("th");        
+            th.innerHTML = block["content"]["questions"][i]["label"];
+            header_row.appendChild(th);    
+        }
+        //now add the rows    
+        var tbody = document.createElement("tbody");
+        tbl.appendChild(tbody);
+        for (var i = 0; i < block["content"]["rows"].length; i++) {
+            var row = document.createElement("tr");
+            tbody.appendChild(row);
+            for(var j=0;j<block["content"]["rowLabels"].length;j++){
+                var td = document.createElement("td");
+                row.appendChild(td);
+                td.innerHTML=block["content"]["rows"][i]["text"][j];
+            }
+            //now create the select element
+            for(var j=0;j<block["content"]["questions"].length;j++){
+                var td = document.createElement("td");
+                row.appendChild(td);
+                var select = document.createElement("select");
+                td.appendChild(select);
+                select.className = "form-control";
+                var fullId=["",""];
+                for(var key in block["content"]["rows"][i]["id"]){
+                    fullId[key]=block["content"]["rows"][i]["id"][key];
+                }
+                for(var key in block["content"]["questions"][j]["id"]){
+                    fullId[key]=block["content"]["questions"][j]["id"][key];
+                }
+                fullId=JSON.stringify(fullId);
+                select.setAttribute("id",fullId);
+                var option = document.createElement("option");
+                option.innerHTML = "Select";
+                select.appendChild(option);
+                var oldValue=data["variables"][fullId];
+                for(var k=0;k<block["content"]["questions"][j]["options"].length;k++){
+                    var option = document.createElement("option");
+                    option.innerHTML = block["content"]["questions"][j]["options"][k]["label"];
+                    if (block["content"]["questions"][j]["options"][k]["color"]!=undefined){
+                        option.setAttribute("color",block["content"]["questions"][j]["options"][k]["color"]);
+                    }
+                    option.value=block["content"]["questions"][j]["options"][k]["value"];
+                    select.appendChild(option);                    
+                    if (oldValue==option.value){
+                        select.selectedIndex=k+1;
+                        this.completed[0]++;
+                        if (block["content"]["questions"][j]["options"][k]["color"]!=undefined){
+                            td.className="table-"+block["content"]["questions"][j]["options"][k]["color"];
+                        }    
+                    }
+                }
+                this.completed[1]++;
+                select.addEventListener('change', (e) => {
+                    if (e.target.selectedIndex==0){
+                        delete data["variables"][e.target.id];
+                        this.completed[0]--;
+                    }
+                    else{
+                        if (data["variables"][e.target.id]==undefined){
+                            this.completed[0]++;
+                        }
+                        data["variables"][e.target.id]=e.target.value;
+                    }
+                    var selectedOption = e.target.options[e.target.selectedIndex];
+                    var color = selectedOption.getAttribute('color');
+                    var td=e.target.parentElement;
+                    if (color!=undefined){                    
+                        td.className="table-"+color;
+                    }
+                    else{
+                        td.className="";
+                    }
+                    this.completion();
+                    saveSurvey();
+                });    
+            }
+        }
+        this.completion();
+    }
+  
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+    }
+  }
+  
+    
+//add class to lookup dictionary
+blockLookup["multi_row_select"]=MultiRowSelect;
+class SimpleText {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID=blockID;
+        this.parent=parent;
+        //keep track of completion
+        this.completed=[0,0];
+        var div=document.createElement("div");
+        root.appendChild(div);
+        if (block["content"]["verticalHeight"]){
+            div.style.overflowY="auto";
+            div.style.height=block["content"]["verticalHeight"]+"vh";
+        }
+        //write title (if exists)
+        if (block["content"]["title"]!=undefined){
+            var h=document.createElement("h"+block["content"]["title"]["size"]);
+            div.appendChild(h);
+            h.innerHTML=block["content"]["title"]["text"];
+        }
+        //write body (if exists)
+        if (block["content"]["body"]!=undefined){
+            if (block["content"]["body"]["is_table"]==true){
+                var tbl = document.createElement("table");
+                tbl.className = "table table-striped table-hover";
+                root.appendChild(tbl);
+                var tbody = document.createElement("tbody");
+                tbl.appendChild(tbody);
+                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                    var row = document.createElement("tr");
+                    tbody.appendChild(row);
+                    var rowData = block["content"]["body"]["text"][i];
+                    // If rowData is an array, create a cell for each item
+                    if (Array.isArray(rowData)) {
+                        for (var j = 0; j < rowData.length; j++) {
+                            var td = document.createElement("td");
+                            row.appendChild(td);
+                            td.innerHTML = rowData[j];
+                        }
+                    } else {
+                        // Fallback: treat as single column
+                        var td = document.createElement("td");
+                        row.appendChild(td);
+                        td.innerHTML = rowData;
+                    }
+                }
+            }
+            else{
+                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                    var p=document.createElement("p");
+                    div.appendChild(p);
+                    p.innerHTML=block["content"]["body"]["text"][i];    
+                }    
+            }
+        }
+        this.completion();
+    }
+  
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+    }
+  }
+  
+    
+//add class to lookup dictionary
+blockLookup["text"]=SimpleText;
+var saveSurvey = function() {
+            //we assume that the data is stored in tabData
+            fetch("https://www.kv.econlabs.org/" + reviewerID, {
+                method: 'PUT',
+                headers: {
+                    'Content-type': 'text'
+                },
+                body: JSON.stringify(data)
+            }).then((data) => {
+                console.log("data saved");
+            }).catch((error) => {
+                console.log(error)
+            });
+};
+
+var completion = function(blockID,completed,total){
+    if (total==0){
+        document.getElementById("completedstatus").innerHTML="100% completed";
+    }
+    else{
+        document.getElementById("completedstatus").innerHTML=Math.floor(100*completed/total)+ "% completed";
+    }
+}
+
+//populate survey when loading
+var blocks=[];
+var loadSurvey = async function(){
+    try{
+        var response = await fetch(this.serverURL + reviewerID);
+    }
+    catch(e){
+        console.log("network is down");
+        document.getElementById("completedstatus").innerHTML="SERVER UNAVAILABLE";
+        return;
+    }
+    if (!response.ok){
+        console.log("no stored data");
+        data={
+            "active": {},
+            "variables":this.dataDefaults
+        };
+    }
+    else{
+        var text= await response.text();
+        data=JSON.parse(text);
+        console.log("stored data retrieved");
+    }
+    //now build the survey
+    var root=document.getElementById("rootblock");
+    blocks.push(new blockLookup[rootBlock["type"]](root,rootBlock,this,blocks.length));
+};
+
+
+(async() => {
+    await loadSurvey(); 
+ })();
+
+    </script>
+
+
+</body>
+
+</html>
