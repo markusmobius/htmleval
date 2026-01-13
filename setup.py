@@ -21,7 +21,6 @@ setup(
     package_dir={"htmleval": "src"},
     packages=["htmleval"] + [f"htmleval.{pkg}" for pkg in find_namespace_packages(where="src")],
     install_requires=[
-        "fuzzywuzzy[speedup]",
         "requests",
     ],
     python_requires=">=3.7",
