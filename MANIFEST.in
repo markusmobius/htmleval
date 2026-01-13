@@ -1,0 +1,7 @@
+graft src/html
+graft src/js
+graft src/json
+include README.md
+include LICENSE
+include requirements.txt
+global-exclude *.py[cod]
