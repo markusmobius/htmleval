@@ -9,8 +9,10 @@ class MultiRowSelectQuestion:
 
 class MultiRowSelect:
 
-    def __init__(self,rowLabels: list[str],questions: list[MultiRowSelectQuestion]):
+    def __init__(self,rowLabels: list[str],questions: list[MultiRowSelectQuestion], signal: str = None, listeners: list[str] = None):
         self.type="multi_row_select"
+        self.signal = signal
+        self.listeners = listeners if listeners is not None else []
         self.content={
                 "rowLabels" : rowLabels,
                 "questions": questions,

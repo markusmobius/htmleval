@@ -1,31 +1,37 @@
 class SimpleText {
 
     constructor(root, block, parent, blockID) {
-        this.blockID=blockID;
-        this.parent=parent;
+        this.blockID = blockID;
+        this.parent = parent;
         //keep track of completion
-        this.completed=[0,0];
-        var div=document.createElement("div");
-        root.appendChild(div);
-        if (block["content"]["verticalHeight"]){
-            div.style.overflowY="auto";
-            div.style.height=block["content"]["verticalHeight"]+"vh";
+        this.completed = [0, 0];
+
+        // Create wrapper for the whole block
+        var container = document.createElement("div");
+        container.className = "text-content";
+        root.appendChild(container);
+
+        var div = document.createElement("div");
+        container.appendChild(div);
+        if (block["content"]["verticalHeight"]) {
+            div.style.overflowY = "auto";
+            div.style.height = block["content"]["verticalHeight"] + "vh";
         }
         //write title (if exists)
-        if (block["content"]["title"]!=undefined){
-            var h=document.createElement("h"+block["content"]["title"]["size"]);
+        if (block["content"]["title"] != undefined) {
+            var h = document.createElement("h" + block["content"]["title"]["size"]);
             div.appendChild(h);
-            h.innerHTML=block["content"]["title"]["text"];
+            h.innerHTML = block["content"]["title"]["text"];
         }
         //write body (if exists)
-        if (block["content"]["body"]!=undefined){
-            if (block["content"]["body"]["is_table"]==true){
+        if (block["content"]["body"] != undefined) {
+            if (block["content"]["body"]["is_table"] == true) {
                 var tbl = document.createElement("table");
                 tbl.className = "table table-striped table-hover";
-                root.appendChild(tbl);
+                container.appendChild(tbl);
                 var tbody = document.createElement("tbody");
                 tbl.appendChild(tbody);
-                for(var i=0;i<block["content"]["body"]["text"].length;i++){
+                for (var i = 0; i < block["content"]["body"]["text"].length; i++) {
                     var row = document.createElement("tr");
                     tbody.appendChild(row);
                     var rowData = block["content"]["body"]["text"][i];
@@ -44,23 +50,27 @@ class SimpleText {
                     }
                 }
             }
-            else{
-                for(var i=0;i<block["content"]["body"]["text"].length;i++){
-                    var p=document.createElement("p");
+            else {
+                for (var i = 0; i < block["content"]["body"]["text"].length; i++) {
+                    var p = document.createElement("p");
                     div.appendChild(p);
-                    p.innerHTML=block["content"]["body"]["text"][i];    
-                }    
+                    p.innerHTML = block["content"]["body"]["text"][i];
+                }
             }
         }
+
+        // Register Signal
+        registerSignal(container, block);
+
         this.completion();
     }
-  
+
     //completion method
     completion() {
-        this.parent.completion(this.blockID,this.completed[0],this.completed[1]);
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
     }
-  }
-  
-    
+}
+
+
 //add class to lookup dictionary
-blockLookup["text"]=SimpleText;
+blockLookup["text"] = SimpleText;

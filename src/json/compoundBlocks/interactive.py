@@ -20,8 +20,10 @@ class InteractiveParagraph:
 
 class Interactive:
 
-    def __init__(self):
+    def __init__(self, signal: str = None, listeners: list[str] = None):
         self.type="interactive"
+        self.signal = signal
+        self.listeners = listeners if listeners is not None else []
         self.content=[]
 
     def addParagraph(self,p : InteractiveParagraph):

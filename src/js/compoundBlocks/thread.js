@@ -7,10 +7,14 @@ class Thread {
         //keep track of completion
         this.completed = {};
 
+        // Create Wrapper for entire Thread (Text + Children)
+        var threadWrapper = document.createElement("div");
+        root.appendChild(threadWrapper);
+
         // Render Text Content (Title + Body)
         var textDiv = document.createElement("div");
         textDiv.className = "thread-content";
-        root.appendChild(textDiv);
+        threadWrapper.appendChild(textDiv);
 
         // Title
         if (block["content"] && block["content"]["title"] != undefined) {
@@ -31,7 +35,7 @@ class Thread {
         // Render Child Threads Container
         var container = document.createElement("div");
         container.className = "thread-container";
-        root.appendChild(container);
+        threadWrapper.appendChild(container);
 
         this.bubbleUp = false;
         // Loop over child threads
@@ -45,6 +49,11 @@ class Thread {
                 blocks.push(new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, blocks.length));
             }
         }
+
+        // Register Signal
+        // listener: threadWrapper (show/hide whole branch)
+        // emitter: textDiv (hovering content triggers signal)
+        registerSignal(threadWrapper, block, textDiv);
     }
 
     //completion method

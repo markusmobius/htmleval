@@ -2,8 +2,10 @@ from src.json.simpleBlocks.multiRowOption import MultiRowOption
 
 class MultiRowChecked:
 
-    def __init__(self, rowLabel: str, id: dict, options: list[MultiRowOption]):
+    def __init__(self, rowLabel: str, id: dict, options: list[MultiRowOption], signal: str = None, listeners: list[str] = None):
         self.type = "multi_row_checked"
+        self.signal = signal
+        self.listeners = listeners if listeners is not None else []
         self.content = {
             "rowLabel": rowLabel,
             "id": id,
