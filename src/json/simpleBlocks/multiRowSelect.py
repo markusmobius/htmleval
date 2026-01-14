@@ -1,4 +1,4 @@
-from src.json.simpleBlocks.multiRowOption import MultiRowOption
+from .multiRowOption import MultiRowOption
 
 class MultiRowSelectQuestion:
 
