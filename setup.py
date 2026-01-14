@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 
 setup(
     name="htmleval",
-    version="0.1.1",
+    version="0.1.2",
     description="A Python package that facilitates the creation of HTML evaluations.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

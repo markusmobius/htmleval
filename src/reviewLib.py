@@ -3,6 +3,7 @@ import json
 import uuid
 import requests
 from typing import Dict
+from importlib.resources import files
 
 
 class Review:
@@ -44,8 +45,13 @@ class Review:
                     continue
     
             #read HTML template
-            with open(os.path.join(".","src","html","template.html"), 'r') as f:
-                html = f.read()
+            #Use module path, to run with pip install
+            try:
+                html = (files("htmleval.html") / "template.html").read_text()
+            #if we can't find the module, assume run it relative path (assume it was cloned)
+            except ModuleNotFoundError as e:
+                with open(os.path.join(".","src","html","template.html"), 'r') as f:
+                    html = f.read()
             
             #replace reviewer and evaltitle
             html=html.replace("REVIEWERNAME",reviewer)
@@ -70,20 +76,42 @@ class Review:
             #include all javascript
             js=[]
             #cycle over the compound blocks
-            compoundDir=os.path.join(".","src","js","compoundBlocks")
-            for fname in os.listdir(compoundDir):
-                if os.path.isfile(os.path.join(compoundDir, fname)):
-                    with open(os.path.join(compoundDir,fname)) as f:
-                        js.append(f.read())
+
+            try:
+                compound_dir = files("htmleval") / "js" / "compoundBlocks"
+                for entry in compound_dir.iterdir():
+                    if entry.is_file():
+                        js.append(entry.read_text())
+
+            except ModuleNotFoundError as e:
+                compoundDir=os.path.join(".","src","js","compoundBlocks")
+                for fname in os.listdir(compoundDir):
+                    if os.path.isfile(os.path.join(compoundDir, fname)):
+                        with open(os.path.join(compoundDir,fname)) as f:
+                            js.append(f.read())
+
             #cycle over the simple blocks
-            simpleDir=os.path.join(".","src","js","simpleBlocks")
-            for fname in os.listdir(simpleDir):
-                if os.path.isfile(os.path.join(simpleDir, fname)):
-                    with open(os.path.join(simpleDir,fname)) as f:
-                        js.append(f.read())            
+            try:
+                simple_dir = files("htmleval") / "js" / "simpleBlocks"
+                for entry in simple_dir.iterdir():
+                    if entry.is_file():
+                        js.append(entry.read_text())
+            
+            except ModuleNotFoundError as e:
+                simpleDir=os.path.join(".","src","js","simpleBlocks")
+                for fname in os.listdir(simpleDir):
+                    if os.path.isfile(os.path.join(simpleDir, fname)):
+                        with open(os.path.join(simpleDir,fname)) as f:
+                            js.append(f.read())            
+            
             #add the main build script
-            with open(os.path.join(".","src","js","build.js"), 'r') as f:
-                js.append(f.read())
+            try:
+                js_text = (files("htmleval.js") / "build.js").read_text()
+                js.append(js_text)
+            except ModuleNotFoundError as e:
+                with open(os.path.join(".","src","js","build.js"), 'r') as f:
+                    js.append(f.read())
+            
             #insert the JS scripts
             html=html.replace("BUILDJS", '\n'.join(js))            
             html=html.replace("SERVERURL",self.serverURL)
