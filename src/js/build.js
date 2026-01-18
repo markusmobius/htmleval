@@ -21,14 +21,12 @@ var emitSignal = function (signal) {
     activeSignal = signal;
     signalListeners.forEach(function (item) {
         if (activeSignal === null) {
-            // Default state: Hide listeners
-            item.element.style.display = "none";
+            item.element.classList.remove("signal-highlight");
         } else {
-            // Signal is active
             if (item.listeners.includes(activeSignal)) {
-                item.element.style.display = "";
+                item.element.classList.add("signal-highlight");
             } else {
-                item.element.style.display = "none";
+                item.element.classList.remove("signal-highlight");
             }
         }
     });
