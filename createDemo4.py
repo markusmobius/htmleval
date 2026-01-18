@@ -22,19 +22,19 @@ layout_col.add_column([menu_col])
 layout_col.add_column([content_col])
 
 # Menu Items
-menu_item_1 = Text(title="Click Me for Info A", titleSize=4, body=["Emits Signal A"], signal="A")
-menu_item_2 = Text(title="Click Me for Info B", titleSize=4, body=["Emits Signal B"], signal="B")
-menu_item_3 = Text(title="Click Me for Info C", titleSize=4, body=["Emits Signal C"], signal="C")
+menu_item_1 = Text(title="Click Me for Info A", titleSize=4, body=["Emits Signal A"], signal="A", listeners=["A"], highlight=True)
+menu_item_2 = Text(title="Click Me for Info B", titleSize=4, body=["Emits Signal B"], signal="B", listeners=["B"], highlight=True)
+menu_item_3 = Text(title="Click Me for Info C", titleSize=4, body=["Emits Signal C"], signal="C", listeners=["C"], highlight=True)
 
 menu_col.add_column([menu_item_1, menu_item_2, menu_item_3])
 
 # Content Items
 # Info A: Listens to A
-info_a = Text(title="Information A", titleSize=3, body=["This is details for A.", "Visible only when A is signalled (or default)."], listeners=["A"])
+info_a = Text(title="Information A", titleSize=3, body=["This is details for A.", "Visible only when A is signalled (or default)."], listeners=["A"], highlight=True)
 # Info B: Listens to B
-info_b = Text(title="Information B", titleSize=3, body=["This is details for B."], listeners=["B"])
+info_b = Text(title="Information B", titleSize=3, body=["This is details for B."], listeners=["B"], highlight=True)
 # Info C: Listens to C
-info_c = Text(title="Information C", titleSize=3, body=["This is details for C."], listeners=["C"])
+info_c = Text(title="Information C", titleSize=3, body=["This is details for C."], listeners=["C"], highlight=True)
 
 content_col.add_column([info_a, info_b, info_c])
 

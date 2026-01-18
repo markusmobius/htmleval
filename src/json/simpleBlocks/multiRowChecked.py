@@ -2,7 +2,7 @@ from .multiRowOption import MultiRowOption
 
 class MultiRowChecked:
 
-    def __init__(self, rowLabel: str, id: dict, options: list[MultiRowOption], signal: str = None, listeners: list[str] = None):
+    def __init__(self, rowLabel: str, id: dict, options: list[MultiRowOption], signal: str = None, listeners: list[str] = None, highlight = False):
         self.type = "multi_row_checked"
         self.signal = signal
         self.listeners = listeners if listeners is not None else []
@@ -10,7 +10,8 @@ class MultiRowChecked:
             "rowLabel": rowLabel,
             "id": id,
             "rows": [],
-            "options": options
+            "options": options,
+            "highlight": highlight
         }
 
     def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None):

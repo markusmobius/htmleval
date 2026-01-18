@@ -20,13 +20,27 @@ var signalListeners = []; // Objects { element: element, listeners: ["sig1", ...
 var emitSignal = function (signal) {
     activeSignal = signal;
     signalListeners.forEach(function (item) {
-        if (activeSignal === null) {
-            item.element.classList.remove("signal-highlight");
-        } else {
-            if (item.listeners.includes(activeSignal)) {
-                item.element.classList.add("signal-highlight");
-            } else {
+        if (item.highlight === true) {
+            if (activeSignal === null) {
                 item.element.classList.remove("signal-highlight");
+            } else {
+                if (item.listeners.includes(activeSignal)) {
+                    item.element.classList.add("signal-highlight");
+                } else {
+                    item.element.classList.remove("signal-highlight");
+                }
+            }
+        } else {
+            if (activeSignal === null) {
+                // Default state: Hide listeners
+                item.element.style.display = "none";
+            } else {
+                // Signal is active
+                if (item.listeners.includes(activeSignal)) {
+                    item.element.style.display = "";
+                } else {
+                    item.element.style.display = "none";
+                }
             }
         }
     });
@@ -46,7 +60,8 @@ var registerSignal = function (element, blockData, emitterElement = null) {
     if (blockData.listeners && blockData.listeners.length > 0) {
         signalListeners.push({
             element: element,
-            listeners: blockData.listeners
+            listeners: blockData.listeners,
+            highlight: blockData["content"]["highlight"]
         });
     }
 }
