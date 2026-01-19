@@ -18,6 +18,10 @@ class Column {
         //create column
         var column=document.createElement("div");
         column.className="col";
+        if (block["styleData"]["verticalHeight"]) {
+            column.style.overflowY = "auto";
+            column.style.height = block["styleData"]["verticalHeight"] + "vh";
+        }
         row.appendChild(column);
         for(var j=0;j<block["content"][i].length;j++){
           if (i==block["content"].length-1 && j==block["content"][i].length-1){

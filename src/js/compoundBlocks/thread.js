@@ -53,7 +53,7 @@ class Thread {
         // Register Signal
         // listener: threadWrapper (show/hide whole branch)
         // emitter: textDiv (hovering content triggers signal)
-        registerSignal(threadWrapper, block, textDiv);
+        registerSignal(textDiv, block, textDiv);
     }
 
     //completion method

@@ -13,7 +13,7 @@ layout_col = Column()
 root.add_column([layout_col])
 
 # Left side: Menu (Emitters)
-menu_col = Column()
+menu_col = Column(verticalHeight=50)
 
 # Right side: Content (Listeners)
 content_col = Column()
@@ -25,8 +25,12 @@ layout_col.add_column([content_col])
 menu_item_1 = Text(title="Click Me for Info A", titleSize=4, body=["Emits Signal A"], signal="A", listeners=["A"], highlight=True)
 menu_item_2 = Text(title="Click Me for Info B", titleSize=4, body=["Emits Signal B"], signal="B", listeners=["B"], highlight=True)
 menu_item_3 = Text(title="Click Me for Info C", titleSize=4, body=["Emits Signal C"], signal="C", listeners=["C"], highlight=True)
+menu_item_4 = Text(title="Click Me for Info D", titleSize=4, body=["Emits Signal F"], signal="D", listeners=["D"], highlight=True)
+menu_item_5 = Text(title="Click Me for Info E", titleSize=4, body=["Emits Signal E"], signal="E", listeners=["E"], highlight=True)
+menu_item_6 = Text(title="Click Me for Info F", titleSize=4, body=["Emits Signal F"], signal="F", listeners=["F"], highlight=True)
 
-menu_col.add_column([menu_item_1, menu_item_2, menu_item_3])
+
+menu_col.add_column([menu_item_1, menu_item_2, menu_item_3, menu_item_4, menu_item_5, menu_item_6])
 
 # Content Items
 # Info A: Listens to A
