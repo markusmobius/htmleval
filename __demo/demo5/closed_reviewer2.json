@@ -1,0 +1,12 @@
+{
+    "active": {
+        "0": 1
+    },
+    "variables": {
+        "[\"headline_1\",\"sentiment\"]": "positive",
+        "[\"headline_2\",\"sentiment\"]": "positive",
+        "[\"headline_3\",\"sentiment\"]": "positive",
+        "[\"claim_1\",\"fact_check\"]": "false",
+        "[\"claim_2\",\"fact_check\"]": "true"
+    }
+}

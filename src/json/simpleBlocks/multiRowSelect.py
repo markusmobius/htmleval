@@ -2,10 +2,12 @@ from .multiRowOption import MultiRowOption
 
 class MultiRowSelectQuestion:
 
-    def __init__(self,label: str, id: dict, options : list[MultiRowOption]):
+    def __init__(self,label: str, id: dict, options : list[MultiRowOption], correctValue: str = None):
         self.label=label
         self.id=id
         self.options=options
+        if correctValue is not None:
+            self.correctValue=correctValue
 
 class MultiRowSelect:
 

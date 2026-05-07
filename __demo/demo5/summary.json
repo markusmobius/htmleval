@@ -1,0 +1,44 @@
+{
+    "majority_votes": {
+        "[\"claim_1\",\"fact_check\"]": "true",
+        "[\"claim_2\",\"fact_check\"]": "true",
+        "[\"headline_1\",\"sentiment\"]": "positive",
+        "[\"headline_2\",\"sentiment\"]": "negative",
+        "[\"headline_3\",\"sentiment\"]": "neutral"
+    },
+    "per_question": {
+        "[\"claim_1\",\"fact_check\"]": {
+            "true": 1,
+            "false": 1
+        },
+        "[\"claim_2\",\"fact_check\"]": {
+            "true": 2
+        },
+        "[\"headline_1\",\"sentiment\"]": {
+            "positive": 2
+        },
+        "[\"headline_2\",\"sentiment\"]": {
+            "negative": 1,
+            "positive": 1
+        },
+        "[\"headline_3\",\"sentiment\"]": {
+            "neutral": 1,
+            "positive": 1
+        }
+    },
+    "reviewers": [
+        "reviewer1",
+        "reviewer2"
+    ],
+    "stats": {
+        "total_items": 5,
+        "num_reviewers": 2,
+        "agreement_rate": 0.4,
+        "majority_error_rate": 0.4,
+        "total_with_correct_value": 5,
+        "per_reviewer_error_rate": {
+            "reviewer1": 0.4,
+            "reviewer2": 0.19999999999999996
+        }
+    }
+}

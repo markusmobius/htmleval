@@ -2,7 +2,8 @@ import os
 import json
 import uuid
 import requests
-from typing import Dict
+from typing import Dict, Any, Optional
+from collections import Counter
 from importlib.resources import files
 
 
@@ -14,7 +15,7 @@ class Review:
         self.serverURL = serverURL
 
     #create new review
-    def create(self, targetFolder : str, defaults : Dict[str, str], reviewers : list[str], reviewerIds : Dict[str, str]=None):
+    def create(self, targetFolder : str, defaults : Dict[str, str], reviewers : list[str], reviewerIds : Dict[str, str]=None, readOnly : bool = False, metadata : Dict[str, Any] = None):
         # Path to the reviewer IDs file
         reviewerIdsDisk = os.path.join(targetFolder, "reviewer_ids.json")
 
@@ -22,6 +23,7 @@ class Review:
         if reviewerIds is None:
             reviewerIds = {}
         # Merge with on-disk file if it exists (disk is authoritative for existing IDs)
+        reviewerIdsDisk_existing = {}
         if os.path.exists(reviewerIdsDisk):
             try:
                 with open(reviewerIdsDisk, 'r') as f:
@@ -33,7 +35,8 @@ class Review:
                 print(f"Warning: could not read existing reviewer IDs '{reviewerIdsDisk}': {e}")
 
         # Track whether we actually add any new reviewer IDs (or overwrite HTML files)
-        reviewer_ids_changed = False
+        # Detect if passed-in reviewerIds already contain entries not on disk
+        reviewer_ids_changed = reviewerIds != reviewerIdsDisk_existing
 
         for reviewer in reviewers: 
             htmlFileName=f"review_{reviewer}.html"
@@ -72,6 +75,9 @@ class Review:
                 html=html.replace("DEFAULTS", json.dumps(defaults))            
             else:
                 html=html.replace("DEFAULTS", "{}")
+
+            #replace READONLY flag
+            html=html.replace("READONLY", "true" if readOnly else "false")
 
             #include all javascript
             js=[]
@@ -131,6 +137,12 @@ class Review:
         else:
             print("No new reviewer IDs added; existing reviewer_ids.json left unchanged.")
 
+        # Save metadata if provided
+        if metadata is not None:
+            metadata_path = os.path.join(targetFolder, "metadata.json")
+            with open(metadata_path, "w") as f:
+                json.dump(metadata, f, indent=4)
+
     def close_eval(self, targetFolder : str):
         # Path to the reviewer IDs file
         reviewerIdsDisk = os.path.join(targetFolder, "reviewer_ids.json")
@@ -143,6 +155,8 @@ class Review:
             except Exception as e:
                 print(f"Warning: could not read existing reviewer IDs '{reviewerIdsDisk}': {e}")
         for reviewer, reviewerID in reviewerIds.items():
+            if reviewer.startswith("_") or reviewer == "summary":
+                continue
             print(f"Retrieving data for reviewer {reviewer}")
             # Do a get request to pull down the data.
             url = self.serverURL + reviewerID
@@ -160,3 +174,240 @@ class Review:
                     json.dump(data, file, indent=4)        
             else:
                 print(f"Failed to download data. HTTP Status code: {response.status_code}")
+
+    def aggregate_closed_reviews(self, targetFolder: str) -> Dict[str, Any]:
+        """Aggregate closed review data from all reviewers.
+        
+        Returns a dict with:
+            - 'majority_votes': {variable_key: majority_value} for use as defaults
+            - 'per_question': {variable_key: {value: count}} raw counts per question
+            - 'reviewers': list of reviewer names that had closed data
+            - 'stats': summary statistics (error_rate, agreement_rate, total_items)
+        """
+        # Load block JSON to extract correctValue mappings
+        block_data = json.loads(self.block)
+        correct_values = self._extract_correct_values(block_data)
+
+        # Load all closed review files
+        closed_reviews = {}
+        reviewerIdsDisk = os.path.join(targetFolder, "reviewer_ids.json")
+        if os.path.exists(reviewerIdsDisk):
+            with open(reviewerIdsDisk, 'r') as f:
+                reviewer_ids = json.load(f)
+        else:
+            return {"majority_votes": {}, "per_question": {}, "reviewers": [], "stats": {}}
+
+        for reviewer, _ in reviewer_ids.items():
+            if reviewer.startswith("_") or reviewer == "summary":
+                continue
+            closed_path = os.path.join(targetFolder, f"closed_{reviewer}.json")
+            if os.path.exists(closed_path):
+                with open(closed_path, 'r') as f:
+                    data = json.load(f)
+                closed_reviews[reviewer] = data.get("variables", {})
+
+        if not closed_reviews:
+            return {"majority_votes": {}, "per_question": {}, "reviewers": [], "stats": {}}
+
+        # Collect all variable keys across reviewers
+        all_keys = set()
+        for variables in closed_reviews.values():
+            all_keys.update(variables.keys())
+
+        # Compute per-question counts and majority votes
+        per_question = {}
+        majority_votes = {}
+        agreements = 0
+        total_items = 0
+        correct_count = 0
+        total_with_correct = 0
+
+        for key in sorted(all_keys):
+            counts = Counter()
+            for reviewer, variables in closed_reviews.items():
+                if key in variables:
+                    counts[variables[key]] += 1
+            per_question[key] = dict(counts)
+
+            # Majority vote
+            if counts:
+                majority = counts.most_common(1)[0][0]
+                majority_votes[key] = majority
+                total_items += 1
+
+                # Agreement: all reviewers gave the same answer
+                if len(counts) == 1 and sum(counts.values()) == len(closed_reviews):
+                    agreements += 1
+
+                # Error rate: check against correctValue if available
+                # Variable keys are JSON-stringified [id_dict, question_id]
+                # Match to correctValue by question_id
+                try:
+                    parsed_key = json.loads(key)
+                    if isinstance(parsed_key, list) and len(parsed_key) >= 2:
+                        question_id = parsed_key[-1]
+                        if question_id in correct_values:
+                            total_with_correct += 1
+                            if majority == correct_values[question_id]:
+                                correct_count += 1
+                except (json.JSONDecodeError, TypeError):
+                    pass
+
+        stats = {
+            "total_items": total_items,
+            "num_reviewers": len(closed_reviews),
+            "agreement_rate": agreements / total_items if total_items > 0 else 0,
+        }
+        if total_with_correct > 0:
+            stats["majority_error_rate"] = 1.0 - (correct_count / total_with_correct)
+            stats["total_with_correct_value"] = total_with_correct
+
+        # Per-reviewer error rates against correctValue
+        per_reviewer_error = {}
+        for reviewer, variables in closed_reviews.items():
+            r_correct = 0
+            r_total = 0
+            for key, value in variables.items():
+                try:
+                    parsed_key = json.loads(key)
+                    if isinstance(parsed_key, list) and len(parsed_key) >= 2:
+                        question_id = parsed_key[-1]
+                        if question_id in correct_values:
+                            r_total += 1
+                            if value == correct_values[question_id]:
+                                r_correct += 1
+                except (json.JSONDecodeError, TypeError):
+                    pass
+            if r_total > 0:
+                per_reviewer_error[reviewer] = 1.0 - (r_correct / r_total)
+        if per_reviewer_error:
+            stats["per_reviewer_error_rate"] = per_reviewer_error
+
+        return {
+            "majority_votes": majority_votes,
+            "per_question": per_question,
+            "reviewers": list(closed_reviews.keys()),
+            "stats": stats
+        }
+
+    def _serialize_block(self, obj):
+        """Serialize a block object to a JSON-compatible dict."""
+        return json.loads(json.dumps(obj, default=lambda x: x.__dict__))
+
+    def _prompt_overwrite(self, path):
+        """If path exists, prompt for overwrite. Returns True if ok to write."""
+        if os.path.exists(path):
+            print(f"ignoring {path}: already exists. Would you like to overwrite?")
+            return input("y/n: ").lower() == "y"
+        return True
+
+    def generate_summary(self, targetFolder: str):
+        """Generate a read-only summary reviewer HTML with majority-vote defaults.
+        
+        Metadata is loaded from metadata.json (saved by create()).
+        """
+        from src.json.compoundBlocks.column import Column as ColumnBlock
+        from src.json.simpleBlocks.text import Text as TextBlock
+
+        # Load metadata from disk
+        metadata_path = os.path.join(targetFolder, "metadata.json")
+        metadata = None
+        if os.path.exists(metadata_path):
+            with open(metadata_path, "r") as f:
+                metadata = json.load(f)
+
+        aggregated = self.aggregate_closed_reviews(targetFolder)
+        stats = aggregated["stats"]
+        correct_values = self._extract_correct_values(json.loads(self.block))
+
+        # Stats table
+        stats_rows = [
+            ["Reviewers", ", ".join(aggregated["reviewers"])],
+            ["Total items", str(stats.get("total_items", 0))],
+            ["Agreement rate (unanimous)", f"{stats.get('agreement_rate', 0):.1%}"],
+        ]
+        if "majority_error_rate" in stats:
+            n = stats["total_with_correct_value"]
+            stats_rows.append([f"Majority error rate ({n} items with correctValue, ties broken by first reviewer)", f"{stats['majority_error_rate']:.1%}"])
+        for reviewer, rate in stats.get("per_reviewer_error_rate", {}).items():
+            stats_rows.append([f"Error rate ({reviewer})", f"{rate:.1%}"])
+
+        # Per-question results table
+        results_rows = [["<b>Question</b>", "<b>Majority Answer</b>", "<b>Answer Counts</b>"]]
+        for key in sorted(aggregated["per_question"]):
+            majority = aggregated["majority_votes"].get(key, "")
+            counts = aggregated["per_question"][key]
+            counts_str = ", ".join(f"{v}: {c}" for v, c in counts.items())
+            marker = self._correct_value_marker(key, majority, correct_values)
+            results_rows.append([key, f"<b>{majority}</b>{marker}", counts_str])
+
+        # Build block data: original tabs + Summary + Metadata
+        block_data = json.loads(self.block)
+        if block_data.get("type") == "tabs":
+            summary_col = ColumnBlock()
+            summary_col.add_column([
+                TextBlock(title="Statistics", titleSize=3, body=stats_rows, is_table=True),
+                TextBlock(title="Per-Question Results", titleSize=3, body=results_rows, is_table=True),
+            ])
+            block_data["content"].append({"tabName": "Summary", "block": self._serialize_block(summary_col)})
+
+            if metadata:
+                metadata_rows = [[f"<b>{k}</b>", f"<pre>{json.dumps(v, indent=2)}</pre>" if isinstance(v, (dict, list)) else str(v)] for k, v in metadata.items()]
+                block_data["content"].append({"tabName": "Metadata", "block": self._serialize_block(TextBlock(title="Evaluation Metadata", titleSize=3, body=metadata_rows, is_table=True))})
+
+        # Create read-only summary HTML
+        summary_review = Review(block=json.dumps(block_data), evalTitle=self.evalTitle + " (Summary)", serverURL=self.serverURL)
+        summary_review.create(targetFolder=targetFolder, defaults=aggregated["majority_votes"], reviewers=["summary"], reviewerIds={"summary": str(uuid.uuid4())}, readOnly=True)
+
+        # Save aggregated data
+        summary_json_path = os.path.join(targetFolder, "summary.json")
+        if self._prompt_overwrite(summary_json_path):
+            with open(summary_json_path, "w") as f:
+                json.dump(aggregated, f, indent=4)
+
+        return aggregated
+
+    def _correct_value_marker(self, key, majority, correct_values):
+        """Return ✓/✗ marker if this key has a correctValue."""
+        try:
+            parsed = json.loads(key)
+            if isinstance(parsed, list) and len(parsed) >= 2:
+                qid = parsed[-1]
+                if qid in correct_values:
+                    return " ✓" if majority == correct_values[qid] else f" ✗ (correct: {correct_values[qid]})"
+        except (json.JSONDecodeError, TypeError):
+            pass
+        return ""
+
+    @staticmethod
+    def _extract_correct_values(block_data: Any, result: Optional[Dict] = None) -> Dict:
+        """Walk the block tree and extract {question_id: correctValue} mappings."""
+        if result is None:
+            result = {}
+        if isinstance(block_data, dict):
+            # Check for MultiRowSelect questions with correctValue
+            if block_data.get("type") == "multi_row_select":
+                questions = block_data.get("content", {}).get("questions", [])
+                for q in questions:
+                    if "correctValue" in q and "id" in q:
+                        # id is a dict like {"1": "arg_present"} mapping array
+                        # index to identifier; extract the string value
+                        qid = q["id"]
+                        if isinstance(qid, dict):
+                            qid = list(qid.values())[0]
+                        result[qid] = q["correctValue"]
+            # Check for MultiRowChecked with correctValue
+            if block_data.get("type") == "multi_row_checked":
+                content = block_data.get("content", {})
+                if "correctValue" in content and "id" in content:
+                    cid = content["id"]
+                    if isinstance(cid, dict):
+                        cid = list(cid.values())[0]
+                    result[cid] = content["correctValue"]
+            # Recurse into all dict values
+            for v in block_data.values():
+                Review._extract_correct_values(v, result)
+        elif isinstance(block_data, list):
+            for item in block_data:
+                Review._extract_correct_values(item, result)
+        return result

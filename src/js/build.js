@@ -1,4 +1,5 @@
 var saveSurvey = function () {
+    if (readOnly) return;
     //we assume that the data is stored in tabData
     fetch("SERVERURL" + reviewerID, {
         method: 'PUT',
@@ -106,4 +107,8 @@ var loadSurvey = async function () {
 
 (async () => {
     await loadSurvey();
+    if (readOnly) {
+        document.querySelectorAll('select').forEach(function(el) { el.disabled = true; });
+        document.querySelectorAll('input[type="checkbox"]').forEach(function(el) { el.disabled = true; });
+    }
 })();
