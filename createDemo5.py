@@ -32,12 +32,12 @@ sentiment_q = MultiRowSelectQuestion(
     label="Sentiment",
     id={1: "sentiment"},
     options=sentiment_options,
-    correctValue="positive",
 )
 sentiment_table = MultiRowSelect(rowLabels=["Headline"], questions=[sentiment_q])
-sentiment_table.add_row(["Economy grows 5% in Q1"], id={0: "headline_1"})
-sentiment_table.add_row(["New park opens downtown"], id={0: "headline_2"})
-sentiment_table.add_row(["Stock market hits record high"], id={0: "headline_3"})
+# Per-row correctValues: each headline has its own expected sentiment (e.g., from an LLM classifier)
+sentiment_table.add_row(["Economy grows 5% in Q1"], id={0: "headline_1"}, correctValues={"sentiment": "positive"})
+sentiment_table.add_row(["Unemployment rises sharply"], id={0: "headline_2"}, correctValues={"sentiment": "negative"})
+sentiment_table.add_row(["New park opens downtown"], id={0: "headline_3"}, correctValues={"sentiment": "neutral"})
 
 col1.add_column([
     Text(title="Classify headline sentiment", titleSize=3, body=["Select the sentiment for each headline."]),

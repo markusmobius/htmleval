@@ -77,22 +77,27 @@ print(f"Survey generated in {target_folder}")
 
 ## Correct Values
 
-Questions can include a `correctValue` parameter for computing error rates during aggregation.
+Questions can include a `correctValue` for computing error rates during aggregation. This can be set at the question level (applies to all rows) or per-row (overrides the question-level value).
 
 ```python
 from htmleval.json.simpleBlocks.multiRowSelect import MultiRowSelect, MultiRowSelectQuestion
 
-sentiment_q = MultiRowSelectQuestion(
-    label="Sentiment", id={1: "sentiment"}, options=options,
-    correctValue="positive"  # ground truth for error rate computation
-)
-
-# MultiRowChecked also supports correctValue
+# Question-level correctValue (same for all rows)
 question_block = MultiRowChecked(
     rowLabel="Claim", id={1: "fact_check"}, options=options,
     correctValue="true"
 )
+
+# Per-row correctValues (each row has its own expected answer)
+sentiment_q = MultiRowSelectQuestion(
+    label="Sentiment", id={1: "sentiment"}, options=options
+)
+table = MultiRowSelect(rowLabels=["Headline"], questions=[sentiment_q])
+table.add_row(["Economy grows 5%"], id={0: "h1"}, correctValues={"sentiment": "positive"})
+table.add_row(["Unemployment rises"], id={0: "h2"}, correctValues={"sentiment": "negative"})
 ```
+
+Per-row `correctValues` take priority over question-level `correctValue` during aggregation.
 
 ## Closing and Aggregating Reviews
 

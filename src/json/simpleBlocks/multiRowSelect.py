@@ -22,10 +22,12 @@ class MultiRowSelect:
                 "highlight": highlight
         }
 
-    def add_row(self,text:list[str], id: dict, default_values: dict = None):
+    def add_row(self,text:list[str], id: dict, default_values: dict = None, correctValues: dict = None):
         row = {
             "text" : text,
             "id" : id
         }
+        if correctValues is not None:
+            row["correctValues"] = correctValues
         self.content["rows"].append(row)
     

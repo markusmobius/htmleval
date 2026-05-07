@@ -186,7 +186,7 @@ class Review:
         """
         # Load block JSON to extract correctValue mappings
         block_data = json.loads(self.block)
-        correct_values = self._extract_correct_values(block_data)
+        correct_values, row_correct_values = self._extract_correct_values(block_data)
 
         # Load all closed review files
         closed_reviews = {}
@@ -239,14 +239,22 @@ class Review:
                 if len(counts) == 1 and sum(counts.values()) == len(closed_reviews):
                     agreements += 1
 
-                # Error rate: check against correctValue if available
-                # Variable keys are JSON-stringified [id_dict, question_id]
-                # Match to correctValue by question_id
+                # Error rate: check against per-row correctValues first, then question-level
+                # Variable keys are JSON-stringified [row_id_dict, question_id]
                 try:
                     parsed_key = json.loads(key)
                     if isinstance(parsed_key, list) and len(parsed_key) >= 2:
+                        row_id = parsed_key[0]
                         question_id = parsed_key[-1]
-                        if question_id in correct_values:
+                        row_id_json = json.dumps(row_id, sort_keys=True)
+                        
+                        # Check per-row correctValue first
+                        row_key = (row_id_json, question_id)
+                        if row_key in row_correct_values:
+                            total_with_correct += 1
+                            if majority == row_correct_values[row_key]:
+                                correct_count += 1
+                        elif question_id in correct_values:
                             total_with_correct += 1
                             if majority == correct_values[question_id]:
                                 correct_count += 1
@@ -271,8 +279,16 @@ class Review:
                 try:
                     parsed_key = json.loads(key)
                     if isinstance(parsed_key, list) and len(parsed_key) >= 2:
+                        row_id = parsed_key[0]
                         question_id = parsed_key[-1]
-                        if question_id in correct_values:
+                        row_id_json = json.dumps(row_id, sort_keys=True)
+                        
+                        row_key = (row_id_json, question_id)
+                        if row_key in row_correct_values:
+                            r_total += 1
+                            if value == row_correct_values[row_key]:
+                                r_correct += 1
+                        elif question_id in correct_values:
                             r_total += 1
                             if value == correct_values[question_id]:
                                 r_correct += 1
@@ -318,7 +334,7 @@ class Review:
 
         aggregated = self.aggregate_closed_reviews(targetFolder)
         stats = aggregated["stats"]
-        correct_values = self._extract_correct_values(json.loads(self.block))
+        correct_values, row_correct_values = self._extract_correct_values(json.loads(self.block))
 
         # Stats table
         stats_rows = [
@@ -338,7 +354,7 @@ class Review:
             majority = aggregated["majority_votes"].get(key, "")
             counts = aggregated["per_question"][key]
             counts_str = ", ".join(f"{v}: {c}" for v, c in counts.items())
-            marker = self._correct_value_marker(key, majority, correct_values)
+            marker = self._correct_value_marker(key, majority, correct_values, row_correct_values)
             results_rows.append([key, f"<b>{majority}</b>{marker}", counts_str])
 
         # Build block data: original tabs + Summary + Metadata
@@ -367,12 +383,22 @@ class Review:
 
         return aggregated
 
-    def _correct_value_marker(self, key, majority, correct_values):
+    def _correct_value_marker(self, key, majority, correct_values, row_correct_values=None):
         """Return ✓/✗ marker if this key has a correctValue."""
         try:
             parsed = json.loads(key)
             if isinstance(parsed, list) and len(parsed) >= 2:
+                row_id = parsed[0]
                 qid = parsed[-1]
+                row_id_json = json.dumps(row_id, sort_keys=True)
+                
+                # Check per-row first
+                if row_correct_values:
+                    row_key = (row_id_json, qid)
+                    if row_key in row_correct_values:
+                        cv = row_correct_values[row_key]
+                        return " ✓" if majority == cv else f" ✗ (correct: {cv})"
+                # Fall back to question-level
                 if qid in correct_values:
                     return " ✓" if majority == correct_values[qid] else f" ✗ (correct: {correct_values[qid]})"
         except (json.JSONDecodeError, TypeError):
@@ -380,22 +406,37 @@ class Review:
         return ""
 
     @staticmethod
-    def _extract_correct_values(block_data: Any, result: Optional[Dict] = None) -> Dict:
-        """Walk the block tree and extract {question_id: correctValue} mappings."""
+    def _extract_correct_values(block_data: Any, result: Optional[Dict] = None, row_result: Optional[Dict] = None) -> Dict:
+        """Walk the block tree and extract correctValue mappings.
+        
+        Returns two dicts via result and row_result:
+            result: {question_id: correctValue} — question-level defaults
+            row_result: {(row_id_json, question_id): correctValue} — per-row overrides
+        """
         if result is None:
             result = {}
+        if row_result is None:
+            row_result = {}
         if isinstance(block_data, dict):
             # Check for MultiRowSelect questions with correctValue
             if block_data.get("type") == "multi_row_select":
                 questions = block_data.get("content", {}).get("questions", [])
+                rows = block_data.get("content", {}).get("rows", [])
                 for q in questions:
                     if "correctValue" in q and "id" in q:
-                        # id is a dict like {"1": "arg_present"} mapping array
-                        # index to identifier; extract the string value
                         qid = q["id"]
                         if isinstance(qid, dict):
                             qid = list(qid.values())[0]
                         result[qid] = q["correctValue"]
+                # Extract per-row correctValues
+                for row in rows:
+                    if "correctValues" in row and "id" in row:
+                        rid = row["id"]
+                        if isinstance(rid, dict):
+                            rid = list(rid.values())[0]
+                        row_id_json = json.dumps(rid, sort_keys=True)
+                        for q_key, cv in row["correctValues"].items():
+                            row_result[(row_id_json, q_key)] = cv
             # Check for MultiRowChecked with correctValue
             if block_data.get("type") == "multi_row_checked":
                 content = block_data.get("content", {})
@@ -406,8 +447,8 @@ class Review:
                     result[cid] = content["correctValue"]
             # Recurse into all dict values
             for v in block_data.values():
-                Review._extract_correct_values(v, result)
+                Review._extract_correct_values(v, result, row_result)
         elif isinstance(block_data, list):
             for item in block_data:
-                Review._extract_correct_values(item, result)
-        return result
+                Review._extract_correct_values(item, result, row_result)
+        return result, row_result

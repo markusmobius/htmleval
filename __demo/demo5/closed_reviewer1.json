@@ -7,6 +7,6 @@
         "[\"headline_2\",\"sentiment\"]": "negative",
         "[\"headline_3\",\"sentiment\"]": "neutral",
         "[\"claim_1\",\"fact_check\"]": "true",
-        "[\"claim_2\",\"fact_check\"]": "true"
+        "[\"claim_2\",\"fact_check\"]": "false"
     }
 }
