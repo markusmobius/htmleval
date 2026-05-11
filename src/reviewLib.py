@@ -2,7 +2,7 @@ import os
 import json
 import uuid
 import requests
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, Callable, List
 from collections import Counter
 from importlib.resources import files
 
@@ -175,18 +175,25 @@ class Review:
             else:
                 print(f"Failed to download data. HTTP Status code: {response.status_code}")
 
-    def aggregate_closed_reviews(self, targetFolder: str) -> Dict[str, Any]:
+    def aggregate_closed_reviews(self, targetFolder: str, id_parser: Optional[Callable] = None) -> Dict[str, Any]:
         """Aggregate closed review data from all reviewers.
+        
+        Args:
+            targetFolder: path to the evaluation directory
+            id_parser: optional function(row_id_string) -> dict of parsed fields.
+                       Used to enrich records when rowData is not available.
         
         Returns a dict with:
             - 'majority_votes': {variable_key: majority_value} for use as defaults
             - 'per_question': {variable_key: {value: count}} raw counts per question
             - 'reviewers': list of reviewer names that had closed data
             - 'stats': summary statistics (error_rate, agreement_rate, total_items)
+            - 'records': flat list of per-(reviewer, row, question) dicts for analysis
         """
-        # Load block JSON to extract correctValue mappings
+        # Load block JSON to extract correctValue mappings and rowData
         block_data = json.loads(self.block)
         correct_values, row_correct_values = self._extract_correct_values(block_data)
+        row_data_map = self._extract_row_data(block_data)
 
         # Load all closed review files
         closed_reviews = {}
@@ -299,11 +306,54 @@ class Review:
         if per_reviewer_error:
             stats["per_reviewer_error_rate"] = per_reviewer_error
 
+        # Build flat records for analysis
+        records = []
+        for reviewer, variables in closed_reviews.items():
+            for key, answer in variables.items():
+                try:
+                    parsed_key = json.loads(key)
+                    if isinstance(parsed_key, list) and len(parsed_key) >= 2:
+                        row_id = str(parsed_key[0])
+                        question_id = str(parsed_key[-1])
+                    else:
+                        row_id = str(parsed_key)
+                        question_id = ""
+                except (json.JSONDecodeError, TypeError):
+                    row_id = key
+                    question_id = ""
+                
+                # Get correct value for this record
+                row_id_json = json.dumps(parsed_key[0], sort_keys=True) if isinstance(parsed_key, list) and len(parsed_key) >= 2 else ""
+                row_key = (row_id_json, question_id)
+                cv = row_correct_values.get(row_key, correct_values.get(question_id, None))
+                
+                record = {
+                    "reviewer": reviewer,
+                    "row_id": row_id,
+                    "question_id": question_id,
+                    "answer": answer,
+                    "correct_value": cv,
+                }
+                
+                # Enrich with rowData if available
+                if row_id in row_data_map:
+                    record.update(row_data_map[row_id])
+                elif id_parser is not None:
+                    try:
+                        parsed = id_parser(row_id)
+                        if isinstance(parsed, dict):
+                            record.update(parsed)
+                    except Exception:
+                        pass
+                
+                records.append(record)
+
         return {
             "majority_votes": majority_votes,
             "per_question": per_question,
             "reviewers": list(closed_reviews.keys()),
-            "stats": stats
+            "stats": stats,
+            "records": records
         }
 
     def _serialize_block(self, obj):
@@ -317,8 +367,15 @@ class Review:
             return input("y/n: ").lower() == "y"
         return True
 
-    def generate_summary(self, targetFolder: str):
+    def generate_summary(self, targetFolder: str, group_by: Optional[List[str]] = None, id_parser: Optional[Callable] = None):
         """Generate a read-only summary reviewer HTML with majority-vote defaults.
+        
+        Args:
+            targetFolder: path to the evaluation directory
+            group_by: optional list of record field names to group error rates by
+                      (fields come from rowData or id_parser output)
+            id_parser: optional function(row_id_string) -> dict of parsed fields.
+                       Used when rowData is not available on rows.
         
         Metadata is loaded from metadata.json (saved by create()).
         """
@@ -332,8 +389,9 @@ class Review:
             with open(metadata_path, "r") as f:
                 metadata = json.load(f)
 
-        aggregated = self.aggregate_closed_reviews(targetFolder)
+        aggregated = self.aggregate_closed_reviews(targetFolder, id_parser=id_parser)
         stats = aggregated["stats"]
+        records = aggregated.get("records", [])
         correct_values, row_correct_values = self._extract_correct_values(json.loads(self.block))
 
         # Stats table
@@ -344,28 +402,98 @@ class Review:
         ]
         if "majority_error_rate" in stats:
             n = stats["total_with_correct_value"]
-            stats_rows.append([f"Majority error rate ({n} items with correctValue, ties broken by first reviewer)", f"{stats['majority_error_rate']:.1%}"])
+            stats_rows.append([f"Majority error rate ({n} items with correctValue)", f"{stats['majority_error_rate']:.1%}"])
         for reviewer, rate in stats.get("per_reviewer_error_rate", {}).items():
             stats_rows.append([f"Error rate ({reviewer})", f"{rate:.1%}"])
 
-        # Per-question results table
-        results_rows = [["<b>Question</b>", "<b>Majority Answer</b>", "<b>Answer Counts</b>"]]
-        for key in sorted(aggregated["per_question"]):
-            majority = aggregated["majority_votes"].get(key, "")
-            counts = aggregated["per_question"][key]
-            counts_str = ", ".join(f"{v}: {c}" for v, c in counts.items())
-            marker = self._correct_value_marker(key, majority, correct_values, row_correct_values)
-            results_rows.append([key, f"<b>{majority}</b>{marker}", counts_str])
+        # Grouped breakdown tables (one per question_id)
+        breakdown_tables = []
+        if records:
+            # Group records by question_id
+            by_question = {}
+            for r in records:
+                qid = r.get("question_id", "")
+                if qid not in by_question:
+                    by_question[qid] = []
+                by_question[qid].append(r)
 
-        # Build block data: original tabs + Summary + Metadata
+            for qid in sorted(by_question.keys()):
+                q_records = by_question[qid]
+                # Collect all distinct answer values for this question
+                all_values = sorted(set(r["answer"] for r in q_records))
+
+                has_correct = any(r.get("correct_value") is not None for r in q_records)
+
+                # Build row labels: Overall + group_by values
+                row_groups = [("Overall", q_records)]
+                if group_by:
+                    for group_field in group_by:
+                        field_groups = {}
+                        for r in q_records:
+                            gval = r.get(group_field, None)
+                            if gval is None:
+                                continue
+                            if gval not in field_groups:
+                                field_groups[gval] = []
+                            field_groups[gval].append(r)
+                        for gval in sorted(field_groups.keys()):
+                            row_groups.append((f"{group_field}={gval}", field_groups[gval]))
+
+                if has_correct:
+                    # Error rate table
+                    header = [f"<b>{qid}</b>", "<b>Error Rate</b>", "<b>n</b>"]
+                    table_rows = [header]
+                    for label, group_records in row_groups:
+                        with_cv = [r for r in group_records if r.get("correct_value") is not None]
+                        if not with_cv:
+                            table_rows.append([label, "-", "0"])
+                            continue
+                        n = len(with_cv)
+                        errors = sum(1 for r in with_cv if r["answer"] != r["correct_value"])
+                        table_rows.append([label, f"{errors/n:.0%}", str(n)])
+                    breakdown_tables.append(table_rows)
+                else:
+                    # Response distribution table
+                    header = [f"<b>{qid}</b>"] + [f"<b>{v}</b>" for v in all_values]
+                    table_rows = [header]
+                    for label, group_records in row_groups:
+                        n = len(group_records)
+                        counts = Counter(r["answer"] for r in group_records)
+                        row = [label] + [f"{counts.get(v,0)/n:.0%} ({counts.get(v,0)})" if n > 0 else "-" for v in all_values]
+                        table_rows.append(row)
+                    breakdown_tables.append(table_rows)
+
+        # Build TSV data for copy-paste
+        tsv_data = self._build_tsv(records)
+
+        # Build block data: original tabs + Summary + Data + Metadata
         block_data = json.loads(self.block)
         if block_data.get("type") == "tabs":
-            summary_col = ColumnBlock()
-            summary_col.add_column([
+            summary_blocks = [
                 TextBlock(title="Statistics", titleSize=3, body=stats_rows, is_table=True),
-                TextBlock(title="Per-Question Results", titleSize=3, body=results_rows, is_table=True),
-            ])
+            ]
+            for bt in breakdown_tables:
+                summary_blocks.append(TextBlock(title="", titleSize=4, body=bt, is_table=True))
+
+            summary_col = ColumnBlock()
+            summary_col.add_column(summary_blocks)
             block_data["content"].append({"tabName": "Summary", "block": self._serialize_block(summary_col)})
+
+            # Data tab with download button and copyable TSV
+            import html as html_mod
+            tsv_escaped = html_mod.escape(tsv_data)
+            download_btn = (
+                f"<button onclick=\"var a=document.createElement('a');"
+                f"a.href='data:text/tab-separated-values;charset=utf-8,'+encodeURIComponent(document.getElementById('tsv-data').textContent);"
+                f"a.download='review_data.tsv';a.click();\" "
+                f"class='btn btn-primary btn-sm mb-2'>Download TSV</button>"
+            )
+            data_col = ColumnBlock()
+            data_col.add_column([
+                TextBlock(title="Review Data", titleSize=3,
+                          body=[f"{download_btn}<pre id='tsv-data' style='max-height: 500px; overflow: auto; font-size: 11px; white-space: pre;'>{tsv_escaped}</pre>"])
+            ])
+            block_data["content"].append({"tabName": "Data", "block": self._serialize_block(data_col)})
 
             if metadata:
                 metadata_rows = [[f"<b>{k}</b>", f"<pre>{json.dumps(v, indent=2)}</pre>" if isinstance(v, (dict, list)) else str(v)] for k, v in metadata.items()]
@@ -379,9 +507,34 @@ class Review:
         summary_json_path = os.path.join(targetFolder, "summary.json")
         if self._prompt_overwrite(summary_json_path):
             with open(summary_json_path, "w") as f:
-                json.dump(aggregated, f, indent=4)
+                json.dump(aggregated, f, indent=4, default=str)
 
         return aggregated
+
+    @staticmethod
+    def _build_tsv(records: List[Dict]) -> str:
+        """Build a TSV string from a list of record dicts."""
+        if not records:
+            return "(no data)"
+        # Collect all keys across all records to build headers
+        all_keys = []
+        seen = set()
+        # Ensure standard columns come first
+        for k in ["reviewer", "row_id", "question_id", "answer", "correct_value"]:
+            if any(k in r for r in records):
+                all_keys.append(k)
+                seen.add(k)
+        # Add any extra keys (from rowData / id_parser)
+        for r in records:
+            for k in r:
+                if k not in seen:
+                    all_keys.append(k)
+                    seen.add(k)
+        
+        lines = ["\t".join(all_keys)]
+        for r in records:
+            lines.append("\t".join("" if r.get(k) is None else str(r.get(k, "")) for k in all_keys))
+        return "\n".join(lines)
 
     def _correct_value_marker(self, key, majority, correct_values, row_correct_values=None):
         """Return ✓/✗ marker if this key has a correctValue."""
@@ -452,3 +605,26 @@ class Review:
             for item in block_data:
                 Review._extract_correct_values(item, result, row_result)
         return result, row_result
+
+    @staticmethod
+    def _extract_row_data(block_data: Any, result: Optional[Dict] = None) -> Dict:
+        """Walk the block tree and extract {row_id_string: rowData_dict} mappings."""
+        if result is None:
+            result = {}
+        if isinstance(block_data, dict):
+            if block_data.get("type") in ("multi_row_select", "multi_row_checked"):
+                rows = block_data.get("content", {}).get("rows", [])
+                for row in rows:
+                    if "rowData" in row and "id" in row:
+                        rid = row["id"]
+                        if isinstance(rid, dict):
+                            rid = list(rid.values())[0]
+                        result[str(rid)] = row["rowData"]
+            for v in block_data.values():
+                Review._extract_row_data(v, result)
+        elif isinstance(block_data, list):
+            for item in block_data:
+                Review._extract_row_data(item, result)
+        return result
+
+

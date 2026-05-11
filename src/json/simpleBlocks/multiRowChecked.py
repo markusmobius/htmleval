@@ -16,9 +16,13 @@ class MultiRowChecked:
         if correctValue is not None:
             self.content["correctValue"] = correctValue
 
-    def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None):
+    def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None, correctValues: dict = None, rowData: dict = None):
         row = {
             "id": id,
             "text": text
         }
+        if correctValues is not None:
+            row["correctValues"] = correctValues
+        if rowData is not None:
+            row["rowData"] = rowData
         self.content["rows"].append(row)

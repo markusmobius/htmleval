@@ -1,7 +1,6 @@
 {
-    "pipeline": "demo-pipeline-v1",
-    "model": "gpt-4o",
-    "prompt_version": "2026-05-07",
+    "pipeline_name": "demo-pipeline-v1",
+    "date_run": "2026-05-07",
     "config": {
         "temperature": 0.0,
         "max_tokens": 512

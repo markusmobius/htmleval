@@ -1,12 +1,19 @@
 {
     "active": {
-        "0": 1
+        "0": 0
     },
     "variables": {
         "[\"headline_1\",\"sentiment\"]": "positive",
         "[\"headline_2\",\"sentiment\"]": "positive",
         "[\"headline_3\",\"sentiment\"]": "positive",
+        "[\"headline_4\",\"sentiment\"]": "positive",
+        "[\"claim_1\",\"fact_check\"]": "true",
         "[\"claim_2\",\"fact_check\"]": "true",
-        "[\"claim_1\",\"fact_check\"]": "true"
+        "[\"claim_3\",\"fact_check\"]": "true",
+        "[\"claim_4\",\"fact_check\"]": "true",
+        "[\"gram_1\",\"grammar_check\"]": "yes",
+        "[\"gram_2\",\"grammar_check\"]": "yes",
+        "[\"gram_3\",\"grammar_check\"]": "yes",
+        "[\"gram_4\",\"grammar_check\"]": "yes"
     }
 }

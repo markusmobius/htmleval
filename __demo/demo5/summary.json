@@ -2,9 +2,16 @@
     "majority_votes": {
         "[\"claim_1\",\"fact_check\"]": "true",
         "[\"claim_2\",\"fact_check\"]": "false",
-        "[\"headline_1\",\"sentiment\"]": "positive",
+        "[\"claim_3\",\"fact_check\"]": "true",
+        "[\"claim_4\",\"fact_check\"]": "false",
+        "[\"gram_1\",\"grammar_check\"]": "yes",
+        "[\"gram_2\",\"grammar_check\"]": "no",
+        "[\"gram_3\",\"grammar_check\"]": "yes",
+        "[\"gram_4\",\"grammar_check\"]": "no",
+        "[\"headline_1\",\"sentiment\"]": "negative",
         "[\"headline_2\",\"sentiment\"]": "negative",
-        "[\"headline_3\",\"sentiment\"]": "neutral"
+        "[\"headline_3\",\"sentiment\"]": "negative",
+        "[\"headline_4\",\"sentiment\"]": "negative"
     },
     "per_question": {
         "[\"claim_1\",\"fact_check\"]": {
@@ -14,15 +21,41 @@
             "false": 1,
             "true": 1
         },
+        "[\"claim_3\",\"fact_check\"]": {
+            "true": 2
+        },
+        "[\"claim_4\",\"fact_check\"]": {
+            "false": 1,
+            "true": 1
+        },
+        "[\"gram_1\",\"grammar_check\"]": {
+            "yes": 2
+        },
+        "[\"gram_2\",\"grammar_check\"]": {
+            "no": 1,
+            "yes": 1
+        },
+        "[\"gram_3\",\"grammar_check\"]": {
+            "yes": 2
+        },
+        "[\"gram_4\",\"grammar_check\"]": {
+            "no": 1,
+            "yes": 1
+        },
         "[\"headline_1\",\"sentiment\"]": {
-            "positive": 2
+            "negative": 1,
+            "positive": 1
         },
         "[\"headline_2\",\"sentiment\"]": {
             "negative": 1,
             "positive": 1
         },
         "[\"headline_3\",\"sentiment\"]": {
-            "neutral": 1,
+            "negative": 1,
+            "positive": 1
+        },
+        "[\"headline_4\",\"sentiment\"]": {
+            "negative": 1,
             "positive": 1
         }
     },
@@ -31,14 +64,208 @@
         "reviewer2"
     ],
     "stats": {
-        "total_items": 5,
+        "total_items": 12,
         "num_reviewers": 2,
-        "agreement_rate": 0.4,
-        "majority_error_rate": 0.19999999999999996,
-        "total_with_correct_value": 5,
+        "agreement_rate": 0.3333333333333333,
+        "majority_error_rate": 0.25,
+        "total_with_correct_value": 8,
         "per_reviewer_error_rate": {
-            "reviewer1": 0.19999999999999996,
-            "reviewer2": 0.4
+            "reviewer1": 0.25,
+            "reviewer2": 0.25
         }
-    }
+    },
+    "records": [
+        {
+            "reviewer": "reviewer1",
+            "row_id": "headline_1",
+            "question_id": "sentiment",
+            "answer": "negative",
+            "correct_value": null,
+            "category": "economics"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "headline_2",
+            "question_id": "sentiment",
+            "answer": "negative",
+            "correct_value": null,
+            "category": "economics"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "headline_3",
+            "question_id": "sentiment",
+            "answer": "negative",
+            "correct_value": null,
+            "category": "local"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "headline_4",
+            "question_id": "sentiment",
+            "answer": "negative",
+            "correct_value": null,
+            "category": "local"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "claim_1",
+            "question_id": "fact_check",
+            "answer": "true",
+            "correct_value": "true",
+            "category": "science"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "claim_2",
+            "question_id": "fact_check",
+            "answer": "false",
+            "correct_value": "false",
+            "category": "science"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "claim_3",
+            "question_id": "fact_check",
+            "answer": "true",
+            "correct_value": "true",
+            "category": "geography"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "claim_4",
+            "question_id": "fact_check",
+            "answer": "false",
+            "correct_value": "false",
+            "category": "geography"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "gram_1",
+            "question_id": "grammar_check",
+            "answer": "yes",
+            "correct_value": "yes",
+            "category": "homophones"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "gram_2",
+            "question_id": "grammar_check",
+            "answer": "no",
+            "correct_value": "yes",
+            "category": "homophones"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "gram_3",
+            "question_id": "grammar_check",
+            "answer": "yes",
+            "correct_value": "yes",
+            "category": "pronouns"
+        },
+        {
+            "reviewer": "reviewer1",
+            "row_id": "gram_4",
+            "question_id": "grammar_check",
+            "answer": "no",
+            "correct_value": "yes",
+            "category": "subject-verb"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "headline_1",
+            "question_id": "sentiment",
+            "answer": "positive",
+            "correct_value": null,
+            "category": "economics"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "headline_2",
+            "question_id": "sentiment",
+            "answer": "positive",
+            "correct_value": null,
+            "category": "economics"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "headline_3",
+            "question_id": "sentiment",
+            "answer": "positive",
+            "correct_value": null,
+            "category": "local"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "headline_4",
+            "question_id": "sentiment",
+            "answer": "positive",
+            "correct_value": null,
+            "category": "local"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "claim_1",
+            "question_id": "fact_check",
+            "answer": "true",
+            "correct_value": "true",
+            "category": "science"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "claim_2",
+            "question_id": "fact_check",
+            "answer": "true",
+            "correct_value": "false",
+            "category": "science"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "claim_3",
+            "question_id": "fact_check",
+            "answer": "true",
+            "correct_value": "true",
+            "category": "geography"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "claim_4",
+            "question_id": "fact_check",
+            "answer": "true",
+            "correct_value": "false",
+            "category": "geography"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "gram_1",
+            "question_id": "grammar_check",
+            "answer": "yes",
+            "correct_value": "yes",
+            "category": "homophones"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "gram_2",
+            "question_id": "grammar_check",
+            "answer": "yes",
+            "correct_value": "yes",
+            "category": "homophones"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "gram_3",
+            "question_id": "grammar_check",
+            "answer": "yes",
+            "correct_value": "yes",
+            "category": "pronouns"
+        },
+        {
+            "reviewer": "reviewer2",
+            "row_id": "gram_4",
+            "question_id": "grammar_check",
+            "answer": "yes",
+            "correct_value": "yes",
+            "category": "subject-verb"
+        }
+    ]
 }
