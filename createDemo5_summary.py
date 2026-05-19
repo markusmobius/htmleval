@@ -2,10 +2,10 @@
 
 Run this after reviewers have filled out their evaluations in the browser.
 
-The summary tab will show:
-  - Sentiment: response distribution by category (no correctValue)
-  - Fact Check: error rate by category (per-row correctValues)
-  - Grammar Check: error rate by category (question-level correctValue)
+The summary tab will show (grouped by question_id, then by category):
+  - sentiment: response distribution with category breakdown (no correctValue)
+  - fact_check: error rate with category breakdown (per-row correctValues)
+  - grammar_check: error rate with category breakdown (question-level correctValue)
 Plus: Data tab (TSV records), Metadata tab.
 """
 import os
@@ -23,7 +23,7 @@ review = Review(block=json_data, evalTitle="Summary Demo", serverURL="https://ww
 # Pull closed review data from the server
 review.close_eval(targetFolder=target_dir)
 
-# Generate summary with grouped breakdown by category
-aggregated = review.generate_summary(target_dir, group_by=["category"])
+# Generate summary with hierarchical grouping: split by question, then by category
+aggregated = review.generate_summary(target_dir, group_by=["question_id", "category"])
 
 print(f"Summary generated in {target_dir}")

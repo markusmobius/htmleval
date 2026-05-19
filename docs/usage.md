@@ -163,12 +163,14 @@ result = review.aggregate_closed_reviews(target_folder, id_parser=parse_id)
 `generate_summary` creates a read-only HTML reviewer showing the original questions with majority answers pre-filled, plus Summary, Data, and Metadata tabs. It also saves `summary.json` with the aggregated data.
 
 ```python
-review.generate_summary(target_folder, group_by=["category"])
+review.generate_summary(target_folder, group_by=["question_id", "category"])
 ```
 
-The Summary tab produces a **per-question breakdown table**. The table format depends on whether the question has a `correctValue`:
+`group_by` accepts a list of field names (from `rowData`, `id_parser`, or built-in fields like `question_id`). The **first** field splits records into separate tables; **remaining** fields add sub-rows within each table.
 
-- **With `correctValue`**: error rate table (Overall + per group_by value)
+The table format depends on whether the question has a `correctValue`:
+
+- **With `correctValue`**: error rate table (Overall + per sub-group)
 - **Without `correctValue`**: response distribution table showing counts/percentages for each answer value
 
 For example, with three tabs — Sentiment (no correctValue), Fact Check (per-row correctValues), and Grammar Check (question-level correctValue) — the summary would show:

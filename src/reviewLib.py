@@ -154,6 +154,10 @@ class Review:
                     reviewerIds = json.load(f)
             except Exception as e:
                 print(f"Warning: could not read existing reviewer IDs '{reviewerIdsDisk}': {e}")
+                return
+        else:
+            print(f"No reviewer IDs file found at '{reviewerIdsDisk}'. Nothing to close.")
+            return
         for reviewer, reviewerID in reviewerIds.items():
             if reviewer.startswith("_") or reviewer == "summary":
                 continue
@@ -310,6 +314,7 @@ class Review:
         records = []
         for reviewer, variables in closed_reviews.items():
             for key, answer in variables.items():
+                parsed_key = None
                 try:
                     parsed_key = json.loads(key)
                     if isinstance(parsed_key, list) and len(parsed_key) >= 2:
@@ -335,8 +340,11 @@ class Review:
                     "correct_value": cv,
                 }
                 
-                # Enrich with rowData if available
-                if row_id in row_data_map:
+                # Enrich with rowData if available (prefer per-question key)
+                row_q_key = (row_id, question_id)
+                if row_q_key in row_data_map:
+                    record.update(row_data_map[row_q_key])
+                elif row_id in row_data_map:
                     record.update(row_data_map[row_id])
                 elif id_parser is not None:
                     try:
@@ -372,8 +380,9 @@ class Review:
         
         Args:
             targetFolder: path to the evaluation directory
-            group_by: optional list of record field names to group error rates by
-                      (fields come from rowData or id_parser output)
+            group_by: optional list of record field names to group breakdown tables by.
+                      First field splits into separate tables, remaining fields add sub-rows.
+                      Fields come from rowData, id_parser, or built-in derived fields.
             id_parser: optional function(row_id_string) -> dict of parsed fields.
                        Used when rowData is not available on rows.
         
@@ -406,62 +415,96 @@ class Review:
         for reviewer, rate in stats.get("per_reviewer_error_rate", {}).items():
             stats_rows.append([f"Error rate ({reviewer})", f"{rate:.1%}"])
 
-        # Grouped breakdown tables (one per question_id)
+        # Breakdown tables
         breakdown_tables = []
         if records:
-            # Group records by question_id
-            by_question = {}
-            for r in records:
-                qid = r.get("question_id", "")
-                if qid not in by_question:
-                    by_question[qid] = []
-                by_question[qid].append(r)
+            if group_by:
+                # First group_by field splits into separate tables,
+                # remaining group_by fields add sub-rows within each table.
+                primary_field = group_by[0]
+                sub_fields = group_by[1:]
 
-            for qid in sorted(by_question.keys()):
-                q_records = by_question[qid]
-                # Collect all distinct answer values for this question
-                all_values = sorted(set(r["answer"] for r in q_records))
+                # Split records by primary field
+                primary_groups = {}
+                for r in records:
+                    pval = r.get(primary_field, "unknown")
+                    if pval not in primary_groups:
+                        primary_groups[pval] = []
+                    primary_groups[pval].append(r)
 
-                has_correct = any(r.get("correct_value") is not None for r in q_records)
+                for pval in sorted(primary_groups.keys()):
+                    p_records = primary_groups[pval]
+                    all_values = sorted(set(r["answer"] for r in p_records))
+                    has_correct = any(r.get("correct_value") is not None for r in p_records)
 
-                # Build row labels: Overall + group_by values
-                row_groups = [("Overall", q_records)]
-                if group_by:
-                    for group_field in group_by:
-                        field_groups = {}
-                        for r in q_records:
-                            gval = r.get(group_field, None)
-                            if gval is None:
+                    # Build row groups: Overall + sub-field breakdowns
+                    row_groups = [("Overall", p_records)]
+                    for sub_field in sub_fields:
+                        sub_groups = {}
+                        for r in p_records:
+                            sval = r.get(sub_field, None)
+                            if sval is None:
                                 continue
-                            if gval not in field_groups:
-                                field_groups[gval] = []
-                            field_groups[gval].append(r)
-                        for gval in sorted(field_groups.keys()):
-                            row_groups.append((f"{group_field}={gval}", field_groups[gval]))
+                            if sval not in sub_groups:
+                                sub_groups[sval] = []
+                            sub_groups[sval].append(r)
+                        for sval in sorted(sub_groups.keys()):
+                            row_groups.append((f"{sub_field}={sval}", sub_groups[sval]))
 
-                if has_correct:
-                    # Error rate table
-                    header = [f"<b>{qid}</b>", "<b>Error Rate</b>", "<b>n</b>"]
-                    table_rows = [header]
-                    for label, group_records in row_groups:
-                        with_cv = [r for r in group_records if r.get("correct_value") is not None]
-                        if not with_cv:
-                            table_rows.append([label, "-", "0"])
-                            continue
-                        n = len(with_cv)
-                        errors = sum(1 for r in with_cv if r["answer"] != r["correct_value"])
-                        table_rows.append([label, f"{errors/n:.0%}", str(n)])
-                    breakdown_tables.append(table_rows)
-                else:
-                    # Response distribution table
-                    header = [f"<b>{qid}</b>"] + [f"<b>{v}</b>" for v in all_values]
-                    table_rows = [header]
-                    for label, group_records in row_groups:
-                        n = len(group_records)
-                        counts = Counter(r["answer"] for r in group_records)
-                        row = [label] + [f"{counts.get(v,0)/n:.0%} ({counts.get(v,0)})" if n > 0 else "-" for v in all_values]
+                    table_label = pval
+
+                    if has_correct:
+                        header = [f"<b>{table_label}</b>", "<b>Error Rate</b>", "<b>n</b>"]
+                        table_rows = [header]
+                        for label, group_records in row_groups:
+                            with_cv = [r for r in group_records if r.get("correct_value") is not None]
+                            if not with_cv:
+                                table_rows.append([label, "-", "0"])
+                                continue
+                            n = len(with_cv)
+                            errors = sum(1 for r in with_cv if r["answer"] != r["correct_value"])
+                            table_rows.append([label, f"{errors/n:.0%}", str(n)])
+                        breakdown_tables.append((table_rows, True))
+                    else:
+                        header = [f"<b>{table_label}</b>"] + [f"<b>{v}</b>" for v in all_values]
+                        table_rows = [header]
+                        for label, group_records in row_groups:
+                            n = len(group_records)
+                            counts = Counter(r["answer"] for r in group_records)
+                            row = [label] + [f"{counts.get(v,0)/n:.0%} ({counts.get(v,0)})" if n > 0 else "-" for v in all_values]
+                            table_rows.append(row)
+                        breakdown_tables.append((table_rows, False))
+            else:
+                # No group_by: one table per question_id (original behavior)
+                by_question = {}
+                for r in records:
+                    qid = r.get("question_id", "")
+                    if qid not in by_question:
+                        by_question[qid] = []
+                    by_question[qid].append(r)
+
+                for qid in sorted(by_question.keys()):
+                    q_records = by_question[qid]
+                    all_values = sorted(set(r["answer"] for r in q_records))
+                    has_correct = any(r.get("correct_value") is not None for r in q_records)
+
+                    if has_correct:
+                        header = [f"<b>{qid}</b>", "<b>Error Rate</b>", "<b>n</b>"]
+                        table_rows = [header]
+                        n_cv = [r for r in q_records if r.get("correct_value") is not None]
+                        if n_cv:
+                            n = len(n_cv)
+                            errors = sum(1 for r in n_cv if r["answer"] != r["correct_value"])
+                            table_rows.append(["Overall", f"{errors/n:.0%}", str(n)])
+                        breakdown_tables.append((table_rows, True))
+                    else:
+                        header = [f"<b>{qid}</b>"] + [f"<b>{v}</b>" for v in all_values]
+                        table_rows = [header]
+                        n = len(q_records)
+                        counts = Counter(r["answer"] for r in q_records)
+                        row = ["Overall"] + [f"{counts.get(v,0)/n:.0%} ({counts.get(v,0)})" if n > 0 else "-" for v in all_values]
                         table_rows.append(row)
-                    breakdown_tables.append(table_rows)
+                    breakdown_tables.append((table_rows, False))
 
         # Build TSV data for copy-paste
         tsv_data = self._build_tsv(records)
@@ -472,8 +515,24 @@ class Review:
             summary_blocks = [
                 TextBlock(title="Statistics", titleSize=3, body=stats_rows, is_table=True),
             ]
-            for bt in breakdown_tables:
-                summary_blocks.append(TextBlock(title="", titleSize=4, body=bt, is_table=True))
+            # Group breakdown tables by (has_correct, ncols) so columns align
+            if breakdown_tables:
+                groups = {}
+                for bt, has_correct in breakdown_tables:
+                    ncols = len(bt[0]) if bt else 0
+                    key = (has_correct, ncols)
+                    if key not in groups:
+                        groups[key] = []
+                    groups[key].append(bt)
+                for key in sorted(groups.keys()):
+                    combined_rows = []
+                    for i, bt in enumerate(groups[key]):
+                        for row in bt:
+                            combined_rows.append(row)
+                        if i < len(groups[key]) - 1:
+                            ncols = len(bt[0]) if bt else 1
+                            combined_rows.append([""] * ncols)
+                    summary_blocks.append(TextBlock(title="", titleSize=4, body=combined_rows, is_table=True))
 
             summary_col = ColumnBlock()
             summary_col.add_column(summary_blocks)
@@ -536,28 +595,6 @@ class Review:
             lines.append("\t".join("" if r.get(k) is None else str(r.get(k, "")) for k in all_keys))
         return "\n".join(lines)
 
-    def _correct_value_marker(self, key, majority, correct_values, row_correct_values=None):
-        """Return ✓/✗ marker if this key has a correctValue."""
-        try:
-            parsed = json.loads(key)
-            if isinstance(parsed, list) and len(parsed) >= 2:
-                row_id = parsed[0]
-                qid = parsed[-1]
-                row_id_json = json.dumps(row_id, sort_keys=True)
-                
-                # Check per-row first
-                if row_correct_values:
-                    row_key = (row_id_json, qid)
-                    if row_key in row_correct_values:
-                        cv = row_correct_values[row_key]
-                        return " ✓" if majority == cv else f" ✗ (correct: {cv})"
-                # Fall back to question-level
-                if qid in correct_values:
-                    return " ✓" if majority == correct_values[qid] else f" ✗ (correct: {correct_values[qid]})"
-        except (json.JSONDecodeError, TypeError):
-            pass
-        return ""
-
     @staticmethod
     def _extract_correct_values(block_data: Any, result: Optional[Dict] = None, row_result: Optional[Dict] = None) -> Dict:
         """Walk the block tree and extract correctValue mappings.
@@ -608,18 +645,41 @@ class Review:
 
     @staticmethod
     def _extract_row_data(block_data: Any, result: Optional[Dict] = None) -> Dict:
-        """Walk the block tree and extract {row_id_string: rowData_dict} mappings."""
+        """Walk the block tree and extract rowData mappings.
+        
+        Keys in the result dict:
+        - row_id string: rowData (general fallback)
+        - (row_id, question_id) tuple: rowData (precise per-question lookup,
+          used when separate blocks share a row_id but have different rowData)
+        """
         if result is None:
             result = {}
         if isinstance(block_data, dict):
             if block_data.get("type") in ("multi_row_select", "multi_row_checked"):
                 rows = block_data.get("content", {}).get("rows", [])
+                questions = block_data.get("content", {}).get("questions", [])
+                q_ids = []
+                q_labels = {}  # question_id -> label
+                for q in questions:
+                    qid = q.get("id", {})
+                    label = q.get("label", "")
+                    if isinstance(qid, dict):
+                        for v in qid.values():
+                            q_ids.append(v)
+                            q_labels[str(v)] = label
                 for row in rows:
                     if "rowData" in row and "id" in row:
                         rid = row["id"]
                         if isinstance(rid, dict):
                             rid = list(rid.values())[0]
-                        result[str(rid)] = row["rowData"]
+                        rid = str(rid)
+                        result[rid] = row["rowData"]
+                        for qid in q_ids:
+                            enriched = dict(row["rowData"])
+                            # Auto-populate question_name from question label if not set
+                            if "question_name" not in enriched and str(qid) in q_labels:
+                                enriched["question_name"] = q_labels[str(qid)]
+                            result[(rid, str(qid))] = enriched
             for v in block_data.values():
                 Review._extract_row_data(v, result)
         elif isinstance(block_data, list):

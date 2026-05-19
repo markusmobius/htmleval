@@ -81,7 +81,8 @@
             "question_id": "sentiment",
             "answer": "negative",
             "correct_value": null,
-            "category": "economics"
+            "category": "economics",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer1",
@@ -89,7 +90,8 @@
             "question_id": "sentiment",
             "answer": "negative",
             "correct_value": null,
-            "category": "economics"
+            "category": "economics",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer1",
@@ -97,7 +99,8 @@
             "question_id": "sentiment",
             "answer": "negative",
             "correct_value": null,
-            "category": "local"
+            "category": "local",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer1",
@@ -105,7 +108,8 @@
             "question_id": "sentiment",
             "answer": "negative",
             "correct_value": null,
-            "category": "local"
+            "category": "local",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer1",
@@ -113,7 +117,8 @@
             "question_id": "fact_check",
             "answer": "true",
             "correct_value": "true",
-            "category": "science"
+            "category": "science",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer1",
@@ -121,7 +126,8 @@
             "question_id": "fact_check",
             "answer": "false",
             "correct_value": "false",
-            "category": "science"
+            "category": "science",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer1",
@@ -129,7 +135,8 @@
             "question_id": "fact_check",
             "answer": "true",
             "correct_value": "true",
-            "category": "geography"
+            "category": "geography",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer1",
@@ -137,7 +144,8 @@
             "question_id": "fact_check",
             "answer": "false",
             "correct_value": "false",
-            "category": "geography"
+            "category": "geography",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer1",
@@ -177,7 +185,8 @@
             "question_id": "sentiment",
             "answer": "positive",
             "correct_value": null,
-            "category": "economics"
+            "category": "economics",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer2",
@@ -185,7 +194,8 @@
             "question_id": "sentiment",
             "answer": "positive",
             "correct_value": null,
-            "category": "economics"
+            "category": "economics",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer2",
@@ -193,7 +203,8 @@
             "question_id": "sentiment",
             "answer": "positive",
             "correct_value": null,
-            "category": "local"
+            "category": "local",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer2",
@@ -201,7 +212,8 @@
             "question_id": "sentiment",
             "answer": "positive",
             "correct_value": null,
-            "category": "local"
+            "category": "local",
+            "question_name": "Sentiment"
         },
         {
             "reviewer": "reviewer2",
@@ -209,7 +221,8 @@
             "question_id": "fact_check",
             "answer": "true",
             "correct_value": "true",
-            "category": "science"
+            "category": "science",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer2",
@@ -217,7 +230,8 @@
             "question_id": "fact_check",
             "answer": "true",
             "correct_value": "false",
-            "category": "science"
+            "category": "science",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer2",
@@ -225,7 +239,8 @@
             "question_id": "fact_check",
             "answer": "true",
             "correct_value": "true",
-            "category": "geography"
+            "category": "geography",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer2",
@@ -233,7 +248,8 @@
             "question_id": "fact_check",
             "answer": "true",
             "correct_value": "false",
-            "category": "geography"
+            "category": "geography",
+            "question_name": "Correct?"
         },
         {
             "reviewer": "reviewer2",
