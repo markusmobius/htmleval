@@ -46,7 +46,9 @@ class Thread {
                     this.bubbleUp = true;
                 }
                 // Instantiate the child block
-                blocks.push(new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, blocks.length));
+                var childID = blocks.length;
+                blocks.push(null);
+                blocks[childID] = new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, childID);
             }
         }
 

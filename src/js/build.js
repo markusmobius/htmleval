@@ -101,7 +101,9 @@ var loadSurvey = async function () {
     }
     //now build the survey
     var root = document.getElementById("rootblock");
-    blocks.push(new blockLookup[rootBlock["type"]](root, rootBlock, this, blocks.length));
+    var rootID = blocks.length;
+    blocks.push(null);
+    blocks[rootID] = new blockLookup[rootBlock["type"]](root, rootBlock, this, rootID);
 };
 
 
