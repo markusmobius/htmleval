@@ -62,6 +62,25 @@ class SimpleText {
         // Register Signal
         registerSignal(container, block);
 
+        // Register inline fragment spans as signal-highlight listeners. Any
+        // <span data-listeners="sigA,sigB"> inside the body becomes highlightable
+        // when one of its signals is emitted (e.g. clicking the mapped action).
+        // A span with data-signal also EMITS that signal on click, so clicking the
+        // text persists the highlight (until another signal fires).
+        container.querySelectorAll("span[data-listeners]").forEach(function (span) {
+            var listeners = span.getAttribute("data-listeners").split(",").filter(function (s) { return s.length > 0; });
+            if (listeners.length > 0) {
+                signalListeners.push({ element: span, listeners: listeners, highlight: true });
+            }
+            var sig = span.getAttribute("data-signal");
+            if (sig) {
+                span.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    emitSignal(sig);
+                });
+            }
+        });
+
         this.completion();
     }
 

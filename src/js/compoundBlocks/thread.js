@@ -56,6 +56,14 @@ class Thread {
         // listener: threadWrapper (show/hide whole branch)
         // emitter: textDiv (hovering content triggers signal)
         registerSignal(textDiv, block, textDiv);
+
+        // Completion coloring: this thread's header turns green/red based on the
+        // completion of the question blocks that share its signal (which live in a
+        // separate column, linked only by signal name). No "in progress" color is
+        // shown, so untouched threads stay neutral.
+        if (block["signal"]) {
+            registerSignalColor(block["signal"], textDiv);
+        }
     }
 
     //completion method

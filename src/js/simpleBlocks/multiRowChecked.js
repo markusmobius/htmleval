@@ -5,8 +5,11 @@ class MultiRowChecked {
         this.parent = parent;
         //keep track of completion
         this.completed = [0, 0];
+        //signals this question reports completion to (for cross-column coloring)
+        this.listeners = block["listeners"] || [];
         //construct table
         var tbl = document.createElement("table");
+        this.tbl = tbl;
         tbl.className = "table table-striped table-hover";
         tbl.setAttribute("border", 1);
         root.appendChild(tbl);
@@ -111,6 +114,26 @@ class MultiRowChecked {
     //completion method
     completion() {
         this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+        //report completion to any signals this question is tied to, so a thread
+        //header in another column can color its background green/red.
+        if (this.listeners && this.listeners.length > 0 && typeof reportSignalCompletion === "function") {
+            var hasNo = this.hasNoAnswer();
+            for (var i = 0; i < this.listeners.length; i++) {
+                reportSignalCompletion(this.listeners[i], this.blockID, this.completed[0], this.completed[1], hasNo);
+            }
+        }
+    }
+
+    //true if any checked option holds a "no" / "no_*" value
+    hasNoAnswer() {
+        var inputs = this.tbl.querySelectorAll('input[type="checkbox"]');
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].checked) {
+                var v = inputs[i].getAttribute("varvalue");
+                if (v === "no" || (typeof v === "string" && v.indexOf("no_") === 0)) return true;
+            }
+        }
+        return false;
     }
 }
 
