@@ -27,3 +27,5 @@ To see a running example, generating the survey from the repository:
 ```bash
 python createDemo.py
 ```
+
+For a full example of creating evaluations, closing them, and generating a summary, see `createDemo5.py` and `createDemo5_summary.py`.

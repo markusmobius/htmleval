@@ -2,10 +2,12 @@ from .multiRowOption import MultiRowOption
 
 class MultiRowSelectQuestion:
 
-    def __init__(self,label: str, id: dict, options : list[MultiRowOption]):
+    def __init__(self,label: str, id: dict, options : list[MultiRowOption], correctValue: str = None):
         self.label=label
         self.id=id
         self.options=options
+        if correctValue is not None:
+            self.correctValue=correctValue
 
 class MultiRowSelect:
 
@@ -20,10 +22,14 @@ class MultiRowSelect:
                 "highlight": highlight
         }
 
-    def add_row(self,text:list[str], id: dict, default_values: dict = None):
+    def add_row(self,text:list[str], id: dict, default_values: dict = None, correctValues: dict = None, rowData: dict = None):
         row = {
             "text" : text,
             "id" : id
         }
+        if correctValues is not None:
+            row["correctValues"] = correctValues
+        if rowData is not None:
+            row["rowData"] = rowData
         self.content["rows"].append(row)
     

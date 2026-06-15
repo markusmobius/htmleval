@@ -90,9 +90,11 @@ class Tabs {
             if (i == block["content"].length - 1) {
                 this.bubbleUp = true;
             }
-            this.tabBlockAssignment[blocks.length] = i;
-            var newBlock = new blockLookup[block["content"][i]["block"]["type"]](pane, block["content"][i]["block"], this, blocks.length);
-            blocks.push(newBlock);
+            var childID = blocks.length;
+            blocks.push(null);
+            this.tabBlockAssignment[childID] = i;
+            var newBlock = new blockLookup[block["content"][i]["block"]["type"]](pane, block["content"][i]["block"], this, childID);
+            blocks[childID] = newBlock;
         }
 
         // Register Signal

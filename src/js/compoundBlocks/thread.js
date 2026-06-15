@@ -46,7 +46,9 @@ class Thread {
                     this.bubbleUp = true;
                 }
                 // Instantiate the child block
-                blocks.push(new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, blocks.length));
+                var childID = blocks.length;
+                blocks.push(null);
+                blocks[childID] = new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, childID);
             }
         }
 
@@ -54,6 +56,14 @@ class Thread {
         // listener: threadWrapper (show/hide whole branch)
         // emitter: textDiv (hovering content triggers signal)
         registerSignal(textDiv, block, textDiv);
+
+        // Completion coloring: this thread's header turns green/red based on the
+        // completion of the question blocks that share its signal (which live in a
+        // separate column, linked only by signal name). No "in progress" color is
+        // shown, so untouched threads stay neutral.
+        if (block["signal"]) {
+            registerSignalColor(block["signal"], textDiv);
+        }
     }
 
     //completion method

@@ -29,17 +29,19 @@ class Interactive {
       var para = document.createElement("p");
       textColumn.appendChild(para);
       for (var j = 0; j < block["content"][i]["fragments"].length; j++) {
+        var currentBlockId = blocks.length;
+        blocks.push(null);
         if (data["active"][this.blockID] == undefined) {
-          data["active"][this.blockID] = blocks.length;
+          data["active"][this.blockID] = currentBlockId;
         }
         if (i == block["content"].length - 1 && j == block["content"][i]["fragments"].length - 1) {
           this.bubbleUp = true;
         }
         var fragment = block["content"][i]["fragments"][j];
         var span = document.createElement("div");
-        this.spanAssignments[blocks.length] = span;
+        this.spanAssignments[currentBlockId] = span;
         span.innerHTML = fragment["text"];
-        span.setAttribute("blockid", blocks.length);
+        span.setAttribute("blockid", currentBlockId);
 
         // Apply light bottom border to all fragments for visual separation
         span.style.borderBottom = "1px solid #e0e0e0";
@@ -108,16 +110,15 @@ class Interactive {
           saveSurvey();
         });
         var tabDiv = document.createElement("div");
-        this.tabAssignments[blocks.length] = tabDiv;
-        if (data["active"][this.blockID] == blocks.length) {
+        this.tabAssignments[currentBlockId] = tabDiv;
+        if (data["active"][this.blockID] == currentBlockId) {
           tabDiv.style.display = "";
         }
         else {
           tabDiv.style.display = "none";
         }
         contextColumn.appendChild(tabDiv);
-        var currentBlockId = blocks.length;
-        blocks.push(new blockLookup[fragment["block"]["type"]](tabDiv, fragment["block"], this, blocks.length));
+        blocks[currentBlockId] = new blockLookup[fragment["block"]["type"]](tabDiv, fragment["block"], this, currentBlockId);
         //if not active, apply normal styling
         if (currentBlockId != data["active"][this.blockID]) {
           // Fragment gets its default styling from border attribute

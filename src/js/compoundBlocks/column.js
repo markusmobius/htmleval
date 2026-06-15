@@ -27,7 +27,9 @@ class Column {
           if (i==block["content"].length-1 && j==block["content"][i].length-1){
             this.bubbleUp=true;  
           }
-          blocks.push(new blockLookup[block["content"][i][j]["type"]](column,block["content"][i][j],this,blocks.length));
+          var childID=blocks.length;
+          blocks.push(null);
+          blocks[childID]=new blockLookup[block["content"][i][j]["type"]](column,block["content"][i][j],this,childID);
         }
       }
   }
