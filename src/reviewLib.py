@@ -143,7 +143,7 @@ class Review:
             with open(metadata_path, "w") as f:
                 json.dump(metadata, f, indent=4)
 
-    def close_eval(self, targetFolder : str):
+    def close_eval(self, targetFolder : str, reviewers: Optional[List[str]] = None):
         # Path to the reviewer IDs file
         reviewerIdsDisk = os.path.join(targetFolder, "reviewer_ids.json")
 
@@ -158,8 +158,11 @@ class Review:
         else:
             print(f"No reviewer IDs file found at '{reviewerIdsDisk}'. Nothing to close.")
             return
+        reviewer_filter = set(reviewers) if reviewers is not None else None
         for reviewer, reviewerID in reviewerIds.items():
             if reviewer.startswith("_") or reviewer == "summary":
+                continue
+            if reviewer_filter is not None and reviewer not in reviewer_filter:
                 continue
             print(f"Retrieving data for reviewer {reviewer}")
             # Do a get request to pull down the data.
@@ -179,13 +182,18 @@ class Review:
             else:
                 print(f"Failed to download data. HTTP Status code: {response.status_code}")
 
-    def aggregate_closed_reviews(self, targetFolder: str, id_parser: Optional[Callable] = None) -> Dict[str, Any]:
+    def aggregate_closed_reviews(self, targetFolder: str, id_parser: Optional[Callable] = None, reviewers: Optional[List[str]] = None, row_filter: Optional[Callable] = None) -> Dict[str, Any]:
         """Aggregate closed review data from all reviewers.
         
         Args:
             targetFolder: path to the evaluation directory
             id_parser: optional function(row_id_string) -> dict of parsed fields.
                        Used to enrich records when rowData is not available.
+            reviewers: optional list of reviewer names to restrict aggregation to.
+                       When None, all reviewers with closed data are included.
+            row_filter: optional function(row_id_string) -> bool. Return False to
+                        exclude that row from aggregation entirely (stats, majority
+                        votes, breakdowns and records). When None, all rows are kept.
         
         Returns a dict with:
             - 'majority_votes': {variable_key: majority_value} for use as defaults
@@ -208,22 +216,37 @@ class Review:
         else:
             return {"majority_votes": {}, "per_question": {}, "reviewers": [], "stats": {}}
 
+        reviewer_filter = set(reviewers) if reviewers is not None else None
         for reviewer, _ in reviewer_ids.items():
             if reviewer.startswith("_") or reviewer == "summary":
+                continue
+            if reviewer_filter is not None and reviewer not in reviewer_filter:
                 continue
             closed_path = os.path.join(targetFolder, f"closed_{reviewer}.json")
             if os.path.exists(closed_path):
                 with open(closed_path, 'r') as f:
                     data = json.load(f)
-                closed_reviews[reviewer] = data.get("variables", {})
+                closed_reviews[reviewer] = self._canonicalize_variables(data.get("variables", {}))
 
         if not closed_reviews:
             return {"majority_votes": {}, "per_question": {}, "reviewers": [], "stats": {}}
 
+        def _keep_key(k):
+            if row_filter is None:
+                return True
+            try:
+                parsed = json.loads(k)
+                row_id = str(parsed[0]) if isinstance(parsed, list) and parsed else str(parsed)
+            except (json.JSONDecodeError, TypeError):
+                row_id = k
+            return bool(row_filter(row_id))
+
         # Collect all variable keys across reviewers
         all_keys = set()
         for variables in closed_reviews.values():
-            all_keys.update(variables.keys())
+            for k in variables.keys():
+                if _keep_key(k):
+                    all_keys.add(k)
 
         # Compute per-question counts and majority votes
         per_question = {}
@@ -287,6 +310,8 @@ class Review:
             r_correct = 0
             r_total = 0
             for key, value in variables.items():
+                if not _keep_key(key):
+                    continue
                 try:
                     parsed_key = json.loads(key)
                     if isinstance(parsed_key, list) and len(parsed_key) >= 2:
@@ -314,6 +339,8 @@ class Review:
         records = []
         for reviewer, variables in closed_reviews.items():
             for key, answer in variables.items():
+                if not _keep_key(key):
+                    continue
                 parsed_key = None
                 try:
                     parsed_key = json.loads(key)
@@ -368,6 +395,37 @@ class Review:
         """Serialize a block object to a JSON-compatible dict."""
         return json.loads(json.dumps(obj, default=lambda x: x.__dict__))
 
+    @staticmethod
+    def _canonicalize_variables(variables):
+        """Collapse variable keys that are the same logical [row_id, question_id]
+        but serialized differently (e.g. JS ``["a","b"]`` vs Python ``["a", "b"]``).
+
+        Some clients re-serialize the saved payload (proxies, extensions, etc.),
+        producing whitespace variants of the same key. Left as-is these get
+        double-counted in aggregation. We key everything by the compact
+        (JS-native) form, and when both a JS-native key and a re-serialized
+        variant exist for the same identity, the JS-native value wins because it
+        reflects the answer the in-page survey code actually wrote.
+        """
+        canonical = {}
+        js_native = set()  # canonical keys whose value came from a JS-native key
+        for raw_key, value in variables.items():
+            try:
+                parsed = json.loads(raw_key)
+                canon = json.dumps(parsed, separators=(",", ":"))
+            except (json.JSONDecodeError, TypeError):
+                canon = raw_key
+            is_js_native = (raw_key == canon)
+            if canon not in canonical:
+                canonical[canon] = value
+                if is_js_native:
+                    js_native.add(canon)
+            elif is_js_native and canon not in js_native:
+                # A JS-native key overrides a previously seen re-serialized variant.
+                canonical[canon] = value
+                js_native.add(canon)
+        return canonical
+
     def _prompt_overwrite(self, path):
         """If path exists, prompt for overwrite. Returns True if ok to write."""
         if os.path.exists(path):
@@ -375,7 +433,7 @@ class Review:
             return input("y/n: ").lower() == "y"
         return True
 
-    def generate_summary(self, targetFolder: str, group_by: Optional[List[str]] = None, id_parser: Optional[Callable] = None):
+    def generate_summary(self, targetFolder: str, group_by: Optional[List[str]] = None, id_parser: Optional[Callable] = None, reviewers: Optional[List[str]] = None, row_filter: Optional[Callable] = None):
         """Generate a read-only summary reviewer HTML with majority-vote defaults.
         
         Args:
@@ -385,11 +443,21 @@ class Review:
                       Fields come from rowData, id_parser, or built-in derived fields.
             id_parser: optional function(row_id_string) -> dict of parsed fields.
                        Used when rowData is not available on rows.
+            reviewers: optional list of reviewer names to restrict the summary to.
+                       When None, all reviewers with closed data are included.
+            row_filter: optional function(row_id_string) -> bool. Return False to
+                        exclude that row from the summary entirely.
         
         Metadata is loaded from metadata.json (saved by create()).
         """
-        from src.json.compoundBlocks.column import Column as ColumnBlock
-        from src.json.simpleBlocks.text import Text as TextBlock
+        # Use module path when pip-installed; fall back to relative src path when
+        # running from a cloned checkout (mirrors the template/JS loading below).
+        try:
+            from htmleval.json.compoundBlocks.column import Column as ColumnBlock
+            from htmleval.json.simpleBlocks.text import Text as TextBlock
+        except ModuleNotFoundError:
+            from src.json.compoundBlocks.column import Column as ColumnBlock
+            from src.json.simpleBlocks.text import Text as TextBlock
 
         # Load metadata from disk
         metadata_path = os.path.join(targetFolder, "metadata.json")
@@ -398,7 +466,7 @@ class Review:
             with open(metadata_path, "r") as f:
                 metadata = json.load(f)
 
-        aggregated = self.aggregate_closed_reviews(targetFolder, id_parser=id_parser)
+        aggregated = self.aggregate_closed_reviews(targetFolder, id_parser=id_parser, reviewers=reviewers, row_filter=row_filter)
         stats = aggregated["stats"]
         records = aggregated.get("records", [])
         correct_values, row_correct_values = self._extract_correct_values(json.loads(self.block))
