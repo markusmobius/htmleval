@@ -82,6 +82,7 @@ class MultiRowSelect {
                 select.addEventListener('change', (e) => {
                     if (e.target.selectedIndex == 0) {
                         delete data["variables"][e.target.id];
+                        clearFieldTimestamp(e.target.id);
                         this.completed[0]--;
                     }
                     else {
@@ -89,6 +90,7 @@ class MultiRowSelect {
                             this.completed[0]++;
                         }
                         data["variables"][e.target.id] = e.target.value;
+                        recordFieldTimestamp(e.target.id);
                     }
                     var selectedOption = e.target.options[e.target.selectedIndex];
                     var color = selectedOption.getAttribute('color');

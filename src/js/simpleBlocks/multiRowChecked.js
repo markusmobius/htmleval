@@ -82,6 +82,7 @@ class MultiRowChecked {
                         this.completed[0]++;
                     }
                     data["variables"][e.target.getAttribute("fullid")] = e.target.getAttribute("varvalue");
+                    recordFieldTimestamp(e.target.getAttribute("fullid"));
                     var row = e.target.parentElement.parentElement;
                     //uncheck everything
                     var children = row.childNodes;

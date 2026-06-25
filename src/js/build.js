@@ -14,6 +14,18 @@ var saveSurvey = function () {
     });
 };
 
+// Per-field modification logging. For every field we record the UTC timestamp
+// (ISO 8601) of when it was last modified, stored alongside the answers under
+// data["timestamps"], keyed by the same field id used in data["variables"].
+var recordFieldTimestamp = function (fieldId) {
+    if (!data["timestamps"]) data["timestamps"] = {};
+    data["timestamps"][fieldId] = new Date().toISOString();
+};
+
+var clearFieldTimestamp = function (fieldId) {
+    if (data["timestamps"]) delete data["timestamps"][fieldId];
+};
+
 // Signal Management
 var activeSignal = null;
 var signalListeners = []; // Objects { element: element, listeners: ["sig1", ...] }
@@ -112,7 +124,8 @@ var loadSurvey = async function () {
         console.log("no stored data");
         data = {
             "active": {},
-            "variables": this.dataDefaults
+            "variables": this.dataDefaults,
+            "timestamps": {}
         };
     }
     else {
@@ -120,6 +133,8 @@ var loadSurvey = async function () {
         data = JSON.parse(text);
         console.log("stored data retrieved");
     }
+    //ensure the per-field timestamp log exists (backward compatibility)
+    if (!data["timestamps"]) data["timestamps"] = {};
     //now build the survey
     var root = document.getElementById("rootblock");
     var rootID = blocks.length;
