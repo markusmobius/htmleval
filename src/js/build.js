@@ -16,14 +16,27 @@ var saveSurvey = function () {
 
 // Per-field modification logging. For every field we record the UTC timestamp
 // (ISO 8601) of when it was last modified, stored alongside the answers under
-// data["timestamps"], keyed by the same field id used in data["variables"].
+// data["timestamps"]. The timestamp key mirrors the field id but replaces the
+// last id component (the answer tag) with "timestamp", e.g. an answer stored at
+// ["row_1", "sentiment"] is timestamped at ["row_1", "timestamp"].
+var timestampKey = function (fieldId) {
+    try {
+        var parsed = JSON.parse(fieldId);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+            parsed[parsed.length - 1] = "timestamp";
+            return JSON.stringify(parsed);
+        }
+    } catch (e) { }
+    return fieldId;
+};
+
 var recordFieldTimestamp = function (fieldId) {
     if (!data["timestamps"]) data["timestamps"] = {};
-    data["timestamps"][fieldId] = new Date().toISOString();
+    data["timestamps"][timestampKey(fieldId)] = new Date().toISOString();
 };
 
 var clearFieldTimestamp = function (fieldId) {
-    if (data["timestamps"]) delete data["timestamps"][fieldId];
+    if (data["timestamps"]) delete data["timestamps"][timestampKey(fieldId)];
 };
 
 // Signal Management
