@@ -71,10 +71,17 @@ partially-answered groups receive no color, so nothing is highlighted by default
 This is what lets a `Thread` header reflect the state of its associated questions
 located elsewhere in the layout (see [Compound Blocks](compound_blocks.md#thread)).
 
-## Custom components and descendant-level signals
+## Custom elements (Web Components)
 
-The `CustomComponent` block can opt into a descendant-level signal system via
-`svg_signals=True`, wiring any element carrying `data-listeners` /
-`data-questions` attributes into the same machinery. See
-[Simple Blocks → CustomComponent](simple_blocks.md#customcomponent) for details
-and `createDemo6.py` for a worked example.
+Custom elements interact with this signal system through the global
+`window.htmleval` API rather than the Python `signal` / `listeners` parameters:
+
+- `window.htmleval.emit(signal)` — emit a signal (the same bus block emitters use).
+- `window.htmleval.subscribe(handler)` — call `handler(activeSignal)` on every
+  emit; returns an unsubscribe function.
+- `window.htmleval.isAnswered(key)` — `true` if an answer key is filled (for
+  driving completion state).
+
+Register a custom element's JavaScript once with `addCustomElement(name, js)` and
+use its tag inside any block's HTML. See [Custom Elements](custom_elements.md) and
+`createDemo6.py` for a worked example.

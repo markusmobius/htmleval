@@ -29,6 +29,7 @@ pip install git+https://github.com/markusmobius/htmleval
 - **[Simple Blocks](docs/simple_blocks.md)**: Documentation for Text, Questions, CustomComponent, and other content blocks.
 - **[Compound Blocks](docs/compound_blocks.md)**: Documentation for Layouts, Tabs, Threads, and Interactive blocks.
 - **[Signals & Listeners](docs/signals.md)**: How blocks emit and react to signals at runtime.
+- **[Custom Elements](docs/custom_elements.md)**: How to add your own Web Components (custom elements) and inject their JS with `addCustomElement`.
 
 ## Getting Started
 
@@ -45,6 +46,6 @@ Additional demos showcase specific features:
 - `createDemo5.py` + `createDemo5_summary.py` — the full **summarization**
   workflow: creating evaluations, closing them, aggregating reviewer answers, and
   generating a summary reviewer.
-- `createDemo6.py` — **custom components**: mounting HTML/SVG, zoomable SVGs, and
-  signal-wired SVG highlighting and completion ticks.
+- `createDemo6.py` — **custom components & elements**: mounting HTML/SVG, zoomable
+  SVGs, and a `<demo-badge>` custom element registered with `addCustomElement`.
 

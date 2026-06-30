@@ -7,6 +7,20 @@ from collections import Counter
 from importlib.resources import files
 
 
+# Registry of custom web elements (Web Components) to inline into every generated
+# evaluation. htmleval stays generic: it does not know what an element does, it
+# only injects its JavaScript. Components interact with the eval solely through the
+# window.htmleval signal API (emit / subscribe / isAnswered).
+_CUSTOM_ELEMENTS = {}
+
+
+def addCustomElement(name: str, js_code: str):
+    """Register a custom element's JavaScript so it is inlined into every eval built
+    afterwards. Call once (e.g. addCustomElement("lego-tree", open(...).read())),
+    then just use the <name> tag inside block content."""
+    _CUSTOM_ELEMENTS[name] = js_code
+
+
 class Review:
 
     def __init__(self, block : str, evalTitle : str, serverURL: str):
@@ -117,7 +131,11 @@ class Review:
             except ModuleNotFoundError as e:
                 with open(os.path.join(".","src","js","build.js"), 'r') as f:
                     js.append(f.read())
-            
+
+            #inline any registered custom web elements (generic; htmleval is agnostic)
+            for _ce_name, _ce_code in _CUSTOM_ELEMENTS.items():
+                js.append("// custom element: " + _ce_name + "\n" + _ce_code)
+
             #insert the JS scripts
             html=html.replace("BUILDJS", '\n'.join(js))            
             html=html.replace("SERVERURL",self.serverURL)

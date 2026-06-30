@@ -1,5 +1,10 @@
 var saveSurvey = function () {
     if (readOnly) return;
+    // Let custom elements re-evaluate (e.g. completion ticks) now that an answer
+    // changed. signalHandlers is defined further down but exists by call time.
+    if (typeof signalHandlers !== "undefined") {
+        signalHandlers.forEach(function (h) { try { h(activeSignal); } catch (e) { /* ignore */ } });
+    }
     //we assume that the data is stored in tabData
     fetch("SERVERURL" + reviewerID, {
         method: 'PUT',
@@ -42,6 +47,7 @@ var clearFieldTimestamp = function (fieldId) {
 // Signal Management
 var activeSignal = null;
 var signalListeners = []; // Objects { element: element, listeners: ["sig1", ...] }
+var signalHandlers = [];  // plain callbacks (used by custom web components)
 
 var emitSignal = function (signal) {
     activeSignal = signal;
@@ -56,7 +62,23 @@ var emitSignal = function (signal) {
             item.element.style.display = match ? "" : "none";
         }
     });
+    // Notify plain-callback subscribers (custom web components via window.htmleval).
+    signalHandlers.forEach(function (h) { try { h(signal); } catch (e) { /* ignore */ } });
 }
+
+// Public, stable signal API for custom elements (Web Components). htmleval has no
+// knowledge of any specific component; components interact only through this.
+window.htmleval = {
+    emit: function (signal) { emitSignal(signal); },
+    subscribe: function (handler) {
+        signalHandlers.push(handler);
+        return function () { var i = signalHandlers.indexOf(handler); if (i >= 0) signalHandlers.splice(i, 1); };
+    },
+    isAnswered: function (key) {
+        return !!(typeof data !== "undefined" && data && data.variables &&
+            data.variables[key] !== undefined && data.variables[key] !== null && data.variables[key] !== "");
+    }
+};
 
 var registerSignal = function (element, blockData, emitterElement = null) {
     // Handle Emitter

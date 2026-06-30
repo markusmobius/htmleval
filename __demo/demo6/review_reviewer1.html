@@ -160,7 +160,7 @@
         var data = null;
         var dataDefaults = {};
         var blockLookup = {};
-        var rootBlock = {"type": "tabs", "signal": null, "listeners": [], "content": [{"tabName": "Basic", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Mount any HTML or SVG", "size": 3}, "body": {"is_table": false, "text": ["A custom_component simply renders the markup you give it."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<div style=\"max-width:540px;margin:0 auto;padding:16px;border:1px solid #ddd;border-radius:8px;background:#fff;\">\n  <h4 style=\"margin-top:0;\">Hello from a custom component</h4>\n  <p>The <code>custom_component</code> block mounts arbitrary author-provided HTML or SVG\n  inside an evaluation, so you can drop in bespoke visualizations without writing a new\n  block type.</p>\n  <svg width=\"100%\" height=\"60\" viewBox=\"0 0 500 60\" xmlns=\"http://www.w3.org/2000/svg\">\n    <rect x=\"2\" y=\"2\" width=\"496\" height=\"56\" rx=\"8\" fill=\"#eef2ff\" stroke=\"#6366f1\"/>\n    <text x=\"250\" y=\"36\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#3730a3\">Inline SVG works too</text>\n  </svg>\n</div>\n", "zoomable": false, "svg_signals": false, "highlight": false, "title": {"text": "Basic mount", "size": 4}}}]], "styleData": {}}}, {"tabName": "Zoomable", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Pan &amp; zoom", "size": 3}, "body": {"is_table": false, "text": ["With <code>zoomable=True</code> the component wraps raw SVG so it gets mouse-wheel zoom and click-drag pan for free."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<svg viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"\n     style=\"display:block;margin:0 auto;background:#fafafa;\">\n  <circle cx=\"120\" cy=\"150\" r=\"70\" fill=\"#fca5a5\" stroke=\"#b91c1c\" stroke-width=\"2\"/>\n  <rect x=\"210\" y=\"90\" width=\"120\" height=\"120\" rx=\"10\" fill=\"#93c5fd\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"285\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#555\">scroll to zoom, drag to pan</text>\n</svg>\n", "zoomable": true, "svg_signals": false, "highlight": false, "title": {"text": "Zoomable SVG", "size": 4}}}]], "styleData": {}}}, {"tabName": "Signals", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Highlighting &amp; ticks", "size": 3}, "body": {"is_table": false, "text": ["With <code>svg_signals=True</code>, elements opt in via <code>data-listeners</code> (highlight while a signal is active) and <code>data-questions</code> (show a tick once the listed answers are filled)."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<svg viewBox=\"0 0 460 220\" width=\"460\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"\n     style=\"display:block;margin:0 auto;\">\n  <defs><style>\n    g.svg-sel &gt; rect { stroke: #22c55e !important; stroke-width: 5 !important; }\n    g.svg-sel { filter: drop-shadow(0 0 10px rgba(34,197,94,0.8)); }\n  </style></defs>\n\n  <!-- Shape ALPHA: emits + listens to its own 'alpha' signal (click to highlight),\n       and reveals a green tick once its \"Approve?\" question is answered. -->\n  <g onclick=\"emitSignal('alpha')\" style=\"cursor:pointer\"\n     data-listeners=\"alpha\" data-questions='[\"[\\\"shape_alpha\\\",\\\"approve\\\"]\"]'>\n    <rect x=\"30\" y=\"50\" width=\"170\" height=\"110\" rx=\"10\" fill=\"#e9d5ff\" stroke=\"#7e22ce\" stroke-width=\"2\"/>\n    <text x=\"115\" y=\"103\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#4c1d95\">Shape ALPHA</text>\n    <text x=\"115\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#6b21a8\">click me to highlight</text>\n    <g class=\"svg-tick\" style=\"display:none\">\n      <circle cx=\"185\" cy=\"65\" r=\"11\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/>\n      <path d=\"M 180 65 L 184 69 L 191 60\" stroke=\"#ffffff\" stroke-width=\"2.5\" fill=\"none\"\n            stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n\n  <!-- Shape BETA: only listens to 'beta', emitted by the text block below. -->\n  <g data-listeners=\"beta\">\n    <rect x=\"260\" y=\"50\" width=\"170\" height=\"110\" rx=\"10\" fill=\"#cffafe\" stroke=\"#0e7490\" stroke-width=\"2\"/>\n    <text x=\"345\" y=\"103\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#155e75\">Shape BETA</text>\n    <text x=\"345\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#0e7490\">highlighted by the emitter</text>\n  </g>\n</svg>\n", "zoomable": false, "svg_signals": true, "highlight": false, "title": {"text": "Signal-wired SVG", "size": 4}}}, {"type": "text", "signal": "beta", "listeners": [], "content": {"highlight": false, "title": {"text": "Highlight Shape BETA", "size": 4}, "body": {"is_table": false, "text": ["Click here to emit the <b>beta</b> signal and highlight Shape BETA above."]}}}, {"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "", "size": null}, "body": {"is_table": false, "text": ["Answer below to reveal Shape ALPHA's completion tick:"]}}}, {"type": "multi_row_select", "signal": null, "listeners": [], "content": {"rowLabels": ["Shape"], "questions": [{"label": "Approve?", "id": {"1": "approve"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}], "rows": [{"text": ["Shape ALPHA"], "id": {"0": "shape_alpha"}}], "highlight": false}}]], "styleData": {}}}]};
+        var rootBlock = {"type": "tabs", "signal": null, "listeners": [], "content": [{"tabName": "Basic", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Mount any HTML or SVG", "size": 3}, "body": {"is_table": false, "text": ["A custom_component simply renders the markup you give it."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<div style=\"max-width:540px;margin:0 auto;padding:16px;border:1px solid #ddd;border-radius:8px;background:#fff;\">\n  <h4 style=\"margin-top:0;\">Hello from a custom component</h4>\n  <p>The <code>custom_component</code> block mounts arbitrary author-provided HTML or SVG\n  inside an evaluation, so you can drop in bespoke visualizations without writing a new\n  block type.</p>\n  <svg width=\"100%\" height=\"60\" viewBox=\"0 0 500 60\" xmlns=\"http://www.w3.org/2000/svg\">\n    <rect x=\"2\" y=\"2\" width=\"496\" height=\"56\" rx=\"8\" fill=\"#eef2ff\" stroke=\"#6366f1\"/>\n    <text x=\"250\" y=\"36\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#3730a3\">Inline SVG works too</text>\n  </svg>\n</div>\n", "zoomable": false, "highlight": false, "title": {"text": "Basic mount", "size": 4}}}]], "styleData": {}}}, {"tabName": "Zoomable", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Pan &amp; zoom", "size": 3}, "body": {"is_table": false, "text": ["With <code>zoomable=True</code> the component wraps raw SVG so it gets mouse-wheel zoom and click-drag pan for free."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<svg viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"\n     style=\"display:block;margin:0 auto;background:#fafafa;\">\n  <circle cx=\"120\" cy=\"150\" r=\"70\" fill=\"#fca5a5\" stroke=\"#b91c1c\" stroke-width=\"2\"/>\n  <rect x=\"210\" y=\"90\" width=\"120\" height=\"120\" rx=\"10\" fill=\"#93c5fd\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"285\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#555\">scroll to zoom, drag to pan</text>\n</svg>\n", "zoomable": true, "highlight": false, "title": {"text": "Zoomable SVG", "size": 4}}}]], "styleData": {}}}, {"tabName": "Signals", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Custom elements &amp; signals", "size": 3}, "body": {"is_table": false, "text": ["htmleval stays generic: it only inlines the element JS via <code>addCustomElement</code>. The element interacts with the eval through the <code>window.htmleval</code> signal API (emit / subscribe)."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "<p>These <code>&lt;demo-badge&gt;</code> custom elements were registered with <code>addCustomElement</code>. Click one to <b>emit</b> its signal; every badge <b>receives</b> signals and highlights when its own is active.</p><demo-badge signal=\"alpha\" label=\"ALPHA\"></demo-badge><demo-badge signal=\"beta\" label=\"BETA\"></demo-badge>", "zoomable": false, "highlight": false, "title": {"text": "Signal-wired custom elements", "size": 4}}}, {"type": "text", "signal": "alpha", "listeners": [], "content": {"highlight": false, "title": {"text": "Emit 'alpha' from a text block", "size": 4}, "body": {"is_table": false, "text": ["Clicking here emits <b>alpha</b> \u2014 watch the ALPHA badge highlight."]}}}]], "styleData": {}}}]};
         var serverURL = "https://www.kv.econlabs.org/";
         var readOnly = false;
 
@@ -841,13 +841,12 @@ class MultiRowSelect {
 
 //add class to lookup dictionary
 blockLookup["multi_row_select"] = MultiRowSelect;
-// Generic host for a custom web component.
+// Generic host block for custom web components.
 //
-// Mounts pre-rendered HTML/SVG provided by the Python `CustomComponent` block and
-// opts in to shared htmleval behaviors (signal highlighting, completion ticks,
-// pan/zoom) rather than each component re-implementing them. This is the
-// supported extension point for adding bespoke visualizations (e.g. the action
-// graph) to an evaluation while staying inside the standard block pipeline.
+// Mounts author-provided HTML into the eval. The HTML may include custom elements
+// (Web Components) such as <lego-tree>. htmleval has NO knowledge of those
+// elements — their JavaScript is inlined via addCustomElement(), and the element
+// handles its own rendering and signalling through the window.htmleval signal API.
 class CustomComponent {
     constructor(root, block, parent, blockID) {
         this.blockID = blockID;
@@ -866,86 +865,25 @@ class CustomComponent {
             container.appendChild(h);
         }
 
-        // Mount the author-provided markup.
+        // Mount the author-provided markup (may contain custom elements).
         var mount = document.createElement("div");
         mount.innerHTML = block["content"]["html"] || "";
         container.appendChild(mount);
 
-        // Optional pan/zoom: wrap raw content so build.js's initZoomableSVGs (which
-        // runs after every block is built) wires it up. Skipped when the html
-        // already provides its own .zoomable-svg wrapper.
+        // Optional convenience pan/zoom wrapper for raw SVG content. Custom elements
+        // generally manage their own pan/zoom, so leave zoomable off for those.
         if (block["content"]["zoomable"] && !mount.querySelector(".zoomable-svg")) {
             mount.classList.add("zoomable-svg");
             mount.style.position = "relative";
             mount.style.overflow = "hidden";
         }
 
-        // Register this block as a signal emitter/listener (block-level), reusing
-        // the standard helper.
         registerSignal(container, block);
-
-        // Opt in to descendant-level SVG signal/completion wiring.
-        if (block["content"]["svg_signals"]) {
-            initSvgSignalWiring();
-        }
     }
 
     completion() {
         this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
     }
-}
-
-// One-time global hook that wires elements inside custom components into
-// htmleval's signal system and answer store. Elements opt in declaratively:
-//   data-listeners="sigA sigB"          -> class "svg-sel" while a matching
-//                                           signal is active (style it via CSS).
-//   data-questions='[["row","q"], ...]' -> show a descendant ".svg-tick" element
-//                                           once every listed answer key is filled.
-// Wrapping emitSignal/saveSurvey (rather than editing the template) keeps this
-// behavior identical to the legacy inline bootstrap it replaces.
-var __htmlevalSvgSignalsInit = false;
-function initSvgSignalWiring() {
-    if (__htmlevalSvgSignalsInit) return;
-    __htmlevalSvgSignalsInit = true;
-
-    var _emit = window.emitSignal;
-    window.emitSignal = function (sig) {
-        if (_emit) _emit(sig);
-        var els = document.querySelectorAll("[data-listeners]");
-        for (var i = 0; i < els.length; i++) {
-            var el = els[i];
-            var listeners = (el.getAttribute("data-listeners") || "").split(" ");
-            var on = sig && listeners.indexOf(sig) !== -1;
-            el.classList.toggle("svg-sel", !!on);
-        }
-    };
-
-    window.__htmlevalSvgTicks = function () {
-        if (typeof data === "undefined" || !data || !data.variables) return;
-        var els = document.querySelectorAll("[data-questions]");
-        for (var i = 0; i < els.length; i++) {
-            var el = els[i];
-            var keys = [];
-            try { keys = JSON.parse(el.getAttribute("data-questions")); } catch (e) { keys = []; }
-            var done = keys.length > 0;
-            for (var j = 0; j < keys.length; j++) {
-                var v = data.variables[keys[j]];
-                if (v === undefined || v === null || v === "") done = false;
-            }
-            var tick = el.querySelector(".svg-tick");
-            if (tick) tick.style.display = done ? "" : "none";
-        }
-    };
-
-    var _save = window.saveSurvey;
-    window.saveSurvey = function () {
-        if (_save) _save.apply(this, arguments);
-        window.__htmlevalSvgTicks();
-    };
-
-    // Catch answers made outside saveSurvey and the initial restored state.
-    setInterval(window.__htmlevalSvgTicks, 800);
-    window.__htmlevalSvgTicks();
 }
 
 blockLookup["custom_component"] = CustomComponent;
@@ -1340,6 +1278,11 @@ class SimpleText {
 blockLookup["text"] = SimpleText;
 var saveSurvey = function () {
     if (readOnly) return;
+    // Let custom elements re-evaluate (e.g. completion ticks) now that an answer
+    // changed. signalHandlers is defined further down but exists by call time.
+    if (typeof signalHandlers !== "undefined") {
+        signalHandlers.forEach(function (h) { try { h(activeSignal); } catch (e) { /* ignore */ } });
+    }
     //we assume that the data is stored in tabData
     fetch("https://www.kv.econlabs.org/" + reviewerID, {
         method: 'PUT',
@@ -1382,6 +1325,7 @@ var clearFieldTimestamp = function (fieldId) {
 // Signal Management
 var activeSignal = null;
 var signalListeners = []; // Objects { element: element, listeners: ["sig1", ...] }
+var signalHandlers = [];  // plain callbacks (used by custom web components)
 
 var emitSignal = function (signal) {
     activeSignal = signal;
@@ -1396,7 +1340,23 @@ var emitSignal = function (signal) {
             item.element.style.display = match ? "" : "none";
         }
     });
+    // Notify plain-callback subscribers (custom web components via window.htmleval).
+    signalHandlers.forEach(function (h) { try { h(signal); } catch (e) { /* ignore */ } });
 }
+
+// Public, stable signal API for custom elements (Web Components). htmleval has no
+// knowledge of any specific component; components interact only through this.
+window.htmleval = {
+    emit: function (signal) { emitSignal(signal); },
+    subscribe: function (handler) {
+        signalHandlers.push(handler);
+        return function () { var i = signalHandlers.indexOf(handler); if (i >= 0) signalHandlers.splice(i, 1); };
+    },
+    isAnswered: function (key) {
+        return !!(typeof data !== "undefined" && data && data.variables &&
+            data.variables[key] !== undefined && data.variables[key] !== null && data.variables[key] !== "");
+    }
+};
 
 var registerSignal = function (element, blockData, emitterElement = null) {
     // Handle Emitter
@@ -1564,6 +1524,24 @@ var initZoomableSVGs = function () {
     }
     initZoomableSVGs();
 })();
+
+// custom element: demo-badge
+
+class DemoBadge extends HTMLElement {
+  connectedCallback() {
+    this.attachShadow({ mode: "open" });
+    var sig = this.getAttribute("signal");
+    this.shadowRoot.innerHTML =
+      '<style>.b{display:inline-block;padding:10px 16px;margin:4px;border:2px solid #7e22ce;' +
+      'border-radius:10px;background:#e9d5ff;cursor:pointer;font:14px Arial;}' +
+      '.b.on{background:#22c55e;color:#fff;border-color:#16a34a;}</style>' +
+      '<span class="b">' + (this.getAttribute("label") || sig) + '</span>';
+    var span = this.shadowRoot.querySelector(".b");
+    span.addEventListener("click", function () { if (window.htmleval) window.htmleval.emit(sig); });
+    if (window.htmleval) window.htmleval.subscribe(function (active) { span.classList.toggle("on", active === sig); });
+  }
+}
+if (!customElements.get("demo-badge")) customElements.define("demo-badge", DemoBadge);
 
     </script>
 

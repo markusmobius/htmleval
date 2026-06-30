@@ -25,18 +25,15 @@ A block that presents a list of "rows", and for each row, a set of specific ques
   - `questions`: A list of `MultiRowSelectQuestion`, each having its own `MultiRowOption` set.
 
 ## CustomComponent
-A generic host block for mounting author-provided, pre-rendered HTML/SVG into the evaluation. It is the supported extension point for adding bespoke visualizations (e.g. an action graph) while staying inside the standard block pipeline.
-- **Usage**: Embedding custom markup, diagrams, or interactive SVGs that opt into shared htmleval behaviors instead of re-implementing them.
+A generic host block that mounts author-provided HTML into the evaluation. The HTML may include **custom elements** (Web Components, e.g. `<lego-tree>`); htmleval has no knowledge of them — register their JavaScript with [`addCustomElement`](custom_elements.md) and the element handles its own rendering and signalling.
+- **Usage**: Hosting a custom element, or dropping in a static diagram / SVG.
 - **Properties**:
-  - `html`: The pre-rendered HTML/SVG string to mount.
+  - `html`: The HTML to mount (may contain custom-element tags).
   - `title` / `titleSize`: Optional heading above the mounted content.
-  - `zoomable`: Wrap the content so it gains wheel-zoom and click-drag pan. Leave `False` if your `html` already provides its own `.zoomable-svg` wrapper (to avoid double-wrapping).
-  - `svg_signals`: Wire descendant elements that carry `data-listeners` and/or `data-questions` attributes into htmleval's signal system and answer store:
-    - `data-listeners="sigA sigB"` — the element gains the class `svg-sel` while a matching signal is active (style it via CSS).
-    - `data-questions='[["row","q"], ...]'` — a descendant `.svg-tick` element is shown once every listed answer key is filled.
+  - `zoomable`: Convenience wrapper that gives raw SVG wheel-zoom and click-drag pan. Leave `False` for custom elements (they manage their own pan/zoom).
   - `signal` / `listeners` / `highlight`: Block-level signal wiring, shared with every other block (see [Signals & Listeners](signals.md)).
-- **Note**: The block is non-interactive on its own (it reports 0/0 completion); any completion comes from the question blocks its signals are linked to.
-- **Example**: `createDemo6.py` demonstrates all three modes across separate tabs — a basic HTML/SVG mount, a `zoomable` SVG, and an `svg_signals` SVG with highlighting and completion ticks.
+- **Note**: The block is non-interactive on its own (it reports 0/0 completion); any completion comes from the question blocks its components' signals are linked to.
+- **Example**: `createDemo6.py` shows a basic mount, a `zoomable` SVG, and a `<demo-badge>` custom element registered with `addCustomElement`. See [Custom Elements](custom_elements.md).
 
 ## Signals on simple blocks
 Every simple block accepts the shared `signal`, `listeners`, and `highlight` parameters for runtime interactivity. See [Signals & Listeners](signals.md) for the full model.
