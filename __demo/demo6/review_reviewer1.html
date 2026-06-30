@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Component Demo</title>
+    <style>
+        details>summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        details[open] .hidden-content {
+            display: block;
+        }
+
+        select {
+            /* Style adjustments for the dropdown */
+            padding: 5px;
+            margin: 0;
+            border-radius: 5px;
+        }
+
+        input[type="checkbox"] {
+            transform: scale(2);
+            /* Adjust the scale value as needed */
+            /* margin: 10px; Optional: Adjust the margin to align the checkbox */
+        }
+
+        .scrollable-box {
+            overflow-y: auto;
+        }
+        
+        .signal-highlight {
+            box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.85);
+            background-color: rgba(34, 197, 94, 0.18);
+            transition: box-shadow 0.15s ease, background-color 0.15s ease;
+        }
+
+        .annotated-text span {
+            padding: 2px 4px;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .annotated-text span:hover::after {
+            content: attr(data-details);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            white-space: nowrap;
+            background: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 3px;
+            z-index: 10;
+            font-size: 12px;
+        }
+
+        .thread-content {
+            background-color: #f4f4f4;
+            /* Distinct gray */
+            padding: 5px;
+            /* Reduced padding */
+            border-radius: 5px;
+            margin-bottom: 5px;
+            /* Separation from children or usage of thread container */
+            transition: background-color 0.2s;
+        }
+
+        .thread-content:hover {
+            background-color: #e2e2e2;
+            /* Darker on hover */
+        }
+
+        .thread-content h1,
+        .thread-content h2,
+        .thread-content h3,
+        .thread-content h4,
+        .thread-content h5,
+        .thread-content h6 {
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+            /* Force smaller size regardless of tag to fit thread block */
+            font-weight: bold;
+        }
+
+        .thread-content p {
+            margin-bottom: 0;
+            /* Tighten paragraph spacing */
+        }
+
+        .text-content {
+            background-color: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .text-content:hover {
+            background-color: #e2e2e2;
+        }
+
+        .text-content:active,
+        .thread-content:active {
+            outline: 2px solid #22c55e;
+            /* highlight green */
+        }
+
+        .thread-container {
+            margin-left: 1.5rem;
+            /* Offset to the right */
+            padding-left: 1rem;
+            border-left: 2px solid #e0e0e0;
+            /* Line indicating same level */
+            margin-bottom: 1rem;
+        }
+    </style>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <dl class="row">
+            <dt class="col-sm-2">Reviewer</dt>
+            <dd class="col-sm-2">reviewer1</dd>
+            <dt class="col-sm-2">Evaluation</dt>
+            <dd class="col-sm-2">Custom Component Demo</dd>
+            <dd class="col-sm-2">&nbsp;</dd>
+            <dd class="col-sm-2" id="completedstatus">0% complete</dd>
+        </dl>
+    </div>
+
+    <div class="container mt-3" id="rootblock">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        //surveyID
+        var reviewerID = "181fb025-729e-4626-8fb7-47f358333026";
+
+        //data and blocks
+        var data = null;
+        var dataDefaults = {};
+        var blockLookup = {};
+        var rootBlock = {"type": "tabs", "signal": null, "listeners": [], "content": [{"tabName": "Basic", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Mount any HTML or SVG", "size": 3}, "body": {"is_table": false, "text": ["A custom_component simply renders the markup you give it."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<div style=\"max-width:540px;margin:0 auto;padding:16px;border:1px solid #ddd;border-radius:8px;background:#fff;\">\n  <h4 style=\"margin-top:0;\">Hello from a custom component</h4>\n  <p>The <code>custom_component</code> block mounts arbitrary author-provided HTML or SVG\n  inside an evaluation, so you can drop in bespoke visualizations without writing a new\n  block type.</p>\n  <svg width=\"100%\" height=\"60\" viewBox=\"0 0 500 60\" xmlns=\"http://www.w3.org/2000/svg\">\n    <rect x=\"2\" y=\"2\" width=\"496\" height=\"56\" rx=\"8\" fill=\"#eef2ff\" stroke=\"#6366f1\"/>\n    <text x=\"250\" y=\"36\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" fill=\"#3730a3\">Inline SVG works too</text>\n  </svg>\n</div>\n", "zoomable": false, "svg_signals": false, "highlight": false, "title": {"text": "Basic mount", "size": 4}}}]], "styleData": {}}}, {"tabName": "Zoomable", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Pan &amp; zoom", "size": 3}, "body": {"is_table": false, "text": ["With <code>zoomable=True</code> the component wraps raw SVG so it gets mouse-wheel zoom and click-drag pan for free."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<svg viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\"\n     style=\"display:block;margin:0 auto;background:#fafafa;\">\n  <circle cx=\"120\" cy=\"150\" r=\"70\" fill=\"#fca5a5\" stroke=\"#b91c1c\" stroke-width=\"2\"/>\n  <rect x=\"210\" y=\"90\" width=\"120\" height=\"120\" rx=\"10\" fill=\"#93c5fd\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n  <text x=\"200\" y=\"285\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#555\">scroll to zoom, drag to pan</text>\n</svg>\n", "zoomable": true, "svg_signals": false, "highlight": false, "title": {"text": "Zoomable SVG", "size": 4}}}]], "styleData": {}}}, {"tabName": "Signals", "block": {"type": "column", "signal": null, "listeners": [], "content": [[{"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "Highlighting &amp; ticks", "size": 3}, "body": {"is_table": false, "text": ["With <code>svg_signals=True</code>, elements opt in via <code>data-listeners</code> (highlight while a signal is active) and <code>data-questions</code> (show a tick once the listed answers are filled)."]}}}, {"type": "custom_component", "signal": null, "listeners": [], "content": {"html": "\n<svg viewBox=\"0 0 460 220\" width=\"460\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"\n     style=\"display:block;margin:0 auto;\">\n  <defs><style>\n    g.svg-sel &gt; rect { stroke: #22c55e !important; stroke-width: 5 !important; }\n    g.svg-sel { filter: drop-shadow(0 0 10px rgba(34,197,94,0.8)); }\n  </style></defs>\n\n  <!-- Shape ALPHA: emits + listens to its own 'alpha' signal (click to highlight),\n       and reveals a green tick once its \"Approve?\" question is answered. -->\n  <g onclick=\"emitSignal('alpha')\" style=\"cursor:pointer\"\n     data-listeners=\"alpha\" data-questions='[\"[\\\"shape_alpha\\\",\\\"approve\\\"]\"]'>\n    <rect x=\"30\" y=\"50\" width=\"170\" height=\"110\" rx=\"10\" fill=\"#e9d5ff\" stroke=\"#7e22ce\" stroke-width=\"2\"/>\n    <text x=\"115\" y=\"103\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#4c1d95\">Shape ALPHA</text>\n    <text x=\"115\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#6b21a8\">click me to highlight</text>\n    <g class=\"svg-tick\" style=\"display:none\">\n      <circle cx=\"185\" cy=\"65\" r=\"11\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/>\n      <path d=\"M 180 65 L 184 69 L 191 60\" stroke=\"#ffffff\" stroke-width=\"2.5\" fill=\"none\"\n            stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n\n  <!-- Shape BETA: only listens to 'beta', emitted by the text block below. -->\n  <g data-listeners=\"beta\">\n    <rect x=\"260\" y=\"50\" width=\"170\" height=\"110\" rx=\"10\" fill=\"#cffafe\" stroke=\"#0e7490\" stroke-width=\"2\"/>\n    <text x=\"345\" y=\"103\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" fill=\"#155e75\">Shape BETA</text>\n    <text x=\"345\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#0e7490\">highlighted by the emitter</text>\n  </g>\n</svg>\n", "zoomable": false, "svg_signals": true, "highlight": false, "title": {"text": "Signal-wired SVG", "size": 4}}}, {"type": "text", "signal": "beta", "listeners": [], "content": {"highlight": false, "title": {"text": "Highlight Shape BETA", "size": 4}, "body": {"is_table": false, "text": ["Click here to emit the <b>beta</b> signal and highlight Shape BETA above."]}}}, {"type": "text", "signal": null, "listeners": [], "content": {"highlight": false, "title": {"text": "", "size": null}, "body": {"is_table": false, "text": ["Answer below to reveal Shape ALPHA's completion tick:"]}}}, {"type": "multi_row_select", "signal": null, "listeners": [], "content": {"rowLabels": ["Shape"], "questions": [{"label": "Approve?", "id": {"1": "approve"}, "options": [{"label": "Yes", "value": "yes", "color": "success"}, {"label": "No", "value": "no", "color": "danger"}]}], "rows": [{"text": ["Shape ALPHA"], "id": {"0": "shape_alpha"}}], "highlight": false}}]], "styleData": {}}}]};
+        var serverURL = "https://www.kv.econlabs.org/";
+        var readOnly = false;
+
+        class Interactive {
+
+  constructor(root, block, parent, blockID) {
+    //generate a unique block ID
+    this.blockID = blockID;
+    this.parent = parent;
+    //keep track of completion
+    this.completed = {};
+    //construct container
+    var container = document.createElement("div");
+    container.className = "container";
+    root.appendChild(container);
+    var row = document.createElement("div");
+    row.className = "row align-items-start";
+    container.appendChild(row);
+    //construct two columns
+    this.bubbleUp = false;
+    //text column
+    var textColumn = document.createElement("div");
+    textColumn.className = "col large-scrollable-box";
+    row.appendChild(textColumn);
+    //context column
+    var contextColumn = document.createElement("div");
+    contextColumn.className = "col";
+    row.appendChild(contextColumn);
+    this.spanAssignments = {};
+    this.tabAssignments = {};
+    for (var i = 0; i < block["content"].length; i++) {
+      var para = document.createElement("p");
+      textColumn.appendChild(para);
+      for (var j = 0; j < block["content"][i]["fragments"].length; j++) {
+        var currentBlockId = blocks.length;
+        blocks.push(null);
+        if (data["active"][this.blockID] == undefined) {
+          data["active"][this.blockID] = currentBlockId;
+        }
+        if (i == block["content"].length - 1 && j == block["content"][i]["fragments"].length - 1) {
+          this.bubbleUp = true;
+        }
+        var fragment = block["content"][i]["fragments"][j];
+        var span = document.createElement("div");
+        this.spanAssignments[currentBlockId] = span;
+        span.innerHTML = fragment["text"];
+        span.setAttribute("blockid", currentBlockId);
+
+        // Apply light bottom border to all fragments for visual separation
+        span.style.borderBottom = "1px solid #e0e0e0";
+        span.style.paddingBottom = "8px";
+        span.style.marginBottom = "8px";
+        span.style.display = "block";
+        span.style.padding = "8px";
+        span.style.borderRadius = "4px";
+
+        // Set border attribute from fragment data if it exists
+        if (fragment["border"]) {
+          span.setAttribute("border", fragment["border"]);
+          span.setAttribute("original-border", fragment["border"]); // Store original border
+          span.style.border = fragment["border"];
+          // Override the bottom separator with the main border
+          span.style.borderBottom = fragment["border"];
+        }
+
+        para.appendChild(span);
+        span.addEventListener("mouseover", (e) => {
+          e.currentTarget.classList.add("text-danger-emphasis");
+        });
+        span.addEventListener("mouseout", (e) => {
+          e.currentTarget.classList.remove("text-danger-emphasis");
+        });
+        span.addEventListener("click", (e) => {
+          // Determine new and previous block IDs as numbers
+          var newBlockID = parseInt(e.currentTarget.getAttribute("blockid"), 10);
+          var priorBlockID = data["active"][this.blockID] !== undefined ? parseInt(data["active"][this.blockID], 10) : undefined;
+
+          // If clicking the same active block, ensure tab is visible and keep highlight
+          if (priorBlockID === newBlockID) {
+            if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+            e.currentTarget.classList.add("bg-warning-subtle");
+            saveSurvey();
+            return;
+          }
+
+          // Unmark old span if it exists
+          var priorSpan = this.spanAssignments[priorBlockID];
+          if (priorSpan != undefined) {
+            priorSpan.classList.remove("bg-warning-subtle");
+            // Restore original border if it exists
+            var originalBorder = priorSpan.getAttribute("original-border");
+            if (originalBorder) {
+              priorSpan.style.border = originalBorder;
+            } else {
+              priorSpan.style.border = ""; // Remove any border
+              priorSpan.style.borderBottom = "1px solid #e0e0e0"; // Restore fragment separator
+            }
+            if (this.tabAssignments[priorBlockID]) this.tabAssignments[priorBlockID].style.display = "none";
+          }
+
+          //adjust context - set new active and show its tab
+          if (this.tabAssignments[newBlockID]) this.tabAssignments[newBlockID].style.display = "";
+          data["active"][this.blockID] = newBlockID;
+
+          //mark new span - add yellow background but preserve border
+          e.currentTarget.classList.add("bg-warning-subtle");
+
+          // Update the previous span to show its completion status now that it's not active
+          if (priorSpan != undefined && this.completed[priorBlockID]) {
+            this.completion(priorBlockID, this.completed[priorBlockID][0], this.completed[priorBlockID][1]);
+          }
+
+          saveSurvey();
+        });
+        var tabDiv = document.createElement("div");
+        this.tabAssignments[currentBlockId] = tabDiv;
+        if (data["active"][this.blockID] == currentBlockId) {
+          tabDiv.style.display = "";
+        }
+        else {
+          tabDiv.style.display = "none";
+        }
+        contextColumn.appendChild(tabDiv);
+        blocks[currentBlockId] = new blockLookup[fragment["block"]["type"]](tabDiv, fragment["block"], this, currentBlockId);
+        //if not active, apply normal styling
+        if (currentBlockId != data["active"][this.blockID]) {
+          // Fragment gets its default styling from border attribute
+        }
+        else {
+          span.classList.add("bg-warning-subtle");
+        }
+      }
+    }
+
+    // Register Signal
+    registerSignal(container, block);
+  }
+
+  //completion method
+  completion(blockID, completed, total) {
+    console.log(blockID + ":" + completed + ":" + total);
+    this.completed[blockID] = [completed, total];
+    var span = this.spanAssignments[blockID];
+
+    //update the span - just change background, preserve border
+    // Check if any answers for this specific block are "no"
+    // TODO make this more generic - this only works for yes/no questions
+    if (completed == total) {
+      var hasNoAnswers = false;
+      // Get the specific block and check its data variables directly
+      if (blocks[blockID]) {
+        // Look for the table element in the tab that corresponds to this blockID
+        var tabDiv = this.tabAssignments[blockID];
+        if (tabDiv) {
+          // Find all checked inputs in this specific tab div (for MultiRowChecked)
+          var checkedInputs = tabDiv.querySelectorAll('input[type="checkbox"]:checked');
+          for (var i = 0; i < checkedInputs.length; i++) {
+            var input = checkedInputs[i];
+            var fullId = input.getAttribute("fullid") || input.getAttribute("name");
+            var value = fullId ? data["variables"][fullId] : null;
+            var varValue = input.getAttribute("varvalue");
+            console.log("[completion] checkbox", i, "fullId:", fullId, "stored value:", value, "varvalue:", varValue);
+            if (value === "no" || varValue === "no" || input.value === "no") {
+              hasNoAnswers = true;
+              break;
+            }
+          }
+
+          // Support MultiRowSelect: radio inputs or select elements
+          if (!hasNoAnswers) {
+            // Radios
+            var radioInputs = tabDiv.querySelectorAll('input[type="radio"]:checked');
+            console.log('[completion] found radios:', radioInputs.length);
+            for (var r = 0; r < radioInputs.length; r++) {
+              var rInput = radioInputs[r];
+              var rFullId = rInput.getAttribute("fullid") || rInput.getAttribute("name");
+              var rValue = rFullId ? data["variables"][rFullId] : null;
+              var rVarValue = rInput.getAttribute("varvalue");
+              console.log("[completion] radio", r, "fullId:", rFullId, "stored value:", rValue, "varvalue:", rVarValue, "input.value:", rInput.value);
+              if (rValue === "no" || rVarValue === "no" || rInput.value === "no") {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+
+          if (!hasNoAnswers) {
+            // Select elements (dropdowns)
+            var selects = tabDiv.querySelectorAll('select');
+            console.log('[completion] found selects:', selects.length);
+            for (var s = 0; s < selects.length; s++) {
+              var sel = selects[s];
+              var selFullId = sel.getAttribute('fullid') || sel.getAttribute('name');
+              var selValue = selFullId ? data['variables'][selFullId] : null;
+              var selSelected = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].value : null;
+              console.log('[completion] select', s, 'fullId:', selFullId, 'stored value:', selValue, 'selected:', selSelected);
+              if (selValue === 'no' || selSelected === 'no') {
+                hasNoAnswers = true;
+                break;
+              }
+            }
+          }
+        } else {
+          console.log("Could not find tabDiv for blockID:", blockID);
+        }
+      } else {
+        console.log("Could not find block for blockID:", blockID);
+      }
+
+      span.classList.remove("bg-primary-subtle", "bg-warning-subtle", "bg-danger-subtle", "bg-success-subtle");
+
+      // Check if this block is currently active/selected - if so, don't change it
+      var isActive = data["active"][this.blockID] == blockID;
+
+      if (!isActive) {
+        // Only apply completion colors if the block is NOT currently active
+        if (hasNoAnswers) {
+          span.classList.add("bg-danger-subtle");
+        } else {
+          span.classList.add("bg-success-subtle");
+        }
+      } else {
+        // If active, keep the yellow highlight
+        span.classList.add("bg-warning-subtle");
+      }
+    }
+    else if (completed > 0) {
+      // Check if this block is currently active/selected
+      var isActive = data["active"][this.blockID] == blockID;
+
+      span.classList.remove("bg-success-subtle", "bg-warning-subtle", "bg-danger-subtle");
+
+      if (isActive) {
+        // If active, show yellow highlight
+        span.classList.add("bg-warning-subtle");
+      } else {
+        // If not active, show partial completion (blue)
+        span.classList.add("bg-primary-subtle");
+      }
+    }
+    else {
+      // No completion - remove completion styling
+      span.classList.remove("bg-success-subtle", "bg-primary-subtle", "bg-danger-subtle");
+      // Keep warning if currently active
+      if (data["active"][this.blockID] == blockID) {
+        span.classList.add("bg-warning-subtle");
+      }
+    }
+
+    //bubble up completion status to parent
+    if (this.bubbleUp) {
+      var status = [0, 0];
+      for (var key in this.completed) {
+        status[0] += this.completed[key][0];
+        status[1] += this.completed[key][1];
+      }
+      this.parent.completion(this.blockID, status[0], status[1]);
+    }
+  }
+}
+
+
+//add class to lookup dictionary
+blockLookup["interactive"] = Interactive;
+class Thread {
+
+    constructor(root, block, parent, blockID) {
+        //generate a unique block ID
+        this.blockID = blockID;
+        this.parent = parent;
+        //keep track of completion
+        this.completed = {};
+
+        // Create Wrapper for entire Thread (Text + Children)
+        var threadWrapper = document.createElement("div");
+        root.appendChild(threadWrapper);
+
+        // Render Text Content (Title + Body)
+        var textDiv = document.createElement("div");
+        textDiv.className = "thread-content";
+        threadWrapper.appendChild(textDiv);
+
+        // Title
+        if (block["content"] && block["content"]["title"] != undefined) {
+            var h = document.createElement("h" + block["content"]["title"]["size"]);
+            textDiv.appendChild(h);
+            h.innerHTML = block["content"]["title"]["text"];
+        }
+
+        // Body
+        if (block["content"] && block["content"]["body"] != undefined) {
+            for (var i = 0; i < block["content"]["body"]["text"].length; i++) {
+                var p = document.createElement("p");
+                textDiv.appendChild(p);
+                p.innerHTML = block["content"]["body"]["text"][i];
+            }
+        }
+
+        // Render Child Threads Container
+        var container = document.createElement("div");
+        container.className = "thread-container";
+        threadWrapper.appendChild(container);
+
+        this.bubbleUp = false;
+        // Loop over child threads
+        if (block["threads"]) {
+            for (var i = 0; i < block["threads"].length; i++) {
+                // Check if this is the last block to handle bubbleUp logic
+                if (i == block["threads"].length - 1) {
+                    this.bubbleUp = true;
+                }
+                // Instantiate the child block
+                var childID = blocks.length;
+                blocks.push(null);
+                blocks[childID] = new blockLookup[block["threads"][i]["type"]](container, block["threads"][i], this, childID);
+            }
+        }
+
+        // Register Signal
+        // listener: threadWrapper (show/hide whole branch)
+        // emitter: textDiv (hovering content triggers signal)
+        registerSignal(textDiv, block, textDiv);
+
+        // Completion coloring: this thread's header turns green/red based on the
+        // completion of the question blocks that share its signal (which live in a
+        // separate column, linked only by signal name). No "in progress" color is
+        // shown, so untouched threads stay neutral.
+        if (block["signal"]) {
+            registerSignalColor(block["signal"], textDiv);
+        }
+    }
+
+    //completion method
+    completion(blockID, completed, total) {
+        this.completed[blockID] = [completed, total];
+        //bubble up completion status to parent
+        if (this.bubbleUp) {
+            var status = [0, 0];
+            for (var key in this.completed) {
+                status[0] += this.completed[key][0];
+                status[1] += this.completed[key][1];
+            }
+            this.parent.completion(this.blockID, status[0], status[1]);
+        }
+    }
+}
+
+
+//add class to lookup dictionary
+blockLookup["thread"] = Thread;
+
+class Column {
+
+  constructor(root, block, parent, blockID) {
+      //generate a unique block ID
+      this.blockID=blockID;
+      this.parent=parent;
+      //keep track of completion
+      this.completed={};
+      //construct columns
+      var container=document.createElement("div");
+      container.className="container";
+      root.appendChild(container);
+      var row=document.createElement("div");
+      row.className="row align-items-start";
+      container.appendChild(row);
+      this.bubbleUp=false;
+      for(var i=0;i<block["content"].length;i++){
+        //create column
+        var column=document.createElement("div");
+        column.className="col";
+        if (block["styleData"]["verticalHeight"]) {
+            column.style.overflowY = "auto";
+            column.style.height = block["styleData"]["verticalHeight"] + "vh";
+        }
+        row.appendChild(column);
+        for(var j=0;j<block["content"][i].length;j++){
+          if (i==block["content"].length-1 && j==block["content"][i].length-1){
+            this.bubbleUp=true;  
+          }
+          var childID=blocks.length;
+          blocks.push(null);
+          blocks[childID]=new blockLookup[block["content"][i][j]["type"]](column,block["content"][i][j],this,childID);
+        }
+      }
+  }
+
+  //completion method
+  completion(blockID,completed,total) {
+      this.completed[blockID]=[completed,total];
+      //bubble up completion status to parent
+      if (this.bubbleUp){
+          var status=[0,0];
+          for(var key in this.completed){
+              status[0]+=this.completed[key][0];
+              status[1]+=this.completed[key][1];
+          }
+          this.parent.completion(this.blockID,status[0],status[1]);
+      }
+  }
+}
+
+  
+//add class to lookup dictionary
+blockLookup["column"]=Column;
+class Tabs {
+
+    constructor(root, block, parent, blockID) {
+        //generate a unique tab ID
+        this.blockID = blockID;
+        this.parent = parent;
+        this.tabBlockAssignment = {};
+        //keep track of completion
+        this.completed = {};
+        //construct table
+
+        var container = document.createElement("div");
+        root.appendChild(container);
+
+        var ul = document.createElement("ul");
+        container.appendChild(ul);
+        ul.className = "nav nav-tabs";
+        ul.setAttribute("role", "tablist");
+        if (data["active"][this.blockID] == undefined) {
+            data["active"][this.blockID] = 0;
+        }
+        for (var i = 0; i < block["content"].length; i++) {
+            var li = document.createElement("li");
+            ul.appendChild(li);
+            li.className = "nav-item";
+            li.setAttribute("role", "presentation");
+            var button = document.createElement("button");
+            li.appendChild(button);
+            button.setAttribute("data-bs-toggle", "tab");
+            button.setAttribute("id", this.blockID + ":" + i);
+            button.setAttribute("taborder", i);
+            button.setAttribute("data-bs-target", "#" + this.blockID + ":" + i + "-tab");
+            button.setAttribute("type", "button");
+            button.setAttribute("role", "tab");
+            button.setAttribute("aria-controls", i);
+            if (data["active"][this.blockID] == i) {
+                button.setAttribute("aria-selected", "true");
+                button.className = "nav-link active bg-warning-subtle";
+            }
+            else {
+                button.setAttribute("aria-selected", "false");
+                button.className = "nav-link";
+            }
+            button.innerHTML = block["content"][i]["tabName"];
+            button.addEventListener("click", (e) => {
+                //remove active class from currently active tab
+                var oldButton = document.getElementById(this.blockID + ":" + data["active"][this.blockID]);
+                oldButton.classList.remove("bg-warning-subtle");
+                var oldStatus = [0, 0];
+                for (var key in this.tabBlockAssignment) {
+                    if (this.tabBlockAssignment[key] == data["active"][this.blockID]) {
+                        if (this.completed[key] !== undefined) {
+                            oldStatus = this.completed[key];
+                        }
+                    }
+                }
+                if (oldStatus[1] > 0 && oldStatus[0] == oldStatus[1]) {
+                    oldButton.classList.remove("bg-primary-subtle");
+                    oldButton.classList.add("bg-success-subtle");
+                }
+                if (oldStatus[1] > 0 && oldStatus[0] < oldStatus[1]) {
+                    oldButton.classList.remove("bg-success-subtle");
+                    oldButton.classList.add("bg-primary-subtle");
+                }
+                data["active"][this.blockID] = parseInt(e.target.getAttribute("taborder"));
+                var newButton = document.getElementById(this.blockID + ":" + data["active"][this.blockID]);
+                newButton.classList.remove("bg-success-subtle");
+                newButton.classList.remove("bg-primary-subtle");
+                newButton.classList.add("bg-warning-subtle");
+                saveSurvey();
+            });
+        }
+        //now add the content
+        var tabcontent = document.createElement("div");
+        container.appendChild(tabcontent);
+        tabcontent.className = "tab-content bg-light";
+        this.bubbleUp = false;
+        for (var i = 0; i < block["content"].length; i++) {
+            var pane = document.createElement("div");
+            tabcontent.appendChild(pane);
+            if (data["active"][this.blockID] == i) {
+                pane.className = "tab-pane active";
+            }
+            else {
+                pane.className = "tab-pane";
+            }
+            pane.setAttribute("id", this.blockID + ":" + i + "-tab");
+            pane.setAttribute("role", "tabpanel");
+            pane.setAttribute("aria-labelledby", this.blockID + ":" + i + "-tab");
+            if (i == block["content"].length - 1) {
+                this.bubbleUp = true;
+            }
+            var childID = blocks.length;
+            blocks.push(null);
+            this.tabBlockAssignment[childID] = i;
+            var newBlock = new blockLookup[block["content"][i]["block"]["type"]](pane, block["content"][i]["block"], this, childID);
+            blocks[childID] = newBlock;
+        }
+
+        // Register Signal
+        registerSignal(container, block);
+    }
+
+    //completion method
+    completion(blockID, completed, total) {
+        this.completed[blockID] = [completed, total];
+        //if not active update the button background
+        if (this.tabBlockAssignment[blockID] != data["active"][this.blockID]) {
+            var newButton = document.getElementById(this.blockID + ":" + this.tabBlockAssignment[blockID]);
+            newButton.classList.remove("bg-success-subtle");
+            newButton.classList.remove("bg-primary-subtle");
+            if (total > 0 && completed == total) {
+                newButton.classList.add("bg-success-subtle");
+            }
+            if (total > 0 && completed < total) {
+                newButton.classList.add("bg-primary-subtle");
+            }
+        }
+        //bubble up completion status to parent
+        if (this.bubbleUp) {
+            var status = [0, 0];
+            for (var key in this.completed) {
+                status[0] += this.completed[key][0];
+                status[1] += this.completed[key][1];
+            }
+            this.parent.completion(this.blockID, status[0], status[1]);
+        }
+    }
+}
+
+//add class to lookup dictionary
+blockLookup["tabs"] = Tabs;
+
+class MultiRowSelect {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        //keep track of completion
+        this.completed = [0, 0];
+        //signals this question reports completion to (for cross-column coloring)
+        this.listeners = block["listeners"] || [];
+        //construct table
+        var tbl = document.createElement("table");
+        this.tbl = tbl;
+        tbl.className = "table table-striped table-hover";
+        tbl.setAttribute("border", 1);
+        root.appendChild(tbl);
+        //add header
+        var thead = document.createElement("thead");
+        var header_row = document.createElement("tr");
+        thead.appendChild(header_row);
+        tbl.appendChild(thead);
+        var width = (100 - 20 * block["content"]["questions"].length) / block["content"]["rowLabels"].length;
+        for (var i = 0; i < block["content"]["rowLabels"].length; i++) {
+            var th = document.createElement("th");
+            th.innerHTML = block["content"]["rowLabels"][i];
+            th.style.width = width + "%";
+            header_row.appendChild(th);
+        }
+        //now add question labels
+        for (var i = 0; i < block["content"]["questions"].length; i++) {
+            th = document.createElement("th");
+            th.innerHTML = block["content"]["questions"][i]["label"];
+            header_row.appendChild(th);
+        }
+        //now add the rows    
+        var tbody = document.createElement("tbody");
+        tbl.appendChild(tbody);
+        for (var i = 0; i < block["content"]["rows"].length; i++) {
+            var row = document.createElement("tr");
+            tbody.appendChild(row);
+            for (var j = 0; j < block["content"]["rowLabels"].length; j++) {
+                var td = document.createElement("td");
+                row.appendChild(td);
+                td.innerHTML = block["content"]["rows"][i]["text"][j];
+            }
+            //now create the select element
+            for (var j = 0; j < block["content"]["questions"].length; j++) {
+                var td = document.createElement("td");
+                row.appendChild(td);
+                var select = document.createElement("select");
+                td.appendChild(select);
+                select.className = "form-control";
+                var fullId = ["", ""];
+                for (var key in block["content"]["rows"][i]["id"]) {
+                    fullId[key] = block["content"]["rows"][i]["id"][key];
+                }
+                for (var key in block["content"]["questions"][j]["id"]) {
+                    fullId[key] = block["content"]["questions"][j]["id"][key];
+                }
+                fullId = JSON.stringify(fullId);
+                select.setAttribute("id", fullId);
+                var option = document.createElement("option");
+                option.innerHTML = "Select";
+                select.appendChild(option);
+                var oldValue = data["variables"][fullId];
+                for (var k = 0; k < block["content"]["questions"][j]["options"].length; k++) {
+                    var option = document.createElement("option");
+                    option.innerHTML = block["content"]["questions"][j]["options"][k]["label"];
+                    if (block["content"]["questions"][j]["options"][k]["color"] != undefined) {
+                        option.setAttribute("color", block["content"]["questions"][j]["options"][k]["color"]);
+                    }
+                    option.value = block["content"]["questions"][j]["options"][k]["value"];
+                    select.appendChild(option);
+                    if (oldValue == option.value) {
+                        select.selectedIndex = k + 1;
+                        this.completed[0]++;
+                        if (block["content"]["questions"][j]["options"][k]["color"] != undefined) {
+                            td.className = "table-" + block["content"]["questions"][j]["options"][k]["color"];
+                        }
+                    }
+                }
+                this.completed[1]++;
+                select.addEventListener('change', (e) => {
+                    if (e.target.selectedIndex == 0) {
+                        delete data["variables"][e.target.id];
+                        clearFieldTimestamp(e.target.id);
+                        this.completed[0]--;
+                    }
+                    else {
+                        if (data["variables"][e.target.id] == undefined) {
+                            this.completed[0]++;
+                        }
+                        data["variables"][e.target.id] = e.target.value;
+                        recordFieldTimestamp(e.target.id);
+                    }
+                    var selectedOption = e.target.options[e.target.selectedIndex];
+                    var color = selectedOption.getAttribute('color');
+                    var td = e.target.parentElement;
+                    if (color != undefined) {
+                        td.className = "table-" + color;
+                    }
+                    else {
+                        td.className = "";
+                    }
+                    this.completion();
+                    saveSurvey();
+                });
+            }
+        }
+        // Register Signal
+        registerSignal(tbl, block);
+
+        this.completion();
+    }
+
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+        //report completion to any signals this question is tied to, so a thread
+        //header in another column can color its background green/red.
+        if (this.listeners && this.listeners.length > 0 && typeof reportSignalCompletion === "function") {
+            var hasNo = this.hasNoAnswer();
+            for (var i = 0; i < this.listeners.length; i++) {
+                reportSignalCompletion(this.listeners[i], this.blockID, this.completed[0], this.completed[1], hasNo);
+            }
+        }
+    }
+
+    //true if any answered select holds a "no" / "no_*" value
+    hasNoAnswer() {
+        var selects = this.tbl.querySelectorAll("select");
+        for (var s = 0; s < selects.length; s++) {
+            var sel = selects[s];
+            var v = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].value : null;
+            if (v === "no" || (typeof v === "string" && v.indexOf("no_") === 0)) return true;
+        }
+        return false;
+    }
+}
+
+
+//add class to lookup dictionary
+blockLookup["multi_row_select"] = MultiRowSelect;
+// Generic host for a custom web component.
+//
+// Mounts pre-rendered HTML/SVG provided by the Python `CustomComponent` block and
+// opts in to shared htmleval behaviors (signal highlighting, completion ticks,
+// pan/zoom) rather than each component re-implementing them. This is the
+// supported extension point for adding bespoke visualizations (e.g. the action
+// graph) to an evaluation while staying inside the standard block pipeline.
+class CustomComponent {
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        // Non-interactive container: completion is driven by linked question blocks.
+        this.completed = [0, 0];
+
+        var container = document.createElement("div");
+        container.className = "text-content";
+        root.appendChild(container);
+
+        // Optional title.
+        if (block["content"]["title"] != undefined) {
+            var h = document.createElement("h" + block["content"]["title"]["size"]);
+            h.innerHTML = block["content"]["title"]["text"];
+            container.appendChild(h);
+        }
+
+        // Mount the author-provided markup.
+        var mount = document.createElement("div");
+        mount.innerHTML = block["content"]["html"] || "";
+        container.appendChild(mount);
+
+        // Optional pan/zoom: wrap raw content so build.js's initZoomableSVGs (which
+        // runs after every block is built) wires it up. Skipped when the html
+        // already provides its own .zoomable-svg wrapper.
+        if (block["content"]["zoomable"] && !mount.querySelector(".zoomable-svg")) {
+            mount.classList.add("zoomable-svg");
+            mount.style.position = "relative";
+            mount.style.overflow = "hidden";
+        }
+
+        // Register this block as a signal emitter/listener (block-level), reusing
+        // the standard helper.
+        registerSignal(container, block);
+
+        // Opt in to descendant-level SVG signal/completion wiring.
+        if (block["content"]["svg_signals"]) {
+            initSvgSignalWiring();
+        }
+    }
+
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+    }
+}
+
+// One-time global hook that wires elements inside custom components into
+// htmleval's signal system and answer store. Elements opt in declaratively:
+//   data-listeners="sigA sigB"          -> class "svg-sel" while a matching
+//                                           signal is active (style it via CSS).
+//   data-questions='[["row","q"], ...]' -> show a descendant ".svg-tick" element
+//                                           once every listed answer key is filled.
+// Wrapping emitSignal/saveSurvey (rather than editing the template) keeps this
+// behavior identical to the legacy inline bootstrap it replaces.
+var __htmlevalSvgSignalsInit = false;
+function initSvgSignalWiring() {
+    if (__htmlevalSvgSignalsInit) return;
+    __htmlevalSvgSignalsInit = true;
+
+    var _emit = window.emitSignal;
+    window.emitSignal = function (sig) {
+        if (_emit) _emit(sig);
+        var els = document.querySelectorAll("[data-listeners]");
+        for (var i = 0; i < els.length; i++) {
+            var el = els[i];
+            var listeners = (el.getAttribute("data-listeners") || "").split(" ");
+            var on = sig && listeners.indexOf(sig) !== -1;
+            el.classList.toggle("svg-sel", !!on);
+        }
+    };
+
+    window.__htmlevalSvgTicks = function () {
+        if (typeof data === "undefined" || !data || !data.variables) return;
+        var els = document.querySelectorAll("[data-questions]");
+        for (var i = 0; i < els.length; i++) {
+            var el = els[i];
+            var keys = [];
+            try { keys = JSON.parse(el.getAttribute("data-questions")); } catch (e) { keys = []; }
+            var done = keys.length > 0;
+            for (var j = 0; j < keys.length; j++) {
+                var v = data.variables[keys[j]];
+                if (v === undefined || v === null || v === "") done = false;
+            }
+            var tick = el.querySelector(".svg-tick");
+            if (tick) tick.style.display = done ? "" : "none";
+        }
+    };
+
+    var _save = window.saveSurvey;
+    window.saveSurvey = function () {
+        if (_save) _save.apply(this, arguments);
+        window.__htmlevalSvgTicks();
+    };
+
+    // Catch answers made outside saveSurvey and the initial restored state.
+    setInterval(window.__htmlevalSvgTicks, 800);
+    window.__htmlevalSvgTicks();
+}
+
+blockLookup["custom_component"] = CustomComponent;
+
+class Chart {
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        this.completed = [0, 0];
+
+        this.div = document.createElement("div");
+        root.appendChild(this.div);
+
+        // Title
+        if (block.content.title) {
+            const h = document.createElement("h" + block.content.title.size);
+            h.innerHTML = block.content.title.text;
+            this.div.appendChild(h);
+        }
+    }
+
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+    }
+}
+
+class SimpleHistogram extends Chart {
+    constructor(root, block, parent, blockID) {
+        super(root, block, parent, blockID);
+
+        const width = block.content.width || 400;
+        const height = block.content.height || 200;
+        const data = block.content.data || [];
+        const labels = block.content.labels || [];
+        const barColor = block.content.barColor || "#2196F3";
+        const maxVal = Math.max(...data, 1);
+        
+        // Add left margin for y-axis labels
+        const leftMargin = 50;
+        
+        // Adjust SVG height to accommodate x-axis label
+        const svgHeight = block.content.xLabel ? height + 30 : height;
+        
+        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svg.setAttribute("width", width);
+        svg.setAttribute("height", svgHeight);
+        this.div.appendChild(svg);
+
+        const barWidth = (width - leftMargin) / data.length;
+        
+        // Draw background grid
+        const numTicks = 5;
+        for (let t = 0; t <= numTicks; t++) {
+            const y = height - 30 - ((height - 40) * t) / numTicks;
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute("x1", leftMargin);
+            line.setAttribute("x2", width - 10);
+            line.setAttribute("y1", y);
+            line.setAttribute("y2", y);
+            line.setAttribute("stroke", "#eee");
+            line.setAttribute("stroke-width", "1");
+            svg.appendChild(line);
+            
+            const tickVal = Math.round((maxVal * t) / numTicks);
+            const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            label.setAttribute("x", leftMargin - 5);
+            label.setAttribute("y", y + 4);
+            label.setAttribute("text-anchor", "end");
+            label.setAttribute("font-size", "12");
+            label.setAttribute("fill", "#555");
+            label.textContent = tickVal;
+            svg.appendChild(label);
+        }
+
+        // Draw bars
+        data.forEach((val, i) => {
+            // Always show bar, even for zero values
+            const barHeight = val === 0 ? 
+                2 : // Small height for zero values
+                (val / maxVal) * (height - 40);
+            
+            const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+            rect.setAttribute("x", leftMargin + i * barWidth + 5);
+            rect.setAttribute("y", height - barHeight - 30);
+            rect.setAttribute("width", barWidth - 10);
+            rect.setAttribute("height", barHeight);
+            rect.setAttribute("fill", val === 0 ? "#dddddd" : barColor);
+            svg.appendChild(rect);
+            
+            // Add tooltip using HTML title attribute which has better browser support
+            rect.setAttribute("data-value", val);
+            rect.addEventListener("mouseover", (e) => {
+                const tooltip = document.createElement("div");
+                tooltip.textContent = val;
+                tooltip.style.position = "absolute";
+                tooltip.style.backgroundColor = "rgba(0,0,0,0.7)";
+                tooltip.style.color = "white";
+                tooltip.style.padding = "5px";
+                tooltip.style.borderRadius = "3px";
+                tooltip.style.fontSize = "12px";
+                tooltip.style.left = `${e.pageX + 10}px`;
+                tooltip.style.top = `${e.pageY - 20}px`;
+                tooltip.style.zIndex = "1000";
+                tooltip.id = "chart-tooltip";
+                document.body.appendChild(tooltip);
+            });
+            rect.addEventListener("mouseout", () => {
+                const tooltip = document.getElementById("chart-tooltip");
+                if (tooltip) tooltip.remove();
+            });
+
+            // Draw x-axis label
+            if (labels[i]) {
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", leftMargin + i * barWidth + barWidth / 2);
+                text.setAttribute("y", height - 10);
+                text.setAttribute("text-anchor", "middle");
+                text.setAttribute("font-size", "8");
+                text.textContent = labels[i];
+                svg.appendChild(text);
+            }
+        });
+        
+        // Y axis label
+        if (block.content.yLabel) {
+            const yLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            yLabel.setAttribute("x", 15);
+            yLabel.setAttribute("y", height / 2);
+            yLabel.setAttribute("text-anchor", "middle");
+            yLabel.setAttribute("font-size", "14");
+            yLabel.setAttribute("transform", `rotate(-90 15,${height / 2})`);
+            yLabel.setAttribute("fill", "#333");
+            yLabel.textContent = block.content.yLabel;
+            svg.appendChild(yLabel);
+        }
+        
+        // X axis label
+        if (block.content.xLabel) {
+            const xLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            xLabel.setAttribute("x", leftMargin + (width - leftMargin) / 2);
+            xLabel.setAttribute("y", height + 15);
+            xLabel.setAttribute("text-anchor", "middle");
+            xLabel.setAttribute("font-size", "14");
+            xLabel.setAttribute("fill", "#333");
+            xLabel.textContent = block.content.xLabel;
+            svg.appendChild(xLabel);
+        }
+        
+        this.completion();
+    }
+}
+// Add to blockLookup
+blockLookup["histogram"] = SimpleHistogram;
+
+class MultiRowChecked {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        //keep track of completion
+        this.completed = [0, 0];
+        //signals this question reports completion to (for cross-column coloring)
+        this.listeners = block["listeners"] || [];
+        //construct table
+        var tbl = document.createElement("table");
+        this.tbl = tbl;
+        tbl.className = "table table-striped table-hover";
+        tbl.setAttribute("border", 1);
+        root.appendChild(tbl);
+        //add header
+        var thead = document.createElement("thead");
+        var header_row = document.createElement("tr");
+        thead.appendChild(header_row);
+        tbl.appendChild(thead);
+        var th = document.createElement("th");
+        th.innerHTML = block["content"]["rowLabel"];
+        var width = 100 - block["content"]["options"].length * 10;
+        if (width < 50) {
+            width = 50;
+        }
+        th.style.width = width + "%";
+        header_row.appendChild(th);
+        for (var k = 0; k < block["content"]["options"].length; k++) {
+            th = document.createElement("th");
+            th.innerHTML = block["content"]["options"][k]["label"];
+            header_row.appendChild(th);
+        }
+        //now add the rows    
+        var tbody = document.createElement("tbody");
+        tbl.appendChild(tbody);
+        for (var i = 0; i < block["content"]["rows"].length; i++) {
+            var row = document.createElement("tr");
+            tbody.appendChild(row);
+            var td = document.createElement("td");
+            row.appendChild(td);
+            td.innerHTML = block["content"]["rows"][i]["text"];
+            //now create the check boxes element
+            var fullId = ["", ""];
+            for (var key in block["content"]["rows"][i]["id"]) {
+                fullId[key] = block["content"]["rows"][i]["id"][key];
+            }
+            for (var key in block["content"]["id"]) {
+                fullId[key] = block["content"]["id"][key];
+            }
+            fullId = JSON.stringify(fullId);
+            var oldValue = data["variables"][fullId];
+            for (var k = 0; k < block["content"]["options"].length; k++) {
+                var td = document.createElement("td");
+                row.appendChild(td);
+                var input = document.createElement("input");
+                td.appendChild(input);
+                input.setAttribute("type", "checkbox");
+                input.setAttribute("fullid", fullId);
+                input.setAttribute("id", fullId + "|" + block["content"]["options"][k]["value"])
+                input.setAttribute("order", k + 1);
+                input.setAttribute("varvalue", block["content"]["options"][k]["value"]);
+                if (block["content"]["options"][k]["color"] != undefined) {
+                    input.setAttribute("color", block["content"]["options"][k]["color"]);
+                }
+                if (oldValue == block["content"]["options"][k]["value"]) {
+                    input.checked = true;
+                    this.completed[0]++;
+                    if (block["content"]["options"][k]["color"] != undefined) {
+                        row.className = "table-" + block["content"]["options"][k]["color"];
+                    }
+                }
+                else {
+                    input.checked = false;
+                }
+                input.addEventListener('change', (e) => {
+                    if (!e.target.checked) {
+                        e.target.checked = true;
+                        return;
+                    }
+                    if (data["variables"][e.target.getAttribute("fullid")] == undefined) {
+                        this.completed[0]++;
+                    }
+                    data["variables"][e.target.getAttribute("fullid")] = e.target.getAttribute("varvalue");
+                    recordFieldTimestamp(e.target.getAttribute("fullid"));
+                    var row = e.target.parentElement.parentElement;
+                    //uncheck everything
+                    var children = row.childNodes;
+                    var array = Array.prototype.slice.call(children);
+                    for (k = 1; k < array.length; k++) {
+                        var input = array[k].firstChild;
+                        if (input.checked && input.getAttribute("order") != e.target.getAttribute("order")) {
+                            input.checked = false;
+                        }
+                    }
+                    var color = e.target.getAttribute("color");
+                    if (color != undefined) {
+                        row.className = "table-" + color;
+                    }
+                    else {
+                        row.className = "";
+                    }
+                    this.completion();
+                    saveSurvey();
+                });
+            }
+            this.completed[1]++;
+        }
+        // Register Signal
+        registerSignal(tbl, block);
+
+        this.completion();
+    }
+
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+        //report completion to any signals this question is tied to, so a thread
+        //header in another column can color its background green/red.
+        if (this.listeners && this.listeners.length > 0 && typeof reportSignalCompletion === "function") {
+            var hasNo = this.hasNoAnswer();
+            for (var i = 0; i < this.listeners.length; i++) {
+                reportSignalCompletion(this.listeners[i], this.blockID, this.completed[0], this.completed[1], hasNo);
+            }
+        }
+    }
+
+    //true if any checked option holds a "no" / "no_*" value
+    hasNoAnswer() {
+        var inputs = this.tbl.querySelectorAll('input[type="checkbox"]');
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].checked) {
+                var v = inputs[i].getAttribute("varvalue");
+                if (v === "no" || (typeof v === "string" && v.indexOf("no_") === 0)) return true;
+            }
+        }
+        return false;
+    }
+}
+
+
+//add class to lookup dictionary
+blockLookup["multi_row_checked"] = MultiRowChecked;
+class SimpleText {
+
+    constructor(root, block, parent, blockID) {
+        this.blockID = blockID;
+        this.parent = parent;
+        //keep track of completion
+        this.completed = [0, 0];
+
+        // Create wrapper for the whole block
+        var container = document.createElement("div");
+        container.className = "text-content";
+        root.appendChild(container);
+
+        var div = document.createElement("div");
+        container.appendChild(div);
+        if (block["content"]["verticalHeight"]) {
+            div.style.overflowY = "auto";
+            div.style.height = block["content"]["verticalHeight"] + "vh";
+        }
+        //write title (if exists)
+        if (block["content"]["title"] != undefined) {
+            var h = document.createElement("h" + block["content"]["title"]["size"]);
+            div.appendChild(h);
+            h.innerHTML = block["content"]["title"]["text"];
+        }
+        //write body (if exists)
+        if (block["content"]["body"] != undefined) {
+            if (block["content"]["body"]["is_table"] == true) {
+                var tbl = document.createElement("table");
+                tbl.className = "table table-striped table-hover";
+                container.appendChild(tbl);
+                var tbody = document.createElement("tbody");
+                tbl.appendChild(tbody);
+                for (var i = 0; i < block["content"]["body"]["text"].length; i++) {
+                    var row = document.createElement("tr");
+                    tbody.appendChild(row);
+                    var rowData = block["content"]["body"]["text"][i];
+                    // If rowData is an array, create a cell for each item
+                    if (Array.isArray(rowData)) {
+                        for (var j = 0; j < rowData.length; j++) {
+                            var td = document.createElement("td");
+                            row.appendChild(td);
+                            td.innerHTML = rowData[j];
+                        }
+                    } else {
+                        // Fallback: treat as single column
+                        var td = document.createElement("td");
+                        row.appendChild(td);
+                        td.innerHTML = rowData;
+                    }
+                }
+            }
+            else {
+                for (var i = 0; i < block["content"]["body"]["text"].length; i++) {
+                    var p = document.createElement("p");
+                    div.appendChild(p);
+                    p.innerHTML = block["content"]["body"]["text"][i];
+                }
+            }
+        }
+
+        // Register Signal
+        registerSignal(container, block);
+
+        // Register inline fragment spans as signal-highlight listeners. Any
+        // <span data-listeners="sigA,sigB"> inside the body becomes highlightable
+        // when one of its signals is emitted (e.g. clicking the mapped action).
+        // A span with data-signal also EMITS that signal on click, so clicking the
+        // text persists the highlight (until another signal fires).
+        container.querySelectorAll("span[data-listeners]").forEach(function (span) {
+            var listeners = span.getAttribute("data-listeners").split(",").filter(function (s) { return s.length > 0; });
+            if (listeners.length > 0) {
+                signalListeners.push({ element: span, listeners: listeners, highlight: true });
+            }
+            var sig = span.getAttribute("data-signal");
+            if (sig) {
+                span.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    emitSignal(sig);
+                });
+            }
+        });
+
+        this.completion();
+    }
+
+    //completion method
+    completion() {
+        this.parent.completion(this.blockID, this.completed[0], this.completed[1]);
+    }
+}
+
+
+//add class to lookup dictionary
+blockLookup["text"] = SimpleText;
+var saveSurvey = function () {
+    if (readOnly) return;
+    //we assume that the data is stored in tabData
+    fetch("https://www.kv.econlabs.org/" + reviewerID, {
+        method: 'PUT',
+        headers: {
+            'Content-type': 'text'
+        },
+        body: JSON.stringify(data)
+    }).then((data) => {
+        console.log("data saved");
+    }).catch((error) => {
+        console.log(error)
+    });
+};
+
+// Per-field modification logging. For every field we record the UTC timestamp
+// (ISO 8601) of when it was last modified, stored alongside the answers under
+// data["timestamps"]. The timestamp key mirrors the field id but replaces the
+// last id component (the answer tag) with "timestamp", e.g. an answer stored at
+// ["row_1", "sentiment"] is timestamped at ["row_1", "timestamp"].
+var timestampKey = function (fieldId) {
+    try {
+        var parsed = JSON.parse(fieldId);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+            parsed[parsed.length - 1] = "timestamp";
+            return JSON.stringify(parsed);
+        }
+    } catch (e) { }
+    return fieldId;
+};
+
+var recordFieldTimestamp = function (fieldId) {
+    if (!data["timestamps"]) data["timestamps"] = {};
+    data["timestamps"][timestampKey(fieldId)] = new Date().toISOString();
+};
+
+var clearFieldTimestamp = function (fieldId) {
+    if (data["timestamps"]) delete data["timestamps"][timestampKey(fieldId)];
+};
+
+// Signal Management
+var activeSignal = null;
+var signalListeners = []; // Objects { element: element, listeners: ["sig1", ...] }
+
+var emitSignal = function (signal) {
+    activeSignal = signal;
+    signalListeners.forEach(function (item) {
+        // An item matches when a signal is active and the item listens for it.
+        var match = activeSignal !== null && item.listeners.includes(activeSignal);
+        if (item.highlight === true) {
+            // Highlight listeners: toggle the highlight class.
+            item.element.classList.toggle("signal-highlight", match);
+        } else {
+            // Visibility listeners: show only the matching ones.
+            item.element.style.display = match ? "" : "none";
+        }
+    });
+}
+
+var registerSignal = function (element, blockData, emitterElement = null) {
+    // Handle Emitter
+    if (blockData.signal) {
+        var target = emitterElement || element;
+        target.addEventListener('click', function (e) {
+            e.stopPropagation();
+            emitSignal(blockData.signal);
+        });
+    }
+
+    // Handle Listener
+    if (blockData.listeners && blockData.listeners.length > 0) {
+        signalListeners.push({
+            element: element,
+            listeners: blockData.listeners,
+            highlight: blockData["content"]["highlight"]
+        });
+    }
+}
+
+var completion = function (blockID, completed, total) {
+    if (total == 0) {
+        document.getElementById("completedstatus").innerHTML = "100% completed";
+    }
+    else {
+        document.getElementById("completedstatus").innerHTML = Math.floor(100 * completed / total) + "% completed";
+    }
+}
+
+// Signal-linked completion coloring. Lets an element (e.g. a thread header in one
+// column) be colored green/red based on the completion of question blocks that
+// share its signal (and live in another column, linked only by signal name).
+// Untouched/partial questions show NO color, so nothing is highlighted by default.
+var signalColorElems = {};   // signal -> [element]
+var signalCompletion = {};   // signal -> { blockID: { done, total, hasNo } }
+
+var recolorSignal = function (signal) {
+    var m = signalCompletion[signal] || {};
+    var done = 0, total = 0, anyNo = false;
+    for (var k in m) { done += m[k].done; total += m[k].total; if (m[k].hasNo) anyNo = true; }
+    (signalColorElems[signal] || []).forEach(function (el) {
+        // Color the background (override .thread-content's gray background). Untouched
+        // or partially-answered groups get no color, so nothing is highlighted by default.
+        if (total === 0 || done < total) {
+            el.style.backgroundColor = "";
+            return;
+        }
+        el.style.backgroundColor = anyNo ? "#f8d7da" : "#d1e7dd";
+    });
+};
+
+var registerSignalColor = function (signal, element) {
+    if (!signal) return;
+    (signalColorElems[signal] = signalColorElems[signal] || []).push(element);
+    recolorSignal(signal);
+};
+
+var reportSignalCompletion = function (signal, blockID, done, total, hasNo) {
+    if (!signal) return;
+    var m = signalCompletion[signal] = (signalCompletion[signal] || {});
+    m[blockID] = { done: done, total: total, hasNo: hasNo };
+    recolorSignal(signal);
+};
+
+//populate survey when loading
+var blocks = [];
+var loadSurvey = async function () {
+    try {
+        var response = await fetch(this.serverURL + reviewerID);
+    }
+    catch (e) {
+        console.log("network is down");
+        document.getElementById("completedstatus").innerHTML = "SERVER UNAVAILABLE";
+        return;
+    }
+    if (!response.ok) {
+        console.log("no stored data");
+        data = {
+            "active": {},
+            "variables": this.dataDefaults,
+            "timestamps": {}
+        };
+    }
+    else {
+        var text = await response.text();
+        data = JSON.parse(text);
+        console.log("stored data retrieved");
+    }
+    //ensure the per-field timestamp log exists (backward compatibility)
+    if (!data["timestamps"]) data["timestamps"] = {};
+    //now build the survey
+    var root = document.getElementById("rootblock");
+    var rootID = blocks.length;
+    blocks.push(null);
+    blocks[rootID] = new blockLookup[rootBlock["type"]](root, rootBlock, this, rootID);
+};
+
+// Make any element with class "zoomable-svg" pan/zoomable. The element should
+// contain a single <svg> and optional buttons carrying data-zoom="in|out|reset".
+var initZoomableSVGs = function () {
+    document.querySelectorAll(".zoomable-svg").forEach(function (container) {
+        if (container.dataset.zoomInit === "1") return;
+        container.dataset.zoomInit = "1";
+        var svg = container.querySelector("svg");
+        if (!svg) return;
+        var state = { scale: 1, tx: 0, ty: 0 };
+        var apply = function () {
+            svg.style.transformOrigin = "0 0";
+            svg.style.transform = "translate(" + state.tx + "px," + state.ty + "px) scale(" + state.scale + ")";
+        };
+        // Scale around a point (cx,cy) in container coordinates so it stays put.
+        var zoomAt = function (factor, cx, cy) {
+            var newScale = Math.min(8, Math.max(0.2, state.scale * factor));
+            var ratio = newScale / state.scale;
+            state.tx = cx - ratio * (cx - state.tx);
+            state.ty = cy - ratio * (cy - state.ty);
+            state.scale = newScale;
+            apply();
+        };
+        container.querySelectorAll("[data-zoom]").forEach(function (btn) {
+            btn.addEventListener("click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var dir = btn.getAttribute("data-zoom");
+                if (dir === "reset") { state.scale = 1; state.tx = 0; state.ty = 0; apply(); return; }
+                var rect = container.getBoundingClientRect();
+                zoomAt(dir === "in" ? 1.2 : 1 / 1.2, rect.width / 2, rect.height / 2);
+            });
+        });
+        container.addEventListener("wheel", function (e) {
+            e.preventDefault();
+            var rect = container.getBoundingClientRect();
+            zoomAt(e.deltaY < 0 ? 1.1 : 1 / 1.1, e.clientX - rect.left, e.clientY - rect.top);
+        }, { passive: false });
+        // Click-drag to pan.
+        var dragging = false, sx = 0, sy = 0;
+        container.addEventListener("mousedown", function (e) {
+            dragging = true; sx = e.clientX; sy = e.clientY;
+            container.style.cursor = "grabbing";
+            e.preventDefault();
+        });
+        window.addEventListener("mousemove", function (e) {
+            if (!dragging) return;
+            state.tx += e.clientX - sx;
+            state.ty += e.clientY - sy;
+            sx = e.clientX; sy = e.clientY;
+            apply();
+        });
+        window.addEventListener("mouseup", function () {
+            dragging = false;
+            container.style.cursor = "grab";
+        });
+        container.style.cursor = "grab";
+        apply();
+    });
+};
+
+
+(async () => {
+    await loadSurvey();
+    if (readOnly) {
+        document.querySelectorAll('select').forEach(function(el) { el.disabled = true; });
+        document.querySelectorAll('input[type="checkbox"]').forEach(function(el) { el.disabled = true; });
+    }
+    initZoomableSVGs();
+})();
+
+    </script>
+
+
+</body>
+
+</html>
