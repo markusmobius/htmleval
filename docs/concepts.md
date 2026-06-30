@@ -17,6 +17,7 @@ Think of Simple Blocks as the "leaves" of your survey tree. They do not contain 
 - **Text**: Displays a title and paragraphs.
 - **MultiRowChecked**: A list of items where one or more can be selected (checkbox style).
 - **MultiRowSelect**: A list of items with dropdown selections.
+- **CustomComponent**: Hosts author-provided HTML/SVG for bespoke visualizations.
 
 ### 2. Compound Blocks (Layout & Structure)
 **Compound Blocks** are container blocks used to organize the layout and structure of your survey. Their primary purpose is to hold other blocks (children).
@@ -27,3 +28,11 @@ Compound Blocks allow you to build complex interfaces by nesting blocks. A Compo
 - **Tabs**: Organizes content into clickable tabs. The root of a survey is often a Tabs block.
 - **Column**: Arranges child blocks vertically or horizontally (e.g., for side-by-side comparisons).
 - **Interactive**: A specialized block for fine-grained text interaction (highlighting, specific sentence feedback).
+- **Thread**: Renders nested, threaded conversations with indentation.
+
+## Signals & Listeners
+
+Beyond layout, blocks can communicate at runtime through **signals**. A block can
+emit a signal when clicked, and other blocks can listen for it to highlight or
+reveal themselves. This cross-cutting feature works on nearly every block. See
+[Signals & Listeners](signals.md) for the full model.

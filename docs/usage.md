@@ -75,6 +75,15 @@ review.create(targetFolder=target_folder, defaults=None, reviewers=["reviewer1",
 print(f"Survey generated in {target_folder}")
 ```
 
+## Adding Interactivity
+
+Blocks can react to each other at runtime through **signals**. Pass `signal`,
+`listeners`, and `highlight` to most blocks to build linked menus or
+click-to-reveal content (see `createDemo4.py` and the
+[Signals & Listeners](signals.md) guide). Threaded conversations are available via
+the `Thread` block (`createDemo3.py`), and bespoke HTML/SVG can be embedded with
+`CustomComponent` (see [Simple Blocks](simple_blocks.md#customcomponent)).
+
 ## Correct Values
 
 Questions can optionally include a `correctValue` for computing error rates during aggregation. This can be set at the question level (applies to all rows) or per-row (overrides the question-level value). When no `correctValue` is set, the summary shows a response distribution instead.

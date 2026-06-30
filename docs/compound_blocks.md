@@ -26,6 +26,9 @@ The `Thread` block is used to represent threaded conversations. It acts as a tex
   - `title`: Optional title text.
   - `titleSize`: Size of header (e.g., 3 for h3).
   - `body`: List of paragraph strings.
+  - `signal` / `listeners` / `highlight`: Shared signal parameters (see [Signals & Listeners](signals.md)).
 - **Visuals**: Displays the text content, then adds a vertical line and indentation for any attached child threads.
 - **Method**: `addThread(block)`
   - Adds a child `Thread` block (or other block) to the thread, indented below the current text.
+- **Signal-linked completion coloring**: When a thread is given a `signal`, its header is tinted green or red based on the completion of the question blocks that share that signal name — even when those questions live in a different column. Untouched or partially-answered groups receive no color. See [Signals & Listeners](signals.md#signal-linked-completion-coloring).
+
