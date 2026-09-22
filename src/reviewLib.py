@@ -161,6 +161,23 @@ class Review:
             with open(metadata_path, "w") as f:
                 json.dump(metadata, f, indent=4)
 
+    def export_llm_json(self, targetFolder: str, filename: str = "eval_llm.json", keep_html: bool = False) -> str:
+        """Write the block tree as JSON for a language-model reviewer (see json/llmExport.py).
+
+        Companion to ``create``: the human page and this file are two renderings of the same
+        block tree. Every question row carries the exact variable key the page writes, so a
+        model's answers written as ``closed_<reviewer>.json`` aggregate like a human's. The file is
+        a regenerated artefact and is overwritten without prompting. Returns the path."""
+        try:
+            from htmleval.json.llmExport import to_llm_json
+        except ModuleNotFoundError:
+            from src.json.llmExport import to_llm_json
+        os.makedirs(targetFolder, exist_ok=True)
+        path = os.path.join(targetFolder, filename)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(to_llm_json(self.block, keep_html=keep_html), f, ensure_ascii=False, indent=1)
+        return path
+
     def close_eval(self, targetFolder : str, reviewers: Optional[List[str]] = None):
         # Path to the reviewer IDs file
         reviewerIdsDisk = os.path.join(targetFolder, "reviewer_ids.json")

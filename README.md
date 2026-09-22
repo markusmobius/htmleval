@@ -29,6 +29,7 @@ pip install git+https://github.com/markusmobius/htmleval
 - **[Simple Blocks](docs/simple_blocks.md)**: Documentation for Text, Questions, CustomComponent, and other content blocks.
 - **[Compound Blocks](docs/compound_blocks.md)**: Documentation for Layouts, Tabs, Threads, and Interactive blocks.
 - **[Signals & Listeners](docs/signals.md)**: How blocks emit and react to signals at runtime.
+- **[LLM Export](docs/llm_export.md)**: `Review.export_llm_json` writes the block tree as plain JSON for a language-model reviewer whose answers aggregate exactly like a human's.
 - **[Custom Elements](docs/custom_elements.md)**: How to add your own Web Components (custom elements) and inject their JS with `addCustomElement`.
 
 ## Getting Started
