@@ -30,8 +30,10 @@ _DROP_ELEMENTS = re.compile(r"<\s*(script|style|svg)\b.*?<\s*/\s*\1\s*>", re.I |
 _BLOCK_BREAKS = re.compile(r"<\s*(br|/p|/li|/tr|/div|/h[1-6])\s*/?\s*>", re.I)
 # Inline formatting tags disappear without leaving a space ("<b>Action 3</b>:" -> "Action 3:");
 # every other tag becomes a space so adjacent cells/blocks do not run together.
-_INLINE_TAGS = re.compile(r"</?\s*(b|i|u|em|strong|span|a|code|small|sup|sub|mark|abbr)\b[^>]*>", re.I)
-_TAGS = re.compile(r"<[^>]+>")
+# Tag patterns are quote-aware: an attribute value may contain ">" (an onclick/onerror script does).
+_ATTRS = r"""(?:[^>"']|"[^"]*"|'[^']*')*"""
+_INLINE_TAGS = re.compile(r"</?\s*(?:b|i|u|em|strong|span|a|code|small|sup|sub|mark|abbr)\b" + _ATTRS + ">", re.I)
+_TAGS = re.compile(r"<" + _ATTRS + ">")
 _SPACES = re.compile(r"[ \t\r\f\v ]+")
 _BLANKS = re.compile(r"\n\s*\n+")
 
