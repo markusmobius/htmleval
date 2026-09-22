@@ -25,6 +25,8 @@ import re
 
 FORMAT = "htmleval-llm/1"
 
+# Elements whose content is not prose: dropped whole (an inline SVG graph, a <style> or <script> block).
+_DROP_ELEMENTS = re.compile(r"<\s*(script|style|svg)\b.*?<\s*/\s*\1\s*>", re.I | re.S)
 _BLOCK_BREAKS = re.compile(r"<\s*(br|/p|/li|/tr|/div|/h[1-6])\s*/?\s*>", re.I)
 # Inline formatting tags disappear without leaving a space ("<b>Action 3</b>:" -> "Action 3:");
 # every other tag becomes a space so adjacent cells/blocks do not run together.
@@ -35,11 +37,13 @@ _BLANKS = re.compile(r"\n\s*\n+")
 
 
 def strip_html(text):
-    """HTML → plain text. Line-level breaks (br, p, li, tr, div, headings) become newlines so
-    lists and tables stay readable; runs of spaces collapse; entities are decoded."""
+    """HTML → plain text. script/style/svg elements are dropped whole; line-level breaks (br, p,
+    li, tr, div, headings) become newlines so lists and tables stay readable; inline formatting
+    tags vanish; runs of spaces collapse; entities are decoded."""
     if text is None:
         return ""
-    s = _BLOCK_BREAKS.sub("\n", str(text))
+    s = _DROP_ELEMENTS.sub(" ", str(text))
+    s = _BLOCK_BREAKS.sub("\n", s)
     s = _INLINE_TAGS.sub("", s)
     s = _TAGS.sub(" ", s)
     s = html.unescape(s)

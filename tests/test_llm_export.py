@@ -52,6 +52,10 @@ class KeyContract(unittest.TestCase):
     def test_strip_html_keeps_line_structure(self):
         self.assertEqual(strip_html("<p>a &amp; b</p><ul><li>x</li><li>y</li></ul>"), "a & b\nx\ny")
 
+    def test_strip_html_drops_svg_script_style(self):
+        s = "<h3>Graph</h3><style>g{fill:red}</style><svg><text>#1 brick</text></svg><script>var x=1;</script>tail"
+        self.assertEqual(strip_html(s), "Graph\ntail")
+
 
 if __name__ == "__main__":
     unittest.main()
