@@ -160,8 +160,7 @@ class _Exporter:
             if t == "thread":
                 base["threads"] = [self.node(b) for b in (block.get("threads") or [])]
         elif t == "interactive":
-            base["paragraphs"] = [[{"text": strip_html(f.get("text", "")), "block": self.node(f.get("block"))}
-                                   for f in (p.get("fragments") or [])] for p in (content or [])]
+            base["paragraphs"] = [[self.fragment(f) for f in (p.get("fragments") or [])] for p in (content or [])]
         elif t == "custom_component":
             base["title"] = _title(content or {})
             base["text"] = strip_html((content or {}).get("html", ""))
@@ -170,6 +169,14 @@ class _Exporter:
         elif t in ("multi_row_select", "multi_row_checked"):
             base = self.question(block, base)
         return base
+
+    def fragment(self, f):
+        """One clickable span of an Interactive block. With keep_html the raw span is kept too, because its
+        markup can carry meaning the stripped text loses (e.g. struck-through text marking removed words)."""
+        out = {"text": strip_html(f.get("text", "")), "block": self.node(f.get("block"))}
+        if self.keep_html:
+            out["html"] = f.get("text", "")
+        return out
 
     def question(self, block, base):
         content = block.get("content") or {}

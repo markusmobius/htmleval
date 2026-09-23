@@ -60,6 +60,17 @@ class KeyContract(unittest.TestCase):
         s = "<h3>Graph</h3><style>g{fill:red}</style><svg><text>#1 brick</text></svg><script>var x=1;</script>tail"
         self.assertEqual(strip_html(s), "Graph\ntail")
 
+    def test_interactive_fragment_keeps_html_only_when_asked(self):
+        span = '<span style="text-decoration: line-through gray;">Copyright 2019</span>'
+        block = {"type": "interactive", "signal": None, "listeners": [], "content": [{"fragments": [
+            {"text": span, "block": {"type": "text", "signal": None, "listeners": [],
+                                     "content": {"title": {"text": "", "size": None}, "body": {"is_table": False, "text": ["q"]}}}}]}]}
+        plain = to_llm_json(json.dumps(block))["root"]["paragraphs"][0][0]
+        self.assertEqual(plain["text"], "Copyright 2019")
+        self.assertNotIn("html", plain)
+        kept = to_llm_json(json.dumps(block), keep_html=True)["root"]["paragraphs"][0][0]
+        self.assertEqual(kept["html"], span)
+
 
 if __name__ == "__main__":
     unittest.main()
