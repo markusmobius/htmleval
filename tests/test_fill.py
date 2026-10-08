@@ -109,11 +109,15 @@ class EndToEnd(unittest.TestCase):
         shutil.rmtree(self.dir)
 
     def test_fill_writes_the_closed_file_in_the_human_shape_and_follows_up(self):
-        first = {"n": 0}
+        skipped_once = set()
 
         def answer(user):
-            first["n"] += 1
-            return answer_all(user, skip=("0_r5",) if first["n"] == 1 and "0_r5: " in user else ())
+            # the first time row 0_r5 is asked it is left out, so the filler must re-ask it (task start order
+            # is not deterministic, so the skip is keyed on the row, not on the call count)
+            skip = () if "0_r5" in skipped_once else ("0_r5",)
+            if "0_r5: " in user:
+                skipped_once.add("0_r5")
+            return answer_all(user, skip=skip)
         client = FakeClient(answer)
         import contextlib
         import io
