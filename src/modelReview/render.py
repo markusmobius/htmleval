@@ -134,7 +134,8 @@ def unit_material(node) -> list[str]:
 
 
 def units(block_json) -> list[tuple[str, dict]]:
-    """[(label, unit block)] in page order: every block with ``model.unit`` outside an ``audience: "human"`` subtree,
+    """[(label, unit block)] in page order: every block with ``model.unit`` outside an ``audience: "human"`` subtree
+    (a unit nested in another unit is listed too; its questions and material belong to it, not to the outer one),
     plus ("Page", root) when some question belongs to no unit."""
     root = load(block_json)
     out = []
@@ -148,11 +149,9 @@ def units(block_json) -> list[tuple[str, dict]]:
             return
         m = model_of(n)
         hidden = hidden or m.get("audience") == "human"
-        if m.get("unit") is not None:
-            if not hidden:
-                out.append((str(m["unit"]), n))
-            return
-        for k, v in n.items():
+        if m.get("unit") is not None and not hidden:
+            out.append((str(m["unit"]), n))
+        for k, v in n.items():              # a unit nested inside a unit is a unit of its own
             if k != "model":
                 walk(v, hidden)
 
@@ -163,21 +162,24 @@ def units(block_json) -> list[tuple[str, dict]]:
 
 
 def _options(options):
-    """Allowed values, with the page's label only where it says more than the value itself."""
+    """Allowed values, with the page's label only where it says more than the value itself. A label without any
+    word (a number, a code) that differs from the value is always shown: it is what a person types."""
     parts = []
     for value, label in options:
         words = set(re.sub(r"\((?:grey|gray|yellow|green|red|blue)\)", "", label.lower()).replace("&mdash;", " ").split())
         words = {re.sub(r"[^a-z]", "", w) for w in words} - {""} - _GENERIC
         value_words = set(value.lower().split("_")) - _GENERIC
-        parts.append(value if words <= value_words else f'{value} ("{re.sub("&mdash;", "—", label)}")')
+        wordless = not words and label.strip() and label.strip().lower() != value.lower()
+        parts.append(f'{value} ("{re.sub("&mdash;", "—", label)}")' if wordless or not words <= value_words else value)
     return " | ".join(parts)
 
 
 def render_unit(block_json, label: str, unit_node=None, shuffle_seed=None):
     """(lines, rows) for one unit. ``lines`` is [(line, tag)] with tag None (material), a row dict (a question line)
     or ("group", [rows]) (an "About" line kept in a slice only with its questions). ``rows`` are the question dicts
-    {row_id, question_id, key, options: {value: label}} in prompt order. ``shuffle_seed`` shuffles the order of the
-    question groups (a replicate draw; the material is unchanged)."""
+    {pid, row_id, question_id, key, options: {value: label}} in prompt order; ``pid`` is the id the model answers
+    with: the row id, or ``row_id#question_id`` when the row carries several questions. ``shuffle_seed`` shuffles
+    the order of the question groups (a replicate draw; the material is unchanged)."""
     root = load(block_json)
     if unit_node is None:
         unit_node = next((n for lab, n in units(root) if lab == label), None)
@@ -193,6 +195,9 @@ def render_unit(block_json, label: str, unit_node=None, shuffle_seed=None):
         if q["note"] and q["note"] not in seen_notes:
             seen_notes.append(q["note"])
     out.extend((note, None) for note in seen_notes)
+    per_row = {}
+    for q in questions:
+        per_row[str(q["row_id"])] = per_row.get(str(q["row_id"]), 0) + 1
     groups, order = {}, []
     for q in questions:
         about = q["about"]
@@ -204,14 +209,17 @@ def render_unit(block_json, label: str, unit_node=None, shuffle_seed=None):
         random.Random(shuffle_seed).shuffle(order)
     rows = []
     for about in order:
-        grp = [{"row_id": str(q["row_id"]), "question_id": str(q["question_id"]), "key": q["key"],
-                "options": {v: lab for v, lab in q["options"]}, "_q": q} for q in groups[about]]
+        grp = []
+        for q in groups[about]:
+            rid, qid = str(q["row_id"]), str(q["question_id"])
+            grp.append({"pid": rid if per_row[rid] == 1 else f"{rid}#{qid}", "row_id": rid, "question_id": qid,
+                        "key": q["key"], "options": {v: lab for v, lab in q["options"]}, "_q": q})
         out.append(("", None))
         if about:
             out.append((about, ("group", grp)))
         for row in grp:
             q = row.pop("_q")
             allowed = q["options_text"] if q["options_text"] else _options(q["options"])
-            out.append((f"{row['row_id']}: {q['text']} [{allowed}]", row))
+            out.append((f"{row['pid']}: {q['text']} [{allowed}]", row))
             rows.append(row)
     return out, rows

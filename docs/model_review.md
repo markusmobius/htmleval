@@ -15,7 +15,7 @@ page JSON only when given, so pages built without it are byte-identical to befor
 
 | Level | Key | Meaning |
 |---|---|---|
-| any block | `audience` | `"both"` (default); `"human"`: the block, its subtree and its questions are never sent to the model; `"model"`: text only the model sees |
+| any block | `audience` | `"both"` (default); `"human"`: the block, its subtree and its questions are never sent to the model. The page always renders a block's content; text meant for the model alone goes in `text` |
 | any block | `text` | `str` or `[str]`: the block's content as the model should read it, used instead of a plain-text rendering of its HTML (graphs, custom elements, layout-dependent phrasing) |
 | any block | `unit` | a label: this subtree is one **call unit** (one prompt); its questions belong to it |
 | any block | `role` | `"instructions"`: the block's text goes into the system message, not into a unit |
@@ -58,7 +58,8 @@ answer (`"1"`). The filler accepts either.
   questions sit outside any unit.
 - `render_unit(page, label)`: the unit's material (`model.text`, or its blocks as plain text), then
   `Questions — answer each id with one of the values in brackets.`, any `note`, then the questions grouped by
-  `about` as `row_id: wording [allowed values]`.
+  `about` as `id: wording [allowed values]`, where `id` is the row id, or `row_id#question_id` when a row carries
+  several questions. A unit nested inside a unit is a unit of its own; unit labels must be unique on a page.
 - `system_text(page, head)`: `head`, the page's `preamble` (or the generic one), then `THE REVIEWER INSTRUCTIONS:`
   and the text of every `role: "instructions"` block.
 
@@ -72,10 +73,13 @@ python -m htmleval.modelReview.fill --eval_dir evaluations/my_eval --reviewer as
 ```
 
 Each unit becomes one call (sliced above `--max_rows` rows or `--max_chars` characters, every slice repeating the
-material). The model answers `{"answers": [{"row_id", "value", "reason"}]}`; rows left unanswered are re-asked
-alone (up to two rounds). Outputs in the review directory: `closed_<reviewer>.json` (the browser's save format),
+material; a unit without questions is skipped). The page is validated first (`check_declared_keys`). The model
+answers `{"answers": [{"row_id", "value", "reason"}]}` (`row_id` = the id shown in the prompt); rows left unanswered
+are re-asked alone (up to two rounds). The per-call timeout covers the request, not the wait for a free worker. Outputs in the review directory: `closed_<reviewer>.json` (the browser's save format),
 `reasons_<reviewer>.json`, `fill_log_<reviewer>.txt`; unless `--no_upload`, the reviewer is registered in
-`reviewer_ids.json`, `review_<reviewer>.html` is built if absent, and the blob is PUT to the server and read back.
+`reviewer_ids.json`, `review_<reviewer>.html` is built if absent (a copy of a person's page built from the same
+block JSON, so it carries their custom-element JavaScript; otherwise a fresh page), and the blob is PUT to the
+server and read back.
 
 `--replicate K` shuffles each unit's question groups with seed K: a fresh prompt for an independent draw.
 `--dump DIR` writes `system.txt` and one file per call, to diff prompts across code changes.

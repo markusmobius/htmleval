@@ -172,6 +172,19 @@ class Review:
         return ids[reviewer]
 
     @staticmethod
+    def page_block(html_path: str):
+        """The block tree a built review page embeds (``var rootBlock = ...;``), parsed; None when not found."""
+        with open(html_path, "r", encoding="utf-8") as f:
+            html = f.read()
+        m = re.search(r"^\s*var rootBlock = (.*);\s*$", html, re.MULTILINE)
+        if m is None:
+            return None
+        try:
+            return json.loads(m.group(1))
+        except json.JSONDecodeError:
+            return None
+
+    @staticmethod
     def clone_reviewer_page(source_html: str, target_html: str, reviewer: str, reviewer_id: str) -> str:
         """A reviewer page for ``reviewer`` made from an existing reviewer's page in the same folder: the same bytes
         with the reviewer name and uuid swapped. The page a program-filled reviewer gets is then exactly the page the

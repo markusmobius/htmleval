@@ -18,7 +18,10 @@ from typing import Protocol
 class ModelClient(Protocol):
     model: str
 
-    async def ask(self, system: str, user: str, schema: dict, tags: list[str] | None = None) -> dict | None: ...
+    async def ask(self, system: str, user: str, schema: dict, tags: list[str] | None = None,
+                  timeout: float | None = None) -> dict | None:
+        """One structured request. ``timeout`` (seconds) covers the request itself, not the wait for a free worker."""
+        ...
 
     async def close(self) -> None: ...
 
@@ -47,20 +50,29 @@ class LlmClientAdapter:
                     self._pool = pool
         return self._pool
 
-    async def ask(self, system, user, schema, tags=None):
+    async def ask(self, system, user, schema, tags=None, timeout=None):
         pool = await self._pool_ready()
         client = await pool.get()
+        if client is None:                                  # a slot whose client was dropped: connect a fresh one
+            client = await self._factory().create_client()
+        keep = True
         try:
             chat = self._Chat(responseSchema=schema, model=self.model)
             chat.AddSystemMessage(system)
             chat.AddUserMessage(user)
-            out = await client.Ask(chat, tags=list(tags or []))
+            request = client.Ask(chat, tags=list(tags or []))
+            out = await (asyncio.wait_for(request, timeout) if timeout else request)
             if out is None or out.answer is None:
                 return None
             raw = out.answer.ChatAnswer
             return json.loads(raw) if isinstance(raw, str) else raw
+        except BaseException:
+            # A timed-out or cancelled request may still be answered by the server; a client with a reply in flight
+            # would hand that reply to the next call (and to the local cache). The slot stays, the client is dropped.
+            keep = False
+            raise
         finally:
-            pool.put_nowait(client)
+            pool.put_nowait(client if keep else None)
 
     async def close(self):
         return None
@@ -87,18 +99,18 @@ class OpenAIAdapter:
             "response_format": {"type": "json_schema", "json_schema": {"name": "answers", "schema": schema, "strict": True}},
         }
 
-    def _post(self, system, user, schema):
+    def _post(self, system, user, schema, timeout=None):
         import requests
         r = requests.post(self.base_url + "/chat/completions", json=self.request_body(system, user, schema),
                           headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
-                          timeout=self.timeout)
+                          timeout=timeout or self.timeout)
         r.raise_for_status()
         content = r.json()["choices"][0]["message"]["content"]
         return json.loads(content) if isinstance(content, str) else content
 
-    async def ask(self, system, user, schema, tags=None):
+    async def ask(self, system, user, schema, tags=None, timeout=None):
         async with self._sem:
-            return await asyncio.to_thread(self._post, system, user, schema)
+            return await asyncio.to_thread(self._post, system, user, schema, timeout)
 
     async def close(self):
         return None

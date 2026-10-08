@@ -46,7 +46,7 @@ class Rendering(unittest.TestCase):
         out, rows = mr.render_unit(js, "Item 1")
         self.assertEqual(lines_of(out), ["The item's text.", mr.QUESTIONS_HEAD, "A note.", "", "Sentence 1",
                                          "s1: Keep this sentence? [yes | no]"])
-        self.assertEqual(rows, [{"row_id": "s1", "question_id": "kept", "key": '["s1","kept"]', "options": {"yes": "Yes", "no": "No"}}])
+        self.assertEqual(rows, [{"pid": "s1", "row_id": "s1", "question_id": "kept", "key": '["s1","kept"]', "options": {"yes": "Yes", "no": "No"}}])
         tags = [t for _, t in out]
         self.assertEqual(tags[4], ("group", [rows[0]]))             # the About line travels with its rows
         self.assertIs(tags[5], rows[0])
@@ -85,6 +85,37 @@ class Rendering(unittest.TestCase):
         self.assertEqual(mr._options([["news", "NEWS action (grey)"], ["commentary", "COMMENTARY action (yellow)"]]), "news | commentary")
         self.assertEqual(mr._options([["not_claim", "Not a claim"]]), "not_claim")
         self.assertIn('yes ("Yes — a detail', mr._options([["yes", "Yes &mdash; a detail is missing"]]))
+        self.assertEqual(mr._options([["3:1", "1"], ["3:2", "2"]]), '3:1 ("1") | 3:2 ("2")')     # a wordless label is shown
+        self.assertEqual(mr._options([["1", "1"]]), "1")
+
+    def test_a_row_with_several_questions_gets_one_prompt_id_per_question(self):
+        root = Tabs(model={"page": {"format": "htmleval-model/1"}})
+        unit = Column(model={"unit": "U", "text": ["M"]})
+        q = MultiRowSelect(rowLabels=["Arg"], questions=[MultiRowSelectQuestion("Present?", id={1: "present"}, options=YN),
+                                                         MultiRowSelectQuestion("Valid?", id={1: "valid"}, options=YN)])
+        q.add_row(["arg one"], id={0: "arg1"})
+        single = MultiRowSelect(rowLabels=["Q"], questions=[MultiRowSelectQuestion("Ok?", id={1: "ok"}, options=YN)])
+        single.add_row(["x"], id={0: "s1"})
+        unit.add_column([q, single]); root.add_tab("U", unit)
+        out, rows = mr.render_unit(ReviewJSON(root).get_json(), "U")
+        self.assertEqual([r["pid"] for r in rows], ["arg1#present", "arg1#valid", "s1"])
+        self.assertIn("arg1#present: Present? [yes | no]", lines_of(out))
+        self.assertEqual([r["key"] for r in rows], ['["arg1","present"]', '["arg1","valid"]', '["s1","ok"]'])
+
+    def test_a_unit_nested_in_a_unit_is_its_own_unit(self):
+        root = Tabs(model={"page": {"format": "htmleval-model/1"}})
+        outer = Column(model={"unit": "Doc 1"})
+        q1 = MultiRowSelect(rowLabels=["Q"], questions=[MultiRowSelectQuestion("Ok?", id={1: "ok"}, options=YN)]); q1.add_row(["a"], id={0: "d1"})
+        inner = Column(model={"unit": "Doc 1 / Claims", "text": ["claims material"]})
+        q2 = MultiRowSelect(rowLabels=["Q"], questions=[MultiRowSelectQuestion("Ok?", id={1: "ok"}, options=YN)]); q2.add_row(["b"], id={0: "c1"})
+        inner.add_column([q2]); outer.add_column([Text(body=["outer material"]), q1, inner]); root.add_tab("D", outer)
+        js = ReviewJSON(root).get_json()
+        self.assertEqual([lab for lab, _ in mr.units(js)], ["Doc 1", "Doc 1 / Claims"])
+        o_lines, o_rows = mr.render_unit(js, "Doc 1")
+        i_lines, i_rows = mr.render_unit(js, "Doc 1 / Claims")
+        self.assertEqual(([r["pid"] for r in o_rows], [r["pid"] for r in i_rows]), (["d1"], ["c1"]))
+        self.assertNotIn("claims material", lines_of(o_lines))
+        self.assertIn("claims material", lines_of(i_lines))
 
 
 if __name__ == "__main__":

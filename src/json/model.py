@@ -6,7 +6,8 @@ browser renders. The browser ignores that dict; the functions here read it. Noth
 
 What the metadata says, per level:
   any block        audience   "both" (default) | "human" (the block, its subtree and its questions are never sent to
-                              the model) | "model" (text only the model sees; nothing is shown on the page)
+                              the model). Text only the model should read goes in ``text`` of a block whose page
+                              content says something else; the page always renders a block's content.
                    text       str or [str]: the block's content as the model should read it, instead of a plain-text
                               rendering of its HTML (graphs, custom elements, layout-dependent phrasing)
                    unit       a label: this subtree is one call unit (one prompt); its questions belong to it
@@ -25,7 +26,6 @@ What the metadata says, per level:
 
 The policy for anything not listed: ``rowData`` and ``correctValue(s)`` are never shown to the model.
 """
-import copy
 import html as html_lib
 import json
 import re
@@ -39,12 +39,13 @@ QUESTION_BLOCKS = ("multi_row_select", "multi_row_checked")
 _DROP_ELEMENTS = re.compile(r"<\s*(script|style|svg)\b.*?<\s*/\s*\1\s*>", re.IGNORECASE | re.DOTALL)
 _BLOCK_BREAKS = re.compile(r"<\s*(br|/p|/li|/tr|/div|/h[1-6])\s*/?\s*>", re.IGNORECASE)
 _ATTRS = r"""(?:[^>"']|"[^"]*"|'[^']*')*"""
-_TAGS = re.compile(r"<" + _ATTRS + ">")
+_TAGS = re.compile(r"<[A-Za-z/!?]" + _ATTRS + ">")      # a tag starts with a letter, /, ! or ?; "a < b" is text
 
 
 def html_to_text(text) -> str:
     """Page HTML as plain text: script/style/svg dropped whole, line-level tags become line breaks, other tags
-    removed (quote-aware), entities decoded, spaces collapsed, blank lines collapsed."""
+    removed (quote-aware; a lone "<" followed by a space or digit is text, not a tag), entities decoded, spaces
+    collapsed, blank lines collapsed."""
     if text is None:
         return ""
     s = _BLOCK_BREAKS.sub("\n", _DROP_ELEMENTS.sub(" ", str(text)))
@@ -148,7 +149,7 @@ def strip_model(block_json):
         if isinstance(node, dict):
             return {k: strip(v) for k, v in node.items() if k != "model"}
         return node
-    return strip(copy.deepcopy(load(block_json)))
+    return strip(load(block_json))          # strip() rebuilds every container, so no copy is needed first
 
 
 def check_declared_keys(block_json) -> int:

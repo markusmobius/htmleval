@@ -33,7 +33,7 @@ import json
 import os
 import sys
 
-from ..json.model import load, page_meta
+from ..json.model import check_declared_keys, load, page_meta
 from . import render as mr
 
 DEFAULT_SERVER = "https://www.kv.econlabs.org/"
@@ -98,8 +98,9 @@ def slice_calls(label, out, rows, max_rows, max_chars):
 # ── answers ──────────────────────────────────────────────────────────────────────────────────────
 
 def parse_answers(raw, rows):
-    """Map the model's answers onto variable keys; accept the option value or its label, any case."""
-    by_id = {r["row_id"]: r for r in rows}
+    """Map the model's answers onto variable keys; accept the option value or its label, any case. Answers name a
+    row by its prompt id (``pid``: the row id, or ``row_id#question_id`` for a row with several questions)."""
+    by_id = {r["pid"]: r for r in rows}
     variables, reasons, rejected = {}, {}, []
     for a in (raw or {}).get("answers", []) or []:
         rid = str(a.get("row_id", "")).strip()
@@ -120,7 +121,7 @@ def parse_answers(raw, rows):
         if value is None:
             rejected.append((rid, f"value {v!r} not an option")); continue
         variables[r["key"]] = value
-        reasons[r["row_id"]] = a.get("reason", "")
+        reasons[r["pid"]] = a.get("reason", "")
     return variables, reasons, rejected
 
 
@@ -141,11 +142,12 @@ def followup(label, lines, rows, variables):
 
 
 async def ask_unit(client, label, system, prompt, rows, tags=(), attempts=ATTEMPTS, timeout=CALL_TIMEOUT_S):
-    """One call: ask, retry on any failure, parse. Returns (label, variables, reasons, rejected)."""
+    """One call: ask, retry on any failure, parse. Returns (label, variables, reasons, rejected). The timeout is
+    the client's: it covers the request, not the wait for a free worker."""
     raw = None
     for attempt in range(attempts):
         try:
-            raw = await asyncio.wait_for(client.ask(system, prompt, SCHEMA, list(tags)), timeout=timeout)
+            raw = await client.ask(system, prompt, SCHEMA, list(tags), timeout=timeout)
         except asyncio.CancelledError:
             raise                                   # a cancelled fill (Ctrl-C) must stop, not retry
         except json.JSONDecodeError:
@@ -192,18 +194,27 @@ def model_calls(block_json, task=None, replicate=0, units_filter=None, limit=Non
     if page is None:
         raise ValueError("the page is not model-ready: its root block carries no model.page "
                          "(see htmleval.json.model; build the page with model metadata or annotate it)")
+    check_declared_keys(block)              # no two questions on one key; every asked question has wording + options
     system = mr.system_text(block, SYSTEM.format(task=task or page.get("task") or DEFAULT_TASK))
     units = mr.units(block)
+    labels = [lab for lab, _ in units]
+    dups = sorted({lab for lab in labels if labels.count(lab) > 1})
+    if dups:
+        raise ValueError(f"unit labels must be unique on a page; repeated: {dups[:5]}")
     if units_filter:
         units = [u for u in units if any(sub in u[0] for sub in units_filter)]
     if limit:
         units = units[:limit]
-    calls = []
+    calls, kept = [], []
     for label, node in units:
         seed = f"{replicate}:{label}" if replicate else None
         out, rows = mr.render_unit(block, label, unit_node=node, shuffle_seed=seed)
+        if not rows:
+            print(f"note: unit {label!r} has no question for the model; skipped", flush=True)
+            continue
+        kept.append((label, node))
         calls.extend(slice_calls(label, out, rows, max_rows, max_chars))
-    return system, units, calls
+    return system, kept, calls
 
 
 def dump_calls(dump_dir, system, calls):
@@ -288,9 +299,11 @@ async def fill(eval_dir, reviewer, client, *, page="eval.json", task=None, repli
         others = sorted(p for p in glob.glob(os.path.join(eval_dir, "review_*.html"))
                         if os.path.basename(p) not in (f"review_{reviewer}.html", "review_summary.html"))
         if not os.path.exists(page_path):
-            if others:
-                # the model's page is the people's page with the reviewer swapped (keeps their custom-element JS)
-                Review.clone_reviewer_page(others[0], page_path, reviewer, reviewer_id)
+            # the model's page is a person's page with the reviewer swapped (keeps their custom-element JS), but
+            # only a page built from THIS block JSON; otherwise it is built afresh
+            source = next((p for p in others if Review.page_block(p) == load(block_json)), None)
+            if source is not None:
+                Review.clone_reviewer_page(source, page_path, reviewer, reviewer_id)
             else:
                 review.create(targetFolder=eval_dir, defaults=None, reviewers=[reviewer],
                               reviewerIds={reviewer: reviewer_id}, overwrite=False)

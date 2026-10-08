@@ -23,7 +23,7 @@ setup(
     install_requires=[
         "requests",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.10",
     include_package_data=True,
     package_data={
         "htmleval": ["html/*.html", "js/*.js", "js/*/*.js", "json/*"],

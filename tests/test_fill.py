@@ -38,7 +38,7 @@ class FakeClient:
     def __init__(self, answer_fn):
         self.answer_fn = answer_fn; self.calls = []
 
-    async def ask(self, system, user, schema, tags=None):
+    async def ask(self, system, user, schema, tags=None, timeout=None):
         self.calls.append((system, user))
         return self.answer_fn(user)
 
@@ -81,8 +81,8 @@ class Slicing(unittest.TestCase):
 
 class Parsing(unittest.TestCase):
     def test_values_labels_and_repaired_ids(self):
-        rows = [{"row_id": "12_action_9_categorized", "question_id": "q", "key": "k9", "options": {"yes": "Yes", "no_neither": "No — neither"}},
-                {"row_id": "12_action_1_categorized", "question_id": "q", "key": "k1", "options": {"yes": "Yes", "no_neither": "No — neither"}}]
+        rows = [{"pid": "12_action_9_categorized", "row_id": "12_action_9_categorized", "question_id": "q", "key": "k9", "options": {"yes": "Yes", "no_neither": "No — neither"}},
+                {"pid": "12_action_1_categorized", "row_id": "12_action_1_categorized", "question_id": "q", "key": "k1", "options": {"yes": "Yes", "no_neither": "No — neither"}}]
         raw = {"answers": [{"row_id": "12_action_9_categorated", "value": "YES", "reason": "a"},
                            {"row_id": "12_action_1_categorized", "value": "no — neither", "reason": "b"},
                            {"row_id": "nope", "value": "yes", "reason": "c"},
@@ -91,6 +91,14 @@ class Parsing(unittest.TestCase):
         self.assertEqual(variables, {"k9": "yes", "k1": "no_neither"})
         self.assertEqual(reasons, {"12_action_9_categorized": "a", "12_action_1_categorized": "b"})
         self.assertEqual([why for _, why in rejected], ["repaired to 12_action_9_categorized", "unknown row_id", "value 'maybe' not an option"])
+
+    def test_two_questions_on_one_row_are_answered_separately(self):
+        rows = [{"pid": "arg1#present", "row_id": "arg1", "question_id": "present", "key": "kp", "options": {"yes": "Yes", "no": "No"}},
+                {"pid": "arg1#valid", "row_id": "arg1", "question_id": "valid", "key": "kv", "options": {"yes": "Yes", "no": "No"}}]
+        raw = {"answers": [{"row_id": "arg1#present", "value": "yes", "reason": "a"}, {"row_id": "arg1#valid", "value": "no", "reason": "b"}]}
+        variables, reasons, rejected = F.parse_answers(raw, rows)
+        self.assertEqual((variables, rejected), ({"kp": "yes", "kv": "no"}, []))
+        self.assertEqual(reasons, {"arg1#present": "a", "arg1#valid": "b"})
 
     def test_timestamp_key_and_blob(self):
         self.assertEqual(F.timestamp_key('["r","q"]'), '["r","timestamp"]')
@@ -135,6 +143,35 @@ class EndToEnd(unittest.TestCase):
         self.assertTrue(os.path.exists(os.path.join(self.dir, "fill_log_fake.txt")))
         self.assertFalse(os.path.exists(os.path.join(self.dir, "reviewer_ids.json")))     # no upload, no registration
         self.assertIn("a test form", client.calls[0][0])                                   # the page's task in the system text
+
+    def test_refuses_duplicate_unit_labels_and_duplicate_keys(self):
+        root = Tabs(model={"page": {"format": "htmleval-model/1"}})
+        for i in range(2):
+            unit = Column(model={"unit": "Item", "text": ["M"]})
+            q = MultiRowSelect(rowLabels=["Q"], questions=[MultiRowSelectQuestion("Fine?", id={1: "fine"}, options=YN)])
+            q.add_row(["r"], id={0: f"r{i}"})
+            unit.add_column([q]); root.add_tab(f"Item {i}", unit)
+        with self.assertRaisesRegex(ValueError, "unit labels"):
+            F.model_calls(ReviewJSON(root).get_json())
+        root = Tabs(model={"page": {"format": "htmleval-model/1"}})
+        unit = Column(model={"unit": "Item", "text": ["M"]})
+        q = MultiRowSelect(rowLabels=["Q"], questions=[MultiRowSelectQuestion("Fine?", id={1: "fine"}, options=YN)])
+        q.add_row(["r"], id={0: "same"}); q.add_row(["r"], id={0: "same"})
+        unit.add_column([q]); root.add_tab("Item", unit)
+        with self.assertRaisesRegex(ValueError, "duplicate"):
+            F.model_calls(ReviewJSON(root).get_json())
+
+    def test_a_unit_without_questions_is_skipped(self):
+        root = Tabs(model={"page": {"format": "htmleval-model/1"}})
+        empty = Column(model={"unit": "Empty", "text": ["nothing to ask"]})
+        root.add_tab("Empty", empty)
+        unit = Column(model={"unit": "Item", "text": ["M"]})
+        q = MultiRowSelect(rowLabels=["Q"], questions=[MultiRowSelectQuestion("Fine?", id={1: "fine"}, options=YN)])
+        q.add_row(["r"], id={0: "r0"}); unit.add_column([q]); root.add_tab("Item", unit)
+        import contextlib, io
+        with contextlib.redirect_stdout(io.StringIO()):
+            _system, units, calls = F.model_calls(ReviewJSON(root).get_json())
+        self.assertEqual(([lab for lab, _ in units], len(calls)), (["Item"], 1))
 
     def test_refuses_a_page_without_model_metadata(self):
         with open(os.path.join(self.dir, "plain.json"), "w", encoding="utf-8") as f:

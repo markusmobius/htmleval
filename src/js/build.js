@@ -87,10 +87,11 @@ window.htmleval = {
         if (!data.variables) data.variables = {};
         if (value === undefined || value === null || value === "") {
             data.variables[key] = null;
+            clearFieldTimestamp(key);
         } else {
             data.variables[key] = String(value);
+            recordFieldTimestamp(key);
         }
-        recordFieldTimestamp(key);
         saveSurvey();
         return true;
     },

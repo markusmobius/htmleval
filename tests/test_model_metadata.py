@@ -123,6 +123,7 @@ class Checks(unittest.TestCase):
     def test_html_to_text(self):
         self.assertEqual(html_to_text('<p>One &amp; <b>two</b></p><script>x()</script><p>Three<br>four</p>'),
                          "One & two\nThree\nfour")
+        self.assertEqual(html_to_text("rates < 2% and inflation > 5% <b>mattered</b>"), "rates < 2% and inflation > 5% mattered")
 
 
 if __name__ == "__main__":

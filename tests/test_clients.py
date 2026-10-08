@@ -46,6 +46,43 @@ class LlmClientPool(unittest.TestCase):
         self.assertEqual(len(created), 6)
 
 
+class LlmClientCancel(unittest.TestCase):
+    def test_a_timed_out_client_is_dropped_and_its_slot_reconnected(self):
+        """A request cut off by the timeout may still get its reply; that client must never serve the next call."""
+        import types
+        from src.modelReview.clients import LlmClientAdapter
+        created, served = [], []
+
+        class SlowClient:
+            def __init__(self, n): self.n = n
+            async def Ask(self, chat, tags=None):
+                served.append(self.n)
+                if self.n == 0:
+                    await asyncio.sleep(10)                   # the first client hangs
+                return types.SimpleNamespace(answer=types.SimpleNamespace(ChatAnswer='{"answers": []}'))
+
+        class Factory:
+            async def create_client(self):
+                created.append(len(created)); return SlowClient(len(created) - 1)
+
+        class FakeChat:
+            def __init__(self, responseSchema=None, model=None): pass
+            def AddSystemMessage(self, s): pass
+            def AddUserMessage(self, u): pass
+
+        a = LlmClientAdapter.__new__(LlmClientAdapter)
+        a._factory, a._Chat, a.model, a.workers, a._pool, a._lock = Factory, FakeChat, "m", 1, None, asyncio.Lock()
+
+        async def run():
+            with self.assertRaises(asyncio.TimeoutError):
+                await a.ask("s", "u", SCHEMA, timeout=0.01)
+            return await a.ask("s", "u2", SCHEMA, timeout=1)
+        out = asyncio.run(run())
+        self.assertEqual(out, {"answers": []})
+        self.assertEqual(created, [0, 1])                     # the hung client was replaced, not recycled
+        self.assertEqual(served, [0, 1])
+
+
 class OpenAI(unittest.TestCase):
     def test_request_shape_and_reply_parsing(self):
         sent = {}

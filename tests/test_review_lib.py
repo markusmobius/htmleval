@@ -77,6 +77,7 @@ class ClonedPage(unittest.TestCase):
         self.assertIn('var reviewerID = "id-a";', html)
         self.assertIn('<dd class="col-sm-2">astra</dd>', html)
         self.assertNotIn('"id-h"', html)
+        self.assertEqual(Review.page_block(dst), json.loads(block))
         shutil.rmtree(d)
 
 
