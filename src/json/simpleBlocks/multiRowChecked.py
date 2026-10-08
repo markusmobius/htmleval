@@ -2,7 +2,7 @@ from .multiRowOption import MultiRowOption
 
 class MultiRowChecked:
 
-    def __init__(self, rowLabel: str, id: dict, options: list[MultiRowOption], signal: str = None, listeners: list[str] = None, highlight = False, correctValue: str = None):
+    def __init__(self, rowLabel: str, id: dict, options: list[MultiRowOption], signal: str = None, listeners: list[str] = None, highlight = False, correctValue: str = None, model: dict = None):
         self.type = "multi_row_checked"
         self.signal = signal
         self.listeners = listeners if listeners is not None else []
@@ -15,8 +15,10 @@ class MultiRowChecked:
         }
         if correctValue is not None:
             self.content["correctValue"] = correctValue
+        if model is not None:
+            self.model = model
 
-    def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None, correctValues: dict = None, rowData: dict = None):
+    def add_row(self, id: dict, text: str, options: list[MultiRowOption] = None, highlight: str = None, correctValues: dict = None, rowData: dict = None, model: dict = None):
         row = {
             "id": id,
             "text": text
@@ -25,4 +27,6 @@ class MultiRowChecked:
             row["correctValues"] = correctValues
         if rowData is not None:
             row["rowData"] = rowData
+        if model is not None:
+            row["model"] = model
         self.content["rows"].append(row)

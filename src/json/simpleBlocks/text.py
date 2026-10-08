@@ -1,6 +1,6 @@
 class Text:
 
-    def __init__(self, title: str =None,titleSize: int = None, body: list[str] = None, verticalHeight : int = None,is_table : bool = False, signal: str = None, listeners: list[str] = None, highlight = False):
+    def __init__(self, title: str =None,titleSize: int = None, body: list[str] = None, verticalHeight : int = None,is_table : bool = False, signal: str = None, listeners: list[str] = None, highlight = False, model: dict = None):
         self.type="text"
         self.signal = signal
         self.listeners = listeners if listeners is not None else []
@@ -23,4 +23,6 @@ class Text:
                     "is_table" : is_table,
                     "text": body
                 }
+        if model is not None:
+            self.model = model
     

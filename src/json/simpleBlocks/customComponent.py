@@ -17,7 +17,7 @@ class CustomComponent:
 
     def __init__(self, html: str, title: str = None, titleSize: int = None,
                  zoomable: bool = False, signal: str = None,
-                 listeners: list = None, highlight: bool = False):
+                 listeners: list = None, highlight: bool = False, model: dict = None):
         self.type = "custom_component"
         self.signal = signal
         self.listeners = listeners if listeners is not None else []
@@ -31,3 +31,5 @@ class CustomComponent:
                 "text": title,
                 "size": titleSize,
             }
+        if model is not None:
+            self.model = model

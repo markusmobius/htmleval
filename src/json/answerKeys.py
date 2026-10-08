@@ -28,40 +28,11 @@ def variable_key(row_id, question_id):
     return json.dumps(full, separators=(",", ":"), ensure_ascii=False)
 
 
-def _first(id_dict):
-    if isinstance(id_dict, dict):
-        return next(iter(id_dict.values()), "")
-    return id_dict
-
-
 def page_keys(block_json):
     """Every question of a block tree (the JSON ``ReviewJSON.get_json()`` returns, or the parsed dict), in page
     order: [{"row_id", "question_id", "key", "row_data"}]. Covers MultiRowSelect and MultiRowChecked blocks
-    anywhere in the tree, including inside threads and clickable (Interactive) spans."""
-    block = json.loads(block_json) if isinstance(block_json, str) else block_json
-    out = []
-
-    def walk(node):
-        if isinstance(node, list):
-            for x in node:
-                walk(x)
-            return
-        if not isinstance(node, dict):
-            return
-        t = node.get("type")
-        content = node.get("content")
-        if t in ("multi_row_select", "multi_row_checked") and isinstance(content, dict):
-            if t == "multi_row_select":
-                questions = [q.get("id") for q in content.get("questions") or []]
-            else:
-                questions = [content.get("id")]
-            for r in content.get("rows") or []:
-                for qid in questions:
-                    out.append({"row_id": _first(r.get("id")), "question_id": _first(qid),
-                                "key": variable_key(r.get("id"), qid), "row_data": r.get("rowData") or {}})
-            return
-        for v in node.values():
-            walk(v)
-
-    walk(block)
-    return out
+    anywhere in the tree, including inside threads and clickable (Interactive) spans, and the answers a custom
+    component declares in its ``model.questions`` (see ``htmleval.json.model``)."""
+    from .model import page_questions
+    return [{"row_id": q["row_id"], "question_id": q["question_id"], "key": q["key"], "row_data": q["row_data"]}
+            for q in page_questions(block_json)]
