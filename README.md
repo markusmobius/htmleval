@@ -15,6 +15,7 @@ It enables the creation of **simple and complex survey layouts**, allowing users
 - **Custom components** for mounting bespoke HTML/SVG visualizations.
 - **Review aggregation & summarization** — close reviews, compute majority votes
   and error rates, and generate a read-only summary reviewer.
+- **Model reviewers** — a language model fills a page like a person, from metadata the page carries.
 
 ## Installation
 
@@ -31,6 +32,7 @@ pip install git+https://github.com/markusmobius/htmleval
 - **[Signals & Listeners](docs/signals.md)**: How blocks emit and react to signals at runtime.
 - **[Custom Elements](docs/custom_elements.md)**: How to add your own Web Components (custom elements) and inject their JS with `addCustomElement`.
 - **Answer keys** (`htmleval.json.answerKeys`): `variable_key` gives the key a page saves an answer under; `page_keys` lists every question of a block tree with its key. Use them to write answers for a page outside the browser so they aggregate like a reviewer's.
+- **[Model review](docs/model_review.md)**: let a language model fill any page as one more reviewer. Blocks carry a small `model` metadata dict; `htmleval.modelReview.fill` renders the prompts, asks the model (the in-house LlmClient or any OpenAI-compatible API) and stores the answers in the reviewer's format.
 
 ## Getting Started
 

@@ -46,6 +46,10 @@ A custom element interacts with the evaluation **only** through the global
 | `window.htmleval.emit(signal)` | **Send** a signal (e.g. when the user clicks part of your component). |
 | `window.htmleval.subscribe(handler)` | **Receive** signals: `handler(activeSignal)` is called on every emit (and after each answer save). Returns an unsubscribe function. |
 | `window.htmleval.isAnswered(key)` | Returns `true` if the answer stored under `key` is filled — use it to reflect completion. |
+| `window.htmleval.setAnswer(key, value)` | **Store** an answer exactly as the built-in question blocks do (variable, timestamp, save). `key` is `JSON.stringify([row_id, question_id])`; a `null` or empty value clears the answer. Returns `false` before the survey data is loaded. |
+| `window.htmleval.getAnswer(key)` | The stored answer under `key`, or `null`. |
+
+An element that stores answers should also declare them on its host block (`CustomComponent(..., model={"questions": [...]})`, see [Model review](model_review.md)) so `page_keys` and a model reviewer can see them.
 
 This is the whole contract. Anything else (rendering, layout, styling) is up to
 you. Because the built-in blocks emit/listen on the same bus, your element

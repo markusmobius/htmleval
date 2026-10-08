@@ -19,8 +19,9 @@ What the metadata says, per level:
   question         question   default wording for every row of that question (MultiRowSelectQuestion / MultiRowChecked)
   custom component questions  answers a custom element writes itself, declared so the model can give them:
                               [{row_id, question_id, question, options: [[value, label], ...], about?, options_text?}]
-  root block       page       {"format": "htmleval-model/1", "task": str, "preamble": str}; a page is model-ready
-                              exactly when its root carries this
+  root block       page       {"format": "htmleval-model/1", "task": str, "preamble": str, "title": str}; a page is
+                              model-ready exactly when its root carries this (task: what the form is about, for the
+                              system message; preamble: replaces the generic one; title: of the model's review page)
 
 The policy for anything not listed: ``rowData`` and ``correctValue(s)`` are never shown to the model.
 """
