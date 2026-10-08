@@ -12,6 +12,40 @@ from src.modelReview.clients import OpenAIAdapter, make_client  # noqa: E402
 from src.modelReview.fill import SCHEMA  # noqa: E402
 
 
+class LlmClientPool(unittest.TestCase):
+    def test_concurrent_first_asks_build_one_pool(self):
+        """20 asks arriving at once must open `workers` connections, not 20 x workers."""
+        import types
+        from src.modelReview.clients import LlmClientAdapter
+        created = []
+
+        class FakeClient:
+            async def Ask(self, chat, tags=None):
+                await asyncio.sleep(0)
+                return types.SimpleNamespace(answer=types.SimpleNamespace(ChatAnswer='{"answers": []}'))
+
+        class FakeFactory:
+            async def create_client(self):
+                await asyncio.sleep(0)          # yield, so the other asks get their chance to race
+                created.append(1)
+                return FakeClient()
+
+        class FakeChat:
+            def __init__(self, responseSchema=None, model=None): pass
+            def AddSystemMessage(self, s): pass
+            def AddUserMessage(self, u): pass
+
+        adapter = LlmClientAdapter.__new__(LlmClientAdapter)
+        adapter._factory, adapter._Chat = FakeFactory, FakeChat
+        adapter.model, adapter.workers, adapter._pool, adapter._lock = "m", 6, None, asyncio.Lock()
+
+        async def run():
+            return await asyncio.gather(*(adapter.ask("s", f"u{i}", SCHEMA) for i in range(20)))
+        out = asyncio.run(run())
+        self.assertEqual(len(out), 20)
+        self.assertEqual(len(created), 6)
+
+
 class OpenAI(unittest.TestCase):
     def test_request_shape_and_reply_parsing(self):
         sent = {}

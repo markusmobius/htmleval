@@ -33,13 +33,18 @@ class LlmClientAdapter:
         self.model = model
         self.workers = max(1, workers)
         self._pool = None
+        self._lock = asyncio.Lock()
 
     async def _pool_ready(self):
+        # Built once, under a lock: the first asks arrive concurrently, and without the lock each of them would
+        # open its own set of connections (the server caps them, and every call then fails to connect).
         if self._pool is None:
-            pool = asyncio.Queue()
-            for _ in range(self.workers):
-                pool.put_nowait(await self._factory().create_client())
-            self._pool = pool
+            async with self._lock:
+                if self._pool is None:
+                    pool = asyncio.Queue()
+                    for _ in range(self.workers):
+                        pool.put_nowait(await self._factory().create_client())
+                    self._pool = pool
         return self._pool
 
     async def ask(self, system, user, schema, tags=None):
