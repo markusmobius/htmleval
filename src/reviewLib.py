@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import uuid
 import requests
 from typing import Dict, Any, Optional, Callable, List
@@ -29,7 +30,10 @@ class Review:
         self.serverURL = serverURL
 
     #create new review
-    def create(self, targetFolder : str, defaults : Dict[str, str], reviewers : list[str], reviewerIds : Dict[str, str]=None, readOnly : bool = False, metadata : Dict[str, Any] = None):
+    def create(self, targetFolder : str, defaults : Dict[str, str], reviewers : list[str], reviewerIds : Dict[str, str]=None, readOnly : bool = False, metadata : Dict[str, Any] = None, overwrite : Optional[bool] = None):
+        """Build review_<reviewer>.html for each reviewer in targetFolder (plus reviewer_ids.json / metadata.json).
+        ``overwrite``: what to do with a page that already exists -- None asks on the terminal (the historical
+        behaviour), True replaces it, False keeps it (a program that must never block on input passes one of these)."""
         # Path to the reviewer IDs file
         reviewerIdsDisk = os.path.join(targetFolder, "reviewer_ids.json")
 
@@ -55,11 +59,8 @@ class Review:
         for reviewer in reviewers: 
             htmlFileName=f"review_{reviewer}.html"
             htmlFileName = os.path.join(targetFolder,htmlFileName)
-            if os.path.exists(htmlFileName):
-                print(f"ignoring {htmlFileName}: already exists. Would you like to overwrite?")
-                overwrite = input("y/n: ")
-                if overwrite.lower() != "y":
-                    continue
+            if os.path.exists(htmlFileName) and not self._prompt_overwrite(htmlFileName, overwrite):
+                continue
     
             #read HTML template
             #Use module path, to run with pip install
@@ -70,28 +71,12 @@ class Review:
                 with open(os.path.join(".","src","html","template.html"), 'r') as f:
                     html = f.read()
             
-            #replace reviewer and evaltitle
-            html=html.replace("REVIEWERNAME",reviewer)
-            html=html.replace("EVALTITLE",self.evalTitle)
             if reviewer not in reviewerIds:
                 reviewerID = str(uuid.uuid4())
                 reviewerIds[reviewer] = reviewerID
                 reviewer_ids_changed = True
             else:
                 reviewerID = reviewerIds[reviewer]
-            html=html.replace("REVIEWERID",reviewerID)
-
-            #replace BLOCKDATA in template
-            html=html.replace("BLOCKDATA", self.block)
-
-            #replace DEFAULTS data in template
-            if defaults!=None:
-                html=html.replace("DEFAULTS", json.dumps(defaults))            
-            else:
-                html=html.replace("DEFAULTS", "{}")
-
-            #replace READONLY flag
-            html=html.replace("READONLY", "true" if readOnly else "false")
 
             #include all javascript
             js=[]
@@ -136,9 +121,19 @@ class Review:
             for _ce_name, _ce_code in _CUSTOM_ELEMENTS.items():
                 js.append("// custom element: " + _ce_name + "\n" + _ce_code)
 
-            #insert the JS scripts
-            html=html.replace("BUILDJS", '\n'.join(js))            
-            html=html.replace("SERVERURL",self.serverURL)
+            #fill the template in ONE pass over its placeholders, so a token's spelling inside the block JSON
+            #(page text, model metadata) or the defaults is never replaced. The JS keeps its own SERVERURL placeholder.
+            values = {
+                "REVIEWERNAME": reviewer,
+                "EVALTITLE": self.evalTitle,
+                "REVIEWERID": reviewerID,
+                "BLOCKDATA": self.block,
+                "DEFAULTS": json.dumps(defaults) if defaults is not None else "{}",
+                "READONLY": "true" if readOnly else "false",
+                "BUILDJS": '\n'.join(js).replace("SERVERURL", self.serverURL),
+                "SERVERURL": self.serverURL,
+            }
+            html = re.sub("|".join(values), lambda m: values[m.group(0)], html)
 
             #save the HTML file
             with open(htmlFileName, 'w') as f:
@@ -160,6 +155,36 @@ class Review:
             metadata_path = os.path.join(targetFolder, "metadata.json")
             with open(metadata_path, "w") as f:
                 json.dump(metadata, f, indent=4)
+
+    def register_reviewer(self, targetFolder: str, reviewer: str) -> str:
+        """The reviewer's uuid from targetFolder/reviewer_ids.json, created and saved when the name is new.
+        An existing id is never changed (it is the key the reviewer's answers live under on the server)."""
+        path = os.path.join(targetFolder, "reviewer_ids.json")
+        ids = {}
+        if os.path.exists(path):
+            with open(path, "r") as f:
+                ids = json.load(f)
+        if reviewer not in ids:
+            ids[reviewer] = str(uuid.uuid4())
+            os.makedirs(targetFolder, exist_ok=True)
+            with open(path, "w") as f:
+                json.dump(ids, f, indent=4)
+        return ids[reviewer]
+
+    def upload(self, targetFolder: str, reviewer: str, blob: Dict[str, Any]) -> str:
+        """Store ``blob`` as the reviewer's answers on the review server, exactly as the page saves them:
+        PUT to serverURL/<reviewer uuid>, then read it back and check the variables round-tripped. ``blob`` is the
+        page's save format {"active": {}, "variables": {key: value}, "timestamps": {...}} (see ``answer_blob``).
+        Returns the URL. The reviewer is registered in reviewer_ids.json when new."""
+        reviewer_id = self.register_reviewer(targetFolder, reviewer)
+        url = self.serverURL.rstrip("/") + "/" + reviewer_id
+        r = requests.put(url, data=json.dumps(blob), headers={"Content-type": "text"}, timeout=60)
+        r.raise_for_status()
+        back = requests.get(url, timeout=60)
+        back.raise_for_status()
+        if back.json().get("variables") != blob.get("variables"):
+            raise RuntimeError(f"{url}: the stored variables do not match what was uploaded")
+        return url
 
     def close_eval(self, targetFolder : str, reviewers: Optional[List[str]] = None):
         # Path to the reviewer IDs file
@@ -444,14 +469,17 @@ class Review:
                 js_native.add(canon)
         return canonical
 
-    def _prompt_overwrite(self, path):
-        """If path exists, prompt for overwrite. Returns True if ok to write."""
-        if os.path.exists(path):
+    def _prompt_overwrite(self, path, overwrite: Optional[bool] = None):
+        """Whether ``path`` may be written: True when it does not exist; otherwise ``overwrite`` decides, and None
+        asks on the terminal."""
+        if not os.path.exists(path):
+            return True
+        if overwrite is None:
             print(f"ignoring {path}: already exists. Would you like to overwrite?")
             return input("y/n: ").lower() == "y"
-        return True
+        return bool(overwrite)
 
-    def generate_summary(self, targetFolder: str, group_by: Optional[List[str]] = None, id_parser: Optional[Callable] = None, reviewers: Optional[List[str]] = None, row_filter: Optional[Callable] = None):
+    def generate_summary(self, targetFolder: str, group_by: Optional[List[str]] = None, id_parser: Optional[Callable] = None, reviewers: Optional[List[str]] = None, row_filter: Optional[Callable] = None, overwrite: Optional[bool] = None):
         """Generate a read-only summary reviewer HTML with majority-vote defaults.
         
         Args:
@@ -465,6 +493,8 @@ class Review:
                        When None, all reviewers with closed data are included.
             row_filter: optional function(row_id_string) -> bool. Return False to
                         exclude that row from the summary entirely.
+            overwrite: what to do with an existing review_summary.html / summary.json:
+                       None asks on the terminal, True replaces, False keeps.
         
         Metadata is loaded from metadata.json (saved by create()).
         """
@@ -646,11 +676,11 @@ class Review:
 
         # Create read-only summary HTML
         summary_review = Review(block=json.dumps(block_data), evalTitle=self.evalTitle + " (Summary)", serverURL=self.serverURL)
-        summary_review.create(targetFolder=targetFolder, defaults=aggregated["majority_votes"], reviewers=["summary"], reviewerIds={"summary": str(uuid.uuid4())}, readOnly=True)
+        summary_review.create(targetFolder=targetFolder, defaults=aggregated["majority_votes"], reviewers=["summary"], reviewerIds={"summary": str(uuid.uuid4())}, readOnly=True, overwrite=overwrite)
 
         # Save aggregated data
         summary_json_path = os.path.join(targetFolder, "summary.json")
-        if self._prompt_overwrite(summary_json_path):
+        if self._prompt_overwrite(summary_json_path, overwrite):
             with open(summary_json_path, "w") as f:
                 json.dump(aggregated, f, indent=4, default=str)
 

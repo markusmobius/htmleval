@@ -77,6 +77,27 @@ window.htmleval = {
     isAnswered: function (key) {
         return !!(typeof data !== "undefined" && data && data.variables &&
             data.variables[key] !== undefined && data.variables[key] !== null && data.variables[key] !== "");
+    },
+    // Answers written by a custom element, stored exactly as the built-in question blocks store theirs:
+    // data.variables[key] = value (key = the JSON.stringify'd [row_id, question_id] array, see answerKeys.py),
+    // a per-field timestamp, then a save. A null/empty value clears the answer (the key stays, set to null).
+    // Returns false when the survey data is not loaded yet.
+    setAnswer: function (key, value) {
+        if (typeof data === "undefined" || !data) return false;
+        if (!data.variables) data.variables = {};
+        if (value === undefined || value === null || value === "") {
+            data.variables[key] = null;
+        } else {
+            data.variables[key] = String(value);
+        }
+        recordFieldTimestamp(key);
+        saveSurvey();
+        return true;
+    },
+    getAnswer: function (key) {
+        if (typeof data === "undefined" || !data || !data.variables) return null;
+        var v = data.variables[key];
+        return (v === undefined || v === null || v === "") ? null : String(v);
     }
 };
 
