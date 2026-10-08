@@ -28,6 +28,7 @@ import argparse
 import asyncio
 import datetime
 import difflib
+import glob
 import json
 import os
 import sys
@@ -283,8 +284,16 @@ async def fill(eval_dir, reviewer, client, *, page="eval.json", task=None, repli
         server = server_url or os.getenv("HTMLEVAL_SERVER_URL", DEFAULT_SERVER)
         review = Review(block=block_json, evalTitle=title, serverURL=server)
         reviewer_id = review.register_reviewer(eval_dir, reviewer)
-        review.create(targetFolder=eval_dir, defaults=None, reviewers=[reviewer], reviewerIds={reviewer: reviewer_id},
-                      overwrite=False)
+        page_path = os.path.join(eval_dir, f"review_{reviewer}.html")
+        others = sorted(p for p in glob.glob(os.path.join(eval_dir, "review_*.html"))
+                        if os.path.basename(p) not in (f"review_{reviewer}.html", "review_summary.html"))
+        if not os.path.exists(page_path):
+            if others:
+                # the model's page is the people's page with the reviewer swapped (keeps their custom-element JS)
+                Review.clone_reviewer_page(others[0], page_path, reviewer, reviewer_id)
+            else:
+                review.create(targetFolder=eval_dir, defaults=None, reviewers=[reviewer],
+                              reviewerIds={reviewer: reviewer_id}, overwrite=False)
         url = review.upload(eval_dir, reviewer, blob)
         print(f"uploaded and verified: {url}")
         print(f"page: {os.path.join(eval_dir, f'review_{reviewer}.html')}")

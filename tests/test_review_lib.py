@@ -59,6 +59,27 @@ class TemplateFill(unittest.TestCase):
         self.assertEqual(json.load(open(os.path.join(self.dir, "reviewer_ids.json"))), {"r1": "id-1"})
 
 
+class ClonedPage(unittest.TestCase):
+    def test_a_cloned_page_keeps_the_custom_element_js_and_swaps_the_reviewer(self):
+        import tempfile
+        from src.reviewLib import addCustomElement, _CUSTOM_ELEMENTS
+        d = tempfile.mkdtemp()
+        try:
+            addCustomElement("x-probe", "customElements.define('x-probe', class extends HTMLElement {});")
+            block = ReviewJSON(Text(body=["<x-probe></x-probe>"])).get_json()
+            Review(block=block, evalTitle="T", serverURL=SERVER).create(targetFolder=d, defaults=None, reviewers=["henry"], reviewerIds={"henry": "id-h"})
+        finally:
+            _CUSTOM_ELEMENTS.pop("x-probe", None)
+        src = os.path.join(d, "review_henry.html"); dst = os.path.join(d, "review_astra.html")
+        Review.clone_reviewer_page(src, dst, "astra", "id-a")
+        html = open(dst, encoding="utf-8").read()
+        self.assertIn("customElements.define('x-probe'", html)
+        self.assertIn('var reviewerID = "id-a";', html)
+        self.assertIn('<dd class="col-sm-2">astra</dd>', html)
+        self.assertNotIn('"id-h"', html)
+        shutil.rmtree(d)
+
+
 class Reviewers(unittest.TestCase):
     def setUp(self):
         self.dir = tempfile.mkdtemp()

@@ -171,6 +171,25 @@ class Review:
                 json.dump(ids, f, indent=4)
         return ids[reviewer]
 
+    @staticmethod
+    def clone_reviewer_page(source_html: str, target_html: str, reviewer: str, reviewer_id: str) -> str:
+        """A reviewer page for ``reviewer`` made from an existing reviewer's page in the same folder: the same bytes
+        with the reviewer name and uuid swapped. The page a program-filled reviewer gets is then exactly the page the
+        people got -- including any custom-element JavaScript that was registered when THEIR pages were built,
+        which a fresh create() in another process would not carry."""
+        with open(source_html, "r", encoding="utf-8") as f:
+            html = f.read()
+        m = re.search(r'var reviewerID = "([^"]*)";', html)
+        if m is None:
+            raise ValueError(f"{source_html}: no reviewerID line; not a page this library built")
+        html = html.replace(m.group(0), f'var reviewerID = "{reviewer_id}";', 1)
+        n = re.search(r'<dd class="col-sm-2">([^<]*)</dd>', html)
+        if n is not None:
+            html = html.replace(n.group(0), f'<dd class="col-sm-2">{reviewer}</dd>', 1)
+        with open(target_html, "w", encoding="utf-8") as f:
+            f.write(html)
+        return target_html
+
     def upload(self, targetFolder: str, reviewer: str, blob: Dict[str, Any]) -> str:
         """Store ``blob`` as the reviewer's answers on the review server, exactly as the page saves them:
         PUT to serverURL/<reviewer uuid>, then read it back and check the variables round-tripped. ``blob`` is the
